@@ -10,8 +10,8 @@ response = requests.post(
     url,
     data={
         "chat_id": CHAT_ID,
-        "text": "✅ GitHub Actions Telegram test mesajı"
-    },
+       if __name__ == "__main__":
+    scan()
     timeout=30
 )
 
