@@ -8,8 +8,9 @@ TOKEN = os.environ["TELEGRAM_TOKEN"]
 CHAT_ID = os.environ["TELEGRAM_CHAT_ID"]
 
 BIST_LIST = [
-    "ASELS.IS", "THYAO.IS", "KCHOL.IS", "GARAN.IS", "AKBNK.IS",
-    "SISE.IS", "EREGL.IS", "BIMAS.IS", "TUPRS.IS"
+    "ASELS.IS", "THYAO.IS", "KCHOL.IS",
+    "GARAN.IS", "AKBNK.IS", "SISE.IS",
+    "EREGL.IS", "BIMAS.IS", "TUPRS.IS"
 ]
 
 TR_TZ = timezone(timedelta(hours=3))
@@ -21,13 +22,21 @@ def rsi(series, period=14):
     rs = gain / loss
     return 100 - (100 / (1 + rs))
 
+def atr(df, period=14):
+    high_low = df['High'] - df['Low']
+    high_close = abs(df['High'] - df['Close'].shift())
+    low_close = abs(df['Low'] - df['Close'].shift())
+    ranges = pd.concat([high_low, high_close, low_close], axis=1)
+    true_range = ranges.max(axis=1)
+    return true_range.rolling(period).mean()
+
 def add_indicators(df):
-    df = df.copy()
-    df["EMA20"] = df["Close"].ewm(span=20, adjust=False).mean()
-    df["EMA50"] = df["Close"].ewm(span=50, adjust=False).mean()
-    df["RSI"] = rsi(df["Close"], 14)
-    df["VOL_AVG20"] = df["Volume"].rolling(20).mean()
-    df["VOL_RATIO"] = df["Volume"] / df["VOL_AVG20"]
+    df["EMA20"] = df["Close"].ewm(span=20).mean()
+    df["EMA50"] = df["Close"].ewm(span=50).mean()
+    df["RSI"] = rsi(df["Close"])
+    df["ATR"] = atr(df)
+    df["VOL_AVG"] = df["Volume"].rolling(20).mean()
+    df["VOL_RATIO"] = df["Volume"] / df["VOL_AVG"]
     return df
 
 def calc_score(row):
@@ -44,76 +53,70 @@ def is_bist_session_time():
     now = datetime.now(TR_TZ)
     if now.weekday() >= 5:
         return False
-    current_minutes = now.hour * 60 + now.minute
-    return 10 * 60 <= current_minutes < 18 * 60
+    return 10 <= now.hour < 18
 
-def send_telegram(message):
+def send(msg):
     url = f"https://api.telegram.org/bot{TOKEN}/sendMessage"
-    requests.post(
-        url,
-        data={"chat_id": CHAT_ID, "text": message},
-        timeout=30
-    )
+    requests.post(url, data={"chat_id": CHAT_ID, "text": msg})
 
 def scan():
     if not is_bist_session_time():
         return
 
-    new_signals = []
+    signals = []
 
     for symbol in BIST_LIST:
         try:
-            df = yf.download(
-                symbol,
-                period="45d",
-                interval="1h",
-                auto_adjust=False,
-                progress=False
-            )
-
-            if df.empty or len(df) < 80:
+            df = yf.download(symbol, period="45d", interval="1h", progress=False)
+            if df.empty or len(df) < 50:
                 continue
 
             df = add_indicators(df)
-
             prev = df.iloc[-2]
             curr = df.iloc[-1]
 
-            required_cols = ["EMA20", "EMA50", "RSI", "VOL_RATIO", "Close"]
-            if any(pd.isna(prev[col]) for col in required_cols):
-                continue
-            if any(pd.isna(curr[col]) for col in required_cols):
+            if pd.isna(curr["ATR"]):
                 continue
 
             prev_score = calc_score(prev)
             curr_score = calc_score(curr)
 
-            if prev_score < 45 and curr_score >= 45:
-                new_signals.append({
+            if prev_score < 50 and curr_score >= 50:
+
+                entry = curr["Close"]
+                atr_val = curr["ATR"]
+
+                stop = entry - atr_val * 1.5
+                target = entry + atr_val * 2.5
+
+                rr = (target - entry) / (entry - stop)
+
+                signals.append({
                     "symbol": symbol,
-                    "score": curr_score,
-                    "price": float(curr["Close"]),
-                    "rsi": float(curr["RSI"]),
-                    "vol_ratio": float(curr["VOL_RATIO"])
+                    "entry": entry,
+                    "stop": stop,
+                    "target": target,
+                    "rr": rr
                 })
 
-        except Exception:
+        except:
             continue
 
-    if not new_signals:
+    if not signals:
         return
 
-    new_signals = sorted(new_signals, key=lambda x: x["score"], reverse=True)
+    msg = f"📈 BIST PRO SİNYALLER ({datetime.now(TR_TZ).strftime('%H:%M')})\n\n"
 
-    lines = [f"📈 BIST Yeni Sinyaller ({datetime.now(TR_TZ).strftime('%H:%M')})", ""]
-    for item in new_signals[:5]:
-        lines.append(
-            f"{item['symbol']} | Skor: {item['score']} | "
-            f"Fiyat: {item['price']:.2f} | RSI: {item['rsi']:.1f} | "
-            f"Hacim: {item['vol_ratio']:.2f}"
+    for s in signals[:5]:
+        msg += (
+            f"{s['symbol']}\n"
+            f"Fiyat: {round(s['entry'],2)}\n"
+            f"STOP: {round(s['stop'],2)}\n"
+            f"HEDEF: {round(s['target'],2)}\n"
+            f"R/R: {round(s['rr'],2)}\n\n"
         )
 
-    send_telegram("\n".join(lines))
+    send(msg)
 
 if __name__ == "__main__":
     scan()
