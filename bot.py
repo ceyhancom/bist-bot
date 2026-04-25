@@ -30,7 +30,7 @@ def atr(df, period=14):
     true_range = ranges.max(axis=1)
     return true_range.rolling(period).mean()
 
-def add_indicators(df):
+def indicators(df):
     df["EMA20"] = df["Close"].ewm(span=20).mean()
     df["EMA50"] = df["Close"].ewm(span=50).mean()
     df["RSI"] = rsi(df["Close"])
@@ -39,17 +39,17 @@ def add_indicators(df):
     df["VOL_RATIO"] = df["Volume"] / df["VOL_AVG"]
     return df
 
-def calc_score(row):
-    score = 0
+def score(row):
+    s = 0
     if row["EMA20"] > row["EMA50"]:
-        score += 25
+        s += 25
     if row["RSI"] > 55:
-        score += 20
+        s += 20
     if row["VOL_RATIO"] > 1.2:
-        score += 15
-    return score
+        s += 15
+    return s
 
-def is_bist_session_time():
+def is_market_open():
     now = datetime.now(TR_TZ)
     if now.weekday() >= 5:
         return False
@@ -60,7 +60,7 @@ def send(msg):
     requests.post(url, data={"chat_id": CHAT_ID, "text": msg})
 
 def scan():
-    if not is_bist_session_time():
+    if not is_market_open():
         return
 
     signals = []
@@ -71,15 +71,15 @@ def scan():
             if df.empty or len(df) < 50:
                 continue
 
-            df = add_indicators(df)
+            df = indicators(df)
             prev = df.iloc[-2]
             curr = df.iloc[-1]
 
             if pd.isna(curr["ATR"]):
                 continue
 
-            prev_score = calc_score(prev)
-            curr_score = calc_score(curr)
+            prev_score = score(prev)
+            curr_score = score(curr)
 
             if prev_score < 50 and curr_score >= 50:
 
@@ -87,9 +87,14 @@ def scan():
                 atr_val = curr["ATR"]
 
                 stop = entry - atr_val * 1.5
-                target = entry + atr_val * 2.5
+                risk = entry - stop
+                target = entry + (risk * 2)
 
-                rr = (target - entry) / (entry - stop)
+                rr = (target - entry) / risk
+
+                # filtre: kötü risk/ödül olanları alma
+                if rr < 1.5:
+                    continue
 
                 signals.append({
                     "symbol": symbol,
@@ -105,12 +110,12 @@ def scan():
     if not signals:
         return
 
-    msg = f"📈 BIST PRO SİNYALLER ({datetime.now(TR_TZ).strftime('%H:%M')})\n\n"
+    msg = f"📈 BIST SİNYAL ({datetime.now(TR_TZ).strftime('%H:%M')})\n\n"
 
     for s in signals[:5]:
         msg += (
             f"{s['symbol']}\n"
-            f"Fiyat: {round(s['entry'],2)}\n"
+            f"Giriş: {round(s['entry'],2)}\n"
             f"STOP: {round(s['stop'],2)}\n"
             f"HEDEF: {round(s['target'],2)}\n"
             f"R/R: {round(s['rr'],2)}\n\n"
