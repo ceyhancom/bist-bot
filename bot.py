@@ -116,4 +116,4 @@ def scan():
     send_telegram("\n".join(lines))
 
 if __name__ == "__main__":
-    scan()
+    send_telegram("✅ BIST Bot test mesajı geldi. Sistem çalışıyor.")
