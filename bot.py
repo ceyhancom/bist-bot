@@ -91,7 +91,9 @@ def scan():
             checked_count += 1
 
             df = indicators(df)
-            prev = df.iloc[-2]
+                if not is_tradeable(df):
+                    continue
+                prev = df.iloc[-2]
             curr = df.iloc[-1]
 
             if pd.isna(curr["ATR"]):
@@ -153,3 +155,33 @@ def scan():
 
 if __name__ == "__main__":
     scan()
+
+def is_tradeable(df):
+    try:
+        # hacim filtresi
+        vol_avg = df["Volume"].rolling(20).mean().iloc[-1]
+        vol_now = df["Volume"].iloc[-1]
+
+        if vol_now < vol_avg:
+            return False
+
+        # volatilite filtresi
+        atr_val = df["ATR"].iloc[-1]
+        price = df["Close"].iloc[-1]
+
+        if atr_val / price < 0.01:  # %1 altı hareket yok say
+            return False
+
+        # fiyat hareketi filtresi
+        last_close = df["Close"].iloc[-1]
+        prev_close = df["Close"].iloc[-5]
+
+        change = (last_close - prev_close) / prev_close
+
+        if abs(change) < 0.02:  # %2 altında ise sıkıcı
+            return False
+
+        return True
+
+    except:
+        return False
