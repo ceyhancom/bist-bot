@@ -187,35 +187,42 @@ def scan():
             error_count += 1
             continue
 
+    
     if not signals:
-        send(
-            "✅ Tarama tamamlandı. Uygun sinyal bulunamadı.\n"
-            f"Toplam liste: {len(BIST_LIST)}\n"
-            f"Verisi alınan: {checked_count}\n"
-            f"Filtreyi geçen: {tradeable_count}\n"
-            f"Hata: {error_count}"
-        )
-        return
+    msg = "⚠️ Sinyal yok ama filtreyi geçen hisseler:\n\n"
 
-    signals = sorted(signals, key=lambda x: x["score"], reverse=True)
+    for symbol in BIST_LIST:
+        try:
+            df = yf.download(symbol, period="20d", interval="1d", progress=False)
 
-    msg = f"📈 BIST SİNYAL ({datetime.now(TR_TZ).strftime('%H:%M')})\n"
-    msg += f"Toplam sinyal: {len(signals)}\n"
-    msg += "En iyi 3 aday:\n\n"
+            if df.empty:
+                continue
 
-    for s in signals[:3]:
-        msg += (
-            f"{s['symbol']}\n"
-            f"Skor: {s['score']}\n"
-            f"RSI: {round(s['rsi'], 1)}\n"
-            f"Hacim Katsayısı: {round(s['vol_ratio'], 2)}\n"
-            f"Giriş: {round(s['entry'], 2)}\n"
-            f"STOP: {round(s['stop'], 2)}\n"
-            f"HEDEF: {round(s['target'], 2)}\n"
-            f"R/R: {round(s['rr'], 2)}\n\n"
-        )
+            df = clean_df(df)
+            df = indicators(df)
+
+            if is_tradeable(df):
+                curr = df.iloc[-1]
+
+                msg += (
+                    f"{symbol}\n"
+                    f"RSI: {round(curr['RSI'],1)}\n"
+                    f"Hacim: {round(curr['VOL_RATIO'],2)}\n\n"
+                )
+
+        except:
+            continue
+
+    msg += (
+        "------\n"
+        "📊 Özet:\n"
+        f"Toplam: {len(BIST_LIST)}\n"
+        f"Filtre geçen: {tradeable_count}\n"
+        f"Hata: {error_count}"
+    )
 
     send(msg)
+    return
 
 
 if __name__ == "__main__":
