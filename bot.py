@@ -26,7 +26,11 @@ TR_TZ = timezone(timedelta(hours=3))
 
 def send(msg):
     url = f"https://api.telegram.org/bot{TOKEN}/sendMessage"
-    requests.post(url, data={"chat_id": CHAT_ID, "text": msg}, timeout=30)
+    requests.post(
+        url,
+        data={"chat_id": CHAT_ID, "text": msg},
+        timeout=30
+    )
 
 
 def clean_df(df):
@@ -59,26 +63,9 @@ def indicators(df):
     df["ATR"] = atr(df)
     df["VOL_AVG"] = df["Volume"].rolling(20).mean()
     df["VOL_RATIO"] = df["Volume"] / df["VOL_AVG"]
+    df["HIGH_20"] = df["High"].rolling(20).max()
+    df["LOW_20"] = df["Low"].rolling(20).min()
     return df
-
-
-def is_tradeable(df):
-    try:
-        vol_avg = df["Volume"].rolling(20).mean().iloc[-1]
-        vol_now = df["Volume"].iloc[-1]
-        atr_val = df["ATR"].iloc[-1]
-        price = df["Close"].iloc[-1]
-        last_close = df["Close"].iloc[-1]
-        prev_close = df["Close"].iloc[-5]
-        change = (last_close - prev_close) / prev_close
-
-        return (
-            vol_now >= vol_avg
-            and atr_val / price >= 0.005
-            and abs(change) >= 0.01
-        )
-    except Exception:
-        return False
 
 
 def score(row):
@@ -89,7 +76,94 @@ def score(row):
         s += 20
     if row["VOL_RATIO"] > 1.2:
         s += 15
+    if row["Close"] > row["EMA20"]:
+        s += 10
+    if row["Close"] > row["EMA50"]:
+        s += 10
     return s
+
+
+def score_comment(s):
+    if s >= 70:
+        return "Çok güçlü"
+    if s >= 55:
+        return "Güçlü"
+    if s >= 40:
+        return "Orta"
+    return "Zayıf"
+
+
+def rsi_comment(r):
+    if r >= 75:
+        return "Aşırı alım, dikkat"
+    if r >= 60:
+        return "Güçlü momentum"
+    if r >= 45:
+        return "Normal"
+    if r >= 30:
+        return "Zayıf"
+    return "Aşırı satım"
+
+
+def vol_comment(v):
+    if v >= 2:
+        return "Çok yüksek hacim"
+    if v >= 1.3:
+        return "Yüksek hacim"
+    if v >= 1:
+        return "Normal üstü"
+    return "Zayıf hacim"
+
+
+def signal_label(curr, prev):
+    curr_score = score(curr)
+    prev_score = score(prev)
+
+    if curr_score >= 70 and curr["EMA20"] > curr["EMA50"] and curr["RSI"] > 55:
+        return "🟢 AL"
+
+    if curr_score >= 55 and prev_score < curr_score and curr["Close"] > curr["EMA20"]:
+        return "🟡 ERKEN GİRİŞ"
+
+    if curr["EMA20"] < curr["EMA50"] or curr["RSI"] < 40:
+        return "🔴 SAT / ZAYIFLAMA"
+
+    return "⚪ İZLE"
+
+
+def breakout_label(curr, prev):
+    if pd.isna(prev["HIGH_20"]) or pd.isna(prev["LOW_20"]):
+        return "Veri yetersiz"
+
+    if curr["Close"] > prev["HIGH_20"]:
+        return "📈 Yukarı trend kırılımı"
+
+    if curr["Close"] < prev["LOW_20"]:
+        return "📉 Aşağı trend kırılımı"
+
+    return "Kırılım yok"
+
+
+def is_tradeable(df):
+    try:
+        curr = df.iloc[-1]
+        prev5 = df.iloc[-5]
+
+        vol_avg = df["Volume"].rolling(20).mean().iloc[-1]
+        vol_now = curr["Volume"]
+
+        atr_val = curr["ATR"]
+        price = curr["Close"]
+
+        change = (curr["Close"] - prev5["Close"]) / prev5["Close"]
+
+        return (
+            vol_now >= vol_avg
+            and atr_val / price >= 0.005
+            and abs(change) >= 0.01
+        )
+    except Exception:
+        return False
 
 
 def is_market_open():
@@ -97,6 +171,56 @@ def is_market_open():
     if now.weekday() >= 5:
         return False
     return 10 <= now.hour < 18
+
+
+def analyze_symbol(symbol):
+    df = yf.download(
+        symbol,
+        period="60d",
+        interval="1h",
+        progress=False,
+        auto_adjust=False
+    )
+
+    if df.empty or len(df) < 50:
+        return None
+
+    df = clean_df(df)
+    df = indicators(df)
+
+    if not is_tradeable(df):
+        return None
+
+    prev = df.iloc[-2]
+    curr = df.iloc[-1]
+
+    curr_score = score(curr)
+    sig = signal_label(curr, prev)
+    brk = breakout_label(curr, prev)
+
+    entry = float(curr["Close"])
+    atr_val = float(curr["ATR"])
+
+    stop = entry - atr_val * 1.5
+    risk = entry - stop
+    target = entry + risk * 2
+
+    rr = 0
+    if risk > 0:
+        rr = (target - entry) / risk
+
+    return {
+        "symbol": symbol,
+        "price": entry,
+        "score": curr_score,
+        "rsi": float(curr["RSI"]),
+        "vol_ratio": float(curr["VOL_RATIO"]),
+        "signal": sig,
+        "breakout": brk,
+        "stop": stop,
+        "target": target,
+        "rr": rr
+    }
 
 
 def scan():
@@ -107,132 +231,49 @@ def scan():
         send("⏰ Piyasa kapalı. Tarama yapılmadı.")
         return
 
-    signals = []
-    tradeable_items = []
+    results = []
     checked_count = 0
-    tradeable_count = 0
     error_count = 0
 
     for symbol in BIST_LIST:
         try:
-            df = yf.download(
-                symbol,
-                period="45d",
-                interval="1h",
-                progress=False,
-                auto_adjust=False
-            )
-
-            if df.empty or len(df) < 50:
-                continue
-
-            df = clean_df(df)
+            result = analyze_symbol(symbol)
             checked_count += 1
-            df = indicators(df)
 
-            if not is_tradeable(df):
-                continue
-
-            tradeable_count += 1
-
-            prev = df.iloc[-2]
-            curr = df.iloc[-1]
-
-            curr_score = score(curr)
-            prev_score = score(prev)
-
-            tradeable_items.append({
-                "symbol": symbol,
-                "score": curr_score,
-                "rsi": float(curr["RSI"]),
-                "vol_ratio": float(curr["VOL_RATIO"]),
-                "price": float(curr["Close"])
-            })
-
-            if pd.isna(curr["ATR"]):
-                continue
-
-            if prev_score < 50 and curr_score >= 50:
-                entry = float(curr["Close"])
-                atr_val = float(curr["ATR"])
-
-                stop = entry - atr_val * 1.5
-                risk = entry - stop
-                target = entry + (risk * 2)
-
-                if risk <= 0:
-                    continue
-
-                rr = (target - entry) / risk
-
-                if rr < 1.5:
-                    continue
-
-                signals.append({
-                    "symbol": symbol,
-                    "entry": entry,
-                    "stop": stop,
-                    "target": target,
-                    "rr": rr,
-                    "score": curr_score,
-                    "rsi": float(curr["RSI"]),
-                    "vol_ratio": float(curr["VOL_RATIO"])
-                })
+            if result:
+                results.append(result)
 
         except Exception:
             error_count += 1
             continue
 
-    if not signals:
-        msg = "⚠️ Sinyal yok.\n\n"
-
-        if tradeable_items:
-            msg += "Filtreyi geçen hisseler:\n\n"
-            tradeable_items = sorted(
-                tradeable_items,
-                key=lambda x: x["score"],
-                reverse=True
-            )
-
-            for item in tradeable_items[:10]:
-                msg += (
-                    f"{item['symbol']}\n"
-                    f"Fiyat: {round(item['price'], 2)}\n"
-                    f"Skor: {item['score']}\n"
-                    f"RSI: {round(item['rsi'], 1)}\n"
-                    f"Hacim Katsayısı: {round(item['vol_ratio'], 2)}\n\n"
-                )
-        else:
-            msg += "Filtreyi geçen hisse yok.\n\n"
-
-        msg += (
-            "------\n"
-            "📊 Özet:\n"
+    if not results:
+        send(
+            "✅ Tarama tamamlandı. Uygun aday bulunamadı.\n"
             f"Toplam liste: {len(BIST_LIST)}\n"
-            f"Verisi alınan: {checked_count}\n"
-            f"Filtreyi geçen: {tradeable_count}\n"
+            f"Kontrol edilen: {checked_count}\n"
             f"Hata: {error_count}"
         )
-
-        send(msg)
         return
 
-    signals = sorted(signals, key=lambda x: x["score"], reverse=True)
+    results = sorted(results, key=lambda x: x["score"], reverse=True)
 
-    msg = f"📈 BIST SİNYAL ({datetime.now(TR_TZ).strftime('%H:%M')})\n"
-    msg += f"Toplam sinyal: {len(signals)}\n"
-    msg += "En iyi 3 aday:\n\n"
+    msg = f"📊 BIST ADAYLAR ({datetime.now(TR_TZ).strftime('%H:%M')})\n"
+    msg += f"Filtreyi geçen: {len(results)}\n"
+    msg += "En iyi adaylar:\n\n"
 
-    for s in signals[:3]:
+    for item in results[:5]:
         msg += (
-            f"{s['symbol']}\n"
-            f"Skor: {s['score']}\n"
-            f"RSI: {round(s['rsi'], 1)}\n"
-            f"Hacim Katsayısı: {round(s['vol_ratio'], 2)}\n"
-            f"Giriş: {round(s['entry'], 2)}\n"
-            f"STOP: {round(s['stop'], 2)}\n"
-            f"HEDEF: {round(s['target'], 2)}\n"
-            f"R/R: {round(s['rr'], 2)}\n\n"
+            f"{item['symbol']}\n"
+            f"Sinyal: {item['signal']}\n"
+            f"Kırılım: {item['breakout']}\n"
+            f"Fiyat: {round(item['price'], 2)}\n"
+            f"Skor: {item['score']} ({score_comment(item['score'])})\n"
+            f"RSI: {round(item['rsi'], 1)} ({rsi_comment(item['rsi'])})\n"
+            f"Hacim: {round(item['vol_ratio'], 2)} ({vol_comment(item['vol_ratio'])})\n"
+            f"STOP: {round(item['stop'], 2)}\n"
+            f"HEDEF: {round(item['target'], 2)}\n"
+            f"R/R: {round(item['rr'], 2)}\n\n"
         )
 
     send(msg)
