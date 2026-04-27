@@ -10,7 +10,10 @@ CHAT_ID = os.environ["TELEGRAM_CHAT_ID"]
 BIST_LIST = [
     "ASELS.IS", "THYAO.IS", "KCHOL.IS",
     "GARAN.IS", "AKBNK.IS", "SISE.IS",
-    "EREGL.IS", "BIMAS.IS", "TUPRS.IS"
+    "EREGL.IS", "BIMAS.IS", "TUPRS.IS",
+    "SAHOL.IS", "YKBNK.IS", "ISCTR.IS",
+    "ASTOR.IS", "KRDMD.IS", "PETKM.IS",
+    "FROTO.IS", "TOASO.IS", "GUBRF.IS"
 ]
 
 TR_TZ = timezone(timedelta(hours=3))
@@ -38,6 +41,32 @@ def indicators(df):
     df["VOL_AVG"] = df["Volume"].rolling(20).mean()
     df["VOL_RATIO"] = df["Volume"] / df["VOL_AVG"]
     return df
+
+def is_tradeable(df):
+    try:
+        vol_avg = df["Volume"].rolling(20).mean().iloc[-1]
+        vol_now = df["Volume"].iloc[-1]
+
+        if vol_now < vol_avg:
+            return False
+
+        atr_val = df["ATR"].iloc[-1]
+        price = df["Close"].iloc[-1]
+
+        if atr_val / price < 0.01:
+            return False
+
+        last_close = df["Close"].iloc[-1]
+        prev_close = df["Close"].iloc[-5]
+        change = (last_close - prev_close) / prev_close
+
+        if abs(change) < 0.02:
+            return False
+
+        return True
+
+    except Exception:
+        return False
 
 def score(row):
     s = 0
@@ -73,6 +102,7 @@ def scan():
 
     signals = []
     checked_count = 0
+    tradeable_count = 0
     error_count = 0
 
     for symbol in BIST_LIST:
@@ -89,11 +119,14 @@ def scan():
                 continue
 
             checked_count += 1
-
             df = indicators(df)
-                if not is_tradeable(df):
-                    continue
-                prev = df.iloc[-2]
+
+            if not is_tradeable(df):
+                continue
+
+            tradeable_count += 1
+
+            prev = df.iloc[-2]
             curr = df.iloc[-1]
 
             if pd.isna(curr["ATR"]):
@@ -134,8 +167,10 @@ def scan():
     if not signals:
         send(
             "✅ Tarama tamamlandı. Uygun sinyal bulunamadı.\n"
-            f"Taranan hisse: {checked_count}\n"
-            f"Hata/atlanan: {error_count}"
+            f"Toplam liste: {len(BIST_LIST)}\n"
+            f"Verisi alınan: {checked_count}\n"
+            f"Filtreyi geçen: {tradeable_count}\n"
+            f"Hata: {error_count}"
         )
         return
 
@@ -155,33 +190,3 @@ def scan():
 
 if __name__ == "__main__":
     scan()
-
-def is_tradeable(df):
-    try:
-        # hacim filtresi
-        vol_avg = df["Volume"].rolling(20).mean().iloc[-1]
-        vol_now = df["Volume"].iloc[-1]
-
-        if vol_now < vol_avg:
-            return False
-
-        # volatilite filtresi
-        atr_val = df["ATR"].iloc[-1]
-        price = df["Close"].iloc[-1]
-
-        if atr_val / price < 0.01:  # %1 altı hareket yok say
-            return False
-
-        # fiyat hareketi filtresi
-        last_close = df["Close"].iloc[-1]
-        prev_close = df["Close"].iloc[-5]
-
-        change = (last_close - prev_close) / prev_close
-
-        if abs(change) < 0.02:  # %2 altında ise sıkıcı
-            return False
-
-        return True
-
-    except:
-        return False
