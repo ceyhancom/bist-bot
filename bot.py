@@ -52,24 +52,18 @@ def is_tradeable(df):
         vol_avg = df["Volume"].rolling(20).mean().iloc[-1]
         vol_now = df["Volume"].iloc[-1]
 
-        if vol_now < vol_avg:
-            return False
-
         atr_val = df["ATR"].iloc[-1]
         price = df["Close"].iloc[-1]
-
-        if atr_val / price < 0.01:
-            return False
 
         last_close = df["Close"].iloc[-1]
         prev_close = df["Close"].iloc[-5]
         change = (last_close - prev_close) / prev_close
 
-        if abs(change) < 0.02:
-            return False
-
-        return True
-
+        return (
+            vol_now >= vol_avg and
+            atr_val / price >= 0.01 and
+            abs(change) >= 0.02
+        )
     except Exception:
         return False
 
@@ -125,7 +119,6 @@ def scan():
 
             df = clean_df(df)
             checked_count += 1
-
             df = indicators(df)
 
             if not is_tradeable(df):
@@ -169,63 +162,8 @@ def scan():
 
         except Exception as e:
             error_count += 1
-            send(f"❌ {symbol} hata: {type(e).__name__}")
-
-    if not signals:
-        send(
-            "✅ Tarama tamamlandı. Uygun sinyal bulunamadı.\n"
-            f"Toplam liste: {len(BIST_LIST)}\n"
-            f"Verisi alınan: {checked_count}\n"
-            f"Filtreyi geçen: {tradeable_count}\n"
-            f"Hata: {error_count}"
-        )
-        return
-
-    msg = f"📈 BIST SİNYAL ({datetime.now(TR_TZ).strftime('%H:%M')})\n\n"
-
-    for s in signals[:5]:
-        msg += (
-            f"{s['symbol']}\n"
-            f"Skor: {s['score']}\n"
-            f"Giriş: {round(s['entry'], 2)}\n"
-            f"STOP: {round(s['stop'], 2)}\n"
-            f"HEDEF: {round(s['target'], 2)}\n"
-            f"R/R: {round(s['rr'], 2)}\n\n"
-        )
-
-    send(msg)
-    
-        except Exception as e:
-            error_count += 1
-            send(f"❌ {symbol} hata: {type(e).__name__}")
-
-    if not signals:
-        send(
-            "✅ Tarama tamamlandı. Uygun sinyal bulunamadı.\n"
-            f"Toplam liste: {len(BIST_LIST)}\n"
-            f"Verisi alınan: {checked_count}\n"
-            f"Filtreyi geçen: {tradeable_count}\n"
-            f"Hata: {error_count}"
-        )
-        return
-
-    msg = f"📈 BIST SİNYAL ({datetime.now(TR_TZ).strftime('%H:%M')})\n\n"
-
-    for s in signals[:5]:
-        msg += (
-            f"{s['symbol']}\n"
-            f"Skor: {s['score']}\n"
-            f"Giriş: {round(s['entry'], 2)}\n"
-            f"STOP: {round(s['stop'], 2)}\n"
-            f"HEDEF: {round(s['target'], 2)}\n"
-            f"R/R: {round(s['rr'], 2)}\n\n"
-        )
-
-    send(msg)
- except Exception as e:
-    error_count += 1
-    send(f"❌ Hata oluştu: {symbol}\n{type(e).__name__}: {str(e)}")
-    continue
+            send(f"❌ {symbol} hata: {type(e).__name__}: {str(e)[:120]}")
+            continue
 
     if not signals:
         send(
