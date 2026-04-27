@@ -70,16 +70,22 @@ def indicators(df):
 
 def score(row):
     s = 0
+
     if row["EMA20"] > row["EMA50"]:
         s += 25
+
     if row["RSI"] > 55:
         s += 20
+
     if row["VOL_RATIO"] > 1.2:
         s += 15
+
     if row["Close"] > row["EMA20"]:
         s += 10
+
     if row["Close"] > row["EMA50"]:
         s += 10
+
     return s
 
 
@@ -162,14 +168,17 @@ def is_tradeable(df):
             and atr_val / price >= 0.005
             and abs(change) >= 0.01
         )
+
     except Exception:
         return False
 
 
 def is_market_open():
     now = datetime.now(TR_TZ)
+
     if now.weekday() >= 5:
         return False
+
     return 10 <= now.hour < 18
 
 
@@ -187,9 +196,6 @@ def analyze_symbol(symbol):
 
     df = clean_df(df)
     df = indicators(df)
-
-    if not is_tradeable(df):
-        return None
 
     prev = df.iloc[-2]
     curr = df.iloc[-1]
@@ -209,6 +215,8 @@ def analyze_symbol(symbol):
     if risk > 0:
         rr = (target - entry) / risk
 
+    tradeable = is_tradeable(df)
+
     return {
         "symbol": symbol,
         "price": entry,
@@ -219,8 +227,24 @@ def analyze_symbol(symbol):
         "breakout": brk,
         "stop": stop,
         "target": target,
-        "rr": rr
+        "rr": rr,
+        "tradeable": tradeable
     }
+
+
+def format_item(item):
+    return (
+        f"{item['symbol']}\n"
+        f"Sinyal: {item['signal']}\n"
+        f"Kırılım: {item['breakout']}\n"
+        f"Fiyat: {round(item['price'], 2)}\n"
+        f"Skor: {item['score']} ({score_comment(item['score'])})\n"
+        f"RSI: {round(item['rsi'], 1)} ({rsi_comment(item['rsi'])})\n"
+        f"Hacim: {round(item['vol_ratio'], 2)} ({vol_comment(item['vol_ratio'])})\n"
+        f"STOP: {round(item['stop'], 2)}\n"
+        f"HEDEF: {round(item['target'], 2)}\n"
+        f"R/R: {round(item['rr'], 2)}\n\n"
+    )
 
 
 def scan():
@@ -231,7 +255,9 @@ def scan():
         send("⏰ Piyasa kapalı. Tarama yapılmadı.")
         return
 
-    results = []
+    all_results = []
+    strong_signals = []
+    watch_list = []
     checked_count = 0
     error_count = 0
 
@@ -240,41 +266,58 @@ def scan():
             result = analyze_symbol(symbol)
             checked_count += 1
 
-            if result:
-                results.append(result)
+            if result is None:
+                continue
+
+            all_results.append(result)
+
+            if result["signal"] in ["🟢 AL", "🟡 ERKEN GİRİŞ"]:
+                strong_signals.append(result)
+
+            if result["tradeable"]:
+                watch_list.append(result)
 
         except Exception:
             error_count += 1
             continue
 
-    if not results:
-        send(
-            "✅ Tarama tamamlandı. Uygun aday bulunamadı.\n"
-            f"Toplam liste: {len(BIST_LIST)}\n"
-            f"Kontrol edilen: {checked_count}\n"
-            f"Hata: {error_count}"
-        )
-        return
+    strong_signals = sorted(
+        strong_signals,
+        key=lambda x: x["score"],
+        reverse=True
+    )
 
-    results = sorted(results, key=lambda x: x["score"], reverse=True)
+    watch_list = sorted(
+        watch_list,
+        key=lambda x: x["score"],
+        reverse=True
+    )
 
-    msg = f"📊 BIST ADAYLAR ({datetime.now(TR_TZ).strftime('%H:%M')})\n"
-    msg += f"Filtreyi geçen: {len(results)}\n"
-    msg += "En iyi adaylar:\n\n"
+    msg = f"📊 BIST DURUM ({datetime.now(TR_TZ).strftime('%H:%M')})\n\n"
 
-    for item in results[:5]:
-        msg += (
-            f"{item['symbol']}\n"
-            f"Sinyal: {item['signal']}\n"
-            f"Kırılım: {item['breakout']}\n"
-            f"Fiyat: {round(item['price'], 2)}\n"
-            f"Skor: {item['score']} ({score_comment(item['score'])})\n"
-            f"RSI: {round(item['rsi'], 1)} ({rsi_comment(item['rsi'])})\n"
-            f"Hacim: {round(item['vol_ratio'], 2)} ({vol_comment(item['vol_ratio'])})\n"
-            f"STOP: {round(item['stop'], 2)}\n"
-            f"HEDEF: {round(item['target'], 2)}\n"
-            f"R/R: {round(item['rr'], 2)}\n\n"
-        )
+    msg += "🟢 Güçlü Sinyaller:\n\n"
+    if strong_signals:
+        for item in strong_signals[:3]:
+            msg += format_item(item)
+    else:
+        msg += "Yok.\n\n"
+
+    msg += "🟡 Takip Edilecekler:\n\n"
+    if watch_list:
+        for item in watch_list[:5]:
+            msg += format_item(item)
+    else:
+        msg += "Yok.\n\n"
+
+    msg += (
+        "------\n"
+        "📌 Özet:\n"
+        f"Toplam liste: {len(BIST_LIST)}\n"
+        f"Kontrol edilen: {checked_count}\n"
+        f"Güçlü sinyal: {len(strong_signals)}\n"
+        f"Takip adayı: {len(watch_list)}\n"
+        f"Hata: {error_count}"
+    )
 
     send(msg)
 
