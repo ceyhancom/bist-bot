@@ -60,6 +60,8 @@ def send(msg):
     requests.post(url, data={"chat_id": CHAT_ID, "text": msg})
 
 def scan():
+    send("✅ BIST bot çalıştı, tarama başladı.")
+
     if not is_market_open():
         return
 
