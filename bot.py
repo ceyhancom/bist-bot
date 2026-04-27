@@ -79,8 +79,8 @@ def is_tradeable(df):
 
         return (
             vol_now >= vol_avg and
-            atr_val / price >= 0.007 and
-            abs(change) >= 0.015
+            atr_val / price >= 0.005 and
+            abs(change) >= 0.01
         )
 
     except Exception:
