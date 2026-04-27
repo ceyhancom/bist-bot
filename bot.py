@@ -8,15 +8,35 @@ TOKEN = os.environ["TELEGRAM_TOKEN"]
 CHAT_ID = os.environ["TELEGRAM_CHAT_ID"]
 
 BIST_LIST = [
-    "ASELS.IS", "THYAO.IS", "KCHOL.IS",
-    "GARAN.IS", "AKBNK.IS", "SISE.IS",
-    "EREGL.IS", "BIMAS.IS", "TUPRS.IS",
-    "SAHOL.IS", "YKBNK.IS", "ISCTR.IS",
-    "ASTOR.IS", "KRDMD.IS", "PETKM.IS",
-    "FROTO.IS", "TOASO.IS", "GUBRF.IS"
+    "AEFES.IS", "AKBNK.IS", "ALARK.IS", "ARCLK.IS", "ASELS.IS",
+    "ASTOR.IS", "BIMAS.IS", "BRYAT.IS", "CCOLA.IS", "CIMSA.IS",
+    "DOHOL.IS", "DOAS.IS", "ENKAI.IS", "EREGL.IS", "FROTO.IS",
+    "GARAN.IS", "GESAN.IS", "GUBRF.IS", "HALKB.IS", "HEKTS.IS",
+    "ISCTR.IS", "ISDMR.IS", "KCHOL.IS", "KONTR.IS", "KOZAL.IS",
+    "KOZAA.IS", "KRDMD.IS", "MGROS.IS", "ODAS.IS", "OTKAR.IS",
+    "OYAKC.IS", "PETKM.IS", "PGSUS.IS", "SAHOL.IS", "SASA.IS",
+    "SELEC.IS", "SISE.IS", "SMRTG.IS", "TAVHL.IS", "TCELL.IS",
+    "THYAO.IS", "TKFEN.IS", "TOASO.IS", "TSKB.IS", "TTKOM.IS",
+    "TUPRS.IS", "ULKER.IS", "VAKBN.IS", "YKBNK.IS"
 ]
 
 TR_TZ = timezone(timedelta(hours=3))
+
+
+def send(msg):
+    url = f"https://api.telegram.org/bot{TOKEN}/sendMessage"
+    requests.post(
+        url,
+        data={"chat_id": CHAT_ID, "text": msg},
+        timeout=30
+    )
+
+
+def clean_df(df):
+    if isinstance(df.columns, pd.MultiIndex):
+        df.columns = df.columns.get_level_values(0)
+    return df
+
 
 def rsi(series, period=14):
     delta = series.diff()
@@ -24,6 +44,7 @@ def rsi(series, period=14):
     loss = (-delta.clip(upper=0)).rolling(period).mean()
     rs = gain / loss
     return 100 - (100 / (1 + rs))
+
 
 def atr(df, period=14):
     high_low = df["High"] - df["Low"]
@@ -33,10 +54,6 @@ def atr(df, period=14):
     true_range = ranges.max(axis=1)
     return true_range.rolling(period).mean()
 
-def clean_df(df):
-    if isinstance(df.columns, pd.MultiIndex):
-        df.columns = df.columns.get_level_values(0)
-    return df
 
 def indicators(df):
     df["EMA20"] = df["Close"].ewm(span=20, adjust=False).mean()
@@ -46,6 +63,7 @@ def indicators(df):
     df["VOL_AVG"] = df["Volume"].rolling(20).mean()
     df["VOL_RATIO"] = df["Volume"] / df["VOL_AVG"]
     return df
+
 
 def is_tradeable(df):
     try:
@@ -61,35 +79,37 @@ def is_tradeable(df):
 
         return (
             vol_now >= vol_avg and
-            atr_val / price >= 0.01 and
-            abs(change) >= 0.02
+            atr_val / price >= 0.007 and
+            abs(change) >= 0.015
         )
+
     except Exception:
         return False
 
+
 def score(row):
     s = 0
+
     if row["EMA20"] > row["EMA50"]:
         s += 25
+
     if row["RSI"] > 55:
         s += 20
+
     if row["VOL_RATIO"] > 1.2:
         s += 15
+
     return s
+
 
 def is_market_open():
     now = datetime.now(TR_TZ)
+
     if now.weekday() >= 5:
         return False
+
     return 10 <= now.hour < 18
 
-def send(msg):
-    url = f"https://api.telegram.org/bot{TOKEN}/sendMessage"
-    requests.post(
-        url,
-        data={"chat_id": CHAT_ID, "text": msg},
-        timeout=30
-    )
 
 def scan():
     now_text = datetime.now(TR_TZ).strftime("%d.%m.%Y %H:%M")
@@ -119,6 +139,7 @@ def scan():
 
             df = clean_df(df)
             checked_count += 1
+
             df = indicators(df)
 
             if not is_tradeable(df):
@@ -157,12 +178,13 @@ def scan():
                     "stop": stop,
                     "target": target,
                     "rr": rr,
-                    "score": curr_score
+                    "score": curr_score,
+                    "rsi": float(curr["RSI"]),
+                    "vol_ratio": float(curr["VOL_RATIO"])
                 })
 
-        except Exception as e:
+        except Exception:
             error_count += 1
-            send(f"❌ {symbol} hata: {type(e).__name__}: {str(e)[:120]}")
             continue
 
     if not signals:
@@ -175,12 +197,18 @@ def scan():
         )
         return
 
-    msg = f"📈 BIST SİNYAL ({datetime.now(TR_TZ).strftime('%H:%M')})\n\n"
+    signals = sorted(signals, key=lambda x: x["score"], reverse=True)
 
-    for s in signals[:5]:
+    msg = f"📈 BIST SİNYAL ({datetime.now(TR_TZ).strftime('%H:%M')})\n"
+    msg += f"Toplam sinyal: {len(signals)}\n"
+    msg += "En iyi 3 aday:\n\n"
+
+    for s in signals[:3]:
         msg += (
             f"{s['symbol']}\n"
             f"Skor: {s['score']}\n"
+            f"RSI: {round(s['rsi'], 1)}\n"
+            f"Hacim Katsayısı: {round(s['vol_ratio'], 2)}\n"
             f"Giriş: {round(s['entry'], 2)}\n"
             f"STOP: {round(s['stop'], 2)}\n"
             f"HEDEF: {round(s['target'], 2)}\n"
@@ -188,6 +216,7 @@ def scan():
         )
 
     send(msg)
+
 
 if __name__ == "__main__":
     scan()
