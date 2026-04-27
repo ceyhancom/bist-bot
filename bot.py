@@ -167,9 +167,10 @@ def scan():
                     "score": curr_score
                 })
 
-        except Exception:
-            error_count += 1
-            continue
+        except Exception as e:
+    error_count += 1
+    send(f"❌ Hata oluştu: {symbol}\n{type(e).__name__}: {str(e)}")
+    continue
 
     if not signals:
         send(
