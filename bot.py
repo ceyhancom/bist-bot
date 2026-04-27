@@ -218,10 +218,10 @@ def scan():
     msg += "🟢 AL Sinyalleri:\n\n"
     msg += "".join(format_full(x) for x in buy[:3]) if buy else "Yok\n\n"
 
-    msg += "🟡 Takip:\n\n"
+    msg += "🟡 Takip Sinyalleri:\n\n"
     msg += "".join(format_full(x) for x in watch[:3]) if watch else "Yok\n\n"
 
-    msg += "🔴 SAT / Çıkış:\n\n"
+    msg += "🔴 SAT Sinyalleri:\n\n"
     msg += "".join(format_full(x) for x in sell[:3]) if sell else "Yok\n\n"
 
     send(msg)
