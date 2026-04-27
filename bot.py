@@ -23,16 +23,16 @@ def rsi(series, period=14):
     return 100 - (100 / (1 + rs))
 
 def atr(df, period=14):
-    high_low = df['High'] - df['Low']
-    high_close = abs(df['High'] - df['Close'].shift())
-    low_close = abs(df['Low'] - df['Close'].shift())
+    high_low = df["High"] - df["Low"]
+    high_close = abs(df["High"] - df["Close"].shift())
+    low_close = abs(df["Low"] - df["Close"].shift())
     ranges = pd.concat([high_low, high_close, low_close], axis=1)
     true_range = ranges.max(axis=1)
     return true_range.rolling(period).mean()
 
 def indicators(df):
-    df["EMA20"] = df["Close"].ewm(span=20).mean()
-    df["EMA50"] = df["Close"].ewm(span=50).mean()
+    df["EMA20"] = df["Close"].ewm(span=20, adjust=False).mean()
+    df["EMA50"] = df["Close"].ewm(span=50, adjust=False).mean()
     df["RSI"] = rsi(df["Close"])
     df["ATR"] = atr(df)
     df["VOL_AVG"] = df["Volume"].rolling(20).mean()
@@ -57,21 +57,38 @@ def is_market_open():
 
 def send(msg):
     url = f"https://api.telegram.org/bot{TOKEN}/sendMessage"
-    requests.post(url, data={"chat_id": CHAT_ID, "text": msg})
+    requests.post(
+        url,
+        data={"chat_id": CHAT_ID, "text": msg},
+        timeout=30
+    )
 
 def scan():
-    send("✅ BIST bot çalıştı, tarama başladı.")
+    now_text = datetime.now(TR_TZ).strftime("%d.%m.%Y %H:%M")
+    send(f"🔍 BIST bot çalıştı. Tarama başladı.\nSaat: {now_text}")
 
     if not is_market_open():
+        send("⏰ Piyasa kapalı. Tarama yapılmadı.")
         return
 
     signals = []
+    checked_count = 0
+    error_count = 0
 
     for symbol in BIST_LIST:
         try:
-            df = yf.download(symbol, period="45d", interval="1h", progress=False)
+            df = yf.download(
+                symbol,
+                period="45d",
+                interval="1h",
+                progress=False,
+                auto_adjust=False
+            )
+
             if df.empty or len(df) < 50:
                 continue
+
+            checked_count += 1
 
             df = indicators(df)
             prev = df.iloc[-2]
@@ -84,17 +101,18 @@ def scan():
             curr_score = score(curr)
 
             if prev_score < 50 and curr_score >= 50:
-
-                entry = curr["Close"]
-                atr_val = curr["ATR"]
+                entry = float(curr["Close"])
+                atr_val = float(curr["ATR"])
 
                 stop = entry - atr_val * 1.5
                 risk = entry - stop
                 target = entry + (risk * 2)
 
+                if risk <= 0:
+                    continue
+
                 rr = (target - entry) / risk
 
-                # filtre: kötü risk/ödül olanları alma
                 if rr < 1.5:
                     continue
 
@@ -103,13 +121,20 @@ def scan():
                     "entry": entry,
                     "stop": stop,
                     "target": target,
-                    "rr": rr
+                    "rr": rr,
+                    "score": curr_score
                 })
 
-        except:
+        except Exception:
+            error_count += 1
             continue
 
     if not signals:
+        send(
+            "✅ Tarama tamamlandı. Uygun sinyal bulunamadı.\n"
+            f"Taranan hisse: {checked_count}\n"
+            f"Hata/atlanan: {error_count}"
+        )
         return
 
     msg = f"📈 BIST SİNYAL ({datetime.now(TR_TZ).strftime('%H:%M')})\n\n"
@@ -117,10 +142,11 @@ def scan():
     for s in signals[:5]:
         msg += (
             f"{s['symbol']}\n"
-            f"Giriş: {round(s['entry'],2)}\n"
-            f"STOP: {round(s['stop'],2)}\n"
-            f"HEDEF: {round(s['target'],2)}\n"
-            f"R/R: {round(s['rr'],2)}\n\n"
+            f"Skor: {s['score']}\n"
+            f"Giriş: {round(s['entry'], 2)}\n"
+            f"STOP: {round(s['stop'], 2)}\n"
+            f"HEDEF: {round(s['target'], 2)}\n"
+            f"R/R: {round(s['rr'], 2)}\n\n"
         )
 
     send(msg)
