@@ -33,6 +33,11 @@ def atr(df, period=14):
     true_range = ranges.max(axis=1)
     return true_range.rolling(period).mean()
 
+def clean_df(df):
+    if isinstance(df.columns, pd.MultiIndex):
+        df.columns = df.columns.get_level_values(0)
+    return df
+
 def indicators(df):
     df["EMA20"] = df["Close"].ewm(span=20, adjust=False).mean()
     df["EMA50"] = df["Close"].ewm(span=50, adjust=False).mean()
@@ -117,6 +122,8 @@ def scan():
 
             if df.empty or len(df) < 50:
                 continue
+                
+                df = clean_df(df)
 
             checked_count += 1
             df = indicators(df)
