@@ -66,27 +66,42 @@ def indicators(df):
 
 def score(row):
     s = 0
-    if row["EMA20"] > row["EMA50"]:
-        s += 25
-    if row["RSI"] > 55:
-        s += 20
-    if row["VOL_RATIO"] > 1.2:
-        s += 15
-    if row["Close"] > row["EMA20"]:
-        s += 10
-    if row["Close"] > row["EMA50"]:
-        s += 10
+    if row["EMA20"] > row["EMA50"]: s += 25
+    if row["RSI"] > 55: s += 20
+    if row["VOL_RATIO"] > 1.2: s += 15
+    if row["Close"] > row["EMA20"]: s += 10
+    if row["Close"] > row["EMA50"]: s += 10
     return s
 
 
-def signal_label(curr, prev):
-    curr_score = score(curr)
-    prev_score = score(prev)
+# 🔥 YORUM SİSTEMİ
 
-    if curr_score >= 70 and curr["EMA20"] > curr["EMA50"] and curr["RSI"] > 55:
+def warning_text(rsi_val, vol, rr):
+    warnings = []
+
+    if rsi_val > 80:
+        warnings.append("RSI çok yüksek → düzeltme riski")
+
+    if vol < 1:
+        warnings.append("Hacim zayıf → hareket güvenilir olmayabilir")
+
+    if rr < 1.5:
+        warnings.append("Risk/ödül düşük")
+
+    if not warnings:
+        return "Durum sağlıklı"
+
+    return " | ".join(warnings)
+
+
+def signal_label(curr, prev):
+    sc = score(curr)
+    prev_sc = score(prev)
+
+    if sc >= 70 and curr["EMA20"] > curr["EMA50"]:
         return "🟢 AL"
 
-    if curr_score >= 55 and prev_score < curr_score:
+    if sc >= 55 and prev_sc < sc:
         return "🟡 ERKEN GİRİŞ"
 
     if curr["EMA20"] < curr["EMA50"]:
@@ -97,9 +112,9 @@ def signal_label(curr, prev):
 
 def breakout_label(curr, prev):
     if curr["Close"] > prev["HIGH_20"]:
-        return "📈 Yukarı kırılım"
+        return "📈 Yukarı trend kırılımı"
     if curr["Close"] < prev["LOW_20"]:
-        return "📉 Aşağı kırılım"
+        return "📉 Aşağı trend kırılımı"
     return "Kırılım yok"
 
 
@@ -108,19 +123,18 @@ def is_tradeable(df):
         curr = df.iloc[-1]
         prev5 = df.iloc[-5]
 
-        vol_avg = df["Volume"].rolling(20).mean().iloc[-1]
         change = (curr["Close"] - prev5["Close"]) / prev5["Close"]
 
         return (
-            curr["Volume"] >= vol_avg and
-            curr["ATR"] / curr["Close"] >= 0.005 and
-            abs(change) >= 0.01
+            curr["Volume"] >= df["Volume"].rolling(20).mean().iloc[-1]
+            and curr["ATR"] / curr["Close"] >= 0.005
+            and abs(change) >= 0.01
         )
     except:
         return False
 
 
-def analyze_symbol(symbol):
+def analyze(symbol):
     df = yf.download(symbol, period="60d", interval="1h", progress=False)
 
     if df.empty:
@@ -132,16 +146,45 @@ def analyze_symbol(symbol):
     prev = df.iloc[-2]
     curr = df.iloc[-1]
 
+    entry = float(curr["Close"])
+    atr_val = float(curr["ATR"])
+
+    stop = entry - atr_val * 1.5
+    risk = entry - stop
+    target = entry + risk * 2
+
+    rr = (target - entry) / risk if risk > 0 else 0
+
     return {
         "symbol": symbol,
-        "price": float(curr["Close"]),
+        "signal": signal_label(curr, prev),
+        "breakout": breakout_label(curr, prev),
+        "price": entry,
         "score": score(curr),
         "rsi": float(curr["RSI"]),
         "vol": float(curr["VOL_RATIO"]),
-        "signal": signal_label(curr, prev),
-        "breakout": breakout_label(curr, prev),
+        "stop": stop,
+        "target": target,
+        "rr": rr,
+        "warn": warning_text(curr["RSI"], curr["VOL_RATIO"], rr),
         "tradeable": is_tradeable(df)
     }
+
+
+def format_full(x):
+    return (
+        f"{x['symbol']}\n"
+        f"Sinyal: {x['signal']}\n"
+        f"Kırılım: {x['breakout']}\n"
+        f"Fiyat: {round(x['price'],2)}\n"
+        f"Skor: {x['score']}\n"
+        f"RSI: {round(x['rsi'],1)}\n"
+        f"Hacim: {round(x['vol'],2)}\n"
+        f"STOP: {round(x['stop'],2)}\n"
+        f"HEDEF: {round(x['target'],2)}\n"
+        f"R/R: {round(x['rr'],2)}\n"
+        f"⚠️ {x['warn']}\n\n"
+    )
 
 
 def scan():
@@ -150,17 +193,14 @@ def scan():
     strong = []
     watch = []
 
-    for symbol in BIST_LIST:
+    for s in BIST_LIST:
         try:
-            r = analyze_symbol(symbol)
+            r = analyze(s)
             if not r:
                 continue
 
-            # 🔥 Güçlü sinyal (hacim şartı eklendi)
             if r["signal"] == "🟢 AL" and r["vol"] >= 1:
                 strong.append(r)
-
-            # 🔥 Takip listesi (güçlü olanları tekrar ekleme)
             elif r["tradeable"]:
                 watch.append(r)
 
@@ -172,19 +212,19 @@ def scan():
 
     msg = "📊 BIST DURUM\n\n"
 
-    msg += "🟢 Güçlü Sinyaller:\n"
+    msg += "🟢 Güçlü Sinyaller:\n\n"
     if strong:
-        for s in strong[:3]:
-            msg += f"{s['symbol']} | Fiyat:{round(s['price'],2)} | Skor:{s['score']}\n"
+        for x in strong[:3]:
+            msg += format_full(x)
     else:
-        msg += "Yok\n"
+        msg += "Yok\n\n"
 
-    msg += "\n🟡 Takip Edilecekler:\n"
+    msg += "🟡 Takip Listesi:\n\n"
     if watch:
-        for w in watch[:5]:
-            msg += f"{w['symbol']} | Skor:{w['score']} | RSI:{round(w['rsi'],1)}\n"
+        for x in watch[:3]:
+            msg += format_full(x)
     else:
-        msg += "Yok\n"
+        msg += "Yok\n\n"
 
     send(msg)
 
