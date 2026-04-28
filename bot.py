@@ -979,8 +979,11 @@ def send_urgent_portfolio_warnings(portfolio_sat_results: list[dict]) -> None:
         return
 
     urgent_messages = []
-
+    unique_results = {}
     for result in portfolio_sat_results:
+        unique_results[result["symbol"]] = result
+
+    for result in unique_results.values():
         urgent_messages.append(f"""🚨 <b>PORTFÖY SAT UYARISI</b>
 
 <b>{result['symbol']}</b>
@@ -1082,6 +1085,10 @@ def scan_market(mode: str = "intraday") -> None:
         send_evening_summary(state, stats, len(errors))
         return
 
+    # Özet sayacı için portföy SAT listesini kesin olarak güncelle.
+    # Hem BIST taramasından gelen hem de ayrı portföy analizinden gelen SAT sonuçları dikkate alınır.
+    portfolio_sat_symbols = sorted({r["symbol"] for r in portfolio_sat_results})
+
     title = get_title(mode, now)
     summary = f"""{title}
 
@@ -1089,7 +1096,7 @@ Taranan hisse: {len(BIST_LIST)}
 AL sinyali: {len(al_results)}
 TAKİP: {len(takip_results)}
 SAT / UZAK DUR: {len(sat_results)}
-Portföy SAT uyarısı: {len(portfolio_sat_results)}
+Portföy SAT uyarısı: {len(portfolio_sat_symbols)}
 Hata/atlanan: {len(errors)}
 
 Seviye 3 Güvenli Mod aktif:
@@ -1114,9 +1121,13 @@ Seviye 3 Güvenli Mod aktif:
         split_and_send("🔴 <b>SAT / UZAK DUR SİNYALLERİ</b>", [format_signal(r) for r in sat_results])
 
     if portfolio_sat_results:
+        unique_portfolio_sat = {}
+        for r in portfolio_sat_results:
+            unique_portfolio_sat[r["symbol"]] = r
+
         split_and_send(
             "🚨 <b>PORTFÖYÜNDEKİ SAT UYARILARI</b>",
-            [format_signal(r) for r in portfolio_sat_results]
+            [format_signal(r) for r in unique_portfolio_sat.values()]
         )
 
 
