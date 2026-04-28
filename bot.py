@@ -63,13 +63,13 @@ MAX_SAT_SIGNAL = 10
 #     {"symbol": "THYAO.IS", "entry": 285.00},
 # ]
 PORTFOLIO = [
-    # {"symbol": "ASTOR.IS", "entry": 196.80},
-    # {"symbol": "DESPC.IS", "entry": 43.90},
-    # {"symbol": "EMPAE.IS", "entry": 48.68},
-    # {"symbol": "ISKPL.IS", "entry": 13.41},
-    # {"symbol": "MRGYO.IS", "entry": 1.93},
-    # {"symbol": "SERNT.IS", "entry": 9.40},
-    # {"symbol": "TAVHL.IS", "entry": 323.00},
+     {"symbol": "ASTOR.IS", "entry": 196.80},
+     {"symbol": "DESPC.IS", "entry": 43.90},
+     {"symbol": "EMPAE.IS", "entry": 48.68},
+     {"symbol": "ISKPL.IS", "entry": 13.41},
+     {"symbol": "MRGYO.IS", "entry": 1.93},
+     {"symbol": "SERNT.IS", "entry": 9.40},
+     {"symbol": "TAVHL.IS", "entry": 323.00},
 ]
 
 PORTFOLIO_LIST = [item["symbol"] for item in PORTFOLIO]
