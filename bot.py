@@ -14,21 +14,27 @@ DATA_DIR = Path("data")
 DATA_DIR.mkdir(exist_ok=True)
 
 BIST_LIST = [
-    "ARENA.IS", "AKBNK.IS", "ALARK.IS", "ARCLK.IS", "ASELS.IS",
-    "ASTOR.IS", "BIMAS.IS", "BRYAT.IS", "CCOLA.IS", "CIMSA.IS",
-    "DOHOL.IS", "DOAS.IS", "ENKAI.IS", "EREGL.IS", "FROTO.IS",
-    "GARAN.IS", "GESAN.IS", "GUBRF.IS", "HALKB.IS", "HEKTS.IS",
-    "ISCTR.IS", "ISDMR.IS", "KCHOL.IS", "KONTR.IS", "KOZAL.IS",
-    "KOZAA.IS", "KRDMD.IS", "MGROS.IS", "ODAS.IS", "OTKAR.IS",
-    "OYAKC.IS", "PETKM.IS", "PGSUS.IS", "SAHOL.IS", "SASA.IS",
-    "SELEC.IS", "SISE.IS", "SMRTG.IS", "TAVHL.IS", "TCELL.IS",
-    "THYAO.IS", "TKFEN.IS", "TOASO.IS", "TSKB.IS", "TTKOM.IS",
-    "TUPRS.IS", "ULKER.IS", "VAKBN.IS", "YKBNK.IS", "ISKPL.IS",
-    "EMPAE.IS", "MRGYO.IS", "SISE.IS", "ESEN.IS", "KZBYG.IS",
-    "SERNT.IS", "DESPC.IS", "MEYSU.IS", "HURGZ.IS", "TERA.IS"
+    "AGHOL.IS", "AHGAZ.IS", "AKBNK.IS", "AKCNS.IS", "AKFGY.IS",
+    "AKSA.IS", "AKSEN.IS", "ALARK.IS", "ALBRK.IS", "ALFAS.IS",
+    "ARCLK.IS", "ASELS.IS", "ASTOR.IS", "ASUZU.IS", "AYDEM.IS",
+    "BAGFS.IS", "BERA.IS", "BFREN.IS", "BIMAS.IS", "BIOEN.IS",
+    "BRSAN.IS", "BRYAT.IS", "BUCIM.IS", "CANTE.IS", "CCOLA.IS",
+    "CIMSA.IS", "DOAS.IS", "DOHOL.IS", "ECILC.IS", "ECZYT.IS",
+    "EGEEN.IS", "EKGYO.IS", "ENERY.IS", "ENJSA.IS", "ENKAI.IS",
+    "EREGL.IS", "EUPWR.IS", "FROTO.IS", "GARAN.IS", "GESAN.IS",
+    "GLYHO.IS", "GSDHO.IS", "GUBRF.IS", "GWIND.IS", "HALKB.IS",
+    "HEKTS.IS", "ISCTR.IS", "ISDMR.IS", "ISGYO.IS", "ISMEN.IS",
+    "IZENR.IS", "KARSN.IS", "KAYSE.IS", "KCAER.IS", "KCHOL.IS",
+    "KLSER.IS", "KONTR.IS", "KORDS.IS", "KOZAA.IS", "KOZAL.IS",
+    "KRDMD.IS", "MAVI.IS", "MGROS.IS", "MIATK.IS", "ODAS.IS",
+    "OTKAR.IS", "OYAKC.IS", "PETKM.IS", "PGSUS.IS", "QUAGR.IS",
+    "SAHOL.IS", "SASA.IS", "SELEC.IS", "SISE.IS", "SKBNK.IS",
+    "SMRTG.IS", "SNGYO.IS", "SOKM.IS", "TABGD.IS", "TAVHL.IS",
+    "TCELL.IS", "THYAO.IS", "TKFEN.IS", "TOASO.IS", "TSKB.IS",
+    "TTKOM.IS", "TTRAK.IS", "TUKAS.IS", "TUPRS.IS", "TURSG.IS",
+    "ULKER.IS", "VAKBN.IS", "VESBE.IS", "VESTL.IS", "YATAS.IS",
+    "YKBNK.IS", "YYLGD.IS", "ZOREN.IS"
 ]
-
-
 
 def send(msg):
     max_len = 3900
@@ -130,16 +136,16 @@ def score_comment(s):
 
 def rsi_comment(r):
     if r >= 80:
-        return "Aşırı alım, düzeltme riski"
+        return "Aşırı alım, düzeltme riski var!"
     if r >= 70:
-        return "Yüksek, dikkat"
+        return "Yüksek, dikkat!"
     if r >= 55:
         return "Pozitif momentum"
     if r >= 45:
         return "Normal"
     if r >= 30:
         return "Zayıf"
-    return "Aşırı satım"
+    return "Aşırı satım!"
 
 
 def vol_comment(v):
@@ -154,19 +160,19 @@ def vol_comment(v):
 
 def rr_comment(rr):
     if rr >= 2:
-        return "İyi risk/ödül"
+        return "Trade için uygun / Kazanç potansiyeli var"
     if rr >= 1.5:
-        return "Kabul edilebilir"
-    return "Zayıf risk/ödül"
+        return "Trade için orta seviye"
+    return "mantıksız trade / Zarar yazabilir"
 
 
 def warning_text(item):
     warnings = []
 
     if item["rsi"] >= 80:
-        warnings.append("RSI çok yüksek; sert yükseliş sonrası düzeltme gelebilir.")
+        warnings.append("RSI çok yüksek; sert yükseliş sonrası düzeltme gelebilir!")
     elif item["rsi"] >= 70:
-        warnings.append("RSI yüksek; girişte acele edilmemeli.")
+        warnings.append("RSI yüksek; girişte acele edilmemeli!")
 
     if item["vol"] < 1:
         warnings.append("Hacim zayıf; hareketin güvenilirliği düşük olabilir.")
