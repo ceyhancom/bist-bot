@@ -75,19 +75,23 @@ PORTFOLIO = [
 PORTFOLIO_LIST = [item["symbol"] for item in PORTFOLIO]
 
 # Sinyal eşikleri
-COK_GUCLU_AL_ESIK = 85
-GUCLU_AL_ESIK = 70
-TAKIP_ESIK = 55
+COK_GUCLU_AL_ESIK = 90
+GUCLU_AL_ESIK = 78
+TAKIP_ESIK = 60
 SAT_ESIK = 35
 
 # Kalite filtreleri
-MAX_RSI_FOR_AL = 80
-MIN_VOL_RATIO_FOR_AL = 1.0
-MIN_RR_FOR_AL = 1.5
+MAX_RSI_FOR_AL = 75
+MIN_VOL_RATIO_FOR_AL = 1.2
+MIN_RR_FOR_AL = 1.8
 
 # Trailing stop ayarları
-TRAILING_START_PROFIT = 3.0      # %3 kârdan sonra takip stop aktif olur
-TRAILING_STOP_DISTANCE = 2.0     # En yüksek fiyattan %2 aşağı trailing stop
+TRAILING_START_PROFIT = 2.0      # %3 kârdan sonra takip stop aktif olur
+TRAILING_STOP_DISTANCE = 1.5     # En yüksek fiyattan %1.5 aşağı trailing stop
+
+# Güvenli risk yönetimi
+PORTFOLIO_BALANCE = 100000        # Toplam portföy tutarını buraya yaz
+RISK_PER_TRADE = 0.01             # Güvenli mod: işlem başına maksimum %1 risk
 
 
 BIST_LIST = [
@@ -256,6 +260,40 @@ def prepare_indicators(df: pd.DataFrame) -> pd.DataFrame:
     df["LOW50_PREV"] = df["Low"].rolling(50).min().shift(1)
 
     return df
+
+
+
+# =========================
+# RİSK YÖNETİMİ - GÜVENLİ MOD
+# =========================
+
+def calculate_position_size(balance: float, entry: float, stop: float, risk_rate: float = RISK_PER_TRADE) -> dict:
+    """
+    Güvenli mod pozisyon hesabı:
+    Her işlemde toplam portföyün sadece belirlenen oranı kadar risk alınır.
+    Varsayılan: %1 risk.
+    """
+    risk_amount = balance * risk_rate
+    risk_per_share = entry - stop
+
+    if risk_per_share <= 0:
+        return {
+            "lot": 0,
+            "risk_amount": risk_amount,
+            "risk_pct": 0,
+            "position_value": 0
+        }
+
+    lot = int(risk_amount / risk_per_share)
+    position_value = lot * entry
+    risk_pct = (risk_per_share / entry) * 100
+
+    return {
+        "lot": lot,
+        "risk_amount": risk_amount,
+        "risk_pct": risk_pct,
+        "position_value": position_value
+    }
 
 
 # =========================
@@ -507,8 +545,16 @@ def analyze_symbol(symbol: str) -> dict | None:
     target = entry + 2 * risk
     rr = (target - entry) / risk if risk > 0 else 0
 
+    early_exit = rsi > 72 and close < ema9 and close < prev_close
+
     # Sinyal sınıflandırma
-    if setup_type == "BREAKDOWN" or score <= SAT_ESIK:
+    if early_exit:
+        signal = "🔴 ERKEN ÇIKIŞ / KÂR KORU"
+        signal_key = "sat"
+        action = "SAT"
+        reasons.append("RSI yüksekken fiyat EMA9 altına indi; güvenli mod erken çıkış uyarısı")
+
+    elif setup_type == "BREAKDOWN" or score <= SAT_ESIK:
         signal = "🔴 SAT / UZAK DUR"
         signal_key = "sat"
         action = "SAT"
@@ -550,9 +596,11 @@ def analyze_symbol(symbol: str) -> dict | None:
             action = "TAKIP"
             reasons.append(f"AL sinyali filtrelendi: {filter_reason}")
 
+    risk_info = calculate_position_size(PORTFOLIO_BALANCE, entry, stop)
+
     warning = ""
-    if rsi >= 80:
-        warning = "⚠️ RSI çok yüksek. Kâr satışı / düzeltme riski artmış olabilir."
+    if rsi >= 75:
+        warning = "⚠️ Güvenli mod uyarısı: RSI yüksek. Kâr satışı / düzeltme riski artabilir."
 
     return {
         "symbol": symbol,
@@ -571,6 +619,10 @@ def analyze_symbol(symbol: str) -> dict | None:
         "stop": stop,
         "target": target,
         "rr": rr,
+        "position_lot": risk_info["lot"],
+        "position_value": risk_info["position_value"],
+        "risk_amount": risk_info["risk_amount"],
+        "risk_pct": risk_info["risk_pct"],
         "reasons": reasons,
         "warning": warning,
         "general": setup_comment(setup_type),
@@ -595,7 +647,13 @@ Hacim: {result['vol_ratio']:.2f} ({volume_comment(result['vol_ratio'])})
 
 STOP: {result['stop']:.2f}
 HEDEF: {result['target']:.2f}
-R/R: {result['rr']:.2f} (İyi risk/ödül)
+R/R: {result['rr']:.2f} (Güvenli mod hedefi: 1.8+)
+
+Pozisyon Önerisi:
+Maks lot: {result['position_lot']}
+Yaklaşık işlem tutarı: {result['position_value']:.2f} TL
+Maks risk: {result['risk_amount']:.2f} TL
+Stop mesafesi: %{result['risk_pct']:.2f}
 {warning_line}
 Öne çıkan nedenler:
 {reasons_text}
@@ -690,7 +748,23 @@ def update_open_trades() -> list[str]:
 
             profit_pct = (last_price - entry) / entry * 100
 
-            if profit_pct >= TRAILING_START_PROFIT:
+            # Güvenli mod kâr koruma:
+            # %2 kârda stop giriş fiyatına çekilir.
+            if profit_pct >= 2 and stop < entry:
+                trade["stop"] = round(entry, 4)
+                stop = entry
+                changed = True
+
+            # %4 kârda trailing stop daha sıkı çalışır.
+            if profit_pct >= 4:
+                trailing_stop = float(trade["highest_price"]) * 0.985
+                old_trailing = trade.get("trailing_stop")
+
+                if old_trailing is None or trailing_stop > float(old_trailing):
+                    trade["trailing_stop"] = round(trailing_stop, 4)
+                    changed = True
+
+            elif profit_pct >= TRAILING_START_PROFIT:
                 trailing_stop = float(trade["highest_price"]) * (1 - TRAILING_STOP_DISTANCE / 100)
                 old_trailing = trade.get("trailing_stop")
 
@@ -883,7 +957,10 @@ Teknik HEDEF: {result['target']:.2f}
 R/R: {result['rr']:.2f}
 
 Yorum:
-{result['general']}""".strip())
+{result['general']}
+
+Aksiyon:
+{result.get('action_text', '').replace('Aksiyon: ', '')}""".strip())
 
         except Exception as e:
             portfolio_messages.append(
@@ -917,7 +994,10 @@ RSI: {result['rsi']:.1f}
 Hacim: {result['vol_ratio']:.2f}
 
 Yorum:
-{result['general']}""".strip())
+{result['general']}
+
+Aksiyon:
+{result.get('action_text', '').replace('Aksiyon: ', '')}""".strip())
 
     split_and_send("🚨 <b>ACİL PORTFÖY UYARILARI</b>", urgent_messages)
 
@@ -1012,10 +1092,11 @@ SAT / UZAK DUR: {len(sat_results)}
 Portföy SAT uyarısı: {len(portfolio_sat_results)}
 Hata/atlanan: {len(errors)}
 
-Seviye 3 aktif:
-✅ Kırılım
-✅ Pullback
-✅ Açık işlem takibi
+Seviye 3 Güvenli Mod aktif:
+✅ Daha sıkı AL filtresi
+✅ Kırılım + Pullback
+✅ %1 risk kuralı
+✅ Kâr koruma stopu
 ✅ Trailing stop"""
     send_telegram(summary)
 
