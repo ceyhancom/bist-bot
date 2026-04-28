@@ -573,7 +573,8 @@ def analyze_symbol(symbol: str) -> dict | None:
         "rr": rr,
         "reasons": reasons,
         "warning": warning,
-        "general": f"{setup_comment(setup_type)} {action_comment(action)}"
+        "general": setup_comment(setup_type),
+        "action_text": action_comment(action),
     }
 
 
@@ -600,7 +601,9 @@ R/R: {result['rr']:.2f} (İyi risk/ödül)
 {reasons_text}
 
 Genel değerlendirme:
-{result['general']}""".strip()
+{result['general']}
+
+{result['action_text']}
 
 
 # =========================
