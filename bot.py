@@ -55,6 +55,25 @@ MAX_AL_SIGNAL = 10
 MAX_TAKIP_SIGNAL = 10
 MAX_SAT_SIGNAL = 10
 
+# Portföyünde olan hisseleri ve maliyetlerini buraya yaz.
+# BIST100 içinde olmasa bile bu hisseler ayrıca analiz edilir.
+# Örnek:
+# PORTFOLIO = [
+#     {"symbol": "ASELS.IS", "entry": 58.00},
+#     {"symbol": "THYAO.IS", "entry": 285.00},
+# ]
+PORTFOLIO = [
+    # {"symbol": "ASTOR.IS", "entry": 196.80},
+    # {"symbol": "DESPC.IS", "entry": 43.90},
+    # {"symbol": "EMPAE.IS", "entry": 48.68},
+    # {"symbol": "ISKPL.IS", "entry": 13.41},
+    # {"symbol": "MRGYO.IS", "entry": 1.93},
+    # {"symbol": "SERNT.IS", "entry": 9.40},
+    # {"symbol": "TAVHL.IS", "entry": 323.00},
+]
+
+PORTFOLIO_LIST = [item["symbol"] for item in PORTFOLIO]
+
 # Sinyal eşikleri
 COK_GUCLU_AL_ESIK = 85
 GUCLU_AL_ESIK = 70
@@ -245,16 +264,16 @@ def prepare_indicators(df: pd.DataFrame) -> pd.DataFrame:
 
 def rsi_comment(rsi: float) -> str:
     if rsi >= 80:
-        return "Aşırı alım, dikkat"
+        return "Aşırı alım var, dikkat!"
     if rsi >= 70:
-        return "Güçlü ama düzeltme riski var"
+        return "Güçlü ama düzeltme riski var!"
     if rsi >= 55:
-        return "Sağlıklı pozitif momentum"
+        return "Sağlıklı pozitif momentum var"
     if rsi >= 45:
         return "Kararsız / nötr"
     if rsi >= 30:
-        return "Zayıf momentum"
-    return "Aşırı satım, tepki gelebilir"
+        return "Zayıf momentum var"
+    return "Aşırı satım var, tepki gelebilir"
 
 
 def volume_comment(vol_ratio: float) -> str:
@@ -263,7 +282,7 @@ def volume_comment(vol_ratio: float) -> str:
     if vol_ratio >= 1.5:
         return "Güçlü hacim"
     if vol_ratio >= 1.2:
-        return "Hacim destekli"
+        return "Destekli hacim"
     if vol_ratio >= 1:
         return "Normal hacim"
     return "Zayıf hacim"
@@ -300,6 +319,27 @@ def action_comment(action: str) -> str:
         "BEKLE": "Aksiyon: Bekle. Sinyal kalitesi düşük."
     }
     return comments.get(action, "Aksiyon: Bekle.")
+
+
+def setup_label(setup_type: str) -> str:
+    labels = {
+        "BREAKOUT": "Yukarı Kırılım",
+        "PULLBACK": "Trend İçi Geri Çekilme",
+        "TREND": "Güçlü Trend",
+        "BREAKDOWN": "Aşağı Kırılım",
+        "WEAK": "Zayıf Görünüm"
+    }
+    return labels.get(setup_type, setup_type)
+
+
+def action_label(action: str) -> str:
+    labels = {
+        "AL": "AL",
+        "TAKIP": "TAKİP",
+        "SAT": "SAT / UZAK DUR",
+        "BEKLE": "BEKLE"
+    }
+    return labels.get(action, action)
 
 
 # =========================
@@ -544,7 +584,7 @@ def format_signal(result: dict) -> str:
     return f"""<b>{result['symbol']}</b>
 
 Sinyal: {result['signal']}
-Setup: {result['setup_type']}
+Setup: {setup_label(result['setup_type'])}
 Kırılım: {result['kirillim']}
 Fiyat: {result['price']:.2f}
 
@@ -765,6 +805,120 @@ En iyi: {best['symbol']} %{best['result_pct']} ({best['close_reason']})
 En zayıf: {worst['symbol']} %{worst['result_pct']} ({worst['close_reason']})"""
 
 
+
+# =========================
+# PORTFÖY MODU
+# =========================
+
+def analyze_portfolio() -> tuple[list[str], list[dict]]:
+    """
+    PORTFOLIO içindeki hisseleri her durumda analiz eder.
+    Hisse BIST100 listesinde olmasa bile çalışır.
+    Dönüş:
+    - Telegram'a gönderilecek portföy analiz mesajları
+    - SAT sinyali veren portföy sonuçları
+    """
+    portfolio_messages = []
+    portfolio_sat_results = []
+
+    if not PORTFOLIO:
+        return portfolio_messages, portfolio_sat_results
+
+    for item in PORTFOLIO:
+        symbol = item.get("symbol")
+        entry = float(item.get("entry", 0))
+
+        if not symbol or entry <= 0:
+            continue
+
+        try:
+            result = analyze_symbol(symbol)
+
+            if not result:
+                portfolio_messages.append(
+                    f"<b>{symbol}</b>\n\n"
+                    f"Durum: Veri alınamadı veya yeterli mum yok.\n"
+                    f"Giriş: {entry:.2f}"
+                )
+                continue
+
+            current = float(result["price"])
+            change = (current - entry) / entry * 100
+
+            # Portföy için daha korumacı stop:
+            # teknik stop ile EMA20'den düşük olanı alıyoruz.
+            smart_stop = min(float(result["stop"]), float(result["ema20"]))
+
+            if result["signal_key"] == "sat":
+                status = "🔴 SAT SİNYALİ"
+                portfolio_sat_results.append(result)
+            elif change >= 5:
+                status = "🟢 KÂRDA - Güçlü"
+            elif change > 0:
+                status = "🟡 KÂRDA"
+            elif change > -3:
+                status = "⚪ NÖTR"
+            else:
+                status = "🔻 ZARARDA"
+
+            portfolio_messages.append(f"""<b>{symbol}</b>
+
+Durum: {status}
+Giriş/Maliyet: {entry:.2f}
+Güncel Fiyat: {current:.2f}
+Getiri: %{change:.2f}
+
+Sinyal: {result['signal']}
+Setup: {setup_label(result['setup_type'])}
+Skor: {result['score']} ({score_comment(result['score'])})
+RSI: {result['rsi']:.1f} ({rsi_comment(result['rsi'])})
+Hacim: {result['vol_ratio']:.2f} ({volume_comment(result['vol_ratio'])})
+
+Önerilen STOP: {smart_stop:.2f}
+Teknik HEDEF: {result['target']:.2f}
+R/R: {result['rr']:.2f}
+
+Yorum:
+{result['general']}""".strip())
+
+        except Exception as e:
+            portfolio_messages.append(
+                f"<b>{symbol}</b>\n\n"
+                f"Portföy analiz hatası: {str(e)}"
+            )
+
+    return portfolio_messages, portfolio_sat_results
+
+
+def send_urgent_portfolio_warnings(portfolio_sat_results: list[dict]) -> None:
+    """
+    Portföydeki hisselerden SAT / UZAK DUR sinyali verenleri ayrıca uyarır.
+    """
+    if not portfolio_sat_results:
+        return
+
+    urgent_messages = []
+
+    for result in portfolio_sat_results:
+        urgent_messages.append(f"""🚨 <b>PORTFÖY SAT UYARISI</b>
+
+<b>{result['symbol']}</b>
+Fiyat: {result['price']:.2f}
+Sinyal: {result['signal']}
+Setup: {setup_label(result['setup_type'])}
+Kırılım: {result['kirillim']}
+
+Skor: {result['score']}
+RSI: {result['rsi']:.1f}
+Hacim: {result['vol_ratio']:.2f}
+
+Yorum:
+{result['general']}""".strip())
+
+    split_and_send("🚨 <b>ACİL PORTFÖY UYARILARI</b>", urgent_messages)
+
+
+
 # =========================
 # TARAMA
 # =========================
@@ -778,9 +932,18 @@ def scan_market(mode: str = "intraday") -> None:
     if trade_alerts:
         split_and_send("📌 <b>AÇIK İŞLEM GÜNCELLEMELERİ</b>", trade_alerts)
 
+    portfolio_messages, portfolio_sat_from_portfolio = analyze_portfolio()
+
+    if portfolio_messages:
+        split_and_send("💼 <b>PORTFÖY ANALİZİ</b>", portfolio_messages)
+
+    if portfolio_sat_from_portfolio:
+        send_urgent_portfolio_warnings(portfolio_sat_from_portfolio)
+
     al_results = []
     takip_results = []
     sat_results = []
+    portfolio_sat_results = []
     errors = []
 
     for symbol in BIST_LIST:
@@ -806,6 +969,9 @@ def scan_market(mode: str = "intraday") -> None:
                 add_unique(state, "sat", symbol)
                 sat_results.append(result)
 
+                if symbol in PORTFOLIO_LIST:
+                    portfolio_sat_results.append(result)
+
             time.sleep(0.25)
 
         except Exception as e:
@@ -817,7 +983,15 @@ def scan_market(mode: str = "intraday") -> None:
 
     al_results = sorted(al_results, key=lambda x: x["score"], reverse=True)[:MAX_AL_SIGNAL]
     takip_results = sorted(takip_results, key=lambda x: x["score"], reverse=True)[:MAX_TAKIP_SIGNAL]
+    # BIST taramasından gelen portföy SAT uyarıları + ayrı portföy analizinden gelenleri birleştir.
+    seen_portfolio_sat = {r["symbol"] for r in portfolio_sat_results}
+    for r in portfolio_sat_from_portfolio:
+        if r["symbol"] not in seen_portfolio_sat:
+            portfolio_sat_results.append(r)
+            seen_portfolio_sat.add(r["symbol"])
+
     sat_results = sorted(sat_results, key=lambda x: x["score"])[:MAX_SAT_SIGNAL]
+    portfolio_sat_results = sorted(portfolio_sat_results, key=lambda x: x["score"])
 
     if mode == "evening":
         stats = performance_stats()
@@ -831,6 +1005,7 @@ Taranan hisse: {len(BIST_LIST)}
 AL sinyali: {len(al_results)}
 TAKİP: {len(takip_results)}
 SAT / UZAK DUR: {len(sat_results)}
+Portföy SAT uyarısı: {len(portfolio_sat_results)}
 Hata/atlanan: {len(errors)}
 
 Seviye 3 aktif:
@@ -845,11 +1020,19 @@ Seviye 3 aktif:
     else:
         send_telegram("✅ Tarama tamamlandı. Kaliteli AL sinyali bulunamadı.")
 
-    if mode == "morning" and takip_results:
-        split_and_send("🟡 <b>TAKİP LİSTESİ</b>", [format_signal(r) for r in takip_results])
+    if takip_results:
+        split_and_send("🟡 <b>TAKİP EDİLECEK HİSSELER</b>", [format_signal(r) for r in takip_results])
+    else:
+        send_telegram("🟡 Takip edilecek hisse bulunamadı.")
 
-    if mode == "morning" and sat_results:
-        split_and_send("🔴 <b>RİSKLİ / UZAK DUR LİSTESİ</b>", [format_signal(r) for r in sat_results])
+    if sat_results:
+        split_and_send("🔴 <b>SAT / UZAK DUR SİNYALLERİ</b>", [format_signal(r) for r in sat_results])
+
+    if portfolio_sat_results:
+        split_and_send(
+            "🚨 <b>PORTFÖYÜNDEKİ SAT UYARILARI</b>",
+            [format_signal(r) for r in portfolio_sat_results]
+        )
 
 
 def get_title(mode: str, now: datetime) -> str:
@@ -861,6 +1044,8 @@ def get_title(mode: str, now: datetime) -> str:
 
 
 def send_evening_summary(state: dict, stats: dict, error_count: int = 0) -> None:
+    portfolio_sat_symbols = [s for s in state.get("sat", []) if s in PORTFOLIO_LIST]
+
     text = f"""🌙 <b>BIST100 GÜN SONU GENEL ÖZET - SEVİYE 3</b>
 
 Tarih: {datetime.now(TZ).strftime('%d.%m.%Y')}
@@ -873,6 +1058,9 @@ Tarih: {datetime.now(TZ).strftime('%d.%m.%Y')}
 
 🔴 Gün Boyu SAT / UZAK DUR Sinyali Gelenler:
 {format_symbol_list(state.get('sat', []))}
+
+🚨 Portföyündeki SAT Uyarıları:
+{format_symbol_list(portfolio_sat_symbols)}
 
 {format_performance_summary(stats)}
 
