@@ -602,7 +602,6 @@ R/R: {result['rr']:.2f} (İyi risk/ödül)
 
 Genel değerlendirme:
 {result['general']}
-
 {result['action_text']}
 
 
