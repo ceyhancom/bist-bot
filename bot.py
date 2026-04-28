@@ -602,7 +602,9 @@ R/R: {result['rr']:.2f} (İyi risk/ödül)
 
 Genel değerlendirme:
 {result['general']}
-{result['action_text']}
+
+Aksiyon:
+{result['action_text'].replace("Aksiyon: ", "")}""".strip()
 
 
 # =========================
