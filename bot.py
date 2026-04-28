@@ -1,12 +1,17 @@
 # -*- coding: utf-8 -*-
 """
-BIST100 Telegram Tarama Botu
-- Sabah genel değerlendirme
-- Gün içi AL / TAKİP / SAT takip taraması
-- Gün sonu özet
-- RSI + EMA + Hacim + Kırılım + ATR + R/R
+BIST100 Telegram Tarama Botu - Temiz PRO Sürüm
 
-Gerekli GitHub Secrets / Ortam Değişkenleri:
+Özellikler:
+- BIST100 teknik tarama
+- RSI + EMA + Hacim + Kırılım + ATR + R/R puanlama
+- Fake sinyal filtresi
+- Sadece en güçlü 10 AL sinyalini gönderme
+- Gün içi TAKİP / SAT listesi
+- Gün sonu AL / TAKİP / SAT özeti
+- Basit performans takibi
+
+GitHub Secrets / Ortam Değişkenleri:
 TELEGRAM_TOKEN
 TELEGRAM_CHAT_ID
 
@@ -30,7 +35,7 @@ import pytz
 
 
 # =========================
-# AYARLAR
+# GENEL AYARLAR
 # =========================
 
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN", "")
@@ -42,20 +47,22 @@ PERIOD = "60d"
 INTERVAL = "1h"
 
 STATE_FILE = Path("gunluk_sinyaller.json")
+PERFORMANCE_FILE = Path("performance.json")
+
+MAX_AL_SIGNAL = 10
 
 # Sinyal eşikleri
-AL_ESIK = 65
 COK_GUCLU_AL_ESIK = 80
+GUCLU_AL_ESIK = 65
 TAKIP_ESIK = 50
 SAT_ESIK = 35
 
-# Risk / ödül filtresi
-MIN_RR = 1.5
-
-# Hacim filtresi
+# Kalite filtreleri
+MIN_SCORE_FOR_SIGNAL = 60
+MAX_RSI_FOR_AL = 80
 MIN_VOL_RATIO_FOR_AL = 1.0
+MIN_RR_FOR_AL = 1.5
 
-# BIST100 listesi zamanla değişebilir. Gerekirse sadece bu listeyi güncelle.
 BIST_LIST = [
     "AEFES.IS", "AGHOL.IS", "AKBNK.IS", "AKSA.IS", "AKSEN.IS",
     "ALARK.IS", "ALTNY.IS", "ANSGR.IS", "ARCLK.IS", "ASELS.IS",
@@ -98,46 +105,53 @@ def send_telegram(text: str) -> None:
     }
 
     try:
-        r = requests.post(url, data=payload, timeout=20)
-        if r.status_code != 200:
-            print("Telegram hata:", r.status_code, r.text)
+        response = requests.post(url, data=payload, timeout=20)
+        if response.status_code != 200:
+            print("Telegram hata:", response.status_code, response.text)
     except Exception as e:
         print("Telegram gönderim hatası:", e)
 
 
-def split_and_send(title: str, lines: list[str], max_chars: int = 3500) -> None:
-    if not lines:
-        send_telegram(title)
+def split_and_send(title: str, messages: list[str], max_chars: int = 3500) -> None:
+    if not messages:
         return
 
-    msg = title + "\n\n"
-    for line in lines:
-        if len(msg) + len(line) + 2 > max_chars:
-            send_telegram(msg)
-            msg = ""
-        msg += line + "\n\n"
+    text = title + "\n\n"
 
-    if msg.strip():
-        send_telegram(msg.strip())
+    for msg in messages:
+        if len(text) + len(msg) + 2 > max_chars:
+            send_telegram(text.strip())
+            text = title + "\n\n"
+        text += msg + "\n\n"
+
+    if text.strip() != title:
+        send_telegram(text.strip())
 
 
 # =========================
-# GÜNLÜK HAFIZA
+# JSON DOSYA İŞLEMLERİ
 # =========================
+
+def read_json(path: Path, default):
+    if not path.exists():
+        return default
+
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        return default
+
+
+def write_json(path: Path, data) -> None:
+    path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+
 
 def load_state() -> dict:
     today = datetime.now(TZ).strftime("%Y-%m-%d")
+    state = read_json(STATE_FILE, {})
 
-    if STATE_FILE.exists():
-        try:
-            data = json.loads(STATE_FILE.read_text(encoding="utf-8"))
-        except Exception:
-            data = {}
-    else:
-        data = {}
-
-    if data.get("date") != today:
-        data = {
+    if state.get("date") != today:
+        state = {
             "date": today,
             "al": [],
             "takip": [],
@@ -145,11 +159,11 @@ def load_state() -> dict:
             "errors": []
         }
 
-    return data
+    return state
 
 
-def save_state(data: dict) -> None:
-    STATE_FILE.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+def save_state(state: dict) -> None:
+    write_json(STATE_FILE, state)
 
 
 def add_unique(state: dict, key: str, symbol: str) -> None:
@@ -158,7 +172,156 @@ def add_unique(state: dict, key: str, symbol: str) -> None:
 
 
 # =========================
-# GÖSTERGELER
+# PERFORMANS TAKİBİ
+# =========================
+
+def load_performance() -> list[dict]:
+    return read_json(PERFORMANCE_FILE, [])
+
+
+def save_performance(data: list[dict]) -> None:
+    write_json(PERFORMANCE_FILE, data)
+
+
+def save_trade_signal(result: dict) -> None:
+    """
+    Aynı hisse aynı gün tekrar AL verdiyse tekrar kaydetmez.
+    """
+    today = datetime.now(TZ).strftime("%Y-%m-%d")
+    data = load_performance()
+
+    for trade in data:
+        if trade.get("symbol") == result["symbol"] and trade.get("date") == today:
+            return
+
+    data.append({
+        "symbol": result["symbol"],
+        "date": today,
+        "entry": round(result["price"], 4),
+        "score": result["score"],
+        "rsi": round(result["rsi"], 2),
+        "vol_ratio": round(result["vol_ratio"], 2),
+        "stop": round(result["stop"], 4),
+        "target": round(result["target"], 4),
+        "status": "open"
+    })
+
+    save_performance(data)
+
+
+def check_performance() -> dict:
+    """
+    Açık işlemleri son fiyatla kontrol eder.
+    Hedef/stop görülürse kapatır.
+    En az 1 gün geçmiş açık kayıtları da güncel fiyattan kapatır.
+    """
+    data = load_performance()
+    today = datetime.now(TZ).strftime("%Y-%m-%d")
+    changed = False
+
+    for trade in data:
+        if trade.get("status") != "open":
+            continue
+
+        symbol = trade["symbol"]
+
+        try:
+            df = yf.download(symbol, period="5d", interval="1h", progress=False, auto_adjust=False)
+
+            if df is None or df.empty:
+                continue
+
+            if isinstance(df.columns, pd.MultiIndex):
+                df.columns = [c[0] for c in df.columns]
+
+            last_price = float(df["Close"].iloc[-1])
+            high_max = float(df["High"].max())
+            low_min = float(df["Low"].min())
+
+            entry = float(trade["entry"])
+            stop = float(trade["stop"])
+            target = float(trade["target"])
+
+            change_pct = (last_price - entry) / entry * 100
+
+            close_reason = None
+            close_price = last_price
+
+            if low_min <= stop:
+                close_reason = "STOP"
+                close_price = stop
+            elif high_max >= target:
+                close_reason = "HEDEF"
+                close_price = target
+            elif trade.get("date") != today:
+                close_reason = "GÜN SONU KAPANIŞ"
+                close_price = last_price
+
+            if close_reason:
+                trade["status"] = "closed"
+                trade["exit"] = round(close_price, 4)
+                trade["exit_date"] = today
+                trade["result_pct"] = round((close_price - entry) / entry * 100, 2)
+                trade["close_reason"] = close_reason
+                changed = True
+            else:
+                trade["last_price"] = round(last_price, 4)
+                trade["live_result_pct"] = round(change_pct, 2)
+                changed = True
+
+        except Exception as e:
+            trade["performance_error"] = str(e)
+            changed = True
+
+    if changed:
+        save_performance(data)
+
+    closed_today = [
+        t for t in data
+        if t.get("status") == "closed" and t.get("exit_date") == today
+    ]
+
+    if not closed_today:
+        return {
+            "count": 0,
+            "avg": 0,
+            "success_rate": 0,
+            "best": None,
+            "worst": None
+        }
+
+    results = [float(t.get("result_pct", 0)) for t in closed_today]
+    success = [r for r in results if r > 0]
+
+    best = max(closed_today, key=lambda x: x.get("result_pct", -999))
+    worst = min(closed_today, key=lambda x: x.get("result_pct", 999))
+
+    return {
+        "count": len(closed_today),
+        "avg": round(sum(results) / len(results), 2),
+        "success_rate": round(len(success) / len(results) * 100, 1),
+        "best": best,
+        "worst": worst
+    }
+
+
+def format_performance_summary(stats: dict) -> str:
+    if stats["count"] == 0:
+        return "📈 Performans: Bugün kapanan işlem yok."
+
+    best = stats["best"]
+    worst = stats["worst"]
+
+    return f"""📈 <b>PERFORMANS</b>
+Kapanan işlem: {stats['count']}
+Ortalama getiri: %{stats['avg']}
+Başarı oranı: %{stats['success_rate']}
+En iyi: {best['symbol']} %{best['result_pct']} ({best['close_reason']})
+En zayıf: {worst['symbol']} %{worst['result_pct']} ({worst['close_reason']})"""
+
+
+# =========================
+# TEKNİK GÖSTERGELER
 # =========================
 
 def calc_rsi(close: pd.Series, period: int = 14) -> pd.Series:
@@ -170,8 +333,7 @@ def calc_rsi(close: pd.Series, period: int = 14) -> pd.Series:
     avg_loss = loss.rolling(period).mean()
 
     rs = avg_gain / avg_loss
-    rsi = 100 - (100 / (1 + rs))
-    return rsi
+    return 100 - (100 / (1 + rs))
 
 
 def calc_atr(df: pd.DataFrame, period: int = 14) -> pd.Series:
@@ -199,7 +361,7 @@ def prepare_indicators(df: pd.DataFrame) -> pd.DataFrame:
 
 
 # =========================
-# ANALİZ
+# YORUM FONKSİYONLARI
 # =========================
 
 def rsi_comment(rsi: float) -> str:
@@ -240,6 +402,29 @@ def score_comment(score: int) -> str:
     return "Negatif"
 
 
+def create_general_comment(score, rsi, vol_ratio, breakout_up, breakdown_down, ema20, ema50) -> str:
+    if breakdown_down:
+        return "Destek kırılımı var. Risk yükselmiş durumda."
+
+    if score >= 80 and breakout_up and vol_ratio >= 1.2:
+        return "Trend, hacim ve kırılım aynı yönde. Sinyal güçlü; stop seviyesi takip edilmeli."
+
+    if score >= 65:
+        return "Teknik görünüm pozitif. Hacim ve RSI destekliyorsa yükseliş devam edebilir."
+
+    if score >= 50:
+        return "Takip edilebilir. Net alım için hacim veya kırılım teyidi beklenebilir."
+
+    if ema20 < ema50:
+        return "Trend zayıf. EMA20'nin EMA50 üzerine çıkması beklenebilir."
+
+    return "Sinyal zayıf. Daha net teknik teyit beklemek daha sağlıklı olur."
+
+
+# =========================
+# HİSSE ANALİZİ
+# =========================
+
 def analyze_symbol(symbol: str) -> dict | None:
     df = yf.download(symbol, period=PERIOD, interval=INTERVAL, progress=False, auto_adjust=False)
 
@@ -273,27 +458,27 @@ def analyze_symbol(symbol: str) -> dict | None:
     # Trend
     if ema20 > ema50:
         score += 30
-        reasons.append("EMA20 > EMA50, trend pozitif")
+        reasons.append("EMA20 > EMA50")
     else:
         score -= 10
-        reasons.append("EMA20 < EMA50, trend zayıf")
+        reasons.append("EMA20 < EMA50")
 
     # RSI
     if 50 < rsi <= 65:
         score += 25
-        reasons.append("RSI sağlıklı yükseliş bölgesinde")
+        reasons.append("RSI sağlıklı yükselişte")
     elif 65 < rsi <= 75:
         score += 20
-        reasons.append("RSI güçlü ama dikkat bölgesinde")
+        reasons.append("RSI güçlü")
     elif 75 < rsi <= 85:
         score += 10
-        reasons.append("RSI aşırı alım bölgesine yakın")
+        reasons.append("RSI yüksek")
     elif 40 < rsi <= 50:
         score += 5
-        reasons.append("RSI toparlanma denemesinde")
+        reasons.append("RSI toparlanıyor")
     elif rsi <= 35:
         score -= 10
-        reasons.append("RSI zayıf / aşırı satıma yakın")
+        reasons.append("RSI zayıf")
 
     # Hacim
     if vol_ratio >= 1.5:
@@ -316,11 +501,11 @@ def analyze_symbol(symbol: str) -> dict | None:
     if breakout_up:
         score += 20
         kirilim = "📈 Yukarı trend / direnç kırılımı"
-        reasons.append("20 periyotluk direnç yukarı kırıldı")
+        reasons.append("20 periyot direnç kırılımı")
     elif breakdown_down:
         score -= 20
         kirilim = "📉 Aşağı destek kırılımı"
-        reasons.append("20 periyotluk destek aşağı kırıldı")
+        reasons.append("20 periyot destek kırılımı")
     else:
         kirilim = "➖ Net kırılım yok"
 
@@ -339,11 +524,11 @@ def analyze_symbol(symbol: str) -> dict | None:
     target = entry + 2 * risk
     rr = (target - entry) / risk if risk > 0 else 0
 
-    # Sinyal sınıflandırma
-    if score >= COK_GUCLU_AL_ESIK and rr >= MIN_RR and vol_ratio >= MIN_VOL_RATIO_FOR_AL:
+    # Ana sinyal
+    if score >= COK_GUCLU_AL_ESIK:
         signal = "🔥 ÇOK GÜÇLÜ AL"
         signal_key = "al"
-    elif score >= AL_ESIK and rr >= MIN_RR and vol_ratio >= MIN_VOL_RATIO_FOR_AL:
+    elif score >= GUCLU_AL_ESIK:
         signal = "🟢 GÜÇLÜ AL"
         signal_key = "al"
     elif score >= TAKIP_ESIK:
@@ -356,7 +541,24 @@ def analyze_symbol(symbol: str) -> dict | None:
         signal = "⚪ ZAYIF"
         signal_key = "none"
 
-    # RSI çok aşırıysa uyarı ekle
+    # Fake sinyal / kalite filtresi
+    filter_reason = None
+
+    if signal_key == "al":
+        if rsi > MAX_RSI_FOR_AL:
+            filter_reason = "RSI çok yüksek"
+        elif vol_ratio < MIN_VOL_RATIO_FOR_AL:
+            filter_reason = "Hacim zayıf"
+        elif rr < MIN_RR_FOR_AL:
+            filter_reason = "Risk/ödül zayıf"
+        elif score < MIN_SCORE_FOR_SIGNAL:
+            filter_reason = "Skor düşük"
+
+        if filter_reason:
+            signal = "🟡 TAKİP"
+            signal_key = "takip"
+            reasons.append(f"AL sinyali filtrelendi: {filter_reason}")
+
     warning = ""
     if rsi >= 80:
         warning = "⚠️ RSI çok yüksek. Kâr satışı / düzeltme riski artmış olabilir."
@@ -381,26 +583,9 @@ def analyze_symbol(symbol: str) -> dict | None:
     }
 
 
-def create_general_comment(score, rsi, vol_ratio, breakout_up, breakdown_down, ema20, ema50) -> str:
-    if breakdown_down:
-        return "Destek kırılımı görüldüğü için risk artmış durumda. Yeni alım için acele edilmemeli."
-
-    if score >= 80 and breakout_up and vol_ratio >= 1.2:
-        return "Trend, hacim ve kırılım aynı yönde. Sinyal güçlü; yine de stop seviyesi takip edilmeli."
-
-    if score >= 65:
-        return "Teknik görünüm pozitif. Hacim ve RSI destekliyorsa yükseliş devam edebilir."
-
-    if score >= 50:
-        return "Hisse takip listesine alınabilir. Net alım için hacim veya kırılım teyidi beklenebilir."
-
-    if ema20 < ema50:
-        return "Trend zayıf. Güçlü alım için EMA20'nin EMA50 üzerine çıkması daha sağlıklı olur."
-
-    return "Sinyal zayıf. Daha net bir teknik teyit beklemek daha güvenli olur."
-
-
 def format_signal(result: dict) -> str:
+    warning_line = f"\n{result['warning']}\n" if result["warning"] else ""
+
     return f"""<b>{result['symbol']}</b>
 
 Sinyal: {result['signal']}
@@ -414,33 +599,25 @@ Hacim: {result['vol_ratio']:.2f} ({volume_comment(result['vol_ratio'])})
 STOP: {result['stop']:.2f}
 HEDEF: {result['target']:.2f}
 R/R: {result['rr']:.2f} (İyi risk/ödül)
-
-{result['warning']}
-
+{warning_line}
 Genel değerlendirme:
 {result['general']}""".strip()
 
 
 # =========================
-# TARAMA MODLARI
+# TARAMA
 # =========================
 
 def scan_market(mode: str = "intraday") -> None:
     now = datetime.now(TZ)
     state = load_state()
 
-    title_map = {
-        "morning": f"🌅 BIST100 SABAH GENEL DEĞERLENDİRME\nSaat: {now.strftime('%d.%m.%Y %H:%M')}",
-        "intraday": f"📊 BIST100 15 DK TARAMA\nSaat: {now.strftime('%d.%m.%Y %H:%M')}",
-        "evening": f"🌙 BIST100 GÜN SONU ÖZETİ\nSaat: {now.strftime('%d.%m.%Y %H:%M')}"
-    }
-
-    al_lines = []
-    takip_lines = []
-    sat_lines = []
+    al_results = []
+    takip_results = []
+    sat_results = []
     errors = []
 
-    for i, symbol in enumerate(BIST_LIST, start=1):
+    for symbol in BIST_LIST:
         try:
             result = analyze_symbol(symbol)
 
@@ -452,13 +629,16 @@ def scan_market(mode: str = "intraday") -> None:
 
             if key == "al":
                 add_unique(state, "al", symbol)
-                al_lines.append(format_signal(result))
+                al_results.append(result)
+                save_trade_signal(result)
+
             elif key == "takip":
                 add_unique(state, "takip", symbol)
-                takip_lines.append(format_signal(result))
+                takip_results.append(result)
+
             elif key == "sat":
                 add_unique(state, "sat", symbol)
-                sat_lines.append(format_signal(result))
+                sat_results.append(result)
 
             time.sleep(0.25)
 
@@ -469,34 +649,49 @@ def scan_market(mode: str = "intraday") -> None:
 
     save_state(state)
 
+    al_results = sorted(al_results, key=lambda x: x["score"], reverse=True)[:MAX_AL_SIGNAL]
+    takip_results = sorted(takip_results, key=lambda x: x["score"], reverse=True)[:10]
+    sat_results = sorted(sat_results, key=lambda x: x["score"])[:10]
+
     if mode == "evening":
-        send_evening_summary(state, len(errors))
+        stats = check_performance()
+        send_evening_summary(state, stats, len(errors))
         return
 
-    header = title_map.get(mode, "📊 BIST100 TARAMA")
-    short_summary = (
-        f"{header}\n\n"
-        f"Taranan hisse: {len(BIST_LIST)}\n"
-        f"AL sinyali: {len(al_lines)}\n"
-        f"TAKİP: {len(takip_lines)}\n"
-        f"SAT / UZAK DUR: {len(sat_lines)}\n"
-        f"Hata/atlanan: {len(errors)}"
-    )
-    send_telegram(short_summary)
+    title = get_title(mode, now)
 
-    if al_lines:
-        split_and_send("🟢 AL Sinyalleri", al_lines)
+    summary = f"""{title}
+
+Taranan hisse: {len(BIST_LIST)}
+AL sinyali: {len(al_results)}
+TAKİP: {len(takip_results)}
+SAT / UZAK DUR: {len(sat_results)}
+Hata/atlanan: {len(errors)}
+
+Not: AL tarafında yalnızca en güçlü {MAX_AL_SIGNAL} sinyal gönderilir."""
+    send_telegram(summary)
+
+    if al_results:
+        split_and_send("🟢 <b>EN GÜÇLÜ AL SİNYALLERİ</b>", [format_signal(r) for r in al_results])
     else:
-        send_telegram("✅ Tarama tamamlandı. Uygun AL sinyali bulunamadı.")
+        send_telegram("✅ Tarama tamamlandı. Kaliteli AL sinyali bulunamadı.")
 
-    if takip_lines and mode == "morning":
-        split_and_send("🟡 Takip Listesi", takip_lines[:10])
+    if mode == "morning" and takip_results:
+        split_and_send("🟡 <b>TAKİP LİSTESİ</b>", [format_signal(r) for r in takip_results])
 
-    if sat_lines and mode == "morning":
-        split_and_send("🔴 Riskli / Uzak Dur Listesi", sat_lines[:10])
+    if mode == "morning" and sat_results:
+        split_and_send("🔴 <b>RİSKLİ / UZAK DUR LİSTESİ</b>", [format_signal(r) for r in sat_results])
 
 
-def send_evening_summary(state: dict, error_count: int = 0) -> None:
+def get_title(mode: str, now: datetime) -> str:
+    if mode == "morning":
+        return f"🌅 <b>BIST100 SABAH GENEL DEĞERLENDİRME</b>\nSaat: {now.strftime('%d.%m.%Y %H:%M')}"
+    if mode == "evening":
+        return f"🌙 <b>BIST100 GÜN SONU ÖZETİ</b>\nSaat: {now.strftime('%d.%m.%Y %H:%M')}"
+    return f"📊 <b>BIST100 15 DK TARAMA</b>\nSaat: {now.strftime('%d.%m.%Y %H:%M')}"
+
+
+def send_evening_summary(state: dict, stats: dict, error_count: int = 0) -> None:
     text = f"""🌙 <b>BIST100 GÜN SONU GENEL ÖZET</b>
 
 Tarih: {datetime.now(TZ).strftime('%d.%m.%Y')}
@@ -510,6 +705,8 @@ Tarih: {datetime.now(TZ).strftime('%d.%m.%Y')}
 🔴 Gün Boyu SAT / UZAK DUR Sinyali Gelenler:
 {format_symbol_list(state.get('sat', []))}
 
+{format_performance_summary(stats)}
+
 Hata/atlanan: {error_count}
 
 Not:
@@ -522,11 +719,11 @@ Stop seviyesi ve risk yönetimi mutlaka kullanılmalıdır.
 def format_symbol_list(symbols: list[str]) -> str:
     if not symbols:
         return "Yok"
-    return "\n".join(f"- {s}" for s in symbols)
+    return "\n".join(f"- {symbol}" for symbol in symbols)
 
 
 # =========================
-# ZAMAN KONTROLÜ
+# ZAMANLAMA
 # =========================
 
 def is_weekday() -> bool:
@@ -535,8 +732,8 @@ def is_weekday() -> bool:
 
 def market_session() -> str:
     """
-    GitHub Actions her 15 dakikada bir çalıştırılabilir.
-    Bot bu saate göre hangi raporu atacağını kendi belirler.
+    GitHub Actions 15 dakikada bir çalışabilir.
+    Bot hangi mesajı atacağını saate göre seçer.
 
     Sabah değerlendirme: 09:30 - 09:45
     Gün içi tarama: 10:00 - 18:00
