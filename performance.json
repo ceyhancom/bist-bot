@@ -9,7 +9,11 @@
     "stop": 410.6588,
     "target": 455.9324,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 410.6588,
+    "exit_date": "2026-04-29",
+    "result_pct": -3.54,
+    "close_reason": "STOP"
   },
   {
     "symbol": "CWENE.IS",
@@ -21,7 +25,11 @@
     "stop": 35.8786,
     "target": 38.8229,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 35.8786,
+    "exit_date": "2026-04-29",
+    "result_pct": -2.66,
+    "close_reason": "STOP"
   },
   {
     "symbol": "EREGL.IS",
@@ -33,7 +41,11 @@
     "stop": 33.1354,
     "target": 35.9091,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 33.1354,
+    "exit_date": "2026-04-29",
+    "result_pct": -2.71,
+    "close_reason": "STOP"
   },
   {
     "symbol": "KRDMD.IS",
@@ -45,7 +57,11 @@
     "stop": 37.2071,
     "target": 39.0457,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 37.2071,
+    "exit_date": "2026-04-29",
+    "result_pct": -1.62,
+    "close_reason": "STOP"
   },
   {
     "symbol": "SOKM.IS",
@@ -57,7 +73,11 @@
     "stop": 50.185,
     "target": 52.03,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 50.185,
+    "exit_date": "2026-04-29",
+    "result_pct": -1.21,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TUPRS.IS",
@@ -69,6 +89,34 @@
     "stop": 268.6175,
     "target": 287.0149,
     "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 268.6175,
+    "exit_date": "2026-04-29",
+    "result_pct": -2.23,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "CIMSA.IS",
+    "date": "2026-04-29",
+    "entry": 57.35,
+    "score": 105,
+    "rsi": 60.78,
+    "vol_ratio": 1.12,
+    "stop": 55.6894,
+    "target": 60.6712,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "TUKAS.IS",
+    "date": "2026-04-29",
+    "entry": 2.68,
+    "score": 110,
+    "rsi": 66.67,
+    "vol_ratio": 1.48,
+    "stop": 2.6221,
+    "target": 2.7957,
+    "setup_type": "BREAKOUT",
     "status": "open"
   }
 ]
