@@ -252,11 +252,40 @@ def signal_key_label(signal_key: str) -> str:
     return labels.get(signal_key, signal_key.upper())
 
 
+def get_previous_signal_record(symbol: str, memory: dict) -> dict | None:
+    """
+    Yeni format:
+    memory[symbol] = {
+        "last": {...},
+        "history": [...]
+    }
+
+    Eski formatla uyumluluk:
+    memory[symbol] = {
+        "signal": "...",
+        "signal_key": "...",
+        ...
+    }
+    """
+    data = memory.get(symbol)
+
+    if not data:
+        return None
+
+    if isinstance(data, dict) and "last" in data:
+        return data.get("last")
+
+    if isinstance(data, dict) and "signal_key" in data:
+        return data
+
+    return None
+
+
 def build_signal_change_text(symbol: str, current_result: dict, memory: dict) -> str:
-    previous = memory.get(symbol)
+    previous = get_previous_signal_record(symbol, memory)
 
     if not previous:
-        return "İlk kayıt: Bu hisse için önceki sinyal bulunmuyor."
+        return "Önceki taramada bu hisse bulunmuyor. Bu ilk kayıt."
 
     prev_key = previous.get("signal_key", "none")
     curr_key = current_result.get("signal_key", "none")
@@ -269,6 +298,8 @@ def build_signal_change_text(symbol: str, current_result: dict, memory: dict) ->
 
     prev_price = previous.get("price")
     curr_price = current_result.get("price")
+
+    prev_time = previous.get("updated_at", "önceki tarama")
 
     rank_diff = signal_rank(curr_key) - signal_rank(prev_key)
 
@@ -291,22 +322,45 @@ def build_signal_change_text(symbol: str, current_result: dict, memory: dict) ->
             price_text = ""
 
     if curr_key == prev_key:
-        return f"Önceki sinyal de {signal_key_label(prev_key)} idi. Sinyal yönü değişmedi.{score_text}{price_text}"
+        return (
+            f"Önceki tarama ({prev_time}): {prev_signal}. "
+            f"Şimdi: {curr_signal}. Sinyal yönü değişmedi."
+            f"{score_text}{price_text}"
+        )
 
     if rank_diff > 0:
-        return f"Daha önce {prev_signal} vermişti; son verilere göre {curr_signal} seviyesine güçlendi.{score_text}{price_text}"
+        return (
+            f"Önceki tarama ({prev_time}): {prev_signal}. "
+            f"Şimdi: {curr_signal}. Sinyal güçlendi."
+            f"{score_text}{price_text}"
+        )
 
     if rank_diff < 0:
-        return f"Daha önce {prev_signal} vermişti; son verilere göre {curr_signal} seviyesine zayıfladı.{score_text}{price_text}"
+        return (
+            f"Önceki tarama ({prev_time}): {prev_signal}. "
+            f"Şimdi: {curr_signal}. Sinyal zayıfladı."
+            f"{score_text}{price_text}"
+        )
 
-    return f"Önceki sinyal: {prev_signal}. Yeni sinyal: {curr_signal}.{score_text}{price_text}"
+    return (
+        f"Önceki tarama ({prev_time}): {prev_signal}. "
+        f"Şimdi: {curr_signal}."
+        f"{score_text}{price_text}"
+    )
 
 
 def update_signal_memory(memory: dict, results: list[dict]) -> None:
-    now_text = datetime.now(TZ).strftime("%Y-%m-%d %H:%M")
+    """
+    Her hisse için son sinyali ve son 20 sinyallik geçmişi kaydeder.
+    Bu dosyanın GitHub Actions sonrası repo'ya commit edilmesi gerekir.
+    Aksi halde sonraki çalışmada hafıza sıfırlanır.
+    """
+    now_text = datetime.now(TZ).strftime("%d.%m.%Y %H:%M")
 
     for result in results:
-        memory[result["symbol"]] = {
+        symbol = result["symbol"]
+
+        current_record = {
             "signal": result.get("signal"),
             "signal_key": result.get("signal_key"),
             "score": result.get("score"),
@@ -315,7 +369,26 @@ def update_signal_memory(memory: dict, results: list[dict]) -> None:
             "updated_at": now_text
         }
 
+        existing = memory.get(symbol, {})
+
+        if isinstance(existing, dict) and "history" in existing:
+            history = existing.get("history", [])
+        elif isinstance(existing, dict) and "signal_key" in existing:
+            history = [existing]
+        else:
+            history = []
+
+        history.append(current_record)
+        history = history[-20:]
+
+        memory[symbol] = {
+            "last": current_record,
+            "history": history
+        }
+
     save_signal_memory(memory)
+
+
 
 
 # =========================
