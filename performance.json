@@ -105,7 +105,11 @@
     "stop": 55.6894,
     "target": 60.6712,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 55.6894,
+    "exit_date": "2026-04-29",
+    "result_pct": -2.9,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TUKAS.IS",
@@ -116,6 +120,34 @@
     "vol_ratio": 1.48,
     "stop": 2.6221,
     "target": 2.7957,
+    "setup_type": "BREAKOUT",
+    "status": "closed",
+    "exit": 2.6221,
+    "exit_date": "2026-04-29",
+    "result_pct": -2.16,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "CIMSA.IS",
+    "date": "2026-04-29",
+    "entry": 57.4,
+    "score": 105,
+    "rsi": 61.17,
+    "vol_ratio": 1.17,
+    "stop": 56.4464,
+    "target": 59.3071,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "TUKAS.IS",
+    "date": "2026-04-29",
+    "entry": 2.68,
+    "score": 125,
+    "rsi": 66.67,
+    "vol_ratio": 2.14,
+    "stop": 2.6211,
+    "target": 2.7979,
     "setup_type": "BREAKOUT",
     "status": "open"
   }
