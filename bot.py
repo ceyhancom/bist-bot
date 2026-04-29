@@ -24,6 +24,7 @@ pytz
 """
 
 import os
+import sys
 import json
 import time
 from datetime import datetime
@@ -89,6 +90,10 @@ MIN_RR_FOR_AL = 1.5
 # Trailing stop ayarları
 TRAILING_START_PROFIT = 3.0      # %3 kârdan sonra takip stop aktif olur
 TRAILING_STOP_DISTANCE = 2.0     # En yüksek fiyattan %2 aşağı trailing stop
+
+# Pozisyon önerisi / risk yönetimi
+PORTFOLIO_BALANCE = 100000        # Toplam portföy tutarını buraya yaz
+RISK_PER_TRADE = 0.01             # İşlem başına maksimum %1 risk
 
 
 BIST_LIST = [
@@ -355,6 +360,39 @@ def prepare_indicators(df: pd.DataFrame) -> pd.DataFrame:
     df["LOW50_PREV"] = df["Low"].rolling(50).min().shift(1)
 
     return df
+
+
+
+# =========================
+# RİSK YÖNETİMİ / POZİSYON ÖNERİSİ
+# =========================
+
+def calculate_position_size(balance: float, entry: float, stop: float, risk_rate: float = RISK_PER_TRADE) -> dict:
+    """
+    İşlem başına maksimum risk tutarına göre lot hesabı yapar.
+    Örn: 100.000 TL portföy, %1 risk = işlem başına 1.000 TL maksimum risk.
+    """
+    risk_amount = balance * risk_rate
+    risk_per_share = entry - stop
+
+    if risk_per_share <= 0:
+        return {
+            "lot": 0,
+            "risk_amount": risk_amount,
+            "risk_pct": 0,
+            "position_value": 0
+        }
+
+    lot = int(risk_amount / risk_per_share)
+    position_value = lot * entry
+    risk_pct = (risk_per_share / entry) * 100
+
+    return {
+        "lot": lot,
+        "risk_amount": risk_amount,
+        "risk_pct": risk_pct,
+        "position_value": position_value
+    }
 
 
 # =========================
@@ -649,6 +687,8 @@ def analyze_symbol(symbol: str) -> dict | None:
             action = "TAKIP"
             reasons.append(f"AL sinyali filtrelendi: {filter_reason}")
 
+    risk_info = calculate_position_size(PORTFOLIO_BALANCE, entry, stop)
+
     warning = ""
     if rsi >= 80:
         warning = "⚠️ RSI çok yüksek. Kâr satışı / düzeltme riski artmış olabilir."
@@ -670,6 +710,10 @@ def analyze_symbol(symbol: str) -> dict | None:
         "stop": stop,
         "target": target,
         "rr": rr,
+        "position_lot": risk_info["lot"],
+        "position_value": risk_info["position_value"],
+        "risk_amount": risk_info["risk_amount"],
+        "risk_pct": risk_info["risk_pct"],
         "reasons": reasons,
         "warning": warning,
         "general": setup_comment(setup_type),
@@ -699,10 +743,10 @@ HEDEF: {result['target']:.2f}
 R/R: {result['rr']:.2f} (Güvenli mod hedefi: 1.8+)
 
 Pozisyon Önerisi:
-Maks lot: {result['position_lot']}
-Yaklaşık işlem tutarı: {result['position_value']:.2f} TL
-Maks risk: {result['risk_amount']:.2f} TL
-Stop mesafesi: %{result['risk_pct']:.2f}
+Maks lot: {result.get('position_lot', 0)}
+Yaklaşık işlem tutarı: {result.get('position_value', 0):.2f} TL
+Maks risk: {result.get('risk_amount', 0):.2f} TL
+Stop mesafesi: %{result.get('risk_pct', 0):.2f}
 {warning_line}
 Öne çıkan nedenler:
 {reasons_text}
@@ -1205,6 +1249,60 @@ def format_symbol_list(symbols: list[str]) -> str:
     return "\n".join(f"- {symbol}" for symbol in symbols)
 
 
+
+# =========================
+# MANUEL TEK HİSSE ANALİZİ
+# =========================
+
+def normalize_symbol(symbol: str) -> str:
+    """
+    Kullanıcı TAVHL yazarsa TAVHL.IS yapar.
+    Kullanıcı TAVHL.IS yazarsa olduğu gibi bırakır.
+    """
+    symbol = symbol.strip().upper()
+
+    if not symbol:
+        return ""
+
+    if "." not in symbol:
+        symbol = symbol + ".IS"
+
+    return symbol
+
+
+def manual_analyze(symbol: str) -> None:
+    """
+    Tek hisseyi manuel analiz eder.
+    Örnek:
+    python bot.py TAVHL
+    python bot.py TAVHL.IS
+    """
+    symbol = normalize_symbol(symbol)
+
+    if not symbol:
+        send_telegram("Manuel analiz için hisse kodu girilmedi.")
+        return
+
+    result = analyze_symbol(symbol)
+
+    if not result:
+        send_telegram(
+            f"⚠️ <b>{symbol}</b> için veri alınamadı.\n\n"
+            "Hisse kodunu kontrol et. Örnek kullanım: TAVHL veya TAVHL.IS"
+        )
+        return
+
+    memory = load_signal_memory()
+    result["change_text"] = build_signal_change_text(symbol, result, memory)
+
+    update_signal_memory(memory, [result])
+
+    title = f"🔎 <b>MANUEL HİSSE ANALİZİ</b>\nHisse: {symbol}"
+    send_telegram(title)
+    send_telegram(format_signal(result))
+
+
+
 # =========================
 # ZAMANLAMA
 # =========================
@@ -1242,6 +1340,13 @@ def market_session() -> str:
 
 
 def main() -> None:
+    # Manuel analiz modu:
+    # python bot.py TAVHL
+    # python bot.py TAVHL.IS
+    if len(sys.argv) > 1:
+        manual_analyze(sys.argv[1])
+        return
+
     session = market_session()
 
     if session == "closed":
