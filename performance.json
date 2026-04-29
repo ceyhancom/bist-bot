@@ -137,7 +137,11 @@
     "stop": 56.4464,
     "target": 59.3071,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 56.4464,
+    "exit_date": "2026-04-29",
+    "result_pct": -1.66,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TUKAS.IS",
@@ -149,6 +153,10 @@
     "stop": 2.6211,
     "target": 2.7979,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 2.6211,
+    "exit_date": "2026-04-29",
+    "result_pct": -2.2,
+    "close_reason": "STOP"
   }
 ]
