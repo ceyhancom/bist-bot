@@ -50,6 +50,7 @@ INTERVAL = "1h"
 STATE_FILE = Path("gunluk_sinyaller.json")
 PERFORMANCE_FILE = Path("performance.json")
 OPEN_TRADES_FILE = Path("open_trades.json")
+SIGNAL_MEMORY_FILE = Path("signal_memory.json")
 
 MAX_AL_SIGNAL = 10
 MAX_TAKIP_SIGNAL = 10
@@ -63,35 +64,31 @@ MAX_SAT_SIGNAL = 10
 #     {"symbol": "THYAO.IS", "entry": 285.00},
 # ]
 PORTFOLIO = [
-     {"symbol": "ASTOR.IS", "entry": 196.80},
-     {"symbol": "DESPC.IS", "entry": 43.90},
-     {"symbol": "EMPAE.IS", "entry": 48.68},
-     {"symbol": "ISKPL.IS", "entry": 13.41},
-     {"symbol": "MRGYO.IS", "entry": 1.93},
-     {"symbol": "SERNT.IS", "entry": 9.40},
-     {"symbol": "TAVHL.IS", "entry": 323.00},
+    # {"symbol": "ASTOR.IS", "entry": 196.80},
+    # {"symbol": "DESPC.IS", "entry": 43.90},
+    # {"symbol": "EMPAE.IS", "entry": 48.68},
+    # {"symbol": "ISKPL.IS", "entry": 13.41},
+    # {"symbol": "MRGYO.IS", "entry": 1.93},
+    # {"symbol": "SERNT.IS", "entry": 9.40},
+    # {"symbol": "TAVHL.IS", "entry": 323.00},
 ]
 
 PORTFOLIO_LIST = [item["symbol"] for item in PORTFOLIO]
 
 # Sinyal eşikleri
-COK_GUCLU_AL_ESIK = 90
-GUCLU_AL_ESIK = 78
-TAKIP_ESIK = 60
+COK_GUCLU_AL_ESIK = 85
+GUCLU_AL_ESIK = 70
+TAKIP_ESIK = 55
 SAT_ESIK = 35
 
 # Kalite filtreleri
-MAX_RSI_FOR_AL = 75
-MIN_VOL_RATIO_FOR_AL = 1.2
-MIN_RR_FOR_AL = 1.8
+MAX_RSI_FOR_AL = 80
+MIN_VOL_RATIO_FOR_AL = 1.0
+MIN_RR_FOR_AL = 1.5
 
 # Trailing stop ayarları
-TRAILING_START_PROFIT = 2.0      # %3 kârdan sonra takip stop aktif olur
-TRAILING_STOP_DISTANCE = 1.5     # En yüksek fiyattan %1.5 aşağı trailing stop
-
-# Güvenli risk yönetimi
-PORTFOLIO_BALANCE = 100000        # Toplam portföy tutarını buraya yaz
-RISK_PER_TRADE = 0.01             # Güvenli mod: işlem başına maksimum %1 risk
+TRAILING_START_PROFIT = 3.0      # %3 kârdan sonra takip stop aktif olur
+TRAILING_STOP_DISTANCE = 2.0     # En yüksek fiyattan %2 aşağı trailing stop
 
 
 BIST_LIST = [
@@ -219,6 +216,104 @@ def save_open_trades(data: list[dict]) -> None:
 
 
 # =========================
+# SİNYAL DEĞİŞİM HAFIZASI
+# =========================
+
+def load_signal_memory() -> dict:
+    return read_json(SIGNAL_MEMORY_FILE, {})
+
+
+def save_signal_memory(memory: dict) -> None:
+    write_json(SIGNAL_MEMORY_FILE, memory)
+
+
+def signal_rank(signal_key: str) -> int:
+    ranks = {
+        "sat": 0,
+        "none": 1,
+        "takip": 2,
+        "al": 3
+    }
+    return ranks.get(signal_key, 1)
+
+
+def signal_key_label(signal_key: str) -> str:
+    labels = {
+        "al": "AL",
+        "takip": "TAKİP",
+        "sat": "SAT / UZAK DUR",
+        "none": "BEKLE"
+    }
+    return labels.get(signal_key, signal_key.upper())
+
+
+def build_signal_change_text(symbol: str, current_result: dict, memory: dict) -> str:
+    previous = memory.get(symbol)
+
+    if not previous:
+        return "İlk kayıt: Bu hisse için önceki sinyal bulunmuyor."
+
+    prev_key = previous.get("signal_key", "none")
+    curr_key = current_result.get("signal_key", "none")
+
+    prev_signal = previous.get("signal", signal_key_label(prev_key))
+    curr_signal = current_result.get("signal", signal_key_label(curr_key))
+
+    prev_score = previous.get("score")
+    curr_score = current_result.get("score")
+
+    prev_price = previous.get("price")
+    curr_price = current_result.get("price")
+
+    rank_diff = signal_rank(curr_key) - signal_rank(prev_key)
+
+    score_text = ""
+    if prev_score is not None and curr_score is not None:
+        score_diff = curr_score - prev_score
+        if score_diff > 0:
+            score_text = f" Skor {prev_score}'den {curr_score}'e yükseldi."
+        elif score_diff < 0:
+            score_text = f" Skor {prev_score}'den {curr_score}'e düştü."
+        else:
+            score_text = f" Skor değişmedi: {curr_score}."
+
+    price_text = ""
+    if prev_price is not None and curr_price is not None:
+        try:
+            price_diff_pct = (float(curr_price) - float(prev_price)) / float(prev_price) * 100
+            price_text = f" Fiyat değişimi: %{price_diff_pct:.2f}."
+        except Exception:
+            price_text = ""
+
+    if curr_key == prev_key:
+        return f"Önceki sinyal de {signal_key_label(prev_key)} idi. Sinyal yönü değişmedi.{score_text}{price_text}"
+
+    if rank_diff > 0:
+        return f"Daha önce {prev_signal} vermişti; son verilere göre {curr_signal} seviyesine güçlendi.{score_text}{price_text}"
+
+    if rank_diff < 0:
+        return f"Daha önce {prev_signal} vermişti; son verilere göre {curr_signal} seviyesine zayıfladı.{score_text}{price_text}"
+
+    return f"Önceki sinyal: {prev_signal}. Yeni sinyal: {curr_signal}.{score_text}{price_text}"
+
+
+def update_signal_memory(memory: dict, results: list[dict]) -> None:
+    now_text = datetime.now(TZ).strftime("%Y-%m-%d %H:%M")
+
+    for result in results:
+        memory[result["symbol"]] = {
+            "signal": result.get("signal"),
+            "signal_key": result.get("signal_key"),
+            "score": result.get("score"),
+            "price": round(float(result.get("price", 0)), 4),
+            "setup_type": result.get("setup_type"),
+            "updated_at": now_text
+        }
+
+    save_signal_memory(memory)
+
+
+# =========================
 # TEKNİK GÖSTERGELER
 # =========================
 
@@ -260,40 +355,6 @@ def prepare_indicators(df: pd.DataFrame) -> pd.DataFrame:
     df["LOW50_PREV"] = df["Low"].rolling(50).min().shift(1)
 
     return df
-
-
-
-# =========================
-# RİSK YÖNETİMİ - GÜVENLİ MOD
-# =========================
-
-def calculate_position_size(balance: float, entry: float, stop: float, risk_rate: float = RISK_PER_TRADE) -> dict:
-    """
-    Güvenli mod pozisyon hesabı:
-    Her işlemde toplam portföyün sadece belirlenen oranı kadar risk alınır.
-    Varsayılan: %1 risk.
-    """
-    risk_amount = balance * risk_rate
-    risk_per_share = entry - stop
-
-    if risk_per_share <= 0:
-        return {
-            "lot": 0,
-            "risk_amount": risk_amount,
-            "risk_pct": 0,
-            "position_value": 0
-        }
-
-    lot = int(risk_amount / risk_per_share)
-    position_value = lot * entry
-    risk_pct = (risk_per_share / entry) * 100
-
-    return {
-        "lot": lot,
-        "risk_amount": risk_amount,
-        "risk_pct": risk_pct,
-        "position_value": position_value
-    }
 
 
 # =========================
@@ -545,16 +606,8 @@ def analyze_symbol(symbol: str) -> dict | None:
     target = entry + 2 * risk
     rr = (target - entry) / risk if risk > 0 else 0
 
-    early_exit = rsi > 72 and close < ema9 and close < prev_close
-
     # Sinyal sınıflandırma
-    if early_exit:
-        signal = "🔴 ERKEN ÇIKIŞ / KÂR KORU"
-        signal_key = "sat"
-        action = "SAT"
-        reasons.append("RSI yüksekken fiyat EMA9 altına indi; güvenli mod erken çıkış uyarısı")
-
-    elif setup_type == "BREAKDOWN" or score <= SAT_ESIK:
+    if setup_type == "BREAKDOWN" or score <= SAT_ESIK:
         signal = "🔴 SAT / UZAK DUR"
         signal_key = "sat"
         action = "SAT"
@@ -596,11 +649,9 @@ def analyze_symbol(symbol: str) -> dict | None:
             action = "TAKIP"
             reasons.append(f"AL sinyali filtrelendi: {filter_reason}")
 
-    risk_info = calculate_position_size(PORTFOLIO_BALANCE, entry, stop)
-
     warning = ""
-    if rsi >= 75:
-        warning = "⚠️ Güvenli mod uyarısı: RSI yüksek. Kâr satışı / düzeltme riski artabilir."
+    if rsi >= 80:
+        warning = "⚠️ RSI çok yüksek. Kâr satışı / düzeltme riski artmış olabilir."
 
     return {
         "symbol": symbol,
@@ -619,10 +670,6 @@ def analyze_symbol(symbol: str) -> dict | None:
         "stop": stop,
         "target": target,
         "rr": rr,
-        "position_lot": risk_info["lot"],
-        "position_value": risk_info["position_value"],
-        "risk_amount": risk_info["risk_amount"],
-        "risk_pct": risk_info["risk_pct"],
         "reasons": reasons,
         "warning": warning,
         "general": setup_comment(setup_type),
@@ -631,8 +678,10 @@ def analyze_symbol(symbol: str) -> dict | None:
 
 
 def format_signal(result: dict) -> str:
-    warning_line = f"\n{result['warning']}\n" if result["warning"] else ""
-    reasons_text = ", ".join(result["reasons"][:4])
+    warning_line = f"\n{result['warning']}\n" if result.get("warning") else ""
+    reasons_text = ", ".join(result.get("reasons", [])[:4])
+    action_clean = result.get("action_text", "").replace("Aksiyon: ", "")
+    change_text = result.get("change_text", "Önceki sinyal bilgisi yok.")
 
     return f"""<b>{result['symbol']}</b>
 
@@ -658,11 +707,14 @@ Stop mesafesi: %{result['risk_pct']:.2f}
 Öne çıkan nedenler:
 {reasons_text}
 
+Sinyal değişimi:
+{change_text}
+
 Genel değerlendirme:
 {result['general']}
 
 Aksiyon:
-{result['action_text'].replace("Aksiyon: ", "")}""".strip()
+{action_clean}""".strip()
 
 
 # =========================
@@ -748,23 +800,7 @@ def update_open_trades() -> list[str]:
 
             profit_pct = (last_price - entry) / entry * 100
 
-            # Güvenli mod kâr koruma:
-            # %2 kârda stop giriş fiyatına çekilir.
-            if profit_pct >= 2 and stop < entry:
-                trade["stop"] = round(entry, 4)
-                stop = entry
-                changed = True
-
-            # %4 kârda trailing stop daha sıkı çalışır.
-            if profit_pct >= 4:
-                trailing_stop = float(trade["highest_price"]) * 0.985
-                old_trailing = trade.get("trailing_stop")
-
-                if old_trailing is None or trailing_stop > float(old_trailing):
-                    trade["trailing_stop"] = round(trailing_stop, 4)
-                    changed = True
-
-            elif profit_pct >= TRAILING_START_PROFIT:
+            if profit_pct >= TRAILING_START_PROFIT:
                 trailing_stop = float(trade["highest_price"]) * (1 - TRAILING_STOP_DISTANCE / 100)
                 old_trailing = trade.get("trailing_stop")
 
@@ -957,10 +993,7 @@ Teknik HEDEF: {result['target']:.2f}
 R/R: {result['rr']:.2f}
 
 Yorum:
-{result['general']}
-
-Aksiyon:
-{result.get('action_text', '').replace('Aksiyon: ', '')}""".strip())
+{result['general']}""".strip())
 
         except Exception as e:
             portfolio_messages.append(
@@ -979,11 +1012,8 @@ def send_urgent_portfolio_warnings(portfolio_sat_results: list[dict]) -> None:
         return
 
     urgent_messages = []
-    unique_results = {}
-    for result in portfolio_sat_results:
-        unique_results[result["symbol"]] = result
 
-    for result in unique_results.values():
+    for result in portfolio_sat_results:
         urgent_messages.append(f"""🚨 <b>PORTFÖY SAT UYARISI</b>
 
 <b>{result['symbol']}</b>
@@ -997,10 +1027,7 @@ RSI: {result['rsi']:.1f}
 Hacim: {result['vol_ratio']:.2f}
 
 Yorum:
-{result['general']}
-
-Aksiyon:
-{result.get('action_text', '').replace('Aksiyon: ', '')}""".strip())
+{result['general']}""".strip())
 
     split_and_send("🚨 <b>ACİL PORTFÖY UYARILARI</b>", urgent_messages)
 
@@ -1013,6 +1040,7 @@ Aksiyon:
 def scan_market(mode: str = "intraday") -> None:
     now = datetime.now(TZ)
     state = load_state()
+    signal_memory = load_signal_memory()
 
     # Önce açık işlemleri güncelle
     trade_alerts = update_open_trades()
@@ -1021,16 +1049,17 @@ def scan_market(mode: str = "intraday") -> None:
 
     portfolio_messages, portfolio_sat_from_portfolio = analyze_portfolio()
 
-    if portfolio_messages:
+    # Portföy detay raporu her 15 dakikada tekrar etmesin diye sadece sabah ve gün sonunda gönderilir.
+    if mode in ["morning", "evening"] and portfolio_messages:
         split_and_send("💼 <b>PORTFÖY ANALİZİ</b>", portfolio_messages)
 
-    if portfolio_sat_from_portfolio:
-        send_urgent_portfolio_warnings(portfolio_sat_from_portfolio)
+    # Acil portföy uyarısı ayrıca gönderilmez; aşağıdaki PORTFÖYÜNDEKİ SAT UYARILARI bölümünde tekilleştirilir.
 
     al_results = []
     takip_results = []
     sat_results = []
     portfolio_sat_results = []
+    all_scan_results = []
     errors = []
 
     for symbol in BIST_LIST:
@@ -1040,6 +1069,9 @@ def scan_market(mode: str = "intraday") -> None:
             if result is None:
                 errors.append(symbol)
                 continue
+
+            result["change_text"] = build_signal_change_text(symbol, result, signal_memory)
+            all_scan_results.append(result)
 
             key = result["signal_key"]
 
@@ -1059,7 +1091,7 @@ def scan_market(mode: str = "intraday") -> None:
                 if symbol in PORTFOLIO_LIST:
                     portfolio_sat_results.append(result)
 
-            time.sleep(0.25)
+            time.sleep(0.1)
 
         except Exception as e:
             errors.append(symbol)
@@ -1073,21 +1105,24 @@ def scan_market(mode: str = "intraday") -> None:
     # BIST taramasından gelen portföy SAT uyarıları + ayrı portföy analizinden gelenleri birleştir.
     seen_portfolio_sat = {r["symbol"] for r in portfolio_sat_results}
     for r in portfolio_sat_from_portfolio:
+        if "change_text" not in r:
+            r["change_text"] = build_signal_change_text(r["symbol"], r, signal_memory)
+
         if r["symbol"] not in seen_portfolio_sat:
             portfolio_sat_results.append(r)
             seen_portfolio_sat.add(r["symbol"])
+            all_scan_results.append(r)
 
     sat_results = sorted(sat_results, key=lambda x: x["score"])[:MAX_SAT_SIGNAL]
     portfolio_sat_results = sorted(portfolio_sat_results, key=lambda x: x["score"])
+
+    # Bu çalışmadaki sinyaller bir sonraki çalışma için hafızaya kaydedilir.
+    update_signal_memory(signal_memory, all_scan_results)
 
     if mode == "evening":
         stats = performance_stats()
         send_evening_summary(state, stats, len(errors))
         return
-
-    # Özet sayacı için portföy SAT listesini kesin olarak güncelle.
-    # Hem BIST taramasından gelen hem de ayrı portföy analizinden gelen SAT sonuçları dikkate alınır.
-    portfolio_sat_symbols = sorted({r["symbol"] for r in portfolio_sat_results})
 
     title = get_title(mode, now)
     summary = f"""{title}
@@ -1096,14 +1131,13 @@ Taranan hisse: {len(BIST_LIST)}
 AL sinyali: {len(al_results)}
 TAKİP: {len(takip_results)}
 SAT / UZAK DUR: {len(sat_results)}
-Portföy SAT uyarısı: {len(portfolio_sat_symbols)}
+Portföy SAT uyarısı: {len(portfolio_sat_results)}
 Hata/atlanan: {len(errors)}
 
-Seviye 3 Güvenli Mod aktif:
-✅ Daha sıkı AL filtresi
-✅ Kırılım + Pullback
-✅ %1 risk kuralı
-✅ Kâr koruma stopu
+Seviye 3 aktif:
+✅ Kırılım
+✅ Pullback
+✅ Açık işlem takibi
 ✅ Trailing stop"""
     send_telegram(summary)
 
@@ -1121,13 +1155,9 @@ Seviye 3 Güvenli Mod aktif:
         split_and_send("🔴 <b>SAT / UZAK DUR SİNYALLERİ</b>", [format_signal(r) for r in sat_results])
 
     if portfolio_sat_results:
-        unique_portfolio_sat = {}
-        for r in portfolio_sat_results:
-            unique_portfolio_sat[r["symbol"]] = r
-
         split_and_send(
             "🚨 <b>PORTFÖYÜNDEKİ SAT UYARILARI</b>",
-            [format_signal(r) for r in unique_portfolio_sat.values()]
+            [format_signal(r) for r in portfolio_sat_results]
         )
 
 
@@ -1189,7 +1219,7 @@ def market_session() -> str:
     Bot hangi mesajı atacağını saate göre seçer.
 
     Sabah değerlendirme: 09:30 - 09:45
-    Gün içi tarama: 10:00 - 18:00
+    Gün içi tarama: 10:00 - 19:00
     Gün sonu özet: 18:10 - 18:30
     """
     now = datetime.now(TZ)
@@ -1202,7 +1232,7 @@ def market_session() -> str:
     if hour == 9 and 30 <= minute < 45:
         return "morning"
 
-    if 10 <= hour < 18:
+    if 10 <= hour < 19:
         return "intraday"
 
     if hour == 18 and 10 <= minute < 30:
