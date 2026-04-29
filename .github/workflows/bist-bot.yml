@@ -2,21 +2,13 @@ name: BIST Bot
 
 on:
   schedule:
-    # Türkiye saati 09:30 - gün öncesi değerlendirme
-    - cron: "30 6 * * 1-5"
-
-    # Türkiye saati 10:00 - 17:45 arası her 15 dakika
-    - cron: "*/15 7-14 * * 1-5"
-
-    # Türkiye saati 18:10 - gün sonu değerlendirme
-    - cron: "10 15 * * 1-5"
-
+    - cron: "*/15 * * * *"
   workflow_dispatch:
     inputs:
-      mode:
-        description: "Çalışma modu: auto / morning / scan / evening"
+      symbol:
+        description: "Manuel analiz edilecek hisse. Örn: TAVHL veya TAVHL.IS"
         required: false
-        default: "auto"
+        default: ""
 
 permissions:
   contents: write
@@ -26,28 +18,42 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Repo indir
+      - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          persist-credentials: true
 
-      - name: Python kur
+      - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - name: Paketleri kur
+      - name: Install requirements
         run: pip install -r requirements.txt
 
-      - name: Botu çalıştır
+      - name: Run bot
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-          MODE: ${{ github.event.inputs.mode || 'auto' }}
-        run: python bot.py
+        run: |
+          if [ -n "${{ github.event.inputs.symbol }}" ]; then
+            python bot.py "${{ github.event.inputs.symbol }}"
+          else
+            python bot.py
+          fi
 
-      - name: Günlük sinyal kaydını sakla
+      - name: Save bot memory files
+        if: always()
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add data/*.json || true
-          git commit -m "Günlük sinyal kaydı güncellendi" || echo "Kaydedilecek değişiklik yok"
-          git push || echo "Push yapılmadı"
+
+          git add signal_memory.json gunluk_sinyaller.json performance.json open_trades.json 2>/dev/null || true
+
+          if git diff --cached --quiet; then
+            echo "No memory changes to commit."
+          else
+            git commit -m "update bot memory"
+            git pull --rebase || true
+            git push || true
+          fi
