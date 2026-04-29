@@ -48,7 +48,7 @@ jobs:
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
 
-          git add signal_memory.json gunluk_sinyaller.json performance.json open_trades.json 2>/dev/null || true
+          git add signal_memory.json daily_signal_log.json gunluk_sinyaller.json performance.json open_trades.json 2>/dev/null || true
 
           if git diff --cached --quiet; then
             echo "No memory changes to commit."
