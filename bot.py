@@ -52,6 +52,7 @@ STATE_FILE = Path("gunluk_sinyaller.json")
 PERFORMANCE_FILE = Path("performance.json")
 OPEN_TRADES_FILE = Path("open_trades.json")
 SIGNAL_MEMORY_FILE = Path("signal_memory.json")
+DAILY_SIGNAL_LOG_FILE = Path("daily_signal_log.json")
 
 MAX_AL_SIGNAL = 5
 MAX_TAKIP_SIGNAL = 5
@@ -72,6 +73,7 @@ PORTFOLIO = [
     {"symbol": "MRGYO.IS", "entry": 1.93},
     {"symbol": "SERNT.IS", "entry": 9.40},
     {"symbol": "TAVHL.IS", "entry": 323.00},
+    {"symbol": "KTLEV.IS", "entry": 108.40},
 ]
 
 PORTFOLIO_LIST = [item["symbol"] for item in PORTFOLIO]
@@ -1145,6 +1147,269 @@ Yorum:
 
 
 
+
+# =========================
+# GÜN İÇİ SİNYAL KAYDI / GÜN SONU ANALİZ
+# =========================
+
+def load_daily_signal_log() -> dict:
+    today = datetime.now(TZ).strftime("%Y-%m-%d")
+    data = read_json(DAILY_SIGNAL_LOG_FILE, {})
+
+    if data.get("date") != today:
+        data = {"date": today, "signals": {}}
+
+    return data
+
+
+def save_daily_signal_log(data: dict) -> None:
+    write_json(DAILY_SIGNAL_LOG_FILE, data)
+
+
+def record_daily_signals(results: list[dict]) -> None:
+    data = load_daily_signal_log()
+    now_text = datetime.now(TZ).strftime("%d.%m.%Y %H:%M")
+
+    for result in results:
+        symbol = result["symbol"]
+
+        record = {
+            "time": now_text,
+            "signal": result.get("signal"),
+            "signal_key": result.get("signal_key"),
+            "price": round(float(result.get("price", 0)), 4),
+            "score": result.get("score"),
+            "setup_type": result.get("setup_type")
+        }
+
+        if symbol not in data["signals"]:
+            data["signals"][symbol] = []
+
+        data["signals"][symbol].append(record)
+        data["signals"][symbol] = data["signals"][symbol][-40:]
+
+    save_daily_signal_log(data)
+
+
+def build_signal_consistency_report() -> str:
+    data = load_daily_signal_log()
+    signals = data.get("signals", {})
+
+    if not signals:
+        return "📊 <b>GÜN SONU SİNYAL TUTARLILIK ANALİZİ</b>\n\nBugün kayıtlı sinyal bulunamadı."
+
+    al_count = 0
+    al_success = 0
+    al_fail = 0
+    al_changes = []
+
+    takip_to_al = 0
+    takip_to_sat = 0
+    sat_count = 0
+
+    best = None
+    worst = None
+
+    for symbol, records in signals.items():
+        if not records:
+            continue
+
+        first = records[0]
+        last = records[-1]
+
+        first_key = first.get("signal_key", "none")
+        last_key = last.get("signal_key", "none")
+
+        first_price = float(first.get("price", 0) or 0)
+        last_price = float(last.get("price", 0) or 0)
+
+        change_pct = 0
+        if first_price > 0:
+            change_pct = (last_price - first_price) / first_price * 100
+
+        if first_key == "al":
+            al_count += 1
+            al_changes.append(change_pct)
+
+            if change_pct > 0:
+                al_success += 1
+            else:
+                al_fail += 1
+
+            item = {
+                "symbol": symbol,
+                "change_pct": change_pct,
+                "first_signal": first.get("signal"),
+                "last_signal": last.get("signal")
+            }
+
+            if best is None or change_pct > best["change_pct"]:
+                best = item
+
+            if worst is None or change_pct < worst["change_pct"]:
+                worst = item
+
+        if first_key == "takip" and last_key == "al":
+            takip_to_al += 1
+
+        if first_key == "takip" and last_key == "sat":
+            takip_to_sat += 1
+
+        if first_key == "sat":
+            sat_count += 1
+
+    success_rate = (al_success / al_count * 100) if al_count > 0 else 0
+    avg_al_change = (sum(al_changes) / len(al_changes)) if al_changes else 0
+
+    best_text = "Yok"
+    worst_text = "Yok"
+
+    if best:
+        best_text = f"{best['symbol']} %{best['change_pct']:.2f} ({best['first_signal']} → {best['last_signal']})"
+
+    if worst:
+        worst_text = f"{worst['symbol']} %{worst['change_pct']:.2f} ({worst['first_signal']} → {worst['last_signal']})"
+
+    return f"""📊 <b>GÜN SONU SİNYAL TUTARLILIK ANALİZİ</b>
+
+AL ile başlayan sinyaller: {al_count}
+Başarılı AL: {al_success}
+Başarısız AL: {al_fail}
+AL başarı oranı: %{success_rate:.1f}
+AL ortalama değişim: %{avg_al_change:.2f}
+
+TAKİP → AL dönüşen: {takip_to_al}
+TAKİP → SAT dönüşen: {takip_to_sat}
+SAT ile başlayan sinyaller: {sat_count}
+
+🏆 En iyi AL sinyali: {best_text}
+🔻 En zayıf AL sinyali: {worst_text}"""
+
+
+def build_portfolio_eod_report() -> str:
+    if not PORTFOLIO:
+        return "💼 <b>GÜN SONU PORTFÖY RAPORU</b>\n\nPortföy listesi boş."
+
+    lines = []
+    total_cost = 0.0
+    total_value = 0.0
+    total_daily_change_value = 0.0
+
+    best_daily = None
+    worst_daily = None
+    best_total = None
+    worst_total = None
+
+    for item in PORTFOLIO:
+        symbol = item.get("symbol")
+        entry = float(item.get("entry", 0))
+        qty = float(item.get("qty", 1))
+
+        if not symbol or entry <= 0:
+            continue
+
+        try:
+            df = yf.download(symbol, period="7d", interval="1h", progress=False, auto_adjust=False)
+
+            if df is None or df.empty:
+                lines.append(f"{symbol}: Veri alınamadı.")
+                continue
+
+            if isinstance(df.columns, pd.MultiIndex):
+                df.columns = [c[0] for c in df.columns]
+
+            last_price = float(df["Close"].iloc[-1])
+
+            df_local = df.copy()
+            if df_local.index.tz is None:
+                df_local.index = df_local.index.tz_localize("UTC").tz_convert(TZ)
+            else:
+                df_local.index = df_local.index.tz_convert(TZ)
+
+            today_date = datetime.now(TZ).date()
+            prev_rows = df_local[df_local.index.date < today_date]
+
+            if not prev_rows.empty:
+                prev_close = float(prev_rows["Close"].iloc[-1])
+            elif len(df_local) >= 2:
+                prev_close = float(df_local["Close"].iloc[-2])
+            else:
+                prev_close = last_price
+
+            cost_value = entry * qty
+            current_value = last_price * qty
+
+            daily_pct = 0 if prev_close == 0 else (last_price - prev_close) / prev_close * 100
+            total_pct = (last_price - entry) / entry * 100
+
+            daily_value = (last_price - prev_close) * qty
+            total_profit = current_value - cost_value
+
+            total_cost += cost_value
+            total_value += current_value
+            total_daily_change_value += daily_value
+
+            row = {
+                "symbol": symbol,
+                "daily_pct": daily_pct,
+                "total_pct": total_pct,
+                "daily_value": daily_value,
+                "total_profit": total_profit
+            }
+
+            if best_daily is None or daily_pct > best_daily["daily_pct"]:
+                best_daily = row
+
+            if worst_daily is None or daily_pct < worst_daily["daily_pct"]:
+                worst_daily = row
+
+            if best_total is None or total_pct > best_total["total_pct"]:
+                best_total = row
+
+            if worst_total is None or total_pct < worst_total["total_pct"]:
+                worst_total = row
+
+            lines.append(
+                f"{symbol}\n"
+                f"Güncel: {last_price:.2f} | Maliyet: {entry:.2f}\n"
+                f"Günlük: %{daily_pct:.2f} ({daily_value:.2f} TL)\n"
+                f"Genel: %{total_pct:.2f} ({total_profit:.2f} TL)"
+            )
+
+        except Exception as e:
+            lines.append(f"{symbol}: Portföy rapor hatası: {str(e)}")
+
+    total_profit = total_value - total_cost
+    total_profit_pct = 0 if total_cost == 0 else total_profit / total_cost * 100
+    daily_pct_total = 0 if total_value == 0 else total_daily_change_value / total_value * 100
+
+    best_daily_text = "Yok" if not best_daily else f"{best_daily['symbol']} %{best_daily['daily_pct']:.2f}"
+    worst_daily_text = "Yok" if not worst_daily else f"{worst_daily['symbol']} %{worst_daily['daily_pct']:.2f}"
+    best_total_text = "Yok" if not best_total else f"{best_total['symbol']} %{best_total['total_pct']:.2f}"
+    worst_total_text = "Yok" if not worst_total else f"{worst_total['symbol']} %{worst_total['total_pct']:.2f}"
+
+    detail_text = "\n\n".join(lines)
+
+    return f"""💼 <b>GÜN SONU PORTFÖY RAPORU</b>
+
+Toplam maliyet: {total_cost:.2f} TL
+Güncel değer: {total_value:.2f} TL
+
+Günlük kâr/zarar: {total_daily_change_value:.2f} TL (%{daily_pct_total:.2f})
+Genel kâr/zarar: {total_profit:.2f} TL (%{total_profit_pct:.2f})
+
+Günün en iyi hissesi: {best_daily_text}
+Günün en zayıf hissesi: {worst_daily_text}
+
+Genel en iyi hisse: {best_total_text}
+Genel en zayıf hisse: {worst_total_text}
+
+<b>Hisse Bazlı Durum</b>
+
+{detail_text}"""
+
+
+
 # =========================
 # TARAMA
 # =========================
@@ -1228,12 +1493,15 @@ def scan_market(mode: str = "intraday") -> None:
     sat_results = sorted(sat_results, key=lambda x: x["score"])[:MAX_SAT_SIGNAL]
     portfolio_sat_results = sorted(portfolio_sat_results, key=lambda x: x["score"])
 
-    # Bu çalışmadaki sinyaller bir sonraki çalışma için hafızaya kaydedilir.
+    # Bu çalışmadaki sinyaller bir sonraki çalışma için hafızaya ve gün içi loga kaydedilir.
     update_signal_memory(signal_memory, all_scan_results)
+    record_daily_signals(all_scan_results)
 
     if mode == "evening":
         stats = performance_stats()
         send_evening_summary(state, stats, len(errors))
+        send_telegram(build_signal_consistency_report())
+        send_telegram(build_portfolio_eod_report())
         return
 
     title = get_title(mode, now)
