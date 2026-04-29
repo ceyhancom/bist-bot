@@ -53,9 +53,9 @@ PERFORMANCE_FILE = Path("performance.json")
 OPEN_TRADES_FILE = Path("open_trades.json")
 SIGNAL_MEMORY_FILE = Path("signal_memory.json")
 
-MAX_AL_SIGNAL = 10
-MAX_TAKIP_SIGNAL = 10
-MAX_SAT_SIGNAL = 10
+MAX_AL_SIGNAL = 5
+MAX_TAKIP_SIGNAL = 5
+MAX_SAT_SIGNAL = 5
 
 # Portföyünde olan hisseleri ve maliyetlerini buraya yaz.
 # BIST100 içinde olmasa bile bu hisseler ayrıca analiz edilir.
@@ -742,11 +742,6 @@ STOP: {result['stop']:.2f}
 HEDEF: {result['target']:.2f}
 R/R: {result['rr']:.2f} (Güvenli mod hedefi: 1.8+)
 
-Pozisyon Önerisi:
-Maks lot: {result.get('position_lot', 0)}
-Yaklaşık işlem tutarı: {result.get('position_value', 0):.2f} TL
-Maks risk: {result.get('risk_amount', 0):.2f} TL
-Stop mesafesi: %{result.get('risk_pct', 0):.2f}
 {warning_line}
 Öne çıkan nedenler:
 {reasons_text}
@@ -1172,9 +1167,9 @@ def scan_market(mode: str = "intraday") -> None:
     summary = f"""{title}
 
 Taranan hisse: {len(BIST_LIST)}
-AL sinyali: {len(al_results)}
-TAKİP: {len(takip_results)}
-SAT / UZAK DUR: {len(sat_results)}
+AL sinyali: {len(al_results)} / en iyi 5
+TAKİP: {len(takip_results)} / en iyi 5
+SAT / UZAK DUR: {len(sat_results)} / en riskli 5
 Portföy SAT uyarısı: {len(portfolio_sat_results)}
 Hata/atlanan: {len(errors)}
 
