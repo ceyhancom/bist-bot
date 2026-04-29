@@ -158,5 +158,101 @@
     "exit_date": "2026-04-29",
     "result_pct": -2.2,
     "close_reason": "STOP"
+  },
+  {
+    "symbol": "CIMSA.IS",
+    "date": "2026-04-29",
+    "entry": 57.05,
+    "score": 105,
+    "rsi": 61.64,
+    "vol_ratio": 3.22,
+    "stop": 55.9143,
+    "target": 59.3214,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "CWENE.IS",
+    "date": "2026-04-29",
+    "entry": 36.54,
+    "score": 115,
+    "rsi": 62.16,
+    "vol_ratio": 1.24,
+    "stop": 35.5501,
+    "target": 38.5198,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "EREGL.IS",
+    "date": "2026-04-29",
+    "entry": 33.8,
+    "score": 100,
+    "rsi": 53.67,
+    "vol_ratio": 1.22,
+    "stop": 33.3072,
+    "target": 34.7857,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "EUPWR.IS",
+    "date": "2026-04-29",
+    "entry": 49.2,
+    "score": 120,
+    "rsi": 50.91,
+    "vol_ratio": 2.18,
+    "stop": 47.5864,
+    "target": 52.4271,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "KRDMD.IS",
+    "date": "2026-04-29",
+    "entry": 37.68,
+    "score": 105,
+    "rsi": 63.5,
+    "vol_ratio": 1.03,
+    "stop": 36.9926,
+    "target": 39.0548,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "KTLEV.IS",
+    "date": "2026-04-29",
+    "entry": 109.5,
+    "score": 115,
+    "rsi": 58.18,
+    "vol_ratio": 1.56,
+    "stop": 106.4571,
+    "target": 115.5857,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "MIATK.IS",
+    "date": "2026-04-29",
+    "entry": 39.42,
+    "score": 85,
+    "rsi": 52.46,
+    "vol_ratio": 2.1,
+    "stop": 38.8264,
+    "target": 40.6071,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "YEOTK.IS",
+    "date": "2026-04-29",
+    "entry": 57.15,
+    "score": 105,
+    "rsi": 58.23,
+    "vol_ratio": 1.2,
+    "stop": 55.5054,
+    "target": 60.4393,
+    "setup_type": "TREND",
+    "status": "open"
   }
 ]
