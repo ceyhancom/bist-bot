@@ -27,7 +27,7 @@ import os
 import sys
 import json
 import time
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 
 import pandas as pd
@@ -66,14 +66,13 @@ MAX_SAT_SIGNAL = 5
 #     {"symbol": "THYAO.IS", "entry": 285.00},
 # ]
 PORTFOLIO = [
-    {"symbol": "ASTOR.IS", "entry": 196.80},
-    {"symbol": "DESPC.IS", "entry": 43.90},
-    {"symbol": "EMPAE.IS", "entry": 48.68},
-    {"symbol": "ISKPL.IS", "entry": 13.41},
-    {"symbol": "MRGYO.IS", "entry": 1.93},
-    {"symbol": "SERNT.IS", "entry": 9.40},
-    {"symbol": "TAVHL.IS", "entry": 323.00},
-    {"symbol": "KTLEV.IS", "entry": 108.40},
+    # {"symbol": "ASTOR.IS", "entry": 196.80},
+    # {"symbol": "DESPC.IS", "entry": 43.90},
+    # {"symbol": "EMPAE.IS", "entry": 48.68},
+    # {"symbol": "ISKPL.IS", "entry": 13.41},
+    # {"symbol": "MRGYO.IS", "entry": 1.93},
+    # {"symbol": "SERNT.IS", "entry": 9.40},
+    # {"symbol": "TAVHL.IS", "entry": 323.00},
 ]
 
 PORTFOLIO_LIST = [item["symbol"] for item in PORTFOLIO]
@@ -92,6 +91,9 @@ MIN_RR_FOR_AL = 1.5
 # Trailing stop ayarları
 TRAILING_START_PROFIT = 3.0      # %3 kârdan sonra takip stop aktif olur
 TRAILING_STOP_DISTANCE = 2.0     # En yüksek fiyattan %2 aşağı trailing stop
+
+# STOP sonrası aynı hissenin tekrar AL listesine girmemesi için bekleme süresi
+COOLDOWN_MINUTES = 45
 
 # Pozisyon önerisi / risk yönetimi
 PORTFOLIO_BALANCE = 100000        # Toplam portföy tutarını buraya yaz
@@ -874,6 +876,74 @@ def add_open_trade(result: dict) -> None:
     save_performance(perf)
 
 
+
+def set_cooldown_for_symbol(symbol: str, reason: str = "STOP") -> None:
+    """
+    STOP olan hisseyi belirli süre cooldown'a alır.
+    Böylece aynı hisse kısa süre içinde tekrar AL listesine girmez.
+    """
+    trades = load_open_trades()
+    cooldown_until = (datetime.now(TZ) + timedelta(minutes=COOLDOWN_MINUTES)).isoformat()
+
+    updated = False
+
+    for trade in trades:
+        if trade.get("symbol") == symbol:
+            trade["cooldown_until"] = cooldown_until
+            trade["cooldown_reason"] = reason
+            updated = True
+
+    if not updated:
+        trades.append({
+            "symbol": symbol,
+            "status": "cooldown",
+            "cooldown_until": cooldown_until,
+            "cooldown_reason": reason
+        })
+
+    save_open_trades(trades)
+
+
+def is_in_cooldown(symbol: str) -> bool:
+    """
+    Hisse cooldown süresi içindeyse True döner.
+    Süresi dolmuş cooldown kayıtlarını otomatik pasif hale getirir.
+    """
+    trades = load_open_trades()
+    now = datetime.now(TZ)
+    changed = False
+
+    for trade in trades:
+        if trade.get("symbol") != symbol:
+            continue
+
+        cooldown_until = trade.get("cooldown_until")
+        if not cooldown_until:
+            continue
+
+        try:
+            cooldown_time = datetime.fromisoformat(cooldown_until)
+
+            if now < cooldown_time:
+                return True
+
+            # Süresi dolduysa temizle
+            trade["cooldown_until"] = None
+            trade["cooldown_reason"] = None
+            changed = True
+
+        except Exception:
+            trade["cooldown_until"] = None
+            trade["cooldown_reason"] = None
+            changed = True
+
+    if changed:
+        save_open_trades(trades)
+
+    return False
+
+
+
 def update_open_trades() -> list[str]:
     """
     Açık işlemleri günceller.
@@ -942,7 +1012,16 @@ def update_open_trades() -> list[str]:
                 trade["exit_date"] = today
                 trade["result_pct"] = result_pct
                 trade["close_reason"] = close_reason
+
+                if close_reason == "STOP":
+                    trade["cooldown_until"] = (datetime.now(TZ) + timedelta(minutes=COOLDOWN_MINUTES)).isoformat()
+                    trade["cooldown_reason"] = "STOP"
+
                 changed = True
+
+                cooldown_note = ""
+                if close_reason == "STOP":
+                    cooldown_note = f"\nCooldown: {COOLDOWN_MINUTES} dk boyunca tekrar AL listesine alınmayacak."
 
                 alerts.append(
                     f"📌 <b>{symbol}</b>\n"
@@ -950,6 +1029,7 @@ def update_open_trades() -> list[str]:
                     f"Giriş: {entry:.2f}\n"
                     f"Çıkış: {exit_price:.2f}\n"
                     f"Sonuç: %{result_pct}"
+                    f"{cooldown_note}"
                 )
 
                 for p in perf:
@@ -1453,9 +1533,19 @@ def scan_market(mode: str = "intraday") -> None:
             key = result["signal_key"]
 
             if key == "al":
-                add_unique(state, "al", symbol)
-                al_results.append(result)
-                add_open_trade(result)
+                if is_in_cooldown(symbol):
+                    result["signal"] = "🟡 TAKİP"
+                    result["signal_key"] = "takip"
+                    result["action"] = "TAKIP"
+                    result["action_text"] = "Aksiyon: STOP sonrası cooldown süresinde. Yeni AL için bekle."
+                    result["general"] = f"{result['general']} STOP sonrası {COOLDOWN_MINUTES} dk bekleme filtresi aktif."
+                    result["reasons"].append(f"STOP sonrası {COOLDOWN_MINUTES} dk cooldown filtresi")
+                    add_unique(state, "takip", symbol)
+                    takip_results.append(result)
+                else:
+                    add_unique(state, "al", symbol)
+                    al_results.append(result)
+                    add_open_trade(result)
 
             elif key == "takip":
                 add_unique(state, "takip", symbol)
