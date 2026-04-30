@@ -617,7 +617,11 @@
     "stop": 28.2651,
     "target": 29.8697,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 28.2651,
+    "exit_date": "2026-04-30",
+    "result_pct": -1.86,
+    "close_reason": "STOP"
   },
   {
     "symbol": "CIMSA.IS",
@@ -629,7 +633,11 @@
     "stop": 55.2143,
     "target": 59.5214,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 55.2143,
+    "exit_date": "2026-04-30",
+    "result_pct": -2.53,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TABGD.IS",
@@ -641,7 +649,11 @@
     "stop": 263.4143,
     "target": 272.6714,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 263.4143,
+    "exit_date": "2026-04-30",
+    "result_pct": -1.16,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ULKER.IS",
@@ -653,6 +665,10 @@
     "stop": 121.1371,
     "target": 124.3257,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 121.1371,
+    "exit_date": "2026-04-30",
+    "result_pct": -0.87,
+    "close_reason": "STOP"
   }
 ]
