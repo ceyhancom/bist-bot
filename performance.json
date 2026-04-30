@@ -169,7 +169,11 @@
     "stop": 55.9143,
     "target": 59.3214,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 55.9143,
+    "exit_date": "2026-04-30",
+    "result_pct": -1.99,
+    "close_reason": "STOP"
   },
   {
     "symbol": "CWENE.IS",
@@ -181,7 +185,11 @@
     "stop": 35.5501,
     "target": 38.5198,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 35.5501,
+    "exit_date": "2026-04-30",
+    "result_pct": -2.71,
+    "close_reason": "STOP"
   },
   {
     "symbol": "EREGL.IS",
@@ -193,7 +201,11 @@
     "stop": 33.3072,
     "target": 34.7857,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 33.3072,
+    "exit_date": "2026-04-30",
+    "result_pct": -1.46,
+    "close_reason": "STOP"
   },
   {
     "symbol": "EUPWR.IS",
@@ -205,7 +217,11 @@
     "stop": 47.5864,
     "target": 52.4271,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 47.5864,
+    "exit_date": "2026-04-30",
+    "result_pct": -3.28,
+    "close_reason": "STOP"
   },
   {
     "symbol": "KRDMD.IS",
@@ -217,7 +233,11 @@
     "stop": 36.9926,
     "target": 39.0548,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 36.9926,
+    "exit_date": "2026-04-30",
+    "result_pct": -1.82,
+    "close_reason": "STOP"
   },
   {
     "symbol": "KTLEV.IS",
@@ -229,7 +249,11 @@
     "stop": 106.4571,
     "target": 115.5857,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 106.4571,
+    "exit_date": "2026-04-30",
+    "result_pct": -2.78,
+    "close_reason": "STOP"
   },
   {
     "symbol": "MIATK.IS",
@@ -241,7 +265,11 @@
     "stop": 38.8264,
     "target": 40.6071,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 38.8264,
+    "exit_date": "2026-04-30",
+    "result_pct": -1.51,
+    "close_reason": "STOP"
   },
   {
     "symbol": "YEOTK.IS",
@@ -253,6 +281,94 @@
     "stop": 55.5054,
     "target": 60.4393,
     "setup_type": "TREND",
+    "status": "closed",
+    "exit": 55.5054,
+    "exit_date": "2026-04-30",
+    "result_pct": -2.88,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "ALTNY.IS",
+    "date": "2026-04-30",
+    "entry": 16.0,
+    "score": 98,
+    "rsi": 45.69,
+    "vol_ratio": 1.45,
+    "stop": 15.8354,
+    "target": 16.3291,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "ASELS.IS",
+    "date": "2026-04-30",
+    "entry": 425.5,
+    "score": 105,
+    "rsi": 58.29,
+    "vol_ratio": 1.18,
+    "stop": 414.4297,
+    "target": 447.6406,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "DOHOL.IS",
+    "date": "2026-04-30",
+    "entry": 23.1,
+    "score": 110,
+    "rsi": 66.36,
+    "vol_ratio": 1.57,
+    "stop": 22.6607,
+    "target": 23.9786,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "KONTR.IS",
+    "date": "2026-04-30",
+    "entry": 10.68,
+    "score": 80,
+    "rsi": 66.01,
+    "vol_ratio": 2.02,
+    "stop": 10.2975,
+    "target": 11.445,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "OTKAR.IS",
+    "date": "2026-04-30",
+    "entry": 379.5,
+    "score": 85,
+    "rsi": 57.45,
+    "vol_ratio": 3.52,
+    "stop": 374.7589,
+    "target": 388.9821,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "PETKM.IS",
+    "date": "2026-04-30",
+    "entry": 25.24,
+    "score": 135,
+    "rsi": 70.54,
+    "vol_ratio": 2.19,
+    "stop": 24.7814,
+    "target": 26.1571,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "TUPRS.IS",
+    "date": "2026-04-30",
+    "entry": 276.75,
+    "score": 115,
+    "rsi": 53.52,
+    "vol_ratio": 1.24,
+    "stop": 270.2224,
+    "target": 289.8052,
+    "setup_type": "PULLBACK",
     "status": "open"
   }
 ]
