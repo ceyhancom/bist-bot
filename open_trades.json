@@ -738,5 +738,17 @@
     "close_reason": "STOP",
     "cooldown_until": "2026-04-30T13:38:10.594815+03:00",
     "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "AEFES.IS",
+    "date": "2026-04-30",
+    "entry": 18.93,
+    "highest_price": 18.93,
+    "stop": 18.6471,
+    "target": 19.4957,
+    "trailing_stop": null,
+    "score": 80,
+    "setup_type": "WEAK",
+    "status": "open"
   }
 ]
