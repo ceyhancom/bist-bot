@@ -743,12 +743,18 @@
     "symbol": "AEFES.IS",
     "date": "2026-04-30",
     "entry": 18.93,
-    "highest_price": 18.93,
+    "highest_price": 19.48,
     "stop": 18.6471,
     "target": 19.4957,
     "trailing_stop": null,
     "score": 80,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 18.6471,
+    "exit_date": "2026-04-30",
+    "result_pct": -1.49,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-04-30T16:54:47.047899+03:00",
+    "cooldown_reason": "STOP"
   }
 ]
