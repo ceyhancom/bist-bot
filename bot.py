@@ -1756,11 +1756,11 @@ def market_session() -> str:
     if hour == 9 and 30 <= minute < 45:
         return "morning"
 
-    if 10 <= hour < 19:
-        return "intraday"
-
     if hour == 18 and 10 <= minute < 30:
         return "evening"
+
+    if 10 <= hour < 19:
+        return "intraday"
 
     return "closed"
 
