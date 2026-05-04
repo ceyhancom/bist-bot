@@ -2841,7 +2841,11 @@
     "stop": 82.7078,
     "target": 87.1845,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 82.7078,
+    "exit_date": "2026-05-04",
+    "result_pct": -1.77,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ALTNY.IS",
@@ -2853,7 +2857,11 @@
     "stop": 16.1911,
     "target": 17.2679,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 16.1911,
+    "exit_date": "2026-05-04",
+    "result_pct": -2.17,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ANSGR.IS",
@@ -2865,7 +2873,11 @@
     "stop": 29.1771,
     "target": 30.7457,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 29.1771,
+    "exit_date": "2026-05-04",
+    "result_pct": -1.76,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ASELS.IS",
@@ -2877,7 +2889,11 @@
     "stop": 431.6875,
     "target": 458.125,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 431.6875,
+    "exit_date": "2026-05-04",
+    "result_pct": -2.0,
+    "close_reason": "STOP"
   },
   {
     "symbol": "BALSU.IS",
@@ -2889,7 +2905,11 @@
     "stop": 14.6307,
     "target": 15.1386,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 14.6307,
+    "exit_date": "2026-05-04",
+    "result_pct": -1.14,
+    "close_reason": "STOP"
   },
   {
     "symbol": "CCOLA.IS",
@@ -2901,7 +2921,11 @@
     "stop": 74.2018,
     "target": 78.8464,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 74.2018,
+    "exit_date": "2026-05-04",
+    "result_pct": -2.04,
+    "close_reason": "STOP"
   },
   {
     "symbol": "KTLEV.IS",
@@ -2913,7 +2937,11 @@
     "stop": 110.4,
     "target": 124.8,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 110.4,
+    "exit_date": "2026-05-04",
+    "result_pct": -4.17,
+    "close_reason": "STOP"
   },
   {
     "symbol": "MAGEN.IS",
@@ -2925,7 +2953,11 @@
     "stop": 62.9114,
     "target": 65.2771,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 62.9114,
+    "exit_date": "2026-05-04",
+    "result_pct": -1.24,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TKFEN.IS",
@@ -2937,7 +2969,11 @@
     "stop": 137.696,
     "target": 147.908,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 137.696,
+    "exit_date": "2026-05-04",
+    "result_pct": -2.41,
+    "close_reason": "STOP"
   },
   {
     "symbol": "YEOTK.IS",
@@ -2949,6 +2985,58 @@
     "stop": 57.4821,
     "target": 62.7857,
     "setup_type": "BREAKOUT",
+    "status": "closed",
+    "exit": 57.4821,
+    "exit_date": "2026-05-04",
+    "result_pct": -2.98,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "AEFES.IS",
+    "date": "2026-05-04",
+    "entry": 18.91,
+    "score": 85,
+    "rsi": 57.6,
+    "vol_ratio": 5.16,
+    "stop": 18.5275,
+    "target": 19.675,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "GESAN.IS",
+    "date": "2026-05-04",
+    "entry": 51.45,
+    "score": 103,
+    "rsi": 78.56,
+    "vol_ratio": 2.6,
+    "stop": 49.8289,
+    "target": 54.6921,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "KRDMD.IS",
+    "date": "2026-05-04",
+    "entry": 38.2,
+    "score": 105,
+    "rsi": 56.06,
+    "vol_ratio": 1.12,
+    "stop": 37.5331,
+    "target": 39.5337,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "PETKM.IS",
+    "date": "2026-05-04",
+    "entry": 24.4,
+    "score": 98,
+    "rsi": 46.81,
+    "vol_ratio": 1.23,
+    "stop": 23.872,
+    "target": 25.456,
+    "setup_type": "PULLBACK",
     "status": "open"
   }
 ]
