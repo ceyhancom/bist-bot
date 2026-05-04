@@ -1,5 +1,3 @@
-send_telegram("✅ PAPER BOT TEST MESAJI")
-
 ```python
 import yfinance as yf
 import pandas as pd
@@ -41,6 +39,9 @@ def send_telegram(msg):
         requests.post(url, data={"chat_id": TELEGRAM_CHAT_ID, "text": msg})
     except:
         pass
+
+# TEST (BURAYA KOY)
+send_telegram("✅ PAPER BOT TEST MESAJI")
 
 # ====== VERİ ======
 def get_data(symbol):
