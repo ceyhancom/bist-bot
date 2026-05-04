@@ -430,8 +430,8 @@
     "exit_date": "2026-04-30",
     "result_pct": -2.36,
     "close_reason": "STOP",
-    "cooldown_until": "2026-04-30T12:03:16.088827+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "CANTE.IS",
@@ -2518,8 +2518,8 @@
     "exit_date": "2026-05-01",
     "result_pct": -1.62,
     "close_reason": "STOP",
-    "cooldown_until": "2026-05-01T19:25:37.879924+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "SMRTG.IS",
@@ -2788,8 +2788,8 @@
     "exit_date": "2026-05-04",
     "result_pct": -1.74,
     "close_reason": "STOP",
-    "cooldown_until": "2026-05-04T11:27:36.461823+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "KTLEV.IS",
@@ -2914,8 +2914,8 @@
     "exit_date": "2026-05-04",
     "result_pct": -2.0,
     "close_reason": "STOP",
-    "cooldown_until": "2026-05-04T11:27:38.067570+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "ULKER.IS",
@@ -2932,8 +2932,8 @@
     "exit_date": "2026-05-04",
     "result_pct": -1.2,
     "close_reason": "STOP",
-    "cooldown_until": "2026-05-04T11:27:38.261703+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "YEOTK.IS",
@@ -2968,8 +2968,8 @@
     "exit_date": "2026-05-04",
     "result_pct": -1.59,
     "close_reason": "STOP",
-    "cooldown_until": "2026-05-04T11:27:38.661774+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "ASELS.IS",
@@ -3130,8 +3130,8 @@
     "exit_date": "2026-05-04",
     "result_pct": -1.77,
     "close_reason": "STOP",
-    "cooldown_until": "2026-05-04T11:51:38.262320+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "GUBRF.IS",
@@ -3166,8 +3166,8 @@
     "exit_date": "2026-05-04",
     "result_pct": -0.51,
     "close_reason": "STOP",
-    "cooldown_until": "2026-05-04T13:22:14.198392+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "AKSEN.IS",
@@ -3184,8 +3184,8 @@
     "exit_date": "2026-05-04",
     "result_pct": -1.77,
     "close_reason": "STOP",
-    "cooldown_until": "2026-05-04T15:12:12.448453+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "ALTNY.IS",
@@ -3202,8 +3202,8 @@
     "exit_date": "2026-05-04",
     "result_pct": -2.17,
     "close_reason": "STOP",
-    "cooldown_until": "2026-05-04T15:12:12.555643+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "ANSGR.IS",
@@ -3328,8 +3328,8 @@
     "exit_date": "2026-05-04",
     "result_pct": -2.41,
     "close_reason": "STOP",
-    "cooldown_until": "2026-05-04T15:12:13.487673+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "YEOTK.IS",
@@ -3425,11 +3425,161 @@
     "symbol": "EREGL.IS",
     "date": "2026-05-04",
     "entry": 35.8,
-    "highest_price": 35.8,
+    "highest_price": 36.08,
     "stop": 34.9386,
     "target": 37.5229,
     "trailing_stop": null,
     "score": 115,
+    "setup_type": "TREND",
+    "status": "closed",
+    "exit": 34.9386,
+    "exit_date": "2026-05-04",
+    "result_pct": -2.41,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-05-04T19:08:05.641426+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "AKSEN.IS",
+    "date": "2026-05-04",
+    "entry": 85.95,
+    "highest_price": 85.95,
+    "stop": 84.5089,
+    "target": 88.8321,
+    "trailing_stop": null,
+    "score": 118,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "ALTNY.IS",
+    "date": "2026-05-04",
+    "entry": 16.53,
+    "highest_price": 16.53,
+    "stop": 16.1725,
+    "target": 17.2449,
+    "trailing_stop": null,
+    "score": 105,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "BRYAT.IS",
+    "date": "2026-05-04",
+    "entry": 2125.0,
+    "highest_price": 2125.0,
+    "stop": 2097.4643,
+    "target": 2180.0714,
+    "trailing_stop": null,
+    "score": 70,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "IEYHO.IS",
+    "date": "2026-05-04",
+    "entry": 99.25,
+    "highest_price": 99.25,
+    "stop": 98.9929,
+    "target": 99.7643,
+    "trailing_stop": null,
+    "score": 105,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "KCAER.IS",
+    "date": "2026-05-04",
+    "entry": 12.15,
+    "highest_price": 12.15,
+    "stop": 11.9261,
+    "target": 12.5979,
+    "trailing_stop": null,
+    "score": 78,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "OBAMS.IS",
+    "date": "2026-05-04",
+    "entry": 8.48,
+    "highest_price": 8.48,
+    "stop": 8.3471,
+    "target": 8.7457,
+    "trailing_stop": null,
+    "score": 90,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "TKFEN.IS",
+    "date": "2026-05-04",
+    "entry": 140.9,
+    "highest_price": 140.9,
+    "stop": 138.0971,
+    "target": 146.5057,
+    "trailing_stop": null,
+    "score": 90,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "TUPRS.IS",
+    "date": "2026-05-04",
+    "entry": 271.5,
+    "highest_price": 271.5,
+    "stop": 267.5143,
+    "target": 279.4714,
+    "trailing_stop": null,
+    "score": 105,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "TUREX.IS",
+    "date": "2026-05-04",
+    "entry": 8.94,
+    "highest_price": 8.94,
+    "stop": 8.7397,
+    "target": 9.3406,
+    "trailing_stop": null,
+    "score": 120,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "TURSG.IS",
+    "date": "2026-05-04",
+    "entry": 14.06,
+    "highest_price": 14.06,
+    "stop": 13.8489,
+    "target": 14.4821,
+    "trailing_stop": null,
+    "score": 100,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "ULKER.IS",
+    "date": "2026-05-04",
+    "entry": 124.5,
+    "highest_price": 124.5,
+    "stop": 122.467,
+    "target": 128.566,
+    "trailing_stop": null,
+    "score": 105,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "ZOREN.IS",
+    "date": "2026-05-04",
+    "entry": 3.11,
+    "highest_price": 3.11,
+    "stop": 3.065,
+    "target": 3.2,
+    "trailing_stop": null,
+    "score": 100,
     "setup_type": "TREND",
     "status": "open"
   }
