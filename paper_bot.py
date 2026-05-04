@@ -1,3 +1,5 @@
+send_telegram("✅ PAPER BOT TEST MESAJI")
+
 ```python
 import yfinance as yf
 import pandas as pd
