@@ -2809,7 +2809,11 @@
     "stop": 532.1964,
     "target": 557.1071,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 532.1964,
+    "exit_date": "2026-05-04",
+    "result_pct": -1.54,
+    "close_reason": "STOP"
   },
   {
     "symbol": "IEYHO.IS",
@@ -2821,6 +2825,130 @@
     "stop": 98.7459,
     "target": 100.2583,
     "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 98.7459,
+    "exit_date": "2026-05-04",
+    "result_pct": -0.51,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "AKSEN.IS",
+    "date": "2026-05-04",
+    "entry": 84.2,
+    "score": 125,
+    "rsi": 56.88,
+    "vol_ratio": 1.53,
+    "stop": 82.7078,
+    "target": 87.1845,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "ALTNY.IS",
+    "date": "2026-05-04",
+    "entry": 16.55,
+    "score": 110,
+    "rsi": 68.52,
+    "vol_ratio": 1.99,
+    "stop": 16.1911,
+    "target": 17.2679,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "ANSGR.IS",
+    "date": "2026-05-04",
+    "entry": 29.7,
+    "score": 110,
+    "rsi": 69.05,
+    "vol_ratio": 1.78,
+    "stop": 29.1771,
+    "target": 30.7457,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "ASELS.IS",
+    "date": "2026-05-04",
+    "entry": 440.5,
+    "score": 90,
+    "rsi": 73.55,
+    "vol_ratio": 1.08,
+    "stop": 431.6875,
+    "target": 458.125,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "BALSU.IS",
+    "date": "2026-05-04",
+    "entry": 14.8,
+    "score": 85,
+    "rsi": 64.29,
+    "vol_ratio": 5.53,
+    "stop": 14.6307,
+    "target": 15.1386,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "CCOLA.IS",
+    "date": "2026-05-04",
+    "entry": 75.75,
+    "score": 70,
+    "rsi": 61.8,
+    "vol_ratio": 1.79,
+    "stop": 74.2018,
+    "target": 78.8464,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "KTLEV.IS",
+    "date": "2026-05-04",
+    "entry": 115.2,
+    "score": 105,
+    "rsi": 70.04,
+    "vol_ratio": 2.95,
+    "stop": 110.4,
+    "target": 124.8,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "MAGEN.IS",
+    "date": "2026-05-04",
+    "entry": 63.7,
+    "score": 120,
+    "rsi": 55.77,
+    "vol_ratio": 2.1,
+    "stop": 62.9114,
+    "target": 65.2771,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "TKFEN.IS",
+    "date": "2026-05-04",
+    "entry": 141.1,
+    "score": 90,
+    "rsi": 61.97,
+    "vol_ratio": 1.22,
+    "stop": 137.696,
+    "target": 147.908,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "YEOTK.IS",
+    "date": "2026-05-04",
+    "entry": 59.25,
+    "score": 135,
+    "rsi": 71.19,
+    "vol_ratio": 2.57,
+    "stop": 57.4821,
+    "target": 62.7857,
+    "setup_type": "BREAKOUT",
     "status": "open"
   }
 ]
