@@ -3001,7 +3001,11 @@
     "stop": 18.5275,
     "target": 19.675,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 18.5275,
+    "exit_date": "2026-05-04",
+    "result_pct": -2.02,
+    "close_reason": "STOP"
   },
   {
     "symbol": "GESAN.IS",
@@ -3013,7 +3017,11 @@
     "stop": 49.8289,
     "target": 54.6921,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 49.8289,
+    "exit_date": "2026-05-04",
+    "result_pct": -3.15,
+    "close_reason": "STOP"
   },
   {
     "symbol": "KRDMD.IS",
@@ -3025,7 +3033,11 @@
     "stop": 37.5331,
     "target": 39.5337,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 37.5331,
+    "exit_date": "2026-05-04",
+    "result_pct": -1.75,
+    "close_reason": "STOP"
   },
   {
     "symbol": "PETKM.IS",
@@ -3037,6 +3049,22 @@
     "stop": 23.872,
     "target": 25.456,
     "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 23.872,
+    "exit_date": "2026-05-04",
+    "result_pct": -2.16,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "EREGL.IS",
+    "date": "2026-05-04",
+    "entry": 35.8,
+    "score": 115,
+    "rsi": 66.54,
+    "vol_ratio": 5.72,
+    "stop": 34.9386,
+    "target": 37.5229,
+    "setup_type": "TREND",
     "status": "open"
   }
 ]
