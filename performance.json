@@ -2665,7 +2665,11 @@
     "stop": 427.4196,
     "target": 452.4107,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 427.4196,
+    "exit_date": "2026-05-04",
+    "result_pct": -1.91,
+    "close_reason": "STOP"
   },
   {
     "symbol": "DOHOL.IS",
@@ -2677,7 +2681,11 @@
     "stop": 22.3103,
     "target": 24.0794,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 22.3103,
+    "exit_date": "2026-05-04",
+    "result_pct": -2.58,
+    "close_reason": "STOP"
   },
   {
     "symbol": "DSTKF.IS",
@@ -2689,7 +2697,11 @@
     "stop": 2608.3239,
     "target": 2920.8522,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 2608.3239,
+    "exit_date": "2026-05-04",
+    "result_pct": -3.84,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ENERY.IS",
@@ -2701,7 +2713,11 @@
     "stop": 9.055,
     "target": 9.55,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 9.055,
+    "exit_date": "2026-05-04",
+    "result_pct": -1.79,
+    "close_reason": "STOP"
   },
   {
     "symbol": "EREGL.IS",
@@ -2713,7 +2729,11 @@
     "stop": 33.8135,
     "target": 37.973,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 33.8135,
+    "exit_date": "2026-05-04",
+    "result_pct": -3.94,
+    "close_reason": "STOP"
   },
   {
     "symbol": "KRDMD.IS",
@@ -2725,7 +2745,11 @@
     "stop": 37.4907,
     "target": 39.5587,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 37.4907,
+    "exit_date": "2026-05-04",
+    "result_pct": -1.81,
+    "close_reason": "STOP"
   },
   {
     "symbol": "SOKM.IS",
@@ -2737,7 +2761,11 @@
     "stop": 50.4494,
     "target": 53.4513,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 50.4494,
+    "exit_date": "2026-05-04",
+    "result_pct": -1.94,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TABGD.IS",
@@ -2749,7 +2777,11 @@
     "stop": 264.8143,
     "target": 271.3714,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 264.8143,
+    "exit_date": "2026-05-04",
+    "result_pct": -0.82,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TURSG.IS",
@@ -2761,6 +2793,34 @@
     "stop": 13.7425,
     "target": 14.485,
     "setup_type": "WEAK",
+    "status": "closed",
+    "exit": 13.7425,
+    "exit_date": "2026-05-04",
+    "result_pct": -1.77,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "GUBRF.IS",
+    "date": "2026-05-04",
+    "entry": 540.5,
+    "score": 115,
+    "rsi": 63.29,
+    "vol_ratio": 1.46,
+    "stop": 532.1964,
+    "target": 557.1071,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "IEYHO.IS",
+    "date": "2026-05-04",
+    "entry": 99.25,
+    "score": 115,
+    "rsi": 59.26,
+    "vol_ratio": 1.41,
+    "stop": 98.7459,
+    "target": 100.2583,
+    "setup_type": "PULLBACK",
     "status": "open"
   }
 ]
