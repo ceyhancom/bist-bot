@@ -1,65 +1,9 @@
 {
-  "date": "2026-05-04",
+  "date": "2026-05-05",
   "signals": {
     "AEFES.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "⚪ BEKLE",
-        "signal_key": "none",
-        "price": 19.08,
-        "score": 45,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 19.0,
-        "score": 35,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 18.64,
-        "score": 8,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 18.69,
-        "score": -17,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "⚪ BEKLE",
-        "signal_key": "none",
-        "price": 18.9,
-        "score": 45,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🔥 ÇOK GÜÇLÜ AL",
-        "signal_key": "al",
-        "price": 18.91,
-        "score": 85,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "⚪ BEKLE",
-        "signal_key": "none",
-        "price": 19.06,
-        "score": 45,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "⚪ BEKLE",
         "signal_key": "none",
         "price": 18.97,
@@ -69,63 +13,7 @@
     ],
     "AGHOL.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 31.38,
-        "score": 80,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🔥 ÇOK GÜÇLÜ AL",
-        "signal_key": "al",
-        "price": 31.76,
-        "score": 110,
-        "setup_type": "BREAKOUT"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 32.0,
-        "score": 135,
-        "setup_type": "BREAKOUT"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 31.98,
-        "score": 100,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 31.98,
-        "score": 65,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 31.68,
-        "score": 90,
-        "setup_type": "PULLBACK"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 31.86,
-        "score": 75,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "🟡 TAKİP",
         "signal_key": "takip",
         "price": 31.96,
@@ -135,63 +23,7 @@
     ],
     "AKBNK.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 73.35,
-        "score": -45,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 72.0,
-        "score": -40,
-        "setup_type": "BREAKDOWN"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 71.75,
-        "score": -35,
-        "setup_type": "BREAKDOWN"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 71.9,
-        "score": -35,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 71.85,
-        "score": -45,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 70.85,
-        "score": -35,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 71.0,
-        "score": -45,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
         "price": 70.75,
@@ -201,63 +33,7 @@
     ],
     "AKSA.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 10.61,
-        "score": 30,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 10.43,
-        "score": 20,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 10.38,
-        "score": 5,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 10.36,
-        "score": -10,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 10.38,
-        "score": 0,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 10.33,
-        "score": 0,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 10.31,
-        "score": -10,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
         "price": 10.29,
@@ -267,65 +43,9 @@
     ],
     "AKSEN.IS": [
       {
-        "time": "04.05.2026 10:14",
+        "time": "05.05.2026 10:07",
         "signal": "🟡 TAKİP",
         "signal_key": "takip",
-        "price": 83.6,
-        "score": 63,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🔥 ÇOK GÜÇLÜ AL",
-        "signal_key": "al",
-        "price": 83.8,
-        "score": 115,
-        "setup_type": "PULLBACK"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 83.45,
-        "score": 113,
-        "setup_type": "PULLBACK"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 83.95,
-        "score": 125,
-        "setup_type": "PULLBACK"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🔥 ÇOK GÜÇLÜ AL",
-        "signal_key": "al",
-        "price": 84.2,
-        "score": 125,
-        "setup_type": "PULLBACK"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 84.35,
-        "score": 80,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 84.8,
-        "score": 65,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 18:23",
-        "signal": "🔥 ÇOK GÜÇLÜ AL",
-        "signal_key": "al",
         "price": 85.95,
         "score": 118,
         "setup_type": "BREAKOUT"
@@ -333,63 +53,7 @@
     ],
     "ALARK.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 93.95,
-        "score": -65,
-        "setup_type": "BREAKDOWN"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 93.7,
-        "score": -50,
-        "setup_type": "BREAKDOWN"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 93.25,
-        "score": -30,
-        "setup_type": "BREAKDOWN"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 93.3,
-        "score": -35,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 94.9,
-        "score": 18,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 93.75,
-        "score": -25,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 93.35,
-        "score": -35,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
         "price": 93.65,
@@ -399,65 +63,9 @@
     ],
     "ALTNY.IS": [
       {
-        "time": "04.05.2026 10:14",
+        "time": "05.05.2026 10:07",
         "signal": "🟡 TAKİP",
         "signal_key": "takip",
-        "price": 16.17,
-        "score": 80,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🔥 ÇOK GÜÇLÜ AL",
-        "signal_key": "al",
-        "price": 16.43,
-        "score": 140,
-        "setup_type": "BREAKOUT"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 16.83,
-        "score": 135,
-        "setup_type": "BREAKOUT"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 16.64,
-        "score": 100,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🔥 ÇOK GÜÇLÜ AL",
-        "signal_key": "al",
-        "price": 16.55,
-        "score": 110,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 16.69,
-        "score": 90,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 16.49,
-        "score": 70,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 18:23",
-        "signal": "🔥 ÇOK GÜÇLÜ AL",
-        "signal_key": "al",
         "price": 16.53,
         "score": 105,
         "setup_type": "PULLBACK"
@@ -465,63 +73,7 @@
     ],
     "ANSGR.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 29.0,
-        "score": 80,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🔥 ÇOK GÜÇLÜ AL",
-        "signal_key": "al",
-        "price": 29.48,
-        "score": 125,
-        "setup_type": "PULLBACK"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 29.46,
-        "score": 130,
-        "setup_type": "PULLBACK"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 29.72,
-        "score": 110,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🔥 ÇOK GÜÇLÜ AL",
-        "signal_key": "al",
-        "price": 29.7,
-        "score": 110,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 29.92,
-        "score": 100,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "⚪ BEKLE",
-        "signal_key": "none",
-        "price": 30.08,
-        "score": 53,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "🟡 TAKİP",
         "signal_key": "takip",
         "price": 30.1,
@@ -531,63 +83,7 @@
     ],
     "ARCLK.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 112.2,
-        "score": -12,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 111.3,
-        "score": -45,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 111.0,
-        "score": -20,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 110.6,
-        "score": -35,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 110.7,
-        "score": -25,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 109.7,
-        "score": -35,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 109.9,
-        "score": -35,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
         "price": 110.1,
@@ -597,63 +93,7 @@
     ],
     "ASELS.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 422.0,
-        "score": -35,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 430.0,
-        "score": 90,
-        "setup_type": "PULLBACK"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🔥 ÇOK GÜÇLÜ AL",
-        "signal_key": "al",
-        "price": 435.75,
-        "score": 140,
-        "setup_type": "BREAKOUT"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 436.25,
-        "score": 70,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🔥 ÇOK GÜÇLÜ AL",
-        "signal_key": "al",
-        "price": 440.5,
-        "score": 90,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 436.75,
-        "score": 70,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 432.0,
-        "score": 55,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "🟡 TAKİP",
         "signal_key": "takip",
         "price": 432.0,
@@ -663,63 +103,7 @@
     ],
     "ASTOR.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 286.25,
-        "score": 65,
-        "setup_type": "BREAKOUT"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 297.0,
-        "score": 115,
-        "setup_type": "BREAKOUT"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 289.25,
-        "score": 115,
-        "setup_type": "BREAKOUT"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 290.0,
-        "score": 55,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 297.0,
-        "score": 80,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 296.5,
-        "score": 55,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "⚪ BEKLE",
-        "signal_key": "none",
-        "price": 295.0,
-        "score": 45,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "🟡 TAKİP",
         "signal_key": "takip",
         "price": 292.75,
@@ -729,63 +113,7 @@
     ],
     "BALSU.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "⚪ BEKLE",
-        "signal_key": "none",
-        "price": 14.7,
-        "score": 45,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "⚪ BEKLE",
-        "signal_key": "none",
-        "price": 14.67,
-        "score": 45,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 14.57,
-        "score": 8,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 14.61,
-        "score": -2,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🔥 ÇOK GÜÇLÜ AL",
-        "signal_key": "al",
-        "price": 14.8,
-        "score": 85,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 14.58,
-        "score": -10,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 14.59,
-        "score": -10,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
         "price": 14.5,
@@ -795,63 +123,7 @@
     ],
     "BIMAS.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "⚪ BEKLE",
-        "signal_key": "none",
-        "price": 744.0,
-        "score": 45,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "⚪ BEKLE",
-        "signal_key": "none",
-        "price": 741.5,
-        "score": 50,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 737.0,
-        "score": 55,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "⚪ BEKLE",
-        "signal_key": "none",
-        "price": 738.5,
-        "score": 45,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 734.5,
-        "score": 0,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 728.5,
-        "score": -10,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 732.0,
-        "score": -17,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
         "price": 731.5,
@@ -861,63 +133,7 @@
     ],
     "BRSAN.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 554.5,
-        "score": -2,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "⚪ BEKLE",
-        "signal_key": "none",
-        "price": 556.5,
-        "score": 53,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "⚪ BEKLE",
-        "signal_key": "none",
-        "price": 554.0,
-        "score": 38,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 554.0,
-        "score": -12,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 559.0,
-        "score": 60,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 554.0,
-        "score": -2,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 565.5,
-        "score": 30,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "⚪ BEKLE",
         "signal_key": "none",
         "price": 570.0,
@@ -927,65 +143,9 @@
     ],
     "BRYAT.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 2110.0,
-        "score": -20,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:25",
+        "time": "05.05.2026 10:07",
         "signal": "🟡 TAKİP",
         "signal_key": "takip",
-        "price": 2117.0,
-        "score": 55,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 2104.0,
-        "score": 5,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 2103.0,
-        "score": -35,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 2100.0,
-        "score": -2,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 2081.0,
-        "score": -35,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 2100.0,
-        "score": -12,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 18:23",
-        "signal": "🟢 GÜÇLÜ AL",
-        "signal_key": "al",
         "price": 2125.0,
         "score": 70,
         "setup_type": "WEAK"
@@ -993,63 +153,7 @@
     ],
     "BTCIM.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 6.26,
-        "score": 28,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 6.31,
-        "score": 60,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 6.27,
-        "score": 68,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 6.24,
-        "score": 18,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 6.17,
-        "score": -17,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 6.08,
-        "score": -25,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 6.09,
-        "score": -27,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
         "price": 6.06,
@@ -1059,63 +163,7 @@
     ],
     "CANTE.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 1.81,
-        "score": 80,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🔥 ÇOK GÜÇLÜ AL",
-        "signal_key": "al",
-        "price": 1.8,
-        "score": 108,
-        "setup_type": "PULLBACK"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 1.79,
-        "score": 13,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 1.79,
-        "score": -27,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 1.78,
-        "score": 13,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 1.75,
-        "score": -35,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 1.74,
-        "score": -35,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
         "price": 1.74,
@@ -1125,63 +173,7 @@
     ],
     "CCOLA.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 75.2,
-        "score": 28,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 74.6,
-        "score": -35,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 74.95,
-        "score": 8,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "⚪ BEKLE",
-        "signal_key": "none",
-        "price": 75.6,
-        "score": 45,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🟢 GÜÇLÜ AL",
-        "signal_key": "al",
-        "price": 75.75,
-        "score": 70,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 75.55,
-        "score": 35,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "⚪ BEKLE",
-        "signal_key": "none",
-        "price": 76.65,
-        "score": 45,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "⚪ BEKLE",
         "signal_key": "none",
         "price": 76.8,
@@ -1191,63 +183,7 @@
     ],
     "CIMSA.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 57.95,
-        "score": 80,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 57.2,
-        "score": 80,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "⚪ BEKLE",
-        "signal_key": "none",
-        "price": 56.95,
-        "score": 53,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 57.35,
-        "score": 80,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 57.45,
-        "score": 70,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 56.85,
-        "score": -17,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 56.85,
-        "score": -10,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "🟡 TAKİP",
         "signal_key": "takip",
         "price": 58.55,
@@ -1257,63 +193,7 @@
     ],
     "CLEBI.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 1786.0,
-        "score": -45,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 1764.0,
-        "score": -40,
-        "setup_type": "BREAKDOWN"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 1757.0,
-        "score": -35,
-        "setup_type": "BREAKDOWN"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 1754.0,
-        "score": -45,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 1757.0,
-        "score": -35,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 1742.0,
-        "score": -45,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 1747.0,
-        "score": -35,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
         "price": 1751.0,
@@ -1323,63 +203,7 @@
     ],
     "CWENE.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 36.94,
-        "score": 80,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 36.32,
-        "score": -12,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 36.0,
-        "score": 8,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 36.16,
-        "score": -2,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 36.1,
-        "score": -17,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 36.04,
-        "score": -17,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 36.04,
-        "score": -27,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
         "price": 35.9,
@@ -1389,63 +213,7 @@
     ],
     "DOAS.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "⚪ BEKLE",
-        "signal_key": "none",
-        "price": 182.1,
-        "score": 45,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 180.4,
-        "score": 23,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 179.4,
-        "score": -35,
-        "setup_type": "BREAKDOWN"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 179.4,
-        "score": -45,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 179.3,
-        "score": -35,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 178.5,
-        "score": -35,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 178.1,
-        "score": -45,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
         "price": 178.0,
@@ -1455,63 +223,7 @@
     ],
     "DOHOL.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 22.92,
-        "score": 80,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 23.04,
-        "score": 90,
-        "setup_type": "PULLBACK"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🔥 ÇOK GÜÇLÜ AL",
-        "signal_key": "al",
-        "price": 22.9,
-        "score": 115,
-        "setup_type": "PULLBACK"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 23.3,
-        "score": 115,
-        "setup_type": "BREAKOUT"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 23.34,
-        "score": 80,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 23.1,
-        "score": 70,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 23.36,
-        "score": 80,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "🟡 TAKİP",
         "signal_key": "takip",
         "price": 23.36,
@@ -1521,63 +233,7 @@
     ],
     "DSTKF.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 2755.0,
-        "score": 75,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 2740.0,
-        "score": 65,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🔥 ÇOK GÜÇLÜ AL",
-        "signal_key": "al",
-        "price": 2712.5,
-        "score": 100,
-        "setup_type": "PULLBACK"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 2712.5,
-        "score": 65,
-        "setup_type": "PULLBACK"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 2735.0,
-        "score": 75,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 2727.5,
-        "score": 65,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 2737.5,
-        "score": 70,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "🟡 TAKİP",
         "signal_key": "takip",
         "price": 2730.0,
@@ -1587,63 +243,7 @@
     ],
     "EGEEN.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 6355.0,
-        "score": 35,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 6342.5,
-        "score": 5,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 6285.0,
-        "score": -2,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 6280.0,
-        "score": -27,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 6282.5,
-        "score": 0,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 6230.0,
-        "score": -25,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 6190.0,
-        "score": -45,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
         "price": 6232.5,
@@ -1653,63 +253,7 @@
     ],
     "EKGYO.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "⚪ BEKLE",
-        "signal_key": "none",
-        "price": 20.62,
-        "score": 45,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 20.26,
-        "score": -10,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 20.08,
-        "score": -2,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 20.06,
-        "score": -17,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 20.08,
-        "score": -17,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 19.77,
-        "score": -35,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 19.63,
-        "score": -25,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
         "price": 19.82,
@@ -1719,63 +263,7 @@
     ],
     "ENERY.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 9.68,
-        "score": 20,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 9.45,
-        "score": 20,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🟢 GÜÇLÜ AL",
-        "signal_key": "al",
-        "price": 9.22,
-        "score": 80,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "⚪ BEKLE",
-        "signal_key": "none",
-        "price": 9.25,
-        "score": 45,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 9.19,
-        "score": 18,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 9.07,
-        "score": 30,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "⚪ BEKLE",
-        "signal_key": "none",
-        "price": 9.08,
-        "score": 40,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
         "price": 8.98,
@@ -1785,63 +273,7 @@
     ],
     "ENJSA.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 122.8,
-        "score": 80,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 123.3,
-        "score": 80,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 123.4,
-        "score": 80,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 123.3,
-        "score": 70,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 123.6,
-        "score": 90,
-        "setup_type": "PULLBACK"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 123.4,
-        "score": 80,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "⚪ BEKLE",
-        "signal_key": "none",
-        "price": 123.4,
-        "score": 53,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "🟡 TAKİP",
         "signal_key": "takip",
         "price": 123.8,
@@ -1851,63 +283,7 @@
     ],
     "ENKAI.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 105.2,
-        "score": 28,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 104.0,
-        "score": -30,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 103.5,
-        "score": -10,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 103.4,
-        "score": -45,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 103.3,
-        "score": -45,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 102.4,
-        "score": -45,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 102.8,
-        "score": -35,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
         "price": 102.9,
@@ -1917,63 +293,7 @@
     ],
     "EREGL.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 35.36,
-        "score": 75,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 35.54,
-        "score": 75,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🔥 ÇOK GÜÇLÜ AL",
-        "signal_key": "al",
-        "price": 35.2,
-        "score": 105,
-        "setup_type": "PULLBACK"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 34.98,
-        "score": 70,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 34.94,
-        "score": 55,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 34.8,
-        "score": 65,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🔥 ÇOK GÜÇLÜ AL",
-        "signal_key": "al",
-        "price": 35.8,
-        "score": 115,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "🟡 TAKİP",
         "signal_key": "takip",
         "price": 35.8,
@@ -1983,63 +303,7 @@
     ],
     "EUPWR.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 53.5,
-        "score": 65,
-        "setup_type": "BREAKOUT"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 53.6,
-        "score": 80,
-        "setup_type": "BREAKOUT"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 53.9,
-        "score": 110,
-        "setup_type": "BREAKOUT"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 53.8,
-        "score": 55,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 54.2,
-        "score": 55,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 56.35,
-        "score": 115,
-        "setup_type": "BREAKOUT"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "⚪ BEKLE",
-        "signal_key": "none",
-        "price": 56.3,
-        "score": 45,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "⚪ BEKLE",
         "signal_key": "none",
         "price": 55.4,
@@ -2049,63 +313,7 @@
     ],
     "FROTO.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 98.55,
-        "score": -2,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 97.85,
-        "score": -30,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 97.15,
-        "score": -40,
-        "setup_type": "BREAKDOWN"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 97.15,
-        "score": -35,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 97.5,
-        "score": -10,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 96.5,
-        "score": -75,
-        "setup_type": "BREAKDOWN"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 96.15,
-        "score": -45,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
         "price": 95.95,
@@ -2115,63 +323,7 @@
     ],
     "GARAN.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "⚪ BEKLE",
-        "signal_key": "none",
-        "price": 134.2,
-        "score": 45,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 132.6,
-        "score": -12,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 132.0,
-        "score": -2,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 131.9,
-        "score": -17,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 131.4,
-        "score": -17,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 129.4,
-        "score": 0,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 130.0,
-        "score": -45,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
         "price": 129.8,
@@ -2181,63 +333,7 @@
     ],
     "GENIL.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 9.3,
-        "score": -35,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 9.31,
-        "score": -35,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 9.24,
-        "score": -30,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 8.96,
-        "score": -50,
-        "setup_type": "BREAKDOWN"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 8.88,
-        "score": -40,
-        "setup_type": "BREAKDOWN"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 8.86,
-        "score": -45,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 9.05,
-        "score": -35,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
         "price": 8.95,
@@ -2247,63 +343,7 @@
     ],
     "GESAN.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 50.55,
-        "score": 73,
-        "setup_type": "BREAKOUT"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🔥 ÇOK GÜÇLÜ AL",
-        "signal_key": "al",
-        "price": 50.95,
-        "score": 108,
-        "setup_type": "BREAKOUT"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 50.65,
-        "score": 113,
-        "setup_type": "BREAKOUT"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 50.35,
-        "score": 93,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 50.85,
-        "score": 63,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🔥 ÇOK GÜÇLÜ AL",
-        "signal_key": "al",
-        "price": 51.45,
-        "score": 103,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 51.45,
-        "score": 105,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "🟡 TAKİP",
         "signal_key": "takip",
         "price": 51.1,
@@ -2313,63 +353,7 @@
     ],
     "GRSEL.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "⚪ BEKLE",
-        "signal_key": "none",
-        "price": 300.0,
-        "score": 45,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🟢 GÜÇLÜ AL",
-        "signal_key": "al",
-        "price": 305.5,
-        "score": 70,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 301.5,
-        "score": 80,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "⚪ BEKLE",
-        "signal_key": "none",
-        "price": 303.0,
-        "score": 45,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "⚪ BEKLE",
-        "signal_key": "none",
-        "price": 304.75,
-        "score": 45,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 302.5,
-        "score": 35,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 299.75,
-        "score": 20,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
         "price": 296.0,
@@ -2379,63 +363,7 @@
     ],
     "GUBRF.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 534.0,
-        "score": 80,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 532.0,
-        "score": 0,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 528.5,
-        "score": -12,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🔥 ÇOK GÜÇLÜ AL",
-        "signal_key": "al",
-        "price": 540.5,
-        "score": 115,
-        "setup_type": "BREAKOUT"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 544.5,
-        "score": 90,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 536.5,
-        "score": 70,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 538.0,
-        "score": 70,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "🟡 TAKİP",
         "signal_key": "takip",
         "price": 540.0,
@@ -2445,63 +373,7 @@
     ],
     "HALKB.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "⚪ BEKLE",
-        "signal_key": "none",
-        "price": 38.02,
-        "score": 45,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 37.36,
-        "score": -35,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 37.18,
-        "score": 0,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 37.24,
-        "score": -25,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 37.38,
-        "score": -27,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 36.84,
-        "score": -17,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 36.84,
-        "score": 5,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
         "price": 36.5,
@@ -2511,63 +383,7 @@
     ],
     "HEKTS.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 3.48,
-        "score": 75,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🔥 ÇOK GÜÇLÜ AL",
-        "signal_key": "al",
-        "price": 3.47,
-        "score": 90,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 3.49,
-        "score": 115,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 3.47,
-        "score": 65,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 3.47,
-        "score": 65,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 3.4,
-        "score": 55,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 3.43,
-        "score": 75,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
         "price": 3.38,
@@ -2577,65 +393,9 @@
     ],
     "IEYHO.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "⚪ BEKLE",
-        "signal_key": "none",
-        "price": 99.05,
-        "score": 53,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "⚪ BEKLE",
-        "signal_key": "none",
-        "price": 99.05,
-        "score": 53,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "⚪ BEKLE",
-        "signal_key": "none",
-        "price": 99.05,
-        "score": 53,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🔥 ÇOK GÜÇLÜ AL",
-        "signal_key": "al",
-        "price": 99.25,
-        "score": 115,
-        "setup_type": "PULLBACK"
-      },
-      {
-        "time": "04.05.2026 12:37",
+        "time": "05.05.2026 10:07",
         "signal": "🟡 TAKİP",
         "signal_key": "takip",
-        "price": 99.25,
-        "score": 70,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 99.3,
-        "score": 70,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 99.35,
-        "score": 75,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 18:23",
-        "signal": "🔥 ÇOK GÜÇLÜ AL",
-        "signal_key": "al",
         "price": 99.25,
         "score": 105,
         "setup_type": "TREND"
@@ -2643,63 +403,7 @@
     ],
     "ISCTR.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 14.34,
-        "score": 30,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 14.17,
-        "score": 20,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 14.17,
-        "score": 55,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "⚪ BEKLE",
-        "signal_key": "none",
-        "price": 14.22,
-        "score": 45,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 14.17,
-        "score": 20,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 14.03,
-        "score": 0,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 14.05,
-        "score": -10,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
         "price": 14.06,
@@ -2709,63 +413,7 @@
     ],
     "ISMEN.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 42.3,
-        "score": 35,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 42.04,
-        "score": -10,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 41.94,
-        "score": 8,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 41.86,
-        "score": -17,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 41.82,
-        "score": 0,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 41.7,
-        "score": -10,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 41.68,
-        "score": -17,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
         "price": 41.68,
@@ -2775,65 +423,9 @@
     ],
     "KCAER.IS": [
       {
-        "time": "04.05.2026 10:14",
+        "time": "05.05.2026 10:07",
         "signal": "🟡 TAKİP",
         "signal_key": "takip",
-        "price": 11.96,
-        "score": 68,
-        "setup_type": "BREAKOUT"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🔥 ÇOK GÜÇLÜ AL",
-        "signal_key": "al",
-        "price": 12.0,
-        "score": 108,
-        "setup_type": "BREAKOUT"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 12.11,
-        "score": 108,
-        "setup_type": "BREAKOUT"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 12.11,
-        "score": 70,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 12.15,
-        "score": 85,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 12.02,
-        "score": 75,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 12.15,
-        "score": 63,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 18:23",
-        "signal": "🟢 GÜÇLÜ AL",
-        "signal_key": "al",
         "price": 12.15,
         "score": 78,
         "setup_type": "TREND"
@@ -2841,63 +433,7 @@
     ],
     "KCHOL.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 203.0,
-        "score": 28,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 201.7,
-        "score": -12,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 199.1,
-        "score": -10,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 198.8,
-        "score": -35,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 199.7,
-        "score": -10,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 197.9,
-        "score": -35,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 198.1,
-        "score": -25,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
         "price": 197.7,
@@ -2907,63 +443,7 @@
     ],
     "KLRHO.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 103.2,
-        "score": -35,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 104.4,
-        "score": 63,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 103.1,
-        "score": 5,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 103.0,
-        "score": -45,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 103.0,
-        "score": -25,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 102.0,
-        "score": -17,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 101.7,
-        "score": -27,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "🟡 TAKİP",
         "signal_key": "takip",
         "price": 103.2,
@@ -2973,63 +453,7 @@
     ],
     "KONTR.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 10.41,
-        "score": -10,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 10.26,
-        "score": -27,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 10.13,
-        "score": -2,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 10.05,
-        "score": -27,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 10.06,
-        "score": -27,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 10.15,
-        "score": -17,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 10.14,
-        "score": -45,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
         "price": 9.81,
@@ -3039,63 +463,7 @@
     ],
     "KRDMD.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 38.7,
-        "score": 80,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 38.56,
-        "score": 80,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🟢 GÜÇLÜ AL",
-        "signal_key": "al",
-        "price": 38.18,
-        "score": 80,
-        "setup_type": "PULLBACK"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 37.94,
-        "score": -10,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 37.76,
-        "score": -10,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🔥 ÇOK GÜÇLÜ AL",
-        "signal_key": "al",
-        "price": 38.2,
-        "score": 105,
-        "setup_type": "PULLBACK"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 38.74,
-        "score": 80,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "🟡 TAKİP",
         "signal_key": "takip",
         "price": 38.94,
@@ -3105,63 +473,7 @@
     ],
     "KTLEV.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 116.1,
-        "score": 73,
-        "setup_type": "BREAKOUT"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🔥 ÇOK GÜÇLÜ AL",
-        "signal_key": "al",
-        "price": 116.4,
-        "score": 123,
-        "setup_type": "BREAKOUT"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 116.7,
-        "score": 123,
-        "setup_type": "BREAKOUT"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 118.0,
-        "score": 63,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🔥 ÇOK GÜÇLÜ AL",
-        "signal_key": "al",
-        "price": 115.2,
-        "score": 105,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 114.2,
-        "score": 55,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 114.3,
-        "score": 65,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
         "price": 112.6,
@@ -3171,63 +483,7 @@
     ],
     "KUYAS.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 83.1,
-        "score": -35,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 84.9,
-        "score": -2,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 83.3,
-        "score": -25,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 83.45,
-        "score": -17,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 82.5,
-        "score": -27,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 83.45,
-        "score": -17,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 83.5,
-        "score": -35,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
         "price": 82.4,
@@ -3237,63 +493,7 @@
     ],
     "MAGEN.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 64.05,
-        "score": 65,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 63.0,
-        "score": 30,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 63.1,
-        "score": 30,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 63.5,
-        "score": 80,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🔥 ÇOK GÜÇLÜ AL",
-        "signal_key": "al",
-        "price": 63.7,
-        "score": 120,
-        "setup_type": "PULLBACK"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 63.55,
-        "score": 65,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 63.6,
-        "score": 80,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
         "price": 62.05,
@@ -3303,63 +503,7 @@
     ],
     "MAVI.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "⚪ BEKLE",
-        "signal_key": "none",
-        "price": 43.42,
-        "score": 40,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 43.04,
-        "score": 15,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 43.02,
-        "score": 25,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "⚪ BEKLE",
-        "signal_key": "none",
-        "price": 43.2,
-        "score": 45,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "⚪ BEKLE",
-        "signal_key": "none",
-        "price": 43.44,
-        "score": 45,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 43.36,
-        "score": 35,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 43.28,
-        "score": 30,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "🟡 TAKİP",
         "signal_key": "takip",
         "price": 44.02,
@@ -3369,63 +513,7 @@
     ],
     "MGROS.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "⚪ BEKLE",
-        "signal_key": "none",
-        "price": 645.0,
-        "score": 40,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 650.5,
-        "score": 63,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 650.0,
-        "score": 68,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 649.0,
-        "score": 18,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 645.5,
-        "score": 65,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 642.0,
-        "score": 70,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 641.5,
-        "score": 60,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "⚪ BEKLE",
         "signal_key": "none",
         "price": 640.0,
@@ -3435,63 +523,7 @@
     ],
     "MIATK.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "⚪ BEKLE",
-        "signal_key": "none",
-        "price": 40.76,
-        "score": 40,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🟢 GÜÇLÜ AL",
-        "signal_key": "al",
-        "price": 40.46,
-        "score": 75,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 39.88,
-        "score": 75,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "⚪ BEKLE",
-        "signal_key": "none",
-        "price": 40.04,
-        "score": 40,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 39.98,
-        "score": 65,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 39.46,
-        "score": 5,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 39.62,
-        "score": 30,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
         "price": 39.12,
@@ -3501,63 +533,7 @@
     ],
     "MPARK.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "⚪ BEKLE",
-        "signal_key": "none",
-        "price": 445.0,
-        "score": 40,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 440.0,
-        "score": 35,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 438.0,
-        "score": 20,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "⚪ BEKLE",
-        "signal_key": "none",
-        "price": 438.25,
-        "score": 45,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "⚪ BEKLE",
-        "signal_key": "none",
-        "price": 443.5,
-        "score": 40,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 439.0,
-        "score": 20,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 437.0,
-        "score": -10,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
         "price": 438.75,
@@ -3567,65 +543,9 @@
     ],
     "OBAMS.IS": [
       {
-        "time": "04.05.2026 10:14",
+        "time": "05.05.2026 10:07",
         "signal": "🟡 TAKİP",
         "signal_key": "takip",
-        "price": 8.34,
-        "score": 60,
-        "setup_type": "BREAKOUT"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 8.32,
-        "score": 75,
-        "setup_type": "BREAKOUT"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 8.31,
-        "score": 95,
-        "setup_type": "BREAKOUT"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "⚪ BEKLE",
-        "signal_key": "none",
-        "price": 8.34,
-        "score": 53,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 8.45,
-        "score": 100,
-        "setup_type": "BREAKOUT"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 8.53,
-        "score": 85,
-        "setup_type": "BREAKOUT"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 8.45,
-        "score": 65,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 18:23",
-        "signal": "🔥 ÇOK GÜÇLÜ AL",
-        "signal_key": "al",
         "price": 8.48,
         "score": 90,
         "setup_type": "TREND"
@@ -3633,63 +553,7 @@
     ],
     "ODAS.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 6.94,
-        "score": -20,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 6.9,
-        "score": -5,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 6.87,
-        "score": -20,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 6.9,
-        "score": -20,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 6.86,
-        "score": -35,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 6.74,
-        "score": -45,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 6.83,
-        "score": -27,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
         "price": 6.86,
@@ -3699,63 +563,7 @@
     ],
     "OTKAR.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 383.5,
-        "score": 20,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🟢 GÜÇLÜ AL",
-        "signal_key": "al",
-        "price": 379.5,
-        "score": 70,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 377.5,
-        "score": 60,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "⚪ BEKLE",
-        "signal_key": "none",
-        "price": 380.75,
-        "score": 40,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "⚪ BEKLE",
-        "signal_key": "none",
-        "price": 380.75,
-        "score": 40,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 378.75,
-        "score": 30,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 379.5,
-        "score": 35,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
         "price": 376.75,
@@ -3765,63 +573,7 @@
     ],
     "OYAKC.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 23.84,
-        "score": 28,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 23.74,
-        "score": 13,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 23.62,
-        "score": 0,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 23.54,
-        "score": -35,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 23.76,
-        "score": 28,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 23.62,
-        "score": -17,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 23.36,
-        "score": -27,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
         "price": 23.46,
@@ -3831,63 +583,7 @@
     ],
     "PASEU.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 130.0,
-        "score": 18,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 127.5,
-        "score": 18,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 126.9,
-        "score": 18,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 127.3,
-        "score": 28,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 126.8,
-        "score": 35,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 127.0,
-        "score": 35,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 126.2,
-        "score": 35,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "🟡 TAKİP",
         "signal_key": "takip",
         "price": 134.0,
@@ -3897,63 +593,7 @@
     ],
     "PETKM.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 23.92,
-        "score": -17,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 23.86,
-        "score": -27,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 23.96,
-        "score": 8,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 23.82,
-        "score": -27,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 24.12,
-        "score": -2,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🔥 ÇOK GÜÇLÜ AL",
-        "signal_key": "al",
-        "price": 24.4,
-        "score": 98,
-        "setup_type": "PULLBACK"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 24.14,
-        "score": -45,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "🟡 TAKİP",
         "signal_key": "takip",
         "price": 24.2,
@@ -3963,63 +603,7 @@
     ],
     "PGSUS.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "⚪ BEKLE",
-        "signal_key": "none",
-        "price": 181.3,
-        "score": 45,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 180.2,
-        "score": -12,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 178.8,
-        "score": 13,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 178.7,
-        "score": -27,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 179.8,
-        "score": 30,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 179.4,
-        "score": 0,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 179.8,
-        "score": 5,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
         "price": 178.9,
@@ -4029,63 +613,7 @@
     ],
     "RALYH.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 336.5,
-        "score": 63,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 340.75,
-        "score": 63,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 341.0,
-        "score": 73,
-        "setup_type": "PULLBACK"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 344.75,
-        "score": 80,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 345.0,
-        "score": 70,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 353.5,
-        "score": 75,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 352.5,
-        "score": 65,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "⚪ BEKLE",
         "signal_key": "none",
         "price": 352.25,
@@ -4095,63 +623,7 @@
     ],
     "REEDR.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 7.64,
-        "score": -10,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 7.65,
-        "score": -10,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 7.6,
-        "score": -2,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 7.61,
-        "score": 0,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 7.64,
-        "score": 15,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 7.59,
-        "score": -17,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 7.62,
-        "score": -35,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
         "price": 7.61,
@@ -4161,63 +633,7 @@
     ],
     "SAHOL.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 95.85,
-        "score": -2,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 95.55,
-        "score": -5,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 94.15,
-        "score": -10,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 94.3,
-        "score": -35,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 95.35,
-        "score": 13,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 94.2,
-        "score": -25,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 94.25,
-        "score": -10,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
         "price": 93.9,
@@ -4227,63 +643,7 @@
     ],
     "SASA.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 3.23,
-        "score": 80,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🔥 ÇOK GÜÇLÜ AL",
-        "signal_key": "al",
-        "price": 3.21,
-        "score": 115,
-        "setup_type": "PULLBACK"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 3.18,
-        "score": 113,
-        "setup_type": "PULLBACK"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 3.19,
-        "score": 70,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "⚪ BEKLE",
-        "signal_key": "none",
-        "price": 3.22,
-        "score": 53,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 3.2,
-        "score": 70,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 3.21,
-        "score": 80,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
         "price": 3.13,
@@ -4293,63 +653,7 @@
     ],
     "SISE.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 48.08,
-        "score": 20,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 47.18,
-        "score": 15,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 46.8,
-        "score": 30,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 46.84,
-        "score": 0,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 46.7,
-        "score": -10,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 45.96,
-        "score": -10,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 46.16,
-        "score": -17,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
         "price": 46.02,
@@ -4359,63 +663,7 @@
     ],
     "SKBNK.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 12.46,
-        "score": 10,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 12.38,
-        "score": -20,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 12.38,
-        "score": -20,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 12.33,
-        "score": -30,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 12.26,
-        "score": -27,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 12.24,
-        "score": -17,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "⚪ BEKLE",
-        "signal_key": "none",
-        "price": 12.38,
-        "score": 45,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
         "price": 12.5,
@@ -4425,63 +673,7 @@
     ],
     "SMRTG.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 7.67,
-        "score": 75,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🔥 ÇOK GÜÇLÜ AL",
-        "signal_key": "al",
-        "price": 7.72,
-        "score": 110,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 7.71,
-        "score": 115,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 7.75,
-        "score": 75,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 7.71,
-        "score": 75,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 7.76,
-        "score": 75,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "⚪ BEKLE",
-        "signal_key": "none",
-        "price": 8.07,
-        "score": 45,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "🟡 TAKİP",
         "signal_key": "takip",
         "price": 7.89,
@@ -4491,63 +683,7 @@
     ],
     "SOKM.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 51.4,
-        "score": 70,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 51.5,
-        "score": 70,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🔥 ÇOK GÜÇLÜ AL",
-        "signal_key": "al",
-        "price": 51.45,
-        "score": 120,
-        "setup_type": "PULLBACK"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 52.1,
-        "score": 105,
-        "setup_type": "BREAKOUT"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 52.15,
-        "score": 65,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 51.55,
-        "score": 70,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 51.95,
-        "score": 70,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "⚪ BEKLE",
         "signal_key": "none",
         "price": 51.4,
@@ -4557,63 +693,7 @@
     ],
     "TABGD.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 268.0,
-        "score": 80,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "⚪ BEKLE",
-        "signal_key": "none",
-        "price": 266.75,
-        "score": 38,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🟢 GÜÇLÜ AL",
-        "signal_key": "al",
-        "price": 267.0,
-        "score": 73,
-        "setup_type": "PULLBACK"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 266.5,
-        "score": -27,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 265.5,
-        "score": -17,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 263.0,
-        "score": -10,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 265.5,
-        "score": -2,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
         "price": 265.0,
@@ -4623,63 +703,7 @@
     ],
     "TAVHL.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 280.0,
-        "score": -10,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 275.75,
-        "score": -45,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 272.75,
-        "score": -40,
-        "setup_type": "BREAKDOWN"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 273.75,
-        "score": -35,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 275.0,
-        "score": -25,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 272.75,
-        "score": -25,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 272.25,
-        "score": -35,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
         "price": 272.5,
@@ -4689,63 +713,7 @@
     ],
     "TCELL.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 112.3,
-        "score": 28,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 112.1,
-        "score": 28,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 111.0,
-        "score": -10,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 110.9,
-        "score": -25,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 111.4,
-        "score": 33,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 110.1,
-        "score": -35,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 110.0,
-        "score": -10,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
         "price": 111.1,
@@ -4755,63 +723,7 @@
     ],
     "THYAO.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 308.5,
-        "score": -35,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 307.25,
-        "score": -20,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 302.75,
-        "score": -35,
-        "setup_type": "BREAKDOWN"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 302.5,
-        "score": -30,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 302.5,
-        "score": 0,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 302.5,
-        "score": -45,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 303.0,
-        "score": -35,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
         "price": 300.75,
@@ -4821,65 +733,9 @@
     ],
     "TKFEN.IS": [
       {
-        "time": "04.05.2026 10:14",
+        "time": "05.05.2026 10:07",
         "signal": "🟡 TAKİP",
         "signal_key": "takip",
-        "price": 142.6,
-        "score": 65,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🔥 ÇOK GÜÇLÜ AL",
-        "signal_key": "al",
-        "price": 142.5,
-        "score": 100,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 143.7,
-        "score": 115,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 142.1,
-        "score": 70,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🔥 ÇOK GÜÇLÜ AL",
-        "signal_key": "al",
-        "price": 141.1,
-        "score": 90,
-        "setup_type": "PULLBACK"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 142.5,
-        "score": 75,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 141.7,
-        "score": 65,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 18:23",
-        "signal": "🔥 ÇOK GÜÇLÜ AL",
-        "signal_key": "al",
         "price": 140.9,
         "score": 90,
         "setup_type": "PULLBACK"
@@ -4887,63 +743,7 @@
     ],
     "TOASO.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 294.5,
-        "score": 28,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 289.5,
-        "score": -45,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 287.0,
-        "score": -30,
-        "setup_type": "BREAKDOWN"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 287.75,
-        "score": 5,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 287.5,
-        "score": -25,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 284.75,
-        "score": -45,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 287.25,
-        "score": -27,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
         "price": 287.75,
@@ -4953,63 +753,7 @@
     ],
     "TSKB.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 11.77,
-        "score": -2,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 11.58,
-        "score": -30,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 11.48,
-        "score": -40,
-        "setup_type": "BREAKDOWN"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 11.53,
-        "score": -35,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 11.57,
-        "score": -25,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 11.47,
-        "score": -25,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 11.58,
-        "score": -12,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
         "price": 11.63,
@@ -5019,63 +763,7 @@
     ],
     "TTKOM.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 62.5,
-        "score": 28,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 62.8,
-        "score": 68,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "⚪ BEKLE",
-        "signal_key": "none",
-        "price": 62.45,
-        "score": 38,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 62.05,
-        "score": -45,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 61.65,
-        "score": -10,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 60.75,
-        "score": -35,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 60.6,
-        "score": -45,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
         "price": 60.45,
@@ -5085,63 +773,7 @@
     ],
     "TTRAK.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 444.0,
-        "score": -75,
-        "setup_type": "BREAKDOWN"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 444.5,
-        "score": -10,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 442.25,
-        "score": -35,
-        "setup_type": "BREAKDOWN"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 444.25,
-        "score": -35,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 445.5,
-        "score": -35,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 442.5,
-        "score": -45,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 442.5,
-        "score": -35,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
         "price": 442.25,
@@ -5151,63 +783,7 @@
     ],
     "TUKAS.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 2.57,
-        "score": -20,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 2.58,
-        "score": 10,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 2.55,
-        "score": -45,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 2.59,
-        "score": 20,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 2.61,
-        "score": 68,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 2.55,
-        "score": -10,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 2.5,
-        "score": -27,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
         "price": 2.5,
@@ -5217,65 +793,9 @@
     ],
     "TUPRS.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 270.75,
-        "score": -25,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 266.25,
-        "score": -65,
-        "setup_type": "BREAKDOWN"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 268.0,
-        "score": -10,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 267.5,
-        "score": -45,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 271.25,
-        "score": -10,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 271.25,
-        "score": -5,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 270.75,
-        "score": -35,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 18:23",
-        "signal": "🔥 ÇOK GÜÇLÜ AL",
-        "signal_key": "al",
+        "time": "05.05.2026 10:07",
+        "signal": "🟡 TAKİP",
+        "signal_key": "takip",
         "price": 271.5,
         "score": 105,
         "setup_type": "PULLBACK"
@@ -5283,65 +803,9 @@
     ],
     "TUREX.IS": [
       {
-        "time": "04.05.2026 10:14",
+        "time": "05.05.2026 10:07",
         "signal": "🟡 TAKİP",
         "signal_key": "takip",
-        "price": 9.27,
-        "score": 73,
-        "setup_type": "BREAKOUT"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🔥 ÇOK GÜÇLÜ AL",
-        "signal_key": "al",
-        "price": 9.04,
-        "score": 135,
-        "setup_type": "BREAKOUT"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 8.98,
-        "score": 125,
-        "setup_type": "BREAKOUT"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 8.96,
-        "score": 65,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 8.94,
-        "score": 63,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 8.87,
-        "score": 75,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 8.87,
-        "score": 80,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 18:23",
-        "signal": "🔥 ÇOK GÜÇLÜ AL",
-        "signal_key": "al",
         "price": 8.94,
         "score": 120,
         "setup_type": "PULLBACK"
@@ -5349,65 +813,9 @@
     ],
     "TURSG.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "⚪ BEKLE",
-        "signal_key": "none",
-        "price": 14.12,
-        "score": 40,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:25",
+        "time": "05.05.2026 10:07",
         "signal": "🟡 TAKİP",
         "signal_key": "takip",
-        "price": 14.08,
-        "score": 65,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🟢 GÜÇLÜ AL",
-        "signal_key": "al",
-        "price": 13.99,
-        "score": 70,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "⚪ BEKLE",
-        "signal_key": "none",
-        "price": 14.06,
-        "score": 45,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "⚪ BEKLE",
-        "signal_key": "none",
-        "price": 14.09,
-        "score": 40,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 13.97,
-        "score": 70,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 14.0,
-        "score": 65,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 18:23",
-        "signal": "🔥 ÇOK GÜÇLÜ AL",
-        "signal_key": "al",
         "price": 14.06,
         "score": 100,
         "setup_type": "TREND"
@@ -5415,65 +823,9 @@
     ],
     "ULKER.IS": [
       {
-        "time": "04.05.2026 10:14",
+        "time": "05.05.2026 10:07",
         "signal": "🟡 TAKİP",
         "signal_key": "takip",
-        "price": 124.4,
-        "score": 85,
-        "setup_type": "BREAKOUT"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🔥 ÇOK GÜÇLÜ AL",
-        "signal_key": "al",
-        "price": 124.2,
-        "score": 110,
-        "setup_type": "BREAKOUT"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 124.4,
-        "score": 135,
-        "setup_type": "BREAKOUT"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 124.1,
-        "score": 65,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 123.7,
-        "score": 70,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 123.3,
-        "score": 80,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 123.2,
-        "score": 70,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 18:23",
-        "signal": "🔥 ÇOK GÜÇLÜ AL",
-        "signal_key": "al",
         "price": 124.5,
         "score": 105,
         "setup_type": "PULLBACK"
@@ -5481,63 +833,7 @@
     ],
     "VAKBN.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 31.76,
-        "score": 28,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 31.22,
-        "score": -35,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 31.0,
-        "score": -10,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 31.0,
-        "score": -25,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 30.94,
-        "score": -17,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 30.54,
-        "score": -10,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 30.64,
-        "score": -27,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
         "price": 30.6,
@@ -5547,63 +843,7 @@
     ],
     "VESTL.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "⚪ BEKLE",
-        "signal_key": "none",
-        "price": 28.36,
-        "score": 45,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "⚪ BEKLE",
-        "signal_key": "none",
-        "price": 27.96,
-        "score": 53,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 27.78,
-        "score": 13,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 27.72,
-        "score": -27,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 27.76,
-        "score": -27,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 27.56,
-        "score": -25,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 27.58,
-        "score": -27,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
         "price": 27.52,
@@ -5613,63 +853,7 @@
     ],
     "YEOTK.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 56.5,
-        "score": 80,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🔥 ÇOK GÜÇLÜ AL",
-        "signal_key": "al",
-        "price": 56.75,
-        "score": 115,
-        "setup_type": "PULLBACK"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 57.3,
-        "score": 130,
-        "setup_type": "PULLBACK"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 57.6,
-        "score": 90,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🔥 ÇOK GÜÇLÜ AL",
-        "signal_key": "al",
-        "price": 59.25,
-        "score": 135,
-        "setup_type": "BREAKOUT"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 61.35,
-        "score": 105,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "⚪ BEKLE",
-        "signal_key": "none",
-        "price": 61.35,
-        "score": 53,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "⚪ BEKLE",
         "signal_key": "none",
         "price": 61.35,
@@ -5679,63 +863,7 @@
     ],
     "YKBNK.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 37.18,
-        "score": 28,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 36.52,
-        "score": -10,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 36.42,
-        "score": 0,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 36.42,
-        "score": -25,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 36.14,
-        "score": -35,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 36.04,
-        "score": 23,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 36.04,
-        "score": -27,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
         "price": 35.88,
@@ -5745,65 +873,9 @@
     ],
     "ZOREN.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "⚪ BEKLE",
-        "signal_key": "none",
-        "price": 3.1,
-        "score": 45,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🟢 GÜÇLÜ AL",
-        "signal_key": "al",
-        "price": 3.1,
-        "score": 80,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:43",
+        "time": "05.05.2026 10:07",
         "signal": "🟡 TAKİP",
         "signal_key": "takip",
-        "price": 3.09,
-        "score": 85,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "⚪ BEKLE",
-        "signal_key": "none",
-        "price": 3.09,
-        "score": 40,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 3.09,
-        "score": 68,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "price": 3.08,
-        "score": 65,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "⚪ BEKLE",
-        "signal_key": "none",
-        "price": 3.11,
-        "score": 53,
-        "setup_type": "TREND"
-      },
-      {
-        "time": "04.05.2026 18:23",
-        "signal": "🔥 ÇOK GÜÇLÜ AL",
-        "signal_key": "al",
         "price": 3.11,
         "score": 100,
         "setup_type": "TREND"
@@ -5811,63 +883,7 @@
     ],
     "DESPC.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 40.52,
-        "score": -75,
-        "setup_type": "BREAKDOWN"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 41.32,
-        "score": -35,
-        "setup_type": "BREAKDOWN"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 41.6,
-        "score": -35,
-        "setup_type": "BREAKDOWN"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 41.22,
-        "score": -45,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 41.24,
-        "score": -30,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 41.7,
-        "score": 0,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 41.98,
-        "score": -35,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
         "price": 41.96,
@@ -5875,91 +891,9 @@
         "setup_type": "WEAK"
       }
     ],
-    "EMPAE.IS": [
-      {
-        "time": "04.05.2026 10:14",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 38.74,
-        "score": -2,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 38.68,
-        "score": 3,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 38.32,
-        "score": 0,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 38.62,
-        "score": -2,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 38.78,
-        "score": 20,
-        "setup_type": "WEAK"
-      }
-    ],
     "GWIND.IS": [
       {
-        "time": "04.05.2026 10:14",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 31.02,
-        "score": -10,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 30.54,
-        "score": 13,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 11:07",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 30.86,
-        "score": 8,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 12:37",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 30.96,
-        "score": -27,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 30.94,
-        "score": -45,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
         "price": 30.52,
@@ -5967,79 +901,23 @@
         "setup_type": "WEAK"
       }
     ],
-    "SERNT.IS": [
-      {
-        "time": "04.05.2026 10:14",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 8.72,
-        "score": -27,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:25",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 8.69,
-        "score": -27,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 10:43",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 8.65,
-        "score": -20,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 14:27",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 8.64,
-        "score": -10,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 8.62,
-        "score": -45,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 18:23",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 8.6,
-        "score": -35,
-        "setup_type": "WEAK"
-      }
-    ],
     "MRGYO.IS": [
       {
-        "time": "04.05.2026 14:27",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 1.84,
-        "score": -10,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 16:11",
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "price": 1.85,
-        "score": 8,
-        "setup_type": "WEAK"
-      },
-      {
-        "time": "04.05.2026 18:23",
+        "time": "05.05.2026 10:07",
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
         "price": 1.84,
         "score": -2,
+        "setup_type": "WEAK"
+      }
+    ],
+    "SERNT.IS": [
+      {
+        "time": "05.05.2026 10:07",
+        "signal": "🔴 SAT / UZAK DUR",
+        "signal_key": "sat",
+        "price": 8.6,
+        "score": -35,
         "setup_type": "WEAK"
       }
     ]
