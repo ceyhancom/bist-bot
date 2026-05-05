@@ -3273,7 +3273,11 @@
     "stop": 18.9663,
     "target": 20.5074,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 18.9663,
+    "exit_date": "2026-05-05",
+    "result_pct": -2.64,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ENERY.IS",
@@ -3285,7 +3289,11 @@
     "stop": 8.9786,
     "target": 9.5829,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 8.9786,
+    "exit_date": "2026-05-05",
+    "result_pct": -2.19,
+    "close_reason": "STOP"
   },
   {
     "symbol": "HEKTS.IS",
@@ -3297,7 +3305,11 @@
     "stop": 3.316,
     "target": 3.568,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 3.316,
+    "exit_date": "2026-05-05",
+    "result_pct": -2.47,
+    "close_reason": "STOP"
   },
   {
     "symbol": "KCAER.IS",
@@ -3309,7 +3321,11 @@
     "stop": 11.7253,
     "target": 12.6695,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 11.7253,
+    "exit_date": "2026-05-05",
+    "result_pct": -2.61,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TTRAK.IS",
@@ -3320,6 +3336,46 @@
     "vol_ratio": 1.35,
     "stop": 442.4732,
     "target": 453.8036,
+    "setup_type": "WEAK",
+    "status": "closed",
+    "exit": 442.4732,
+    "exit_date": "2026-05-05",
+    "result_pct": -0.85,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "BTCIM.IS",
+    "date": "2026-05-05",
+    "entry": 6.41,
+    "score": 70,
+    "rsi": 62.03,
+    "vol_ratio": 1.22,
+    "stop": 6.26,
+    "target": 6.71,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "GUBRF.IS",
+    "date": "2026-05-05",
+    "entry": 553.5,
+    "score": 120,
+    "rsi": 71.3,
+    "vol_ratio": 1.63,
+    "stop": 542.0893,
+    "target": 576.3214,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "ODAS.IS",
+    "date": "2026-05-05",
+    "entry": 7.07,
+    "score": 70,
+    "rsi": 64.29,
+    "vol_ratio": 1.23,
+    "stop": 6.9007,
+    "target": 7.4086,
     "setup_type": "WEAK",
     "status": "open"
   }
