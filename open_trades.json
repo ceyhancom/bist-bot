@@ -2770,8 +2770,8 @@
     "exit_date": "2026-05-04",
     "result_pct": -2.65,
     "close_reason": "STOP",
-    "cooldown_until": "2026-05-04T11:27:36.119133+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "KCAER.IS",
@@ -3040,8 +3040,8 @@
     "exit_date": "2026-05-04",
     "result_pct": -1.79,
     "close_reason": "STOP",
-    "cooldown_until": "2026-05-04T11:51:37.667878+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "EREGL.IS",
@@ -3364,8 +3364,8 @@
     "exit_date": "2026-05-04",
     "result_pct": -2.02,
     "close_reason": "STOP",
-    "cooldown_until": "2026-05-04T16:55:50.330171+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "GESAN.IS",
@@ -3526,8 +3526,8 @@
     "exit_date": "2026-05-05",
     "result_pct": -1.84,
     "close_reason": "STOP",
-    "cooldown_until": "2026-05-05T10:51:56.105754+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "OBAMS.IS",
@@ -3654,5 +3654,65 @@
     "close_reason": "STOP",
     "cooldown_until": "2026-05-05T10:51:57.323413+03:00",
     "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "AEFES.IS",
+    "date": "2026-05-05",
+    "entry": 19.48,
+    "highest_price": 19.48,
+    "stop": 18.9663,
+    "target": 20.5074,
+    "trailing_stop": null,
+    "score": 105,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "ENERY.IS",
+    "date": "2026-05-05",
+    "entry": 9.18,
+    "highest_price": 9.18,
+    "stop": 8.9786,
+    "target": 9.5829,
+    "trailing_stop": null,
+    "score": 80,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "HEKTS.IS",
+    "date": "2026-05-05",
+    "entry": 3.4,
+    "highest_price": 3.4,
+    "stop": 3.316,
+    "target": 3.568,
+    "trailing_stop": null,
+    "score": 83,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "KCAER.IS",
+    "date": "2026-05-05",
+    "entry": 12.04,
+    "highest_price": 12.04,
+    "stop": 11.7253,
+    "target": 12.6695,
+    "trailing_stop": null,
+    "score": 115,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "TTRAK.IS",
+    "date": "2026-05-05",
+    "entry": 446.25,
+    "highest_price": 446.25,
+    "stop": 442.4732,
+    "target": 453.8036,
+    "trailing_stop": null,
+    "score": 70,
+    "setup_type": "WEAK",
+    "status": "open"
   }
 ]
