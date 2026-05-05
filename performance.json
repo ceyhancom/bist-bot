@@ -3353,7 +3353,11 @@
     "stop": 6.26,
     "target": 6.71,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 6.26,
+    "exit_date": "2026-05-05",
+    "result_pct": -2.34,
+    "close_reason": "STOP"
   },
   {
     "symbol": "GUBRF.IS",
@@ -3365,7 +3369,11 @@
     "stop": 542.0893,
     "target": 576.3214,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 542.0893,
+    "exit_date": "2026-05-05",
+    "result_pct": -2.06,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ODAS.IS",
@@ -3377,6 +3385,58 @@
     "stop": 6.9007,
     "target": 7.4086,
     "setup_type": "WEAK",
+    "status": "closed",
+    "exit": 6.9007,
+    "exit_date": "2026-05-05",
+    "result_pct": -2.39,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "EUPWR.IS",
+    "date": "2026-05-05",
+    "entry": 58.05,
+    "score": 130,
+    "rsi": 70.7,
+    "vol_ratio": 1.95,
+    "stop": 55.5429,
+    "target": 63.0643,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "MIATK.IS",
+    "date": "2026-05-05",
+    "entry": 40.9,
+    "score": 110,
+    "rsi": 63.16,
+    "vol_ratio": 2.3,
+    "stop": 40.1479,
+    "target": 42.4043,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "REEDR.IS",
+    "date": "2026-05-05",
+    "entry": 7.63,
+    "score": 70,
+    "rsi": 53.19,
+    "vol_ratio": 1.32,
+    "stop": 7.5036,
+    "target": 7.8829,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "TURSG.IS",
+    "date": "2026-05-05",
+    "entry": 14.12,
+    "score": 120,
+    "rsi": 57.89,
+    "vol_ratio": 2.49,
+    "stop": 13.94,
+    "target": 14.48,
+    "setup_type": "PULLBACK",
     "status": "open"
   }
 ]
