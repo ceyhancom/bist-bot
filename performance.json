@@ -4313,6 +4313,10 @@
     "stop": 366.5089,
     "target": 405.4821,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 366.5089,
+    "exit_date": "2026-05-06",
+    "result_pct": -3.42,
+    "close_reason": "STOP"
   }
 ]

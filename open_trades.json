@@ -4829,12 +4829,18 @@
     "symbol": "RALYH.IS",
     "date": "2026-05-06",
     "entry": 379.5,
-    "highest_price": 379.5,
+    "highest_price": 393.75,
     "stop": 366.5089,
     "target": 405.4821,
     "trailing_stop": null,
     "score": 100,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 366.5089,
+    "exit_date": "2026-05-06",
+    "result_pct": -3.42,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-05-06T18:32:46.507901+03:00",
+    "cooldown_reason": "STOP"
   }
 ]
