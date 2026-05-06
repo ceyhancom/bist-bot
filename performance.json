@@ -4281,7 +4281,11 @@
     "stop": 10.5864,
     "target": 11.1071,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 10.5864,
+    "exit_date": "2026-05-06",
+    "result_pct": -1.61,
+    "close_reason": "STOP"
   },
   {
     "symbol": "THYAO.IS",
@@ -4293,6 +4297,22 @@
     "stop": 307.5893,
     "target": 319.3214,
     "setup_type": "WEAK",
+    "status": "closed",
+    "exit": 307.5893,
+    "exit_date": "2026-05-06",
+    "result_pct": -1.26,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "RALYH.IS",
+    "date": "2026-05-06",
+    "entry": 379.5,
+    "score": 100,
+    "rsi": 75.0,
+    "vol_ratio": 1.35,
+    "stop": 366.5089,
+    "target": 405.4821,
+    "setup_type": "TREND",
     "status": "open"
   }
 ]
