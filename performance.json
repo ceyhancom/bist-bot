@@ -4329,7 +4329,11 @@
     "stop": 82.8304,
     "target": 89.3393,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 82.8304,
+    "exit_date": "2026-05-07",
+    "result_pct": -2.55,
+    "close_reason": "STOP"
   },
   {
     "symbol": "CLEBI.IS",
@@ -4341,7 +4345,11 @@
     "stop": 1785.7143,
     "target": 1879.5714,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 1785.7143,
+    "exit_date": "2026-05-07",
+    "result_pct": -1.72,
+    "close_reason": "STOP"
   },
   {
     "symbol": "HALKB.IS",
@@ -4353,7 +4361,11 @@
     "stop": 38.7964,
     "target": 41.2071,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 38.7964,
+    "exit_date": "2026-05-07",
+    "result_pct": -2.03,
+    "close_reason": "STOP"
   },
   {
     "symbol": "KLRHO.IS",
@@ -4365,7 +4377,11 @@
     "stop": 105.9679,
     "target": 116.8643,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 105.9679,
+    "exit_date": "2026-05-07",
+    "result_pct": -3.31,
+    "close_reason": "STOP"
   },
   {
     "symbol": "MAVI.IS",
@@ -4377,7 +4393,11 @@
     "stop": 43.7517,
     "target": 46.5366,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 43.7517,
+    "exit_date": "2026-05-07",
+    "result_pct": -2.08,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ODAS.IS",
@@ -4389,7 +4409,11 @@
     "stop": 7.7239,
     "target": 8.4021,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 7.7239,
+    "exit_date": "2026-05-07",
+    "result_pct": -2.84,
+    "close_reason": "STOP"
   },
   {
     "symbol": "YEOTK.IS",
@@ -4400,6 +4424,46 @@
     "vol_ratio": 1.16,
     "stop": 65.925,
     "target": 72.45,
+    "setup_type": "BREAKOUT",
+    "status": "closed",
+    "exit": 65.925,
+    "exit_date": "2026-05-07",
+    "result_pct": -3.19,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "ASTOR.IS",
+    "date": "2026-05-07",
+    "entry": 311.0,
+    "score": 115,
+    "rsi": 66.67,
+    "vol_ratio": 4.21,
+    "stop": 302.0536,
+    "target": 328.8929,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "OTKAR.IS",
+    "date": "2026-05-07",
+    "entry": 392.0,
+    "score": 103,
+    "rsi": 76.39,
+    "vol_ratio": 1.59,
+    "stop": 385.0893,
+    "target": 405.8214,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "SMRTG.IS",
+    "date": "2026-05-07",
+    "entry": 8.64,
+    "score": 135,
+    "rsi": 73.85,
+    "vol_ratio": 2.3,
+    "stop": 8.4739,
+    "target": 8.9721,
     "setup_type": "BREAKOUT",
     "status": "open"
   }
