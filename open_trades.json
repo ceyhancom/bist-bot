@@ -3274,8 +3274,8 @@
     "exit_date": "2026-05-04",
     "result_pct": -2.04,
     "close_reason": "STOP",
-    "cooldown_until": "2026-05-04T15:12:13.083548+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "KTLEV.IS",
@@ -3796,8 +3796,8 @@
     "exit_date": "2026-05-05",
     "result_pct": -2.39,
     "close_reason": "STOP",
-    "cooldown_until": "2026-05-05T15:58:34.912951+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "EUPWR.IS",
@@ -4552,8 +4552,8 @@
     "exit_date": "2026-05-06",
     "result_pct": -1.63,
     "close_reason": "STOP",
-    "cooldown_until": "2026-05-06T13:48:42.260294+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "HEKTS.IS",
@@ -4786,8 +4786,8 @@
     "exit_date": "2026-05-06",
     "result_pct": -3.72,
     "close_reason": "STOP",
-    "cooldown_until": "2026-05-06T13:48:43.837394+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "AKSA.IS",
@@ -4842,5 +4842,89 @@
     "close_reason": "STOP",
     "cooldown_until": "2026-05-06T18:32:46.507901+03:00",
     "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "CCOLA.IS",
+    "date": "2026-05-07",
+    "entry": 85.0,
+    "highest_price": 85.0,
+    "stop": 82.8304,
+    "target": 89.3393,
+    "trailing_stop": null,
+    "score": 80,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "CLEBI.IS",
+    "date": "2026-05-07",
+    "entry": 1817.0,
+    "highest_price": 1817.0,
+    "stop": 1785.7143,
+    "target": 1879.5714,
+    "trailing_stop": null,
+    "score": 70,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "HALKB.IS",
+    "date": "2026-05-07",
+    "entry": 39.6,
+    "highest_price": 39.6,
+    "stop": 38.7964,
+    "target": 41.2071,
+    "trailing_stop": null,
+    "score": 83,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "KLRHO.IS",
+    "date": "2026-05-07",
+    "entry": 109.6,
+    "highest_price": 109.6,
+    "stop": 105.9679,
+    "target": 116.8643,
+    "trailing_stop": null,
+    "score": 90,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "MAVI.IS",
+    "date": "2026-05-07",
+    "entry": 44.68,
+    "highest_price": 44.68,
+    "stop": 43.7517,
+    "target": 46.5366,
+    "trailing_stop": null,
+    "score": 125,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "ODAS.IS",
+    "date": "2026-05-07",
+    "entry": 7.95,
+    "highest_price": 7.95,
+    "stop": 7.7239,
+    "target": 8.4021,
+    "trailing_stop": null,
+    "score": 130,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "YEOTK.IS",
+    "date": "2026-05-07",
+    "entry": 68.1,
+    "highest_price": 68.1,
+    "stop": 65.925,
+    "target": 72.45,
+    "trailing_stop": null,
+    "score": 105,
+    "setup_type": "BREAKOUT",
+    "status": "open"
   }
 ]

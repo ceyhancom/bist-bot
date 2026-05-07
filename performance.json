@@ -4318,5 +4318,89 @@
     "exit_date": "2026-05-06",
     "result_pct": -3.42,
     "close_reason": "STOP"
+  },
+  {
+    "symbol": "CCOLA.IS",
+    "date": "2026-05-07",
+    "entry": 85.0,
+    "score": 80,
+    "rsi": 72.06,
+    "vol_ratio": 1.14,
+    "stop": 82.8304,
+    "target": 89.3393,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "CLEBI.IS",
+    "date": "2026-05-07",
+    "entry": 1817.0,
+    "score": 70,
+    "rsi": 53.45,
+    "vol_ratio": 2.72,
+    "stop": 1785.7143,
+    "target": 1879.5714,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "HALKB.IS",
+    "date": "2026-05-07",
+    "entry": 39.6,
+    "score": 83,
+    "rsi": 79.22,
+    "vol_ratio": 1.1,
+    "stop": 38.7964,
+    "target": 41.2071,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "KLRHO.IS",
+    "date": "2026-05-07",
+    "entry": 109.6,
+    "score": 90,
+    "rsi": 71.65,
+    "vol_ratio": 1.24,
+    "stop": 105.9679,
+    "target": 116.8643,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "MAVI.IS",
+    "date": "2026-05-07",
+    "entry": 44.68,
+    "score": 125,
+    "rsi": 51.34,
+    "vol_ratio": 1.55,
+    "stop": 43.7517,
+    "target": 46.5366,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "ODAS.IS",
+    "date": "2026-05-07",
+    "entry": 7.95,
+    "score": 130,
+    "rsi": 74.16,
+    "vol_ratio": 1.73,
+    "stop": 7.7239,
+    "target": 8.4021,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "YEOTK.IS",
+    "date": "2026-05-07",
+    "entry": 68.1,
+    "score": 105,
+    "rsi": 61.73,
+    "vol_ratio": 1.16,
+    "stop": 65.925,
+    "target": 72.45,
+    "setup_type": "BREAKOUT",
+    "status": "open"
   }
 ]
