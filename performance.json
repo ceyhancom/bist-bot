@@ -4654,5 +4654,41 @@
     "exit_date": "2026-05-08",
     "result_pct": -3.55,
     "close_reason": "STOP"
+  },
+  {
+    "symbol": "DSTKF.IS",
+    "date": "2026-05-08",
+    "entry": 2725.0,
+    "score": 103,
+    "rsi": 43.33,
+    "vol_ratio": 4.41,
+    "stop": 2659.9107,
+    "target": 2855.1786,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "GUBRF.IS",
+    "date": "2026-05-08",
+    "entry": 604.5,
+    "score": 115,
+    "rsi": 69.44,
+    "vol_ratio": 4.36,
+    "stop": 591.6964,
+    "target": 630.1071,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "SMRTG.IS",
+    "date": "2026-05-08",
+    "entry": 8.96,
+    "score": 78,
+    "rsi": 79.38,
+    "vol_ratio": 1.1,
+    "stop": 8.6964,
+    "target": 9.4871,
+    "setup_type": "TREND",
+    "status": "open"
   }
 ]

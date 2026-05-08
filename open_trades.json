@@ -3778,8 +3778,8 @@
     "exit_date": "2026-05-05",
     "result_pct": -2.06,
     "close_reason": "STOP",
-    "cooldown_until": "2026-05-05T15:58:34.791345+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "ODAS.IS",
@@ -4030,8 +4030,8 @@
     "exit_date": "2026-05-06",
     "result_pct": -3.29,
     "close_reason": "STOP",
-    "cooldown_until": "2026-05-06T11:21:35.831385+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "ENKAI.IS",
@@ -5020,8 +5020,8 @@
     "exit_date": "2026-05-07",
     "result_pct": -1.92,
     "close_reason": "STOP",
-    "cooldown_until": "2026-05-07T18:58:44.032753+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "BALSU.IS",
@@ -5220,5 +5220,41 @@
     "close_reason": "STOP",
     "cooldown_until": "2026-05-08T13:39:12.314095+03:00",
     "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "DSTKF.IS",
+    "date": "2026-05-08",
+    "entry": 2725.0,
+    "highest_price": 2725.0,
+    "stop": 2659.9107,
+    "target": 2855.1786,
+    "trailing_stop": null,
+    "score": 103,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "GUBRF.IS",
+    "date": "2026-05-08",
+    "entry": 604.5,
+    "highest_price": 604.5,
+    "stop": 591.6964,
+    "target": 630.1071,
+    "trailing_stop": null,
+    "score": 115,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "SMRTG.IS",
+    "date": "2026-05-08",
+    "entry": 8.96,
+    "highest_price": 8.96,
+    "stop": 8.6964,
+    "target": 9.4871,
+    "trailing_stop": null,
+    "score": 78,
+    "setup_type": "TREND",
+    "status": "open"
   }
 ]
