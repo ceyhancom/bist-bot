@@ -4665,7 +4665,11 @@
     "stop": 2659.9107,
     "target": 2855.1786,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 2659.9107,
+    "exit_date": "2026-05-08",
+    "result_pct": -2.39,
+    "close_reason": "STOP"
   },
   {
     "symbol": "GUBRF.IS",
@@ -4677,7 +4681,11 @@
     "stop": 591.6964,
     "target": 630.1071,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 591.6964,
+    "exit_date": "2026-05-08",
+    "result_pct": -2.12,
+    "close_reason": "STOP"
   },
   {
     "symbol": "SMRTG.IS",
@@ -4689,6 +4697,22 @@
     "stop": 8.6964,
     "target": 9.4871,
     "setup_type": "TREND",
+    "status": "closed",
+    "exit": 8.6964,
+    "exit_date": "2026-05-08",
+    "result_pct": -2.94,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "GRSEL.IS",
+    "date": "2026-05-08",
+    "entry": 327.75,
+    "score": 105,
+    "rsi": 56.57,
+    "vol_ratio": 1.03,
+    "stop": 322.2321,
+    "target": 338.7857,
+    "setup_type": "BREAKOUT",
     "status": "open"
   }
 ]

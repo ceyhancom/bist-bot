@@ -6,7 +6,8 @@
     "TOASO.IS",
     "DSTKF.IS",
     "GUBRF.IS",
-    "SMRTG.IS"
+    "SMRTG.IS",
+    "GRSEL.IS"
   ],
   "takip": [
     "AEFES.IS",
@@ -65,7 +66,13 @@
     "MAVI.IS",
     "SAHOL.IS",
     "THYAO.IS",
-    "TTRAK.IS"
+    "TTRAK.IS",
+    "AGHOL.IS",
+    "ASELS.IS",
+    "CWENE.IS",
+    "MPARK.IS",
+    "TSKB.IS",
+    "TUREX.IS"
   ],
   "sat": [
     "AKBNK.IS",
@@ -103,7 +110,11 @@
     "TUREX.IS",
     "GENIL.IS",
     "BTCIM.IS",
-    "IEYHO.IS"
+    "IEYHO.IS",
+    "KUYAS.IS",
+    "TTKOM.IS"
   ],
-  "errors": []
+  "errors": [
+    "EKGYO.IS: Cannot set a DataFrame with multiple columns to the single column EMA9"
+  ]
 }

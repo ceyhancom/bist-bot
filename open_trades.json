@@ -4534,8 +4534,8 @@
     "exit_date": "2026-05-06",
     "result_pct": -1.9,
     "close_reason": "STOP",
-    "cooldown_until": "2026-05-06T13:48:42.142369+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "HALKB.IS",
@@ -5225,36 +5225,66 @@
     "symbol": "DSTKF.IS",
     "date": "2026-05-08",
     "entry": 2725.0,
-    "highest_price": 2725.0,
+    "highest_price": 2842.5,
     "stop": 2659.9107,
     "target": 2855.1786,
     "trailing_stop": null,
     "score": 103,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 2659.9107,
+    "exit_date": "2026-05-08",
+    "result_pct": -2.39,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-05-08T16:38:40.768714+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "GUBRF.IS",
     "date": "2026-05-08",
     "entry": 604.5,
-    "highest_price": 604.5,
+    "highest_price": 611.5,
     "stop": 591.6964,
     "target": 630.1071,
     "trailing_stop": null,
     "score": 115,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 591.6964,
+    "exit_date": "2026-05-08",
+    "result_pct": -2.12,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-05-08T16:38:41.128127+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "SMRTG.IS",
     "date": "2026-05-08",
     "entry": 8.96,
-    "highest_price": 8.96,
+    "highest_price": 9.65,
     "stop": 8.6964,
     "target": 9.4871,
-    "trailing_stop": null,
+    "trailing_stop": 9.457,
     "score": 78,
     "setup_type": "TREND",
+    "status": "closed",
+    "exit": 8.6964,
+    "exit_date": "2026-05-08",
+    "result_pct": -2.94,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-05-08T16:38:41.495044+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "GRSEL.IS",
+    "date": "2026-05-08",
+    "entry": 327.75,
+    "highest_price": 327.75,
+    "stop": 322.2321,
+    "target": 338.7857,
+    "trailing_stop": null,
+    "score": 105,
+    "setup_type": "BREAKOUT",
     "status": "open"
   }
 ]
