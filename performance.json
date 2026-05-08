@@ -4489,7 +4489,11 @@
     "stop": 14.6949,
     "target": 15.1902,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 14.6949,
+    "exit_date": "2026-05-08",
+    "result_pct": -1.11,
+    "close_reason": "STOP"
   },
   {
     "symbol": "IEYHO.IS",
@@ -4501,7 +4505,11 @@
     "stop": 99.42,
     "target": 101.76,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 99.42,
+    "exit_date": "2026-05-08",
+    "result_pct": -0.78,
+    "close_reason": "STOP"
   },
   {
     "symbol": "KUYAS.IS",
@@ -4513,7 +4521,11 @@
     "stop": 85.923,
     "target": 91.254,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 85.923,
+    "exit_date": "2026-05-08",
+    "result_pct": -2.03,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TABGD.IS",
@@ -4525,7 +4537,11 @@
     "stop": 271.6518,
     "target": 281.6964,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 271.6518,
+    "exit_date": "2026-05-08",
+    "result_pct": -1.22,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TTKOM.IS",
@@ -4537,7 +4553,11 @@
     "stop": 64.1861,
     "target": 69.7777,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 64.1861,
+    "exit_date": "2026-05-08",
+    "result_pct": -2.82,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TUKAS.IS",
@@ -4549,7 +4569,11 @@
     "stop": 2.5648,
     "target": 2.6704,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 2.5648,
+    "exit_date": "2026-05-08",
+    "result_pct": -1.35,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TURSG.IS",
@@ -4561,7 +4585,11 @@
     "stop": 14.5707,
     "target": 15.2586,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 14.5707,
+    "exit_date": "2026-05-08",
+    "result_pct": -1.55,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ULKER.IS",
@@ -4573,6 +4601,46 @@
     "stop": 129.2964,
     "target": 133.5071,
     "setup_type": "BREAKOUT",
+    "status": "closed",
+    "exit": 129.2964,
+    "exit_date": "2026-05-08",
+    "result_pct": -1.07,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "BTCIM.IS",
+    "date": "2026-05-08",
+    "entry": 6.51,
+    "score": 98,
+    "rsi": 45.16,
+    "vol_ratio": 1.98,
+    "stop": 6.3791,
+    "target": 6.7718,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "KTLEV.IS",
+    "date": "2026-05-08",
+    "entry": 119.7,
+    "score": 125,
+    "rsi": 59.46,
+    "vol_ratio": 1.61,
+    "stop": 116.775,
+    "target": 125.55,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "TOASO.IS",
+    "date": "2026-05-08",
+    "entry": 316.0,
+    "score": 90,
+    "rsi": 61.86,
+    "vol_ratio": 1.01,
+    "stop": 304.7882,
+    "target": 338.4237,
+    "setup_type": "PULLBACK",
     "status": "open"
   }
 ]
