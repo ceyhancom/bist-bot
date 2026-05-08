@@ -5279,12 +5279,18 @@
     "symbol": "GRSEL.IS",
     "date": "2026-05-08",
     "entry": 327.75,
-    "highest_price": 327.75,
+    "highest_price": 330.25,
     "stop": 322.2321,
     "target": 338.7857,
     "trailing_stop": null,
     "score": 105,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 322.2321,
+    "exit_date": "2026-05-08",
+    "result_pct": -1.68,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-05-08T18:38:25.254131+03:00",
+    "cooldown_reason": "STOP"
   }
 ]
