@@ -4617,7 +4617,11 @@
     "stop": 6.3791,
     "target": 6.7718,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 6.3791,
+    "exit_date": "2026-05-08",
+    "result_pct": -2.01,
+    "close_reason": "STOP"
   },
   {
     "symbol": "KTLEV.IS",
@@ -4629,7 +4633,11 @@
     "stop": 116.775,
     "target": 125.55,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 116.775,
+    "exit_date": "2026-05-08",
+    "result_pct": -2.44,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TOASO.IS",
@@ -4641,6 +4649,10 @@
     "stop": 304.7882,
     "target": 338.4237,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 304.7882,
+    "exit_date": "2026-05-08",
+    "result_pct": -3.55,
+    "close_reason": "STOP"
   }
 ]
