@@ -3850,8 +3850,8 @@
     "exit_date": "2026-05-05",
     "result_pct": -1.66,
     "close_reason": "STOP",
-    "cooldown_until": "2026-05-05T18:12:43.559194+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "TURSG.IS",
@@ -3940,8 +3940,8 @@
     "exit_date": "2026-05-06",
     "result_pct": -1.18,
     "close_reason": "STOP",
-    "cooldown_until": "2026-05-06T11:21:35.199732+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "BIMAS.IS",
@@ -4354,8 +4354,8 @@
     "exit_date": "2026-05-06",
     "result_pct": -1.14,
     "close_reason": "STOP",
-    "cooldown_until": "2026-05-06T11:21:38.327229+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "AKBNK.IS",
@@ -4570,8 +4570,8 @@
     "exit_date": "2026-05-06",
     "result_pct": -2.49,
     "close_reason": "STOP",
-    "cooldown_until": "2026-05-06T13:48:42.398700+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "ISCTR.IS",
@@ -5056,8 +5056,8 @@
     "exit_date": "2026-05-08",
     "result_pct": -0.78,
     "close_reason": "STOP",
-    "cooldown_until": "2026-05-08T11:54:50.098166+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "KUYAS.IS",
@@ -5292,5 +5292,65 @@
     "close_reason": "STOP",
     "cooldown_until": "2026-05-08T18:38:25.254131+03:00",
     "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "ARCLK.IS",
+    "date": "2026-05-11",
+    "entry": 115.5,
+    "highest_price": 115.5,
+    "stop": 113.9146,
+    "target": 118.6708,
+    "trailing_stop": null,
+    "score": 110,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "HEKTS.IS",
+    "date": "2026-05-11",
+    "entry": 4.51,
+    "highest_price": 4.51,
+    "stop": 4.3879,
+    "target": 4.7543,
+    "trailing_stop": null,
+    "score": 105,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "IEYHO.IS",
+    "date": "2026-05-11",
+    "entry": 100.5,
+    "highest_price": 100.5,
+    "stop": 99.5057,
+    "target": 102.4886,
+    "trailing_stop": null,
+    "score": 105,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "REEDR.IS",
+    "date": "2026-05-11",
+    "entry": 8.12,
+    "highest_price": 8.12,
+    "stop": 7.8534,
+    "target": 8.6533,
+    "trailing_stop": null,
+    "score": 120,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "ZOREN.IS",
+    "date": "2026-05-11",
+    "entry": 3.4,
+    "highest_price": 3.4,
+    "stop": 3.3282,
+    "target": 3.5436,
+    "trailing_stop": null,
+    "score": 78,
+    "setup_type": "TREND",
+    "status": "open"
   }
 ]
