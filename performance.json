@@ -4729,7 +4729,11 @@
     "stop": 113.9146,
     "target": 118.6708,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 113.9146,
+    "exit_date": "2026-05-11",
+    "result_pct": -1.37,
+    "close_reason": "STOP"
   },
   {
     "symbol": "HEKTS.IS",
@@ -4741,7 +4745,11 @@
     "stop": 4.3879,
     "target": 4.7543,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 4.3879,
+    "exit_date": "2026-05-11",
+    "result_pct": -2.71,
+    "close_reason": "STOP"
   },
   {
     "symbol": "IEYHO.IS",
@@ -4753,7 +4761,11 @@
     "stop": 99.5057,
     "target": 102.4886,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 99.5057,
+    "exit_date": "2026-05-11",
+    "result_pct": -0.99,
+    "close_reason": "STOP"
   },
   {
     "symbol": "REEDR.IS",
@@ -4765,7 +4777,11 @@
     "stop": 7.8534,
     "target": 8.6533,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 7.8534,
+    "exit_date": "2026-05-11",
+    "result_pct": -3.28,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ZOREN.IS",
@@ -4776,6 +4792,166 @@
     "vol_ratio": 1.06,
     "stop": 3.3282,
     "target": 3.5436,
+    "setup_type": "TREND",
+    "status": "closed",
+    "exit": 3.3282,
+    "exit_date": "2026-05-11",
+    "result_pct": -2.11,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "AKBNK.IS",
+    "date": "2026-05-11",
+    "entry": 75.8,
+    "score": 120,
+    "rsi": 57.61,
+    "vol_ratio": 1.62,
+    "stop": 74.7187,
+    "target": 77.9627,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "AKSA.IS",
+    "date": "2026-05-11",
+    "entry": 11.18,
+    "score": 110,
+    "rsi": 62.34,
+    "vol_ratio": 1.87,
+    "stop": 10.9437,
+    "target": 11.6526,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "ALARK.IS",
+    "date": "2026-05-11",
+    "entry": 101.0,
+    "score": 90,
+    "rsi": 67.14,
+    "vol_ratio": 1.12,
+    "stop": 99.575,
+    "target": 103.85,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "BALSU.IS",
+    "date": "2026-05-11",
+    "entry": 14.96,
+    "score": 100,
+    "rsi": 63.16,
+    "vol_ratio": 1.24,
+    "stop": 14.7978,
+    "target": 15.2844,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "CWENE.IS",
+    "date": "2026-05-11",
+    "entry": 39.8,
+    "score": 88,
+    "rsi": 78.81,
+    "vol_ratio": 1.4,
+    "stop": 38.8829,
+    "target": 41.6343,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "GARAN.IS",
+    "date": "2026-05-11",
+    "entry": 138.2,
+    "score": 105,
+    "rsi": 62.12,
+    "vol_ratio": 1.07,
+    "stop": 135.9517,
+    "target": 142.6965,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "GRSEL.IS",
+    "date": "2026-05-11",
+    "entry": 337.5,
+    "score": 88,
+    "rsi": 75.93,
+    "vol_ratio": 1.98,
+    "stop": 331.4196,
+    "target": 349.6607,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "MAGEN.IS",
+    "date": "2026-05-11",
+    "entry": 64.25,
+    "score": 90,
+    "rsi": 72.73,
+    "vol_ratio": 1.2,
+    "stop": 63.275,
+    "target": 66.2,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "PASEU.IS",
+    "date": "2026-05-11",
+    "entry": 110.7,
+    "score": 80,
+    "rsi": 60.37,
+    "vol_ratio": 1.6,
+    "stop": 106.4089,
+    "target": 119.2821,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "TABGD.IS",
+    "date": "2026-05-11",
+    "entry": 281.5,
+    "score": 105,
+    "rsi": 55.07,
+    "vol_ratio": 1.21,
+    "stop": 274.0746,
+    "target": 296.3508,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "TUKAS.IS",
+    "date": "2026-05-11",
+    "entry": 2.68,
+    "score": 88,
+    "rsi": 78.57,
+    "vol_ratio": 1.41,
+    "stop": 2.6382,
+    "target": 2.7636,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "ULKER.IS",
+    "date": "2026-05-11",
+    "entry": 129.8,
+    "score": 130,
+    "rsi": 54.29,
+    "vol_ratio": 2.58,
+    "stop": 128.1271,
+    "target": 133.1458,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "VAKBN.IS",
+    "date": "2026-05-11",
+    "entry": 32.44,
+    "score": 90,
+    "rsi": 65.56,
+    "vol_ratio": 1.32,
+    "stop": 32.005,
+    "target": 33.31,
     "setup_type": "TREND",
     "status": "open"
   }
