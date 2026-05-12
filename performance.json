@@ -5065,7 +5065,11 @@
     "stop": 20.4233,
     "target": 22.1535,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 20.4233,
+    "exit_date": "2026-05-12",
+    "result_pct": -2.75,
+    "close_reason": "STOP"
   },
   {
     "symbol": "AGHOL.IS",
@@ -5077,7 +5081,11 @@
     "stop": 35.7007,
     "target": 37.5586,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 35.7007,
+    "exit_date": "2026-05-12",
+    "result_pct": -1.71,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ARCLK.IS",
@@ -5089,7 +5097,11 @@
     "stop": 115.4107,
     "target": 120.7786,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 115.4107,
+    "exit_date": "2026-05-12",
+    "result_pct": -1.53,
+    "close_reason": "STOP"
   },
   {
     "symbol": "DOAS.IS",
@@ -5101,7 +5113,11 @@
     "stop": 183.7036,
     "target": 188.4929,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 183.7036,
+    "exit_date": "2026-05-12",
+    "result_pct": -0.86,
+    "close_reason": "STOP"
   },
   {
     "symbol": "HALKB.IS",
@@ -5113,7 +5129,11 @@
     "stop": 40.6771,
     "target": 42.9657,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 40.6771,
+    "exit_date": "2026-05-12",
+    "result_pct": -1.84,
+    "close_reason": "STOP"
   },
   {
     "symbol": "KCAER.IS",
@@ -5125,7 +5145,11 @@
     "stop": 13.1209,
     "target": 15.1583,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 13.1209,
+    "exit_date": "2026-05-12",
+    "result_pct": -4.92,
+    "close_reason": "STOP"
   },
   {
     "symbol": "KTLEV.IS",
@@ -5137,7 +5161,11 @@
     "stop": 116.369,
     "target": 127.2621,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 116.369,
+    "exit_date": "2026-05-12",
+    "result_pct": -3.03,
+    "close_reason": "STOP"
   },
   {
     "symbol": "SISE.IS",
@@ -5149,7 +5177,11 @@
     "stop": 50.6913,
     "target": 55.8175,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 50.6913,
+    "exit_date": "2026-05-12",
+    "result_pct": -3.26,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TUKAS.IS",
@@ -5161,7 +5193,11 @@
     "stop": 2.6729,
     "target": 2.8143,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 2.6729,
+    "exit_date": "2026-05-12",
+    "result_pct": -1.73,
+    "close_reason": "STOP"
   },
   {
     "symbol": "VAKBN.IS",
@@ -5173,6 +5209,58 @@
     "stop": 31.8969,
     "target": 33.4663,
     "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 31.8969,
+    "exit_date": "2026-05-12",
+    "result_pct": -1.61,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "AKSA.IS",
+    "date": "2026-05-12",
+    "entry": 11.42,
+    "score": 105,
+    "rsi": 58.75,
+    "vol_ratio": 1.19,
+    "stop": 11.0207,
+    "target": 12.2186,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "SKBNK.IS",
+    "date": "2026-05-12",
+    "entry": 13.82,
+    "score": 88,
+    "rsi": 50.0,
+    "vol_ratio": 1.04,
+    "stop": 13.5634,
+    "target": 14.3331,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "TABGD.IS",
+    "date": "2026-05-12",
+    "entry": 281.25,
+    "score": 75,
+    "rsi": 70.0,
+    "vol_ratio": 1.16,
+    "stop": 277.9821,
+    "target": 287.7857,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "TTRAK.IS",
+    "date": "2026-05-12",
+    "entry": 471.5,
+    "score": 90,
+    "rsi": 72.51,
+    "vol_ratio": 1.97,
+    "stop": 462.0714,
+    "target": 490.3571,
+    "setup_type": "TREND",
     "status": "open"
   }
 ]
