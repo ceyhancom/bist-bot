@@ -5401,7 +5401,11 @@
     "stop": 35.16,
     "target": 38.3399,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 35.16,
+    "exit_date": "2026-05-13",
+    "result_pct": -2.93,
+    "close_reason": "STOP"
   },
   {
     "symbol": "BIMAS.IS",
@@ -5413,7 +5417,11 @@
     "stop": 781.0848,
     "target": 852.8305,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 781.0848,
+    "exit_date": "2026-05-13",
+    "result_pct": -2.97,
+    "close_reason": "STOP"
   },
   {
     "symbol": "DOHOL.IS",
@@ -5425,7 +5433,11 @@
     "stop": 24.1864,
     "target": 25.4271,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 24.1864,
+    "exit_date": "2026-05-13",
+    "result_pct": -1.68,
+    "close_reason": "STOP"
   },
   {
     "symbol": "MGROS.IS",
@@ -5437,7 +5449,11 @@
     "stop": 679.7072,
     "target": 715.0855,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 679.7072,
+    "exit_date": "2026-05-13",
+    "result_pct": -1.71,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TABGD.IS",
@@ -5449,7 +5465,11 @@
     "stop": 276.7643,
     "target": 291.7214,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 276.7643,
+    "exit_date": "2026-05-13",
+    "result_pct": -1.77,
+    "close_reason": "STOP"
   },
   {
     "symbol": "VAKBN.IS",
@@ -5461,7 +5481,11 @@
     "stop": 31.9659,
     "target": 33.3882,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 31.9659,
+    "exit_date": "2026-05-13",
+    "result_pct": -1.46,
+    "close_reason": "STOP"
   },
   {
     "symbol": "YEOTK.IS",
@@ -5472,6 +5496,22 @@
     "vol_ratio": 1.69,
     "stop": 93.1643,
     "target": 103.3214,
+    "setup_type": "TREND",
+    "status": "closed",
+    "exit": 93.1643,
+    "exit_date": "2026-05-13",
+    "result_pct": -3.51,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "ASTOR.IS",
+    "date": "2026-05-13",
+    "entry": 328.5,
+    "score": 95,
+    "rsi": 39.81,
+    "vol_ratio": 7.28,
+    "stop": 316.3929,
+    "target": 352.7143,
     "setup_type": "TREND",
     "status": "open"
   }
