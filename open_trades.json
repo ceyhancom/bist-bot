@@ -3418,8 +3418,8 @@
     "exit_date": "2026-05-04",
     "result_pct": -2.16,
     "close_reason": "STOP",
-    "cooldown_until": "2026-05-04T16:55:51.328935+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "EREGL.IS",
@@ -4858,8 +4858,8 @@
     "exit_date": "2026-05-07",
     "result_pct": -2.55,
     "close_reason": "STOP",
-    "cooldown_until": "2026-05-07T16:03:09.113751+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "CLEBI.IS",
@@ -5146,8 +5146,8 @@
     "exit_date": "2026-05-08",
     "result_pct": -1.55,
     "close_reason": "STOP",
-    "cooldown_until": "2026-05-08T11:54:51.590775+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "ULKER.IS",
@@ -5524,8 +5524,8 @@
     "exit_date": "2026-05-12",
     "result_pct": -1.52,
     "close_reason": "STOP",
-    "cooldown_until": "2026-05-12T11:50:13.601968+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "PASEU.IS",
@@ -6136,8 +6136,8 @@
     "exit_date": "2026-05-13",
     "result_pct": -1.77,
     "close_reason": "STOP",
-    "cooldown_until": "2026-05-13T14:52:49.998051+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "VAKBN.IS",
@@ -6179,12 +6179,78 @@
     "symbol": "ASTOR.IS",
     "date": "2026-05-13",
     "entry": 328.5,
-    "highest_price": 328.5,
+    "highest_price": 345.0,
     "stop": 316.3929,
     "target": 352.7143,
     "trailing_stop": null,
     "score": 95,
     "setup_type": "TREND",
+    "status": "closed",
+    "exit": 316.3929,
+    "exit_date": "2026-05-13",
+    "result_pct": -3.69,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-05-13T17:14:45.976426+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "CCOLA.IS",
+    "date": "2026-05-13",
+    "entry": 85.1,
+    "highest_price": 85.1,
+    "stop": 83.5786,
+    "target": 88.1429,
+    "trailing_stop": null,
+    "score": 113,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "MAGEN.IS",
+    "date": "2026-05-13",
+    "entry": 66.55,
+    "highest_price": 66.55,
+    "stop": 64.7082,
+    "target": 70.2336,
+    "trailing_stop": null,
+    "score": 115,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "PETKM.IS",
+    "date": "2026-05-13",
+    "entry": 26.56,
+    "highest_price": 26.56,
+    "stop": 25.9214,
+    "target": 27.8371,
+    "trailing_stop": null,
+    "score": 70,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "TABGD.IS",
+    "date": "2026-05-13",
+    "entry": 285.0,
+    "highest_price": 285.0,
+    "stop": 278.2401,
+    "target": 298.5199,
+    "trailing_stop": null,
+    "score": 105,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "TURSG.IS",
+    "date": "2026-05-13",
+    "entry": 14.51,
+    "highest_price": 14.51,
+    "stop": 14.3514,
+    "target": 14.8271,
+    "trailing_stop": null,
+    "score": 130,
+    "setup_type": "PULLBACK",
     "status": "open"
   }
 ]

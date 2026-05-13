@@ -5513,6 +5513,70 @@
     "stop": 316.3929,
     "target": 352.7143,
     "setup_type": "TREND",
+    "status": "closed",
+    "exit": 316.3929,
+    "exit_date": "2026-05-13",
+    "result_pct": -3.69,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "CCOLA.IS",
+    "date": "2026-05-13",
+    "entry": 85.1,
+    "score": 113,
+    "rsi": 49.75,
+    "vol_ratio": 2.03,
+    "stop": 83.5786,
+    "target": 88.1429,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "MAGEN.IS",
+    "date": "2026-05-13",
+    "entry": 66.55,
+    "score": 115,
+    "rsi": 62.07,
+    "vol_ratio": 2.03,
+    "stop": 64.7082,
+    "target": 70.2336,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "PETKM.IS",
+    "date": "2026-05-13",
+    "entry": 26.56,
+    "score": 70,
+    "rsi": 31.07,
+    "vol_ratio": 4.36,
+    "stop": 25.9214,
+    "target": 27.8371,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "TABGD.IS",
+    "date": "2026-05-13",
+    "entry": 285.0,
+    "score": 105,
+    "rsi": 55.34,
+    "vol_ratio": 1.05,
+    "stop": 278.2401,
+    "target": 298.5199,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "TURSG.IS",
+    "date": "2026-05-13",
+    "entry": 14.51,
+    "score": 130,
+    "rsi": 53.57,
+    "vol_ratio": 7.21,
+    "stop": 14.3514,
+    "target": 14.8271,
+    "setup_type": "PULLBACK",
     "status": "open"
   }
 ]
