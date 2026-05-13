@@ -5289,7 +5289,11 @@
     "stop": 4.6975,
     "target": 5.485,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 4.6975,
+    "exit_date": "2026-05-13",
+    "result_pct": -5.29,
+    "close_reason": "STOP"
   },
   {
     "symbol": "KRDMD.IS",
@@ -5301,7 +5305,11 @@
     "stop": 42.2256,
     "target": 50.5489,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 42.2256,
+    "exit_date": "2026-05-13",
+    "result_pct": -6.17,
+    "close_reason": "STOP"
   },
   {
     "symbol": "KUYAS.IS",
@@ -5313,7 +5321,11 @@
     "stop": 88.1237,
     "target": 97.6526,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 88.1237,
+    "exit_date": "2026-05-13",
+    "result_pct": -3.48,
+    "close_reason": "STOP"
   },
   {
     "symbol": "MPARK.IS",
@@ -5325,7 +5337,11 @@
     "stop": 482.9163,
     "target": 521.4173,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 482.9163,
+    "exit_date": "2026-05-13",
+    "result_pct": -2.59,
+    "close_reason": "STOP"
   },
   {
     "symbol": "OBAMS.IS",
@@ -5337,7 +5353,11 @@
     "stop": 8.5154,
     "target": 8.9493,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 8.5154,
+    "exit_date": "2026-05-13",
+    "result_pct": -1.67,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TUKAS.IS",
@@ -5349,7 +5369,11 @@
     "stop": 2.7475,
     "target": 2.905,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 2.7475,
+    "exit_date": "2026-05-13",
+    "result_pct": -1.87,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ZOREN.IS",
@@ -5361,6 +5385,94 @@
     "stop": 3.2618,
     "target": 3.6765,
     "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 3.2618,
+    "exit_date": "2026-05-13",
+    "result_pct": -4.06,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "AGHOL.IS",
+    "date": "2026-05-13",
+    "entry": 36.22,
+    "score": 125,
+    "rsi": 52.46,
+    "vol_ratio": 1.67,
+    "stop": 35.16,
+    "target": 38.3399,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "BIMAS.IS",
+    "date": "2026-05-13",
+    "entry": 805.0,
+    "score": 130,
+    "rsi": 62.57,
+    "vol_ratio": 2.03,
+    "stop": 781.0848,
+    "target": 852.8305,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "DOHOL.IS",
+    "date": "2026-05-13",
+    "entry": 24.6,
+    "score": 78,
+    "rsi": 43.88,
+    "vol_ratio": 1.0,
+    "stop": 24.1864,
+    "target": 25.4271,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "MGROS.IS",
+    "date": "2026-05-13",
+    "entry": 691.5,
+    "score": 125,
+    "rsi": 56.88,
+    "vol_ratio": 1.63,
+    "stop": 679.7072,
+    "target": 715.0855,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "TABGD.IS",
+    "date": "2026-05-13",
+    "entry": 281.75,
+    "score": 115,
+    "rsi": 55.56,
+    "vol_ratio": 1.65,
+    "stop": 276.7643,
+    "target": 291.7214,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "VAKBN.IS",
+    "date": "2026-05-13",
+    "entry": 32.44,
+    "score": 90,
+    "rsi": 53.78,
+    "vol_ratio": 1.13,
+    "stop": 31.9659,
+    "target": 33.3882,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "YEOTK.IS",
+    "date": "2026-05-13",
+    "entry": 96.55,
+    "score": 88,
+    "rsi": 75.77,
+    "vol_ratio": 1.69,
+    "stop": 93.1643,
+    "target": 103.3214,
+    "setup_type": "TREND",
     "status": "open"
   }
 ]
