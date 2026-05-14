@@ -5609,7 +5609,11 @@
     "stop": 36.57,
     "target": 38.46,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 36.57,
+    "exit_date": "2026-05-14",
+    "result_pct": -1.69,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ASTOR.IS",
@@ -5621,7 +5625,11 @@
     "stop": 330.0893,
     "target": 362.0714,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 330.0893,
+    "exit_date": "2026-05-14",
+    "result_pct": -3.13,
+    "close_reason": "STOP"
   },
   {
     "symbol": "EUPWR.IS",
@@ -5633,7 +5641,11 @@
     "stop": 58.6666,
     "target": 64.1667,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 58.6666,
+    "exit_date": "2026-05-14",
+    "result_pct": -3.03,
+    "close_reason": "STOP"
   },
   {
     "symbol": "GESAN.IS",
@@ -5645,7 +5657,11 @@
     "stop": 59.7054,
     "target": 65.5393,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 59.7054,
+    "exit_date": "2026-05-14",
+    "result_pct": -3.15,
+    "close_reason": "STOP"
   },
   {
     "symbol": "MGROS.IS",
@@ -5657,7 +5673,11 @@
     "stop": 710.4464,
     "target": 746.6071,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 710.4464,
+    "exit_date": "2026-05-14",
+    "result_pct": -1.67,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ODAS.IS",
@@ -5669,7 +5689,11 @@
     "stop": 7.8194,
     "target": 8.3311,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 7.8194,
+    "exit_date": "2026-05-14",
+    "result_pct": -2.14,
+    "close_reason": "STOP"
   },
   {
     "symbol": "SKBNK.IS",
@@ -5681,7 +5705,11 @@
     "stop": 13.6043,
     "target": 14.0414,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 13.6043,
+    "exit_date": "2026-05-14",
+    "result_pct": -1.06,
+    "close_reason": "STOP"
   },
   {
     "symbol": "YEOTK.IS",
@@ -5693,6 +5721,10 @@
     "stop": 101.8429,
     "target": 117.0143,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 101.8429,
+    "exit_date": "2026-05-14",
+    "result_pct": -4.73,
+    "close_reason": "STOP"
   }
 ]
