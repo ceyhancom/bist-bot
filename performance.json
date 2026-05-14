@@ -5529,7 +5529,11 @@
     "stop": 83.5786,
     "target": 88.1429,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 83.5786,
+    "exit_date": "2026-05-14",
+    "result_pct": -1.79,
+    "close_reason": "STOP"
   },
   {
     "symbol": "MAGEN.IS",
@@ -5541,7 +5545,11 @@
     "stop": 64.7082,
     "target": 70.2336,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 64.7082,
+    "exit_date": "2026-05-14",
+    "result_pct": -2.77,
+    "close_reason": "STOP"
   },
   {
     "symbol": "PETKM.IS",
@@ -5553,7 +5561,11 @@
     "stop": 25.9214,
     "target": 27.8371,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 25.9214,
+    "exit_date": "2026-05-14",
+    "result_pct": -2.4,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TABGD.IS",
@@ -5565,7 +5577,11 @@
     "stop": 278.2401,
     "target": 298.5199,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 278.2401,
+    "exit_date": "2026-05-14",
+    "result_pct": -2.37,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TURSG.IS",
@@ -5577,6 +5593,106 @@
     "stop": 14.3514,
     "target": 14.8271,
     "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 14.3514,
+    "exit_date": "2026-05-14",
+    "result_pct": -1.09,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "AGHOL.IS",
+    "date": "2026-05-14",
+    "entry": 37.2,
+    "score": 123,
+    "rsi": 76.0,
+    "vol_ratio": 2.13,
+    "stop": 36.57,
+    "target": 38.46,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "ASTOR.IS",
+    "date": "2026-05-14",
+    "entry": 340.75,
+    "score": 105,
+    "rsi": 54.67,
+    "vol_ratio": 1.31,
+    "stop": 330.0893,
+    "target": 362.0714,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "EUPWR.IS",
+    "date": "2026-05-14",
+    "entry": 60.5,
+    "score": 125,
+    "rsi": 60.0,
+    "vol_ratio": 1.88,
+    "stop": 58.6666,
+    "target": 64.1667,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "GESAN.IS",
+    "date": "2026-05-14",
+    "entry": 61.65,
+    "score": 88,
+    "rsi": 41.78,
+    "vol_ratio": 1.21,
+    "stop": 59.7054,
+    "target": 65.5393,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "MGROS.IS",
+    "date": "2026-05-14",
+    "entry": 722.5,
+    "score": 130,
+    "rsi": 73.6,
+    "vol_ratio": 1.79,
+    "stop": 710.4464,
+    "target": 746.6071,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "ODAS.IS",
+    "date": "2026-05-14",
+    "entry": 7.99,
+    "score": 113,
+    "rsi": 50.0,
+    "vol_ratio": 2.07,
+    "stop": 7.8194,
+    "target": 8.3311,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "SKBNK.IS",
+    "date": "2026-05-14",
+    "entry": 13.75,
+    "score": 98,
+    "rsi": 50.0,
+    "vol_ratio": 1.46,
+    "stop": 13.6043,
+    "target": 14.0414,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "YEOTK.IS",
+    "date": "2026-05-14",
+    "entry": 106.9,
+    "score": 135,
+    "rsi": 73.91,
+    "vol_ratio": 2.11,
+    "stop": 101.8429,
+    "target": 117.0143,
+    "setup_type": "BREAKOUT",
     "status": "open"
   }
 ]
