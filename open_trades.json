@@ -3220,8 +3220,8 @@
     "exit_date": "2026-05-04",
     "result_pct": -1.76,
     "close_reason": "STOP",
-    "cooldown_until": "2026-05-04T15:12:12.680242+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "ASELS.IS",
@@ -5272,8 +5272,8 @@
     "exit_date": "2026-05-08",
     "result_pct": -2.94,
     "close_reason": "STOP",
-    "cooldown_until": "2026-05-08T16:38:41.495044+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "GRSEL.IS",
@@ -5344,8 +5344,8 @@
     "exit_date": "2026-05-11",
     "result_pct": -0.99,
     "close_reason": "STOP",
-    "cooldown_until": "2026-05-11T19:24:45.356092+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "REEDR.IS",
@@ -5470,8 +5470,8 @@
     "exit_date": "2026-05-12",
     "result_pct": -2.3,
     "close_reason": "STOP",
-    "cooldown_until": "2026-05-12T11:50:12.983035+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "GARAN.IS",
@@ -6226,8 +6226,8 @@
     "exit_date": "2026-05-14",
     "result_pct": -2.77,
     "close_reason": "STOP",
-    "cooldown_until": "2026-05-14T11:17:02.567341+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "PETKM.IS",
@@ -6280,8 +6280,8 @@
     "exit_date": "2026-05-14",
     "result_pct": -1.09,
     "close_reason": "STOP",
-    "cooldown_until": "2026-05-14T11:17:03.732867+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "AGHOL.IS",
@@ -6352,8 +6352,8 @@
     "exit_date": "2026-05-14",
     "result_pct": -3.15,
     "close_reason": "STOP",
-    "cooldown_until": "2026-05-14T13:44:16.177775+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "MGROS.IS",
@@ -6424,7 +6424,103 @@
     "exit_date": "2026-05-14",
     "result_pct": -4.73,
     "close_reason": "STOP",
-    "cooldown_until": "2026-05-14T13:44:17.369818+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
+  },
+  {
+    "symbol": "ANSGR.IS",
+    "date": "2026-05-14",
+    "entry": 30.76,
+    "highest_price": 30.76,
+    "stop": 30.4754,
+    "target": 31.3291,
+    "trailing_stop": null,
+    "score": 105,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "CWENE.IS",
+    "date": "2026-05-14",
+    "entry": 39.46,
+    "highest_price": 39.46,
+    "stop": 38.733,
+    "target": 40.9141,
+    "trailing_stop": null,
+    "score": 125,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "GESAN.IS",
+    "date": "2026-05-14",
+    "entry": 63.5,
+    "highest_price": 63.5,
+    "stop": 61.5929,
+    "target": 67.3143,
+    "trailing_stop": null,
+    "score": 115,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "IEYHO.IS",
+    "date": "2026-05-14",
+    "entry": 101.9,
+    "highest_price": 101.9,
+    "stop": 100.1643,
+    "target": 105.3714,
+    "trailing_stop": null,
+    "score": 98,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "MAGEN.IS",
+    "date": "2026-05-14",
+    "entry": 67.45,
+    "highest_price": 67.45,
+    "stop": 65.7528,
+    "target": 70.8445,
+    "trailing_stop": null,
+    "score": 100,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "SMRTG.IS",
+    "date": "2026-05-14",
+    "entry": 12.82,
+    "highest_price": 12.82,
+    "stop": 12.2318,
+    "target": 13.9964,
+    "trailing_stop": null,
+    "score": 115,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "TURSG.IS",
+    "date": "2026-05-14",
+    "entry": 14.75,
+    "highest_price": 14.75,
+    "stop": 14.5464,
+    "target": 15.1571,
+    "trailing_stop": null,
+    "score": 90,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "YEOTK.IS",
+    "date": "2026-05-14",
+    "entry": 103.0,
+    "highest_price": 103.0,
+    "stop": 98.3071,
+    "target": 112.3857,
+    "trailing_stop": null,
+    "score": 85,
+    "setup_type": "TREND",
+    "status": "open"
   }
 ]
