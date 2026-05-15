@@ -5918,5 +5918,41 @@
     "exit_date": "2026-05-15",
     "result_pct": -3.85,
     "close_reason": "STOP"
+  },
+  {
+    "symbol": "CCOLA.IS",
+    "date": "2026-05-15",
+    "entry": 82.65,
+    "score": 80,
+    "rsi": 52.76,
+    "vol_ratio": 1.63,
+    "stop": 81.3214,
+    "target": 85.3071,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "DSTKF.IS",
+    "date": "2026-05-15",
+    "entry": 1975.0,
+    "score": 70,
+    "rsi": 51.44,
+    "vol_ratio": 1.27,
+    "stop": 1883.8214,
+    "target": 2157.3571,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "OBAMS.IS",
+    "date": "2026-05-15",
+    "entry": 8.63,
+    "score": 98,
+    "rsi": 46.51,
+    "vol_ratio": 1.42,
+    "stop": 8.5323,
+    "target": 8.8254,
+    "setup_type": "PULLBACK",
+    "status": "open"
   }
 ]

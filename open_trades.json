@@ -5236,8 +5236,8 @@
     "exit_date": "2026-05-08",
     "result_pct": -2.39,
     "close_reason": "STOP",
-    "cooldown_until": "2026-05-08T16:38:40.768714+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "GUBRF.IS",
@@ -6010,8 +6010,8 @@
     "exit_date": "2026-05-13",
     "result_pct": -1.67,
     "close_reason": "STOP",
-    "cooldown_until": "2026-05-13T12:09:03.731073+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "TUKAS.IS",
@@ -6208,8 +6208,8 @@
     "exit_date": "2026-05-14",
     "result_pct": -1.79,
     "close_reason": "STOP",
-    "cooldown_until": "2026-05-14T11:17:02.227282+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "MAGEN.IS",
@@ -6642,5 +6642,41 @@
     "close_reason": "STOP",
     "cooldown_until": "2026-05-15T14:51:22.157719+03:00",
     "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "CCOLA.IS",
+    "date": "2026-05-15",
+    "entry": 82.65,
+    "highest_price": 82.65,
+    "stop": 81.3214,
+    "target": 85.3071,
+    "trailing_stop": null,
+    "score": 80,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "DSTKF.IS",
+    "date": "2026-05-15",
+    "entry": 1975.0,
+    "highest_price": 1975.0,
+    "stop": 1883.8214,
+    "target": 2157.3571,
+    "trailing_stop": null,
+    "score": 70,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "OBAMS.IS",
+    "date": "2026-05-15",
+    "entry": 8.63,
+    "highest_price": 8.63,
+    "stop": 8.5323,
+    "target": 8.8254,
+    "trailing_stop": null,
+    "score": 98,
+    "setup_type": "PULLBACK",
+    "status": "open"
   }
 ]
