@@ -5865,7 +5865,11 @@
     "stop": 183.0607,
     "target": 189.7786,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 183.0607,
+    "exit_date": "2026-05-15",
+    "result_pct": -1.21,
+    "close_reason": "STOP"
   },
   {
     "symbol": "GRSEL.IS",
@@ -5877,7 +5881,11 @@
     "stop": 315.25,
     "target": 331.0,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 315.25,
+    "exit_date": "2026-05-15",
+    "result_pct": -1.64,
+    "close_reason": "STOP"
   },
   {
     "symbol": "GUBRF.IS",
@@ -5889,7 +5897,11 @@
     "stop": 598.0863,
     "target": 630.8274,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 598.0863,
+    "exit_date": "2026-05-15",
+    "result_pct": -1.79,
+    "close_reason": "STOP"
   },
   {
     "symbol": "PETKM.IS",
@@ -5901,6 +5913,10 @@
     "stop": 26.0189,
     "target": 29.1423,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 26.0189,
+    "exit_date": "2026-05-15",
+    "result_pct": -3.85,
+    "close_reason": "STOP"
   }
 ]
