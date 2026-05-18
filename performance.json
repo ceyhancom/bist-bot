@@ -5929,7 +5929,11 @@
     "stop": 81.3214,
     "target": 85.3071,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 81.3214,
+    "exit_date": "2026-05-18",
+    "result_pct": -1.61,
+    "close_reason": "STOP"
   },
   {
     "symbol": "DSTKF.IS",
@@ -5941,7 +5945,11 @@
     "stop": 1883.8214,
     "target": 2157.3571,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 1883.8214,
+    "exit_date": "2026-05-18",
+    "result_pct": -4.62,
+    "close_reason": "STOP"
   },
   {
     "symbol": "OBAMS.IS",
@@ -5953,6 +5961,34 @@
     "stop": 8.5323,
     "target": 8.8254,
     "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 8.5323,
+    "exit_date": "2026-05-18",
+    "result_pct": -1.13,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "TABGD.IS",
+    "date": "2026-05-18",
+    "entry": 281.75,
+    "score": 98,
+    "rsi": 46.74,
+    "vol_ratio": 1.97,
+    "stop": 277.85,
+    "target": 289.55,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "YEOTK.IS",
+    "date": "2026-05-18",
+    "entry": 102.5,
+    "score": 73,
+    "rsi": 42.07,
+    "vol_ratio": 1.42,
+    "stop": 97.9786,
+    "target": 111.5429,
+    "setup_type": "TREND",
     "status": "open"
   }
 ]

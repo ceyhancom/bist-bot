@@ -6262,8 +6262,8 @@
     "exit_date": "2026-05-14",
     "result_pct": -2.37,
     "close_reason": "STOP",
-    "cooldown_until": "2026-05-14T11:17:03.359511+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "TURSG.IS",
@@ -6568,8 +6568,8 @@
     "exit_date": "2026-05-15",
     "result_pct": -4.56,
     "close_reason": "STOP",
-    "cooldown_until": "2026-05-15T12:15:39.386634+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "DOAS.IS",
@@ -6647,36 +6647,78 @@
     "symbol": "CCOLA.IS",
     "date": "2026-05-15",
     "entry": 82.65,
-    "highest_price": 82.65,
+    "highest_price": 87.9,
     "stop": 81.3214,
     "target": 85.3071,
     "trailing_stop": null,
     "score": 80,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 81.3214,
+    "exit_date": "2026-05-18",
+    "result_pct": -1.61,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-05-18T12:22:43.717620+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "DSTKF.IS",
     "date": "2026-05-15",
     "entry": 1975.0,
-    "highest_price": 1975.0,
+    "highest_price": 2507.5,
     "stop": 1883.8214,
     "target": 2157.3571,
     "trailing_stop": null,
     "score": 70,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 1883.8214,
+    "exit_date": "2026-05-18",
+    "result_pct": -4.62,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-05-18T12:22:44.004630+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "OBAMS.IS",
     "date": "2026-05-15",
     "entry": 8.63,
-    "highest_price": 8.63,
+    "highest_price": 8.83,
     "stop": 8.5323,
     "target": 8.8254,
     "trailing_stop": null,
     "score": 98,
     "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 8.5323,
+    "exit_date": "2026-05-18",
+    "result_pct": -1.13,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-05-18T12:22:44.308109+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "TABGD.IS",
+    "date": "2026-05-18",
+    "entry": 281.75,
+    "highest_price": 281.75,
+    "stop": 277.85,
+    "target": 289.55,
+    "trailing_stop": null,
+    "score": 98,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "YEOTK.IS",
+    "date": "2026-05-18",
+    "entry": 102.5,
+    "highest_price": 102.5,
+    "stop": 97.9786,
+    "target": 111.5429,
+    "trailing_stop": null,
+    "score": 73,
+    "setup_type": "TREND",
     "status": "open"
   }
 ]
