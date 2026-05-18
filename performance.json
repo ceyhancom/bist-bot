@@ -5977,7 +5977,11 @@
     "stop": 277.85,
     "target": 289.55,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 277.85,
+    "exit_date": "2026-05-18",
+    "result_pct": -1.38,
+    "close_reason": "STOP"
   },
   {
     "symbol": "YEOTK.IS",
@@ -5989,6 +5993,22 @@
     "stop": 97.9786,
     "target": 111.5429,
     "setup_type": "TREND",
+    "status": "closed",
+    "exit": 97.9786,
+    "exit_date": "2026-05-18",
+    "result_pct": -4.41,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "EUPWR.IS",
+    "date": "2026-05-18",
+    "entry": 62.85,
+    "score": 88,
+    "rsi": 47.51,
+    "vol_ratio": 1.13,
+    "stop": 60.4664,
+    "target": 67.6171,
+    "setup_type": "PULLBACK",
     "status": "open"
   }
 ]
