@@ -6046,5 +6046,29 @@
     "exit_date": "2026-05-19",
     "result_pct": -4.27,
     "close_reason": "STOP"
+  },
+  {
+    "symbol": "TABGD.IS",
+    "date": "2026-05-19",
+    "entry": 283.75,
+    "score": 115,
+    "rsi": 74.14,
+    "vol_ratio": 2.34,
+    "stop": 279.7857,
+    "target": 291.6786,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "YEOTK.IS",
+    "date": "2026-05-19",
+    "entry": 111.3,
+    "score": 90,
+    "rsi": 67.11,
+    "vol_ratio": 1.02,
+    "stop": 106.5429,
+    "target": 120.8143,
+    "setup_type": "TREND",
+    "status": "open"
   }
 ]
