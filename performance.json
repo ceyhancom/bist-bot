@@ -6057,7 +6057,11 @@
     "stop": 279.7857,
     "target": 291.6786,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 279.7857,
+    "exit_date": "2026-05-19",
+    "result_pct": -1.4,
+    "close_reason": "STOP"
   },
   {
     "symbol": "YEOTK.IS",
@@ -6069,6 +6073,10 @@
     "stop": 106.5429,
     "target": 120.8143,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 106.5429,
+    "exit_date": "2026-05-19",
+    "result_pct": -4.27,
+    "close_reason": "STOP"
   }
 ]

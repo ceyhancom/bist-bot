@@ -6791,24 +6791,36 @@
     "symbol": "TABGD.IS",
     "date": "2026-05-19",
     "entry": 283.75,
-    "highest_price": 283.75,
+    "highest_price": 292.25,
     "stop": 279.7857,
     "target": 291.6786,
     "trailing_stop": null,
     "score": 115,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 279.7857,
+    "exit_date": "2026-05-19",
+    "result_pct": -1.4,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-05-19T17:30:20.111607+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "YEOTK.IS",
     "date": "2026-05-19",
     "entry": 111.3,
-    "highest_price": 111.3,
+    "highest_price": 112.1,
     "stop": 106.5429,
     "target": 120.8143,
     "trailing_stop": null,
     "score": 90,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 106.5429,
+    "exit_date": "2026-05-19",
+    "result_pct": -4.27,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-05-19T17:30:20.405300+03:00",
+    "cooldown_reason": "STOP"
   }
 ]
