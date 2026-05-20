@@ -6078,5 +6078,89 @@
     "exit_date": "2026-05-19",
     "result_pct": -4.27,
     "close_reason": "STOP"
+  },
+  {
+    "symbol": "ASTOR.IS",
+    "date": "2026-05-20",
+    "entry": 337.0,
+    "score": 85,
+    "rsi": 55.65,
+    "vol_ratio": 2.59,
+    "stop": 327.5982,
+    "target": 355.8036,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "DOHOL.IS",
+    "date": "2026-05-20",
+    "entry": 23.18,
+    "score": 85,
+    "rsi": 57.69,
+    "vol_ratio": 3.43,
+    "stop": 22.7707,
+    "target": 23.9986,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "ENERY.IS",
+    "date": "2026-05-20",
+    "entry": 8.81,
+    "score": 80,
+    "rsi": 68.25,
+    "vol_ratio": 2.11,
+    "stop": 8.66,
+    "target": 9.11,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "EUPWR.IS",
+    "date": "2026-05-20",
+    "entry": 68.8,
+    "score": 90,
+    "rsi": 65.22,
+    "vol_ratio": 1.23,
+    "stop": 65.7518,
+    "target": 74.8964,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "IEYHO.IS",
+    "date": "2026-05-20",
+    "entry": 105.0,
+    "score": 123,
+    "rsi": 75.81,
+    "vol_ratio": 3.77,
+    "stop": 103.9179,
+    "target": 107.1643,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "SMRTG.IS",
+    "date": "2026-05-20",
+    "entry": 12.41,
+    "score": 113,
+    "rsi": 47.96,
+    "vol_ratio": 2.98,
+    "stop": 11.8197,
+    "target": 13.5906,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "YEOTK.IS",
+    "date": "2026-05-20",
+    "entry": 115.5,
+    "score": 115,
+    "rsi": 73.33,
+    "vol_ratio": 2.19,
+    "stop": 109.8107,
+    "target": 126.8786,
+    "setup_type": "TREND",
+    "status": "open"
   }
 ]
