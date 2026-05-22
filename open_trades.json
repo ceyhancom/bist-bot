@@ -6892,8 +6892,8 @@
     "exit_date": "2026-05-20",
     "result_pct": -4.43,
     "close_reason": "STOP",
-    "cooldown_until": "2026-05-20T15:14:24.525280+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "IEYHO.IS",
@@ -7007,12 +7007,30 @@
     "symbol": "MIATK.IS",
     "date": "2026-05-21",
     "entry": 48.34,
-    "highest_price": 48.34,
+    "highest_price": 49.92,
     "stop": 47.1331,
     "target": 50.7537,
     "trailing_stop": null,
     "score": 105,
     "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 47.1331,
+    "exit_date": "2026-05-22",
+    "result_pct": -2.5,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-05-22T11:59:43.777506+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "EUPWR.IS",
+    "date": "2026-05-22",
+    "entry": 74.0,
+    "highest_price": 74.0,
+    "stop": 71.0268,
+    "target": 79.9464,
+    "trailing_stop": null,
+    "score": 90,
+    "setup_type": "TREND",
     "status": "open"
   }
 ]

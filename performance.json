@@ -6249,6 +6249,22 @@
     "stop": 47.1331,
     "target": 50.7537,
     "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 47.1331,
+    "exit_date": "2026-05-22",
+    "result_pct": -2.5,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "EUPWR.IS",
+    "date": "2026-05-22",
+    "entry": 74.0,
+    "score": 90,
+    "rsi": 65.12,
+    "vol_ratio": 2.27,
+    "stop": 71.0268,
+    "target": 79.9464,
+    "setup_type": "TREND",
     "status": "open"
   }
 ]
