@@ -7025,12 +7025,18 @@
     "symbol": "EUPWR.IS",
     "date": "2026-05-22",
     "entry": 74.0,
-    "highest_price": 74.0,
+    "highest_price": 76.9,
     "stop": 71.0268,
     "target": 79.9464,
-    "trailing_stop": null,
+    "trailing_stop": 75.362,
     "score": 90,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 71.0268,
+    "exit_date": "2026-05-22",
+    "result_pct": -4.02,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-05-22T15:05:47.215263+03:00",
+    "cooldown_reason": "STOP"
   }
 ]

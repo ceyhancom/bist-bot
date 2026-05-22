@@ -6265,6 +6265,10 @@
     "stop": 71.0268,
     "target": 79.9464,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 71.0268,
+    "exit_date": "2026-05-22",
+    "result_pct": -4.02,
+    "close_reason": "STOP"
   }
 ]
