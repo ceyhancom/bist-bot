@@ -7043,12 +7043,18 @@
     "symbol": "PASEU.IS",
     "date": "2026-05-25",
     "entry": 111.8,
-    "highest_price": 111.8,
+    "highest_price": 117.9,
     "stop": 109.2393,
     "target": 116.9214,
-    "trailing_stop": null,
+    "trailing_stop": 115.542,
     "score": 90,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 109.2393,
+    "exit_date": "2026-05-26",
+    "result_pct": -2.29,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-05-26T11:37:15.909926+03:00",
+    "cooldown_reason": "STOP"
   }
 ]
