@@ -6501,7 +6501,11 @@
     "stop": 23.1021,
     "target": 24.3557,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 23.1021,
+    "exit_date": "2026-05-29",
+    "result_pct": -1.78,
+    "close_reason": "STOP"
   },
   {
     "symbol": "DSTKF.IS",
@@ -6513,7 +6517,11 @@
     "stop": 2016.9286,
     "target": 2281.1429,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 2016.9286,
+    "exit_date": "2026-05-29",
+    "result_pct": -4.18,
+    "close_reason": "STOP"
   },
   {
     "symbol": "IEYHO.IS",
@@ -6525,7 +6533,11 @@
     "stop": 115.8393,
     "target": 119.9214,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 115.8393,
+    "exit_date": "2026-05-29",
+    "result_pct": -1.16,
+    "close_reason": "STOP"
   },
   {
     "symbol": "PASEU.IS",
@@ -6537,7 +6549,11 @@
     "stop": 111.9857,
     "target": 123.4286,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 111.9857,
+    "exit_date": "2026-05-29",
+    "result_pct": -3.29,
+    "close_reason": "STOP"
   },
   {
     "symbol": "RALYH.IS",
@@ -6549,6 +6565,10 @@
     "stop": 241.4607,
     "target": 267.0786,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 241.4607,
+    "exit_date": "2026-05-29",
+    "result_pct": -3.42,
+    "close_reason": "STOP"
   }
 ]
