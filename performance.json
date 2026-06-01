@@ -6665,7 +6665,11 @@
     "stop": 78.8286,
     "target": 82.9429,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 78.8286,
+    "exit_date": "2026-06-01",
+    "result_pct": -1.71,
+    "close_reason": "STOP"
   },
   {
     "symbol": "BTCIM.IS",
@@ -6677,7 +6681,11 @@
     "stop": 6.2557,
     "target": 6.6286,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 6.2557,
+    "exit_date": "2026-06-01",
+    "result_pct": -1.95,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ENERY.IS",
@@ -6689,7 +6697,11 @@
     "stop": 8.7904,
     "target": 9.1793,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 8.7904,
+    "exit_date": "2026-06-01",
+    "result_pct": -1.45,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ODAS.IS",
@@ -6701,7 +6713,11 @@
     "stop": 7.4093,
     "target": 7.8914,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 7.4093,
+    "exit_date": "2026-06-01",
+    "result_pct": -2.12,
+    "close_reason": "STOP"
   },
   {
     "symbol": "OTKAR.IS",
@@ -6713,7 +6729,11 @@
     "stop": 370.4196,
     "target": 384.1607,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 370.4196,
+    "exit_date": "2026-06-01",
+    "result_pct": -1.22,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TAVHL.IS",
@@ -6725,7 +6745,11 @@
     "stop": 254.1429,
     "target": 270.2143,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 254.1429,
+    "exit_date": "2026-06-01",
+    "result_pct": -2.06,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TTKOM.IS",
@@ -6748,6 +6772,82 @@
     "vol_ratio": 1.66,
     "stop": 30.8129,
     "target": 32.9343,
+    "setup_type": "TREND",
+    "status": "closed",
+    "exit": 30.8129,
+    "exit_date": "2026-06-01",
+    "result_pct": -2.24,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "BRYAT.IS",
+    "date": "2026-06-01",
+    "entry": 2050.0,
+    "score": 100,
+    "rsi": 58.13,
+    "vol_ratio": 1.08,
+    "stop": 1995.9075,
+    "target": 2158.185,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "CWENE.IS",
+    "date": "2026-06-01",
+    "entry": 41.04,
+    "score": 115,
+    "rsi": 65.37,
+    "vol_ratio": 2.56,
+    "stop": 39.7714,
+    "target": 43.5771,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "DSTKF.IS",
+    "date": "2026-06-01",
+    "entry": 2024.0,
+    "score": 93,
+    "rsi": 40.55,
+    "vol_ratio": 2.68,
+    "stop": 1934.5357,
+    "target": 2202.9286,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "GRSEL.IS",
+    "date": "2026-06-01",
+    "entry": 319.0,
+    "score": 80,
+    "rsi": 55.45,
+    "vol_ratio": 1.09,
+    "stop": 313.0195,
+    "target": 330.961,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "TABGD.IS",
+    "date": "2026-06-01",
+    "entry": 272.25,
+    "score": 70,
+    "rsi": 60.47,
+    "vol_ratio": 1.3,
+    "stop": 267.7232,
+    "target": 281.3036,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "YEOTK.IS",
+    "date": "2026-06-01",
+    "entry": 113.0,
+    "score": 70,
+    "rsi": 39.5,
+    "vol_ratio": 1.07,
+    "stop": 108.5857,
+    "target": 121.8286,
     "setup_type": "TREND",
     "status": "open"
   }
