@@ -6489,7 +6489,11 @@
     "stop": 94.82,
     "target": 98.51,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 94.82,
+    "exit_date": "2026-06-01",
+    "result_pct": -1.28,
+    "close_reason": "STOP"
   },
   {
     "symbol": "DOHOL.IS",
@@ -6581,7 +6585,11 @@
     "stop": 23.1021,
     "target": 24.3557,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 23.1021,
+    "exit_date": "2026-06-01",
+    "result_pct": -1.78,
+    "close_reason": "STOP"
   },
   {
     "symbol": "DSTKF.IS",
@@ -6593,7 +6601,11 @@
     "stop": 2016.9286,
     "target": 2281.1429,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 2016.9286,
+    "exit_date": "2026-06-01",
+    "result_pct": -4.18,
+    "close_reason": "STOP"
   },
   {
     "symbol": "IEYHO.IS",
@@ -6605,7 +6617,11 @@
     "stop": 115.8393,
     "target": 119.9214,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 115.8393,
+    "exit_date": "2026-06-01",
+    "result_pct": -1.16,
+    "close_reason": "STOP"
   },
   {
     "symbol": "PASEU.IS",
@@ -6617,7 +6633,11 @@
     "stop": 111.9857,
     "target": 123.4286,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 111.9857,
+    "exit_date": "2026-06-01",
+    "result_pct": -3.29,
+    "close_reason": "STOP"
   },
   {
     "symbol": "RALYH.IS",
@@ -6629,6 +6649,106 @@
     "stop": 241.4607,
     "target": 267.0786,
     "setup_type": "WEAK",
+    "status": "closed",
+    "exit": 241.4607,
+    "exit_date": "2026-06-01",
+    "result_pct": -3.42,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "AKSEN.IS",
+    "date": "2026-06-01",
+    "entry": 80.2,
+    "score": 80,
+    "rsi": 71.43,
+    "vol_ratio": 2.29,
+    "stop": 78.8286,
+    "target": 82.9429,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "BTCIM.IS",
+    "date": "2026-06-01",
+    "entry": 6.38,
+    "score": 85,
+    "rsi": 60.0,
+    "vol_ratio": 1.49,
+    "stop": 6.2557,
+    "target": 6.6286,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "ENERY.IS",
+    "date": "2026-06-01",
+    "entry": 8.92,
+    "score": 105,
+    "rsi": 74.0,
+    "vol_ratio": 4.32,
+    "stop": 8.7904,
+    "target": 9.1793,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "ODAS.IS",
+    "date": "2026-06-01",
+    "entry": 7.57,
+    "score": 80,
+    "rsi": 72.41,
+    "vol_ratio": 1.07,
+    "stop": 7.4093,
+    "target": 7.8914,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "OTKAR.IS",
+    "date": "2026-06-01",
+    "entry": 375.0,
+    "score": 93,
+    "rsi": 75.51,
+    "vol_ratio": 3.1,
+    "stop": 370.4196,
+    "target": 384.1607,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "TAVHL.IS",
+    "date": "2026-06-01",
+    "entry": 259.5,
+    "score": 70,
+    "rsi": 57.43,
+    "vol_ratio": 1.26,
+    "stop": 254.1429,
+    "target": 270.2143,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "TTKOM.IS",
+    "date": "2026-06-01",
+    "entry": 61.4,
+    "score": 70,
+    "rsi": 69.64,
+    "vol_ratio": 2.04,
+    "stop": 60.2696,
+    "target": 63.6607,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "VAKBN.IS",
+    "date": "2026-06-01",
+    "entry": 31.52,
+    "score": 100,
+    "rsi": 67.8,
+    "vol_ratio": 1.66,
+    "stop": 30.8129,
+    "target": 32.9343,
+    "setup_type": "TREND",
     "status": "open"
   }
 ]
