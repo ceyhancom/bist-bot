@@ -7585,15 +7585,15 @@
     "symbol": "TTKOM.IS",
     "date": "2026-06-01",
     "entry": 61.4,
-    "highest_price": 62.85,
+    "highest_price": 63.25,
     "stop": 60.2696,
     "target": 63.6607,
     "trailing_stop": null,
     "score": 70,
     "setup_type": "WEAK",
     "status": "open",
-    "last_price": 62.5,
-    "live_result_pct": 1.79
+    "last_price": 63.05,
+    "live_result_pct": 2.69
   },
   {
     "symbol": "VAKBN.IS",
@@ -7623,9 +7623,15 @@
     "trailing_stop": null,
     "score": 100,
     "setup_type": "PULLBACK",
-    "status": "open",
+    "status": "closed",
     "last_price": 2010.0,
-    "live_result_pct": -1.95
+    "live_result_pct": -1.95,
+    "exit": 1995.9075,
+    "exit_date": "2026-06-02",
+    "result_pct": -2.64,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-06-02T16:37:33.761228+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "CWENE.IS",
@@ -7673,9 +7679,15 @@
     "trailing_stop": null,
     "score": 80,
     "setup_type": "PULLBACK",
-    "status": "open",
+    "status": "closed",
     "last_price": 321.25,
-    "live_result_pct": 0.71
+    "live_result_pct": 0.71,
+    "exit": 313.0195,
+    "exit_date": "2026-06-02",
+    "result_pct": -1.87,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-06-02T16:37:34.084107+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "TABGD.IS",

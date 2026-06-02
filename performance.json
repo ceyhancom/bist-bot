@@ -6789,7 +6789,11 @@
     "stop": 1995.9075,
     "target": 2158.185,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 1995.9075,
+    "exit_date": "2026-06-02",
+    "result_pct": -2.64,
+    "close_reason": "STOP"
   },
   {
     "symbol": "CWENE.IS",
@@ -6833,7 +6837,11 @@
     "stop": 313.0195,
     "target": 330.961,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 313.0195,
+    "exit_date": "2026-06-02",
+    "result_pct": -1.87,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TABGD.IS",
