@@ -6801,7 +6801,11 @@
     "stop": 39.7714,
     "target": 43.5771,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 39.7714,
+    "exit_date": "2026-06-02",
+    "result_pct": -3.09,
+    "close_reason": "STOP"
   },
   {
     "symbol": "DSTKF.IS",
@@ -6813,7 +6817,11 @@
     "stop": 1934.5357,
     "target": 2202.9286,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 1934.5357,
+    "exit_date": "2026-06-02",
+    "result_pct": -4.42,
+    "close_reason": "STOP"
   },
   {
     "symbol": "GRSEL.IS",
@@ -6837,7 +6845,11 @@
     "stop": 267.7232,
     "target": 281.3036,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 267.7232,
+    "exit_date": "2026-06-02",
+    "result_pct": -1.66,
+    "close_reason": "STOP"
   },
   {
     "symbol": "YEOTK.IS",
@@ -6849,6 +6861,10 @@
     "stop": 108.5857,
     "target": 121.8286,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 108.5857,
+    "exit_date": "2026-06-02",
+    "result_pct": -3.91,
+    "close_reason": "STOP"
   }
 ]
