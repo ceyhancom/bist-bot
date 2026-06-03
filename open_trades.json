@@ -5758,8 +5758,8 @@
     "exit_date": "2026-05-12",
     "result_pct": -1.84,
     "close_reason": "STOP",
-    "cooldown_until": "2026-05-12T16:14:48.899008+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "KCAER.IS",
@@ -7708,8 +7708,8 @@
     "exit_date": "2026-06-02",
     "result_pct": -1.66,
     "close_reason": "STOP",
-    "cooldown_until": "2026-06-02T12:53:26.505261+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "YEOTK.IS",
@@ -7733,24 +7733,72 @@
     "symbol": "HEKTS.IS",
     "date": "2026-06-03",
     "entry": 4.41,
-    "highest_price": 4.41,
+    "highest_price": 4.5,
     "stop": 4.2771,
     "target": 4.6757,
     "trailing_stop": null,
     "score": 78,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 4.2771,
+    "exit_date": "2026-06-03",
+    "result_pct": -3.01,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-06-03T19:02:15.475994+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "KLRHO.IS",
     "date": "2026-06-03",
     "entry": 101.4,
-    "highest_price": 101.4,
+    "highest_price": 105.4,
     "stop": 97.875,
     "target": 108.45,
     "trailing_stop": null,
     "score": 90,
     "setup_type": "TREND",
+    "status": "closed",
+    "exit": 97.875,
+    "exit_date": "2026-06-03",
+    "result_pct": -3.48,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-06-03T19:02:15.573240+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "HALKB.IS",
+    "date": "2026-06-03",
+    "entry": 47.32,
+    "highest_price": 47.32,
+    "stop": 44.5187,
+    "target": 52.9226,
+    "trailing_stop": null,
+    "score": 90,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "TABGD.IS",
+    "date": "2026-06-03",
+    "entry": 278.75,
+    "highest_price": 278.75,
+    "stop": 273.8118,
+    "target": 288.6264,
+    "trailing_stop": null,
+    "score": 115,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "TTKOM.IS",
+    "date": "2026-06-03",
+    "entry": 62.9,
+    "highest_price": 62.9,
+    "stop": 62.031,
+    "target": 64.638,
+    "trailing_stop": null,
+    "score": 95,
+    "setup_type": "PULLBACK",
     "status": "open"
   }
 ]

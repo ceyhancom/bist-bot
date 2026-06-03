@@ -6889,7 +6889,11 @@
     "stop": 4.2771,
     "target": 4.6757,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 4.2771,
+    "exit_date": "2026-06-03",
+    "result_pct": -3.01,
+    "close_reason": "STOP"
   },
   {
     "symbol": "KLRHO.IS",
@@ -6901,6 +6905,46 @@
     "stop": 97.875,
     "target": 108.45,
     "setup_type": "TREND",
+    "status": "closed",
+    "exit": 97.875,
+    "exit_date": "2026-06-03",
+    "result_pct": -3.48,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "HALKB.IS",
+    "date": "2026-06-03",
+    "entry": 47.32,
+    "score": 90,
+    "rsi": 55.72,
+    "vol_ratio": 1.02,
+    "stop": 44.5187,
+    "target": 52.9226,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "TABGD.IS",
+    "date": "2026-06-03",
+    "entry": 278.75,
+    "score": 115,
+    "rsi": 54.9,
+    "vol_ratio": 1.64,
+    "stop": 273.8118,
+    "target": 288.6264,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "TTKOM.IS",
+    "date": "2026-06-03",
+    "entry": 62.9,
+    "score": 95,
+    "rsi": 51.52,
+    "vol_ratio": 1.42,
+    "stop": 62.031,
+    "target": 64.638,
+    "setup_type": "PULLBACK",
     "status": "open"
   }
 ]
