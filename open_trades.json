@@ -4912,8 +4912,8 @@
     "exit_date": "2026-05-07",
     "result_pct": -3.31,
     "close_reason": "STOP",
-    "cooldown_until": "2026-05-07T16:03:09.601796+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "MAVI.IS",
@@ -5938,8 +5938,8 @@
     "exit_date": "2026-05-13",
     "result_pct": -5.29,
     "close_reason": "STOP",
-    "cooldown_until": "2026-05-13T12:09:03.338681+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "KRDMD.IS",
@@ -7585,15 +7585,19 @@
     "symbol": "TTKOM.IS",
     "date": "2026-06-01",
     "entry": 61.4,
-    "highest_price": 63.25,
+    "highest_price": 64.5,
     "stop": 60.2696,
     "target": 63.6607,
-    "trailing_stop": null,
+    "trailing_stop": 63.21,
     "score": 70,
     "setup_type": "WEAK",
-    "status": "open",
+    "status": "closed",
     "last_price": 63.05,
-    "live_result_pct": 2.69
+    "live_result_pct": 2.69,
+    "exit": 63.6607,
+    "exit_date": "2026-06-03",
+    "result_pct": 3.68,
+    "close_reason": "HEDEF"
   },
   {
     "symbol": "VAKBN.IS",
@@ -7724,5 +7728,29 @@
     "close_reason": "STOP",
     "cooldown_until": "2026-06-02T12:53:26.620867+03:00",
     "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "HEKTS.IS",
+    "date": "2026-06-03",
+    "entry": 4.41,
+    "highest_price": 4.41,
+    "stop": 4.2771,
+    "target": 4.6757,
+    "trailing_stop": null,
+    "score": 78,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "KLRHO.IS",
+    "date": "2026-06-03",
+    "entry": 101.4,
+    "highest_price": 101.4,
+    "stop": 97.875,
+    "target": 108.45,
+    "trailing_stop": null,
+    "score": 90,
+    "setup_type": "TREND",
+    "status": "open"
   }
 ]
