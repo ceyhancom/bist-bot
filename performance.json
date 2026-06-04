@@ -6985,7 +6985,11 @@
     "stop": 65.5107,
     "target": 69.0786,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 65.5107,
+    "exit_date": "2026-06-04",
+    "result_pct": -1.78,
+    "close_reason": "STOP"
   },
   {
     "symbol": "BRSAN.IS",
@@ -6997,7 +7001,11 @@
     "stop": 539.1605,
     "target": 627.1789,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 539.1605,
+    "exit_date": "2026-06-04",
+    "result_pct": -5.16,
+    "close_reason": "STOP"
   },
   {
     "symbol": "GARAN.IS",
@@ -7009,7 +7017,11 @@
     "stop": 126.3429,
     "target": 131.6143,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 126.3429,
+    "exit_date": "2026-06-04",
+    "result_pct": -1.37,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ISCTR.IS",
@@ -7021,7 +7033,11 @@
     "stop": 13.4547,
     "target": 14.0106,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 13.4547,
+    "exit_date": "2026-06-04",
+    "result_pct": -1.36,
+    "close_reason": "STOP"
   },
   {
     "symbol": "KCAER.IS",
@@ -7033,7 +7049,11 @@
     "stop": 13.695,
     "target": 14.55,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 13.695,
+    "exit_date": "2026-06-04",
+    "result_pct": -2.04,
+    "close_reason": "STOP"
   },
   {
     "symbol": "KLRHO.IS",
@@ -7045,7 +7065,11 @@
     "stop": 102.6429,
     "target": 113.3143,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 102.6429,
+    "exit_date": "2026-06-04",
+    "result_pct": -3.35,
+    "close_reason": "STOP"
   },
   {
     "symbol": "REEDR.IS",
@@ -7057,7 +7081,11 @@
     "stop": 7.2487,
     "target": 7.7927,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 7.2487,
+    "exit_date": "2026-06-04",
+    "result_pct": -2.44,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TABGD.IS",
@@ -7069,7 +7097,11 @@
     "stop": 271.0893,
     "target": 285.0714,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 271.0893,
+    "exit_date": "2026-06-04",
+    "result_pct": -1.69,
+    "close_reason": "STOP"
   },
   {
     "symbol": "THYAO.IS",
@@ -7081,7 +7113,11 @@
     "stop": 297.0515,
     "target": 308.147,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 297.0515,
+    "exit_date": "2026-06-04",
+    "result_pct": -1.23,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TSKB.IS",
@@ -7093,7 +7129,11 @@
     "stop": 11.5657,
     "target": 12.1486,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 11.5657,
+    "exit_date": "2026-06-04",
+    "result_pct": -1.65,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TTKOM.IS",
@@ -7105,7 +7145,11 @@
     "stop": 62.3803,
     "target": 67.6894,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 62.3803,
+    "exit_date": "2026-06-04",
+    "result_pct": -2.76,
+    "close_reason": "STOP"
   },
   {
     "symbol": "YKBNK.IS",
@@ -7116,6 +7160,70 @@
     "vol_ratio": 1.59,
     "stop": 34.5055,
     "target": 36.049,
+    "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 34.5055,
+    "exit_date": "2026-06-04",
+    "result_pct": -1.47,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "AEFES.IS",
+    "date": "2026-06-04",
+    "entry": 20.24,
+    "score": 130,
+    "rsi": 50.95,
+    "vol_ratio": 3.37,
+    "stop": 19.8134,
+    "target": 21.0933,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "EKGYO.IS",
+    "date": "2026-06-04",
+    "entry": 20.3,
+    "score": 120,
+    "rsi": 59.67,
+    "vol_ratio": 1.86,
+    "stop": 19.9304,
+    "target": 21.0393,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "ENERY.IS",
+    "date": "2026-06-04",
+    "entry": 8.9,
+    "score": 88,
+    "rsi": 43.48,
+    "vol_ratio": 1.48,
+    "stop": 8.765,
+    "target": 9.17,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "GRSEL.IS",
+    "date": "2026-06-04",
+    "entry": 319.0,
+    "score": 105,
+    "rsi": 58.59,
+    "vol_ratio": 1.03,
+    "stop": 315.0571,
+    "target": 326.8857,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "TCELL.IS",
+    "date": "2026-06-04",
+    "entry": 107.5,
+    "score": 100,
+    "rsi": 54.26,
+    "vol_ratio": 1.04,
+    "stop": 105.9829,
+    "target": 110.5343,
     "setup_type": "PULLBACK",
     "status": "open"
   }
