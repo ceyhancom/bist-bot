@@ -7488,8 +7488,8 @@
     "exit_date": "2026-06-01",
     "result_pct": -1.71,
     "close_reason": "STOP",
-    "cooldown_until": "2026-06-01T19:28:38.869673+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "BTCIM.IS",
@@ -7769,36 +7769,66 @@
     "symbol": "HALKB.IS",
     "date": "2026-06-03",
     "entry": 47.32,
-    "highest_price": 47.32,
+    "highest_price": 50.25,
     "stop": 44.5187,
     "target": 52.9226,
     "trailing_stop": null,
     "score": 90,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 44.5187,
+    "exit_date": "2026-06-04",
+    "result_pct": -5.92,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-06-04T12:46:11.734269+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "TABGD.IS",
     "date": "2026-06-03",
     "entry": 278.75,
-    "highest_price": 278.75,
+    "highest_price": 281.0,
     "stop": 273.8118,
     "target": 288.6264,
     "trailing_stop": null,
     "score": 115,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 273.8118,
+    "exit_date": "2026-06-04",
+    "result_pct": -1.77,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-06-04T12:46:11.836772+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "TTKOM.IS",
     "date": "2026-06-03",
     "entry": 62.9,
-    "highest_price": 62.9,
+    "highest_price": 64.5,
     "stop": 62.031,
     "target": 64.638,
     "trailing_stop": null,
     "score": 95,
     "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 62.031,
+    "exit_date": "2026-06-04",
+    "result_pct": -1.38,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-06-04T12:46:11.959029+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "AKSEN.IS",
+    "date": "2026-06-04",
+    "entry": 82.85,
+    "highest_price": 82.85,
+    "stop": 80.9107,
+    "target": 86.7286,
+    "trailing_stop": null,
+    "score": 80,
+    "setup_type": "TREND",
     "status": "open"
   }
 ]
