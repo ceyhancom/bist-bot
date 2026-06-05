@@ -4498,8 +4498,8 @@
     "exit_date": "2026-05-06",
     "result_pct": -1.32,
     "close_reason": "STOP",
-    "cooldown_until": "2026-05-06T13:48:41.897768+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "GARAN.IS",
@@ -4930,8 +4930,8 @@
     "exit_date": "2026-05-07",
     "result_pct": -2.08,
     "close_reason": "STOP",
-    "cooldown_until": "2026-05-07T16:03:09.807562+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "ODAS.IS",
@@ -7960,8 +7960,8 @@
     "exit_date": "2026-06-04",
     "result_pct": -2.44,
     "close_reason": "STOP",
-    "cooldown_until": "2026-06-04T19:44:01.279007+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "TABGD.IS",
@@ -7978,8 +7978,8 @@
     "exit_date": "2026-06-04",
     "result_pct": -1.69,
     "close_reason": "STOP",
-    "cooldown_until": "2026-06-04T19:44:01.452801+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "THYAO.IS",
@@ -8057,60 +8057,138 @@
     "symbol": "AEFES.IS",
     "date": "2026-06-04",
     "entry": 20.24,
-    "highest_price": 20.24,
+    "highest_price": 20.6,
     "stop": 19.8134,
     "target": 21.0933,
     "trailing_stop": null,
     "score": 130,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 19.8134,
+    "exit_date": "2026-06-05",
+    "result_pct": -2.11,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-06-05T14:17:37.130662+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "EKGYO.IS",
     "date": "2026-06-04",
     "entry": 20.3,
-    "highest_price": 20.3,
+    "highest_price": 20.4,
     "stop": 19.9304,
     "target": 21.0393,
     "trailing_stop": null,
     "score": 120,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 19.9304,
+    "exit_date": "2026-06-05",
+    "result_pct": -1.82,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-06-05T14:17:37.259485+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "ENERY.IS",
     "date": "2026-06-04",
     "entry": 8.9,
-    "highest_price": 8.9,
+    "highest_price": 9.04,
     "stop": 8.765,
     "target": 9.17,
     "trailing_stop": null,
     "score": 88,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 8.765,
+    "exit_date": "2026-06-05",
+    "result_pct": -1.52,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-06-05T14:17:37.374977+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "GRSEL.IS",
     "date": "2026-06-04",
     "entry": 319.0,
-    "highest_price": 319.0,
+    "highest_price": 329.75,
     "stop": 315.0571,
     "target": 326.8857,
     "trailing_stop": null,
     "score": 105,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 315.0571,
+    "exit_date": "2026-06-05",
+    "result_pct": -1.24,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-06-05T14:17:37.488351+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "TCELL.IS",
     "date": "2026-06-04",
     "entry": 107.5,
-    "highest_price": 107.5,
+    "highest_price": 108.9,
     "stop": 105.9829,
     "target": 110.5343,
     "trailing_stop": null,
     "score": 100,
     "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 105.9829,
+    "exit_date": "2026-06-05",
+    "result_pct": -1.41,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-06-05T14:17:37.622940+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "EGEEN.IS",
+    "date": "2026-06-05",
+    "entry": 5922.5,
+    "highest_price": 5922.5,
+    "stop": 5788.5714,
+    "target": 6190.3571,
+    "trailing_stop": null,
+    "score": 105,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "MAVI.IS",
+    "date": "2026-06-05",
+    "entry": 43.84,
+    "highest_price": 43.84,
+    "stop": 43.1243,
+    "target": 45.2714,
+    "trailing_stop": null,
+    "score": 100,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "REEDR.IS",
+    "date": "2026-06-05",
+    "entry": 7.47,
+    "highest_price": 7.47,
+    "stop": 7.2454,
+    "target": 7.9191,
+    "trailing_stop": null,
+    "score": 85,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "TABGD.IS",
+    "date": "2026-06-05",
+    "entry": 290.0,
+    "highest_price": 290.0,
+    "stop": 283.4375,
+    "target": 303.125,
+    "trailing_stop": null,
+    "score": 135,
+    "setup_type": "BREAKOUT",
     "status": "open"
   }
 ]

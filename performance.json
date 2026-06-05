@@ -7177,7 +7177,11 @@
     "stop": 19.8134,
     "target": 21.0933,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 19.8134,
+    "exit_date": "2026-06-05",
+    "result_pct": -2.11,
+    "close_reason": "STOP"
   },
   {
     "symbol": "EKGYO.IS",
@@ -7189,7 +7193,11 @@
     "stop": 19.9304,
     "target": 21.0393,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 19.9304,
+    "exit_date": "2026-06-05",
+    "result_pct": -1.82,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ENERY.IS",
@@ -7201,7 +7209,11 @@
     "stop": 8.765,
     "target": 9.17,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 8.765,
+    "exit_date": "2026-06-05",
+    "result_pct": -1.52,
+    "close_reason": "STOP"
   },
   {
     "symbol": "GRSEL.IS",
@@ -7213,7 +7225,11 @@
     "stop": 315.0571,
     "target": 326.8857,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 315.0571,
+    "exit_date": "2026-06-05",
+    "result_pct": -1.24,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TCELL.IS",
@@ -7225,6 +7241,58 @@
     "stop": 105.9829,
     "target": 110.5343,
     "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 105.9829,
+    "exit_date": "2026-06-05",
+    "result_pct": -1.41,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "EGEEN.IS",
+    "date": "2026-06-05",
+    "entry": 5922.5,
+    "score": 105,
+    "rsi": 67.34,
+    "vol_ratio": 2.55,
+    "stop": 5788.5714,
+    "target": 6190.3571,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "MAVI.IS",
+    "date": "2026-06-05",
+    "entry": 43.84,
+    "score": 100,
+    "rsi": 71.71,
+    "vol_ratio": 1.88,
+    "stop": 43.1243,
+    "target": 45.2714,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "REEDR.IS",
+    "date": "2026-06-05",
+    "entry": 7.47,
+    "score": 85,
+    "rsi": 58.01,
+    "vol_ratio": 1.37,
+    "stop": 7.2454,
+    "target": 7.9191,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "TABGD.IS",
+    "date": "2026-06-05",
+    "entry": 290.0,
+    "score": 135,
+    "rsi": 65.12,
+    "vol_ratio": 2.19,
+    "stop": 283.4375,
+    "target": 303.125,
+    "setup_type": "BREAKOUT",
     "status": "open"
   }
 ]
