@@ -7257,7 +7257,11 @@
     "stop": 5788.5714,
     "target": 6190.3571,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 5788.5714,
+    "exit_date": "2026-06-05",
+    "result_pct": -2.26,
+    "close_reason": "STOP"
   },
   {
     "symbol": "MAVI.IS",
@@ -7269,7 +7273,11 @@
     "stop": 43.1243,
     "target": 45.2714,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 43.1243,
+    "exit_date": "2026-06-05",
+    "result_pct": -1.63,
+    "close_reason": "STOP"
   },
   {
     "symbol": "REEDR.IS",
@@ -7281,7 +7289,11 @@
     "stop": 7.2454,
     "target": 7.9191,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 7.2454,
+    "exit_date": "2026-06-05",
+    "result_pct": -3.01,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TABGD.IS",
@@ -7293,6 +7305,94 @@
     "stop": 283.4375,
     "target": 303.125,
     "setup_type": "BREAKOUT",
+    "status": "closed",
+    "exit": 283.4375,
+    "exit_date": "2026-06-05",
+    "result_pct": -2.26,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "AEFES.IS",
+    "date": "2026-06-05",
+    "entry": 20.12,
+    "score": 80,
+    "rsi": 59.87,
+    "vol_ratio": 1.09,
+    "stop": 19.7883,
+    "target": 20.7834,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "AKSA.IS",
+    "date": "2026-06-05",
+    "entry": 10.81,
+    "score": 75,
+    "rsi": 62.63,
+    "vol_ratio": 1.07,
+    "stop": 10.6377,
+    "target": 11.1546,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "CWENE.IS",
+    "date": "2026-06-05",
+    "entry": 40.86,
+    "score": 115,
+    "rsi": 60.51,
+    "vol_ratio": 1.62,
+    "stop": 40.0251,
+    "target": 42.5297,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "EUPWR.IS",
+    "date": "2026-06-05",
+    "entry": 91.15,
+    "score": 90,
+    "rsi": 70.53,
+    "vol_ratio": 1.46,
+    "stop": 88.0589,
+    "target": 97.3321,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "GESAN.IS",
+    "date": "2026-06-05",
+    "entry": 82.8,
+    "score": 88,
+    "rsi": 48.68,
+    "vol_ratio": 1.16,
+    "stop": 78.3294,
+    "target": 91.7412,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "KCAER.IS",
+    "date": "2026-06-05",
+    "entry": 14.0,
+    "score": 105,
+    "rsi": 69.05,
+    "vol_ratio": 2.16,
+    "stop": 13.7225,
+    "target": 14.555,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "ODAS.IS",
+    "date": "2026-06-05",
+    "entry": 7.34,
+    "score": 80,
+    "rsi": 60.78,
+    "vol_ratio": 1.95,
+    "stop": 7.1868,
+    "target": 7.6464,
+    "setup_type": "WEAK",
     "status": "open"
   }
 ]
