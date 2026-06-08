@@ -5452,8 +5452,8 @@
     "exit_date": "2026-05-12",
     "result_pct": -1.08,
     "close_reason": "STOP",
-    "cooldown_until": "2026-05-12T11:50:12.807968+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "CWENE.IS",
@@ -7452,8 +7452,8 @@
     "exit_date": "2026-06-01",
     "result_pct": -3.29,
     "close_reason": "STOP",
-    "cooldown_until": "2026-06-01T13:25:49.656484+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "RALYH.IS",
@@ -7996,8 +7996,8 @@
     "exit_date": "2026-06-04",
     "result_pct": -1.23,
     "close_reason": "STOP",
-    "cooldown_until": "2026-06-04T19:44:01.591667+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "TSKB.IS",
@@ -8248,8 +8248,8 @@
     "exit_date": "2026-06-08",
     "result_pct": -1.59,
     "close_reason": "STOP",
-    "cooldown_until": "2026-06-08T13:41:02.241827+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "CWENE.IS",
@@ -8340,5 +8340,53 @@
     "close_reason": "STOP",
     "cooldown_until": "2026-06-08T13:41:02.809158+03:00",
     "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "AKSA.IS",
+    "date": "2026-06-08",
+    "entry": 11.08,
+    "highest_price": 11.08,
+    "stop": 10.8743,
+    "target": 11.4914,
+    "trailing_stop": null,
+    "score": 110,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "BALSU.IS",
+    "date": "2026-06-08",
+    "entry": 14.11,
+    "highest_price": 14.11,
+    "stop": 13.8316,
+    "target": 14.6668,
+    "trailing_stop": null,
+    "score": 100,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "PASEU.IS",
+    "date": "2026-06-08",
+    "entry": 108.2,
+    "highest_price": 108.2,
+    "stop": 106.1857,
+    "target": 112.2286,
+    "trailing_stop": null,
+    "score": 70,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "THYAO.IS",
+    "date": "2026-06-08",
+    "entry": 298.0,
+    "highest_price": 298.0,
+    "stop": 295.6,
+    "target": 302.8,
+    "trailing_stop": null,
+    "score": 90,
+    "setup_type": "PULLBACK",
+    "status": "open"
   }
 ]

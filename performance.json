@@ -7422,5 +7422,53 @@
     "exit_date": "2026-06-08",
     "result_pct": -2.09,
     "close_reason": "STOP"
+  },
+  {
+    "symbol": "AKSA.IS",
+    "date": "2026-06-08",
+    "entry": 11.08,
+    "score": 110,
+    "rsi": 57.66,
+    "vol_ratio": 2.4,
+    "stop": 10.8743,
+    "target": 11.4914,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "BALSU.IS",
+    "date": "2026-06-08",
+    "entry": 14.11,
+    "score": 100,
+    "rsi": 58.42,
+    "vol_ratio": 1.14,
+    "stop": 13.8316,
+    "target": 14.6668,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "PASEU.IS",
+    "date": "2026-06-08",
+    "entry": 108.2,
+    "score": 70,
+    "rsi": 63.73,
+    "vol_ratio": 1.41,
+    "stop": 106.1857,
+    "target": 112.2286,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "THYAO.IS",
+    "date": "2026-06-08",
+    "entry": 298.0,
+    "score": 90,
+    "rsi": 50.91,
+    "vol_ratio": 1.17,
+    "stop": 295.6,
+    "target": 302.8,
+    "setup_type": "PULLBACK",
+    "status": "open"
   }
 ]
