@@ -7433,7 +7433,11 @@
     "stop": 10.8743,
     "target": 11.4914,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 10.8743,
+    "exit_date": "2026-06-09",
+    "result_pct": -1.86,
+    "close_reason": "STOP"
   },
   {
     "symbol": "BALSU.IS",
@@ -7445,7 +7449,11 @@
     "stop": 13.8316,
     "target": 14.6668,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 13.8316,
+    "exit_date": "2026-06-09",
+    "result_pct": -1.97,
+    "close_reason": "STOP"
   },
   {
     "symbol": "PASEU.IS",
@@ -7457,7 +7465,11 @@
     "stop": 106.1857,
     "target": 112.2286,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 106.1857,
+    "exit_date": "2026-06-09",
+    "result_pct": -1.86,
+    "close_reason": "STOP"
   },
   {
     "symbol": "THYAO.IS",
@@ -7468,6 +7480,154 @@
     "vol_ratio": 1.17,
     "stop": 295.6,
     "target": 302.8,
+    "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 295.6,
+    "exit_date": "2026-06-09",
+    "result_pct": -0.81,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "AEFES.IS",
+    "date": "2026-06-09",
+    "entry": 20.44,
+    "score": 95,
+    "rsi": 56.1,
+    "vol_ratio": 1.13,
+    "stop": 20.0383,
+    "target": 21.2433,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "ALARK.IS",
+    "date": "2026-06-09",
+    "entry": 102.9,
+    "score": 135,
+    "rsi": 65.2,
+    "vol_ratio": 2.02,
+    "stop": 101.1536,
+    "target": 106.3929,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "GARAN.IS",
+    "date": "2026-06-09",
+    "entry": 129.8,
+    "score": 70,
+    "rsi": 70.79,
+    "vol_ratio": 1.04,
+    "stop": 127.7,
+    "target": 134.0,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "HEKTS.IS",
+    "date": "2026-06-09",
+    "entry": 4.3,
+    "score": 115,
+    "rsi": 50.77,
+    "vol_ratio": 1.5,
+    "stop": 4.1894,
+    "target": 4.5211,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "KCAER.IS",
+    "date": "2026-06-09",
+    "entry": 14.98,
+    "score": 78,
+    "rsi": 78.57,
+    "vol_ratio": 1.44,
+    "stop": 14.5032,
+    "target": 15.9336,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "ODAS.IS",
+    "date": "2026-06-09",
+    "entry": 7.46,
+    "score": 95,
+    "rsi": 59.77,
+    "vol_ratio": 1.54,
+    "stop": 7.2937,
+    "target": 7.7926,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "RALYH.IS",
+    "date": "2026-06-09",
+    "entry": 242.4,
+    "score": 100,
+    "rsi": 63.33,
+    "vol_ratio": 2.53,
+    "stop": 230.7107,
+    "target": 265.7786,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "REEDR.IS",
+    "date": "2026-06-09",
+    "entry": 7.38,
+    "score": 115,
+    "rsi": 53.33,
+    "vol_ratio": 2.42,
+    "stop": 7.2017,
+    "target": 7.7366,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "TABGD.IS",
+    "date": "2026-06-09",
+    "entry": 289.75,
+    "score": 95,
+    "rsi": 53.85,
+    "vol_ratio": 1.02,
+    "stop": 281.273,
+    "target": 306.704,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "TCELL.IS",
+    "date": "2026-06-09",
+    "entry": 108.7,
+    "score": 88,
+    "rsi": 75.86,
+    "vol_ratio": 1.61,
+    "stop": 107.1357,
+    "target": 111.8286,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "TOASO.IS",
+    "date": "2026-06-09",
+    "entry": 295.0,
+    "score": 85,
+    "rsi": 51.02,
+    "vol_ratio": 2.54,
+    "stop": 289.4821,
+    "target": 306.0357,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "VAKBN.IS",
+    "date": "2026-06-09",
+    "entry": 32.74,
+    "score": 95,
+    "rsi": 63.38,
+    "vol_ratio": 1.0,
+    "stop": 32.2508,
+    "target": 33.7185,
     "setup_type": "PULLBACK",
     "status": "open"
   }
