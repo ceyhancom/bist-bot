@@ -4426,8 +4426,8 @@
     "exit_date": "2026-05-06",
     "result_pct": -1.58,
     "close_reason": "STOP",
-    "cooldown_until": "2026-05-06T13:48:41.421185+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "BRSAN.IS",
@@ -7434,8 +7434,8 @@
     "exit_date": "2026-06-01",
     "result_pct": -1.16,
     "close_reason": "STOP",
-    "cooldown_until": "2026-06-01T13:25:49.564137+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "PASEU.IS",
@@ -8633,12 +8633,42 @@
     "symbol": "TUREX.IS",
     "date": "2026-06-10",
     "entry": 8.34,
-    "highest_price": 8.34,
+    "highest_price": 9.9,
     "stop": 8.2114,
     "target": 8.5971,
     "trailing_stop": null,
     "score": 85,
     "setup_type": "WEAK",
+    "status": "closed",
+    "exit": 8.2114,
+    "exit_date": "2026-06-10",
+    "result_pct": -1.54,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-06-10T16:16:30.153697+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "ASELS.IS",
+    "date": "2026-06-10",
+    "entry": 374.0,
+    "highest_price": 374.0,
+    "stop": 367.4643,
+    "target": 387.0714,
+    "trailing_stop": null,
+    "score": 80,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "IEYHO.IS",
+    "date": "2026-06-10",
+    "entry": 122.8,
+    "highest_price": 122.8,
+    "stop": 121.6536,
+    "target": 125.0929,
+    "trailing_stop": null,
+    "score": 78,
+    "setup_type": "TREND",
     "status": "open"
   }
 ]
