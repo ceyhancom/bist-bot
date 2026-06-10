@@ -4768,8 +4768,8 @@
     "exit_date": "2026-05-06",
     "result_pct": -2.48,
     "close_reason": "STOP",
-    "cooldown_until": "2026-05-06T13:48:43.742362+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "YEOTK.IS",
@@ -8628,5 +8628,17 @@
     "close_reason": "STOP",
     "cooldown_until": "2026-06-09T15:30:57.670102+03:00",
     "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "TUREX.IS",
+    "date": "2026-06-10",
+    "entry": 8.34,
+    "highest_price": 8.34,
+    "stop": 8.2114,
+    "target": 8.5971,
+    "trailing_stop": null,
+    "score": 85,
+    "setup_type": "WEAK",
+    "status": "open"
   }
 ]
