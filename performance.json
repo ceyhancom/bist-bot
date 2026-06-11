@@ -7705,7 +7705,11 @@
     "stop": 367.4643,
     "target": 387.0714,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 367.4643,
+    "exit_date": "2026-06-11",
+    "result_pct": -1.75,
+    "close_reason": "STOP"
   },
   {
     "symbol": "IEYHO.IS",
@@ -7716,6 +7720,22 @@
     "vol_ratio": 1.33,
     "stop": 121.6536,
     "target": 125.0929,
+    "setup_type": "TREND",
+    "status": "closed",
+    "exit": 121.6536,
+    "exit_date": "2026-06-11",
+    "result_pct": -0.93,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "PASEU.IS",
+    "date": "2026-06-11",
+    "entry": 115.5,
+    "score": 90,
+    "rsi": 68.29,
+    "vol_ratio": 2.01,
+    "stop": 112.6071,
+    "target": 121.2857,
     "setup_type": "TREND",
     "status": "open"
   }
