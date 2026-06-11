@@ -7737,6 +7737,34 @@
     "stop": 112.6071,
     "target": 121.2857,
     "setup_type": "TREND",
+    "status": "closed",
+    "exit": 112.6071,
+    "exit_date": "2026-06-11",
+    "result_pct": -2.5,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "HEKTS.IS",
+    "date": "2026-06-11",
+    "entry": 4.02,
+    "score": 70,
+    "rsi": 60.64,
+    "vol_ratio": 1.32,
+    "stop": 3.8421,
+    "target": 4.3757,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "IEYHO.IS",
+    "date": "2026-06-11",
+    "entry": 124.0,
+    "score": 105,
+    "rsi": 62.79,
+    "vol_ratio": 1.15,
+    "stop": 120.239,
+    "target": 131.5219,
+    "setup_type": "PULLBACK",
     "status": "open"
   }
 ]

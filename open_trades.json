@@ -8482,8 +8482,8 @@
     "exit_date": "2026-06-09",
     "result_pct": -2.57,
     "close_reason": "STOP",
-    "cooldown_until": "2026-06-09T15:30:55.247282+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "KCAER.IS",
@@ -8680,19 +8680,49 @@
     "exit_date": "2026-06-11",
     "result_pct": -0.93,
     "close_reason": "STOP",
-    "cooldown_until": "2026-06-11T14:57:11.407988+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "PASEU.IS",
     "date": "2026-06-11",
     "entry": 115.5,
-    "highest_price": 115.5,
+    "highest_price": 119.0,
     "stop": 112.6071,
     "target": 121.2857,
     "trailing_stop": null,
     "score": 90,
     "setup_type": "TREND",
+    "status": "closed",
+    "exit": 112.6071,
+    "exit_date": "2026-06-11",
+    "result_pct": -2.5,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-06-11T18:40:35.457259+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "HEKTS.IS",
+    "date": "2026-06-11",
+    "entry": 4.02,
+    "highest_price": 4.02,
+    "stop": 3.8421,
+    "target": 4.3757,
+    "trailing_stop": null,
+    "score": 70,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "IEYHO.IS",
+    "date": "2026-06-11",
+    "entry": 124.0,
+    "highest_price": 124.0,
+    "stop": 120.239,
+    "target": 131.5219,
+    "trailing_stop": null,
+    "score": 105,
+    "setup_type": "PULLBACK",
     "status": "open"
   }
 ]
