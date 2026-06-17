@@ -7834,8 +7834,8 @@
     "exit_date": "2026-06-04",
     "result_pct": -2.34,
     "close_reason": "STOP",
-    "cooldown_until": "2026-06-04T16:04:34.465664+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "AKBNK.IS",
@@ -8770,8 +8770,8 @@
     "exit_date": "2026-06-12",
     "result_pct": -2.41,
     "close_reason": "STOP",
-    "cooldown_until": "2026-06-12T16:20:32.970904+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "ANSGR.IS",
@@ -10768,8 +10768,8 @@
     "exit_date": "2026-06-16",
     "result_pct": -3.97,
     "close_reason": "STOP",
-    "cooldown_until": "2026-06-16T16:18:18.680839+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "ISCTR.IS",
@@ -10786,8 +10786,8 @@
     "exit_date": "2026-06-16",
     "result_pct": -1.88,
     "close_reason": "STOP",
-    "cooldown_until": "2026-06-16T16:18:18.889724+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "KCHOL.IS",
@@ -11074,8 +11074,8 @@
     "exit_date": "2026-06-16",
     "result_pct": -3.89,
     "close_reason": "STOP",
-    "cooldown_until": "2026-06-16T16:18:22.365914+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "YKBNK.IS",
@@ -11092,8 +11092,8 @@
     "exit_date": "2026-06-16",
     "result_pct": -2.5,
     "close_reason": "STOP",
-    "cooldown_until": "2026-06-16T16:18:22.570619+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "BALSU.IS",
@@ -11153,23 +11153,107 @@
     "symbol": "CANTE.IS",
     "date": "2026-06-17",
     "entry": 1.5,
-    "highest_price": 1.5,
+    "highest_price": 1.53,
     "stop": 1.4754,
     "target": 1.5493,
     "trailing_stop": null,
     "score": 85,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 1.4754,
+    "exit_date": "2026-06-17",
+    "result_pct": -1.64,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-06-17T17:49:38.970928+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "KTLEV.IS",
     "date": "2026-06-17",
     "entry": 175.0,
-    "highest_price": 175.0,
+    "highest_price": 178.2,
     "stop": 167.5516,
     "target": 189.8967,
     "trailing_stop": null,
     "score": 115,
+    "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 167.5516,
+    "exit_date": "2026-06-17",
+    "result_pct": -4.26,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-06-17T17:49:39.156481+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "AKBNK.IS",
+    "date": "2026-06-17",
+    "entry": 78.35,
+    "highest_price": 78.35,
+    "stop": 77.1768,
+    "target": 80.6964,
+    "trailing_stop": null,
+    "score": 135,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "AKSEN.IS",
+    "date": "2026-06-17",
+    "entry": 82.7,
+    "highest_price": 82.7,
+    "stop": 80.3363,
+    "target": 87.4273,
+    "trailing_stop": null,
+    "score": 113,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "HALKB.IS",
+    "date": "2026-06-17",
+    "entry": 51.55,
+    "highest_price": 51.55,
+    "stop": 50.1282,
+    "target": 54.3936,
+    "trailing_stop": null,
+    "score": 105,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "ISCTR.IS",
+    "date": "2026-06-17",
+    "entry": 15.02,
+    "highest_price": 15.02,
+    "stop": 14.5833,
+    "target": 15.8934,
+    "trailing_stop": null,
+    "score": 105,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "VAKBN.IS",
+    "date": "2026-06-17",
+    "entry": 34.64,
+    "highest_price": 34.64,
+    "stop": 33.5447,
+    "target": 36.8306,
+    "trailing_stop": null,
+    "score": 120,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "YKBNK.IS",
+    "date": "2026-06-17",
+    "entry": 40.92,
+    "highest_price": 40.92,
+    "stop": 38.8186,
+    "target": 45.1228,
+    "trailing_stop": null,
+    "score": 95,
     "setup_type": "PULLBACK",
     "status": "open"
   }

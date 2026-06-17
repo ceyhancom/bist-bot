@@ -9929,7 +9929,11 @@
     "stop": 1.4754,
     "target": 1.5493,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 1.4754,
+    "exit_date": "2026-06-17",
+    "result_pct": -1.64,
+    "close_reason": "STOP"
   },
   {
     "symbol": "KTLEV.IS",
@@ -9940,6 +9944,82 @@
     "vol_ratio": 1.32,
     "stop": 167.5516,
     "target": 189.8967,
+    "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 167.5516,
+    "exit_date": "2026-06-17",
+    "result_pct": -4.26,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "AKBNK.IS",
+    "date": "2026-06-17",
+    "entry": 78.35,
+    "score": 135,
+    "rsi": 58.4,
+    "vol_ratio": 1.61,
+    "stop": 77.1768,
+    "target": 80.6964,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "AKSEN.IS",
+    "date": "2026-06-17",
+    "entry": 82.7,
+    "score": 113,
+    "rsi": 50.0,
+    "vol_ratio": 3.81,
+    "stop": 80.3363,
+    "target": 87.4273,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "HALKB.IS",
+    "date": "2026-06-17",
+    "entry": 51.55,
+    "score": 105,
+    "rsi": 66.83,
+    "vol_ratio": 4.48,
+    "stop": 50.1282,
+    "target": 54.3936,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "ISCTR.IS",
+    "date": "2026-06-17",
+    "entry": 15.02,
+    "score": 105,
+    "rsi": 53.73,
+    "vol_ratio": 1.2,
+    "stop": 14.5833,
+    "target": 15.8934,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "VAKBN.IS",
+    "date": "2026-06-17",
+    "entry": 34.64,
+    "score": 120,
+    "rsi": 55.81,
+    "vol_ratio": 4.48,
+    "stop": 33.5447,
+    "target": 36.8306,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "YKBNK.IS",
+    "date": "2026-06-17",
+    "entry": 40.92,
+    "score": 95,
+    "rsi": 56.12,
+    "vol_ratio": 1.1,
+    "stop": 38.8186,
+    "target": 45.1228,
     "setup_type": "PULLBACK",
     "status": "open"
   }
