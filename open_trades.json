@@ -9598,8 +9598,8 @@
     "exit_date": "2026-06-15",
     "result_pct": -2.1,
     "close_reason": "STOP",
-    "cooldown_until": "2026-06-15T17:26:18.783248+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "CCOLA.IS",
@@ -10840,8 +10840,8 @@
     "exit_date": "2026-06-16",
     "result_pct": -2.72,
     "close_reason": "STOP",
-    "cooldown_until": "2026-06-16T16:18:19.506091+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "MGROS.IS",
@@ -11099,35 +11099,77 @@
     "symbol": "BALSU.IS",
     "date": "2026-06-16",
     "entry": 14.23,
-    "highest_price": 14.23,
+    "highest_price": 14.48,
     "stop": 13.9868,
     "target": 14.7164,
     "trailing_stop": null,
     "score": 70,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 13.9868,
+    "exit_date": "2026-06-17",
+    "result_pct": -1.71,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-06-17T13:59:45.935266+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "EREGL.IS",
     "date": "2026-06-16",
     "entry": 40.4,
-    "highest_price": 40.4,
+    "highest_price": 40.84,
     "stop": 39.6286,
     "target": 41.9429,
     "trailing_stop": null,
     "score": 105,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 39.6286,
+    "exit_date": "2026-06-17",
+    "result_pct": -1.91,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-06-17T13:59:46.278352+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "HEKTS.IS",
     "date": "2026-06-16",
     "entry": 4.01,
-    "highest_price": 4.01,
+    "highest_price": 4.12,
     "stop": 3.9466,
     "target": 4.1369,
     "trailing_stop": null,
     "score": 83,
+    "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 3.9466,
+    "exit_date": "2026-06-17",
+    "result_pct": -1.58,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-06-17T13:59:46.407808+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "CANTE.IS",
+    "date": "2026-06-17",
+    "entry": 1.5,
+    "highest_price": 1.5,
+    "stop": 1.4754,
+    "target": 1.5493,
+    "trailing_stop": null,
+    "score": 85,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "KTLEV.IS",
+    "date": "2026-06-17",
+    "entry": 175.0,
+    "highest_price": 175.0,
+    "stop": 167.5516,
+    "target": 189.8967,
+    "trailing_stop": null,
+    "score": 115,
     "setup_type": "PULLBACK",
     "status": "open"
   }

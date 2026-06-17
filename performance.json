@@ -9881,7 +9881,11 @@
     "stop": 13.9868,
     "target": 14.7164,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 13.9868,
+    "exit_date": "2026-06-17",
+    "result_pct": -1.71,
+    "close_reason": "STOP"
   },
   {
     "symbol": "EREGL.IS",
@@ -9893,7 +9897,11 @@
     "stop": 39.6286,
     "target": 41.9429,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 39.6286,
+    "exit_date": "2026-06-17",
+    "result_pct": -1.91,
+    "close_reason": "STOP"
   },
   {
     "symbol": "HEKTS.IS",
@@ -9904,6 +9912,34 @@
     "vol_ratio": 1.06,
     "stop": 3.9466,
     "target": 4.1369,
+    "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 3.9466,
+    "exit_date": "2026-06-17",
+    "result_pct": -1.58,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "CANTE.IS",
+    "date": "2026-06-17",
+    "entry": 1.5,
+    "score": 85,
+    "rsi": 55.56,
+    "vol_ratio": 4.25,
+    "stop": 1.4754,
+    "target": 1.5493,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "KTLEV.IS",
+    "date": "2026-06-17",
+    "entry": 175.0,
+    "score": 115,
+    "rsi": 61.84,
+    "vol_ratio": 1.32,
+    "stop": 167.5516,
+    "target": 189.8967,
     "setup_type": "PULLBACK",
     "status": "open"
   }
