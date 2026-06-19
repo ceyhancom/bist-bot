@@ -10153,7 +10153,11 @@
     "stop": 80.0482,
     "target": 83.9536,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 80.0482,
+    "exit_date": "2026-06-19",
+    "result_pct": -1.6,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ANSGR.IS",
@@ -10165,7 +10169,11 @@
     "stop": 28.0475,
     "target": 29.2849,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 28.0475,
+    "exit_date": "2026-06-19",
+    "result_pct": -1.45,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ASELS.IS",
@@ -10177,7 +10185,11 @@
     "stop": 396.0446,
     "target": 415.4107,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 396.0446,
+    "exit_date": "2026-06-19",
+    "result_pct": -1.6,
+    "close_reason": "STOP"
   },
   {
     "symbol": "CANTE.IS",
@@ -10189,7 +10201,11 @@
     "stop": 1.4743,
     "target": 1.5514,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 1.4743,
+    "exit_date": "2026-06-19",
+    "result_pct": -1.71,
+    "close_reason": "STOP"
   },
   {
     "symbol": "CIMSA.IS",
@@ -10201,7 +10217,11 @@
     "stop": 50.3846,
     "target": 51.7809,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 50.3846,
+    "exit_date": "2026-06-19",
+    "result_pct": -0.92,
+    "close_reason": "STOP"
   },
   {
     "symbol": "DOHOL.IS",
@@ -10213,7 +10233,11 @@
     "stop": 22.1697,
     "target": 22.9206,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 22.1697,
+    "exit_date": "2026-06-19",
+    "result_pct": -1.12,
+    "close_reason": "STOP"
   },
   {
     "symbol": "HEKTS.IS",
@@ -10225,7 +10249,11 @@
     "stop": 3.9771,
     "target": 4.2857,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 3.9771,
+    "exit_date": "2026-06-19",
+    "result_pct": -2.52,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ISMEN.IS",
@@ -10237,7 +10265,11 @@
     "stop": 37.2312,
     "target": 39.1177,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 37.2312,
+    "exit_date": "2026-06-19",
+    "result_pct": -1.66,
+    "close_reason": "STOP"
   },
   {
     "symbol": "KLRHO.IS",
@@ -10249,7 +10281,11 @@
     "stop": 93.6482,
     "target": 99.3536,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 93.6482,
+    "exit_date": "2026-06-19",
+    "result_pct": -1.99,
+    "close_reason": "STOP"
   },
   {
     "symbol": "PETKM.IS",
@@ -10261,7 +10297,11 @@
     "stop": 19.9819,
     "target": 21.1161,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 19.9819,
+    "exit_date": "2026-06-19",
+    "result_pct": -1.86,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TCELL.IS",
@@ -10273,7 +10313,11 @@
     "stop": 112.3207,
     "target": 120.0585,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 112.3207,
+    "exit_date": "2026-06-19",
+    "result_pct": -2.24,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TOASO.IS",
@@ -10285,7 +10329,11 @@
     "stop": 317.4636,
     "target": 355.8228,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 317.4636,
+    "exit_date": "2026-06-19",
+    "result_pct": -3.87,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TSKB.IS",
@@ -10297,7 +10345,11 @@
     "stop": 12.3239,
     "target": 12.9121,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 12.3239,
+    "exit_date": "2026-06-19",
+    "result_pct": -1.57,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ULKER.IS",
@@ -10309,7 +10361,11 @@
     "stop": 115.375,
     "target": 117.85,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 115.375,
+    "exit_date": "2026-06-19",
+    "result_pct": -0.71,
+    "close_reason": "STOP"
   },
   {
     "symbol": "YKBNK.IS",
@@ -10321,6 +10377,10 @@
     "stop": 41.8521,
     "target": 44.2757,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 41.8521,
+    "exit_date": "2026-06-19",
+    "result_pct": -1.89,
+    "close_reason": "STOP"
   }
 ]
