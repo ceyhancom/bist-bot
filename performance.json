@@ -11097,7 +11097,11 @@
     "stop": 303.5,
     "target": 321.5,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 303.5,
+    "exit_date": "2026-06-23",
+    "result_pct": -1.94,
+    "close_reason": "STOP"
   },
   {
     "symbol": "HEKTS.IS",
@@ -11109,7 +11113,11 @@
     "stop": 3.9771,
     "target": 4.2857,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 3.9771,
+    "exit_date": "2026-06-23",
+    "result_pct": -2.52,
+    "close_reason": "STOP"
   },
   {
     "symbol": "MGROS.IS",
@@ -11121,7 +11129,11 @@
     "stop": 679.25,
     "target": 699.5,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 679.25,
+    "exit_date": "2026-06-23",
+    "result_pct": -0.98,
+    "close_reason": "STOP"
   },
   {
     "symbol": "PETKM.IS",
@@ -11133,6 +11145,46 @@
     "stop": 19.988,
     "target": 20.744,
     "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 19.988,
+    "exit_date": "2026-06-23",
+    "result_pct": -1.25,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "KLRHO.IS",
+    "date": "2026-06-23",
+    "entry": 95.4,
+    "score": 85,
+    "rsi": 57.84,
+    "vol_ratio": 3.3,
+    "stop": 91.8054,
+    "target": 102.5893,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "SAHOL.IS",
+    "date": "2026-06-23",
+    "entry": 101.6,
+    "score": 105,
+    "rsi": 53.57,
+    "vol_ratio": 1.09,
+    "stop": 100.3498,
+    "target": 104.1004,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "SOKM.IS",
+    "date": "2026-06-23",
+    "entry": 48.88,
+    "score": 70,
+    "rsi": 56.43,
+    "vol_ratio": 1.39,
+    "stop": 48.37,
+    "target": 49.9,
+    "setup_type": "WEAK",
     "status": "open"
   }
 ]
