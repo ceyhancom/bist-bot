@@ -9796,8 +9796,8 @@
     "exit_date": "2026-06-15",
     "result_pct": -2.29,
     "close_reason": "STOP",
-    "cooldown_until": "2026-06-15T17:26:20.446351+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "GUBRF.IS",
@@ -10858,8 +10858,8 @@
     "exit_date": "2026-06-16",
     "result_pct": -1.35,
     "close_reason": "STOP",
-    "cooldown_until": "2026-06-16T16:18:19.719602+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "OYAKC.IS",
@@ -11578,8 +11578,8 @@
     "exit_date": "2026-06-19",
     "result_pct": -1.86,
     "close_reason": "STOP",
-    "cooldown_until": "2026-06-19T13:44:58.137986+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "TCELL.IS",
@@ -12298,8 +12298,8 @@
     "exit_date": "2026-06-22",
     "result_pct": -3.46,
     "close_reason": "STOP",
-    "cooldown_until": "2026-06-22T17:03:41.187898+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "KCAER.IS",
@@ -12431,23 +12431,83 @@
     "symbol": "SKBNK.IS",
     "date": "2026-06-22",
     "entry": 16.15,
-    "highest_price": 16.15,
+    "highest_price": 16.65,
     "stop": 15.88,
     "target": 16.69,
     "trailing_stop": null,
     "score": 100,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 15.88,
+    "exit_date": "2026-06-23",
+    "result_pct": -1.67,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-06-23T12:05:25.875787+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "VESTL.IS",
     "date": "2026-06-22",
     "entry": 25.24,
-    "highest_price": 25.24,
+    "highest_price": 25.84,
     "stop": 24.9743,
     "target": 25.7714,
     "trailing_stop": null,
     "score": 100,
+    "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 24.9743,
+    "exit_date": "2026-06-23",
+    "result_pct": -1.05,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-06-23T12:05:25.982322+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "GRSEL.IS",
+    "date": "2026-06-23",
+    "entry": 309.5,
+    "highest_price": 309.5,
+    "stop": 303.5,
+    "target": 321.5,
+    "trailing_stop": null,
+    "score": 75,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "HEKTS.IS",
+    "date": "2026-06-23",
+    "entry": 4.08,
+    "highest_price": 4.08,
+    "stop": 3.9771,
+    "target": 4.2857,
+    "trailing_stop": null,
+    "score": 95,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "MGROS.IS",
+    "date": "2026-06-23",
+    "entry": 686.0,
+    "highest_price": 686.0,
+    "stop": 679.25,
+    "target": 699.5,
+    "trailing_stop": null,
+    "score": 80,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "PETKM.IS",
+    "date": "2026-06-23",
+    "entry": 20.24,
+    "highest_price": 20.24,
+    "stop": 19.988,
+    "target": 20.744,
+    "trailing_stop": null,
+    "score": 95,
     "setup_type": "PULLBACK",
     "status": "open"
   }

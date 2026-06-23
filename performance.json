@@ -11065,7 +11065,11 @@
     "stop": 15.88,
     "target": 16.69,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 15.88,
+    "exit_date": "2026-06-23",
+    "result_pct": -1.67,
+    "close_reason": "STOP"
   },
   {
     "symbol": "VESTL.IS",
@@ -11076,6 +11080,58 @@
     "vol_ratio": 1.14,
     "stop": 24.9743,
     "target": 25.7714,
+    "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 24.9743,
+    "exit_date": "2026-06-23",
+    "result_pct": -1.05,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "GRSEL.IS",
+    "date": "2026-06-23",
+    "entry": 309.5,
+    "score": 75,
+    "rsi": 53.66,
+    "vol_ratio": 2.47,
+    "stop": 303.5,
+    "target": 321.5,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "HEKTS.IS",
+    "date": "2026-06-23",
+    "entry": 4.08,
+    "score": 95,
+    "rsi": 36.59,
+    "vol_ratio": 3.08,
+    "stop": 3.9771,
+    "target": 4.2857,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "MGROS.IS",
+    "date": "2026-06-23",
+    "entry": 686.0,
+    "score": 80,
+    "rsi": 51.22,
+    "vol_ratio": 1.54,
+    "stop": 679.25,
+    "target": 699.5,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "PETKM.IS",
+    "date": "2026-06-23",
+    "entry": 20.24,
+    "score": 95,
+    "rsi": 52.0,
+    "vol_ratio": 1.67,
+    "stop": 19.988,
+    "target": 20.744,
     "setup_type": "PULLBACK",
     "status": "open"
   }
