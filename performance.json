@@ -11161,7 +11161,11 @@
     "stop": 91.8054,
     "target": 102.5893,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 91.8054,
+    "exit_date": "2026-06-23",
+    "result_pct": -3.77,
+    "close_reason": "STOP"
   },
   {
     "symbol": "SAHOL.IS",
@@ -11173,7 +11177,11 @@
     "stop": 100.3498,
     "target": 104.1004,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 100.3498,
+    "exit_date": "2026-06-23",
+    "result_pct": -1.23,
+    "close_reason": "STOP"
   },
   {
     "symbol": "SOKM.IS",
@@ -11185,6 +11193,22 @@
     "stop": 48.37,
     "target": 49.9,
     "setup_type": "WEAK",
+    "status": "closed",
+    "exit": 48.37,
+    "exit_date": "2026-06-23",
+    "result_pct": -1.04,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "TOASO.IS",
+    "date": "2026-06-23",
+    "entry": 334.5,
+    "score": 115,
+    "rsi": 51.52,
+    "vol_ratio": 1.25,
+    "stop": 324.9157,
+    "target": 353.6686,
+    "setup_type": "PULLBACK",
     "status": "open"
   }
 ]
