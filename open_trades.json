@@ -12611,24 +12611,36 @@
     "symbol": "GENIL.IS",
     "date": "2026-06-24",
     "entry": 9.3,
-    "highest_price": 9.3,
+    "highest_price": 9.98,
     "stop": 9.0703,
     "target": 9.7594,
     "trailing_stop": null,
     "score": 113,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 9.0703,
+    "exit_date": "2026-06-24",
+    "result_pct": -2.47,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-06-24T15:54:59.779130+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "MGROS.IS",
     "date": "2026-06-24",
     "entry": 699.5,
-    "highest_price": 699.5,
+    "highest_price": 706.0,
     "stop": 691.1429,
     "target": 716.2143,
     "trailing_stop": null,
     "score": 88,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 691.1429,
+    "exit_date": "2026-06-24",
+    "result_pct": -1.19,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-06-24T15:54:59.912617+03:00",
+    "cooldown_reason": "STOP"
   }
 ]

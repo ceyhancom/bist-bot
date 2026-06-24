@@ -11225,7 +11225,11 @@
     "stop": 9.0703,
     "target": 9.7594,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 9.0703,
+    "exit_date": "2026-06-24",
+    "result_pct": -2.47,
+    "close_reason": "STOP"
   },
   {
     "symbol": "MGROS.IS",
@@ -11237,6 +11241,10 @@
     "stop": 691.1429,
     "target": 716.2143,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 691.1429,
+    "exit_date": "2026-06-24",
+    "result_pct": -1.19,
+    "close_reason": "STOP"
   }
 ]
