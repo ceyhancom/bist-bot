@@ -11246,5 +11246,41 @@
     "exit_date": "2026-06-24",
     "result_pct": -1.19,
     "close_reason": "STOP"
+  },
+  {
+    "symbol": "ISMEN.IS",
+    "date": "2026-06-24",
+    "entry": 37.28,
+    "score": 70,
+    "rsi": 52.21,
+    "vol_ratio": 1.46,
+    "stop": 36.7743,
+    "target": 38.2914,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "KUYAS.IS",
+    "date": "2026-06-24",
+    "entry": 72.2,
+    "score": 100,
+    "rsi": 53.9,
+    "vol_ratio": 1.19,
+    "stop": 71.06,
+    "target": 74.48,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "SKBNK.IS",
+    "date": "2026-06-24",
+    "entry": 16.89,
+    "score": 80,
+    "rsi": 68.07,
+    "vol_ratio": 1.19,
+    "stop": 16.5954,
+    "target": 17.4793,
+    "setup_type": "TREND",
+    "status": "open"
   }
 ]

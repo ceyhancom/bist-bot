@@ -11542,8 +11542,8 @@
     "exit_date": "2026-06-19",
     "result_pct": -1.66,
     "close_reason": "STOP",
-    "cooldown_until": "2026-06-19T13:44:57.893487+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "KLRHO.IS",
@@ -11920,8 +11920,8 @@
     "exit_date": "2026-06-22",
     "result_pct": -2.38,
     "close_reason": "STOP",
-    "cooldown_until": "2026-06-22T11:26:45.511339+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "MAGEN.IS",
@@ -12442,8 +12442,8 @@
     "exit_date": "2026-06-23",
     "result_pct": -1.67,
     "close_reason": "STOP",
-    "cooldown_until": "2026-06-23T12:05:25.875787+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "VESTL.IS",
@@ -12642,5 +12642,41 @@
     "close_reason": "STOP",
     "cooldown_until": "2026-06-24T15:54:59.912617+03:00",
     "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "ISMEN.IS",
+    "date": "2026-06-24",
+    "entry": 37.28,
+    "highest_price": 37.28,
+    "stop": 36.7743,
+    "target": 38.2914,
+    "trailing_stop": null,
+    "score": 70,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "KUYAS.IS",
+    "date": "2026-06-24",
+    "entry": 72.2,
+    "highest_price": 72.2,
+    "stop": 71.06,
+    "target": 74.48,
+    "trailing_stop": null,
+    "score": 100,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "SKBNK.IS",
+    "date": "2026-06-24",
+    "entry": 16.89,
+    "highest_price": 16.89,
+    "stop": 16.5954,
+    "target": 17.4793,
+    "trailing_stop": null,
+    "score": 80,
+    "setup_type": "TREND",
+    "status": "open"
   }
 ]
