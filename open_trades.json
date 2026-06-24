@@ -12280,8 +12280,8 @@
     "exit_date": "2026-06-22",
     "result_pct": -4.52,
     "close_reason": "STOP",
-    "cooldown_until": "2026-06-22T17:03:41.064746+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "HEKTS.IS",
@@ -12514,8 +12514,8 @@
     "exit_date": "2026-06-23",
     "result_pct": -0.98,
     "close_reason": "STOP",
-    "cooldown_until": "2026-06-23T15:23:57.967088+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "PETKM.IS",
@@ -12593,12 +12593,42 @@
     "symbol": "TOASO.IS",
     "date": "2026-06-23",
     "entry": 334.5,
-    "highest_price": 334.5,
+    "highest_price": 355.75,
     "stop": 324.9157,
     "target": 353.6686,
-    "trailing_stop": null,
+    "trailing_stop": 348.635,
     "score": 115,
     "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 324.9157,
+    "exit_date": "2026-06-24",
+    "result_pct": -2.87,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-06-24T13:18:38.849517+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "GENIL.IS",
+    "date": "2026-06-24",
+    "entry": 9.3,
+    "highest_price": 9.3,
+    "stop": 9.0703,
+    "target": 9.7594,
+    "trailing_stop": null,
+    "score": 113,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "MGROS.IS",
+    "date": "2026-06-24",
+    "entry": 699.5,
+    "highest_price": 699.5,
+    "stop": 691.1429,
+    "target": 716.2143,
+    "trailing_stop": null,
+    "score": 88,
+    "setup_type": "TREND",
     "status": "open"
   }
 ]

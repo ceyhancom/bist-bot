@@ -11209,6 +11209,34 @@
     "stop": 324.9157,
     "target": 353.6686,
     "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 324.9157,
+    "exit_date": "2026-06-24",
+    "result_pct": -2.87,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "GENIL.IS",
+    "date": "2026-06-24",
+    "entry": 9.3,
+    "score": 113,
+    "rsi": 47.4,
+    "vol_ratio": 2.68,
+    "stop": 9.0703,
+    "target": 9.7594,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "MGROS.IS",
+    "date": "2026-06-24",
+    "entry": 699.5,
+    "score": 88,
+    "rsi": 78.46,
+    "vol_ratio": 1.38,
+    "stop": 691.1429,
+    "target": 716.2143,
+    "setup_type": "TREND",
     "status": "open"
   }
 ]
