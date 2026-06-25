@@ -11257,7 +11257,11 @@
     "stop": 36.7743,
     "target": 38.2914,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 36.7743,
+    "exit_date": "2026-06-25",
+    "result_pct": -1.36,
+    "close_reason": "STOP"
   },
   {
     "symbol": "KUYAS.IS",
@@ -11269,7 +11273,11 @@
     "stop": 71.06,
     "target": 74.48,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 71.06,
+    "exit_date": "2026-06-25",
+    "result_pct": -1.58,
+    "close_reason": "STOP"
   },
   {
     "symbol": "SKBNK.IS",
@@ -11281,6 +11289,106 @@
     "stop": 16.5954,
     "target": 17.4793,
     "setup_type": "TREND",
+    "status": "closed",
+    "exit": 16.5954,
+    "exit_date": "2026-06-25",
+    "result_pct": -1.74,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "ARCLK.IS",
+    "date": "2026-06-25",
+    "entry": 101.3,
+    "score": 70,
+    "rsi": 51.19,
+    "vol_ratio": 1.85,
+    "stop": 100.0571,
+    "target": 103.7857,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "CCOLA.IS",
+    "date": "2026-06-25",
+    "entry": 78.85,
+    "score": 75,
+    "rsi": 68.35,
+    "vol_ratio": 1.78,
+    "stop": 77.8214,
+    "target": 80.9071,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "GARAN.IS",
+    "date": "2026-06-25",
+    "entry": 141.1,
+    "score": 120,
+    "rsi": 55.06,
+    "vol_ratio": 2.8,
+    "stop": 139.5914,
+    "target": 144.1171,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "GRSEL.IS",
+    "date": "2026-06-25",
+    "entry": 309.5,
+    "score": 75,
+    "rsi": 64.29,
+    "vol_ratio": 4.49,
+    "stop": 304.2768,
+    "target": 319.9464,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "KCAER.IS",
+    "date": "2026-06-25",
+    "entry": 15.4,
+    "score": 105,
+    "rsi": 56.31,
+    "vol_ratio": 1.29,
+    "stop": 15.1823,
+    "target": 15.8354,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "MGROS.IS",
+    "date": "2026-06-25",
+    "entry": 709.0,
+    "score": 123,
+    "rsi": 76.25,
+    "vol_ratio": 2.2,
+    "stop": 698.9821,
+    "target": 729.0357,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "OTKAR.IS",
+    "date": "2026-06-25",
+    "entry": 360.25,
+    "score": 80,
+    "rsi": 72.22,
+    "vol_ratio": 1.48,
+    "stop": 358.4018,
+    "target": 363.9464,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "TAVHL.IS",
+    "date": "2026-06-25",
+    "entry": 290.5,
+    "score": 80,
+    "rsi": 62.11,
+    "vol_ratio": 1.92,
+    "stop": 286.0268,
+    "target": 299.4464,
+    "setup_type": "WEAK",
     "status": "open"
   }
 ]
