@@ -11326,8 +11326,8 @@
     "exit_date": "2026-06-18",
     "result_pct": -0.82,
     "close_reason": "STOP",
-    "cooldown_until": "2026-06-18T14:46:02.709129+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "KTLEV.IS",
@@ -11362,8 +11362,8 @@
     "exit_date": "2026-06-18",
     "result_pct": -2.71,
     "close_reason": "STOP",
-    "cooldown_until": "2026-06-18T14:46:02.986590+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "SASA.IS",
@@ -12172,8 +12172,8 @@
     "exit_date": "2026-06-22",
     "result_pct": -1.32,
     "close_reason": "STOP",
-    "cooldown_until": "2026-06-22T17:03:40.126428+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "ASTOR.IS",
@@ -12208,8 +12208,8 @@
     "exit_date": "2026-06-22",
     "result_pct": -1.01,
     "close_reason": "STOP",
-    "cooldown_until": "2026-06-22T17:03:40.474730+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "CWENE.IS",
@@ -12244,8 +12244,8 @@
     "exit_date": "2026-06-22",
     "result_pct": -2.32,
     "close_reason": "STOP",
-    "cooldown_until": "2026-06-22T17:03:40.763291+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "FROTO.IS",
@@ -12694,8 +12694,8 @@
     "exit_date": "2026-06-25",
     "result_pct": -1.74,
     "close_reason": "STOP",
-    "cooldown_until": "2026-06-25T13:29:32.558822+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "ARCLK.IS",
@@ -12820,8 +12820,8 @@
     "exit_date": "2026-06-25",
     "result_pct": -0.51,
     "close_reason": "STOP",
-    "cooldown_until": "2026-06-25T15:52:55.216193+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "TAVHL.IS",
@@ -12840,5 +12840,89 @@
     "close_reason": "STOP",
     "cooldown_until": "2026-06-25T15:52:55.335434+03:00",
     "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "ALTNY.IS",
+    "date": "2026-06-25",
+    "entry": 16.01,
+    "highest_price": 16.01,
+    "stop": 15.6725,
+    "target": 16.685,
+    "trailing_stop": null,
+    "score": 70,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "BALSU.IS",
+    "date": "2026-06-25",
+    "entry": 20.52,
+    "highest_price": 20.52,
+    "stop": 19.7089,
+    "target": 22.1421,
+    "trailing_stop": null,
+    "score": 135,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "ENERY.IS",
+    "date": "2026-06-25",
+    "entry": 9.89,
+    "highest_price": 9.89,
+    "stop": 9.7357,
+    "target": 10.1986,
+    "trailing_stop": null,
+    "score": 80,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "IEYHO.IS",
+    "date": "2026-06-25",
+    "entry": 142.0,
+    "highest_price": 142.0,
+    "stop": 140.65,
+    "target": 144.7,
+    "trailing_stop": null,
+    "score": 80,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "OTKAR.IS",
+    "date": "2026-06-25",
+    "entry": 358.0,
+    "highest_price": 358.0,
+    "stop": 355.5786,
+    "target": 362.8429,
+    "trailing_stop": null,
+    "score": 108,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "PASEU.IS",
+    "date": "2026-06-25",
+    "entry": 126.8,
+    "highest_price": 126.8,
+    "stop": 121.9318,
+    "target": 136.5365,
+    "trailing_stop": null,
+    "score": 108,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "SKBNK.IS",
+    "date": "2026-06-25",
+    "entry": 16.87,
+    "highest_price": 16.87,
+    "stop": 16.4811,
+    "target": 17.6479,
+    "trailing_stop": null,
+    "score": 115,
+    "setup_type": "TREND",
+    "status": "open"
   }
 ]

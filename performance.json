@@ -11422,5 +11422,89 @@
     "exit_date": "2026-06-25",
     "result_pct": -1.54,
     "close_reason": "STOP"
+  },
+  {
+    "symbol": "ALTNY.IS",
+    "date": "2026-06-25",
+    "entry": 16.01,
+    "score": 70,
+    "rsi": 65.97,
+    "vol_ratio": 2.41,
+    "stop": 15.6725,
+    "target": 16.685,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "BALSU.IS",
+    "date": "2026-06-25",
+    "entry": 20.52,
+    "score": 135,
+    "rsi": 74.41,
+    "vol_ratio": 2.98,
+    "stop": 19.7089,
+    "target": 22.1421,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "ENERY.IS",
+    "date": "2026-06-25",
+    "entry": 9.89,
+    "score": 80,
+    "rsi": 56.58,
+    "vol_ratio": 1.06,
+    "stop": 9.7357,
+    "target": 10.1986,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "IEYHO.IS",
+    "date": "2026-06-25",
+    "entry": 142.0,
+    "score": 80,
+    "rsi": 66.25,
+    "vol_ratio": 1.19,
+    "stop": 140.65,
+    "target": 144.7,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "OTKAR.IS",
+    "date": "2026-06-25",
+    "entry": 358.0,
+    "score": 108,
+    "rsi": 50.0,
+    "vol_ratio": 3.66,
+    "stop": 355.5786,
+    "target": 362.8429,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "PASEU.IS",
+    "date": "2026-06-25",
+    "entry": 126.8,
+    "score": 108,
+    "rsi": 50.0,
+    "vol_ratio": 1.93,
+    "stop": 121.9318,
+    "target": 136.5365,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "SKBNK.IS",
+    "date": "2026-06-25",
+    "entry": 16.87,
+    "score": 115,
+    "rsi": 66.44,
+    "vol_ratio": 2.96,
+    "stop": 16.4811,
+    "target": 17.6479,
+    "setup_type": "TREND",
+    "status": "open"
   }
 ]
