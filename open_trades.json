@@ -11020,8 +11020,8 @@
     "exit_date": "2026-06-16",
     "result_pct": -1.9,
     "close_reason": "STOP",
-    "cooldown_until": "2026-06-16T16:18:21.566652+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "TTRAK.IS",
@@ -11830,8 +11830,8 @@
     "exit_date": "2026-06-22",
     "result_pct": -1.05,
     "close_reason": "STOP",
-    "cooldown_until": "2026-06-22T11:26:44.048384+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "EREGL.IS",
@@ -12802,8 +12802,8 @@
     "exit_date": "2026-06-25",
     "result_pct": -1.41,
     "close_reason": "STOP",
-    "cooldown_until": "2026-06-25T15:52:55.090961+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "OTKAR.IS",
@@ -12845,13 +12845,19 @@
     "symbol": "ALTNY.IS",
     "date": "2026-06-25",
     "entry": 16.01,
-    "highest_price": 16.01,
+    "highest_price": 16.75,
     "stop": 15.6725,
     "target": 16.685,
     "trailing_stop": null,
     "score": 70,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 15.6725,
+    "exit_date": "2026-06-26",
+    "result_pct": -2.11,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-06-26T12:06:11.920445+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "BALSU.IS",
@@ -12863,66 +12869,138 @@
     "trailing_stop": null,
     "score": 135,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 19.7089,
+    "exit_date": "2026-06-26",
+    "result_pct": -3.95,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-06-26T12:06:12.030488+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "ENERY.IS",
     "date": "2026-06-25",
     "entry": 9.89,
-    "highest_price": 9.89,
+    "highest_price": 10.14,
     "stop": 9.7357,
     "target": 10.1986,
     "trailing_stop": null,
     "score": 80,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 9.7357,
+    "exit_date": "2026-06-26",
+    "result_pct": -1.56,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-06-26T12:06:12.148545+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "IEYHO.IS",
     "date": "2026-06-25",
     "entry": 142.0,
-    "highest_price": 142.0,
+    "highest_price": 145.3,
     "stop": 140.65,
     "target": 144.7,
     "trailing_stop": null,
     "score": 80,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 140.65,
+    "exit_date": "2026-06-26",
+    "result_pct": -0.95,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-06-26T12:06:12.261051+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "OTKAR.IS",
     "date": "2026-06-25",
     "entry": 358.0,
-    "highest_price": 358.0,
+    "highest_price": 365.75,
     "stop": 355.5786,
     "target": 362.8429,
     "trailing_stop": null,
     "score": 108,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 355.5786,
+    "exit_date": "2026-06-26",
+    "result_pct": -0.68,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-06-26T12:06:12.388974+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "PASEU.IS",
     "date": "2026-06-25",
     "entry": 126.8,
-    "highest_price": 126.8,
+    "highest_price": 129.0,
     "stop": 121.9318,
     "target": 136.5365,
     "trailing_stop": null,
     "score": 108,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 121.9318,
+    "exit_date": "2026-06-26",
+    "result_pct": -3.84,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-06-26T12:06:12.504420+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "SKBNK.IS",
     "date": "2026-06-25",
     "entry": 16.87,
-    "highest_price": 16.87,
+    "highest_price": 17.39,
     "stop": 16.4811,
     "target": 17.6479,
     "trailing_stop": null,
     "score": 115,
     "setup_type": "TREND",
+    "status": "closed",
+    "exit": 16.4811,
+    "exit_date": "2026-06-26",
+    "result_pct": -2.31,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-06-26T12:06:12.643424+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "ENKAI.IS",
+    "date": "2026-06-26",
+    "entry": 90.85,
+    "highest_price": 90.85,
+    "stop": 89.7946,
+    "target": 92.9607,
+    "trailing_stop": null,
+    "score": 70,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "MGROS.IS",
+    "date": "2026-06-26",
+    "entry": 699.0,
+    "highest_price": 699.0,
+    "stop": 691.4571,
+    "target": 714.0857,
+    "trailing_stop": null,
+    "score": 88,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "TTKOM.IS",
+    "date": "2026-06-26",
+    "entry": 61.65,
+    "highest_price": 61.65,
+    "stop": 60.8089,
+    "target": 63.3321,
+    "trailing_stop": null,
+    "score": 70,
+    "setup_type": "WEAK",
     "status": "open"
   }
 ]

@@ -11433,7 +11433,11 @@
     "stop": 15.6725,
     "target": 16.685,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 15.6725,
+    "exit_date": "2026-06-26",
+    "result_pct": -2.11,
+    "close_reason": "STOP"
   },
   {
     "symbol": "BALSU.IS",
@@ -11445,7 +11449,11 @@
     "stop": 19.7089,
     "target": 22.1421,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 19.7089,
+    "exit_date": "2026-06-26",
+    "result_pct": -3.95,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ENERY.IS",
@@ -11457,7 +11465,11 @@
     "stop": 9.7357,
     "target": 10.1986,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 9.7357,
+    "exit_date": "2026-06-26",
+    "result_pct": -1.56,
+    "close_reason": "STOP"
   },
   {
     "symbol": "IEYHO.IS",
@@ -11469,7 +11481,11 @@
     "stop": 140.65,
     "target": 144.7,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 140.65,
+    "exit_date": "2026-06-26",
+    "result_pct": -0.95,
+    "close_reason": "STOP"
   },
   {
     "symbol": "OTKAR.IS",
@@ -11481,7 +11497,11 @@
     "stop": 355.5786,
     "target": 362.8429,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 355.5786,
+    "exit_date": "2026-06-26",
+    "result_pct": -0.68,
+    "close_reason": "STOP"
   },
   {
     "symbol": "PASEU.IS",
@@ -11493,7 +11513,11 @@
     "stop": 121.9318,
     "target": 136.5365,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 121.9318,
+    "exit_date": "2026-06-26",
+    "result_pct": -3.84,
+    "close_reason": "STOP"
   },
   {
     "symbol": "SKBNK.IS",
@@ -11505,6 +11529,46 @@
     "stop": 16.4811,
     "target": 17.6479,
     "setup_type": "TREND",
+    "status": "closed",
+    "exit": 16.4811,
+    "exit_date": "2026-06-26",
+    "result_pct": -2.31,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "ENKAI.IS",
+    "date": "2026-06-26",
+    "entry": 90.85,
+    "score": 70,
+    "rsi": 62.83,
+    "vol_ratio": 1.33,
+    "stop": 89.7946,
+    "target": 92.9607,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "MGROS.IS",
+    "date": "2026-06-26",
+    "entry": 699.0,
+    "score": 88,
+    "rsi": 47.87,
+    "vol_ratio": 1.13,
+    "stop": 691.4571,
+    "target": 714.0857,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "TTKOM.IS",
+    "date": "2026-06-26",
+    "entry": 61.65,
+    "score": 70,
+    "rsi": 56.94,
+    "vol_ratio": 1.34,
+    "stop": 60.8089,
+    "target": 63.3321,
+    "setup_type": "WEAK",
     "status": "open"
   }
 ]
