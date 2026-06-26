@@ -11641,7 +11641,11 @@
     "stop": 358.92,
     "target": 380.1601,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 358.92,
+    "exit_date": "2026-06-26",
+    "result_pct": -1.93,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TKFEN.IS",
@@ -11653,7 +11657,11 @@
     "stop": 137.6393,
     "target": 149.8214,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 137.6393,
+    "exit_date": "2026-06-26",
+    "result_pct": -2.87,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ZOREN.IS",
@@ -11664,6 +11672,130 @@
     "vol_ratio": 2.39,
     "stop": 2.8107,
     "target": 3.0486,
+    "setup_type": "WEAK",
+    "status": "closed",
+    "exit": 2.8107,
+    "exit_date": "2026-06-26",
+    "result_pct": -2.74,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "AKSEN.IS",
+    "date": "2026-06-26",
+    "entry": 82.85,
+    "score": 85,
+    "rsi": 54.81,
+    "vol_ratio": 3.79,
+    "stop": 81.8589,
+    "target": 84.8321,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "DSTKF.IS",
+    "date": "2026-06-26",
+    "entry": 3457.5,
+    "score": 125,
+    "rsi": 62.07,
+    "vol_ratio": 1.83,
+    "stop": 3298.5454,
+    "target": 3775.4093,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "EREGL.IS",
+    "date": "2026-06-26",
+    "entry": 42.14,
+    "score": 88,
+    "rsi": 76.69,
+    "vol_ratio": 1.18,
+    "stop": 41.465,
+    "target": 43.49,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "IEYHO.IS",
+    "date": "2026-06-26",
+    "entry": 142.0,
+    "score": 100,
+    "rsi": 74.0,
+    "vol_ratio": 1.71,
+    "stop": 140.5964,
+    "target": 144.8071,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "MAVI.IS",
+    "date": "2026-06-26",
+    "entry": 39.86,
+    "score": 80,
+    "rsi": 55.17,
+    "vol_ratio": 1.82,
+    "stop": 39.5129,
+    "target": 40.5543,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "PASEU.IS",
+    "date": "2026-06-26",
+    "entry": 126.8,
+    "score": 100,
+    "rsi": 60.64,
+    "vol_ratio": 1.9,
+    "stop": 123.8306,
+    "target": 132.7388,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "SISE.IS",
+    "date": "2026-06-26",
+    "entry": 45.26,
+    "score": 80,
+    "rsi": 60.0,
+    "vol_ratio": 1.53,
+    "stop": 44.7821,
+    "target": 46.2157,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "TSKB.IS",
+    "date": "2026-06-26",
+    "entry": 12.18,
+    "score": 85,
+    "rsi": 58.33,
+    "vol_ratio": 4.1,
+    "stop": 12.0118,
+    "target": 12.5164,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "TTKOM.IS",
+    "date": "2026-06-26",
+    "entry": 62.25,
+    "score": 70,
+    "rsi": 56.52,
+    "vol_ratio": 1.22,
+    "stop": 61.4786,
+    "target": 63.7929,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "YEOTK.IS",
+    "date": "2026-06-26",
+    "entry": 108.5,
+    "score": 70,
+    "rsi": 60.14,
+    "vol_ratio": 1.49,
+    "stop": 105.6821,
+    "target": 114.1357,
     "setup_type": "WEAK",
     "status": "open"
   }
