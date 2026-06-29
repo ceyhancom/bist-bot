@@ -10426,8 +10426,8 @@
     "exit_date": "2026-06-16",
     "result_pct": -1.57,
     "close_reason": "STOP",
-    "cooldown_until": "2026-06-16T11:28:49.480135+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "GESAN.IS",
@@ -13313,24 +13313,48 @@
     "symbol": "ALTNY.IS",
     "date": "2026-06-29",
     "entry": 16.87,
-    "highest_price": 16.87,
+    "highest_price": 17.08,
     "stop": 16.2711,
     "target": 18.0679,
     "trailing_stop": null,
     "score": 105,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 16.2711,
+    "exit_date": "2026-06-29",
+    "result_pct": -3.55,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-06-29T17:00:39.008044+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "CCOLA.IS",
     "date": "2026-06-29",
     "entry": 83.05,
-    "highest_price": 83.05,
+    "highest_price": 83.75,
     "stop": 81.5982,
     "target": 85.9536,
     "trailing_stop": null,
     "score": 90,
     "setup_type": "TREND",
+    "status": "closed",
+    "exit": 81.5982,
+    "exit_date": "2026-06-29",
+    "result_pct": -1.75,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-06-29T17:00:39.115928+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "ENJSA.IS",
+    "date": "2026-06-29",
+    "entry": 104.4,
+    "highest_price": 104.4,
+    "stop": 103.1571,
+    "target": 106.8857,
+    "trailing_stop": null,
+    "score": 70,
+    "setup_type": "WEAK",
     "status": "open"
   }
 ]

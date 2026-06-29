@@ -11849,7 +11849,11 @@
     "stop": 16.2711,
     "target": 18.0679,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 16.2711,
+    "exit_date": "2026-06-29",
+    "result_pct": -3.55,
+    "close_reason": "STOP"
   },
   {
     "symbol": "CCOLA.IS",
@@ -11861,6 +11865,22 @@
     "stop": 81.5982,
     "target": 85.9536,
     "setup_type": "TREND",
+    "status": "closed",
+    "exit": 81.5982,
+    "exit_date": "2026-06-29",
+    "result_pct": -1.75,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "ENJSA.IS",
+    "date": "2026-06-29",
+    "entry": 104.4,
+    "score": 70,
+    "rsi": 53.97,
+    "vol_ratio": 1.27,
+    "stop": 103.1571,
+    "target": 106.8857,
+    "setup_type": "WEAK",
     "status": "open"
   }
 ]
