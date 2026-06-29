@@ -11689,7 +11689,11 @@
     "stop": 81.8589,
     "target": 84.8321,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 81.8589,
+    "exit_date": "2026-06-29",
+    "result_pct": -1.2,
+    "close_reason": "STOP"
   },
   {
     "symbol": "DSTKF.IS",
@@ -11701,7 +11705,11 @@
     "stop": 3298.5454,
     "target": 3775.4093,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 3298.5454,
+    "exit_date": "2026-06-29",
+    "result_pct": -4.6,
+    "close_reason": "STOP"
   },
   {
     "symbol": "EREGL.IS",
@@ -11713,7 +11721,11 @@
     "stop": 41.465,
     "target": 43.49,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 41.465,
+    "exit_date": "2026-06-29",
+    "result_pct": -1.6,
+    "close_reason": "STOP"
   },
   {
     "symbol": "IEYHO.IS",
@@ -11725,7 +11737,11 @@
     "stop": 140.5964,
     "target": 144.8071,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 140.5964,
+    "exit_date": "2026-06-29",
+    "result_pct": -0.99,
+    "close_reason": "STOP"
   },
   {
     "symbol": "MAVI.IS",
@@ -11737,7 +11753,11 @@
     "stop": 39.5129,
     "target": 40.5543,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 39.5129,
+    "exit_date": "2026-06-29",
+    "result_pct": -0.87,
+    "close_reason": "STOP"
   },
   {
     "symbol": "PASEU.IS",
@@ -11749,7 +11769,11 @@
     "stop": 123.8306,
     "target": 132.7388,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 123.8306,
+    "exit_date": "2026-06-29",
+    "result_pct": -2.34,
+    "close_reason": "STOP"
   },
   {
     "symbol": "SISE.IS",
@@ -11761,7 +11785,11 @@
     "stop": 44.7821,
     "target": 46.2157,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 44.7821,
+    "exit_date": "2026-06-29",
+    "result_pct": -1.06,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TSKB.IS",
@@ -11773,7 +11801,11 @@
     "stop": 12.0118,
     "target": 12.5164,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 12.0118,
+    "exit_date": "2026-06-29",
+    "result_pct": -1.38,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TTKOM.IS",
@@ -11785,7 +11817,11 @@
     "stop": 61.4786,
     "target": 63.7929,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 61.4786,
+    "exit_date": "2026-06-29",
+    "result_pct": -1.24,
+    "close_reason": "STOP"
   },
   {
     "symbol": "YEOTK.IS",
@@ -11797,6 +11833,34 @@
     "stop": 105.6821,
     "target": 114.1357,
     "setup_type": "WEAK",
+    "status": "closed",
+    "exit": 105.6821,
+    "exit_date": "2026-06-29",
+    "result_pct": -2.6,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "ALTNY.IS",
+    "date": "2026-06-29",
+    "entry": 16.87,
+    "score": 105,
+    "rsi": 74.62,
+    "vol_ratio": 2.32,
+    "stop": 16.2711,
+    "target": 18.0679,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "CCOLA.IS",
+    "date": "2026-06-29",
+    "entry": 83.05,
+    "score": 90,
+    "rsi": 73.81,
+    "vol_ratio": 1.13,
+    "stop": 81.5982,
+    "target": 85.9536,
+    "setup_type": "TREND",
     "status": "open"
   }
 ]
