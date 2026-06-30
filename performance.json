@@ -11966,5 +11966,77 @@
     "exit_date": "2026-06-30",
     "result_pct": -1.26,
     "close_reason": "STOP"
+  },
+  {
+    "symbol": "AGHOL.IS",
+    "date": "2026-06-30",
+    "entry": 34.5,
+    "score": 110,
+    "rsi": 72.97,
+    "vol_ratio": 1.59,
+    "stop": 34.0307,
+    "target": 35.4386,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "BTCIM.IS",
+    "date": "2026-06-30",
+    "entry": 6.03,
+    "score": 70,
+    "rsi": 52.17,
+    "vol_ratio": 1.63,
+    "stop": 5.9614,
+    "target": 6.1671,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "DSTKF.IS",
+    "date": "2026-06-30",
+    "entry": 3587.5,
+    "score": 105,
+    "rsi": 64.41,
+    "vol_ratio": 2.25,
+    "stop": 3422.462,
+    "target": 3917.5759,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "KUYAS.IS",
+    "date": "2026-06-30",
+    "entry": 73.15,
+    "score": 80,
+    "rsi": 70.28,
+    "vol_ratio": 2.53,
+    "stop": 71.0125,
+    "target": 77.425,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "MAGEN.IS",
+    "date": "2026-06-30",
+    "entry": 31.88,
+    "score": 85,
+    "rsi": 55.65,
+    "vol_ratio": 3.42,
+    "stop": 30.8943,
+    "target": 33.8514,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "TUPRS.IS",
+    "date": "2026-06-30",
+    "entry": 225.4,
+    "score": 90,
+    "rsi": 70.34,
+    "vol_ratio": 1.88,
+    "stop": 222.4429,
+    "target": 231.3143,
+    "setup_type": "TREND",
+    "status": "open"
   }
 ]

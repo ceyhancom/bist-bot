@@ -11686,8 +11686,8 @@
     "exit_date": "2026-06-22",
     "result_pct": -0.81,
     "close_reason": "STOP",
-    "cooldown_until": "2026-06-22T11:26:41.704642+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "AKBNK.IS",
@@ -11794,8 +11794,8 @@
     "exit_date": "2026-06-22",
     "result_pct": -1.06,
     "close_reason": "STOP",
-    "cooldown_until": "2026-06-22T11:26:43.479250+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "EKGYO.IS",
@@ -11938,8 +11938,8 @@
     "exit_date": "2026-06-22",
     "result_pct": -2.99,
     "close_reason": "STOP",
-    "cooldown_until": "2026-06-22T11:26:45.808176+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "MPARK.IS",
@@ -12676,8 +12676,8 @@
     "exit_date": "2026-06-25",
     "result_pct": -1.58,
     "close_reason": "STOP",
-    "cooldown_until": "2026-06-25T13:29:32.420800+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "SKBNK.IS",
@@ -13162,8 +13162,8 @@
     "exit_date": "2026-06-29",
     "result_pct": -4.6,
     "close_reason": "STOP",
-    "cooldown_until": "2026-06-29T12:53:19.491031+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "EREGL.IS",
@@ -13450,7 +13450,79 @@
     "exit_date": "2026-06-30",
     "result_pct": -1.26,
     "close_reason": "STOP",
-    "cooldown_until": "2026-06-30T15:45:44.519521+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
+  },
+  {
+    "symbol": "AGHOL.IS",
+    "date": "2026-06-30",
+    "entry": 34.5,
+    "highest_price": 34.5,
+    "stop": 34.0307,
+    "target": 35.4386,
+    "trailing_stop": null,
+    "score": 110,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "BTCIM.IS",
+    "date": "2026-06-30",
+    "entry": 6.03,
+    "highest_price": 6.03,
+    "stop": 5.9614,
+    "target": 6.1671,
+    "trailing_stop": null,
+    "score": 70,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "DSTKF.IS",
+    "date": "2026-06-30",
+    "entry": 3587.5,
+    "highest_price": 3587.5,
+    "stop": 3422.462,
+    "target": 3917.5759,
+    "trailing_stop": null,
+    "score": 105,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "KUYAS.IS",
+    "date": "2026-06-30",
+    "entry": 73.15,
+    "highest_price": 73.15,
+    "stop": 71.0125,
+    "target": 77.425,
+    "trailing_stop": null,
+    "score": 80,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "MAGEN.IS",
+    "date": "2026-06-30",
+    "entry": 31.88,
+    "highest_price": 31.88,
+    "stop": 30.8943,
+    "target": 33.8514,
+    "trailing_stop": null,
+    "score": 85,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "TUPRS.IS",
+    "date": "2026-06-30",
+    "entry": 225.4,
+    "highest_price": 225.4,
+    "stop": 222.4429,
+    "target": 231.3143,
+    "trailing_stop": null,
+    "score": 90,
+    "setup_type": "TREND",
+    "status": "open"
   }
 ]
