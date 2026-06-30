@@ -9670,8 +9670,8 @@
     "exit_date": "2026-06-15",
     "result_pct": -1.43,
     "close_reason": "STOP",
-    "cooldown_until": "2026-06-15T17:26:19.365628+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "EKGYO.IS",
@@ -10282,8 +10282,8 @@
     "exit_date": "2026-06-15",
     "result_pct": -1.87,
     "close_reason": "STOP",
-    "cooldown_until": "2026-06-15T17:26:24.940768+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "TUREX.IS",
@@ -11038,8 +11038,8 @@
     "exit_date": "2026-06-16",
     "result_pct": -0.97,
     "close_reason": "STOP",
-    "cooldown_until": "2026-06-16T16:18:21.879071+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "TURSG.IS",
@@ -12892,8 +12892,8 @@
     "exit_date": "2026-06-26",
     "result_pct": -1.56,
     "close_reason": "STOP",
-    "cooldown_until": "2026-06-26T12:06:12.148545+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "IEYHO.IS",
@@ -13108,8 +13108,8 @@
     "exit_date": "2026-06-26",
     "result_pct": -2.87,
     "close_reason": "STOP",
-    "cooldown_until": "2026-06-26T19:39:32.067304+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "ZOREN.IS",
@@ -13349,11 +13349,77 @@
     "symbol": "ENJSA.IS",
     "date": "2026-06-29",
     "entry": 104.4,
-    "highest_price": 104.4,
+    "highest_price": 106.3,
     "stop": 103.1571,
     "target": 106.8857,
     "trailing_stop": null,
     "score": 70,
+    "setup_type": "WEAK",
+    "status": "closed",
+    "exit": 103.1571,
+    "exit_date": "2026-06-30",
+    "result_pct": -1.19,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-06-30T13:25:04.438205+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "EGEEN.IS",
+    "date": "2026-06-30",
+    "entry": 5650.0,
+    "highest_price": 5650.0,
+    "stop": 5552.2474,
+    "target": 5845.5052,
+    "trailing_stop": null,
+    "score": 90,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "ENERY.IS",
+    "date": "2026-06-30",
+    "entry": 10.02,
+    "highest_price": 10.02,
+    "stop": 9.8732,
+    "target": 10.3136,
+    "trailing_stop": null,
+    "score": 103,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "TKFEN.IS",
+    "date": "2026-06-30",
+    "entry": 140.2,
+    "highest_price": 140.2,
+    "stop": 137.0029,
+    "target": 146.5943,
+    "trailing_stop": null,
+    "score": 73,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "TTRAK.IS",
+    "date": "2026-06-30",
+    "entry": 440.25,
+    "highest_price": 440.25,
+    "stop": 436.4196,
+    "target": 447.9107,
+    "trailing_stop": null,
+    "score": 70,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "TUPRS.IS",
+    "date": "2026-06-30",
+    "entry": 222.4,
+    "highest_price": 222.4,
+    "stop": 219.6036,
+    "target": 227.9929,
+    "trailing_stop": null,
+    "score": 85,
     "setup_type": "WEAK",
     "status": "open"
   }

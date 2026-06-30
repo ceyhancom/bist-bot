@@ -11881,6 +11881,70 @@
     "stop": 103.1571,
     "target": 106.8857,
     "setup_type": "WEAK",
+    "status": "closed",
+    "exit": 103.1571,
+    "exit_date": "2026-06-30",
+    "result_pct": -1.19,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "EGEEN.IS",
+    "date": "2026-06-30",
+    "entry": 5650.0,
+    "score": 90,
+    "rsi": 61.58,
+    "vol_ratio": 1.11,
+    "stop": 5552.2474,
+    "target": 5845.5052,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "ENERY.IS",
+    "date": "2026-06-30",
+    "entry": 10.02,
+    "score": 103,
+    "rsi": 76.06,
+    "vol_ratio": 2.35,
+    "stop": 9.8732,
+    "target": 10.3136,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "TKFEN.IS",
+    "date": "2026-06-30",
+    "entry": 140.2,
+    "score": 73,
+    "rsi": 47.2,
+    "vol_ratio": 1.24,
+    "stop": 137.0029,
+    "target": 146.5943,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "TTRAK.IS",
+    "date": "2026-06-30",
+    "entry": 440.25,
+    "score": 70,
+    "rsi": 62.67,
+    "vol_ratio": 1.29,
+    "stop": 436.4196,
+    "target": 447.9107,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "TUPRS.IS",
+    "date": "2026-06-30",
+    "entry": 222.4,
+    "score": 85,
+    "rsi": 61.07,
+    "vol_ratio": 2.05,
+    "stop": 219.6036,
+    "target": 227.9929,
+    "setup_type": "WEAK",
     "status": "open"
   }
 ]
