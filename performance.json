@@ -12313,7 +12313,11 @@
     "stop": 33.8671,
     "target": 35.8857,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 33.8671,
+    "exit_date": "2026-07-01",
+    "result_pct": -1.95,
+    "close_reason": "STOP"
   },
   {
     "symbol": "AKBNK.IS",
@@ -12325,7 +12329,11 @@
     "stop": 76.4982,
     "target": 79.5036,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 76.4982,
+    "exit_date": "2026-07-01",
+    "result_pct": -1.29,
+    "close_reason": "STOP"
   },
   {
     "symbol": "AKSA.IS",
@@ -12337,7 +12345,11 @@
     "stop": 11.8485,
     "target": 12.513,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 11.8485,
+    "exit_date": "2026-07-01",
+    "result_pct": -1.84,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ALTNY.IS",
@@ -12349,7 +12361,11 @@
     "stop": 16.6314,
     "target": 18.2771,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 16.6314,
+    "exit_date": "2026-07-01",
+    "result_pct": -3.19,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ASELS.IS",
@@ -12361,7 +12377,11 @@
     "stop": 360.2143,
     "target": 386.5714,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 360.2143,
+    "exit_date": "2026-07-01",
+    "result_pct": -2.38,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ASTOR.IS",
@@ -12373,7 +12393,11 @@
     "stop": 275.9286,
     "target": 294.8929,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 275.9286,
+    "exit_date": "2026-07-01",
+    "result_pct": -2.24,
+    "close_reason": "STOP"
   },
   {
     "symbol": "DSTKF.IS",
@@ -12385,7 +12409,11 @@
     "stop": 3626.9643,
     "target": 3898.5714,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 3626.9643,
+    "exit_date": "2026-07-01",
+    "result_pct": -2.44,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ODAS.IS",
@@ -12397,7 +12425,11 @@
     "stop": 8.5329,
     "target": 9.0343,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 8.5329,
+    "exit_date": "2026-07-01",
+    "result_pct": -1.92,
+    "close_reason": "STOP"
   },
   {
     "symbol": "OYAKC.IS",
@@ -12409,7 +12441,11 @@
     "stop": 20.5521,
     "target": 21.3557,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 20.5521,
+    "exit_date": "2026-07-01",
+    "result_pct": -1.29,
+    "close_reason": "STOP"
   },
   {
     "symbol": "SKBNK.IS",
@@ -12421,7 +12457,11 @@
     "stop": 16.1632,
     "target": 17.2336,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 16.1632,
+    "exit_date": "2026-07-01",
+    "result_pct": -2.16,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TAVHL.IS",
@@ -12433,7 +12473,11 @@
     "stop": 278.5893,
     "target": 292.5714,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 278.5893,
+    "exit_date": "2026-07-01",
+    "result_pct": -1.65,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TKFEN.IS",
@@ -12445,7 +12489,11 @@
     "stop": 135.5179,
     "target": 146.8643,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 135.5179,
+    "exit_date": "2026-07-01",
+    "result_pct": -2.72,
+    "close_reason": "STOP"
   },
   {
     "symbol": "YKBNK.IS",
@@ -12456,6 +12504,22 @@
     "vol_ratio": 1.4,
     "stop": 39.8914,
     "target": 41.3571,
+    "setup_type": "WEAK",
+    "status": "closed",
+    "exit": 39.8914,
+    "exit_date": "2026-07-01",
+    "result_pct": -1.21,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "GESAN.IS",
+    "date": "2026-07-01",
+    "entry": 73.25,
+    "score": 85,
+    "rsi": 59.66,
+    "vol_ratio": 14.58,
+    "stop": 70.5661,
+    "target": 78.6179,
     "setup_type": "WEAK",
     "status": "open"
   }
