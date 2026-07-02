@@ -12558,5 +12558,41 @@
     "exit_date": "2026-07-02",
     "result_pct": -1.28,
     "close_reason": "STOP"
+  },
+  {
+    "symbol": "EUPWR.IS",
+    "date": "2026-07-02",
+    "entry": 84.3,
+    "score": 100,
+    "rsi": 59.55,
+    "vol_ratio": 2.2,
+    "stop": 82.4571,
+    "target": 87.9857,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "GRSEL.IS",
+    "date": "2026-07-02",
+    "entry": 307.0,
+    "score": 70,
+    "rsi": 57.33,
+    "vol_ratio": 1.37,
+    "stop": 303.3839,
+    "target": 314.2321,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "KTLEV.IS",
+    "date": "2026-07-02",
+    "entry": 181.1,
+    "score": 118,
+    "rsi": 78.82,
+    "vol_ratio": 1.82,
+    "stop": 177.4786,
+    "target": 188.3429,
+    "setup_type": "BREAKOUT",
+    "status": "open"
   }
 ]

@@ -10696,8 +10696,8 @@
     "exit_date": "2026-06-16",
     "result_pct": -4.12,
     "close_reason": "STOP",
-    "cooldown_until": "2026-06-16T16:18:17.832472+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "FROTO.IS",
@@ -12334,8 +12334,8 @@
     "exit_date": "2026-06-22",
     "result_pct": -5.07,
     "close_reason": "STOP",
-    "cooldown_until": "2026-06-22T17:03:41.443843+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "OYAKC.IS",
@@ -12766,8 +12766,8 @@
     "exit_date": "2026-06-25",
     "result_pct": -1.69,
     "close_reason": "STOP",
-    "cooldown_until": "2026-06-25T15:52:54.771270+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "KCAER.IS",
@@ -14118,5 +14118,41 @@
     "close_reason": "STOP",
     "cooldown_until": "2026-07-02T15:41:26.078753+03:00",
     "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "EUPWR.IS",
+    "date": "2026-07-02",
+    "entry": 84.3,
+    "highest_price": 84.3,
+    "stop": 82.4571,
+    "target": 87.9857,
+    "trailing_stop": null,
+    "score": 100,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "GRSEL.IS",
+    "date": "2026-07-02",
+    "entry": 307.0,
+    "highest_price": 307.0,
+    "stop": 303.3839,
+    "target": 314.2321,
+    "trailing_stop": null,
+    "score": 70,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "KTLEV.IS",
+    "date": "2026-07-02",
+    "entry": 181.1,
+    "highest_price": 181.1,
+    "stop": 177.4786,
+    "target": 188.3429,
+    "trailing_stop": null,
+    "score": 118,
+    "setup_type": "BREAKOUT",
+    "status": "open"
   }
 ]
