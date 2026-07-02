@@ -12521,6 +12521,34 @@
     "stop": 70.5661,
     "target": 78.6179,
     "setup_type": "WEAK",
+    "status": "closed",
+    "exit": 70.5661,
+    "exit_date": "2026-07-02",
+    "result_pct": -3.66,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "ASTOR.IS",
+    "date": "2026-07-02",
+    "entry": 284.25,
+    "score": 70,
+    "rsi": 60.87,
+    "vol_ratio": 1.28,
+    "stop": 276.5089,
+    "target": 299.7321,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "BTCIM.IS",
+    "date": "2026-07-02",
+    "entry": 6.12,
+    "score": 100,
+    "rsi": 65.38,
+    "vol_ratio": 1.49,
+    "stop": 6.0418,
+    "target": 6.2764,
+    "setup_type": "TREND",
     "status": "open"
   }
 ]

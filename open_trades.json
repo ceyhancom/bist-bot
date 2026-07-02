@@ -13486,8 +13486,8 @@
     "exit_date": "2026-07-01",
     "result_pct": -1.14,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-01T12:16:41.327301+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "DSTKF.IS",
@@ -13936,8 +13936,8 @@
     "exit_date": "2026-07-01",
     "result_pct": -2.24,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-01T17:40:52.338214+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "DSTKF.IS",
@@ -14069,12 +14069,42 @@
     "symbol": "GESAN.IS",
     "date": "2026-07-01",
     "entry": 73.25,
-    "highest_price": 73.25,
+    "highest_price": 76.6,
     "stop": 70.5661,
     "target": 78.6179,
     "trailing_stop": null,
     "score": 85,
     "setup_type": "WEAK",
+    "status": "closed",
+    "exit": 70.5661,
+    "exit_date": "2026-07-02",
+    "result_pct": -3.66,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-07-02T13:17:23.919713+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "ASTOR.IS",
+    "date": "2026-07-02",
+    "entry": 284.25,
+    "highest_price": 284.25,
+    "stop": 276.5089,
+    "target": 299.7321,
+    "trailing_stop": null,
+    "score": 70,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "BTCIM.IS",
+    "date": "2026-07-02",
+    "entry": 6.12,
+    "highest_price": 6.12,
+    "stop": 6.0418,
+    "target": 6.2764,
+    "trailing_stop": null,
+    "score": 100,
+    "setup_type": "TREND",
     "status": "open"
   }
 ]
