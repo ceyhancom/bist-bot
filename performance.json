@@ -12537,7 +12537,11 @@
     "stop": 276.5089,
     "target": 299.7321,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 276.5089,
+    "exit_date": "2026-07-02",
+    "result_pct": -2.72,
+    "close_reason": "STOP"
   },
   {
     "symbol": "BTCIM.IS",
@@ -12549,6 +12553,10 @@
     "stop": 6.0418,
     "target": 6.2764,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 6.0418,
+    "exit_date": "2026-07-02",
+    "result_pct": -1.28,
+    "close_reason": "STOP"
   }
 ]

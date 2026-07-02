@@ -14087,24 +14087,36 @@
     "symbol": "ASTOR.IS",
     "date": "2026-07-02",
     "entry": 284.25,
-    "highest_price": 284.25,
+    "highest_price": 301.75,
     "stop": 276.5089,
     "target": 299.7321,
     "trailing_stop": null,
     "score": 70,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 276.5089,
+    "exit_date": "2026-07-02",
+    "result_pct": -2.72,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-07-02T15:41:25.930645+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "BTCIM.IS",
     "date": "2026-07-02",
     "entry": 6.12,
-    "highest_price": 6.12,
+    "highest_price": 6.16,
     "stop": 6.0418,
     "target": 6.2764,
     "trailing_stop": null,
     "score": 100,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 6.0418,
+    "exit_date": "2026-07-02",
+    "result_pct": -1.28,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-07-02T15:41:26.078753+03:00",
+    "cooldown_reason": "STOP"
   }
 ]
