@@ -8572,8 +8572,8 @@
     "exit_date": "2026-06-09",
     "result_pct": -2.93,
     "close_reason": "STOP",
-    "cooldown_until": "2026-06-09T15:30:56.682483+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "TCELL.IS",
@@ -14316,5 +14316,17 @@
     "close_reason": "STOP",
     "cooldown_until": "2026-07-03T15:02:11.999185+03:00",
     "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "TABGD.IS",
+    "date": "2026-07-03",
+    "entry": 234.7,
+    "highest_price": 234.7,
+    "stop": 229.2571,
+    "target": 245.5857,
+    "trailing_stop": null,
+    "score": 75,
+    "setup_type": "WEAK",
+    "status": "open"
   }
 ]
