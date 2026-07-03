@@ -12569,7 +12569,11 @@
     "stop": 82.4571,
     "target": 87.9857,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 82.4571,
+    "exit_date": "2026-07-03",
+    "result_pct": -2.19,
+    "close_reason": "STOP"
   },
   {
     "symbol": "GRSEL.IS",
@@ -12581,7 +12585,11 @@
     "stop": 303.3839,
     "target": 314.2321,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 303.3839,
+    "exit_date": "2026-07-03",
+    "result_pct": -1.18,
+    "close_reason": "STOP"
   },
   {
     "symbol": "KTLEV.IS",
@@ -12593,6 +12601,106 @@
     "stop": 177.4786,
     "target": 188.3429,
     "setup_type": "BREAKOUT",
+    "status": "closed",
+    "exit": 177.4786,
+    "exit_date": "2026-07-03",
+    "result_pct": -2.0,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "ASELS.IS",
+    "date": "2026-07-03",
+    "entry": 388.25,
+    "score": 70,
+    "rsi": 69.47,
+    "vol_ratio": 1.13,
+    "stop": 379.4911,
+    "target": 405.7679,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "BRYAT.IS",
+    "date": "2026-07-03",
+    "entry": 1898.0,
+    "score": 85,
+    "rsi": 53.51,
+    "vol_ratio": 2.79,
+    "stop": 1874.6429,
+    "target": 1944.7143,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "CLEBI.IS",
+    "date": "2026-07-03",
+    "entry": 1596.0,
+    "score": 80,
+    "rsi": 56.25,
+    "vol_ratio": 1.56,
+    "stop": 1581.3214,
+    "target": 1625.3571,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "CWENE.IS",
+    "date": "2026-07-03",
+    "entry": 39.7,
+    "score": 105,
+    "rsi": 55.24,
+    "vol_ratio": 1.9,
+    "stop": 38.2407,
+    "target": 42.6186,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "DSTKF.IS",
+    "date": "2026-07-03",
+    "entry": 3802.5,
+    "score": 100,
+    "rsi": 71.95,
+    "vol_ratio": 1.25,
+    "stop": 3724.0179,
+    "target": 3959.4643,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "EGEEN.IS",
+    "date": "2026-07-03",
+    "entry": 5842.5,
+    "score": 130,
+    "rsi": 54.35,
+    "vol_ratio": 3.17,
+    "stop": 5658.3696,
+    "target": 6210.7607,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "IEYHO.IS",
+    "date": "2026-07-03",
+    "entry": 153.0,
+    "score": 100,
+    "rsi": 58.6,
+    "vol_ratio": 1.74,
+    "stop": 148.8373,
+    "target": 161.3254,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "TTRAK.IS",
+    "date": "2026-07-03",
+    "entry": 443.5,
+    "score": 110,
+    "rsi": 63.93,
+    "vol_ratio": 1.72,
+    "stop": 440.2155,
+    "target": 450.0691,
+    "setup_type": "PULLBACK",
     "status": "open"
   }
 ]
