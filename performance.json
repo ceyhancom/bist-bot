@@ -12617,7 +12617,11 @@
     "stop": 379.4911,
     "target": 405.7679,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 379.4911,
+    "exit_date": "2026-07-03",
+    "result_pct": -2.26,
+    "close_reason": "STOP"
   },
   {
     "symbol": "BRYAT.IS",
@@ -12629,7 +12633,11 @@
     "stop": 1874.6429,
     "target": 1944.7143,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 1874.6429,
+    "exit_date": "2026-07-03",
+    "result_pct": -1.23,
+    "close_reason": "STOP"
   },
   {
     "symbol": "CLEBI.IS",
@@ -12641,7 +12649,11 @@
     "stop": 1581.3214,
     "target": 1625.3571,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 1581.3214,
+    "exit_date": "2026-07-03",
+    "result_pct": -0.92,
+    "close_reason": "STOP"
   },
   {
     "symbol": "CWENE.IS",
@@ -12653,7 +12665,11 @@
     "stop": 38.2407,
     "target": 42.6186,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 38.2407,
+    "exit_date": "2026-07-03",
+    "result_pct": -3.68,
+    "close_reason": "STOP"
   },
   {
     "symbol": "DSTKF.IS",
@@ -12665,7 +12681,11 @@
     "stop": 3724.0179,
     "target": 3959.4643,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 3724.0179,
+    "exit_date": "2026-07-03",
+    "result_pct": -2.06,
+    "close_reason": "STOP"
   },
   {
     "symbol": "EGEEN.IS",
@@ -12677,7 +12697,11 @@
     "stop": 5658.3696,
     "target": 6210.7607,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 5658.3696,
+    "exit_date": "2026-07-03",
+    "result_pct": -3.15,
+    "close_reason": "STOP"
   },
   {
     "symbol": "IEYHO.IS",
@@ -12689,7 +12713,11 @@
     "stop": 148.8373,
     "target": 161.3254,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 148.8373,
+    "exit_date": "2026-07-03",
+    "result_pct": -2.72,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TTRAK.IS",
@@ -12701,6 +12729,10 @@
     "stop": 440.2155,
     "target": 450.0691,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 440.2155,
+    "exit_date": "2026-07-03",
+    "result_pct": -0.74,
+    "close_reason": "STOP"
   }
 ]
