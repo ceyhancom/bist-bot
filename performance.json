@@ -12942,5 +12942,29 @@
     "exit_date": "2026-07-06",
     "result_pct": -1.01,
     "close_reason": "STOP"
+  },
+  {
+    "symbol": "AKSEN.IS",
+    "date": "2026-07-06",
+    "entry": 84.85,
+    "score": 120,
+    "rsi": 73.61,
+    "vol_ratio": 3.77,
+    "stop": 83.1518,
+    "target": 88.2464,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "TCELL.IS",
+    "date": "2026-07-06",
+    "entry": 108.4,
+    "score": 85,
+    "rsi": 57.5,
+    "vol_ratio": 2.85,
+    "stop": 107.0071,
+    "target": 111.1857,
+    "setup_type": "WEAK",
+    "status": "open"
   }
 ]

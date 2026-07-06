@@ -12046,8 +12046,8 @@
     "exit_date": "2026-06-22",
     "result_pct": -1.33,
     "close_reason": "STOP",
-    "cooldown_until": "2026-06-22T11:26:47.838525+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "THYAO.IS",
@@ -13144,8 +13144,8 @@
     "exit_date": "2026-06-29",
     "result_pct": -1.2,
     "close_reason": "STOP",
-    "cooldown_until": "2026-06-29T12:53:19.381970+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "DSTKF.IS",
@@ -14550,5 +14550,29 @@
     "close_reason": "STOP",
     "cooldown_until": "2026-07-06T14:48:20.453246+03:00",
     "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "AKSEN.IS",
+    "date": "2026-07-06",
+    "entry": 84.85,
+    "highest_price": 84.85,
+    "stop": 83.1518,
+    "target": 88.2464,
+    "trailing_stop": null,
+    "score": 120,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "TCELL.IS",
+    "date": "2026-07-06",
+    "entry": 108.4,
+    "highest_price": 108.4,
+    "stop": 107.0071,
+    "target": 111.1857,
+    "trailing_stop": null,
+    "score": 85,
+    "setup_type": "WEAK",
+    "status": "open"
   }
 ]
