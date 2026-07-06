@@ -12761,7 +12761,11 @@
     "stop": 16.8603,
     "target": 18.6295,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 16.8603,
+    "exit_date": "2026-07-06",
+    "result_pct": -3.38,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ASELS.IS",
@@ -12773,7 +12777,11 @@
     "stop": 391.4196,
     "target": 414.1607,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 391.4196,
+    "exit_date": "2026-07-06",
+    "result_pct": -1.9,
+    "close_reason": "STOP"
   },
   {
     "symbol": "BALSU.IS",
@@ -12785,7 +12793,11 @@
     "stop": 17.4186,
     "target": 19.7329,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 17.4186,
+    "exit_date": "2026-07-06",
+    "result_pct": -4.24,
+    "close_reason": "STOP"
   },
   {
     "symbol": "BTCIM.IS",
@@ -12797,7 +12809,11 @@
     "stop": 6.0146,
     "target": 6.2107,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 6.0146,
+    "exit_date": "2026-07-06",
+    "result_pct": -1.08,
+    "close_reason": "STOP"
   },
   {
     "symbol": "CCOLA.IS",
@@ -12809,7 +12825,11 @@
     "stop": 84.3286,
     "target": 87.9929,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 84.3286,
+    "exit_date": "2026-07-06",
+    "result_pct": -1.43,
+    "close_reason": "STOP"
   },
   {
     "symbol": "CWENE.IS",
@@ -12821,7 +12841,11 @@
     "stop": 39.1114,
     "target": 43.4571,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 39.1114,
+    "exit_date": "2026-07-06",
+    "result_pct": -3.57,
+    "close_reason": "STOP"
   },
   {
     "symbol": "GRSEL.IS",
@@ -12833,7 +12857,11 @@
     "stop": 306.1714,
     "target": 314.6571,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 306.1714,
+    "exit_date": "2026-07-06",
+    "result_pct": -0.92,
+    "close_reason": "STOP"
   },
   {
     "symbol": "HEKTS.IS",
@@ -12845,7 +12873,11 @@
     "stop": 3.2282,
     "target": 3.4436,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 3.2282,
+    "exit_date": "2026-07-06",
+    "result_pct": -2.18,
+    "close_reason": "STOP"
   },
   {
     "symbol": "IEYHO.IS",
@@ -12857,7 +12889,11 @@
     "stop": 149.9209,
     "target": 161.8581,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 149.9209,
+    "exit_date": "2026-07-06",
+    "result_pct": -2.59,
+    "close_reason": "STOP"
   },
   {
     "symbol": "KLRHO.IS",
@@ -12869,7 +12905,11 @@
     "stop": 91.0643,
     "target": 95.3714,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 91.0643,
+    "exit_date": "2026-07-06",
+    "result_pct": -1.55,
+    "close_reason": "STOP"
   },
   {
     "symbol": "THYAO.IS",
@@ -12881,7 +12921,11 @@
     "stop": 330.6149,
     "target": 342.2702,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 330.6149,
+    "exit_date": "2026-07-06",
+    "result_pct": -1.16,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ULKER.IS",
@@ -12893,6 +12937,10 @@
     "stop": 98.8375,
     "target": 101.875,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 98.8375,
+    "exit_date": "2026-07-06",
+    "result_pct": -1.01,
+    "close_reason": "STOP"
   }
 ]
