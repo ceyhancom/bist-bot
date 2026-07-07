@@ -12953,7 +12953,11 @@
     "stop": 83.1518,
     "target": 88.2464,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 83.1518,
+    "exit_date": "2026-07-07",
+    "result_pct": -2.0,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TCELL.IS",
@@ -12965,6 +12969,70 @@
     "stop": 107.0071,
     "target": 111.1857,
     "setup_type": "WEAK",
+    "status": "closed",
+    "exit": 107.0071,
+    "exit_date": "2026-07-07",
+    "result_pct": -1.28,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "ASELS.IS",
+    "date": "2026-07-07",
+    "entry": 401.75,
+    "score": 95,
+    "rsi": 63.51,
+    "vol_ratio": 1.05,
+    "stop": 385.0599,
+    "target": 435.1302,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "MAVI.IS",
+    "date": "2026-07-07",
+    "entry": 39.2,
+    "score": 120,
+    "rsi": 53.93,
+    "vol_ratio": 1.62,
+    "stop": 38.8469,
+    "target": 39.9063,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "PASEU.IS",
+    "date": "2026-07-07",
+    "entry": 97.25,
+    "score": 80,
+    "rsi": 68.23,
+    "vol_ratio": 3.82,
+    "stop": 92.7018,
+    "target": 106.3464,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "TABGD.IS",
+    "date": "2026-07-07",
+    "entry": 234.0,
+    "score": 95,
+    "rsi": 62.16,
+    "vol_ratio": 1.38,
+    "stop": 228.4114,
+    "target": 245.1771,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "TTRAK.IS",
+    "date": "2026-07-07",
+    "entry": 441.0,
+    "score": 85,
+    "rsi": 38.3,
+    "vol_ratio": 2.57,
+    "stop": 437.3304,
+    "target": 448.3393,
+    "setup_type": "TREND",
     "status": "open"
   }
 ]
