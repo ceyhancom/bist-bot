@@ -14681,24 +14681,36 @@
     "symbol": "ASTOR.IS",
     "date": "2026-07-07",
     "entry": 328.5,
-    "highest_price": 328.5,
+    "highest_price": 336.5,
     "stop": 321.1071,
     "target": 343.2857,
     "trailing_stop": null,
     "score": 120,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 321.1071,
+    "exit_date": "2026-07-07",
+    "result_pct": -2.25,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-07-07T16:50:41.114525+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "YEOTK.IS",
     "date": "2026-07-07",
     "entry": 96.8,
-    "highest_price": 96.8,
+    "highest_price": 101.6,
     "stop": 94.4054,
     "target": 101.5893,
     "trailing_stop": null,
     "score": 85,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 94.4054,
+    "exit_date": "2026-07-07",
+    "result_pct": -2.47,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-07-07T16:50:41.245569+03:00",
+    "cooldown_reason": "STOP"
   }
 ]

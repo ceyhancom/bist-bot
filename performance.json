@@ -13065,7 +13065,11 @@
     "stop": 321.1071,
     "target": 343.2857,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 321.1071,
+    "exit_date": "2026-07-07",
+    "result_pct": -2.25,
+    "close_reason": "STOP"
   },
   {
     "symbol": "YEOTK.IS",
@@ -13077,6 +13081,10 @@
     "stop": 94.4054,
     "target": 101.5893,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 94.4054,
+    "exit_date": "2026-07-07",
+    "result_pct": -2.47,
+    "close_reason": "STOP"
   }
 ]
