@@ -13097,7 +13097,11 @@
     "stop": 32.8664,
     "target": 34.1071,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 32.8664,
+    "exit_date": "2026-07-08",
+    "result_pct": -1.24,
+    "close_reason": "STOP"
   },
   {
     "symbol": "BIMAS.IS",
@@ -13109,7 +13113,11 @@
     "stop": 368.0633,
     "target": 383.6233,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 368.0633,
+    "exit_date": "2026-07-08",
+    "result_pct": -1.39,
+    "close_reason": "STOP"
   },
   {
     "symbol": "CCOLA.IS",
@@ -13121,7 +13129,11 @@
     "stop": 83.4625,
     "target": 88.525,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 83.4625,
+    "exit_date": "2026-07-08",
+    "result_pct": -1.98,
+    "close_reason": "STOP"
   },
   {
     "symbol": "CWENE.IS",
@@ -13133,7 +13145,11 @@
     "stop": 39.7166,
     "target": 43.2668,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 39.7166,
+    "exit_date": "2026-07-08",
+    "result_pct": -2.89,
+    "close_reason": "STOP"
   },
   {
     "symbol": "DSTKF.IS",
@@ -13145,7 +13161,11 @@
     "stop": 3800.5357,
     "target": 4158.9286,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 3800.5357,
+    "exit_date": "2026-07-08",
+    "result_pct": -3.05,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ENJSA.IS",
@@ -13157,7 +13177,11 @@
     "stop": 102.9486,
     "target": 106.7029,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 102.9486,
+    "exit_date": "2026-07-08",
+    "result_pct": -1.2,
+    "close_reason": "STOP"
   },
   {
     "symbol": "EUPWR.IS",
@@ -13169,7 +13193,11 @@
     "stop": 85.1873,
     "target": 93.0254,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 85.1873,
+    "exit_date": "2026-07-08",
+    "result_pct": -2.98,
+    "close_reason": "STOP"
   },
   {
     "symbol": "IEYHO.IS",
@@ -13181,7 +13209,11 @@
     "stop": 154.5429,
     "target": 157.1143,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 154.5429,
+    "exit_date": "2026-07-08",
+    "result_pct": -0.55,
+    "close_reason": "STOP"
   },
   {
     "symbol": "MAVI.IS",
@@ -13193,7 +13225,11 @@
     "stop": 39.3536,
     "target": 40.8129,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 39.3536,
+    "exit_date": "2026-07-08",
+    "result_pct": -1.22,
+    "close_reason": "STOP"
   },
   {
     "symbol": "REEDR.IS",
@@ -13205,7 +13241,11 @@
     "stop": 6.5543,
     "target": 6.9014,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 6.5543,
+    "exit_date": "2026-07-08",
+    "result_pct": -1.73,
+    "close_reason": "STOP"
   },
   {
     "symbol": "SKBNK.IS",
@@ -13217,6 +13257,22 @@
     "stop": 17.8646,
     "target": 21.3607,
     "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 17.8646,
+    "exit_date": "2026-07-08",
+    "result_pct": -6.12,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "PETKM.IS",
+    "date": "2026-07-08",
+    "entry": 19.29,
+    "score": 100,
+    "rsi": 65.6,
+    "vol_ratio": 1.64,
+    "stop": 19.0061,
+    "target": 19.8579,
+    "setup_type": "TREND",
     "status": "open"
   }
 ]
