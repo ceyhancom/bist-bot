@@ -13273,6 +13273,22 @@
     "stop": 19.0061,
     "target": 19.8579,
     "setup_type": "TREND",
+    "status": "closed",
+    "exit": 19.0061,
+    "exit_date": "2026-07-08",
+    "result_pct": -1.47,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "IEYHO.IS",
+    "date": "2026-07-08",
+    "entry": 157.2,
+    "score": 113,
+    "rsi": 77.42,
+    "vol_ratio": 2.04,
+    "stop": 155.925,
+    "target": 159.75,
+    "setup_type": "BREAKOUT",
     "status": "open"
   }
 ]

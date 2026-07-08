@@ -14854,8 +14854,8 @@
     "exit_date": "2026-07-08",
     "result_pct": -0.55,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-08T12:52:09.260536+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "MAVI.IS",
@@ -14915,12 +14915,30 @@
     "symbol": "PETKM.IS",
     "date": "2026-07-08",
     "entry": 19.29,
-    "highest_price": 19.29,
+    "highest_price": 19.59,
     "stop": 19.0061,
     "target": 19.8579,
     "trailing_stop": null,
     "score": 100,
     "setup_type": "TREND",
+    "status": "closed",
+    "exit": 19.0061,
+    "exit_date": "2026-07-08",
+    "result_pct": -1.47,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-07-08T15:03:00.474216+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "IEYHO.IS",
+    "date": "2026-07-08",
+    "entry": 157.2,
+    "highest_price": 157.2,
+    "stop": 155.925,
+    "target": 159.75,
+    "trailing_stop": null,
+    "score": 113,
+    "setup_type": "BREAKOUT",
     "status": "open"
   }
 ]
