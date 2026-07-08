@@ -13294,5 +13294,77 @@
     "exit_date": "2026-07-08",
     "result_pct": -0.81,
     "close_reason": "STOP"
+  },
+  {
+    "symbol": "CWENE.IS",
+    "date": "2026-07-08",
+    "entry": 41.24,
+    "score": 120,
+    "rsi": 61.83,
+    "vol_ratio": 2.94,
+    "stop": 39.9671,
+    "target": 43.7858,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "EUPWR.IS",
+    "date": "2026-07-08",
+    "entry": 87.5,
+    "score": 90,
+    "rsi": 62.11,
+    "vol_ratio": 1.28,
+    "stop": 85.58,
+    "target": 91.34,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "GENIL.IS",
+    "date": "2026-07-08",
+    "entry": 9.17,
+    "score": 75,
+    "rsi": 58.95,
+    "vol_ratio": 2.03,
+    "stop": 8.9439,
+    "target": 9.6221,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "IEYHO.IS",
+    "date": "2026-07-08",
+    "entry": 157.3,
+    "score": 115,
+    "rsi": 66.0,
+    "vol_ratio": 3.21,
+    "stop": 156.0893,
+    "target": 159.7214,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "MAGEN.IS",
+    "date": "2026-07-08",
+    "entry": 34.24,
+    "score": 88,
+    "rsi": 44.59,
+    "vol_ratio": 1.66,
+    "stop": 33.4836,
+    "target": 35.7529,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "TUPRS.IS",
+    "date": "2026-07-08",
+    "entry": 256.75,
+    "score": 80,
+    "rsi": 58.14,
+    "vol_ratio": 1.1,
+    "stop": 248.1614,
+    "target": 273.9272,
+    "setup_type": "PULLBACK",
+    "status": "open"
   }
 ]
