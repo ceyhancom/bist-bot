@@ -13305,7 +13305,11 @@
     "stop": 39.9671,
     "target": 43.7858,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 39.9671,
+    "exit_date": "2026-07-09",
+    "result_pct": -3.09,
+    "close_reason": "STOP"
   },
   {
     "symbol": "EUPWR.IS",
@@ -13317,7 +13321,11 @@
     "stop": 85.58,
     "target": 91.34,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 85.58,
+    "exit_date": "2026-07-09",
+    "result_pct": -2.19,
+    "close_reason": "STOP"
   },
   {
     "symbol": "GENIL.IS",
@@ -13329,7 +13337,11 @@
     "stop": 8.9439,
     "target": 9.6221,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 8.9439,
+    "exit_date": "2026-07-09",
+    "result_pct": -2.47,
+    "close_reason": "STOP"
   },
   {
     "symbol": "IEYHO.IS",
@@ -13341,7 +13353,11 @@
     "stop": 156.0893,
     "target": 159.7214,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 156.0893,
+    "exit_date": "2026-07-09",
+    "result_pct": -0.77,
+    "close_reason": "STOP"
   },
   {
     "symbol": "MAGEN.IS",
@@ -13353,7 +13369,11 @@
     "stop": 33.4836,
     "target": 35.7529,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 33.4836,
+    "exit_date": "2026-07-09",
+    "result_pct": -2.21,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TUPRS.IS",
@@ -13365,6 +13385,10 @@
     "stop": 248.1614,
     "target": 273.9272,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 248.1614,
+    "exit_date": "2026-07-09",
+    "result_pct": -3.35,
+    "close_reason": "STOP"
   }
 ]
