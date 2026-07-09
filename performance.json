@@ -13401,7 +13401,11 @@
     "stop": 86.3461,
     "target": 98.2078,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 86.3461,
+    "exit_date": "2026-07-09",
+    "result_pct": -4.38,
+    "close_reason": "STOP"
   },
   {
     "symbol": "CWENE.IS",
@@ -13413,7 +13417,11 @@
     "stop": 40.1665,
     "target": 43.9871,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 40.1665,
+    "exit_date": "2026-07-09",
+    "result_pct": -3.07,
+    "close_reason": "STOP"
   },
   {
     "symbol": "MAGEN.IS",
@@ -13425,7 +13433,11 @@
     "stop": 33.5296,
     "target": 36.2609,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 33.5296,
+    "exit_date": "2026-07-09",
+    "result_pct": -2.64,
+    "close_reason": "STOP"
   },
   {
     "symbol": "SKBNK.IS",
@@ -13437,7 +13449,11 @@
     "stop": 18.3382,
     "target": 20.2936,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 18.3382,
+    "exit_date": "2026-07-09",
+    "result_pct": -3.43,
+    "close_reason": "STOP"
   },
   {
     "symbol": "VESTL.IS",
@@ -13448,6 +13464,34 @@
     "vol_ratio": 4.5,
     "stop": 23.9807,
     "target": 25.8386,
+    "setup_type": "WEAK",
+    "status": "closed",
+    "exit": 23.9807,
+    "exit_date": "2026-07-09",
+    "result_pct": -2.52,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "AKSA.IS",
+    "date": "2026-07-09",
+    "entry": 11.7,
+    "score": 85,
+    "rsi": 55.0,
+    "vol_ratio": 2.59,
+    "stop": 11.43,
+    "target": 12.24,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "SMRTG.IS",
+    "date": "2026-07-09",
+    "entry": 10.57,
+    "score": 85,
+    "rsi": 51.87,
+    "vol_ratio": 2.4,
+    "stop": 10.2604,
+    "target": 11.1893,
     "setup_type": "WEAK",
     "status": "open"
   }
