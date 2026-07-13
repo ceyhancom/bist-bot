@@ -13993,7 +13993,11 @@
     "stop": 32.5779,
     "target": 33.8443,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 32.5779,
+    "exit_date": "2026-07-13",
+    "result_pct": -1.28,
+    "close_reason": "STOP"
   },
   {
     "symbol": "AKSEN.IS",
@@ -14005,7 +14009,11 @@
     "stop": 88.094,
     "target": 99.812,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 88.094,
+    "exit_date": "2026-07-13",
+    "result_pct": -4.25,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ANSGR.IS",
@@ -14017,7 +14025,11 @@
     "stop": 27.3486,
     "target": 28.7028,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 27.3486,
+    "exit_date": "2026-07-13",
+    "result_pct": -1.62,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ARCLK.IS",
@@ -14029,7 +14041,11 @@
     "stop": 98.125,
     "target": 101.5,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 98.125,
+    "exit_date": "2026-07-13",
+    "result_pct": -1.13,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ASTOR.IS",
@@ -14041,7 +14057,11 @@
     "stop": 316.1964,
     "target": 345.6071,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 316.1964,
+    "exit_date": "2026-07-13",
+    "result_pct": -3.01,
+    "close_reason": "STOP"
   },
   {
     "symbol": "BTCIM.IS",
@@ -14053,7 +14073,11 @@
     "stop": 5.4407,
     "target": 5.7686,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 5.4407,
+    "exit_date": "2026-07-13",
+    "result_pct": -1.97,
+    "close_reason": "STOP"
   },
   {
     "symbol": "DOHOL.IS",
@@ -14065,7 +14089,11 @@
     "stop": 20.7107,
     "target": 21.5786,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 20.7107,
+    "exit_date": "2026-07-13",
+    "result_pct": -1.38,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ENKAI.IS",
@@ -14077,7 +14105,11 @@
     "stop": 89.2446,
     "target": 92.4107,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 89.2446,
+    "exit_date": "2026-07-13",
+    "result_pct": -1.17,
+    "close_reason": "STOP"
   },
   {
     "symbol": "EUPWR.IS",
@@ -14089,7 +14121,11 @@
     "stop": 89.2839,
     "target": 96.0821,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 89.2839,
+    "exit_date": "2026-07-13",
+    "result_pct": -2.48,
+    "close_reason": "STOP"
   },
   {
     "symbol": "GRSEL.IS",
@@ -14101,7 +14137,11 @@
     "stop": 296.5625,
     "target": 308.375,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 296.5625,
+    "exit_date": "2026-07-13",
+    "result_pct": -1.31,
+    "close_reason": "STOP"
   },
   {
     "symbol": "HEKTS.IS",
@@ -14113,7 +14153,11 @@
     "stop": 3.0025,
     "target": 3.205,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 3.0025,
+    "exit_date": "2026-07-13",
+    "result_pct": -2.2,
+    "close_reason": "STOP"
   },
   {
     "symbol": "MPARK.IS",
@@ -14125,7 +14169,11 @@
     "stop": 421.8839,
     "target": 437.2321,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 421.8839,
+    "exit_date": "2026-07-13",
+    "result_pct": -1.2,
+    "close_reason": "STOP"
   },
   {
     "symbol": "RALYH.IS",
@@ -14137,7 +14185,11 @@
     "stop": 206.9429,
     "target": 220.3143,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 206.9429,
+    "exit_date": "2026-07-13",
+    "result_pct": -2.11,
+    "close_reason": "STOP"
   },
   {
     "symbol": "SKBNK.IS",
@@ -14149,7 +14201,11 @@
     "stop": 18.5079,
     "target": 20.7643,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 18.5079,
+    "exit_date": "2026-07-13",
+    "result_pct": -3.9,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TABGD.IS",
@@ -14161,7 +14217,11 @@
     "stop": 231.3321,
     "target": 249.2357,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 231.3321,
+    "exit_date": "2026-07-13",
+    "result_pct": -2.51,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TUKAS.IS",
@@ -14173,6 +14233,94 @@
     "stop": 2.1321,
     "target": 2.2157,
     "setup_type": "WEAK",
+    "status": "closed",
+    "exit": 2.1321,
+    "exit_date": "2026-07-13",
+    "result_pct": -1.29,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "BIMAS.IS",
+    "date": "2026-07-13",
+    "entry": 373.5,
+    "score": 90,
+    "rsi": 56.73,
+    "vol_ratio": 1.17,
+    "stop": 369.6214,
+    "target": 381.2571,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "CANTE.IS",
+    "date": "2026-07-13",
+    "entry": 1.28,
+    "score": 70,
+    "rsi": 60.0,
+    "vol_ratio": 1.83,
+    "stop": 1.2586,
+    "target": 1.3229,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "IEYHO.IS",
+    "date": "2026-07-13",
+    "entry": 159.8,
+    "score": 88,
+    "rsi": 75.0,
+    "vol_ratio": 2.0,
+    "stop": 158.8464,
+    "target": 161.7071,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "ODAS.IS",
+    "date": "2026-07-13",
+    "entry": 8.29,
+    "score": 85,
+    "rsi": 61.97,
+    "vol_ratio": 1.38,
+    "stop": 8.1726,
+    "target": 8.5249,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "TAVHL.IS",
+    "date": "2026-07-13",
+    "entry": 268.5,
+    "score": 75,
+    "rsi": 72.34,
+    "vol_ratio": 1.86,
+    "stop": 264.8571,
+    "target": 275.7857,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "TCELL.IS",
+    "date": "2026-07-13",
+    "entry": 107.2,
+    "score": 70,
+    "rsi": 65.52,
+    "vol_ratio": 2.68,
+    "stop": 105.7429,
+    "target": 110.1143,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "TURSG.IS",
+    "date": "2026-07-13",
+    "entry": 6.33,
+    "score": 80,
+    "rsi": 71.87,
+    "vol_ratio": 1.32,
+    "stop": 6.2454,
+    "target": 6.4993,
+    "setup_type": "TREND",
     "status": "open"
   }
 ]
