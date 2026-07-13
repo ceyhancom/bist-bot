@@ -15322,8 +15322,8 @@
     "exit_date": "2026-07-10",
     "result_pct": -2.21,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-10T15:19:33.964848+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "ENJSA.IS",
@@ -15466,8 +15466,8 @@
     "exit_date": "2026-07-10",
     "result_pct": -1.19,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-10T15:19:35.188790+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "OYAKC.IS",
@@ -15610,8 +15610,8 @@
     "exit_date": "2026-07-10",
     "result_pct": -0.76,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-10T15:19:36.433712+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "TURSG.IS",
@@ -16060,8 +16060,8 @@
     "exit_date": "2026-07-13",
     "result_pct": -0.6,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-13T13:44:14.472392+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "ODAS.IS",
@@ -16134,5 +16134,53 @@
     "close_reason": "STOP",
     "cooldown_until": "2026-07-13T13:44:15.733261+03:00",
     "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "ENERY.IS",
+    "date": "2026-07-13",
+    "entry": 10.09,
+    "highest_price": 10.09,
+    "stop": 9.8414,
+    "target": 10.5871,
+    "trailing_stop": null,
+    "score": 85,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "IEYHO.IS",
+    "date": "2026-07-13",
+    "entry": 160.4,
+    "highest_price": 160.4,
+    "stop": 157.4075,
+    "target": 166.385,
+    "trailing_stop": null,
+    "score": 120,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "MAVI.IS",
+    "date": "2026-07-13",
+    "entry": 39.52,
+    "highest_price": 39.52,
+    "stop": 38.9886,
+    "target": 40.5829,
+    "trailing_stop": null,
+    "score": 100,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "TTRAK.IS",
+    "date": "2026-07-13",
+    "entry": 440.0,
+    "highest_price": 440.0,
+    "stop": 437.8357,
+    "target": 444.3286,
+    "trailing_stop": null,
+    "score": 90,
+    "setup_type": "PULLBACK",
+    "status": "open"
   }
 ]
