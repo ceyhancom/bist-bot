@@ -14249,7 +14249,11 @@
     "stop": 369.6214,
     "target": 381.2571,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 369.6214,
+    "exit_date": "2026-07-13",
+    "result_pct": -1.04,
+    "close_reason": "STOP"
   },
   {
     "symbol": "CANTE.IS",
@@ -14261,7 +14265,11 @@
     "stop": 1.2586,
     "target": 1.3229,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 1.2586,
+    "exit_date": "2026-07-13",
+    "result_pct": -1.67,
+    "close_reason": "STOP"
   },
   {
     "symbol": "IEYHO.IS",
@@ -14273,7 +14281,11 @@
     "stop": 158.8464,
     "target": 161.7071,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 158.8464,
+    "exit_date": "2026-07-13",
+    "result_pct": -0.6,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ODAS.IS",
@@ -14285,7 +14297,11 @@
     "stop": 8.1726,
     "target": 8.5249,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 8.1726,
+    "exit_date": "2026-07-13",
+    "result_pct": -1.42,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TAVHL.IS",
@@ -14297,7 +14313,11 @@
     "stop": 264.8571,
     "target": 275.7857,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 264.8571,
+    "exit_date": "2026-07-13",
+    "result_pct": -1.36,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TCELL.IS",
@@ -14309,7 +14329,11 @@
     "stop": 105.7429,
     "target": 110.1143,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 105.7429,
+    "exit_date": "2026-07-13",
+    "result_pct": -1.36,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TURSG.IS",
@@ -14321,6 +14345,10 @@
     "stop": 6.2454,
     "target": 6.4993,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 6.2454,
+    "exit_date": "2026-07-13",
+    "result_pct": -1.34,
+    "close_reason": "STOP"
   }
 ]
