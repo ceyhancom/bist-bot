@@ -14425,7 +14425,11 @@
     "stop": 32.8011,
     "target": 33.9377,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 32.8011,
+    "exit_date": "2026-07-14",
+    "result_pct": -1.14,
+    "close_reason": "STOP"
   },
   {
     "symbol": "AKSEN.IS",
@@ -14437,7 +14441,11 @@
     "stop": 89.3407,
     "target": 97.0185,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 89.3407,
+    "exit_date": "2026-07-14",
+    "result_pct": -2.78,
+    "close_reason": "STOP"
   },
   {
     "symbol": "EREGL.IS",
@@ -14449,7 +14457,11 @@
     "stop": 40.3697,
     "target": 42.0206,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 40.3697,
+    "exit_date": "2026-07-14",
+    "result_pct": -1.34,
+    "close_reason": "STOP"
   },
   {
     "symbol": "GRSEL.IS",
@@ -14461,7 +14473,11 @@
     "stop": 304.9911,
     "target": 315.5179,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 304.9911,
+    "exit_date": "2026-07-14",
+    "result_pct": -1.14,
+    "close_reason": "STOP"
   },
   {
     "symbol": "HEKTS.IS",
@@ -14473,7 +14489,11 @@
     "stop": 3.0261,
     "target": 3.2479,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 3.0261,
+    "exit_date": "2026-07-14",
+    "result_pct": -2.38,
+    "close_reason": "STOP"
   },
   {
     "symbol": "KTLEV.IS",
@@ -14485,7 +14505,11 @@
     "stop": 186.1214,
     "target": 198.6571,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 186.1214,
+    "exit_date": "2026-07-14",
+    "result_pct": -2.2,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ODAS.IS",
@@ -14497,7 +14521,11 @@
     "stop": 8.184,
     "target": 8.472,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 8.184,
+    "exit_date": "2026-07-14",
+    "result_pct": -1.16,
+    "close_reason": "STOP"
   },
   {
     "symbol": "REEDR.IS",
@@ -14509,7 +14537,11 @@
     "stop": 6.5571,
     "target": 6.8657,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 6.5571,
+    "exit_date": "2026-07-14",
+    "result_pct": -1.55,
+    "close_reason": "STOP"
   },
   {
     "symbol": "SASA.IS",
@@ -14521,7 +14553,11 @@
     "stop": 2.5079,
     "target": 2.6943,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 2.5079,
+    "exit_date": "2026-07-14",
+    "result_pct": -2.42,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TKFEN.IS",
@@ -14533,7 +14569,11 @@
     "stop": 138.4964,
     "target": 149.0071,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 138.4964,
+    "exit_date": "2026-07-14",
+    "result_pct": -2.47,
+    "close_reason": "STOP"
   },
   {
     "symbol": "YEOTK.IS",
@@ -14545,6 +14585,22 @@
     "stop": 90.6339,
     "target": 100.1321,
     "setup_type": "WEAK",
+    "status": "closed",
+    "exit": 90.6339,
+    "exit_date": "2026-07-14",
+    "result_pct": -3.38,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "IEYHO.IS",
+    "date": "2026-07-14",
+    "entry": 161.1,
+    "score": 100,
+    "rsi": 65.52,
+    "vol_ratio": 1.79,
+    "stop": 160.1679,
+    "target": 162.9643,
+    "setup_type": "TREND",
     "status": "open"
   }
 ]
