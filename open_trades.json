@@ -15160,8 +15160,8 @@
     "exit_date": "2026-07-10",
     "result_pct": -2.31,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-10T12:26:25.234063+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "SMRTG.IS",
@@ -16422,5 +16422,17 @@
     "close_reason": "STOP",
     "cooldown_until": "2026-07-14T12:39:53.234503+03:00",
     "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "AKSA.IS",
+    "date": "2026-07-14",
+    "entry": 11.84,
+    "highest_price": 11.84,
+    "stop": 11.6664,
+    "target": 12.1871,
+    "trailing_stop": null,
+    "score": 85,
+    "setup_type": "WEAK",
+    "status": "open"
   }
 ]
