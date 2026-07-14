@@ -14601,6 +14601,10 @@
     "stop": 160.1679,
     "target": 162.9643,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 160.1679,
+    "exit_date": "2026-07-14",
+    "result_pct": -0.58,
+    "close_reason": "STOP"
   }
 ]

@@ -16409,12 +16409,18 @@
     "symbol": "IEYHO.IS",
     "date": "2026-07-14",
     "entry": 161.1,
-    "highest_price": 161.1,
+    "highest_price": 161.3,
     "stop": 160.1679,
     "target": 162.9643,
     "trailing_stop": null,
     "score": 100,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 160.1679,
+    "exit_date": "2026-07-14",
+    "result_pct": -0.58,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-07-14T12:39:53.234503+03:00",
+    "cooldown_reason": "STOP"
   }
 ]
