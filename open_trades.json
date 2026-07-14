@@ -15772,8 +15772,8 @@
     "exit_date": "2026-07-13",
     "result_pct": -1.62,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-13T10:22:54.092921+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "ARCLK.IS",
@@ -15952,8 +15952,8 @@
     "exit_date": "2026-07-13",
     "result_pct": -2.11,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-13T10:22:55.161478+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "SKBNK.IS",
@@ -16330,8 +16330,8 @@
     "exit_date": "2026-07-14",
     "result_pct": -1.16,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-14T10:19:36.454352+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "REEDR.IS",
@@ -16348,8 +16348,8 @@
     "exit_date": "2026-07-14",
     "result_pct": -1.55,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-14T10:19:36.639155+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "SASA.IS",
@@ -16427,12 +16427,66 @@
     "symbol": "AKSA.IS",
     "date": "2026-07-14",
     "entry": 11.84,
-    "highest_price": 11.84,
+    "highest_price": 12.29,
     "stop": 11.6664,
     "target": 12.1871,
     "trailing_stop": null,
     "score": 85,
     "setup_type": "WEAK",
+    "status": "closed",
+    "exit": 11.6664,
+    "exit_date": "2026-07-14",
+    "result_pct": -1.47,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-07-14T18:01:36.965937+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "ANSGR.IS",
+    "date": "2026-07-14",
+    "entry": 27.82,
+    "highest_price": 27.82,
+    "stop": 27.6075,
+    "target": 28.245,
+    "trailing_stop": null,
+    "score": 90,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "ODAS.IS",
+    "date": "2026-07-14",
+    "entry": 8.49,
+    "highest_price": 8.49,
+    "stop": 8.3807,
+    "target": 8.7086,
+    "trailing_stop": null,
+    "score": 103,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "RALYH.IS",
+    "date": "2026-07-14",
+    "entry": 216.7,
+    "highest_price": 216.7,
+    "stop": 212.9929,
+    "target": 224.1143,
+    "trailing_stop": null,
+    "score": 135,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "REEDR.IS",
+    "date": "2026-07-14",
+    "entry": 6.82,
+    "highest_price": 6.82,
+    "stop": 6.6904,
+    "target": 7.0793,
+    "trailing_stop": null,
+    "score": 78,
+    "setup_type": "TREND",
     "status": "open"
   }
 ]
