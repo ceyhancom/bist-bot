@@ -14697,7 +14697,11 @@
     "stop": 317.1964,
     "target": 342.1071,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 317.1964,
+    "exit_date": "2026-07-15",
+    "result_pct": -2.55,
+    "close_reason": "STOP"
   },
   {
     "symbol": "CWENE.IS",
@@ -14709,7 +14713,11 @@
     "stop": 37.3464,
     "target": 39.3071,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 37.3464,
+    "exit_date": "2026-07-15",
+    "result_pct": -1.72,
+    "close_reason": "STOP"
   },
   {
     "symbol": "DOHOL.IS",
@@ -14721,7 +14729,11 @@
     "stop": 20.9227,
     "target": 22.0546,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 20.9227,
+    "exit_date": "2026-07-15",
+    "result_pct": -1.77,
+    "close_reason": "STOP"
   },
   {
     "symbol": "GESAN.IS",
@@ -14733,7 +14745,11 @@
     "stop": 79.3992,
     "target": 83.1517,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 79.3992,
+    "exit_date": "2026-07-15",
+    "result_pct": -1.55,
+    "close_reason": "STOP"
   },
   {
     "symbol": "IEYHO.IS",
@@ -14745,7 +14761,11 @@
     "stop": 158.6882,
     "target": 166.5235,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 158.6882,
+    "exit_date": "2026-07-15",
+    "result_pct": -1.62,
+    "close_reason": "STOP"
   },
   {
     "symbol": "KTLEV.IS",
@@ -14757,7 +14777,11 @@
     "stop": 193.45,
     "target": 205.6,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 193.45,
+    "exit_date": "2026-07-15",
+    "result_pct": -2.05,
+    "close_reason": "STOP"
   },
   {
     "symbol": "MAVI.IS",
@@ -14769,7 +14793,11 @@
     "stop": 39.4857,
     "target": 40.6686,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 39.4857,
+    "exit_date": "2026-07-15",
+    "result_pct": -0.99,
+    "close_reason": "STOP"
   },
   {
     "symbol": "MIATK.IS",
@@ -14781,7 +14809,11 @@
     "stop": 34.14,
     "target": 36.66,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 34.14,
+    "exit_date": "2026-07-15",
+    "result_pct": -2.4,
+    "close_reason": "STOP"
   },
   {
     "symbol": "SMRTG.IS",
@@ -14793,7 +14825,11 @@
     "stop": 10.9277,
     "target": 11.4446,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 10.9277,
+    "exit_date": "2026-07-15",
+    "result_pct": -1.55,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TKFEN.IS",
@@ -14805,7 +14841,11 @@
     "stop": 139.0536,
     "target": 147.8929,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 139.0536,
+    "exit_date": "2026-07-15",
+    "result_pct": -2.07,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TTRAK.IS",
@@ -14817,7 +14857,11 @@
     "stop": 440.0893,
     "target": 447.3214,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 440.0893,
+    "exit_date": "2026-07-15",
+    "result_pct": -0.54,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TUREX.IS",
@@ -14829,7 +14873,11 @@
     "stop": 6.7757,
     "target": 6.9686,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 6.7757,
+    "exit_date": "2026-07-15",
+    "result_pct": -0.94,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TURSG.IS",
@@ -14841,6 +14889,22 @@
     "stop": 6.5171,
     "target": 6.9157,
     "setup_type": "TREND",
+    "status": "closed",
+    "exit": 6.5171,
+    "exit_date": "2026-07-15",
+    "result_pct": -2.0,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "ANSGR.IS",
+    "date": "2026-07-15",
+    "entry": 27.84,
+    "score": 100,
+    "rsi": 57.63,
+    "vol_ratio": 1.21,
+    "stop": 27.6151,
+    "target": 28.2897,
+    "setup_type": "PULLBACK",
     "status": "open"
   }
 ]
