@@ -15833,7 +15833,11 @@
     "stop": 8.4846,
     "target": 8.8607,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 8.4846,
+    "exit_date": "2026-07-16",
+    "result_pct": -1.46,
+    "close_reason": "STOP"
   },
   {
     "symbol": "OTKAR.IS",
@@ -15845,7 +15849,11 @@
     "stop": 330.0357,
     "target": 339.6786,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 330.0357,
+    "exit_date": "2026-07-16",
+    "result_pct": -0.96,
+    "close_reason": "STOP"
   },
   {
     "symbol": "SMRTG.IS",
@@ -15857,7 +15865,11 @@
     "stop": 11.2507,
     "target": 12.0286,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 11.2507,
+    "exit_date": "2026-07-16",
+    "result_pct": -2.25,
+    "close_reason": "STOP"
   },
   {
     "symbol": "YEOTK.IS",
@@ -15869,6 +15881,22 @@
     "stop": 92.871,
     "target": 101.0581,
     "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 92.871,
+    "exit_date": "2026-07-16",
+    "result_pct": -2.85,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "AGHOL.IS",
+    "date": "2026-07-16",
+    "entry": 33.74,
+    "score": 70,
+    "rsi": 66.3,
+    "vol_ratio": 1.01,
+    "stop": 33.2364,
+    "target": 34.7471,
+    "setup_type": "TREND",
     "status": "open"
   }
 ]
