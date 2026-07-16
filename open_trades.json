@@ -15790,8 +15790,8 @@
     "exit_date": "2026-07-13",
     "result_pct": -1.13,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-13T10:22:54.212254+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "ASTOR.IS",
@@ -17122,8 +17122,8 @@
     "exit_date": "2026-07-15",
     "result_pct": -2.05,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-15T19:35:42.122951+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "MAVI.IS",
@@ -17266,8 +17266,8 @@
     "exit_date": "2026-07-16",
     "result_pct": -0.81,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-16T12:19:36.753341+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "AEFES.IS",
@@ -17867,12 +17867,54 @@
     "symbol": "AGHOL.IS",
     "date": "2026-07-16",
     "entry": 33.74,
-    "highest_price": 33.74,
+    "highest_price": 34.14,
     "stop": 33.2364,
     "target": 34.7471,
     "trailing_stop": null,
     "score": 70,
     "setup_type": "TREND",
+    "status": "closed",
+    "exit": 33.2364,
+    "exit_date": "2026-07-16",
+    "result_pct": -1.49,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-07-16T18:08:31.745918+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "ANSGR.IS",
+    "date": "2026-07-16",
+    "entry": 28.14,
+    "highest_price": 28.14,
+    "stop": 27.885,
+    "target": 28.65,
+    "trailing_stop": null,
+    "score": 125,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "ARCLK.IS",
+    "date": "2026-07-16",
+    "entry": 99.5,
+    "highest_price": 99.5,
+    "stop": 98.7982,
+    "target": 100.9036,
+    "trailing_stop": null,
+    "score": 103,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "KTLEV.IS",
+    "date": "2026-07-16",
+    "entry": 199.5,
+    "highest_price": 199.5,
+    "stop": 196.425,
+    "target": 205.65,
+    "trailing_stop": null,
+    "score": 125,
+    "setup_type": "BREAKOUT",
     "status": "open"
   }
 ]
