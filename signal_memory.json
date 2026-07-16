@@ -1,22 +1,14 @@
 {
   "AEFES.IS": {
     "last": {
-      "signal": "🟢 GÜÇLÜ AL",
-      "signal_key": "al",
-      "score": 75,
-      "price": 20.42,
+      "signal": "🟡 TAKİP",
+      "signal_key": "takip",
+      "score": 80,
+      "price": 20.54,
       "setup_type": "WEAK",
-      "updated_at": "16.07.2026 11:35"
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": -45,
-        "price": 19.73,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
@@ -168,27 +160,27 @@
         "price": 20.42,
         "setup_type": "WEAK",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🟡 TAKİP",
+        "signal_key": "takip",
+        "score": 80,
+        "price": 20.54,
+        "setup_type": "WEAK",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
   "AGHOL.IS": {
     "last": {
-      "signal": "🔥 ÇOK GÜÇLÜ AL",
-      "signal_key": "al",
+      "signal": "🟡 TAKİP",
+      "signal_key": "takip",
       "score": 100,
-      "price": 33.54,
+      "price": 33.72,
       "setup_type": "PULLBACK",
-      "updated_at": "16.07.2026 11:35"
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": -45,
-        "price": 32.0,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🟡 TAKİP",
         "signal_key": "takip",
@@ -340,6 +332,14 @@
         "price": 33.54,
         "setup_type": "PULLBACK",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🟡 TAKİP",
+        "signal_key": "takip",
+        "score": 100,
+        "price": 33.72,
+        "setup_type": "PULLBACK",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
@@ -347,20 +347,12 @@
     "last": {
       "signal": "🔴 SAT / UZAK DUR",
       "signal_key": "sat",
-      "score": 20,
-      "price": 68.25,
+      "score": -10,
+      "price": 67.55,
       "setup_type": "WEAK",
-      "updated_at": "16.07.2026 11:35"
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": -45,
-        "price": 70.15,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
@@ -512,6 +504,14 @@
         "price": 68.25,
         "setup_type": "WEAK",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🔴 SAT / UZAK DUR",
+        "signal_key": "sat",
+        "score": -10,
+        "price": 67.55,
+        "setup_type": "WEAK",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
@@ -519,20 +519,12 @@
     "last": {
       "signal": "🟡 TAKİP",
       "signal_key": "takip",
-      "score": 70,
-      "price": 12.03,
+      "score": 55,
+      "price": 12.1,
       "setup_type": "TREND",
-      "updated_at": "16.07.2026 11:35"
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔥 ÇOK GÜÇLÜ AL",
-        "signal_key": "al",
-        "score": 85,
-        "price": 11.7,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
@@ -684,6 +676,14 @@
         "price": 12.03,
         "setup_type": "TREND",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🟡 TAKİP",
+        "signal_key": "takip",
+        "score": 55,
+        "price": 12.1,
+        "setup_type": "TREND",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
@@ -691,20 +691,12 @@
     "last": {
       "signal": "🟡 TAKİP",
       "signal_key": "takip",
-      "score": 115,
-      "price": 99.7,
-      "setup_type": "BREAKOUT",
-      "updated_at": "16.07.2026 11:35"
+      "score": 55,
+      "price": 99.8,
+      "setup_type": "TREND",
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "score": 80,
-        "price": 90.15,
-        "setup_type": "TREND",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🟡 TAKİP",
         "signal_key": "takip",
@@ -856,27 +848,27 @@
         "price": 99.7,
         "setup_type": "BREAKOUT",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🟡 TAKİP",
+        "signal_key": "takip",
+        "score": 55,
+        "price": 99.8,
+        "setup_type": "TREND",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
   "ALARK.IS": {
     "last": {
-      "signal": "🟢 GÜÇLÜ AL",
-      "signal_key": "al",
-      "score": 70,
+      "signal": "🔴 SAT / UZAK DUR",
+      "signal_key": "sat",
+      "score": 35,
       "price": 100.0,
       "setup_type": "WEAK",
-      "updated_at": "16.07.2026 11:35"
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": -2,
-        "price": 98.15,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
@@ -1028,27 +1020,27 @@
         "price": 100.0,
         "setup_type": "WEAK",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🔴 SAT / UZAK DUR",
+        "signal_key": "sat",
+        "score": 35,
+        "price": 100.0,
+        "setup_type": "WEAK",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
   "ALTNY.IS": {
     "last": {
-      "signal": "🟢 GÜÇLÜ AL",
-      "signal_key": "al",
-      "score": 80,
-      "price": 15.94,
+      "signal": "⚪ BEKLE",
+      "signal_key": "none",
+      "score": 45,
+      "price": 15.86,
       "setup_type": "WEAK",
-      "updated_at": "16.07.2026 11:35"
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": -45,
-        "price": 15.74,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
@@ -1200,27 +1192,27 @@
         "price": 15.94,
         "setup_type": "WEAK",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "⚪ BEKLE",
+        "signal_key": "none",
+        "score": 45,
+        "price": 15.86,
+        "setup_type": "WEAK",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
   "ANSGR.IS": {
     "last": {
-      "signal": "🟡 TAKİP",
-      "signal_key": "takip",
-      "score": 130,
-      "price": 27.98,
+      "signal": "⚪ BEKLE",
+      "signal_key": "none",
+      "score": 48,
+      "price": 27.84,
       "setup_type": "PULLBACK",
-      "updated_at": "16.07.2026 11:35"
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": 35,
-        "price": 27.3,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🔥 ÇOK GÜÇLÜ AL",
         "signal_key": "al",
@@ -1372,6 +1364,14 @@
         "price": 27.98,
         "setup_type": "PULLBACK",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "⚪ BEKLE",
+        "signal_key": "none",
+        "score": 48,
+        "price": 27.84,
+        "setup_type": "PULLBACK",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
@@ -1380,19 +1380,11 @@
       "signal": "🟡 TAKİP",
       "signal_key": "takip",
       "score": 55,
-      "price": 98.8,
+      "price": 98.5,
       "setup_type": "WEAK",
-      "updated_at": "16.07.2026 11:35"
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": -25,
-        "price": 96.65,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🔥 ÇOK GÜÇLÜ AL",
         "signal_key": "al",
@@ -1544,27 +1536,27 @@
         "price": 98.8,
         "setup_type": "WEAK",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🟡 TAKİP",
+        "signal_key": "takip",
+        "score": 55,
+        "price": 98.5,
+        "setup_type": "WEAK",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
   "ASELS.IS": {
     "last": {
-      "signal": "🔥 ÇOK GÜÇLÜ AL",
-      "signal_key": "al",
-      "score": 85,
-      "price": 362.25,
+      "signal": "🔴 SAT / UZAK DUR",
+      "signal_key": "sat",
+      "score": 35,
+      "price": 356.25,
       "setup_type": "WEAK",
-      "updated_at": "16.07.2026 11:35"
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": -45,
-        "price": 361.0,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🟡 TAKİP",
         "signal_key": "takip",
@@ -1716,35 +1708,27 @@
         "price": 362.25,
         "setup_type": "WEAK",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🔴 SAT / UZAK DUR",
+        "signal_key": "sat",
+        "score": 35,
+        "price": 356.25,
+        "setup_type": "WEAK",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
   "ASTOR.IS": {
     "last": {
-      "signal": "🔥 ÇOK GÜÇLÜ AL",
-      "signal_key": "al",
-      "score": 105,
-      "price": 325.5,
-      "setup_type": "PULLBACK",
-      "updated_at": "16.07.2026 11:35"
+      "signal": "🔴 SAT / UZAK DUR",
+      "signal_key": "sat",
+      "score": -10,
+      "price": 322.0,
+      "setup_type": "WEAK",
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": -45,
-        "price": 308.0,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
-      {
-        "signal": "🔥 ÇOK GÜÇLÜ AL",
-        "signal_key": "al",
-        "score": 113,
-        "price": 318.75,
-        "setup_type": "PULLBACK",
-        "updated_at": "10.07.2026 11:41"
-      },
       {
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
@@ -1888,6 +1872,22 @@
         "price": 325.5,
         "setup_type": "PULLBACK",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🟡 TAKİP",
+        "signal_key": "takip",
+        "score": 55,
+        "price": 322.25,
+        "setup_type": "TREND",
+        "updated_at": "16.07.2026 13:36"
+      },
+      {
+        "signal": "🔴 SAT / UZAK DUR",
+        "signal_key": "sat",
+        "score": -10,
+        "price": 322.0,
+        "setup_type": "WEAK",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
@@ -1895,20 +1895,12 @@
     "last": {
       "signal": "🟡 TAKİP",
       "signal_key": "takip",
-      "score": 85,
-      "price": 17.22,
+      "score": 75,
+      "price": 16.8,
       "setup_type": "TREND",
-      "updated_at": "16.07.2026 11:35"
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": -45,
-        "price": 13.82,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
@@ -2060,27 +2052,27 @@
         "price": 17.22,
         "setup_type": "TREND",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🟡 TAKİP",
+        "signal_key": "takip",
+        "score": 75,
+        "price": 16.8,
+        "setup_type": "TREND",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
   "BIMAS.IS": {
     "last": {
-      "signal": "🟡 TAKİP",
-      "signal_key": "takip",
-      "score": 80,
-      "price": 394.5,
+      "signal": "⚪ BEKLE",
+      "signal_key": "none",
+      "score": 45,
+      "price": 393.5,
       "setup_type": "TREND",
-      "updated_at": "16.07.2026 11:35"
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": -27,
-        "price": 367.5,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🟡 TAKİP",
         "signal_key": "takip",
@@ -2232,27 +2224,27 @@
         "price": 394.5,
         "setup_type": "TREND",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "⚪ BEKLE",
+        "signal_key": "none",
+        "score": 45,
+        "price": 393.5,
+        "setup_type": "TREND",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
   "BRSAN.IS": {
     "last": {
-      "signal": "🟡 TAKİP",
-      "signal_key": "takip",
-      "score": 100,
-      "price": 575.5,
-      "setup_type": "BREAKOUT",
-      "updated_at": "16.07.2026 11:35"
+      "signal": "🔴 SAT / UZAK DUR",
+      "signal_key": "sat",
+      "score": 35,
+      "price": 571.5,
+      "setup_type": "TREND",
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": -45,
-        "price": 528.0,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
@@ -2404,27 +2396,27 @@
         "price": 575.5,
         "setup_type": "BREAKOUT",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🔴 SAT / UZAK DUR",
+        "signal_key": "sat",
+        "score": 35,
+        "price": 571.5,
+        "setup_type": "TREND",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
   "BRYAT.IS": {
     "last": {
-      "signal": "🟡 TAKİP",
-      "signal_key": "takip",
-      "score": 68,
-      "price": 1857.0,
+      "signal": "🔴 SAT / UZAK DUR",
+      "signal_key": "sat",
+      "score": 18,
+      "price": 1838.0,
       "setup_type": "WEAK",
-      "updated_at": "16.07.2026 11:35"
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": -45,
-        "price": 1818.0,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "⚪ BEKLE",
         "signal_key": "none",
@@ -2576,27 +2568,27 @@
         "price": 1857.0,
         "setup_type": "WEAK",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🔴 SAT / UZAK DUR",
+        "signal_key": "sat",
+        "score": 18,
+        "price": 1838.0,
+        "setup_type": "WEAK",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
   "BTCIM.IS": {
     "last": {
-      "signal": "🔴 SAT / UZAK DUR",
-      "signal_key": "sat",
-      "score": 35,
+      "signal": "⚪ BEKLE",
+      "signal_key": "none",
+      "score": 45,
       "price": 5.64,
       "setup_type": "WEAK",
-      "updated_at": "16.07.2026 11:35"
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": -20,
-        "price": 5.38,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
@@ -2748,27 +2740,27 @@
         "price": 5.64,
         "setup_type": "WEAK",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "⚪ BEKLE",
+        "signal_key": "none",
+        "score": 45,
+        "price": 5.64,
+        "setup_type": "WEAK",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
   "CANTE.IS": {
     "last": {
-      "signal": "⚪ BEKLE",
-      "signal_key": "none",
-      "score": 45,
+      "signal": "🟡 TAKİP",
+      "signal_key": "takip",
+      "score": 55,
       "price": 1.31,
-      "setup_type": "WEAK",
-      "updated_at": "16.07.2026 11:35"
+      "setup_type": "TREND",
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": -45,
-        "price": 1.25,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🟢 GÜÇLÜ AL",
         "signal_key": "al",
@@ -2920,27 +2912,27 @@
         "price": 1.31,
         "setup_type": "WEAK",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🟡 TAKİP",
+        "signal_key": "takip",
+        "score": 55,
+        "price": 1.31,
+        "setup_type": "TREND",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
   "CCOLA.IS": {
     "last": {
-      "signal": "🟡 TAKİP",
-      "signal_key": "takip",
-      "score": 115,
-      "price": 86.05,
-      "setup_type": "BREAKOUT",
-      "updated_at": "16.07.2026 11:35"
+      "signal": "⚪ BEKLE",
+      "signal_key": "none",
+      "score": 45,
+      "price": 86.8,
+      "setup_type": "TREND",
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": -45,
-        "price": 81.8,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🔥 ÇOK GÜÇLÜ AL",
         "signal_key": "al",
@@ -3092,27 +3084,27 @@
         "price": 86.05,
         "setup_type": "BREAKOUT",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "⚪ BEKLE",
+        "signal_key": "none",
+        "score": 45,
+        "price": 86.8,
+        "setup_type": "TREND",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
   "CIMSA.IS": {
     "last": {
-      "signal": "🔥 ÇOK GÜÇLÜ AL",
-      "signal_key": "al",
-      "score": 85,
-      "price": 46.98,
+      "signal": "🟡 TAKİP",
+      "signal_key": "takip",
+      "score": 55,
+      "price": 47.62,
       "setup_type": "WEAK",
-      "updated_at": "16.07.2026 11:35"
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": -45,
-        "price": 45.74,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
@@ -3264,27 +3256,27 @@
         "price": 46.98,
         "setup_type": "WEAK",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🟡 TAKİP",
+        "signal_key": "takip",
+        "score": 55,
+        "price": 47.62,
+        "setup_type": "WEAK",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
   "CLEBI.IS": {
     "last": {
-      "signal": "🟢 GÜÇLÜ AL",
-      "signal_key": "al",
-      "score": 70,
-      "price": 1554.0,
+      "signal": "🔴 SAT / UZAK DUR",
+      "signal_key": "sat",
+      "score": 35,
+      "price": 1549.0,
       "setup_type": "WEAK",
-      "updated_at": "16.07.2026 11:35"
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": -35,
-        "price": 1525.0,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
@@ -3436,6 +3428,14 @@
         "price": 1554.0,
         "setup_type": "WEAK",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🔴 SAT / UZAK DUR",
+        "signal_key": "sat",
+        "score": 35,
+        "price": 1549.0,
+        "setup_type": "WEAK",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
@@ -3444,19 +3444,11 @@
       "signal": "🔴 SAT / UZAK DUR",
       "signal_key": "sat",
       "score": 20,
-      "price": 38.7,
+      "price": 38.82,
       "setup_type": "WEAK",
-      "updated_at": "16.07.2026 11:35"
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": -10,
-        "price": 40.16,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
@@ -3608,27 +3600,27 @@
         "price": 38.7,
         "setup_type": "WEAK",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🔴 SAT / UZAK DUR",
+        "signal_key": "sat",
+        "score": 20,
+        "price": 38.82,
+        "setup_type": "WEAK",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
   "DOAS.IS": {
     "last": {
-      "signal": "🔥 ÇOK GÜÇLÜ AL",
-      "signal_key": "al",
-      "score": 120,
-      "price": 187.3,
+      "signal": "🟡 TAKİP",
+      "signal_key": "takip",
+      "score": 78,
+      "price": 185.2,
       "setup_type": "PULLBACK",
-      "updated_at": "16.07.2026 11:35"
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": -17,
-        "price": 182.3,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🟢 GÜÇLÜ AL",
         "signal_key": "al",
@@ -3780,6 +3772,14 @@
         "price": 187.3,
         "setup_type": "PULLBACK",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🟡 TAKİP",
+        "signal_key": "takip",
+        "score": 78,
+        "price": 185.2,
+        "setup_type": "PULLBACK",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
@@ -3787,20 +3787,12 @@
     "last": {
       "signal": "🟡 TAKİP",
       "signal_key": "takip",
-      "score": 75,
-      "price": 21.66,
+      "score": 70,
+      "price": 21.56,
       "setup_type": "TREND",
-      "updated_at": "16.07.2026 11:35"
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": -27,
-        "price": 20.24,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🟡 TAKİP",
         "signal_key": "takip",
@@ -3952,6 +3944,14 @@
         "price": 21.66,
         "setup_type": "TREND",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🟡 TAKİP",
+        "signal_key": "takip",
+        "score": 70,
+        "price": 21.56,
+        "setup_type": "TREND",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
@@ -3959,20 +3959,12 @@
     "last": {
       "signal": "🔴 SAT / UZAK DUR",
       "signal_key": "sat",
-      "score": -5,
+      "score": -45,
       "price": 2802.5,
       "setup_type": "WEAK",
-      "updated_at": "16.07.2026 11:35"
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "score": 55,
-        "price": 3857.5,
-        "setup_type": "TREND",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🟡 TAKİP",
         "signal_key": "takip",
@@ -4124,27 +4116,27 @@
         "price": 2802.5,
         "setup_type": "WEAK",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🔴 SAT / UZAK DUR",
+        "signal_key": "sat",
+        "score": -45,
+        "price": 2802.5,
+        "setup_type": "WEAK",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
   "EGEEN.IS": {
     "last": {
-      "signal": "🟢 GÜÇLÜ AL",
-      "signal_key": "al",
-      "score": 70,
-      "price": 5565.0,
+      "signal": "⚪ BEKLE",
+      "signal_key": "none",
+      "score": 45,
+      "price": 5575.0,
       "setup_type": "WEAK",
-      "updated_at": "16.07.2026 11:35"
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": -45,
-        "price": 5435.0,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🔥 ÇOK GÜÇLÜ AL",
         "signal_key": "al",
@@ -4296,27 +4288,27 @@
         "price": 5565.0,
         "setup_type": "WEAK",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "⚪ BEKLE",
+        "signal_key": "none",
+        "score": 45,
+        "price": 5575.0,
+        "setup_type": "WEAK",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
   "EKGYO.IS": {
     "last": {
-      "signal": "🔥 ÇOK GÜÇLÜ AL",
-      "signal_key": "al",
-      "score": 100,
-      "price": 21.26,
+      "signal": "🟡 TAKİP",
+      "signal_key": "takip",
+      "score": 55,
+      "price": 21.2,
       "setup_type": "TREND",
-      "updated_at": "16.07.2026 11:35"
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": -27,
-        "price": 20.4,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "⚪ BEKLE",
         "signal_key": "none",
@@ -4468,6 +4460,14 @@
         "price": 21.26,
         "setup_type": "TREND",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🟡 TAKİP",
+        "signal_key": "takip",
+        "score": 55,
+        "price": 21.2,
+        "setup_type": "TREND",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
@@ -4476,19 +4476,11 @@
       "signal": "🔴 SAT / UZAK DUR",
       "signal_key": "sat",
       "score": -35,
-      "price": 9.88,
+      "price": 9.78,
       "setup_type": "WEAK",
-      "updated_at": "16.07.2026 11:35"
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": 25,
-        "price": 9.52,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🟢 GÜÇLÜ AL",
         "signal_key": "al",
@@ -4640,6 +4632,14 @@
         "price": 9.88,
         "setup_type": "WEAK",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🔴 SAT / UZAK DUR",
+        "signal_key": "sat",
+        "score": -35,
+        "price": 9.78,
+        "setup_type": "WEAK",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
@@ -4647,20 +4647,12 @@
     "last": {
       "signal": "🔴 SAT / UZAK DUR",
       "signal_key": "sat",
-      "score": 25,
-      "price": 100.8,
+      "score": -20,
+      "price": 100.7,
       "setup_type": "WEAK",
-      "updated_at": "16.07.2026 11:35"
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": 0,
-        "price": 103.7,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🔥 ÇOK GÜÇLÜ AL",
         "signal_key": "al",
@@ -4812,27 +4804,27 @@
         "price": 100.8,
         "setup_type": "WEAK",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🔴 SAT / UZAK DUR",
+        "signal_key": "sat",
+        "score": -20,
+        "price": 100.7,
+        "setup_type": "WEAK",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
   "ENKAI.IS": {
     "last": {
-      "signal": "🟢 GÜÇLÜ AL",
-      "signal_key": "al",
-      "score": 80,
-      "price": 91.8,
+      "signal": "🔴 SAT / UZAK DUR",
+      "signal_key": "sat",
+      "score": 35,
+      "price": 91.05,
       "setup_type": "WEAK",
-      "updated_at": "16.07.2026 11:35"
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": -10,
-        "price": 89.2,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
@@ -4984,27 +4976,27 @@
         "price": 91.8,
         "setup_type": "WEAK",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🔴 SAT / UZAK DUR",
+        "signal_key": "sat",
+        "score": 35,
+        "price": 91.05,
+        "setup_type": "WEAK",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
   "EREGL.IS": {
     "last": {
-      "signal": "🟡 TAKİP",
-      "signal_key": "takip",
-      "score": 115,
-      "price": 44.02,
-      "setup_type": "BREAKOUT",
-      "updated_at": "16.07.2026 11:35"
+      "signal": "⚪ BEKLE",
+      "signal_key": "none",
+      "score": 53,
+      "price": 43.88,
+      "setup_type": "TREND",
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": -25,
-        "price": 39.36,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🟡 TAKİP",
         "signal_key": "takip",
@@ -5156,6 +5148,14 @@
         "price": 44.02,
         "setup_type": "BREAKOUT",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "⚪ BEKLE",
+        "signal_key": "none",
+        "score": 53,
+        "price": 43.88,
+        "setup_type": "TREND",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
@@ -5163,20 +5163,12 @@
     "last": {
       "signal": "🟡 TAKİP",
       "signal_key": "takip",
-      "score": 70,
-      "price": 90.45,
+      "score": 80,
+      "price": 90.4,
       "setup_type": "TREND",
-      "updated_at": "16.07.2026 11:35"
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "score": 80,
-        "price": 87.85,
-        "setup_type": "TREND",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🔥 ÇOK GÜÇLÜ AL",
         "signal_key": "al",
@@ -5328,27 +5320,27 @@
         "price": 90.45,
         "setup_type": "TREND",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🟡 TAKİP",
+        "signal_key": "takip",
+        "score": 80,
+        "price": 90.4,
+        "setup_type": "TREND",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
   "FROTO.IS": {
     "last": {
-      "signal": "🟢 GÜÇLÜ AL",
-      "signal_key": "al",
-      "score": 80,
-      "price": 83.8,
-      "setup_type": "WEAK",
-      "updated_at": "16.07.2026 11:35"
+      "signal": "🟡 TAKİP",
+      "signal_key": "takip",
+      "score": 70,
+      "price": 84.2,
+      "setup_type": "TREND",
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": -17,
-        "price": 80.65,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "⚪ BEKLE",
         "signal_key": "none",
@@ -5500,6 +5492,14 @@
         "price": 83.8,
         "setup_type": "WEAK",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🟡 TAKİP",
+        "signal_key": "takip",
+        "score": 70,
+        "price": 84.2,
+        "setup_type": "TREND",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
@@ -5507,20 +5507,12 @@
     "last": {
       "signal": "🔴 SAT / UZAK DUR",
       "signal_key": "sat",
-      "score": 35,
-      "price": 128.0,
+      "score": -10,
+      "price": 127.2,
       "setup_type": "WEAK",
-      "updated_at": "16.07.2026 11:35"
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": -27,
-        "price": 129.7,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
@@ -5672,27 +5664,27 @@
         "price": 128.0,
         "setup_type": "WEAK",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🔴 SAT / UZAK DUR",
+        "signal_key": "sat",
+        "score": -10,
+        "price": 127.2,
+        "setup_type": "WEAK",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
   "GENIL.IS": {
     "last": {
-      "signal": "🔥 ÇOK GÜÇLÜ AL",
-      "signal_key": "al",
-      "score": 85,
-      "price": 9.24,
+      "signal": "🔴 SAT / UZAK DUR",
+      "signal_key": "sat",
+      "score": 35,
+      "price": 9.09,
       "setup_type": "WEAK",
-      "updated_at": "16.07.2026 11:35"
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": -10,
-        "price": 9.06,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
@@ -5844,6 +5836,14 @@
         "price": 9.24,
         "setup_type": "WEAK",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🔴 SAT / UZAK DUR",
+        "signal_key": "sat",
+        "score": 35,
+        "price": 9.09,
+        "setup_type": "WEAK",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
@@ -5851,20 +5851,12 @@
     "last": {
       "signal": "🟡 TAKİP",
       "signal_key": "takip",
-      "score": 90,
-      "price": 80.85,
-      "setup_type": "PULLBACK",
-      "updated_at": "16.07.2026 11:35"
+      "score": 80,
+      "price": 80.8,
+      "setup_type": "TREND",
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "score": 65,
-        "price": 79.6,
-        "setup_type": "TREND",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🟢 GÜÇLÜ AL",
         "signal_key": "al",
@@ -6016,6 +6008,14 @@
         "price": 80.85,
         "setup_type": "PULLBACK",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🟡 TAKİP",
+        "signal_key": "takip",
+        "score": 80,
+        "price": 80.8,
+        "setup_type": "TREND",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
@@ -6023,20 +6023,12 @@
     "last": {
       "signal": "🟡 TAKİP",
       "signal_key": "takip",
-      "score": 65,
-      "price": 318.5,
+      "score": 75,
+      "price": 318.25,
       "setup_type": "TREND",
-      "updated_at": "16.07.2026 11:35"
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": -27,
-        "price": 297.0,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🟡 TAKİP",
         "signal_key": "takip",
@@ -6188,6 +6180,14 @@
         "price": 318.5,
         "setup_type": "TREND",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🟡 TAKİP",
+        "signal_key": "takip",
+        "score": 75,
+        "price": 318.25,
+        "setup_type": "TREND",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
@@ -6196,19 +6196,11 @@
       "signal": "⚪ BEKLE",
       "signal_key": "none",
       "score": 40,
-      "price": 426.75,
+      "price": 428.75,
       "setup_type": "WEAK",
-      "updated_at": "16.07.2026 11:35"
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": -27,
-        "price": 434.5,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🟡 TAKİP",
         "signal_key": "takip",
@@ -6360,27 +6352,27 @@
         "price": 426.75,
         "setup_type": "WEAK",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "⚪ BEKLE",
+        "signal_key": "none",
+        "score": 40,
+        "price": 428.75,
+        "setup_type": "WEAK",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
   "HALKB.IS": {
     "last": {
-      "signal": "⚪ BEKLE",
-      "signal_key": "none",
-      "score": 50,
-      "price": 39.44,
+      "signal": "🔴 SAT / UZAK DUR",
+      "signal_key": "sat",
+      "score": -10,
+      "price": 39.28,
       "setup_type": "WEAK",
-      "updated_at": "16.07.2026 11:35"
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": -45,
-        "price": 41.4,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
@@ -6532,6 +6524,14 @@
         "price": 39.44,
         "setup_type": "WEAK",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🔴 SAT / UZAK DUR",
+        "signal_key": "sat",
+        "score": -10,
+        "price": 39.28,
+        "setup_type": "WEAK",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
@@ -6539,20 +6539,12 @@
     "last": {
       "signal": "🔴 SAT / UZAK DUR",
       "signal_key": "sat",
-      "score": 28,
-      "price": 3.16,
+      "score": 35,
+      "price": 3.15,
       "setup_type": "WEAK",
-      "updated_at": "16.07.2026 11:35"
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": -35,
-        "price": 3.0,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🔥 ÇOK GÜÇLÜ AL",
         "signal_key": "al",
@@ -6704,6 +6696,14 @@
         "price": 3.16,
         "setup_type": "WEAK",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🔴 SAT / UZAK DUR",
+        "signal_key": "sat",
+        "score": 35,
+        "price": 3.15,
+        "setup_type": "WEAK",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
@@ -6711,20 +6711,12 @@
     "last": {
       "signal": "🔴 SAT / UZAK DUR",
       "signal_key": "sat",
-      "score": -27,
+      "score": -35,
       "price": 160.1,
       "setup_type": "WEAK",
-      "updated_at": "16.07.2026 11:35"
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "score": 65,
-        "price": 158.9,
-        "setup_type": "BREAKOUT",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "⚪ BEKLE",
         "signal_key": "none",
@@ -6876,6 +6868,14 @@
         "price": 160.1,
         "setup_type": "WEAK",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🔴 SAT / UZAK DUR",
+        "signal_key": "sat",
+        "score": -35,
+        "price": 160.1,
+        "setup_type": "WEAK",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
@@ -6883,20 +6883,12 @@
     "last": {
       "signal": "🔴 SAT / UZAK DUR",
       "signal_key": "sat",
-      "score": 30,
-      "price": 13.71,
+      "score": -12,
+      "price": 13.61,
       "setup_type": "WEAK",
-      "updated_at": "16.07.2026 11:35"
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": -27,
-        "price": 13.9,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
@@ -7048,6 +7040,14 @@
         "price": 13.71,
         "setup_type": "WEAK",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🔴 SAT / UZAK DUR",
+        "signal_key": "sat",
+        "score": -12,
+        "price": 13.61,
+        "setup_type": "WEAK",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
@@ -7055,20 +7055,12 @@
     "last": {
       "signal": "🟡 TAKİP",
       "signal_key": "takip",
-      "score": 60,
-      "price": 36.08,
-      "setup_type": "WEAK",
-      "updated_at": "16.07.2026 11:35"
+      "score": 95,
+      "price": 36.56,
+      "setup_type": "BREAKOUT",
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": -35,
-        "price": 34.78,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
@@ -7220,6 +7212,14 @@
         "price": 36.08,
         "setup_type": "WEAK",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🟡 TAKİP",
+        "signal_key": "takip",
+        "score": 95,
+        "price": 36.56,
+        "setup_type": "BREAKOUT",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
@@ -7227,20 +7227,12 @@
     "last": {
       "signal": "🔴 SAT / UZAK DUR",
       "signal_key": "sat",
-      "score": 35,
-      "price": 13.66,
+      "score": 10,
+      "price": 13.63,
       "setup_type": "WEAK",
-      "updated_at": "16.07.2026 11:35"
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": -35,
-        "price": 13.39,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
@@ -7392,27 +7384,27 @@
         "price": 13.66,
         "setup_type": "WEAK",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🔴 SAT / UZAK DUR",
+        "signal_key": "sat",
+        "score": 10,
+        "price": 13.63,
+        "setup_type": "WEAK",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
   "KCHOL.IS": {
     "last": {
-      "signal": "🔥 ÇOK GÜÇLÜ AL",
-      "signal_key": "al",
-      "score": 115,
-      "price": 194.8,
-      "setup_type": "BREAKOUT",
-      "updated_at": "16.07.2026 11:35"
+      "signal": "🟡 TAKİP",
+      "signal_key": "takip",
+      "score": 55,
+      "price": 195.2,
+      "setup_type": "TREND",
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": -35,
-        "price": 182.8,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🟢 GÜÇLÜ AL",
         "signal_key": "al",
@@ -7564,6 +7556,14 @@
         "price": 194.8,
         "setup_type": "BREAKOUT",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🟡 TAKİP",
+        "signal_key": "takip",
+        "score": 55,
+        "price": 195.2,
+        "setup_type": "TREND",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
@@ -7571,20 +7571,12 @@
     "last": {
       "signal": "⚪ BEKLE",
       "signal_key": "none",
-      "score": 50,
+      "score": 45,
       "price": 92.15,
       "setup_type": "TREND",
-      "updated_at": "16.07.2026 11:35"
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": -35,
-        "price": 85.1,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
@@ -7736,6 +7728,14 @@
         "price": 92.15,
         "setup_type": "TREND",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "⚪ BEKLE",
+        "signal_key": "none",
+        "score": 45,
+        "price": 92.15,
+        "setup_type": "TREND",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
@@ -7743,20 +7743,12 @@
     "last": {
       "signal": "🟡 TAKİP",
       "signal_key": "takip",
-      "score": 60,
-      "price": 6.6,
-      "setup_type": "BREAKOUT",
-      "updated_at": "16.07.2026 11:35"
+      "score": 70,
+      "price": 6.55,
+      "setup_type": "TREND",
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "score": 75,
-        "price": 4.93,
-        "setup_type": "TREND",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🟡 TAKİP",
         "signal_key": "takip",
@@ -7908,27 +7900,27 @@
         "price": 6.6,
         "setup_type": "BREAKOUT",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🟡 TAKİP",
+        "signal_key": "takip",
+        "score": 70,
+        "price": 6.55,
+        "setup_type": "TREND",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
   "KRDMD.IS": {
     "last": {
-      "signal": "🟡 TAKİP",
-      "signal_key": "takip",
-      "score": 95,
-      "price": 41.96,
-      "setup_type": "BREAKOUT",
-      "updated_at": "16.07.2026 11:35"
+      "signal": "⚪ BEKLE",
+      "signal_key": "none",
+      "score": 45,
+      "price": 41.9,
+      "setup_type": "TREND",
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": 0,
-        "price": 36.48,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🟢 GÜÇLÜ AL",
         "signal_key": "al",
@@ -8080,6 +8072,14 @@
         "price": 41.96,
         "setup_type": "BREAKOUT",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "⚪ BEKLE",
+        "signal_key": "none",
+        "score": 45,
+        "price": 41.9,
+        "setup_type": "TREND",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
@@ -8087,20 +8087,12 @@
     "last": {
       "signal": "🟡 TAKİP",
       "signal_key": "takip",
-      "score": 75,
-      "price": 195.2,
+      "score": 65,
+      "price": 196.2,
       "setup_type": "TREND",
-      "updated_at": "16.07.2026 11:35"
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "score": 55,
-        "price": 197.7,
-        "setup_type": "TREND",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🔥 ÇOK GÜÇLÜ AL",
         "signal_key": "al",
@@ -8252,27 +8244,27 @@
         "price": 195.2,
         "setup_type": "TREND",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🟡 TAKİP",
+        "signal_key": "takip",
+        "score": 65,
+        "price": 196.2,
+        "setup_type": "TREND",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
   "KUYAS.IS": {
     "last": {
-      "signal": "🔴 SAT / UZAK DUR",
-      "signal_key": "sat",
-      "score": 0,
-      "price": 70.65,
+      "signal": "⚪ BEKLE",
+      "signal_key": "none",
+      "score": 40,
+      "price": 72.2,
       "setup_type": "WEAK",
-      "updated_at": "16.07.2026 11:35"
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": 15,
-        "price": 73.0,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
@@ -8424,6 +8416,14 @@
         "price": 70.65,
         "setup_type": "WEAK",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "⚪ BEKLE",
+        "signal_key": "none",
+        "score": 40,
+        "price": 72.2,
+        "setup_type": "WEAK",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
@@ -8431,20 +8431,12 @@
     "last": {
       "signal": "🟡 TAKİP",
       "signal_key": "takip",
-      "score": 70,
-      "price": 38.24,
+      "score": 55,
+      "price": 38.06,
       "setup_type": "TREND",
-      "updated_at": "16.07.2026 11:35"
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "⚪ BEKLE",
-        "signal_key": "none",
-        "score": 45,
-        "price": 34.12,
-        "setup_type": "TREND",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
@@ -8596,6 +8588,14 @@
         "price": 38.24,
         "setup_type": "TREND",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🟡 TAKİP",
+        "signal_key": "takip",
+        "score": 55,
+        "price": 38.06,
+        "setup_type": "TREND",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
@@ -8603,20 +8603,12 @@
     "last": {
       "signal": "🟡 TAKİP",
       "signal_key": "takip",
-      "score": 100,
+      "score": 55,
       "price": 40.98,
-      "setup_type": "BREAKOUT",
-      "updated_at": "16.07.2026 11:35"
+      "setup_type": "TREND",
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": -20,
-        "price": 38.04,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🟢 GÜÇLÜ AL",
         "signal_key": "al",
@@ -8768,6 +8760,14 @@
         "price": 40.98,
         "setup_type": "BREAKOUT",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🟡 TAKİP",
+        "signal_key": "takip",
+        "score": 55,
+        "price": 40.98,
+        "setup_type": "TREND",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
@@ -8775,20 +8775,12 @@
     "last": {
       "signal": "🔴 SAT / UZAK DUR",
       "signal_key": "sat",
-      "score": 8,
-      "price": 621.0,
+      "score": -2,
+      "price": 622.0,
       "setup_type": "WEAK",
-      "updated_at": "16.07.2026 11:35"
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": -45,
-        "price": 626.5,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
@@ -8940,6 +8932,14 @@
         "price": 621.0,
         "setup_type": "WEAK",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🔴 SAT / UZAK DUR",
+        "signal_key": "sat",
+        "score": -2,
+        "price": 622.0,
+        "setup_type": "WEAK",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
@@ -8947,20 +8947,12 @@
     "last": {
       "signal": "🔴 SAT / UZAK DUR",
       "signal_key": "sat",
-      "score": -27,
-      "price": 34.16,
+      "score": -17,
+      "price": 34.18,
       "setup_type": "WEAK",
-      "updated_at": "16.07.2026 11:35"
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": -45,
-        "price": 30.76,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
@@ -9112,27 +9104,27 @@
         "price": 34.16,
         "setup_type": "WEAK",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🔴 SAT / UZAK DUR",
+        "signal_key": "sat",
+        "score": -17,
+        "price": 34.18,
+        "setup_type": "WEAK",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
   "MPARK.IS": {
     "last": {
-      "signal": "🟢 GÜÇLÜ AL",
-      "signal_key": "al",
-      "score": 70,
-      "price": 418.25,
+      "signal": "🔴 SAT / UZAK DUR",
+      "signal_key": "sat",
+      "score": 35,
+      "price": 423.0,
       "setup_type": "WEAK",
-      "updated_at": "16.07.2026 11:35"
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": -25,
-        "price": 412.25,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "⚪ BEKLE",
         "signal_key": "none",
@@ -9284,27 +9276,27 @@
         "price": 418.25,
         "setup_type": "WEAK",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🔴 SAT / UZAK DUR",
+        "signal_key": "sat",
+        "score": 35,
+        "price": 423.0,
+        "setup_type": "WEAK",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
   "OBAMS.IS": {
     "last": {
-      "signal": "⚪ BEKLE",
-      "signal_key": "none",
-      "score": 40,
-      "price": 5.34,
+      "signal": "🔴 SAT / UZAK DUR",
+      "signal_key": "sat",
+      "score": 10,
+      "price": 5.36,
       "setup_type": "WEAK",
-      "updated_at": "16.07.2026 11:35"
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": -27,
-        "price": 5.35,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
@@ -9456,27 +9448,27 @@
         "price": 5.34,
         "setup_type": "WEAK",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🔴 SAT / UZAK DUR",
+        "signal_key": "sat",
+        "score": 10,
+        "price": 5.36,
+        "setup_type": "WEAK",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
   "ODAS.IS": {
     "last": {
-      "signal": "🟡 TAKİP",
-      "signal_key": "takip",
-      "score": 70,
-      "price": 8.58,
+      "signal": "🟢 GÜÇLÜ AL",
+      "signal_key": "al",
+      "score": 78,
+      "price": 8.61,
       "setup_type": "TREND",
-      "updated_at": "16.07.2026 11:35"
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": -10,
-        "price": 8.06,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🟡 TAKİP",
         "signal_key": "takip",
@@ -9628,27 +9620,27 @@
         "price": 8.58,
         "setup_type": "TREND",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🟢 GÜÇLÜ AL",
+        "signal_key": "al",
+        "score": 78,
+        "price": 8.61,
+        "setup_type": "TREND",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
   "OTKAR.IS": {
     "last": {
-      "signal": "⚪ BEKLE",
-      "signal_key": "none",
-      "score": 53,
-      "price": 333.5,
+      "signal": "🟢 GÜÇLÜ AL",
+      "signal_key": "al",
+      "score": 70,
+      "price": 333.25,
       "setup_type": "WEAK",
-      "updated_at": "16.07.2026 11:35"
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": -35,
-        "price": 338.0,
-        "setup_type": "BREAKDOWN",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
@@ -9800,27 +9792,27 @@
         "price": 333.5,
         "setup_type": "WEAK",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🟢 GÜÇLÜ AL",
+        "signal_key": "al",
+        "score": 70,
+        "price": 333.25,
+        "setup_type": "WEAK",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
   "OYAKC.IS": {
     "last": {
-      "signal": "🟢 GÜÇLÜ AL",
-      "signal_key": "al",
-      "score": 80,
-      "price": 20.28,
+      "signal": "⚪ BEKLE",
+      "signal_key": "none",
+      "score": 50,
+      "price": 20.22,
       "setup_type": "WEAK",
-      "updated_at": "16.07.2026 11:35"
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": -35,
-        "price": 19.86,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🟢 GÜÇLÜ AL",
         "signal_key": "al",
@@ -9972,6 +9964,14 @@
         "price": 20.28,
         "setup_type": "WEAK",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "⚪ BEKLE",
+        "signal_key": "none",
+        "score": 50,
+        "price": 20.22,
+        "setup_type": "WEAK",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
@@ -9980,19 +9980,11 @@
       "signal": "🔴 SAT / UZAK DUR",
       "signal_key": "sat",
       "score": 0,
-      "price": 92.85,
+      "price": 93.15,
       "setup_type": "WEAK",
-      "updated_at": "16.07.2026 11:35"
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": -2,
-        "price": 89.85,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
@@ -10144,27 +10136,27 @@
         "price": 92.85,
         "setup_type": "WEAK",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🔴 SAT / UZAK DUR",
+        "signal_key": "sat",
+        "score": 0,
+        "price": 93.15,
+        "setup_type": "WEAK",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
   "PETKM.IS": {
     "last": {
-      "signal": "🔥 ÇOK GÜÇLÜ AL",
-      "signal_key": "al",
-      "score": 100,
-      "price": 20.16,
-      "setup_type": "BREAKOUT",
-      "updated_at": "16.07.2026 11:35"
+      "signal": "🟡 TAKİP",
+      "signal_key": "takip",
+      "score": 70,
+      "price": 20.18,
+      "setup_type": "TREND",
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "⚪ BEKLE",
-        "signal_key": "none",
-        "score": 45,
-        "price": 19.3,
-        "setup_type": "TREND",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🔥 ÇOK GÜÇLÜ AL",
         "signal_key": "al",
@@ -10316,27 +10308,27 @@
         "price": 20.16,
         "setup_type": "BREAKOUT",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🟡 TAKİP",
+        "signal_key": "takip",
+        "score": 70,
+        "price": 20.18,
+        "setup_type": "TREND",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
   "PGSUS.IS": {
     "last": {
-      "signal": "🟢 GÜÇLÜ AL",
-      "signal_key": "al",
-      "score": 80,
-      "price": 168.0,
+      "signal": "🔴 SAT / UZAK DUR",
+      "signal_key": "sat",
+      "score": 30,
+      "price": 168.3,
       "setup_type": "WEAK",
-      "updated_at": "16.07.2026 11:35"
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": -25,
-        "price": 166.3,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
@@ -10488,27 +10480,27 @@
         "price": 168.0,
         "setup_type": "WEAK",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🔴 SAT / UZAK DUR",
+        "signal_key": "sat",
+        "score": 30,
+        "price": 168.3,
+        "setup_type": "WEAK",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
   "RALYH.IS": {
     "last": {
-      "signal": "🟡 TAKİP",
-      "signal_key": "takip",
-      "score": 65,
-      "price": 231.7,
-      "setup_type": "BREAKOUT",
-      "updated_at": "16.07.2026 11:35"
+      "signal": "⚪ BEKLE",
+      "signal_key": "none",
+      "score": 45,
+      "price": 234.7,
+      "setup_type": "TREND",
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": -45,
-        "price": 201.8,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🟡 TAKİP",
         "signal_key": "takip",
@@ -10660,27 +10652,27 @@
         "price": 231.7,
         "setup_type": "BREAKOUT",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "⚪ BEKLE",
+        "signal_key": "none",
+        "score": 45,
+        "price": 234.7,
+        "setup_type": "TREND",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
   "REEDR.IS": {
     "last": {
-      "signal": "🔴 SAT / UZAK DUR",
-      "signal_key": "sat",
-      "score": 30,
-      "price": 6.67,
-      "setup_type": "WEAK",
-      "updated_at": "16.07.2026 11:35"
+      "signal": "🟡 TAKİP",
+      "signal_key": "takip",
+      "score": 65,
+      "price": 6.8,
+      "setup_type": "TREND",
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": -45,
-        "price": 6.31,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "⚪ BEKLE",
         "signal_key": "none",
@@ -10832,27 +10824,27 @@
         "price": 6.67,
         "setup_type": "WEAK",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🟡 TAKİP",
+        "signal_key": "takip",
+        "score": 65,
+        "price": 6.8,
+        "setup_type": "TREND",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
   "SAHOL.IS": {
     "last": {
-      "signal": "🔥 ÇOK GÜÇLÜ AL",
-      "signal_key": "al",
-      "score": 85,
-      "price": 90.4,
+      "signal": "🔴 SAT / UZAK DUR",
+      "signal_key": "sat",
+      "score": 35,
+      "price": 90.05,
       "setup_type": "WEAK",
-      "updated_at": "16.07.2026 11:35"
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": -35,
-        "price": 89.15,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🟢 GÜÇLÜ AL",
         "signal_key": "al",
@@ -11004,27 +10996,27 @@
         "price": 90.4,
         "setup_type": "WEAK",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🔴 SAT / UZAK DUR",
+        "signal_key": "sat",
+        "score": 35,
+        "price": 90.05,
+        "setup_type": "WEAK",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
   "SASA.IS": {
     "last": {
-      "signal": "🔥 ÇOK GÜÇLÜ AL",
-      "signal_key": "al",
-      "score": 105,
+      "signal": "🟡 TAKİP",
+      "signal_key": "takip",
+      "score": 70,
       "price": 2.56,
-      "setup_type": "PULLBACK",
-      "updated_at": "16.07.2026 11:35"
+      "setup_type": "TREND",
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": 33,
-        "price": 2.27,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🟢 GÜÇLÜ AL",
         "signal_key": "al",
@@ -11176,27 +11168,27 @@
         "price": 2.56,
         "setup_type": "PULLBACK",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🟡 TAKİP",
+        "signal_key": "takip",
+        "score": 70,
+        "price": 2.56,
+        "setup_type": "TREND",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
   "SISE.IS": {
     "last": {
-      "signal": "🟡 TAKİP",
-      "signal_key": "takip",
-      "score": 100,
-      "price": 45.24,
-      "setup_type": "BREAKOUT",
-      "updated_at": "16.07.2026 11:35"
+      "signal": "⚪ BEKLE",
+      "signal_key": "none",
+      "score": 43,
+      "price": 44.92,
+      "setup_type": "TREND",
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": 0,
-        "price": 42.2,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🟡 TAKİP",
         "signal_key": "takip",
@@ -11348,27 +11340,27 @@
         "price": 45.24,
         "setup_type": "BREAKOUT",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "⚪ BEKLE",
+        "signal_key": "none",
+        "score": 43,
+        "price": 44.92,
+        "setup_type": "TREND",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
   "SKBNK.IS": {
     "last": {
-      "signal": "🔥 ÇOK GÜÇLÜ AL",
-      "signal_key": "al",
-      "score": 125,
-      "price": 18.95,
-      "setup_type": "PULLBACK",
-      "updated_at": "16.07.2026 11:35"
+      "signal": "🟡 TAKİP",
+      "signal_key": "takip",
+      "score": 55,
+      "price": 18.82,
+      "setup_type": "TREND",
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": -10,
-        "price": 17.71,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
@@ -11520,27 +11512,27 @@
         "price": 18.95,
         "setup_type": "PULLBACK",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🟡 TAKİP",
+        "signal_key": "takip",
+        "score": 55,
+        "price": 18.82,
+        "setup_type": "TREND",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
   "SMRTG.IS": {
     "last": {
-      "signal": "⚪ BEKLE",
-      "signal_key": "none",
-      "score": 43,
-      "price": 11.21,
+      "signal": "🟢 GÜÇLÜ AL",
+      "signal_key": "al",
+      "score": 80,
+      "price": 11.51,
       "setup_type": "TREND",
-      "updated_at": "16.07.2026 11:35"
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔥 ÇOK GÜÇLÜ AL",
-        "signal_key": "al",
-        "score": 85,
-        "price": 10.57,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🟡 TAKİP",
         "signal_key": "takip",
@@ -11692,27 +11684,27 @@
         "price": 11.21,
         "setup_type": "TREND",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🟢 GÜÇLÜ AL",
+        "signal_key": "al",
+        "score": 80,
+        "price": 11.51,
+        "setup_type": "TREND",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
   "SOKM.IS": {
     "last": {
-      "signal": "🔥 ÇOK GÜÇLÜ AL",
-      "signal_key": "al",
-      "score": 93,
-      "price": 51.2,
+      "signal": "⚪ BEKLE",
+      "signal_key": "none",
+      "score": 53,
+      "price": 51.15,
       "setup_type": "TREND",
-      "updated_at": "16.07.2026 11:35"
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "⚪ BEKLE",
-        "signal_key": "none",
-        "score": 40,
-        "price": 44.42,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🟢 GÜÇLÜ AL",
         "signal_key": "al",
@@ -11864,27 +11856,27 @@
         "price": 51.2,
         "setup_type": "TREND",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "⚪ BEKLE",
+        "signal_key": "none",
+        "score": 53,
+        "price": 51.15,
+        "setup_type": "TREND",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
   "TABGD.IS": {
     "last": {
-      "signal": "⚪ BEKLE",
-      "signal_key": "none",
-      "score": 43,
-      "price": 234.4,
+      "signal": "🔴 SAT / UZAK DUR",
+      "signal_key": "sat",
+      "score": 28,
+      "price": 233.3,
       "setup_type": "TREND",
-      "updated_at": "16.07.2026 11:35"
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": -25,
-        "price": 217.3,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🟢 GÜÇLÜ AL",
         "signal_key": "al",
@@ -12036,27 +12028,27 @@
         "price": 234.4,
         "setup_type": "TREND",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🔴 SAT / UZAK DUR",
+        "signal_key": "sat",
+        "score": 28,
+        "price": 233.3,
+        "setup_type": "TREND",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
   "TAVHL.IS": {
     "last": {
-      "signal": "🟢 GÜÇLÜ AL",
-      "signal_key": "al",
-      "score": 70,
-      "price": 263.25,
+      "signal": "🔴 SAT / UZAK DUR",
+      "signal_key": "sat",
+      "score": 35,
+      "price": 262.5,
       "setup_type": "WEAK",
-      "updated_at": "16.07.2026 11:35"
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": -10,
-        "price": 261.5,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🟢 GÜÇLÜ AL",
         "signal_key": "al",
@@ -12208,27 +12200,27 @@
         "price": 263.25,
         "setup_type": "WEAK",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🔴 SAT / UZAK DUR",
+        "signal_key": "sat",
+        "score": 35,
+        "price": 262.5,
+        "setup_type": "WEAK",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
   "TCELL.IS": {
     "last": {
-      "signal": "🟢 GÜÇLÜ AL",
-      "signal_key": "al",
-      "score": 78,
-      "price": 111.3,
+      "signal": "🟡 TAKİP",
+      "signal_key": "takip",
+      "score": 65,
+      "price": 111.4,
       "setup_type": "TREND",
-      "updated_at": "16.07.2026 11:35"
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": -10,
-        "price": 104.7,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
@@ -12380,6 +12372,14 @@
         "price": 111.3,
         "setup_type": "TREND",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🟡 TAKİP",
+        "signal_key": "takip",
+        "score": 65,
+        "price": 111.4,
+        "setup_type": "TREND",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
@@ -12387,20 +12387,12 @@
     "last": {
       "signal": "🔴 SAT / UZAK DUR",
       "signal_key": "sat",
-      "score": 23,
-      "price": 329.5,
+      "score": 18,
+      "price": 332.0,
       "setup_type": "WEAK",
-      "updated_at": "16.07.2026 11:35"
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": 15,
-        "price": 337.0,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🟡 TAKİP",
         "signal_key": "takip",
@@ -12552,27 +12544,27 @@
         "price": 329.5,
         "setup_type": "WEAK",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🔴 SAT / UZAK DUR",
+        "signal_key": "sat",
+        "score": 18,
+        "price": 332.0,
+        "setup_type": "WEAK",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
   "TKFEN.IS": {
     "last": {
-      "signal": "🔥 ÇOK GÜÇLÜ AL",
-      "signal_key": "al",
-      "score": 125,
-      "price": 142.3,
-      "setup_type": "PULLBACK",
-      "updated_at": "16.07.2026 11:35"
+      "signal": "🟡 TAKİP",
+      "signal_key": "takip",
+      "score": 80,
+      "price": 143.7,
+      "setup_type": "TREND",
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": -45,
-        "price": 125.2,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
@@ -12724,27 +12716,27 @@
         "price": 142.3,
         "setup_type": "PULLBACK",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🟡 TAKİP",
+        "signal_key": "takip",
+        "score": 80,
+        "price": 143.7,
+        "setup_type": "TREND",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
   "TOASO.IS": {
     "last": {
-      "signal": "🟢 GÜÇLÜ AL",
-      "signal_key": "al",
-      "score": 80,
-      "price": 301.0,
+      "signal": "🔴 SAT / UZAK DUR",
+      "signal_key": "sat",
+      "score": 35,
+      "price": 301.75,
       "setup_type": "WEAK",
-      "updated_at": "16.07.2026 11:35"
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": 0,
-        "price": 295.0,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
@@ -12896,27 +12888,27 @@
         "price": 301.0,
         "setup_type": "WEAK",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🔴 SAT / UZAK DUR",
+        "signal_key": "sat",
+        "score": 35,
+        "price": 301.75,
+        "setup_type": "WEAK",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
   "TSKB.IS": {
     "last": {
-      "signal": "🟡 TAKİP",
-      "signal_key": "takip",
-      "score": 60,
-      "price": 11.61,
+      "signal": "⚪ BEKLE",
+      "signal_key": "none",
+      "score": 43,
+      "price": 11.66,
       "setup_type": "WEAK",
-      "updated_at": "16.07.2026 11:35"
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": -27,
-        "price": 11.51,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
@@ -13068,27 +13060,27 @@
         "price": 11.61,
         "setup_type": "WEAK",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "⚪ BEKLE",
+        "signal_key": "none",
+        "score": 43,
+        "price": 11.66,
+        "setup_type": "WEAK",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
   "TTKOM.IS": {
     "last": {
-      "signal": "🟢 GÜÇLÜ AL",
-      "signal_key": "al",
-      "score": 75,
-      "price": 58.6,
+      "signal": "🔴 SAT / UZAK DUR",
+      "signal_key": "sat",
+      "score": 35,
+      "price": 58.55,
       "setup_type": "WEAK",
-      "updated_at": "16.07.2026 11:35"
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": -45,
-        "price": 56.85,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
@@ -13240,6 +13232,14 @@
         "price": 58.6,
         "setup_type": "WEAK",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🔴 SAT / UZAK DUR",
+        "signal_key": "sat",
+        "score": 35,
+        "price": 58.55,
+        "setup_type": "WEAK",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
@@ -13247,20 +13247,12 @@
     "last": {
       "signal": "🟡 TAKİP",
       "signal_key": "takip",
-      "score": 115,
-      "price": 447.5,
-      "setup_type": "BREAKOUT",
-      "updated_at": "16.07.2026 11:35"
+      "score": 85,
+      "price": 447.75,
+      "setup_type": "TREND",
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": -27,
-        "price": 435.5,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🟢 GÜÇLÜ AL",
         "signal_key": "al",
@@ -13412,6 +13404,14 @@
         "price": 447.5,
         "setup_type": "BREAKOUT",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🟡 TAKİP",
+        "signal_key": "takip",
+        "score": 85,
+        "price": 447.75,
+        "setup_type": "TREND",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
@@ -13419,20 +13419,12 @@
     "last": {
       "signal": "🟡 TAKİP",
       "signal_key": "takip",
-      "score": 65,
-      "price": 2.18,
+      "score": 60,
+      "price": 2.2,
       "setup_type": "WEAK",
-      "updated_at": "16.07.2026 11:35"
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": -75,
-        "price": 2.12,
-        "setup_type": "BREAKDOWN",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
@@ -13584,27 +13576,27 @@
         "price": 2.18,
         "setup_type": "WEAK",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🟡 TAKİP",
+        "signal_key": "takip",
+        "score": 60,
+        "price": 2.2,
+        "setup_type": "WEAK",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
   "TUPRS.IS": {
     "last": {
-      "signal": "🔥 ÇOK GÜÇLÜ AL",
-      "signal_key": "al",
-      "score": 88,
-      "price": 277.5,
+      "signal": "🟡 TAKİP",
+      "signal_key": "takip",
+      "score": 65,
+      "price": 276.0,
       "setup_type": "TREND",
-      "updated_at": "16.07.2026 11:35"
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "score": 90,
-        "price": 263.5,
-        "setup_type": "PULLBACK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🟡 TAKİP",
         "signal_key": "takip",
@@ -13756,27 +13748,27 @@
         "price": 277.5,
         "setup_type": "TREND",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🟡 TAKİP",
+        "signal_key": "takip",
+        "score": 65,
+        "price": 276.0,
+        "setup_type": "TREND",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
   "TUREX.IS": {
     "last": {
-      "signal": "⚪ BEKLE",
-      "signal_key": "none",
-      "score": 53,
-      "price": 6.96,
+      "signal": "🔴 SAT / UZAK DUR",
+      "signal_key": "sat",
+      "score": 33,
+      "price": 6.95,
       "setup_type": "WEAK",
-      "updated_at": "16.07.2026 11:35"
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": -45,
-        "price": 6.85,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "⚪ BEKLE",
         "signal_key": "none",
@@ -13928,6 +13920,14 @@
         "price": 6.96,
         "setup_type": "WEAK",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🔴 SAT / UZAK DUR",
+        "signal_key": "sat",
+        "score": 33,
+        "price": 6.95,
+        "setup_type": "WEAK",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
@@ -13935,20 +13935,12 @@
     "last": {
       "signal": "🟡 TAKİP",
       "signal_key": "takip",
-      "score": 75,
-      "price": 6.61,
+      "score": 65,
+      "price": 6.63,
       "setup_type": "TREND",
-      "updated_at": "16.07.2026 11:35"
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🟡 TAKİP",
-        "signal_key": "takip",
-        "score": 60,
-        "price": 6.19,
-        "setup_type": "TREND",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🔥 ÇOK GÜÇLÜ AL",
         "signal_key": "al",
@@ -14100,27 +14092,27 @@
         "price": 6.61,
         "setup_type": "TREND",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🟡 TAKİP",
+        "signal_key": "takip",
+        "score": 65,
+        "price": 6.63,
+        "setup_type": "TREND",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
   "ULKER.IS": {
     "last": {
-      "signal": "🟡 TAKİP",
-      "signal_key": "takip",
-      "score": 68,
-      "price": 98.25,
+      "signal": "🔴 SAT / UZAK DUR",
+      "signal_key": "sat",
+      "score": 10,
+      "price": 98.5,
       "setup_type": "WEAK",
-      "updated_at": "16.07.2026 11:35"
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": -25,
-        "price": 97.05,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🔥 ÇOK GÜÇLÜ AL",
         "signal_key": "al",
@@ -14272,27 +14264,27 @@
         "price": 98.25,
         "setup_type": "WEAK",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🔴 SAT / UZAK DUR",
+        "signal_key": "sat",
+        "score": 10,
+        "price": 98.5,
+        "setup_type": "WEAK",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
   "VAKBN.IS": {
     "last": {
-      "signal": "⚪ BEKLE",
-      "signal_key": "none",
-      "score": 50,
-      "price": 31.46,
+      "signal": "🔴 SAT / UZAK DUR",
+      "signal_key": "sat",
+      "score": -27,
+      "price": 30.9,
       "setup_type": "WEAK",
-      "updated_at": "16.07.2026 11:35"
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": -45,
-        "price": 30.72,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
@@ -14444,27 +14436,27 @@
         "price": 31.46,
         "setup_type": "WEAK",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🔴 SAT / UZAK DUR",
+        "signal_key": "sat",
+        "score": -27,
+        "price": 30.9,
+        "setup_type": "WEAK",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
   "VESTL.IS": {
     "last": {
-      "signal": "🟡 TAKİP",
-      "signal_key": "takip",
-      "score": 75,
-      "price": 26.42,
+      "signal": "⚪ BEKLE",
+      "signal_key": "none",
+      "score": 53,
+      "price": 26.12,
       "setup_type": "TREND",
-      "updated_at": "16.07.2026 11:35"
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": -27,
-        "price": 23.88,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🟢 GÜÇLÜ AL",
         "signal_key": "al",
@@ -14616,27 +14608,27 @@
         "price": 26.42,
         "setup_type": "TREND",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "⚪ BEKLE",
+        "signal_key": "none",
+        "score": 53,
+        "price": 26.12,
+        "setup_type": "TREND",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
   "YEOTK.IS": {
     "last": {
-      "signal": "🔴 SAT / UZAK DUR",
-      "signal_key": "sat",
-      "score": -17,
-      "price": 93.0,
-      "setup_type": "WEAK",
-      "updated_at": "16.07.2026 11:35"
+      "signal": "🔥 ÇOK GÜÇLÜ AL",
+      "signal_key": "al",
+      "score": 125,
+      "price": 95.6,
+      "setup_type": "PULLBACK",
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": -2,
-        "price": 88.35,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🟢 GÜÇLÜ AL",
         "signal_key": "al",
@@ -14788,6 +14780,14 @@
         "price": 93.0,
         "setup_type": "WEAK",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🔥 ÇOK GÜÇLÜ AL",
+        "signal_key": "al",
+        "score": 125,
+        "price": 95.6,
+        "setup_type": "PULLBACK",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
@@ -14795,20 +14795,12 @@
     "last": {
       "signal": "🔴 SAT / UZAK DUR",
       "signal_key": "sat",
-      "score": 13,
-      "price": 33.9,
-      "setup_type": "WEAK",
-      "updated_at": "16.07.2026 11:35"
+      "score": -60,
+      "price": 33.38,
+      "setup_type": "BREAKDOWN",
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": -45,
-        "price": 35.88,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
@@ -14960,6 +14952,14 @@
         "price": 33.9,
         "setup_type": "WEAK",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🔴 SAT / UZAK DUR",
+        "signal_key": "sat",
+        "score": -60,
+        "price": 33.38,
+        "setup_type": "BREAKDOWN",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
@@ -14970,17 +14970,9 @@
       "score": 60,
       "price": 2.68,
       "setup_type": "WEAK",
-      "updated_at": "16.07.2026 11:35"
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": -35,
-        "price": 2.59,
-        "setup_type": "WEAK",
-        "updated_at": "09.07.2026 16:37"
-      },
       {
         "signal": "🟢 GÜÇLÜ AL",
         "signal_key": "al",
@@ -15132,6 +15124,14 @@
         "price": 2.68,
         "setup_type": "WEAK",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🟡 TAKİP",
+        "signal_key": "takip",
+        "score": 60,
+        "price": 2.68,
+        "setup_type": "WEAK",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
@@ -15139,20 +15139,12 @@
     "last": {
       "signal": "🔴 SAT / UZAK DUR",
       "signal_key": "sat",
-      "score": -17,
-      "price": 40.6,
+      "score": 35,
+      "price": 41.0,
       "setup_type": "WEAK",
-      "updated_at": "15.07.2026 18:51"
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": -35,
-        "price": 41.02,
-        "setup_type": "BREAKDOWN",
-        "updated_at": "09.07.2026 13:37"
-      },
       {
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
@@ -15304,6 +15296,14 @@
         "price": 40.6,
         "setup_type": "WEAK",
         "updated_at": "15.07.2026 18:51"
+      },
+      {
+        "signal": "🔴 SAT / UZAK DUR",
+        "signal_key": "sat",
+        "score": 35,
+        "price": 41.0,
+        "setup_type": "WEAK",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
@@ -15311,20 +15311,12 @@
     "last": {
       "signal": "🔴 SAT / UZAK DUR",
       "signal_key": "sat",
-      "score": -27,
-      "price": 71.15,
-      "setup_type": "WEAK",
-      "updated_at": "16.07.2026 11:35"
+      "score": -55,
+      "price": 70.15,
+      "setup_type": "BREAKDOWN",
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": -45,
-        "price": 82.65,
-        "setup_type": "WEAK",
-        "updated_at": "08.07.2026 18:35"
-      },
       {
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
@@ -15476,6 +15468,14 @@
         "price": 71.15,
         "setup_type": "WEAK",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🔴 SAT / UZAK DUR",
+        "signal_key": "sat",
+        "score": -55,
+        "price": 70.15,
+        "setup_type": "BREAKDOWN",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
@@ -15484,19 +15484,11 @@
       "signal": "🔴 SAT / UZAK DUR",
       "signal_key": "sat",
       "score": 35,
-      "price": 9.15,
+      "price": 9.21,
       "setup_type": "WEAK",
-      "updated_at": "15.07.2026 18:51"
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": -45,
-        "price": 8.97,
-        "setup_type": "WEAK",
-        "updated_at": "08.07.2026 18:35"
-      },
       {
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
@@ -15648,6 +15640,14 @@
         "price": 9.15,
         "setup_type": "WEAK",
         "updated_at": "15.07.2026 18:51"
+      },
+      {
+        "signal": "🔴 SAT / UZAK DUR",
+        "signal_key": "sat",
+        "score": 35,
+        "price": 9.21,
+        "setup_type": "WEAK",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
@@ -15655,20 +15655,12 @@
     "last": {
       "signal": "🔴 SAT / UZAK DUR",
       "signal_key": "sat",
-      "score": 20,
+      "score": 10,
       "price": 1.44,
       "setup_type": "WEAK",
-      "updated_at": "16.07.2026 11:35"
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": -45,
-        "price": 1.45,
-        "setup_type": "WEAK",
-        "updated_at": "07.07.2026 13:33"
-      },
       {
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
@@ -15820,6 +15812,14 @@
         "price": 1.44,
         "setup_type": "WEAK",
         "updated_at": "16.07.2026 11:35"
+      },
+      {
+        "signal": "🔴 SAT / UZAK DUR",
+        "signal_key": "sat",
+        "score": 10,
+        "price": 1.44,
+        "setup_type": "WEAK",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
@@ -15827,20 +15827,12 @@
     "last": {
       "signal": "🔴 SAT / UZAK DUR",
       "signal_key": "sat",
-      "score": 5,
-      "price": 24.04,
+      "score": 20,
+      "price": 24.9,
       "setup_type": "WEAK",
-      "updated_at": "15.07.2026 18:51"
+      "updated_at": "16.07.2026 13:36"
     },
     "history": [
-      {
-        "signal": "🔴 SAT / UZAK DUR",
-        "signal_key": "sat",
-        "score": -45,
-        "price": 24.16,
-        "setup_type": "WEAK",
-        "updated_at": "08.07.2026 16:05"
-      },
       {
         "signal": "🔴 SAT / UZAK DUR",
         "signal_key": "sat",
@@ -15992,6 +15984,14 @@
         "price": 24.04,
         "setup_type": "WEAK",
         "updated_at": "15.07.2026 18:51"
+      },
+      {
+        "signal": "🔴 SAT / UZAK DUR",
+        "signal_key": "sat",
+        "score": 20,
+        "price": 24.9,
+        "setup_type": "WEAK",
+        "updated_at": "16.07.2026 13:36"
       }
     ]
   },
