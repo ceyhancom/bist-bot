@@ -15961,7 +15961,11 @@
     "stop": 33.4764,
     "target": 34.9871,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 33.4764,
+    "exit_date": "2026-07-17",
+    "result_pct": -1.48,
+    "close_reason": "STOP"
   },
   {
     "symbol": "BTCIM.IS",
@@ -15973,7 +15977,11 @@
     "stop": 5.6014,
     "target": 5.8071,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 5.6014,
+    "exit_date": "2026-07-17",
+    "result_pct": -1.21,
+    "close_reason": "STOP"
   },
   {
     "symbol": "DOAS.IS",
@@ -15985,7 +15993,11 @@
     "stop": 184.875,
     "target": 190.05,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 184.875,
+    "exit_date": "2026-07-17",
+    "result_pct": -0.92,
+    "close_reason": "STOP"
   },
   {
     "symbol": "GARAN.IS",
@@ -15997,7 +16009,11 @@
     "stop": 127.0821,
     "target": 131.0357,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 127.0821,
+    "exit_date": "2026-07-17",
+    "result_pct": -1.03,
+    "close_reason": "STOP"
   },
   {
     "symbol": "GENIL.IS",
@@ -16009,7 +16025,11 @@
     "stop": 9.075,
     "target": 9.84,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 9.075,
+    "exit_date": "2026-07-17",
+    "result_pct": -2.73,
+    "close_reason": "STOP"
   },
   {
     "symbol": "GRSEL.IS",
@@ -16021,7 +16041,11 @@
     "stop": 309.3531,
     "target": 332.2939,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 309.3531,
+    "exit_date": "2026-07-17",
+    "result_pct": -2.41,
+    "close_reason": "STOP"
   },
   {
     "symbol": "HEKTS.IS",
@@ -16033,7 +16057,11 @@
     "stop": 3.1179,
     "target": 3.3043,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 3.1179,
+    "exit_date": "2026-07-17",
+    "result_pct": -1.95,
+    "close_reason": "STOP"
   },
   {
     "symbol": "MAGEN.IS",
@@ -16045,7 +16073,11 @@
     "stop": 37.3214,
     "target": 40.4971,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 37.3214,
+    "exit_date": "2026-07-17",
+    "result_pct": -2.76,
+    "close_reason": "STOP"
   },
   {
     "symbol": "MPARK.IS",
@@ -16057,7 +16089,11 @@
     "stop": 419.4143,
     "target": 433.1714,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 419.4143,
+    "exit_date": "2026-07-17",
+    "result_pct": -1.08,
+    "close_reason": "STOP"
   },
   {
     "symbol": "REEDR.IS",
@@ -16069,7 +16105,11 @@
     "stop": 6.8989,
     "target": 7.4421,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 6.8989,
+    "exit_date": "2026-07-17",
+    "result_pct": -2.56,
+    "close_reason": "STOP"
   },
   {
     "symbol": "SASA.IS",
@@ -16081,7 +16121,11 @@
     "stop": 2.479,
     "target": 2.662,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 2.479,
+    "exit_date": "2026-07-17",
+    "result_pct": -2.4,
+    "close_reason": "STOP"
   },
   {
     "symbol": "SKBNK.IS",
@@ -16093,7 +16137,11 @@
     "stop": 18.6274,
     "target": 19.4451,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 18.6274,
+    "exit_date": "2026-07-17",
+    "result_pct": -1.44,
+    "close_reason": "STOP"
   },
   {
     "symbol": "SMRTG.IS",
@@ -16105,7 +16153,11 @@
     "stop": 11.2646,
     "target": 12.0007,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 11.2646,
+    "exit_date": "2026-07-17",
+    "result_pct": -2.13,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TKFEN.IS",
@@ -16117,7 +16169,11 @@
     "stop": 139.5064,
     "target": 149.6872,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 139.5064,
+    "exit_date": "2026-07-17",
+    "result_pct": -2.37,
+    "close_reason": "STOP"
   },
   {
     "symbol": "YEOTK.IS",
@@ -16129,6 +16185,58 @@
     "stop": 93.3959,
     "target": 99.7082,
     "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 93.3959,
+    "exit_date": "2026-07-17",
+    "result_pct": -2.2,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "BALSU.IS",
+    "date": "2026-07-17",
+    "entry": 16.78,
+    "score": 105,
+    "rsi": 66.15,
+    "vol_ratio": 2.08,
+    "stop": 16.1511,
+    "target": 18.0379,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "KLRHO.IS",
+    "date": "2026-07-17",
+    "entry": 90.45,
+    "score": 85,
+    "rsi": 62.76,
+    "vol_ratio": 1.08,
+    "stop": 88.4614,
+    "target": 94.4271,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "PETKM.IS",
+    "date": "2026-07-17",
+    "entry": 20.9,
+    "score": 78,
+    "rsi": 75.58,
+    "vol_ratio": 1.4,
+    "stop": 20.5443,
+    "target": 21.6114,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "SOKM.IS",
+    "date": "2026-07-17",
+    "entry": 52.0,
+    "score": 88,
+    "rsi": 77.53,
+    "vol_ratio": 1.35,
+    "stop": 50.4443,
+    "target": 55.1114,
+    "setup_type": "TREND",
     "status": "open"
   }
 ]
