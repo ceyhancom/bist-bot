@@ -16286,5 +16286,65 @@
     "exit_date": "2026-07-17",
     "result_pct": -2.26,
     "close_reason": "STOP"
+  },
+  {
+    "symbol": "ANSGR.IS",
+    "date": "2026-07-17",
+    "entry": 27.9,
+    "score": 73,
+    "rsi": 46.88,
+    "vol_ratio": 1.42,
+    "stop": 27.672,
+    "target": 28.356,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "ENJSA.IS",
+    "date": "2026-07-17",
+    "entry": 102.0,
+    "score": 70,
+    "rsi": 64.44,
+    "vol_ratio": 1.81,
+    "stop": 100.7464,
+    "target": 104.5071,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "FROTO.IS",
+    "date": "2026-07-17",
+    "entry": 84.25,
+    "score": 110,
+    "rsi": 54.79,
+    "vol_ratio": 1.45,
+    "stop": 82.8795,
+    "target": 86.9911,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "ISMEN.IS",
+    "date": "2026-07-17",
+    "entry": 37.04,
+    "score": 115,
+    "rsi": 66.67,
+    "vol_ratio": 2.67,
+    "stop": 36.455,
+    "target": 38.21,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "OYAKC.IS",
+    "date": "2026-07-17",
+    "entry": 20.28,
+    "score": 70,
+    "rsi": 52.63,
+    "vol_ratio": 1.49,
+    "stop": 20.085,
+    "target": 20.67,
+    "setup_type": "WEAK",
+    "status": "open"
   }
 ]

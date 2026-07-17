@@ -12658,8 +12658,8 @@
     "exit_date": "2026-06-25",
     "result_pct": -1.36,
     "close_reason": "STOP",
-    "cooldown_until": "2026-06-25T13:29:32.296193+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "KUYAS.IS",
@@ -15340,8 +15340,8 @@
     "exit_date": "2026-07-10",
     "result_pct": -1.42,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-10T15:19:34.076636+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "EUPWR.IS",
@@ -17500,8 +17500,8 @@
     "exit_date": "2026-07-16",
     "result_pct": -1.23,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-16T14:20:37.047236+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "GENIL.IS",
@@ -17572,8 +17572,8 @@
     "exit_date": "2026-07-16",
     "result_pct": -0.95,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-16T14:20:38.320715+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "PETKM.IS",
@@ -17896,8 +17896,8 @@
     "exit_date": "2026-07-16",
     "result_pct": -0.91,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-16T19:41:11.168374+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "ARCLK.IS",
@@ -18312,5 +18312,65 @@
     "close_reason": "STOP",
     "cooldown_until": "2026-07-17T15:37:23.707381+03:00",
     "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "ANSGR.IS",
+    "date": "2026-07-17",
+    "entry": 27.9,
+    "highest_price": 27.9,
+    "stop": 27.672,
+    "target": 28.356,
+    "trailing_stop": null,
+    "score": 73,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "ENJSA.IS",
+    "date": "2026-07-17",
+    "entry": 102.0,
+    "highest_price": 102.0,
+    "stop": 100.7464,
+    "target": 104.5071,
+    "trailing_stop": null,
+    "score": 70,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "FROTO.IS",
+    "date": "2026-07-17",
+    "entry": 84.25,
+    "highest_price": 84.25,
+    "stop": 82.8795,
+    "target": 86.9911,
+    "trailing_stop": null,
+    "score": 110,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "ISMEN.IS",
+    "date": "2026-07-17",
+    "entry": 37.04,
+    "highest_price": 37.04,
+    "stop": 36.455,
+    "target": 38.21,
+    "trailing_stop": null,
+    "score": 115,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "OYAKC.IS",
+    "date": "2026-07-17",
+    "entry": 20.28,
+    "highest_price": 20.28,
+    "stop": 20.085,
+    "target": 20.67,
+    "trailing_stop": null,
+    "score": 70,
+    "setup_type": "WEAK",
+    "status": "open"
   }
 ]
