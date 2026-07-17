@@ -16297,7 +16297,11 @@
     "stop": 27.672,
     "target": 28.356,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 27.672,
+    "exit_date": "2026-07-17",
+    "result_pct": -0.82,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ENJSA.IS",
@@ -16309,7 +16313,11 @@
     "stop": 100.7464,
     "target": 104.5071,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 100.7464,
+    "exit_date": "2026-07-17",
+    "result_pct": -1.23,
+    "close_reason": "STOP"
   },
   {
     "symbol": "FROTO.IS",
@@ -16321,7 +16329,11 @@
     "stop": 82.8795,
     "target": 86.9911,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 82.8795,
+    "exit_date": "2026-07-17",
+    "result_pct": -1.63,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ISMEN.IS",
@@ -16333,7 +16345,11 @@
     "stop": 36.455,
     "target": 38.21,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 36.455,
+    "exit_date": "2026-07-17",
+    "result_pct": -1.58,
+    "close_reason": "STOP"
   },
   {
     "symbol": "OYAKC.IS",
@@ -16345,6 +16361,34 @@
     "stop": 20.085,
     "target": 20.67,
     "setup_type": "WEAK",
+    "status": "closed",
+    "exit": 20.085,
+    "exit_date": "2026-07-17",
+    "result_pct": -0.96,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "BALSU.IS",
+    "date": "2026-07-17",
+    "entry": 17.67,
+    "score": 125,
+    "rsi": 64.86,
+    "vol_ratio": 3.11,
+    "stop": 16.9157,
+    "target": 19.1786,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "TSKB.IS",
+    "date": "2026-07-17",
+    "entry": 11.9,
+    "score": 110,
+    "rsi": 62.92,
+    "vol_ratio": 1.77,
+    "stop": 11.7106,
+    "target": 12.2788,
+    "setup_type": "PULLBACK",
     "status": "open"
   }
 ]
