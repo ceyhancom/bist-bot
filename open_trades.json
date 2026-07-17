@@ -18281,24 +18281,36 @@
     "symbol": "DOAS.IS",
     "date": "2026-07-17",
     "entry": 186.5,
-    "highest_price": 186.5,
+    "highest_price": 189.1,
     "stop": 184.8371,
     "target": 189.8257,
     "trailing_stop": null,
     "score": 75,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 184.8371,
+    "exit_date": "2026-07-17",
+    "result_pct": -0.89,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-07-17T15:37:23.553150+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "SKBNK.IS",
     "date": "2026-07-17",
     "entry": 19.86,
-    "highest_price": 19.86,
+    "highest_price": 20.0,
     "stop": 19.4121,
     "target": 20.7557,
     "trailing_stop": null,
     "score": 78,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 19.4121,
+    "exit_date": "2026-07-17",
+    "result_pct": -2.26,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-07-17T15:37:23.707381+03:00",
+    "cooldown_reason": "STOP"
   }
 ]

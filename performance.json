@@ -16265,7 +16265,11 @@
     "stop": 184.8371,
     "target": 189.8257,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 184.8371,
+    "exit_date": "2026-07-17",
+    "result_pct": -0.89,
+    "close_reason": "STOP"
   },
   {
     "symbol": "SKBNK.IS",
@@ -16277,6 +16281,10 @@
     "stop": 19.4121,
     "target": 20.7557,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 19.4121,
+    "exit_date": "2026-07-17",
+    "result_pct": -2.26,
+    "close_reason": "STOP"
   }
 ]
