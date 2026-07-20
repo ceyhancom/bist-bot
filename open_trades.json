@@ -18166,8 +18166,8 @@
     "exit_date": "2026-07-17",
     "result_pct": -2.13,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-17T12:13:35.127834+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "TKFEN.IS",
@@ -18407,24 +18407,48 @@
     "symbol": "BALSU.IS",
     "date": "2026-07-17",
     "entry": 17.67,
-    "highest_price": 17.67,
+    "highest_price": 18.21,
     "stop": 16.9157,
     "target": 19.1786,
     "trailing_stop": null,
     "score": 125,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 16.9157,
+    "exit_date": "2026-07-20",
+    "result_pct": -4.27,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-07-20T13:58:08.385557+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "TSKB.IS",
     "date": "2026-07-17",
     "entry": 11.9,
-    "highest_price": 11.9,
+    "highest_price": 12.09,
     "stop": 11.7106,
     "target": 12.2788,
     "trailing_stop": null,
     "score": 110,
     "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 11.7106,
+    "exit_date": "2026-07-20",
+    "result_pct": -1.59,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-07-20T13:58:08.561072+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "SMRTG.IS",
+    "date": "2026-07-20",
+    "entry": 12.14,
+    "highest_price": 12.14,
+    "stop": 11.8036,
+    "target": 12.8129,
+    "trailing_stop": null,
+    "score": 135,
+    "setup_type": "BREAKOUT",
     "status": "open"
   }
 ]
