@@ -16921,6 +16921,70 @@
     "stop": 11.5765,
     "target": 13.117,
     "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 11.5765,
+    "exit_date": "2026-07-21",
+    "result_pct": -4.25,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "ALTNY.IS",
+    "date": "2026-07-21",
+    "entry": 16.71,
+    "score": 93,
+    "rsi": 43.62,
+    "vol_ratio": 3.49,
+    "stop": 16.3071,
+    "target": 17.5157,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "CWENE.IS",
+    "date": "2026-07-21",
+    "entry": 40.06,
+    "score": 88,
+    "rsi": 49.69,
+    "vol_ratio": 3.99,
+    "stop": 39.3537,
+    "target": 41.4726,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "GRSEL.IS",
+    "date": "2026-07-21",
+    "entry": 326.5,
+    "score": 123,
+    "rsi": 80.0,
+    "vol_ratio": 3.28,
+    "stop": 322.2679,
+    "target": 334.9643,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "RALYH.IS",
+    "date": "2026-07-21",
+    "entry": 251.25,
+    "score": 95,
+    "rsi": 53.76,
+    "vol_ratio": 1.08,
+    "stop": 244.3714,
+    "target": 265.0071,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "TABGD.IS",
+    "date": "2026-07-21",
+    "entry": 236.8,
+    "score": 125,
+    "rsi": 67.01,
+    "vol_ratio": 3.72,
+    "stop": 232.7714,
+    "target": 244.8571,
+    "setup_type": "BREAKOUT",
     "status": "open"
   }
 ]

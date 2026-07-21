@@ -16492,8 +16492,8 @@
     "exit_date": "2026-07-14",
     "result_pct": -1.71,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-14T19:42:33.433948+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "REEDR.IS",
@@ -17338,8 +17338,8 @@
     "exit_date": "2026-07-16",
     "result_pct": -1.45,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-16T14:20:34.120777+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "ASELS.IS",
@@ -18598,8 +18598,8 @@
     "exit_date": "2026-07-20",
     "result_pct": -2.02,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-20T18:24:59.661980+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "KCHOL.IS",
@@ -18886,8 +18886,8 @@
     "exit_date": "2026-07-21",
     "result_pct": -1.85,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-21T11:05:26.785673+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "KCAER.IS",
@@ -19012,19 +19012,85 @@
     "exit_date": "2026-07-21",
     "result_pct": -1.58,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-21T15:45:25.481913+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "SMRTG.IS",
     "date": "2026-07-21",
     "entry": 12.09,
-    "highest_price": 12.09,
+    "highest_price": 12.3,
     "stop": 11.5765,
     "target": 13.117,
     "trailing_stop": null,
     "score": 115,
     "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 11.5765,
+    "exit_date": "2026-07-21",
+    "result_pct": -4.25,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-07-21T18:08:06.424261+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "ALTNY.IS",
+    "date": "2026-07-21",
+    "entry": 16.71,
+    "highest_price": 16.71,
+    "stop": 16.3071,
+    "target": 17.5157,
+    "trailing_stop": null,
+    "score": 93,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "CWENE.IS",
+    "date": "2026-07-21",
+    "entry": 40.06,
+    "highest_price": 40.06,
+    "stop": 39.3537,
+    "target": 41.4726,
+    "trailing_stop": null,
+    "score": 88,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "GRSEL.IS",
+    "date": "2026-07-21",
+    "entry": 326.5,
+    "highest_price": 326.5,
+    "stop": 322.2679,
+    "target": 334.9643,
+    "trailing_stop": null,
+    "score": 123,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "RALYH.IS",
+    "date": "2026-07-21",
+    "entry": 251.25,
+    "highest_price": 251.25,
+    "stop": 244.3714,
+    "target": 265.0071,
+    "trailing_stop": null,
+    "score": 95,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "TABGD.IS",
+    "date": "2026-07-21",
+    "entry": 236.8,
+    "highest_price": 236.8,
+    "stop": 232.7714,
+    "target": 244.8571,
+    "trailing_stop": null,
+    "score": 125,
+    "setup_type": "BREAKOUT",
     "status": "open"
   }
 ]
