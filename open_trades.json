@@ -18454,8 +18454,8 @@
     "exit_date": "2026-07-20",
     "result_pct": -2.77,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-20T16:11:36.659253+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "AEFES.IS",
@@ -19001,12 +19001,30 @@
     "symbol": "TABGD.IS",
     "date": "2026-07-21",
     "entry": 236.0,
-    "highest_price": 236.0,
+    "highest_price": 237.3,
     "stop": 232.2714,
     "target": 243.4571,
     "trailing_stop": null,
     "score": 125,
     "setup_type": "BREAKOUT",
+    "status": "closed",
+    "exit": 232.2714,
+    "exit_date": "2026-07-21",
+    "result_pct": -1.58,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-07-21T15:45:25.481913+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "SMRTG.IS",
+    "date": "2026-07-21",
+    "entry": 12.09,
+    "highest_price": 12.09,
+    "stop": 11.5765,
+    "target": 13.117,
+    "trailing_stop": null,
+    "score": 115,
+    "setup_type": "PULLBACK",
     "status": "open"
   }
 ]

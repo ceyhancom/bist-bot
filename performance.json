@@ -16905,6 +16905,22 @@
     "stop": 232.2714,
     "target": 243.4571,
     "setup_type": "BREAKOUT",
+    "status": "closed",
+    "exit": 232.2714,
+    "exit_date": "2026-07-21",
+    "result_pct": -1.58,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "SMRTG.IS",
+    "date": "2026-07-21",
+    "entry": 12.09,
+    "score": 115,
+    "rsi": 63.48,
+    "vol_ratio": 1.48,
+    "stop": 11.5765,
+    "target": 13.117,
+    "setup_type": "PULLBACK",
     "status": "open"
   }
 ]
