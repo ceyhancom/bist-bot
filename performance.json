@@ -16825,7 +16825,11 @@
     "stop": 104.075,
     "target": 111.95,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 104.075,
+    "exit_date": "2026-07-21",
+    "result_pct": -2.46,
+    "close_reason": "STOP"
   },
   {
     "symbol": "BRSAN.IS",
@@ -16837,7 +16841,11 @@
     "stop": 557.0714,
     "target": 580.8571,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 557.0714,
+    "exit_date": "2026-07-21",
+    "result_pct": -1.4,
+    "close_reason": "STOP"
   },
   {
     "symbol": "GUBRF.IS",
@@ -16849,7 +16857,11 @@
     "stop": 413.0446,
     "target": 430.1607,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 413.0446,
+    "exit_date": "2026-07-21",
+    "result_pct": -1.36,
+    "close_reason": "STOP"
   },
   {
     "symbol": "PASEU.IS",
@@ -16861,7 +16873,11 @@
     "stop": 95.8518,
     "target": 104.9964,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 95.8518,
+    "exit_date": "2026-07-21",
+    "result_pct": -3.08,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TURSG.IS",
@@ -16873,6 +16889,22 @@
     "stop": 6.595,
     "target": 6.91,
     "setup_type": "TREND",
+    "status": "closed",
+    "exit": 6.595,
+    "exit_date": "2026-07-21",
+    "result_pct": -1.57,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "TABGD.IS",
+    "date": "2026-07-21",
+    "entry": 236.0,
+    "score": 125,
+    "rsi": 56.25,
+    "vol_ratio": 1.6,
+    "stop": 232.2714,
+    "target": 243.4571,
+    "setup_type": "BREAKOUT",
     "status": "open"
   }
 ]
