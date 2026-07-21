@@ -9544,8 +9544,8 @@
     "exit_date": "2026-06-15",
     "result_pct": -2.92,
     "close_reason": "STOP",
-    "cooldown_until": "2026-06-15T17:26:18.212438+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "BRYAT.IS",
@@ -10750,8 +10750,8 @@
     "exit_date": "2026-06-16",
     "result_pct": -2.59,
     "close_reason": "STOP",
-    "cooldown_until": "2026-06-16T16:18:18.482765+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "HALKB.IS",
@@ -14638,8 +14638,8 @@
     "exit_date": "2026-07-07",
     "result_pct": -4.68,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-07T14:17:24.739512+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "TABGD.IS",
@@ -16240,8 +16240,8 @@
     "exit_date": "2026-07-14",
     "result_pct": -2.78,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-14T10:19:35.173602+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "EREGL.IS",
@@ -18814,8 +18814,8 @@
     "exit_date": "2026-07-20",
     "result_pct": -1.26,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-20T18:25:04.005995+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "ULKER.IS",
@@ -18857,35 +18857,113 @@
     "symbol": "CCOLA.IS",
     "date": "2026-07-20",
     "entry": 90.1,
-    "highest_price": 90.1,
+    "highest_price": 91.25,
     "stop": 86.552,
     "target": 97.1959,
     "trailing_stop": null,
     "score": 95,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 86.552,
+    "exit_date": "2026-07-21",
+    "result_pct": -3.94,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-07-21T11:05:26.640193+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "CWENE.IS",
     "date": "2026-07-20",
     "entry": 40.14,
-    "highest_price": 40.14,
+    "highest_price": 41.3,
     "stop": 39.3964,
     "target": 41.6271,
     "trailing_stop": null,
     "score": 105,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 39.3964,
+    "exit_date": "2026-07-21",
+    "result_pct": -1.85,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-07-21T11:05:26.785673+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "KCAER.IS",
     "date": "2026-07-20",
     "entry": 13.78,
-    "highest_price": 13.78,
+    "highest_price": 13.97,
     "stop": 13.5561,
     "target": 14.2279,
     "trailing_stop": null,
     "score": 70,
+    "setup_type": "TREND",
+    "status": "closed",
+    "exit": 13.5561,
+    "exit_date": "2026-07-21",
+    "result_pct": -1.62,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-07-21T11:05:26.904011+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "AKSEN.IS",
+    "date": "2026-07-21",
+    "entry": 106.7,
+    "highest_price": 106.7,
+    "stop": 104.075,
+    "target": 111.95,
+    "trailing_stop": null,
+    "score": 75,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "BRSAN.IS",
+    "date": "2026-07-21",
+    "entry": 565.0,
+    "highest_price": 565.0,
+    "stop": 557.0714,
+    "target": 580.8571,
+    "trailing_stop": null,
+    "score": 90,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "GUBRF.IS",
+    "date": "2026-07-21",
+    "entry": 418.75,
+    "highest_price": 418.75,
+    "stop": 413.0446,
+    "target": 430.1607,
+    "trailing_stop": null,
+    "score": 70,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "PASEU.IS",
+    "date": "2026-07-21",
+    "entry": 98.9,
+    "highest_price": 98.9,
+    "stop": 95.8518,
+    "target": 104.9964,
+    "trailing_stop": null,
+    "score": 70,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "TURSG.IS",
+    "date": "2026-07-21",
+    "entry": 6.7,
+    "highest_price": 6.7,
+    "stop": 6.595,
+    "target": 6.91,
+    "trailing_stop": null,
+    "score": 115,
     "setup_type": "TREND",
     "status": "open"
   }

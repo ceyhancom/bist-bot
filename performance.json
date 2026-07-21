@@ -16777,7 +16777,11 @@
     "stop": 86.552,
     "target": 97.1959,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 86.552,
+    "exit_date": "2026-07-21",
+    "result_pct": -3.94,
+    "close_reason": "STOP"
   },
   {
     "symbol": "CWENE.IS",
@@ -16789,7 +16793,11 @@
     "stop": 39.3964,
     "target": 41.6271,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 39.3964,
+    "exit_date": "2026-07-21",
+    "result_pct": -1.85,
+    "close_reason": "STOP"
   },
   {
     "symbol": "KCAER.IS",
@@ -16800,6 +16808,70 @@
     "vol_ratio": 1.02,
     "stop": 13.5561,
     "target": 14.2279,
+    "setup_type": "TREND",
+    "status": "closed",
+    "exit": 13.5561,
+    "exit_date": "2026-07-21",
+    "result_pct": -1.62,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "AKSEN.IS",
+    "date": "2026-07-21",
+    "entry": 106.7,
+    "score": 75,
+    "rsi": 65.89,
+    "vol_ratio": 1.01,
+    "stop": 104.075,
+    "target": 111.95,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "BRSAN.IS",
+    "date": "2026-07-21",
+    "entry": 565.0,
+    "score": 90,
+    "rsi": 66.23,
+    "vol_ratio": 1.26,
+    "stop": 557.0714,
+    "target": 580.8571,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "GUBRF.IS",
+    "date": "2026-07-21",
+    "entry": 418.75,
+    "score": 70,
+    "rsi": 63.06,
+    "vol_ratio": 1.32,
+    "stop": 413.0446,
+    "target": 430.1607,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "PASEU.IS",
+    "date": "2026-07-21",
+    "entry": 98.9,
+    "score": 70,
+    "rsi": 66.18,
+    "vol_ratio": 1.1,
+    "stop": 95.8518,
+    "target": 104.9964,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "TURSG.IS",
+    "date": "2026-07-21",
+    "entry": 6.7,
+    "score": 115,
+    "rsi": 69.44,
+    "vol_ratio": 2.16,
+    "stop": 6.595,
+    "target": 6.91,
     "setup_type": "TREND",
     "status": "open"
   }
