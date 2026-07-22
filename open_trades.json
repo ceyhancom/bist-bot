@@ -15880,8 +15880,8 @@
     "exit_date": "2026-07-13",
     "result_pct": -2.48,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-13T10:22:54.776864+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "GRSEL.IS",
@@ -17158,8 +17158,8 @@
     "exit_date": "2026-07-15",
     "result_pct": -2.4,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-15T19:35:42.581824+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "SMRTG.IS",
@@ -18274,8 +18274,8 @@
     "exit_date": "2026-07-17",
     "result_pct": -2.99,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-17T14:05:56.860845+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "DOAS.IS",
@@ -18472,8 +18472,8 @@
     "exit_date": "2026-07-20",
     "result_pct": -1.52,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-20T18:24:56.798032+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "AGHOL.IS",
@@ -19122,5 +19122,53 @@
     "close_reason": "STOP",
     "cooldown_until": "2026-07-22T12:47:25.168445+03:00",
     "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "AEFES.IS",
+    "date": "2026-07-22",
+    "entry": 22.42,
+    "highest_price": 22.42,
+    "stop": 21.9957,
+    "target": 23.2686,
+    "trailing_stop": null,
+    "score": 78,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "EUPWR.IS",
+    "date": "2026-07-22",
+    "entry": 100.5,
+    "highest_price": 100.5,
+    "stop": 95.783,
+    "target": 109.9341,
+    "trailing_stop": null,
+    "score": 90,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "MIATK.IS",
+    "date": "2026-07-22",
+    "entry": 33.04,
+    "highest_price": 33.04,
+    "stop": 32.5536,
+    "target": 34.0129,
+    "trailing_stop": null,
+    "score": 85,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "SOKM.IS",
+    "date": "2026-07-22",
+    "entry": 55.65,
+    "highest_price": 55.65,
+    "stop": 54.6107,
+    "target": 57.7286,
+    "trailing_stop": null,
+    "score": 120,
+    "setup_type": "BREAKOUT",
+    "status": "open"
   }
 ]

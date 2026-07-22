@@ -17006,5 +17006,53 @@
     "exit_date": "2026-07-22",
     "result_pct": -1.7,
     "close_reason": "STOP"
+  },
+  {
+    "symbol": "AEFES.IS",
+    "date": "2026-07-22",
+    "entry": 22.42,
+    "score": 78,
+    "rsi": 78.18,
+    "vol_ratio": 1.01,
+    "stop": 21.9957,
+    "target": 23.2686,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "EUPWR.IS",
+    "date": "2026-07-22",
+    "entry": 100.5,
+    "score": 90,
+    "rsi": 61.97,
+    "vol_ratio": 1.04,
+    "stop": 95.783,
+    "target": 109.9341,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "MIATK.IS",
+    "date": "2026-07-22",
+    "entry": 33.04,
+    "score": 85,
+    "rsi": 61.18,
+    "vol_ratio": 3.5,
+    "stop": 32.5536,
+    "target": 34.0129,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "SOKM.IS",
+    "date": "2026-07-22",
+    "entry": 55.65,
+    "score": 120,
+    "rsi": 71.56,
+    "vol_ratio": 1.35,
+    "stop": 54.6107,
+    "target": 57.7286,
+    "setup_type": "BREAKOUT",
+    "status": "open"
   }
 ]
