@@ -17017,7 +17017,11 @@
     "stop": 21.9957,
     "target": 23.2686,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 21.9957,
+    "exit_date": "2026-07-22",
+    "result_pct": -1.89,
+    "close_reason": "STOP"
   },
   {
     "symbol": "EUPWR.IS",
@@ -17029,7 +17033,11 @@
     "stop": 95.783,
     "target": 109.9341,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 95.783,
+    "exit_date": "2026-07-22",
+    "result_pct": -4.69,
+    "close_reason": "STOP"
   },
   {
     "symbol": "MIATK.IS",
@@ -17041,7 +17049,11 @@
     "stop": 32.5536,
     "target": 34.0129,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 32.5536,
+    "exit_date": "2026-07-22",
+    "result_pct": -1.47,
+    "close_reason": "STOP"
   },
   {
     "symbol": "SOKM.IS",
@@ -17053,6 +17065,10 @@
     "stop": 54.6107,
     "target": 57.7286,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 54.6107,
+    "exit_date": "2026-07-22",
+    "result_pct": -1.87,
+    "close_reason": "STOP"
   }
 ]
