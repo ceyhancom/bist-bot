@@ -17070,5 +17070,89 @@
     "exit_date": "2026-07-22",
     "result_pct": -1.87,
     "close_reason": "STOP"
+  },
+  {
+    "symbol": "CCOLA.IS",
+    "date": "2026-07-22",
+    "entry": 92.5,
+    "score": 115,
+    "rsi": 57.61,
+    "vol_ratio": 1.29,
+    "stop": 89.5324,
+    "target": 98.4352,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "GUBRF.IS",
+    "date": "2026-07-22",
+    "entry": 429.0,
+    "score": 100,
+    "rsi": 58.33,
+    "vol_ratio": 1.08,
+    "stop": 421.07,
+    "target": 444.86,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "OBAMS.IS",
+    "date": "2026-07-22",
+    "entry": 5.4,
+    "score": 70,
+    "rsi": 62.5,
+    "vol_ratio": 1.23,
+    "stop": 5.2929,
+    "target": 5.6143,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "PETKM.IS",
+    "date": "2026-07-22",
+    "entry": 22.2,
+    "score": 125,
+    "rsi": 53.98,
+    "vol_ratio": 1.66,
+    "stop": 21.3023,
+    "target": 23.9954,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "RALYH.IS",
+    "date": "2026-07-22",
+    "entry": 271.5,
+    "score": 118,
+    "rsi": 77.35,
+    "vol_ratio": 1.89,
+    "stop": 263.0732,
+    "target": 288.3536,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "SASA.IS",
+    "date": "2026-07-22",
+    "entry": 2.63,
+    "score": 90,
+    "rsi": 67.74,
+    "vol_ratio": 1.46,
+    "stop": 2.5496,
+    "target": 2.7907,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "TURSG.IS",
+    "date": "2026-07-22",
+    "entry": 6.8,
+    "score": 88,
+    "rsi": 45.28,
+    "vol_ratio": 1.16,
+    "stop": 6.6575,
+    "target": 7.0849,
+    "setup_type": "PULLBACK",
+    "status": "open"
   }
 ]
