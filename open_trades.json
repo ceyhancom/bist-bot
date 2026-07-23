@@ -18076,8 +18076,8 @@
     "exit_date": "2026-07-17",
     "result_pct": -2.76,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-17T12:13:33.687418+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "MPARK.IS",
@@ -19325,24 +19325,48 @@
     "symbol": "ARCLK.IS",
     "date": "2026-07-23",
     "entry": 100.2,
-    "highest_price": 100.2,
+    "highest_price": 101.7,
     "stop": 99.2571,
     "target": 102.0857,
     "trailing_stop": null,
     "score": 110,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 99.2571,
+    "exit_date": "2026-07-23",
+    "result_pct": -0.94,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-07-23T13:43:42.786100+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "KRDMD.IS",
     "date": "2026-07-23",
     "entry": 42.94,
-    "highest_price": 42.94,
+    "highest_price": 45.1,
     "stop": 42.0507,
     "target": 44.7186,
     "trailing_stop": null,
     "score": 80,
     "setup_type": "TREND",
+    "status": "closed",
+    "exit": 42.0507,
+    "exit_date": "2026-07-23",
+    "result_pct": -2.07,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-07-23T13:43:43.057722+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "MAGEN.IS",
+    "date": "2026-07-23",
+    "entry": 40.14,
+    "highest_price": 40.14,
+    "stop": 38.812,
+    "target": 42.796,
+    "trailing_stop": null,
+    "score": 115,
+    "setup_type": "PULLBACK",
     "status": "open"
   }
 ]
