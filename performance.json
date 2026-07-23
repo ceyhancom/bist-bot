@@ -17081,7 +17081,11 @@
     "stop": 89.5324,
     "target": 98.4352,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 89.5324,
+    "exit_date": "2026-07-23",
+    "result_pct": -3.21,
+    "close_reason": "STOP"
   },
   {
     "symbol": "GUBRF.IS",
@@ -17093,7 +17097,11 @@
     "stop": 421.07,
     "target": 444.86,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 421.07,
+    "exit_date": "2026-07-23",
+    "result_pct": -1.85,
+    "close_reason": "STOP"
   },
   {
     "symbol": "OBAMS.IS",
@@ -17105,7 +17113,11 @@
     "stop": 5.2929,
     "target": 5.6143,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 5.2929,
+    "exit_date": "2026-07-23",
+    "result_pct": -1.98,
+    "close_reason": "STOP"
   },
   {
     "symbol": "PETKM.IS",
@@ -17117,7 +17129,11 @@
     "stop": 21.3023,
     "target": 23.9954,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 21.3023,
+    "exit_date": "2026-07-23",
+    "result_pct": -4.04,
+    "close_reason": "STOP"
   },
   {
     "symbol": "RALYH.IS",
@@ -17129,7 +17145,11 @@
     "stop": 263.0732,
     "target": 288.3536,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 263.0732,
+    "exit_date": "2026-07-23",
+    "result_pct": -3.1,
+    "close_reason": "STOP"
   },
   {
     "symbol": "SASA.IS",
@@ -17141,7 +17161,11 @@
     "stop": 2.5496,
     "target": 2.7907,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 2.5496,
+    "exit_date": "2026-07-23",
+    "result_pct": -3.06,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TURSG.IS",
@@ -17153,6 +17177,34 @@
     "stop": 6.6575,
     "target": 7.0849,
     "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 6.6575,
+    "exit_date": "2026-07-23",
+    "result_pct": -2.1,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "ARCLK.IS",
+    "date": "2026-07-23",
+    "entry": 100.2,
+    "score": 110,
+    "rsi": 61.39,
+    "vol_ratio": 1.48,
+    "stop": 99.2571,
+    "target": 102.0857,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "KRDMD.IS",
+    "date": "2026-07-23",
+    "entry": 42.94,
+    "score": 80,
+    "rsi": 35.02,
+    "vol_ratio": 1.39,
+    "stop": 42.0507,
+    "target": 44.7186,
+    "setup_type": "TREND",
     "status": "open"
   }
 ]
