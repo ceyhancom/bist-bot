@@ -18490,8 +18490,8 @@
     "exit_date": "2026-07-20",
     "result_pct": -1.76,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-20T18:24:57.141188+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "ALARK.IS",
@@ -19374,5 +19374,17 @@
     "close_reason": "STOP",
     "cooldown_until": "2026-07-23T15:41:41.805977+03:00",
     "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "AGHOL.IS",
+    "date": "2026-07-23",
+    "entry": 34.78,
+    "highest_price": 34.78,
+    "stop": 34.3497,
+    "target": 35.6406,
+    "trailing_stop": null,
+    "score": 108,
+    "setup_type": "PULLBACK",
+    "status": "open"
   }
 ]
