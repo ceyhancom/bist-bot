@@ -19361,12 +19361,18 @@
     "symbol": "MAGEN.IS",
     "date": "2026-07-23",
     "entry": 40.14,
-    "highest_price": 40.14,
+    "highest_price": 41.86,
     "stop": 38.812,
     "target": 42.796,
     "trailing_stop": null,
     "score": 115,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 38.812,
+    "exit_date": "2026-07-23",
+    "result_pct": -3.31,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-07-23T15:41:41.805977+03:00",
+    "cooldown_reason": "STOP"
   }
 ]
