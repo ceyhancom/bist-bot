@@ -17257,6 +17257,10 @@
     "stop": 33.6193,
     "target": 36.2614,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 33.6193,
+    "exit_date": "2026-07-24",
+    "result_pct": -2.55,
+    "close_reason": "STOP"
   }
 ]

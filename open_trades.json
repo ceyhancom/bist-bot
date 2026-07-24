@@ -19397,12 +19397,18 @@
     "symbol": "MIATK.IS",
     "date": "2026-07-24",
     "entry": 34.5,
-    "highest_price": 34.5,
+    "highest_price": 35.46,
     "stop": 33.6193,
     "target": 36.2614,
     "trailing_stop": null,
     "score": 115,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 33.6193,
+    "exit_date": "2026-07-24",
+    "result_pct": -2.55,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-07-24T13:40:45.388604+03:00",
+    "cooldown_reason": "STOP"
   }
 ]
