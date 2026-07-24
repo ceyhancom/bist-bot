@@ -17104,8 +17104,8 @@
     "exit_date": "2026-07-15",
     "result_pct": -1.62,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-15T19:35:41.954071+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "KTLEV.IS",
@@ -18940,8 +18940,8 @@
     "exit_date": "2026-07-21",
     "result_pct": -1.4,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-21T13:47:12.876967+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "GUBRF.IS",
@@ -19372,8 +19372,8 @@
     "exit_date": "2026-07-23",
     "result_pct": -3.31,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-23T15:41:41.805977+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "AGHOL.IS",
@@ -19408,7 +19408,55 @@
     "exit_date": "2026-07-24",
     "result_pct": -2.55,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-24T13:40:45.388604+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
+  },
+  {
+    "symbol": "BRSAN.IS",
+    "date": "2026-07-24",
+    "entry": 566.5,
+    "highest_price": 566.5,
+    "stop": 559.6857,
+    "target": 580.1286,
+    "trailing_stop": null,
+    "score": 95,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "IEYHO.IS",
+    "date": "2026-07-24",
+    "entry": 163.8,
+    "highest_price": 163.8,
+    "stop": 162.1929,
+    "target": 167.0143,
+    "trailing_stop": null,
+    "score": 135,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "MAGEN.IS",
+    "date": "2026-07-24",
+    "entry": 41.24,
+    "highest_price": 41.24,
+    "stop": 39.5458,
+    "target": 44.6284,
+    "trailing_stop": null,
+    "score": 130,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "MIATK.IS",
+    "date": "2026-07-24",
+    "entry": 34.08,
+    "highest_price": 34.08,
+    "stop": 33.311,
+    "target": 35.618,
+    "trailing_stop": null,
+    "score": 110,
+    "setup_type": "PULLBACK",
+    "status": "open"
   }
 ]

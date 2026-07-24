@@ -17262,5 +17262,53 @@
     "exit_date": "2026-07-24",
     "result_pct": -2.55,
     "close_reason": "STOP"
+  },
+  {
+    "symbol": "BRSAN.IS",
+    "date": "2026-07-24",
+    "entry": 566.5,
+    "score": 95,
+    "rsi": 53.16,
+    "vol_ratio": 1.07,
+    "stop": 559.6857,
+    "target": 580.1286,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "IEYHO.IS",
+    "date": "2026-07-24",
+    "entry": 163.8,
+    "score": 135,
+    "rsi": 61.04,
+    "vol_ratio": 1.77,
+    "stop": 162.1929,
+    "target": 167.0143,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "MAGEN.IS",
+    "date": "2026-07-24",
+    "entry": 41.24,
+    "score": 130,
+    "rsi": 53.47,
+    "vol_ratio": 2.09,
+    "stop": 39.5458,
+    "target": 44.6284,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "MIATK.IS",
+    "date": "2026-07-24",
+    "entry": 34.08,
+    "score": 110,
+    "rsi": 59.7,
+    "vol_ratio": 1.47,
+    "stop": 33.311,
+    "target": 35.618,
+    "setup_type": "PULLBACK",
+    "status": "open"
   }
 ]
