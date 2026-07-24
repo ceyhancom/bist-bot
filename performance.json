@@ -17326,5 +17326,41 @@
     "exit_date": "2026-07-24",
     "result_pct": -2.26,
     "close_reason": "STOP"
+  },
+  {
+    "symbol": "BRSAN.IS",
+    "date": "2026-07-24",
+    "entry": 571.5,
+    "score": 115,
+    "rsi": 59.76,
+    "vol_ratio": 1.21,
+    "stop": 561.5001,
+    "target": 591.4998,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "OYAKC.IS",
+    "date": "2026-07-24",
+    "entry": 21.34,
+    "score": 130,
+    "rsi": 52.04,
+    "vol_ratio": 2.61,
+    "stop": 20.7389,
+    "target": 22.5422,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "PASEU.IS",
+    "date": "2026-07-24",
+    "entry": 113.1,
+    "score": 125,
+    "rsi": 56.38,
+    "vol_ratio": 1.57,
+    "stop": 106.3071,
+    "target": 126.6858,
+    "setup_type": "PULLBACK",
+    "status": "open"
   }
 ]
