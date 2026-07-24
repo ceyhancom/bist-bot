@@ -19174,8 +19174,8 @@
     "exit_date": "2026-07-22",
     "result_pct": -1.47,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-22T16:42:59.202024+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "SOKM.IS",
@@ -19379,12 +19379,30 @@
     "symbol": "AGHOL.IS",
     "date": "2026-07-23",
     "entry": 34.78,
-    "highest_price": 34.78,
+    "highest_price": 35.72,
     "stop": 34.3497,
     "target": 35.6406,
     "trailing_stop": null,
     "score": 108,
     "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 34.3497,
+    "exit_date": "2026-07-24",
+    "result_pct": -1.24,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-07-24T11:03:17.856097+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "MIATK.IS",
+    "date": "2026-07-24",
+    "entry": 34.5,
+    "highest_price": 34.5,
+    "stop": 33.6193,
+    "target": 36.2614,
+    "trailing_stop": null,
+    "score": 115,
+    "setup_type": "BREAKOUT",
     "status": "open"
   }
 ]

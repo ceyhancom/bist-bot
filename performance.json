@@ -17241,6 +17241,22 @@
     "stop": 34.3497,
     "target": 35.6406,
     "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 34.3497,
+    "exit_date": "2026-07-24",
+    "result_pct": -1.24,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "MIATK.IS",
+    "date": "2026-07-24",
+    "entry": 34.5,
+    "score": 115,
+    "rsi": 66.67,
+    "vol_ratio": 1.87,
+    "stop": 33.6193,
+    "target": 36.2614,
+    "setup_type": "BREAKOUT",
     "status": "open"
   }
 ]
