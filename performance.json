@@ -17401,7 +17401,11 @@
     "stop": 185.7114,
     "target": 189.8771,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 185.7114,
+    "exit_date": "2026-07-27",
+    "result_pct": -0.74,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ISMEN.IS",
@@ -17413,7 +17417,11 @@
     "stop": 36.3286,
     "target": 37.7429,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 36.3286,
+    "exit_date": "2026-07-27",
+    "result_pct": -1.28,
+    "close_reason": "STOP"
   },
   {
     "symbol": "KCAER.IS",
@@ -17425,7 +17433,11 @@
     "stop": 15.4293,
     "target": 16.6314,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 15.4293,
+    "exit_date": "2026-07-27",
+    "result_pct": -2.53,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TABGD.IS",
@@ -17437,6 +17449,10 @@
     "stop": 234.0964,
     "target": 244.6072,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 234.0964,
+    "exit_date": "2026-07-27",
+    "result_pct": -1.47,
+    "close_reason": "STOP"
   }
 ]
