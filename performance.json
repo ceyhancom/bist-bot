@@ -17385,6 +17385,58 @@
     "stop": 1496.3929,
     "target": 1555.2143,
     "setup_type": "WEAK",
+    "status": "closed",
+    "exit": 1496.3929,
+    "exit_date": "2026-07-27",
+    "result_pct": -1.29,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "DOAS.IS",
+    "date": "2026-07-27",
+    "entry": 187.1,
+    "score": 90,
+    "rsi": 51.72,
+    "vol_ratio": 1.35,
+    "stop": 185.7114,
+    "target": 189.8771,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "ISMEN.IS",
+    "date": "2026-07-27",
+    "entry": 36.8,
+    "score": 75,
+    "rsi": 66.36,
+    "vol_ratio": 1.84,
+    "stop": 36.3286,
+    "target": 37.7429,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "KCAER.IS",
+    "date": "2026-07-27",
+    "entry": 15.83,
+    "score": 123,
+    "rsi": 77.89,
+    "vol_ratio": 3.83,
+    "stop": 15.4293,
+    "target": 16.6314,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "TABGD.IS",
+    "date": "2026-07-27",
+    "entry": 237.6,
+    "score": 125,
+    "rsi": 62.91,
+    "vol_ratio": 1.57,
+    "stop": 234.0964,
+    "target": 244.6072,
+    "setup_type": "BREAKOUT",
     "status": "open"
   }
 ]

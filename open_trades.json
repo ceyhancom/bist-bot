@@ -18292,8 +18292,8 @@
     "exit_date": "2026-07-17",
     "result_pct": -0.89,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-17T15:37:23.553150+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "SKBNK.IS",
@@ -18382,8 +18382,8 @@
     "exit_date": "2026-07-17",
     "result_pct": -1.58,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-17T18:46:58.148698+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "OYAKC.IS",
@@ -18904,8 +18904,8 @@
     "exit_date": "2026-07-21",
     "result_pct": -1.62,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-21T11:05:26.904011+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "AKSEN.IS",
@@ -19120,8 +19120,8 @@
     "exit_date": "2026-07-22",
     "result_pct": -1.7,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-22T12:47:25.168445+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "AEFES.IS",
@@ -19541,12 +19541,66 @@
     "symbol": "CLEBI.IS",
     "date": "2026-07-27",
     "entry": 1516.0,
-    "highest_price": 1516.0,
+    "highest_price": 1544.0,
     "stop": 1496.3929,
     "target": 1555.2143,
     "trailing_stop": null,
     "score": 70,
     "setup_type": "WEAK",
+    "status": "closed",
+    "exit": 1496.3929,
+    "exit_date": "2026-07-27",
+    "result_pct": -1.29,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-07-27T15:09:51.396194+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "DOAS.IS",
+    "date": "2026-07-27",
+    "entry": 187.1,
+    "highest_price": 187.1,
+    "stop": 185.7114,
+    "target": 189.8771,
+    "trailing_stop": null,
+    "score": 90,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "ISMEN.IS",
+    "date": "2026-07-27",
+    "entry": 36.8,
+    "highest_price": 36.8,
+    "stop": 36.3286,
+    "target": 37.7429,
+    "trailing_stop": null,
+    "score": 75,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "KCAER.IS",
+    "date": "2026-07-27",
+    "entry": 15.83,
+    "highest_price": 15.83,
+    "stop": 15.4293,
+    "target": 16.6314,
+    "trailing_stop": null,
+    "score": 123,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "TABGD.IS",
+    "date": "2026-07-27",
+    "entry": 237.6,
+    "highest_price": 237.6,
+    "stop": 234.0964,
+    "target": 244.6072,
+    "trailing_stop": null,
+    "score": 125,
+    "setup_type": "BREAKOUT",
     "status": "open"
   }
 ]
