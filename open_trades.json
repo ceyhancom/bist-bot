@@ -17410,8 +17410,8 @@
     "exit_date": "2026-07-16",
     "result_pct": -0.76,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-16T14:20:35.372255+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "DOAS.IS",
@@ -19487,36 +19487,66 @@
     "symbol": "BRSAN.IS",
     "date": "2026-07-24",
     "entry": 571.5,
-    "highest_price": 571.5,
+    "highest_price": 583.5,
     "stop": 561.5001,
     "target": 591.4998,
     "trailing_stop": null,
     "score": 115,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 561.5001,
+    "exit_date": "2026-07-27",
+    "result_pct": -1.75,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-07-27T11:39:43.847128+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "OYAKC.IS",
     "date": "2026-07-24",
     "entry": 21.34,
-    "highest_price": 21.34,
+    "highest_price": 21.64,
     "stop": 20.7389,
     "target": 22.5422,
     "trailing_stop": null,
     "score": 130,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 20.7389,
+    "exit_date": "2026-07-27",
+    "result_pct": -2.82,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-07-27T11:39:43.975559+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "PASEU.IS",
     "date": "2026-07-24",
     "entry": 113.1,
-    "highest_price": 113.1,
+    "highest_price": 116.1,
     "stop": 106.3071,
     "target": 126.6858,
     "trailing_stop": null,
     "score": 125,
     "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 106.3071,
+    "exit_date": "2026-07-27",
+    "result_pct": -6.01,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-07-27T11:39:44.072917+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "CLEBI.IS",
+    "date": "2026-07-27",
+    "entry": 1516.0,
+    "highest_price": 1516.0,
+    "stop": 1496.3929,
+    "target": 1555.2143,
+    "trailing_stop": null,
+    "score": 70,
+    "setup_type": "WEAK",
     "status": "open"
   }
 ]

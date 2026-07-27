@@ -17337,7 +17337,11 @@
     "stop": 561.5001,
     "target": 591.4998,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 561.5001,
+    "exit_date": "2026-07-27",
+    "result_pct": -1.75,
+    "close_reason": "STOP"
   },
   {
     "symbol": "OYAKC.IS",
@@ -17349,7 +17353,11 @@
     "stop": 20.7389,
     "target": 22.5422,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 20.7389,
+    "exit_date": "2026-07-27",
+    "result_pct": -2.82,
+    "close_reason": "STOP"
   },
   {
     "symbol": "PASEU.IS",
@@ -17361,6 +17369,22 @@
     "stop": 106.3071,
     "target": 126.6858,
     "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 106.3071,
+    "exit_date": "2026-07-27",
+    "result_pct": -6.01,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "CLEBI.IS",
+    "date": "2026-07-27",
+    "entry": 1516.0,
+    "score": 70,
+    "rsi": 56.72,
+    "vol_ratio": 1.29,
+    "stop": 1496.3929,
+    "target": 1555.2143,
+    "setup_type": "WEAK",
     "status": "open"
   }
 ]
