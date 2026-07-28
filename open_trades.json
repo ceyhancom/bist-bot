@@ -19631,12 +19631,18 @@
     "symbol": "VESTL.IS",
     "date": "2026-07-28",
     "entry": 24.54,
-    "highest_price": 24.54,
+    "highest_price": 25.96,
     "stop": 23.8907,
     "target": 25.8386,
     "trailing_stop": null,
     "score": 70,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 23.8907,
+    "exit_date": "2026-07-28",
+    "result_pct": -2.65,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-07-28T13:52:15.121321+03:00",
+    "cooldown_reason": "STOP"
   }
 ]
