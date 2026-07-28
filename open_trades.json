@@ -18850,8 +18850,8 @@
     "exit_date": "2026-07-20",
     "result_pct": -1.73,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-20T18:25:04.612499+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "CCOLA.IS",
@@ -19626,5 +19626,17 @@
     "close_reason": "STOP",
     "cooldown_until": "2026-07-27T17:38:55.858925+03:00",
     "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "VESTL.IS",
+    "date": "2026-07-28",
+    "entry": 24.54,
+    "highest_price": 24.54,
+    "stop": 23.8907,
+    "target": 25.8386,
+    "trailing_stop": null,
+    "score": 70,
+    "setup_type": "WEAK",
+    "status": "open"
   }
 ]
