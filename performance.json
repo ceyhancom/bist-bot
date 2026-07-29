@@ -17721,6 +17721,82 @@
     "stop": 107.625,
     "target": 113.25,
     "setup_type": "TREND",
+    "status": "closed",
+    "exit": 107.625,
+    "exit_date": "2026-07-29",
+    "result_pct": -1.71,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "AGHOL.IS",
+    "date": "2026-07-29",
+    "entry": 34.88,
+    "score": 115,
+    "rsi": 54.24,
+    "vol_ratio": 1.21,
+    "stop": 34.4531,
+    "target": 35.7337,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "CWENE.IS",
+    "date": "2026-07-29",
+    "entry": 37.4,
+    "score": 75,
+    "rsi": 53.59,
+    "vol_ratio": 6.22,
+    "stop": 36.3971,
+    "target": 39.4057,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "DOHOL.IS",
+    "date": "2026-07-29",
+    "entry": 21.28,
+    "score": 105,
+    "rsi": 60.38,
+    "vol_ratio": 1.24,
+    "stop": 21.0074,
+    "target": 21.8251,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "GRSEL.IS",
+    "date": "2026-07-29",
+    "entry": 362.5,
+    "score": 115,
+    "rsi": 67.68,
+    "vol_ratio": 2.58,
+    "stop": 352.75,
+    "target": 382.0,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "ODAS.IS",
+    "date": "2026-07-29",
+    "entry": 8.84,
+    "score": 90,
+    "rsi": 68.42,
+    "vol_ratio": 1.08,
+    "stop": 8.6707,
+    "target": 9.1786,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "TAVHL.IS",
+    "date": "2026-07-29",
+    "entry": 271.75,
+    "score": 70,
+    "rsi": 67.01,
+    "vol_ratio": 1.17,
+    "stop": 266.1518,
+    "target": 282.9464,
+    "setup_type": "TREND",
     "status": "open"
   }
 ]

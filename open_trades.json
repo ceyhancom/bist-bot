@@ -18580,8 +18580,8 @@
     "exit_date": "2026-07-20",
     "result_pct": -1.92,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-20T18:24:59.372366+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "GRSEL.IS",
@@ -19066,8 +19066,8 @@
     "exit_date": "2026-07-22",
     "result_pct": -1.76,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-22T12:47:24.839960+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "GRSEL.IS",
@@ -19750,8 +19750,8 @@
     "exit_date": "2026-07-29",
     "result_pct": -2.56,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-29T13:06:57.909217+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "IEYHO.IS",
@@ -19840,8 +19840,8 @@
     "exit_date": "2026-07-29",
     "result_pct": -1.43,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-29T15:25:17.279568+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "TAVHL.IS",
@@ -19858,8 +19858,8 @@
     "exit_date": "2026-07-29",
     "result_pct": -1.6,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-29T15:25:17.535859+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "EREGL.IS",
@@ -19894,8 +19894,8 @@
     "exit_date": "2026-07-29",
     "result_pct": -1.66,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-29T17:09:12.290154+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "TABGD.IS",
@@ -19919,11 +19919,89 @@
     "symbol": "ENJSA.IS",
     "date": "2026-07-29",
     "entry": 109.5,
-    "highest_price": 109.5,
+    "highest_price": 111.8,
     "stop": 107.625,
     "target": 113.25,
     "trailing_stop": null,
     "score": 115,
+    "setup_type": "TREND",
+    "status": "closed",
+    "exit": 107.625,
+    "exit_date": "2026-07-29",
+    "result_pct": -1.71,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-07-29T19:19:48.015599+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "AGHOL.IS",
+    "date": "2026-07-29",
+    "entry": 34.88,
+    "highest_price": 34.88,
+    "stop": 34.4531,
+    "target": 35.7337,
+    "trailing_stop": null,
+    "score": 115,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "CWENE.IS",
+    "date": "2026-07-29",
+    "entry": 37.4,
+    "highest_price": 37.4,
+    "stop": 36.3971,
+    "target": 39.4057,
+    "trailing_stop": null,
+    "score": 75,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "DOHOL.IS",
+    "date": "2026-07-29",
+    "entry": 21.28,
+    "highest_price": 21.28,
+    "stop": 21.0074,
+    "target": 21.8251,
+    "trailing_stop": null,
+    "score": 105,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "GRSEL.IS",
+    "date": "2026-07-29",
+    "entry": 362.5,
+    "highest_price": 362.5,
+    "stop": 352.75,
+    "target": 382.0,
+    "trailing_stop": null,
+    "score": 115,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "ODAS.IS",
+    "date": "2026-07-29",
+    "entry": 8.84,
+    "highest_price": 8.84,
+    "stop": 8.6707,
+    "target": 9.1786,
+    "trailing_stop": null,
+    "score": 90,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "TAVHL.IS",
+    "date": "2026-07-29",
+    "entry": 271.75,
+    "highest_price": 271.75,
+    "stop": 266.1518,
+    "target": 282.9464,
+    "trailing_stop": null,
+    "score": 70,
     "setup_type": "TREND",
     "status": "open"
   }
