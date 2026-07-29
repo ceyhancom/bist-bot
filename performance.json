@@ -17481,7 +17481,11 @@
     "stop": 21.3714,
     "target": 22.4771,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 21.3714,
+    "exit_date": "2026-07-29",
+    "result_pct": -1.7,
+    "close_reason": "STOP"
   },
   {
     "symbol": "AKSA.IS",
@@ -17493,7 +17497,11 @@
     "stop": 12.2611,
     "target": 12.8579,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 12.2611,
+    "exit_date": "2026-07-29",
+    "result_pct": -1.6,
+    "close_reason": "STOP"
   },
   {
     "symbol": "BIMAS.IS",
@@ -17505,7 +17513,11 @@
     "stop": 386.3839,
     "target": 399.4821,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 386.3839,
+    "exit_date": "2026-07-29",
+    "result_pct": -1.12,
+    "close_reason": "STOP"
   },
   {
     "symbol": "EREGL.IS",
@@ -17517,7 +17529,11 @@
     "stop": 43.1034,
     "target": 44.5331,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 43.1034,
+    "exit_date": "2026-07-29",
+    "result_pct": -1.09,
+    "close_reason": "STOP"
   },
   {
     "symbol": "GARAN.IS",
@@ -17529,7 +17545,11 @@
     "stop": 126.4086,
     "target": 130.8829,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 126.4086,
+    "exit_date": "2026-07-29",
+    "result_pct": -1.17,
+    "close_reason": "STOP"
   },
   {
     "symbol": "GRSEL.IS",
@@ -17541,7 +17561,11 @@
     "stop": 344.4464,
     "target": 371.6071,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 344.4464,
+    "exit_date": "2026-07-29",
+    "result_pct": -2.56,
+    "close_reason": "STOP"
   },
   {
     "symbol": "IEYHO.IS",
@@ -17553,7 +17577,11 @@
     "stop": 164.9964,
     "target": 168.3071,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 164.9964,
+    "exit_date": "2026-07-29",
+    "result_pct": -0.66,
+    "close_reason": "STOP"
   },
   {
     "symbol": "MGROS.IS",
@@ -17565,7 +17593,11 @@
     "stop": 626.2321,
     "target": 649.5357,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 626.2321,
+    "exit_date": "2026-07-29",
+    "result_pct": -1.23,
+    "close_reason": "STOP"
   },
   {
     "symbol": "OYAKC.IS",
@@ -17577,7 +17609,11 @@
     "stop": 20.6206,
     "target": 21.6389,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 20.6206,
+    "exit_date": "2026-07-29",
+    "result_pct": -1.62,
+    "close_reason": "STOP"
   },
   {
     "symbol": "SOKM.IS",
@@ -17588,6 +17624,34 @@
     "vol_ratio": 1.06,
     "stop": 52.6914,
     "target": 54.5171,
+    "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 52.6914,
+    "exit_date": "2026-07-29",
+    "result_pct": -1.14,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "AGHOL.IS",
+    "date": "2026-07-29",
+    "entry": 34.84,
+    "score": 105,
+    "rsi": 58.82,
+    "vol_ratio": 1.0,
+    "stop": 34.3429,
+    "target": 35.8343,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "TAVHL.IS",
+    "date": "2026-07-29",
+    "entry": 269.75,
+    "score": 100,
+    "rsi": 62.24,
+    "vol_ratio": 1.03,
+    "stop": 265.4429,
+    "target": 278.3643,
     "setup_type": "PULLBACK",
     "status": "open"
   }
