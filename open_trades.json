@@ -17806,8 +17806,8 @@
     "exit_date": "2026-07-16",
     "result_pct": -1.46,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-16T15:54:22.483156+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "OTKAR.IS",
@@ -19624,8 +19624,8 @@
     "exit_date": "2026-07-27",
     "result_pct": -1.47,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-27T17:38:55.858925+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "VESTL.IS",
@@ -19714,8 +19714,8 @@
     "exit_date": "2026-07-29",
     "result_pct": -1.09,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-29T13:06:57.225699+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "GARAN.IS",
@@ -19829,23 +19829,71 @@
     "symbol": "AGHOL.IS",
     "date": "2026-07-29",
     "entry": 34.84,
-    "highest_price": 34.84,
+    "highest_price": 35.4,
     "stop": 34.3429,
     "target": 35.8343,
     "trailing_stop": null,
     "score": 105,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 34.3429,
+    "exit_date": "2026-07-29",
+    "result_pct": -1.43,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-07-29T15:25:17.279568+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "TAVHL.IS",
     "date": "2026-07-29",
     "entry": 269.75,
-    "highest_price": 269.75,
+    "highest_price": 276.25,
     "stop": 265.4429,
     "target": 278.3643,
     "trailing_stop": null,
     "score": 100,
+    "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 265.4429,
+    "exit_date": "2026-07-29",
+    "result_pct": -1.6,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-07-29T15:25:17.535859+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "EREGL.IS",
+    "date": "2026-07-29",
+    "entry": 44.04,
+    "highest_price": 44.04,
+    "stop": 43.4554,
+    "target": 45.2091,
+    "trailing_stop": null,
+    "score": 115,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "ODAS.IS",
+    "date": "2026-07-29",
+    "entry": 8.85,
+    "highest_price": 8.85,
+    "stop": 8.7032,
+    "target": 9.1436,
+    "trailing_stop": null,
+    "score": 100,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "TABGD.IS",
+    "date": "2026-07-29",
+    "entry": 237.0,
+    "highest_price": 237.0,
+    "stop": 234.214,
+    "target": 242.572,
+    "trailing_stop": null,
+    "score": 115,
     "setup_type": "PULLBACK",
     "status": "open"
   }
