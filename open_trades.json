@@ -376,8 +376,8 @@
     "exit_date": "2026-04-30",
     "result_pct": -3.58,
     "close_reason": "STOP",
-    "cooldown_until": "2026-04-30T12:03:15.587538+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "OTKAR.IS",
@@ -18508,8 +18508,8 @@
     "exit_date": "2026-07-20",
     "result_pct": -1.69,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-20T18:24:57.490319+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "ANSGR.IS",
@@ -19696,8 +19696,8 @@
     "exit_date": "2026-07-29",
     "result_pct": -1.12,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-29T13:06:56.826781+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "EREGL.IS",
@@ -20045,60 +20045,126 @@
     "symbol": "BALSU.IS",
     "date": "2026-07-30",
     "entry": 15.15,
-    "highest_price": 15.15,
+    "highest_price": 16.87,
     "stop": 14.6561,
     "target": 16.1379,
     "trailing_stop": null,
     "score": 85,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 14.6561,
+    "exit_date": "2026-07-30",
+    "result_pct": -3.26,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-07-30T15:26:33.136320+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "DOHOL.IS",
     "date": "2026-07-30",
     "entry": 22.04,
-    "highest_price": 22.04,
+    "highest_price": 22.18,
     "stop": 21.5814,
     "target": 22.9571,
     "trailing_stop": null,
     "score": 110,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 21.5814,
+    "exit_date": "2026-07-30",
+    "result_pct": -2.08,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-07-30T15:26:33.265800+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "FROTO.IS",
     "date": "2026-07-30",
     "entry": 77.75,
-    "highest_price": 77.75,
+    "highest_price": 80.2,
     "stop": 76.6464,
     "target": 79.9571,
     "trailing_stop": null,
     "score": 80,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 76.6464,
+    "exit_date": "2026-07-30",
+    "result_pct": -1.42,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-07-30T15:26:33.386455+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "OYAKC.IS",
     "date": "2026-07-30",
     "entry": 21.12,
-    "highest_price": 21.12,
+    "highest_price": 21.64,
     "stop": 20.7909,
     "target": 21.7783,
     "trailing_stop": null,
     "score": 115,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 20.7909,
+    "exit_date": "2026-07-30",
+    "result_pct": -1.56,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-07-30T15:26:33.540721+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "TKFEN.IS",
     "date": "2026-07-30",
     "entry": 150.4,
-    "highest_price": 150.4,
+    "highest_price": 153.1,
     "stop": 148.4114,
     "target": 154.3771,
     "trailing_stop": null,
     "score": 105,
     "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 148.4114,
+    "exit_date": "2026-07-30",
+    "result_pct": -1.32,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-07-30T15:26:33.736460+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "ALARK.IS",
+    "date": "2026-07-30",
+    "entry": 103.7,
+    "highest_price": 103.7,
+    "stop": 101.975,
+    "target": 107.15,
+    "trailing_stop": null,
+    "score": 70,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "BIMAS.IS",
+    "date": "2026-07-30",
+    "entry": 389.75,
+    "highest_price": 389.75,
+    "stop": 385.3786,
+    "target": 398.4929,
+    "trailing_stop": null,
+    "score": 98,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "KONTR.IS",
+    "date": "2026-07-30",
+    "entry": 5.1,
+    "highest_price": 5.1,
+    "stop": 4.8429,
+    "target": 5.6143,
+    "trailing_stop": null,
+    "score": 70,
+    "setup_type": "WEAK",
     "status": "open"
   }
 ]
