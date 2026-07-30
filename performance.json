@@ -17913,7 +17913,11 @@
     "stop": 101.975,
     "target": 107.15,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 101.975,
+    "exit_date": "2026-07-30",
+    "result_pct": -1.66,
+    "close_reason": "STOP"
   },
   {
     "symbol": "BIMAS.IS",
@@ -17925,7 +17929,11 @@
     "stop": 385.3786,
     "target": 398.4929,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 385.3786,
+    "exit_date": "2026-07-30",
+    "result_pct": -1.12,
+    "close_reason": "STOP"
   },
   {
     "symbol": "KONTR.IS",
@@ -17937,6 +17945,10 @@
     "stop": 4.8429,
     "target": 5.6143,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 4.8429,
+    "exit_date": "2026-07-30",
+    "result_pct": -5.04,
+    "close_reason": "STOP"
   }
 ]
