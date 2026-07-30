@@ -17086,8 +17086,8 @@
     "exit_date": "2026-07-15",
     "result_pct": -1.55,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-15T19:35:41.657176+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "IEYHO.IS",
@@ -18238,8 +18238,8 @@
     "exit_date": "2026-07-17",
     "result_pct": -2.2,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-17T14:05:56.642916+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "PETKM.IS",
@@ -18526,8 +18526,8 @@
     "exit_date": "2026-07-20",
     "result_pct": -0.89,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-20T18:24:57.803643+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "BIMAS.IS",
@@ -19660,8 +19660,8 @@
     "exit_date": "2026-07-29",
     "result_pct": -1.7,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-29T13:06:56.106765+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "AKSA.IS",
@@ -19912,8 +19912,8 @@
     "exit_date": "2026-07-29",
     "result_pct": -1.18,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-29T17:09:12.407283+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "ENJSA.IS",
@@ -19948,8 +19948,8 @@
     "exit_date": "2026-07-30",
     "result_pct": -1.22,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-30T10:58:24.409993+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "CWENE.IS",
@@ -20056,8 +20056,8 @@
     "exit_date": "2026-07-30",
     "result_pct": -3.26,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-30T15:26:33.136320+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "DOHOL.IS",
@@ -20128,8 +20128,8 @@
     "exit_date": "2026-07-30",
     "result_pct": -1.32,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-30T15:26:33.736460+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "ALARK.IS",
@@ -20184,5 +20184,101 @@
     "close_reason": "STOP",
     "cooldown_until": "2026-07-30T17:00:28.197736+03:00",
     "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "AEFES.IS",
+    "date": "2026-07-30",
+    "entry": 22.0,
+    "highest_price": 22.0,
+    "stop": 21.5693,
+    "target": 22.8613,
+    "trailing_stop": null,
+    "score": 105,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "AGHOL.IS",
+    "date": "2026-07-30",
+    "entry": 35.42,
+    "highest_price": 35.42,
+    "stop": 34.8458,
+    "target": 36.5684,
+    "trailing_stop": null,
+    "score": 95,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "ANSGR.IS",
+    "date": "2026-07-30",
+    "entry": 27.06,
+    "highest_price": 27.06,
+    "stop": 26.6186,
+    "target": 27.9429,
+    "trailing_stop": null,
+    "score": 80,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "BALSU.IS",
+    "date": "2026-07-30",
+    "entry": 15.21,
+    "highest_price": 15.21,
+    "stop": 14.7043,
+    "target": 16.2214,
+    "trailing_stop": null,
+    "score": 70,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "GESAN.IS",
+    "date": "2026-07-30",
+    "entry": 75.65,
+    "highest_price": 75.65,
+    "stop": 73.6786,
+    "target": 79.5929,
+    "trailing_stop": null,
+    "score": 75,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "KLRHO.IS",
+    "date": "2026-07-30",
+    "entry": 76.85,
+    "highest_price": 76.85,
+    "stop": 75.3125,
+    "target": 79.925,
+    "trailing_stop": null,
+    "score": 85,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "TABGD.IS",
+    "date": "2026-07-30",
+    "entry": 235.9,
+    "highest_price": 235.9,
+    "stop": 233.3543,
+    "target": 240.9914,
+    "trailing_stop": null,
+    "score": 130,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "TKFEN.IS",
+    "date": "2026-07-30",
+    "entry": 152.8,
+    "highest_price": 152.8,
+    "stop": 150.0679,
+    "target": 158.2643,
+    "trailing_stop": null,
+    "score": 130,
+    "setup_type": "BREAKOUT",
+    "status": "open"
   }
 ]

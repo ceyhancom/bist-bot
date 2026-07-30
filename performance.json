@@ -17950,5 +17950,101 @@
     "exit_date": "2026-07-30",
     "result_pct": -5.04,
     "close_reason": "STOP"
+  },
+  {
+    "symbol": "AEFES.IS",
+    "date": "2026-07-30",
+    "entry": 22.0,
+    "score": 105,
+    "rsi": 60.27,
+    "vol_ratio": 1.18,
+    "stop": 21.5693,
+    "target": 22.8613,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "AGHOL.IS",
+    "date": "2026-07-30",
+    "entry": 35.42,
+    "score": 95,
+    "rsi": 61.76,
+    "vol_ratio": 1.04,
+    "stop": 34.8458,
+    "target": 36.5684,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "ANSGR.IS",
+    "date": "2026-07-30",
+    "entry": 27.06,
+    "score": 80,
+    "rsi": 54.55,
+    "vol_ratio": 1.5,
+    "stop": 26.6186,
+    "target": 27.9429,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "BALSU.IS",
+    "date": "2026-07-30",
+    "entry": 15.21,
+    "score": 70,
+    "rsi": 56.16,
+    "vol_ratio": 1.47,
+    "stop": 14.7043,
+    "target": 16.2214,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "GESAN.IS",
+    "date": "2026-07-30",
+    "entry": 75.65,
+    "score": 75,
+    "rsi": 71.27,
+    "vol_ratio": 1.99,
+    "stop": 73.6786,
+    "target": 79.5929,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "KLRHO.IS",
+    "date": "2026-07-30",
+    "entry": 76.85,
+    "score": 85,
+    "rsi": 57.75,
+    "vol_ratio": 2.58,
+    "stop": 75.3125,
+    "target": 79.925,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "TABGD.IS",
+    "date": "2026-07-30",
+    "entry": 235.9,
+    "score": 130,
+    "rsi": 54.42,
+    "vol_ratio": 2.83,
+    "stop": 233.3543,
+    "target": 240.9914,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "TKFEN.IS",
+    "date": "2026-07-30",
+    "entry": 152.8,
+    "score": 130,
+    "rsi": 64.81,
+    "vol_ratio": 2.24,
+    "stop": 150.0679,
+    "target": 158.2643,
+    "setup_type": "BREAKOUT",
+    "status": "open"
   }
 ]
