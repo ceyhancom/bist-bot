@@ -17822,5 +17822,65 @@
     "exit_date": "2026-07-30",
     "result_pct": -2.06,
     "close_reason": "STOP"
+  },
+  {
+    "symbol": "BALSU.IS",
+    "date": "2026-07-30",
+    "entry": 15.15,
+    "score": 85,
+    "rsi": 50.24,
+    "vol_ratio": 2.73,
+    "stop": 14.6561,
+    "target": 16.1379,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "DOHOL.IS",
+    "date": "2026-07-30",
+    "entry": 22.04,
+    "score": 110,
+    "rsi": 72.22,
+    "vol_ratio": 1.62,
+    "stop": 21.5814,
+    "target": 22.9571,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "FROTO.IS",
+    "date": "2026-07-30",
+    "entry": 77.75,
+    "score": 80,
+    "rsi": 50.63,
+    "vol_ratio": 1.79,
+    "stop": 76.6464,
+    "target": 79.9571,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "OYAKC.IS",
+    "date": "2026-07-30",
+    "entry": 21.12,
+    "score": 115,
+    "rsi": 62.5,
+    "vol_ratio": 1.49,
+    "stop": 20.7909,
+    "target": 21.7783,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "TKFEN.IS",
+    "date": "2026-07-30",
+    "entry": 150.4,
+    "score": 105,
+    "rsi": 60.0,
+    "vol_ratio": 1.1,
+    "stop": 148.4114,
+    "target": 154.3771,
+    "setup_type": "PULLBACK",
+    "status": "open"
   }
 ]
