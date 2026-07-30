@@ -17737,7 +17737,11 @@
     "stop": 34.4531,
     "target": 35.7337,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 34.4531,
+    "exit_date": "2026-07-30",
+    "result_pct": -1.22,
+    "close_reason": "STOP"
   },
   {
     "symbol": "CWENE.IS",
@@ -17749,7 +17753,11 @@
     "stop": 36.3971,
     "target": 39.4057,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 36.3971,
+    "exit_date": "2026-07-30",
+    "result_pct": -2.68,
+    "close_reason": "STOP"
   },
   {
     "symbol": "DOHOL.IS",
@@ -17761,7 +17769,11 @@
     "stop": 21.0074,
     "target": 21.8251,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 21.0074,
+    "exit_date": "2026-07-30",
+    "result_pct": -1.28,
+    "close_reason": "STOP"
   },
   {
     "symbol": "GRSEL.IS",
@@ -17773,7 +17785,11 @@
     "stop": 352.75,
     "target": 382.0,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 352.75,
+    "exit_date": "2026-07-30",
+    "result_pct": -2.69,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ODAS.IS",
@@ -17785,7 +17801,11 @@
     "stop": 8.6707,
     "target": 9.1786,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 8.6707,
+    "exit_date": "2026-07-30",
+    "result_pct": -1.92,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TAVHL.IS",
@@ -17797,6 +17817,10 @@
     "stop": 266.1518,
     "target": 282.9464,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 266.1518,
+    "exit_date": "2026-07-30",
+    "result_pct": -2.06,
+    "close_reason": "STOP"
   }
 ]
