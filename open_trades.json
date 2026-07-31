@@ -20308,8 +20308,8 @@
     "exit_date": "2026-07-31",
     "result_pct": -1.08,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-31T10:29:51.041432+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "TKFEN.IS",
@@ -20382,5 +20382,17 @@
     "close_reason": "STOP",
     "cooldown_until": "2026-07-31T15:33:49.564972+03:00",
     "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "TABGD.IS",
+    "date": "2026-07-31",
+    "entry": 240.9,
+    "highest_price": 240.9,
+    "stop": 237.4607,
+    "target": 247.7786,
+    "trailing_stop": null,
+    "score": 80,
+    "setup_type": "TREND",
+    "status": "open"
   }
 ]
