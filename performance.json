@@ -18078,5 +18078,41 @@
     "exit_date": "2026-07-31",
     "result_pct": -1.79,
     "close_reason": "STOP"
+  },
+  {
+    "symbol": "AKSA.IS",
+    "date": "2026-07-31",
+    "entry": 12.67,
+    "score": 120,
+    "rsi": 64.93,
+    "vol_ratio": 2.38,
+    "stop": 12.3249,
+    "target": 13.3602,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "GENIL.IS",
+    "date": "2026-07-31",
+    "entry": 9.25,
+    "score": 85,
+    "rsi": 55.17,
+    "vol_ratio": 2.14,
+    "stop": 9.1,
+    "target": 9.55,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "IEYHO.IS",
+    "date": "2026-07-31",
+    "entry": 168.3,
+    "score": 135,
+    "rsi": 66.67,
+    "vol_ratio": 4.06,
+    "stop": 166.8643,
+    "target": 171.1714,
+    "setup_type": "BREAKOUT",
+    "status": "open"
   }
 ]

@@ -18022,8 +18022,8 @@
     "exit_date": "2026-07-17",
     "result_pct": -2.73,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-17T12:13:32.814925+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "GRSEL.IS",
@@ -19678,8 +19678,8 @@
     "exit_date": "2026-07-29",
     "result_pct": -1.6,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-29T13:06:56.491817+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "BIMAS.IS",
@@ -19768,8 +19768,8 @@
     "exit_date": "2026-07-29",
     "result_pct": -0.66,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-29T13:06:58.178092+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "MGROS.IS",
@@ -20328,5 +20328,41 @@
     "close_reason": "STOP",
     "cooldown_until": "2026-07-31T10:29:51.158606+03:00",
     "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "AKSA.IS",
+    "date": "2026-07-31",
+    "entry": 12.67,
+    "highest_price": 12.67,
+    "stop": 12.3249,
+    "target": 13.3602,
+    "trailing_stop": null,
+    "score": 120,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "GENIL.IS",
+    "date": "2026-07-31",
+    "entry": 9.25,
+    "highest_price": 9.25,
+    "stop": 9.1,
+    "target": 9.55,
+    "trailing_stop": null,
+    "score": 85,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "IEYHO.IS",
+    "date": "2026-07-31",
+    "entry": 168.3,
+    "highest_price": 168.3,
+    "stop": 166.8643,
+    "target": 171.1714,
+    "trailing_stop": null,
+    "score": 135,
+    "setup_type": "BREAKOUT",
+    "status": "open"
   }
 ]
