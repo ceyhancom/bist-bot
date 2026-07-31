@@ -18089,7 +18089,11 @@
     "stop": 12.3249,
     "target": 13.3602,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 12.3249,
+    "exit_date": "2026-07-31",
+    "result_pct": -2.72,
+    "close_reason": "STOP"
   },
   {
     "symbol": "GENIL.IS",
@@ -18101,7 +18105,11 @@
     "stop": 9.1,
     "target": 9.55,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 9.1,
+    "exit_date": "2026-07-31",
+    "result_pct": -1.62,
+    "close_reason": "STOP"
   },
   {
     "symbol": "IEYHO.IS",
@@ -18113,6 +18121,10 @@
     "stop": 166.8643,
     "target": 171.1714,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 166.8643,
+    "exit_date": "2026-07-31",
+    "result_pct": -0.85,
+    "close_reason": "STOP"
   }
 ]
