@@ -18590,5 +18590,29 @@
     "exit_date": "2026-08-03",
     "result_pct": -1.8,
     "close_reason": "STOP"
+  },
+  {
+    "symbol": "ALARK.IS",
+    "date": "2026-08-03",
+    "entry": 102.3,
+    "score": 75,
+    "rsi": 58.54,
+    "vol_ratio": 2.39,
+    "stop": 100.4625,
+    "target": 105.975,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "IEYHO.IS",
+    "date": "2026-08-03",
+    "entry": 167.4,
+    "score": 125,
+    "rsi": 58.49,
+    "vol_ratio": 1.63,
+    "stop": 165.9181,
+    "target": 170.3638,
+    "setup_type": "PULLBACK",
+    "status": "open"
   }
 ]

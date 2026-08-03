@@ -20146,8 +20146,8 @@
     "exit_date": "2026-07-30",
     "result_pct": -1.66,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-30T17:00:27.924879+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "BIMAS.IS",
@@ -20380,8 +20380,8 @@
     "exit_date": "2026-07-31",
     "result_pct": -0.85,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-31T15:33:49.564972+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "TABGD.IS",
@@ -20904,5 +20904,29 @@
     "close_reason": "STOP",
     "cooldown_until": "2026-08-03T14:43:18.404283+03:00",
     "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "ALARK.IS",
+    "date": "2026-08-03",
+    "entry": 102.3,
+    "highest_price": 102.3,
+    "stop": 100.4625,
+    "target": 105.975,
+    "trailing_stop": null,
+    "score": 75,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "IEYHO.IS",
+    "date": "2026-08-03",
+    "entry": 167.4,
+    "highest_price": 167.4,
+    "stop": 165.9181,
+    "target": 170.3638,
+    "trailing_stop": null,
+    "score": 125,
+    "setup_type": "PULLBACK",
+    "status": "open"
   }
 ]
