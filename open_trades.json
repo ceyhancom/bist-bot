@@ -17356,8 +17356,8 @@
     "exit_date": "2026-07-16",
     "result_pct": -1.6,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-16T14:20:34.464123+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "ASTOR.IS",
@@ -17374,8 +17374,8 @@
     "exit_date": "2026-07-16",
     "result_pct": -2.24,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-16T14:20:34.768807+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "CIMSA.IS",
@@ -19246,8 +19246,8 @@
     "exit_date": "2026-07-23",
     "result_pct": -1.98,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-23T11:04:35.287361+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "PETKM.IS",
@@ -19264,8 +19264,8 @@
     "exit_date": "2026-07-23",
     "result_pct": -4.04,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-23T11:04:35.481252+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "RALYH.IS",
@@ -20110,8 +20110,8 @@
     "exit_date": "2026-07-30",
     "result_pct": -1.56,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-30T15:26:33.540721+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "TKFEN.IS",
@@ -20909,24 +20909,96 @@
     "symbol": "ALARK.IS",
     "date": "2026-08-03",
     "entry": 102.3,
-    "highest_price": 102.3,
+    "highest_price": 104.4,
     "stop": 100.4625,
     "target": 105.975,
     "trailing_stop": null,
     "score": 75,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 100.4625,
+    "exit_date": "2026-08-04",
+    "result_pct": -1.8,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-04T11:09:44.100183+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "IEYHO.IS",
     "date": "2026-08-03",
     "entry": 167.4,
-    "highest_price": 167.4,
+    "highest_price": 171.1,
     "stop": 165.9181,
     "target": 170.3638,
     "trailing_stop": null,
     "score": 125,
     "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 165.9181,
+    "exit_date": "2026-08-04",
+    "result_pct": -0.89,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-04T11:09:44.216474+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "ASELS.IS",
+    "date": "2026-08-04",
+    "entry": 345.75,
+    "highest_price": 345.75,
+    "stop": 339.2679,
+    "target": 358.7143,
+    "trailing_stop": null,
+    "score": 80,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "ASTOR.IS",
+    "date": "2026-08-04",
+    "entry": 295.75,
+    "highest_price": 295.75,
+    "stop": 289.6118,
+    "target": 308.0264,
+    "trailing_stop": null,
+    "score": 110,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "OBAMS.IS",
+    "date": "2026-08-04",
+    "entry": 5.1,
+    "highest_price": 5.1,
+    "stop": 4.9961,
+    "target": 5.3079,
+    "trailing_stop": null,
+    "score": 80,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "OYAKC.IS",
+    "date": "2026-08-04",
+    "entry": 20.56,
+    "highest_price": 20.56,
+    "stop": 20.2857,
+    "target": 21.1086,
+    "trailing_stop": null,
+    "score": 70,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "PETKM.IS",
+    "date": "2026-08-04",
+    "entry": 19.49,
+    "highest_price": 19.49,
+    "stop": 19.175,
+    "target": 20.12,
+    "trailing_stop": null,
+    "score": 70,
+    "setup_type": "WEAK",
     "status": "open"
   }
 ]

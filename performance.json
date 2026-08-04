@@ -18601,7 +18601,11 @@
     "stop": 100.4625,
     "target": 105.975,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 100.4625,
+    "exit_date": "2026-08-04",
+    "result_pct": -1.8,
+    "close_reason": "STOP"
   },
   {
     "symbol": "IEYHO.IS",
@@ -18613,6 +18617,70 @@
     "stop": 165.9181,
     "target": 170.3638,
     "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 165.9181,
+    "exit_date": "2026-08-04",
+    "result_pct": -0.89,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "ASELS.IS",
+    "date": "2026-08-04",
+    "entry": 345.75,
+    "score": 80,
+    "rsi": 53.05,
+    "vol_ratio": 1.69,
+    "stop": 339.2679,
+    "target": 358.7143,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "ASTOR.IS",
+    "date": "2026-08-04",
+    "entry": 295.75,
+    "score": 110,
+    "rsi": 57.45,
+    "vol_ratio": 1.28,
+    "stop": 289.6118,
+    "target": 308.0264,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "OBAMS.IS",
+    "date": "2026-08-04",
+    "entry": 5.1,
+    "score": 80,
+    "rsi": 72.73,
+    "vol_ratio": 5.88,
+    "stop": 4.9961,
+    "target": 5.3079,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "OYAKC.IS",
+    "date": "2026-08-04",
+    "entry": 20.56,
+    "score": 70,
+    "rsi": 64.06,
+    "vol_ratio": 1.49,
+    "stop": 20.2857,
+    "target": 21.1086,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "PETKM.IS",
+    "date": "2026-08-04",
+    "entry": 19.49,
+    "score": 70,
+    "rsi": 63.87,
+    "vol_ratio": 1.31,
+    "stop": 19.175,
+    "target": 20.12,
+    "setup_type": "WEAK",
     "status": "open"
   }
 ]
