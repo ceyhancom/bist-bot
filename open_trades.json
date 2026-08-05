@@ -20092,8 +20092,8 @@
     "exit_date": "2026-07-30",
     "result_pct": -1.42,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-30T15:26:33.386455+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "OYAKC.IS",
@@ -21334,8 +21334,8 @@
     "exit_date": "2026-08-04",
     "result_pct": -1.5,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-04T18:46:53.233899+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "TURSG.IS",
@@ -21431,23 +21431,59 @@
     "symbol": "ALARK.IS",
     "date": "2026-08-04",
     "entry": 103.1,
-    "highest_price": 103.1,
+    "highest_price": 104.1,
     "stop": 101.4179,
     "target": 106.4643,
     "trailing_stop": null,
     "score": 75,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 101.4179,
+    "exit_date": "2026-08-05",
+    "result_pct": -1.63,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-05T12:52:57.062826+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "GENIL.IS",
     "date": "2026-08-04",
     "entry": 9.42,
-    "highest_price": 9.42,
+    "highest_price": 9.75,
     "stop": 9.2511,
     "target": 9.7577,
     "trailing_stop": null,
     "score": 125,
+    "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 9.2511,
+    "exit_date": "2026-08-05",
+    "result_pct": -1.79,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-05T12:52:57.179641+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "FROTO.IS",
+    "date": "2026-08-05",
+    "entry": 80.8,
+    "highest_price": 80.8,
+    "stop": 79.7393,
+    "target": 82.9214,
+    "trailing_stop": null,
+    "score": 80,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "TTKOM.IS",
+    "date": "2026-08-05",
+    "entry": 53.3,
+    "highest_price": 53.3,
+    "stop": 52.55,
+    "target": 54.8,
+    "trailing_stop": null,
+    "score": 110,
     "setup_type": "PULLBACK",
     "status": "open"
   }

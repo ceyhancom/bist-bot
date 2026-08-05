@@ -19065,7 +19065,11 @@
     "stop": 101.4179,
     "target": 106.4643,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 101.4179,
+    "exit_date": "2026-08-05",
+    "result_pct": -1.63,
+    "close_reason": "STOP"
   },
   {
     "symbol": "GENIL.IS",
@@ -19076,6 +19080,34 @@
     "vol_ratio": 1.66,
     "stop": 9.2511,
     "target": 9.7577,
+    "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 9.2511,
+    "exit_date": "2026-08-05",
+    "result_pct": -1.79,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "FROTO.IS",
+    "date": "2026-08-05",
+    "entry": 80.8,
+    "score": 80,
+    "rsi": 67.83,
+    "vol_ratio": 1.15,
+    "stop": 79.7393,
+    "target": 82.9214,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "TTKOM.IS",
+    "date": "2026-08-05",
+    "entry": 53.3,
+    "score": 110,
+    "rsi": 57.29,
+    "vol_ratio": 1.23,
+    "stop": 52.55,
+    "target": 54.8,
     "setup_type": "PULLBACK",
     "status": "open"
   }
