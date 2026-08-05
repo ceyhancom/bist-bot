@@ -19097,7 +19097,11 @@
     "stop": 79.7393,
     "target": 82.9214,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 79.7393,
+    "exit_date": "2026-08-05",
+    "result_pct": -1.31,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TTKOM.IS",
@@ -19109,6 +19113,70 @@
     "stop": 52.55,
     "target": 54.8,
     "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 52.55,
+    "exit_date": "2026-08-05",
+    "result_pct": -1.41,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "ANSGR.IS",
+    "date": "2026-08-05",
+    "entry": 28.04,
+    "score": 115,
+    "rsi": 70.19,
+    "vol_ratio": 2.86,
+    "stop": 27.6093,
+    "target": 28.9014,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "CWENE.IS",
+    "date": "2026-08-05",
+    "entry": 40.46,
+    "score": 95,
+    "rsi": 68.52,
+    "vol_ratio": 3.37,
+    "stop": 38.0664,
+    "target": 45.2471,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "MAGEN.IS",
+    "date": "2026-08-05",
+    "entry": 36.48,
+    "score": 80,
+    "rsi": 52.23,
+    "vol_ratio": 1.63,
+    "stop": 35.6957,
+    "target": 38.0486,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "TABGD.IS",
+    "date": "2026-08-05",
+    "entry": 248.1,
+    "score": 130,
+    "rsi": 63.11,
+    "vol_ratio": 2.06,
+    "stop": 241.3784,
+    "target": 261.5432,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "TUKAS.IS",
+    "date": "2026-08-05",
+    "entry": 2.01,
+    "score": 80,
+    "rsi": 64.29,
+    "vol_ratio": 1.99,
+    "stop": 1.9811,
+    "target": 2.0679,
+    "setup_type": "WEAK",
     "status": "open"
   }
 ]
