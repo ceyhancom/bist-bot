@@ -19769,7 +19769,11 @@
     "stop": 9.4079,
     "target": 10.1343,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 9.4079,
+    "exit_date": "2026-08-06",
+    "result_pct": -2.51,
+    "close_reason": "STOP"
   },
   {
     "symbol": "GUBRF.IS",
@@ -19781,7 +19785,11 @@
     "stop": 421.3125,
     "target": 448.875,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 421.3125,
+    "exit_date": "2026-08-06",
+    "result_pct": -2.13,
+    "close_reason": "STOP"
   },
   {
     "symbol": "KCAER.IS",
@@ -19793,7 +19801,11 @@
     "stop": 14.8036,
     "target": 15.6329,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 14.8036,
+    "exit_date": "2026-08-06",
+    "result_pct": -1.83,
+    "close_reason": "STOP"
   },
   {
     "symbol": "MGROS.IS",
@@ -19805,7 +19817,11 @@
     "stop": 620.875,
     "target": 646.75,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 620.875,
+    "exit_date": "2026-08-06",
+    "result_pct": -1.37,
+    "close_reason": "STOP"
   },
   {
     "symbol": "SASA.IS",
@@ -19817,7 +19833,11 @@
     "stop": 2.528,
     "target": 2.684,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 2.528,
+    "exit_date": "2026-08-06",
+    "result_pct": -2.02,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TUPRS.IS",
@@ -19829,6 +19849,70 @@
     "stop": 304.8125,
     "target": 330.125,
     "setup_type": "BREAKOUT",
+    "status": "closed",
+    "exit": 304.8125,
+    "exit_date": "2026-08-06",
+    "result_pct": -2.69,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "AKSA.IS",
+    "date": "2026-08-06",
+    "entry": 12.59,
+    "score": 73,
+    "rsi": 49.43,
+    "vol_ratio": 1.24,
+    "stop": 12.4494,
+    "target": 12.8711,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "ANSGR.IS",
+    "date": "2026-08-06",
+    "entry": 28.52,
+    "score": 105,
+    "rsi": 56.25,
+    "vol_ratio": 1.27,
+    "stop": 27.6612,
+    "target": 30.2377,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "SISE.IS",
+    "date": "2026-08-06",
+    "entry": 42.6,
+    "score": 110,
+    "rsi": 61.59,
+    "vol_ratio": 1.29,
+    "stop": 42.1714,
+    "target": 43.4571,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "TABGD.IS",
+    "date": "2026-08-06",
+    "entry": 251.5,
+    "score": 105,
+    "rsi": 71.47,
+    "vol_ratio": 2.0,
+    "stop": 246.925,
+    "target": 260.65,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "ULKER.IS",
+    "date": "2026-08-06",
+    "entry": 87.85,
+    "score": 80,
+    "rsi": 56.25,
+    "vol_ratio": 1.73,
+    "stop": 86.9929,
+    "target": 89.5643,
+    "setup_type": "WEAK",
     "status": "open"
   }
 ]

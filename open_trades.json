@@ -21676,8 +21676,8 @@
     "exit_date": "2026-08-06",
     "result_pct": -1.57,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-06T13:06:26.467885+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "BTCIM.IS",
@@ -21964,8 +21964,8 @@
     "exit_date": "2026-08-06",
     "result_pct": -1.51,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-06T15:25:30.910334+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "ARCLK.IS",
@@ -22162,8 +22162,8 @@
     "exit_date": "2026-08-06",
     "result_pct": -1.01,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-06T15:25:32.343508+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "TABGD.IS",
@@ -22180,8 +22180,8 @@
     "exit_date": "2026-08-06",
     "result_pct": -1.82,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-06T15:25:32.469508+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "ULKER.IS",
@@ -22198,8 +22198,8 @@
     "exit_date": "2026-08-06",
     "result_pct": -0.98,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-06T15:25:32.615536+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "VESTL.IS",
@@ -22223,72 +22223,168 @@
     "symbol": "GENIL.IS",
     "date": "2026-08-06",
     "entry": 9.65,
-    "highest_price": 9.65,
+    "highest_price": 9.96,
     "stop": 9.4079,
     "target": 10.1343,
     "trailing_stop": null,
     "score": 80,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 9.4079,
+    "exit_date": "2026-08-06",
+    "result_pct": -2.51,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-06T17:05:19.549831+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "GUBRF.IS",
     "date": "2026-08-06",
     "entry": 430.5,
-    "highest_price": 430.5,
+    "highest_price": 438.25,
     "stop": 421.3125,
     "target": 448.875,
     "trailing_stop": null,
     "score": 78,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 421.3125,
+    "exit_date": "2026-08-06",
+    "result_pct": -2.13,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-06T17:05:19.826309+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "KCAER.IS",
     "date": "2026-08-06",
     "entry": 15.08,
-    "highest_price": 15.08,
+    "highest_price": 15.22,
     "stop": 14.8036,
     "target": 15.6329,
     "trailing_stop": null,
     "score": 113,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 14.8036,
+    "exit_date": "2026-08-06",
+    "result_pct": -1.83,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-06T17:05:20.147414+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "MGROS.IS",
     "date": "2026-08-06",
     "entry": 629.5,
-    "highest_price": 629.5,
+    "highest_price": 635.5,
     "stop": 620.875,
     "target": 646.75,
     "trailing_stop": null,
     "score": 70,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 620.875,
+    "exit_date": "2026-08-06",
+    "result_pct": -1.37,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-06T17:05:20.463978+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "SASA.IS",
     "date": "2026-08-06",
     "entry": 2.58,
-    "highest_price": 2.58,
+    "highest_price": 2.61,
     "stop": 2.528,
     "target": 2.684,
+    "trailing_stop": null,
+    "score": 105,
+    "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 2.528,
+    "exit_date": "2026-08-06",
+    "result_pct": -2.02,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-06T17:05:20.774141+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "TUPRS.IS",
+    "date": "2026-08-06",
+    "entry": 313.25,
+    "highest_price": 321.75,
+    "stop": 304.8125,
+    "target": 330.125,
+    "trailing_stop": null,
+    "score": 135,
+    "setup_type": "BREAKOUT",
+    "status": "closed",
+    "exit": 304.8125,
+    "exit_date": "2026-08-06",
+    "result_pct": -2.69,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-06T17:05:21.338556+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "AKSA.IS",
+    "date": "2026-08-06",
+    "entry": 12.59,
+    "highest_price": 12.59,
+    "stop": 12.4494,
+    "target": 12.8711,
+    "trailing_stop": null,
+    "score": 73,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "ANSGR.IS",
+    "date": "2026-08-06",
+    "entry": 28.52,
+    "highest_price": 28.52,
+    "stop": 27.6612,
+    "target": 30.2377,
     "trailing_stop": null,
     "score": 105,
     "setup_type": "PULLBACK",
     "status": "open"
   },
   {
-    "symbol": "TUPRS.IS",
+    "symbol": "SISE.IS",
     "date": "2026-08-06",
-    "entry": 313.25,
-    "highest_price": 313.25,
-    "stop": 304.8125,
-    "target": 330.125,
+    "entry": 42.6,
+    "highest_price": 42.6,
+    "stop": 42.1714,
+    "target": 43.4571,
     "trailing_stop": null,
-    "score": 135,
-    "setup_type": "BREAKOUT",
+    "score": 110,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "TABGD.IS",
+    "date": "2026-08-06",
+    "entry": 251.5,
+    "highest_price": 251.5,
+    "stop": 246.925,
+    "target": 260.65,
+    "trailing_stop": null,
+    "score": 105,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "ULKER.IS",
+    "date": "2026-08-06",
+    "entry": 87.85,
+    "highest_price": 87.85,
+    "stop": 86.9929,
+    "target": 89.5643,
+    "trailing_stop": null,
+    "score": 80,
+    "setup_type": "WEAK",
     "status": "open"
   }
 ]
