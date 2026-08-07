@@ -20025,7 +20025,11 @@
     "stop": 560.8774,
     "target": 625.7451,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 560.8774,
+    "exit_date": "2026-08-07",
+    "result_pct": -3.71,
+    "close_reason": "STOP"
   },
   {
     "symbol": "KLRHO.IS",
@@ -20037,7 +20041,11 @@
     "stop": 76.3743,
     "target": 79.1514,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 76.3743,
+    "exit_date": "2026-08-07",
+    "result_pct": -1.2,
+    "close_reason": "STOP"
   },
   {
     "symbol": "MIATK.IS",
@@ -20049,7 +20057,11 @@
     "stop": 29.3507,
     "target": 30.7586,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 29.3507,
+    "exit_date": "2026-08-07",
+    "result_pct": -1.57,
+    "close_reason": "STOP"
   },
   {
     "symbol": "PASEU.IS",
@@ -20060,6 +20072,22 @@
     "vol_ratio": 3.2,
     "stop": 168.625,
     "target": 204.85,
+    "setup_type": "TREND",
+    "status": "closed",
+    "exit": 168.625,
+    "exit_date": "2026-08-07",
+    "result_pct": -6.68,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "MAGEN.IS",
+    "date": "2026-08-07",
+    "entry": 37.7,
+    "score": 93,
+    "rsi": 79.57,
+    "vol_ratio": 2.39,
+    "stop": 37.1257,
+    "target": 38.8486,
     "setup_type": "TREND",
     "status": "open"
   }
