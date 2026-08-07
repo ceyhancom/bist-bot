@@ -20121,7 +20121,11 @@
     "stop": 9.9236,
     "target": 10.7529,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 9.9236,
+    "exit_date": "2026-08-07",
+    "result_pct": -2.71,
+    "close_reason": "STOP"
   },
   {
     "symbol": "KCHOL.IS",
@@ -20133,6 +20137,130 @@
     "stop": 197.2179,
     "target": 205.8643,
     "setup_type": "TREND",
+    "status": "closed",
+    "exit": 197.2179,
+    "exit_date": "2026-08-07",
+    "result_pct": -1.44,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "BIMAS.IS",
+    "date": "2026-08-07",
+    "entry": 388.75,
+    "score": 100,
+    "rsi": 74.67,
+    "vol_ratio": 1.92,
+    "stop": 384.4911,
+    "target": 397.2679,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "DOAS.IS",
+    "date": "2026-08-07",
+    "entry": 192.9,
+    "score": 125,
+    "rsi": 54.69,
+    "vol_ratio": 1.4,
+    "stop": 191.4107,
+    "target": 195.8786,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "GUBRF.IS",
+    "date": "2026-08-07",
+    "entry": 451.25,
+    "score": 110,
+    "rsi": 74.05,
+    "vol_ratio": 1.62,
+    "stop": 442.625,
+    "target": 468.5,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "HEKTS.IS",
+    "date": "2026-08-07",
+    "entry": 2.97,
+    "score": 85,
+    "rsi": 60.87,
+    "vol_ratio": 4.37,
+    "stop": 2.9196,
+    "target": 3.0707,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "KCAER.IS",
+    "date": "2026-08-07",
+    "entry": 15.05,
+    "score": 130,
+    "rsi": 50.93,
+    "vol_ratio": 2.29,
+    "stop": 14.8145,
+    "target": 15.521,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "KTLEV.IS",
+    "date": "2026-08-07",
+    "entry": 44.84,
+    "score": 75,
+    "rsi": 67.84,
+    "vol_ratio": 1.9,
+    "stop": 43.7621,
+    "target": 46.9957,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "KUYAS.IS",
+    "date": "2026-08-07",
+    "entry": 69.55,
+    "score": 105,
+    "rsi": 71.05,
+    "vol_ratio": 8.88,
+    "stop": 68.3554,
+    "target": 71.9393,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "MGROS.IS",
+    "date": "2026-08-07",
+    "entry": 650.5,
+    "score": 118,
+    "rsi": 79.31,
+    "vol_ratio": 1.91,
+    "stop": 642.3036,
+    "target": 666.8929,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "SASA.IS",
+    "date": "2026-08-07",
+    "entry": 2.61,
+    "score": 130,
+    "rsi": 62.5,
+    "vol_ratio": 2.48,
+    "stop": 2.5505,
+    "target": 2.729,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "TOASO.IS",
+    "date": "2026-08-07",
+    "entry": 262.5,
+    "score": 80,
+    "rsi": 55.1,
+    "vol_ratio": 1.62,
+    "stop": 259.2321,
+    "target": 269.0357,
+    "setup_type": "WEAK",
     "status": "open"
   }
 ]
