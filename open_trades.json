@@ -22090,8 +22090,8 @@
     "exit_date": "2026-08-06",
     "result_pct": -1.69,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-06T15:25:31.837338+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "MPARK.IS",
@@ -22234,8 +22234,8 @@
     "exit_date": "2026-08-06",
     "result_pct": -2.51,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-06T17:05:19.549831+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "GUBRF.IS",
@@ -22601,12 +22601,42 @@
     "symbol": "ALTNY.IS",
     "date": "2026-08-07",
     "entry": 15.94,
-    "highest_price": 15.94,
+    "highest_price": 16.1,
     "stop": 15.6855,
     "target": 16.449,
     "trailing_stop": null,
     "score": 110,
     "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 15.6855,
+    "exit_date": "2026-08-07",
+    "result_pct": -1.6,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-07T15:54:13.147162+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "GENIL.IS",
+    "date": "2026-08-07",
+    "entry": 10.2,
+    "highest_price": 10.2,
+    "stop": 9.9236,
+    "target": 10.7529,
+    "trailing_stop": null,
+    "score": 135,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "KCHOL.IS",
+    "date": "2026-08-07",
+    "entry": 200.1,
+    "highest_price": 200.1,
+    "stop": 197.2179,
+    "target": 205.8643,
+    "trailing_stop": null,
+    "score": 78,
+    "setup_type": "TREND",
     "status": "open"
   }
 ]

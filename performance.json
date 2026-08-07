@@ -20105,6 +20105,34 @@
     "stop": 15.6855,
     "target": 16.449,
     "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 15.6855,
+    "exit_date": "2026-08-07",
+    "result_pct": -1.6,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "GENIL.IS",
+    "date": "2026-08-07",
+    "entry": 10.2,
+    "score": 135,
+    "rsi": 65.87,
+    "vol_ratio": 3.23,
+    "stop": 9.9236,
+    "target": 10.7529,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "KCHOL.IS",
+    "date": "2026-08-07",
+    "entry": 200.1,
+    "score": 78,
+    "rsi": 44.03,
+    "vol_ratio": 1.11,
+    "stop": 197.2179,
+    "target": 205.8643,
+    "setup_type": "TREND",
     "status": "open"
   }
 ]
