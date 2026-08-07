@@ -19865,7 +19865,11 @@
     "stop": 12.4494,
     "target": 12.8711,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 12.4494,
+    "exit_date": "2026-08-07",
+    "result_pct": -1.12,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ANSGR.IS",
@@ -19877,7 +19881,11 @@
     "stop": 27.6612,
     "target": 30.2377,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 27.6612,
+    "exit_date": "2026-08-07",
+    "result_pct": -3.01,
+    "close_reason": "STOP"
   },
   {
     "symbol": "SISE.IS",
@@ -19889,7 +19897,11 @@
     "stop": 42.1714,
     "target": 43.4571,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 42.1714,
+    "exit_date": "2026-08-07",
+    "result_pct": -1.01,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TABGD.IS",
@@ -19901,7 +19913,11 @@
     "stop": 246.925,
     "target": 260.65,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 246.925,
+    "exit_date": "2026-08-07",
+    "result_pct": -1.82,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ULKER.IS",
@@ -19913,6 +19929,70 @@
     "stop": 86.9929,
     "target": 89.5643,
     "setup_type": "WEAK",
+    "status": "closed",
+    "exit": 86.9929,
+    "exit_date": "2026-08-07",
+    "result_pct": -0.98,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "BTCIM.IS",
+    "date": "2026-08-07",
+    "entry": 5.07,
+    "score": 90,
+    "rsi": 67.27,
+    "vol_ratio": 1.26,
+    "stop": 4.9414,
+    "target": 5.3271,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "DOAS.IS",
+    "date": "2026-08-07",
+    "entry": 192.5,
+    "score": 90,
+    "rsi": 72.15,
+    "vol_ratio": 1.17,
+    "stop": 190.625,
+    "target": 196.25,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "MPARK.IS",
+    "date": "2026-08-07",
+    "entry": 423.5,
+    "score": 80,
+    "rsi": 68.36,
+    "vol_ratio": 1.11,
+    "stop": 412.625,
+    "target": 445.25,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "RALYH.IS",
+    "date": "2026-08-07",
+    "entry": 243.4,
+    "score": 110,
+    "rsi": 63.68,
+    "vol_ratio": 1.53,
+    "stop": 238.5389,
+    "target": 253.1223,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "TUKAS.IS",
+    "date": "2026-08-07",
+    "entry": 2.05,
+    "score": 125,
+    "rsi": 62.5,
+    "vol_ratio": 2.12,
+    "stop": 2.02,
+    "target": 2.11,
+    "setup_type": "BREAKOUT",
     "status": "open"
   }
 ]
