@@ -19945,7 +19945,11 @@
     "stop": 4.9414,
     "target": 5.3271,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 4.9414,
+    "exit_date": "2026-08-07",
+    "result_pct": -2.54,
+    "close_reason": "STOP"
   },
   {
     "symbol": "DOAS.IS",
@@ -19957,7 +19961,11 @@
     "stop": 190.625,
     "target": 196.25,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 190.625,
+    "exit_date": "2026-08-07",
+    "result_pct": -0.97,
+    "close_reason": "STOP"
   },
   {
     "symbol": "MPARK.IS",
@@ -19969,7 +19977,11 @@
     "stop": 412.625,
     "target": 445.25,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 412.625,
+    "exit_date": "2026-08-07",
+    "result_pct": -2.57,
+    "close_reason": "STOP"
   },
   {
     "symbol": "RALYH.IS",
@@ -19981,7 +19993,11 @@
     "stop": 238.5389,
     "target": 253.1223,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 238.5389,
+    "exit_date": "2026-08-07",
+    "result_pct": -2.0,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TUKAS.IS",
@@ -19993,6 +20009,58 @@
     "stop": 2.02,
     "target": 2.11,
     "setup_type": "BREAKOUT",
+    "status": "closed",
+    "exit": 2.02,
+    "exit_date": "2026-08-07",
+    "result_pct": -1.46,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "BRSAN.IS",
+    "date": "2026-08-07",
+    "entry": 582.5,
+    "score": 105,
+    "rsi": 54.39,
+    "vol_ratio": 1.12,
+    "stop": 560.8774,
+    "target": 625.7451,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "KLRHO.IS",
+    "date": "2026-08-07",
+    "entry": 77.3,
+    "score": 103,
+    "rsi": 47.47,
+    "vol_ratio": 1.68,
+    "stop": 76.3743,
+    "target": 79.1514,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "MIATK.IS",
+    "date": "2026-08-07",
+    "entry": 29.82,
+    "score": 85,
+    "rsi": 58.33,
+    "vol_ratio": 3.29,
+    "stop": 29.3507,
+    "target": 30.7586,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "PASEU.IS",
+    "date": "2026-08-07",
+    "entry": 180.7,
+    "score": 93,
+    "rsi": 45.59,
+    "vol_ratio": 3.2,
+    "stop": 168.625,
+    "target": 204.85,
+    "setup_type": "TREND",
     "status": "open"
   }
 ]

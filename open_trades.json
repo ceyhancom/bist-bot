@@ -19480,8 +19480,8 @@
     "exit_date": "2026-07-24",
     "result_pct": -2.26,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-24T16:52:19.990998+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "BRSAN.IS",
@@ -19498,8 +19498,8 @@
     "exit_date": "2026-07-27",
     "result_pct": -1.75,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-27T11:39:43.847128+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "OYAKC.IS",
@@ -19534,8 +19534,8 @@
     "exit_date": "2026-07-27",
     "result_pct": -6.01,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-27T11:39:44.072917+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "CLEBI.IS",
@@ -20290,8 +20290,8 @@
     "exit_date": "2026-07-31",
     "result_pct": -2.0,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-31T10:29:50.946716+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "TABGD.IS",
@@ -22421,60 +22421,138 @@
     "symbol": "BTCIM.IS",
     "date": "2026-08-07",
     "entry": 5.07,
-    "highest_price": 5.07,
+    "highest_price": 5.18,
     "stop": 4.9414,
     "target": 5.3271,
     "trailing_stop": null,
     "score": 90,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 4.9414,
+    "exit_date": "2026-08-07",
+    "result_pct": -2.54,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-07T13:03:20.195856+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "DOAS.IS",
     "date": "2026-08-07",
     "entry": 192.5,
-    "highest_price": 192.5,
+    "highest_price": 192.7,
     "stop": 190.625,
     "target": 196.25,
     "trailing_stop": null,
     "score": 90,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 190.625,
+    "exit_date": "2026-08-07",
+    "result_pct": -0.97,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-07T13:03:20.596813+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "MPARK.IS",
     "date": "2026-08-07",
     "entry": 423.5,
-    "highest_price": 423.5,
+    "highest_price": 429.75,
     "stop": 412.625,
     "target": 445.25,
     "trailing_stop": null,
     "score": 80,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 412.625,
+    "exit_date": "2026-08-07",
+    "result_pct": -2.57,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-07T13:03:21.045356+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "RALYH.IS",
     "date": "2026-08-07",
     "entry": 243.4,
-    "highest_price": 243.4,
+    "highest_price": 246.1,
     "stop": 238.5389,
     "target": 253.1223,
     "trailing_stop": null,
     "score": 110,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 238.5389,
+    "exit_date": "2026-08-07",
+    "result_pct": -2.0,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-07T13:03:21.319723+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "TUKAS.IS",
     "date": "2026-08-07",
     "entry": 2.05,
-    "highest_price": 2.05,
+    "highest_price": 2.06,
     "stop": 2.02,
     "target": 2.11,
     "trailing_stop": null,
     "score": 125,
     "setup_type": "BREAKOUT",
+    "status": "closed",
+    "exit": 2.02,
+    "exit_date": "2026-08-07",
+    "result_pct": -1.46,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-07T13:03:21.614927+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "BRSAN.IS",
+    "date": "2026-08-07",
+    "entry": 582.5,
+    "highest_price": 582.5,
+    "stop": 560.8774,
+    "target": 625.7451,
+    "trailing_stop": null,
+    "score": 105,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "KLRHO.IS",
+    "date": "2026-08-07",
+    "entry": 77.3,
+    "highest_price": 77.3,
+    "stop": 76.3743,
+    "target": 79.1514,
+    "trailing_stop": null,
+    "score": 103,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "MIATK.IS",
+    "date": "2026-08-07",
+    "entry": 29.82,
+    "highest_price": 29.82,
+    "stop": 29.3507,
+    "target": 30.7586,
+    "trailing_stop": null,
+    "score": 85,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "PASEU.IS",
+    "date": "2026-08-07",
+    "entry": 180.7,
+    "highest_price": 180.7,
+    "stop": 168.625,
+    "target": 204.85,
+    "trailing_stop": null,
+    "score": 93,
+    "setup_type": "TREND",
     "status": "open"
   }
 ]
