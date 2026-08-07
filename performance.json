@@ -20313,7 +20313,11 @@
     "stop": 15.6794,
     "target": 16.2811,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 15.6794,
+    "exit_date": "2026-08-07",
+    "result_pct": -1.26,
+    "close_reason": "STOP"
   },
   {
     "symbol": "GESAN.IS",
@@ -20325,7 +20329,11 @@
     "stop": 80.1914,
     "target": 84.4172,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 80.1914,
+    "exit_date": "2026-08-07",
+    "result_pct": -1.73,
+    "close_reason": "STOP"
   },
   {
     "symbol": "VESTL.IS",
@@ -20336,6 +20344,130 @@
     "vol_ratio": 5.36,
     "stop": 22.5893,
     "target": 23.7014,
+    "setup_type": "WEAK",
+    "status": "closed",
+    "exit": 22.5893,
+    "exit_date": "2026-08-07",
+    "result_pct": -1.61,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "ALARK.IS",
+    "date": "2026-08-07",
+    "entry": 101.9,
+    "score": 85,
+    "rsi": 54.76,
+    "vol_ratio": 2.93,
+    "stop": 100.7536,
+    "target": 104.1929,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "BIMAS.IS",
+    "date": "2026-08-07",
+    "entry": 386.75,
+    "score": 70,
+    "rsi": 67.11,
+    "vol_ratio": 1.05,
+    "stop": 382.3839,
+    "target": 395.4821,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "CCOLA.IS",
+    "date": "2026-08-07",
+    "entry": 89.1,
+    "score": 100,
+    "rsi": 64.03,
+    "vol_ratio": 1.07,
+    "stop": 88.0157,
+    "target": 91.2686,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "DOAS.IS",
+    "date": "2026-08-07",
+    "entry": 194.0,
+    "score": 125,
+    "rsi": 62.16,
+    "vol_ratio": 1.69,
+    "stop": 189.6247,
+    "target": 202.7506,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "EUPWR.IS",
+    "date": "2026-08-07",
+    "entry": 92.1,
+    "score": 93,
+    "rsi": 46.71,
+    "vol_ratio": 1.38,
+    "stop": 90.7586,
+    "target": 94.7829,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "HALKB.IS",
+    "date": "2026-08-07",
+    "entry": 37.2,
+    "score": 78,
+    "rsi": 44.59,
+    "vol_ratio": 1.21,
+    "stop": 36.7093,
+    "target": 38.1814,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "KLRHO.IS",
+    "date": "2026-08-07",
+    "entry": 77.95,
+    "score": 100,
+    "rsi": 57.14,
+    "vol_ratio": 1.32,
+    "stop": 76.7146,
+    "target": 80.4209,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "MAGEN.IS",
+    "date": "2026-08-07",
+    "entry": 37.72,
+    "score": 125,
+    "rsi": 64.09,
+    "vol_ratio": 2.96,
+    "stop": 37.0514,
+    "target": 39.0571,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "MGROS.IS",
+    "date": "2026-08-07",
+    "entry": 652.0,
+    "score": 98,
+    "rsi": 79.52,
+    "vol_ratio": 1.68,
+    "stop": 644.125,
+    "target": 667.75,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "ULKER.IS",
+    "date": "2026-08-07",
+    "entry": 89.4,
+    "score": 80,
+    "rsi": 69.14,
+    "vol_ratio": 4.8,
+    "stop": 88.3125,
+    "target": 91.575,
     "setup_type": "WEAK",
     "status": "open"
   }
