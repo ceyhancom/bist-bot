@@ -20153,7 +20153,11 @@
     "stop": 384.4911,
     "target": 397.2679,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 384.4911,
+    "exit_date": "2026-08-07",
+    "result_pct": -1.1,
+    "close_reason": "STOP"
   },
   {
     "symbol": "DOAS.IS",
@@ -20165,7 +20169,11 @@
     "stop": 191.4107,
     "target": 195.8786,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 191.4107,
+    "exit_date": "2026-08-07",
+    "result_pct": -0.77,
+    "close_reason": "STOP"
   },
   {
     "symbol": "GUBRF.IS",
@@ -20177,7 +20185,11 @@
     "stop": 442.625,
     "target": 468.5,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 442.625,
+    "exit_date": "2026-08-07",
+    "result_pct": -1.91,
+    "close_reason": "STOP"
   },
   {
     "symbol": "HEKTS.IS",
@@ -20189,7 +20201,11 @@
     "stop": 2.9196,
     "target": 3.0707,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 2.9196,
+    "exit_date": "2026-08-07",
+    "result_pct": -1.7,
+    "close_reason": "STOP"
   },
   {
     "symbol": "KCAER.IS",
@@ -20201,7 +20217,11 @@
     "stop": 14.8145,
     "target": 15.521,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 14.8145,
+    "exit_date": "2026-08-07",
+    "result_pct": -1.56,
+    "close_reason": "STOP"
   },
   {
     "symbol": "KTLEV.IS",
@@ -20213,7 +20233,11 @@
     "stop": 43.7621,
     "target": 46.9957,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 43.7621,
+    "exit_date": "2026-08-07",
+    "result_pct": -2.4,
+    "close_reason": "STOP"
   },
   {
     "symbol": "KUYAS.IS",
@@ -20225,7 +20249,11 @@
     "stop": 68.3554,
     "target": 71.9393,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 68.3554,
+    "exit_date": "2026-08-07",
+    "result_pct": -1.72,
+    "close_reason": "STOP"
   },
   {
     "symbol": "MGROS.IS",
@@ -20237,7 +20265,11 @@
     "stop": 642.3036,
     "target": 666.8929,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 642.3036,
+    "exit_date": "2026-08-07",
+    "result_pct": -1.26,
+    "close_reason": "STOP"
   },
   {
     "symbol": "SASA.IS",
@@ -20249,7 +20281,11 @@
     "stop": 2.5505,
     "target": 2.729,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 2.5505,
+    "exit_date": "2026-08-07",
+    "result_pct": -2.28,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TOASO.IS",
@@ -20260,6 +20296,46 @@
     "vol_ratio": 1.62,
     "stop": 259.2321,
     "target": 269.0357,
+    "setup_type": "WEAK",
+    "status": "closed",
+    "exit": 259.2321,
+    "exit_date": "2026-08-07",
+    "result_pct": -1.24,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "ALTNY.IS",
+    "date": "2026-08-07",
+    "entry": 15.88,
+    "score": 90,
+    "rsi": 63.33,
+    "vol_ratio": 1.16,
+    "stop": 15.6794,
+    "target": 16.2811,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "GESAN.IS",
+    "date": "2026-08-07",
+    "entry": 81.6,
+    "score": 73,
+    "rsi": 50.0,
+    "vol_ratio": 1.12,
+    "stop": 80.1914,
+    "target": 84.4172,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "VESTL.IS",
+    "date": "2026-08-07",
+    "entry": 22.96,
+    "score": 85,
+    "rsi": 50.82,
+    "vol_ratio": 5.36,
+    "stop": 22.5893,
+    "target": 23.7014,
     "setup_type": "WEAK",
     "status": "open"
   }
