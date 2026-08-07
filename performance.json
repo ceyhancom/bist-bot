@@ -20089,6 +20089,22 @@
     "stop": 37.1257,
     "target": 38.8486,
     "setup_type": "TREND",
+    "status": "closed",
+    "exit": 37.1257,
+    "exit_date": "2026-08-07",
+    "result_pct": -1.52,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "ALTNY.IS",
+    "date": "2026-08-07",
+    "entry": 15.94,
+    "score": 110,
+    "rsi": 64.89,
+    "vol_ratio": 1.36,
+    "stop": 15.6855,
+    "target": 16.449,
+    "setup_type": "PULLBACK",
     "status": "open"
   }
 ]
