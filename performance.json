@@ -20901,7 +20901,11 @@
     "stop": 21.6679,
     "target": 22.6643,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 21.6679,
+    "exit_date": "2026-08-10",
+    "result_pct": -1.51,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ALARK.IS",
@@ -20913,7 +20917,11 @@
     "stop": 102.85,
     "target": 107.8,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 102.85,
+    "exit_date": "2026-08-10",
+    "result_pct": -1.58,
+    "close_reason": "STOP"
   },
   {
     "symbol": "BRSAN.IS",
@@ -20925,7 +20933,11 @@
     "stop": 610.0714,
     "target": 660.8571,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 610.0714,
+    "exit_date": "2026-08-10",
+    "result_pct": -2.7,
+    "close_reason": "STOP"
   },
   {
     "symbol": "CLEBI.IS",
@@ -20937,7 +20949,11 @@
     "stop": 1476.2857,
     "target": 1535.4286,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 1476.2857,
+    "exit_date": "2026-08-10",
+    "result_pct": -1.32,
+    "close_reason": "STOP"
   },
   {
     "symbol": "GUBRF.IS",
@@ -20949,7 +20965,11 @@
     "stop": 430.5342,
     "target": 478.4317,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 430.5342,
+    "exit_date": "2026-08-10",
+    "result_pct": -3.58,
+    "close_reason": "STOP"
   },
   {
     "symbol": "MPARK.IS",
@@ -20961,7 +20981,11 @@
     "stop": 418.7857,
     "target": 450.9286,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 418.7857,
+    "exit_date": "2026-08-10",
+    "result_pct": -2.49,
+    "close_reason": "STOP"
   },
   {
     "symbol": "SISE.IS",
@@ -20973,6 +20997,10 @@
     "stop": 41.4364,
     "target": 42.5871,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 41.4364,
+    "exit_date": "2026-08-10",
+    "result_pct": -0.92,
+    "close_reason": "STOP"
   }
 ]
