@@ -22378,8 +22378,8 @@
     "exit_date": "2026-08-07",
     "result_pct": -1.01,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-07T12:00:10.149550+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "TABGD.IS",
@@ -22468,8 +22468,8 @@
     "exit_date": "2026-08-07",
     "result_pct": -2.57,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-07T13:03:21.045356+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "RALYH.IS",
@@ -22702,8 +22702,8 @@
     "exit_date": "2026-08-07",
     "result_pct": -1.91,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-07T18:25:30.740420+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "HEKTS.IS",
@@ -22900,8 +22900,8 @@
     "exit_date": "2026-08-10",
     "result_pct": -1.13,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-10T12:28:34.796961+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "BIMAS.IS",
@@ -23080,8 +23080,8 @@
     "exit_date": "2026-08-10",
     "result_pct": -1.21,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-10T13:48:14.979649+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "ALTNY.IS",
@@ -23152,8 +23152,8 @@
     "exit_date": "2026-08-10",
     "result_pct": -2.6,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-10T13:48:15.414341+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "CANTE.IS",
@@ -23166,8 +23166,8 @@
     "score": 70,
     "setup_type": "WEAK",
     "status": "open",
-    "last_price": 1.21,
-    "live_result_pct": 0.83
+    "last_price": 1.19,
+    "live_result_pct": -0.83
   },
   {
     "symbol": "CLEBI.IS",
@@ -23184,8 +23184,8 @@
     "exit_date": "2026-08-10",
     "result_pct": -0.9,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-10T13:48:15.638131+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "DSTKF.IS",
@@ -23492,5 +23492,89 @@
     "close_reason": "STOP",
     "cooldown_until": "2026-08-10T13:48:17.491991+03:00",
     "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "AEFES.IS",
+    "date": "2026-08-10",
+    "entry": 22.0,
+    "highest_price": 22.0,
+    "stop": 21.6679,
+    "target": 22.6643,
+    "trailing_stop": null,
+    "score": 110,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "ALARK.IS",
+    "date": "2026-08-10",
+    "entry": 104.5,
+    "highest_price": 104.5,
+    "stop": 102.85,
+    "target": 107.8,
+    "trailing_stop": null,
+    "score": 108,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "BRSAN.IS",
+    "date": "2026-08-10",
+    "entry": 627.0,
+    "highest_price": 627.0,
+    "stop": 610.0714,
+    "target": 660.8571,
+    "trailing_stop": null,
+    "score": 78,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "CLEBI.IS",
+    "date": "2026-08-10",
+    "entry": 1496.0,
+    "highest_price": 1496.0,
+    "stop": 1476.2857,
+    "target": 1535.4286,
+    "trailing_stop": null,
+    "score": 90,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "GUBRF.IS",
+    "date": "2026-08-10",
+    "entry": 446.5,
+    "highest_price": 446.5,
+    "stop": 430.5342,
+    "target": 478.4317,
+    "trailing_stop": null,
+    "score": 105,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "MPARK.IS",
+    "date": "2026-08-10",
+    "entry": 429.5,
+    "highest_price": 429.5,
+    "stop": 418.7857,
+    "target": 450.9286,
+    "trailing_stop": null,
+    "score": 90,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "SISE.IS",
+    "date": "2026-08-10",
+    "entry": 41.82,
+    "highest_price": 41.82,
+    "stop": 41.4364,
+    "target": 42.5871,
+    "trailing_stop": null,
+    "score": 80,
+    "setup_type": "WEAK",
+    "status": "open"
   }
 ]
