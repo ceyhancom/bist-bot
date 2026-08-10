@@ -20361,7 +20361,11 @@
     "stop": 100.7536,
     "target": 104.1929,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 100.7536,
+    "exit_date": "2026-08-10",
+    "result_pct": -1.13,
+    "close_reason": "STOP"
   },
   {
     "symbol": "BIMAS.IS",
@@ -20373,7 +20377,11 @@
     "stop": 382.3839,
     "target": 395.4821,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 382.3839,
+    "exit_date": "2026-08-10",
+    "result_pct": -1.13,
+    "close_reason": "STOP"
   },
   {
     "symbol": "CCOLA.IS",
@@ -20385,7 +20393,11 @@
     "stop": 88.0157,
     "target": 91.2686,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 88.0157,
+    "exit_date": "2026-08-10",
+    "result_pct": -1.22,
+    "close_reason": "STOP"
   },
   {
     "symbol": "DOAS.IS",
@@ -20397,7 +20409,11 @@
     "stop": 189.6247,
     "target": 202.7506,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 189.6247,
+    "exit_date": "2026-08-10",
+    "result_pct": -2.26,
+    "close_reason": "STOP"
   },
   {
     "symbol": "EUPWR.IS",
@@ -20409,7 +20425,11 @@
     "stop": 90.7586,
     "target": 94.7829,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 90.7586,
+    "exit_date": "2026-08-10",
+    "result_pct": -1.46,
+    "close_reason": "STOP"
   },
   {
     "symbol": "HALKB.IS",
@@ -20421,7 +20441,11 @@
     "stop": 36.7093,
     "target": 38.1814,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 36.7093,
+    "exit_date": "2026-08-10",
+    "result_pct": -1.32,
+    "close_reason": "STOP"
   },
   {
     "symbol": "KLRHO.IS",
@@ -20433,7 +20457,11 @@
     "stop": 76.7146,
     "target": 80.4209,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 76.7146,
+    "exit_date": "2026-08-10",
+    "result_pct": -1.58,
+    "close_reason": "STOP"
   },
   {
     "symbol": "MAGEN.IS",
@@ -20445,7 +20473,11 @@
     "stop": 37.0514,
     "target": 39.0571,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 37.0514,
+    "exit_date": "2026-08-10",
+    "result_pct": -1.77,
+    "close_reason": "STOP"
   },
   {
     "symbol": "MGROS.IS",
@@ -20457,7 +20489,11 @@
     "stop": 644.125,
     "target": 667.75,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 644.125,
+    "exit_date": "2026-08-10",
+    "result_pct": -1.21,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ULKER.IS",
@@ -20468,6 +20504,298 @@
     "vol_ratio": 4.8,
     "stop": 88.3125,
     "target": 91.575,
+    "setup_type": "WEAK",
+    "status": "closed",
+    "exit": 88.3125,
+    "exit_date": "2026-08-10",
+    "result_pct": -1.22,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "AEFES.IS",
+    "date": "2026-08-10",
+    "entry": 21.62,
+    "score": 90,
+    "rsi": 57.38,
+    "vol_ratio": 1.35,
+    "stop": 21.3577,
+    "target": 22.1446,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "ALTNY.IS",
+    "date": "2026-08-10",
+    "entry": 15.96,
+    "score": 100,
+    "rsi": 62.96,
+    "vol_ratio": 1.14,
+    "stop": 15.7347,
+    "target": 16.4106,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "ASELS.IS",
+    "date": "2026-08-10",
+    "entry": 362.25,
+    "score": 120,
+    "rsi": 58.65,
+    "vol_ratio": 1.62,
+    "stop": 353.1752,
+    "target": 380.3997,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "ASTOR.IS",
+    "date": "2026-08-10",
+    "entry": 315.25,
+    "score": 108,
+    "rsi": 45.39,
+    "vol_ratio": 1.68,
+    "stop": 307.4621,
+    "target": 330.8258,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "BRSAN.IS",
+    "date": "2026-08-10",
+    "entry": 612.5,
+    "score": 115,
+    "rsi": 72.12,
+    "vol_ratio": 2.56,
+    "stop": 596.5893,
+    "target": 644.3214,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "CANTE.IS",
+    "date": "2026-08-10",
+    "entry": 1.2,
+    "score": 70,
+    "rsi": 57.14,
+    "vol_ratio": 1.53,
+    "stop": 1.1786,
+    "target": 1.2429,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "CLEBI.IS",
+    "date": "2026-08-10",
+    "entry": 1460.0,
+    "score": 80,
+    "rsi": 55.17,
+    "vol_ratio": 1.74,
+    "stop": 1446.8214,
+    "target": 1486.3571,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "DSTKF.IS",
+    "date": "2026-08-10",
+    "entry": 1802.0,
+    "score": 80,
+    "rsi": 67.41,
+    "vol_ratio": 1.27,
+    "stop": 1743.1786,
+    "target": 1919.6429,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "ENERY.IS",
+    "date": "2026-08-10",
+    "entry": 8.9,
+    "score": 80,
+    "rsi": 74.19,
+    "vol_ratio": 5.68,
+    "stop": 8.7339,
+    "target": 9.2321,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "GESAN.IS",
+    "date": "2026-08-10",
+    "entry": 81.65,
+    "score": 125,
+    "rsi": 52.31,
+    "vol_ratio": 1.61,
+    "stop": 80.3504,
+    "target": 84.2492,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "KCAER.IS",
+    "date": "2026-08-10",
+    "entry": 15.29,
+    "score": 100,
+    "rsi": 65.71,
+    "vol_ratio": 1.81,
+    "stop": 15.0082,
+    "target": 15.8536,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "KCHOL.IS",
+    "date": "2026-08-10",
+    "entry": 201.7,
+    "score": 90,
+    "rsi": 66.17,
+    "vol_ratio": 1.01,
+    "stop": 198.7643,
+    "target": 207.5714,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "MIATK.IS",
+    "date": "2026-08-10",
+    "entry": 30.14,
+    "score": 75,
+    "rsi": 73.17,
+    "vol_ratio": 1.77,
+    "stop": 29.6621,
+    "target": 31.0957,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "ODAS.IS",
+    "date": "2026-08-10",
+    "entry": 7.6,
+    "score": 85,
+    "rsi": 52.38,
+    "vol_ratio": 2.13,
+    "stop": 7.5121,
+    "target": 7.7757,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "OYAKC.IS",
+    "date": "2026-08-10",
+    "entry": 20.9,
+    "score": 115,
+    "rsi": 54.88,
+    "vol_ratio": 2.81,
+    "stop": 20.5682,
+    "target": 21.5635,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "RALYH.IS",
+    "date": "2026-08-10",
+    "entry": 241.9,
+    "score": 100,
+    "rsi": 55.0,
+    "vol_ratio": 1.35,
+    "stop": 238.1114,
+    "target": 249.4771,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "SAHOL.IS",
+    "date": "2026-08-10",
+    "entry": 88.65,
+    "score": 115,
+    "rsi": 54.55,
+    "vol_ratio": 1.33,
+    "stop": 87.7416,
+    "target": 90.4669,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "SMRTG.IS",
+    "date": "2026-08-10",
+    "entry": 11.04,
+    "score": 80,
+    "rsi": 71.83,
+    "vol_ratio": 4.63,
+    "stop": 10.8654,
+    "target": 11.3893,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "SOKM.IS",
+    "date": "2026-08-10",
+    "entry": 52.55,
+    "score": 100,
+    "rsi": 70.97,
+    "vol_ratio": 1.78,
+    "stop": 51.5804,
+    "target": 54.4893,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "TCELL.IS",
+    "date": "2026-08-10",
+    "entry": 106.0,
+    "score": 125,
+    "rsi": 54.05,
+    "vol_ratio": 1.83,
+    "stop": 104.9971,
+    "target": 108.0057,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "TKFEN.IS",
+    "date": "2026-08-10",
+    "entry": 215.1,
+    "score": 88,
+    "rsi": 76.57,
+    "vol_ratio": 1.46,
+    "stop": 208.0393,
+    "target": 229.2214,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "TUPRS.IS",
+    "date": "2026-08-10",
+    "entry": 331.75,
+    "score": 95,
+    "rsi": 64.29,
+    "vol_ratio": 1.08,
+    "stop": 324.7857,
+    "target": 345.6786,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "TURSG.IS",
+    "date": "2026-08-10",
+    "entry": 6.3,
+    "score": 80,
+    "rsi": 62.5,
+    "vol_ratio": 1.51,
+    "stop": 6.2164,
+    "target": 6.4671,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "YEOTK.IS",
+    "date": "2026-08-10",
+    "entry": 39.3,
+    "score": 80,
+    "rsi": 55.32,
+    "vol_ratio": 1.53,
+    "stop": 38.7,
+    "target": 40.5,
     "setup_type": "WEAK",
     "status": "open"
   }
