@@ -20521,7 +20521,11 @@
     "stop": 21.3577,
     "target": 22.1446,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 21.3577,
+    "exit_date": "2026-08-10",
+    "result_pct": -1.21,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ALTNY.IS",
@@ -20533,7 +20537,11 @@
     "stop": 15.7347,
     "target": 16.4106,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 15.7347,
+    "exit_date": "2026-08-10",
+    "result_pct": -1.41,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ASELS.IS",
@@ -20545,7 +20553,11 @@
     "stop": 353.1752,
     "target": 380.3997,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 353.1752,
+    "exit_date": "2026-08-10",
+    "result_pct": -2.51,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ASTOR.IS",
@@ -20557,7 +20569,11 @@
     "stop": 307.4621,
     "target": 330.8258,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 307.4621,
+    "exit_date": "2026-08-10",
+    "result_pct": -2.47,
+    "close_reason": "STOP"
   },
   {
     "symbol": "BRSAN.IS",
@@ -20569,7 +20585,11 @@
     "stop": 596.5893,
     "target": 644.3214,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 596.5893,
+    "exit_date": "2026-08-10",
+    "result_pct": -2.6,
+    "close_reason": "STOP"
   },
   {
     "symbol": "CANTE.IS",
@@ -20593,7 +20613,11 @@
     "stop": 1446.8214,
     "target": 1486.3571,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 1446.8214,
+    "exit_date": "2026-08-10",
+    "result_pct": -0.9,
+    "close_reason": "STOP"
   },
   {
     "symbol": "DSTKF.IS",
@@ -20605,7 +20629,11 @@
     "stop": 1743.1786,
     "target": 1919.6429,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 1743.1786,
+    "exit_date": "2026-08-10",
+    "result_pct": -3.26,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ENERY.IS",
@@ -20617,7 +20645,11 @@
     "stop": 8.7339,
     "target": 9.2321,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 8.7339,
+    "exit_date": "2026-08-10",
+    "result_pct": -1.87,
+    "close_reason": "STOP"
   },
   {
     "symbol": "GESAN.IS",
@@ -20629,7 +20661,11 @@
     "stop": 80.3504,
     "target": 84.2492,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 80.3504,
+    "exit_date": "2026-08-10",
+    "result_pct": -1.59,
+    "close_reason": "STOP"
   },
   {
     "symbol": "KCAER.IS",
@@ -20641,7 +20677,11 @@
     "stop": 15.0082,
     "target": 15.8536,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 15.0082,
+    "exit_date": "2026-08-10",
+    "result_pct": -1.84,
+    "close_reason": "STOP"
   },
   {
     "symbol": "KCHOL.IS",
@@ -20653,7 +20693,11 @@
     "stop": 198.7643,
     "target": 207.5714,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 198.7643,
+    "exit_date": "2026-08-10",
+    "result_pct": -1.46,
+    "close_reason": "STOP"
   },
   {
     "symbol": "MIATK.IS",
@@ -20665,7 +20709,11 @@
     "stop": 29.6621,
     "target": 31.0957,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 29.6621,
+    "exit_date": "2026-08-10",
+    "result_pct": -1.59,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ODAS.IS",
@@ -20677,7 +20725,11 @@
     "stop": 7.5121,
     "target": 7.7757,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 7.5121,
+    "exit_date": "2026-08-10",
+    "result_pct": -1.16,
+    "close_reason": "STOP"
   },
   {
     "symbol": "OYAKC.IS",
@@ -20689,7 +20741,11 @@
     "stop": 20.5682,
     "target": 21.5635,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 20.5682,
+    "exit_date": "2026-08-10",
+    "result_pct": -1.59,
+    "close_reason": "STOP"
   },
   {
     "symbol": "RALYH.IS",
@@ -20701,7 +20757,11 @@
     "stop": 238.1114,
     "target": 249.4771,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 238.1114,
+    "exit_date": "2026-08-10",
+    "result_pct": -1.57,
+    "close_reason": "STOP"
   },
   {
     "symbol": "SAHOL.IS",
@@ -20713,7 +20773,11 @@
     "stop": 87.7416,
     "target": 90.4669,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 87.7416,
+    "exit_date": "2026-08-10",
+    "result_pct": -1.02,
+    "close_reason": "STOP"
   },
   {
     "symbol": "SMRTG.IS",
@@ -20725,7 +20789,11 @@
     "stop": 10.8654,
     "target": 11.3893,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 10.8654,
+    "exit_date": "2026-08-10",
+    "result_pct": -1.58,
+    "close_reason": "STOP"
   },
   {
     "symbol": "SOKM.IS",
@@ -20737,7 +20805,11 @@
     "stop": 51.5804,
     "target": 54.4893,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 51.5804,
+    "exit_date": "2026-08-10",
+    "result_pct": -1.85,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TCELL.IS",
@@ -20749,7 +20821,11 @@
     "stop": 104.9971,
     "target": 108.0057,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 104.9971,
+    "exit_date": "2026-08-10",
+    "result_pct": -0.95,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TKFEN.IS",
@@ -20761,7 +20837,11 @@
     "stop": 208.0393,
     "target": 229.2214,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 208.0393,
+    "exit_date": "2026-08-10",
+    "result_pct": -3.28,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TUPRS.IS",
@@ -20773,7 +20853,11 @@
     "stop": 324.7857,
     "target": 345.6786,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 324.7857,
+    "exit_date": "2026-08-10",
+    "result_pct": -2.1,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TURSG.IS",
@@ -20785,7 +20869,11 @@
     "stop": 6.2164,
     "target": 6.4671,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 6.2164,
+    "exit_date": "2026-08-10",
+    "result_pct": -1.33,
+    "close_reason": "STOP"
   },
   {
     "symbol": "YEOTK.IS",
@@ -20797,6 +20885,10 @@
     "stop": 38.7,
     "target": 40.5,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 38.7,
+    "exit_date": "2026-08-10",
+    "result_pct": -1.53,
+    "close_reason": "STOP"
   }
 ]
