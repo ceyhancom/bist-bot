@@ -20002,8 +20002,8 @@
     "exit_date": "2026-07-30",
     "result_pct": -2.69,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-30T10:58:24.910892+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "ODAS.IS",
@@ -23166,8 +23166,8 @@
     "score": 70,
     "setup_type": "WEAK",
     "status": "open",
-    "last_price": 1.19,
-    "live_result_pct": -0.83
+    "last_price": 1.21,
+    "live_result_pct": 0.83
   },
   {
     "symbol": "CLEBI.IS",
@@ -23472,8 +23472,8 @@
     "exit_date": "2026-08-10",
     "result_pct": -1.33,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-10T13:48:17.391448+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "YEOTK.IS",
@@ -23562,8 +23562,8 @@
     "exit_date": "2026-08-10",
     "result_pct": -1.32,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-10T15:54:29.418946+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "GUBRF.IS",
@@ -23724,8 +23724,8 @@
     "exit_date": "2026-08-10",
     "result_pct": -2.2,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-10T18:30:20.556036+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "ENJSA.IS",
@@ -23742,8 +23742,8 @@
     "exit_date": "2026-08-10",
     "result_pct": -1.02,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-10T18:30:20.868601+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "EUPWR.IS",
@@ -23832,8 +23832,8 @@
     "exit_date": "2026-08-10",
     "result_pct": -1.66,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-10T18:30:22.369339+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "TTRAK.IS",
@@ -23857,12 +23857,90 @@
     "symbol": "ALTNY.IS",
     "date": "2026-08-10",
     "entry": 16.0,
-    "highest_price": 16.0,
+    "highest_price": 16.15,
     "stop": 15.7707,
     "target": 16.4586,
     "trailing_stop": null,
     "score": 90,
     "setup_type": "TREND",
+    "status": "closed",
+    "exit": 15.7707,
+    "exit_date": "2026-08-10",
+    "result_pct": -1.43,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-10T19:27:56.098723+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "CLEBI.IS",
+    "date": "2026-08-10",
+    "entry": 1500.0,
+    "highest_price": 1500.0,
+    "stop": 1477.2857,
+    "target": 1545.4286,
+    "trailing_stop": null,
+    "score": 88,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "DSTKF.IS",
+    "date": "2026-08-10",
+    "entry": 1765.0,
+    "highest_price": 1765.0,
+    "stop": 1728.3143,
+    "target": 1838.3714,
+    "trailing_stop": null,
+    "score": 110,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "ENJSA.IS",
+    "date": "2026-08-10",
+    "entry": 113.7,
+    "highest_price": 113.7,
+    "stop": 112.1385,
+    "target": 116.823,
+    "trailing_stop": null,
+    "score": 90,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "GRSEL.IS",
+    "date": "2026-08-10",
+    "entry": 344.0,
+    "highest_price": 344.0,
+    "stop": 340.3304,
+    "target": 351.3393,
+    "trailing_stop": null,
+    "score": 80,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "SOKM.IS",
+    "date": "2026-08-10",
+    "entry": 52.05,
+    "highest_price": 52.05,
+    "stop": 51.3686,
+    "target": 53.4129,
+    "trailing_stop": null,
+    "score": 90,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "TURSG.IS",
+    "date": "2026-08-10",
+    "entry": 6.31,
+    "highest_price": 6.31,
+    "stop": 6.2337,
+    "target": 6.4626,
+    "trailing_stop": null,
+    "score": 75,
+    "setup_type": "PULLBACK",
     "status": "open"
   }
 ]

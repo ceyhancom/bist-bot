@@ -21221,6 +21221,82 @@
     "stop": 15.7707,
     "target": 16.4586,
     "setup_type": "TREND",
+    "status": "closed",
+    "exit": 15.7707,
+    "exit_date": "2026-08-10",
+    "result_pct": -1.43,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "CLEBI.IS",
+    "date": "2026-08-10",
+    "entry": 1500.0,
+    "score": 88,
+    "rsi": 78.22,
+    "vol_ratio": 1.68,
+    "stop": 1477.2857,
+    "target": 1545.4286,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "DSTKF.IS",
+    "date": "2026-08-10",
+    "entry": 1765.0,
+    "score": 110,
+    "rsi": 54.05,
+    "vol_ratio": 2.08,
+    "stop": 1728.3143,
+    "target": 1838.3714,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "ENJSA.IS",
+    "date": "2026-08-10",
+    "entry": 113.7,
+    "score": 90,
+    "rsi": 62.5,
+    "vol_ratio": 1.27,
+    "stop": 112.1385,
+    "target": 116.823,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "GRSEL.IS",
+    "date": "2026-08-10",
+    "entry": 344.0,
+    "score": 80,
+    "rsi": 62.3,
+    "vol_ratio": 1.78,
+    "stop": 340.3304,
+    "target": 351.3393,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "SOKM.IS",
+    "date": "2026-08-10",
+    "entry": 52.05,
+    "score": 90,
+    "rsi": 60.38,
+    "vol_ratio": 1.26,
+    "stop": 51.3686,
+    "target": 53.4129,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "TURSG.IS",
+    "date": "2026-08-10",
+    "entry": 6.31,
+    "score": 75,
+    "rsi": 62.16,
+    "vol_ratio": 1.17,
+    "stop": 6.2337,
+    "target": 6.4626,
+    "setup_type": "PULLBACK",
     "status": "open"
   }
 ]
