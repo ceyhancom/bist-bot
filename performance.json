@@ -21013,7 +21013,11 @@
     "stop": 21.6489,
     "target": 22.8823,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 21.6489,
+    "exit_date": "2026-08-10",
+    "result_pct": -1.86,
+    "close_reason": "STOP"
   },
   {
     "symbol": "AGHOL.IS",
@@ -21025,7 +21029,11 @@
     "stop": 35.2436,
     "target": 36.7929,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 35.2436,
+    "exit_date": "2026-08-10",
+    "result_pct": -1.44,
+    "close_reason": "STOP"
   },
   {
     "symbol": "CCOLA.IS",
@@ -21037,7 +21045,11 @@
     "stop": 89.9143,
     "target": 93.3214,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 89.9143,
+    "exit_date": "2026-08-10",
+    "result_pct": -1.25,
+    "close_reason": "STOP"
   },
   {
     "symbol": "DOAS.IS",
@@ -21049,7 +21061,11 @@
     "stop": 190.9594,
     "target": 200.3811,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 190.9594,
+    "exit_date": "2026-08-10",
+    "result_pct": -1.62,
+    "close_reason": "STOP"
   },
   {
     "symbol": "DOHOL.IS",
@@ -21061,7 +21077,11 @@
     "stop": 20.9071,
     "target": 21.8457,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 20.9071,
+    "exit_date": "2026-08-10",
+    "result_pct": -1.47,
+    "close_reason": "STOP"
   },
   {
     "symbol": "DSTKF.IS",
@@ -21073,7 +21093,11 @@
     "stop": 1735.941,
     "target": 1853.118,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 1735.941,
+    "exit_date": "2026-08-10",
+    "result_pct": -2.2,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ENJSA.IS",
@@ -21085,7 +21109,11 @@
     "stop": 113.5321,
     "target": 117.0357,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 113.5321,
+    "exit_date": "2026-08-10",
+    "result_pct": -1.02,
+    "close_reason": "STOP"
   },
   {
     "symbol": "EUPWR.IS",
@@ -21097,7 +21125,11 @@
     "stop": 90.9014,
     "target": 93.8971,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 90.9014,
+    "exit_date": "2026-08-10",
+    "result_pct": -1.09,
+    "close_reason": "STOP"
   },
   {
     "symbol": "KCAER.IS",
@@ -21109,7 +21141,11 @@
     "stop": 14.9846,
     "target": 15.8107,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 14.9846,
+    "exit_date": "2026-08-10",
+    "result_pct": -1.8,
+    "close_reason": "STOP"
   },
   {
     "symbol": "MAVI.IS",
@@ -21121,7 +21157,11 @@
     "stop": 39.0308,
     "target": 39.8984,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 39.0308,
+    "exit_date": "2026-08-10",
+    "result_pct": -0.74,
+    "close_reason": "STOP"
   },
   {
     "symbol": "MPARK.IS",
@@ -21133,7 +21173,11 @@
     "stop": 415.4017,
     "target": 472.6966,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 415.4017,
+    "exit_date": "2026-08-10",
+    "result_pct": -4.4,
+    "close_reason": "STOP"
   },
   {
     "symbol": "SOKM.IS",
@@ -21145,7 +21189,11 @@
     "stop": 51.9214,
     "target": 54.5571,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 51.9214,
+    "exit_date": "2026-08-10",
+    "result_pct": -1.66,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TTRAK.IS",
@@ -21157,6 +21205,22 @@
     "stop": 403.0357,
     "target": 412.6786,
     "setup_type": "WEAK",
+    "status": "closed",
+    "exit": 403.0357,
+    "exit_date": "2026-08-10",
+    "result_pct": -0.79,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "ALTNY.IS",
+    "date": "2026-08-10",
+    "entry": 16.0,
+    "score": 90,
+    "rsi": 66.15,
+    "vol_ratio": 1.23,
+    "stop": 15.7707,
+    "target": 16.4586,
+    "setup_type": "TREND",
     "status": "open"
   }
 ]
