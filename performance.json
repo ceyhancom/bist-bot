@@ -21237,7 +21237,11 @@
     "stop": 1477.2857,
     "target": 1545.4286,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 1477.2857,
+    "exit_date": "2026-08-11",
+    "result_pct": -1.51,
+    "close_reason": "STOP"
   },
   {
     "symbol": "DSTKF.IS",
@@ -21249,7 +21253,11 @@
     "stop": 1728.3143,
     "target": 1838.3714,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 1728.3143,
+    "exit_date": "2026-08-11",
+    "result_pct": -2.08,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ENJSA.IS",
@@ -21261,7 +21269,11 @@
     "stop": 112.1385,
     "target": 116.823,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 112.1385,
+    "exit_date": "2026-08-11",
+    "result_pct": -1.37,
+    "close_reason": "STOP"
   },
   {
     "symbol": "GRSEL.IS",
@@ -21273,7 +21285,11 @@
     "stop": 340.3304,
     "target": 351.3393,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 340.3304,
+    "exit_date": "2026-08-11",
+    "result_pct": -1.07,
+    "close_reason": "STOP"
   },
   {
     "symbol": "SOKM.IS",
@@ -21285,7 +21301,11 @@
     "stop": 51.3686,
     "target": 53.4129,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 51.3686,
+    "exit_date": "2026-08-11",
+    "result_pct": -1.31,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TURSG.IS",
@@ -21297,6 +21317,22 @@
     "stop": 6.2337,
     "target": 6.4626,
     "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 6.2337,
+    "exit_date": "2026-08-11",
+    "result_pct": -1.21,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "ALTNY.IS",
+    "date": "2026-08-11",
+    "entry": 16.14,
+    "score": 105,
+    "rsi": 71.05,
+    "vol_ratio": 1.42,
+    "stop": 15.8968,
+    "target": 16.6264,
+    "setup_type": "BREAKOUT",
     "status": "open"
   }
 ]
