@@ -21424,8 +21424,8 @@
     "exit_date": "2026-08-04",
     "result_pct": -1.84,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-04T18:46:54.154374+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "ALARK.IS",
@@ -22828,8 +22828,8 @@
     "exit_date": "2026-08-07",
     "result_pct": -1.24,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-07T18:25:32.417922+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "ALTNY.IS",
@@ -24001,12 +24001,42 @@
     "symbol": "FROTO.IS",
     "date": "2026-08-11",
     "entry": 79.05,
-    "highest_price": 79.05,
+    "highest_price": 81.4,
     "stop": 78.0375,
     "target": 81.075,
     "trailing_stop": null,
     "score": 80,
     "setup_type": "WEAK",
+    "status": "closed",
+    "exit": 78.0375,
+    "exit_date": "2026-08-11",
+    "result_pct": -1.28,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-11T18:20:39.420412+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "TOASO.IS",
+    "date": "2026-08-11",
+    "entry": 272.0,
+    "highest_price": 272.0,
+    "stop": 267.5804,
+    "target": 280.8393,
+    "trailing_stop": null,
+    "score": 90,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "YKBNK.IS",
+    "date": "2026-08-11",
+    "entry": 34.2,
+    "highest_price": 34.2,
+    "stop": 33.7577,
+    "target": 35.0846,
+    "trailing_stop": null,
+    "score": 105,
+    "setup_type": "PULLBACK",
     "status": "open"
   }
 ]
