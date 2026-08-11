@@ -23166,8 +23166,8 @@
     "score": 70,
     "setup_type": "WEAK",
     "status": "open",
-    "last_price": 1.21,
-    "live_result_pct": 0.83
+    "last_price": 1.19,
+    "live_result_pct": -0.83
   },
   {
     "symbol": "CLEBI.IS",
@@ -23983,12 +23983,18 @@
     "symbol": "ALTNY.IS",
     "date": "2026-08-11",
     "entry": 16.14,
-    "highest_price": 16.14,
+    "highest_price": 16.35,
     "stop": 15.8968,
     "target": 16.6264,
     "trailing_stop": null,
     "score": 105,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 15.8968,
+    "exit_date": "2026-08-11",
+    "result_pct": -1.51,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-11T11:41:07.709930+03:00",
+    "cooldown_reason": "STOP"
   }
 ]
