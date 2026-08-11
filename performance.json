@@ -21365,7 +21365,11 @@
     "stop": 267.5804,
     "target": 280.8393,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 267.5804,
+    "exit_date": "2026-08-11",
+    "result_pct": -1.62,
+    "close_reason": "STOP"
   },
   {
     "symbol": "YKBNK.IS",
@@ -21377,6 +21381,82 @@
     "stop": 33.7577,
     "target": 35.0846,
     "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 33.7577,
+    "exit_date": "2026-08-11",
+    "result_pct": -1.29,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "ALTNY.IS",
+    "date": "2026-08-11",
+    "entry": 15.98,
+    "score": 90,
+    "rsi": 52.69,
+    "vol_ratio": 1.01,
+    "stop": 15.8069,
+    "target": 16.3263,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "BRSAN.IS",
+    "date": "2026-08-11",
+    "entry": 631.5,
+    "score": 115,
+    "rsi": 55.65,
+    "vol_ratio": 1.53,
+    "stop": 616.0714,
+    "target": 662.3571,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "CWENE.IS",
+    "date": "2026-08-11",
+    "entry": 41.3,
+    "score": 80,
+    "rsi": 54.27,
+    "vol_ratio": 1.66,
+    "stop": 39.665,
+    "target": 44.57,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "DOAS.IS",
+    "date": "2026-08-11",
+    "entry": 194.0,
+    "score": 78,
+    "rsi": 40.26,
+    "vol_ratio": 1.22,
+    "stop": 191.7821,
+    "target": 198.4357,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "GESAN.IS",
+    "date": "2026-08-11",
+    "entry": 80.55,
+    "score": 95,
+    "rsi": 38.16,
+    "vol_ratio": 3.92,
+    "stop": 79.3393,
+    "target": 82.9714,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "TURSG.IS",
+    "date": "2026-08-11",
+    "entry": 6.31,
+    "score": 88,
+    "rsi": 42.86,
+    "vol_ratio": 1.56,
+    "stop": 6.2243,
+    "target": 6.4814,
+    "setup_type": "TREND",
     "status": "open"
   }
 ]
