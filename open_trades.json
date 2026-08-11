@@ -21478,8 +21478,8 @@
     "exit_date": "2026-08-05",
     "result_pct": -1.31,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-05T15:14:36.905966+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "TTKOM.IS",
@@ -23166,8 +23166,8 @@
     "score": 70,
     "setup_type": "WEAK",
     "status": "open",
-    "last_price": 1.18,
-    "live_result_pct": -1.67
+    "last_price": 1.19,
+    "live_result_pct": -0.83
   },
   {
     "symbol": "CLEBI.IS",
@@ -23996,5 +23996,17 @@
     "close_reason": "STOP",
     "cooldown_until": "2026-08-11T11:41:07.709930+03:00",
     "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "FROTO.IS",
+    "date": "2026-08-11",
+    "entry": 79.05,
+    "highest_price": 79.05,
+    "stop": 78.0375,
+    "target": 81.075,
+    "trailing_stop": null,
+    "score": 80,
+    "setup_type": "WEAK",
+    "status": "open"
   }
 ]
