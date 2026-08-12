@@ -22720,8 +22720,8 @@
     "exit_date": "2026-08-07",
     "result_pct": -1.7,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-07T18:25:30.928141+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "KCAER.IS",
@@ -22810,8 +22810,8 @@
     "exit_date": "2026-08-07",
     "result_pct": -2.28,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-07T18:25:31.930753+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "TOASO.IS",
@@ -23166,8 +23166,8 @@
     "score": 70,
     "setup_type": "WEAK",
     "status": "open",
-    "last_price": 1.2,
-    "live_result_pct": 0.0
+    "last_price": 1.19,
+    "live_result_pct": -0.83
   },
   {
     "symbol": "CLEBI.IS",
@@ -24246,8 +24246,8 @@
     "exit_date": "2026-08-12",
     "result_pct": -1.05,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-12T14:12:52.089485+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "DSTKF.IS",
@@ -24464,5 +24464,41 @@
     "close_reason": "STOP",
     "cooldown_until": "2026-08-12T17:33:18.152033+03:00",
     "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "DOAS.IS",
+    "date": "2026-08-12",
+    "entry": 195.0,
+    "highest_price": 195.0,
+    "stop": 192.7028,
+    "target": 199.5944,
+    "trailing_stop": null,
+    "score": 115,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "HEKTS.IS",
+    "date": "2026-08-12",
+    "entry": 2.88,
+    "highest_price": 2.88,
+    "stop": 2.8393,
+    "target": 2.9614,
+    "trailing_stop": null,
+    "score": 80,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "SASA.IS",
+    "date": "2026-08-12",
+    "entry": 2.49,
+    "highest_price": 2.49,
+    "stop": 2.4396,
+    "target": 2.5907,
+    "trailing_stop": null,
+    "score": 80,
+    "setup_type": "WEAK",
+    "status": "open"
   }
 ]

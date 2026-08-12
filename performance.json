@@ -21754,5 +21754,41 @@
     "exit_date": "2026-08-12",
     "result_pct": -1.71,
     "close_reason": "STOP"
+  },
+  {
+    "symbol": "DOAS.IS",
+    "date": "2026-08-12",
+    "entry": 195.0,
+    "score": 115,
+    "rsi": 64.62,
+    "vol_ratio": 1.34,
+    "stop": 192.7028,
+    "target": 199.5944,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "HEKTS.IS",
+    "date": "2026-08-12",
+    "entry": 2.88,
+    "score": 80,
+    "rsi": 61.11,
+    "vol_ratio": 1.64,
+    "stop": 2.8393,
+    "target": 2.9614,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "SASA.IS",
+    "date": "2026-08-12",
+    "entry": 2.49,
+    "score": 80,
+    "rsi": 74.07,
+    "vol_ratio": 2.83,
+    "stop": 2.4396,
+    "target": 2.5907,
+    "setup_type": "WEAK",
+    "status": "open"
   }
 ]
