@@ -21493,7 +21493,11 @@
     "stop": 20.9127,
     "target": 22.4345,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 20.9127,
+    "exit_date": "2026-08-12",
+    "result_pct": -2.37,
+    "close_reason": "STOP"
   },
   {
     "symbol": "GENIL.IS",
@@ -21505,6 +21509,82 @@
     "stop": 11.0082,
     "target": 12.0336,
     "setup_type": "BREAKOUT",
+    "status": "closed",
+    "exit": 11.0082,
+    "exit_date": "2026-08-12",
+    "result_pct": -3.01,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "ALTNY.IS",
+    "date": "2026-08-12",
+    "entry": 16.3,
+    "score": 90,
+    "rsi": 66.67,
+    "vol_ratio": 1.15,
+    "stop": 16.0439,
+    "target": 16.8121,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "ASTOR.IS",
+    "date": "2026-08-12",
+    "entry": 316.5,
+    "score": 100,
+    "rsi": 65.19,
+    "vol_ratio": 1.46,
+    "stop": 310.3929,
+    "target": 328.7143,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "DOAS.IS",
+    "date": "2026-08-12",
+    "entry": 194.2,
+    "score": 105,
+    "rsi": 50.72,
+    "vol_ratio": 1.16,
+    "stop": 192.1635,
+    "target": 198.273,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "DSTKF.IS",
+    "date": "2026-08-12",
+    "entry": 1829.0,
+    "score": 90,
+    "rsi": 69.78,
+    "vol_ratio": 1.26,
+    "stop": 1795.1429,
+    "target": 1896.7143,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "EKGYO.IS",
+    "date": "2026-08-12",
+    "entry": 18.17,
+    "score": 80,
+    "rsi": 57.83,
+    "vol_ratio": 1.65,
+    "stop": 17.8775,
+    "target": 18.755,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "OYAKC.IS",
+    "date": "2026-08-12",
+    "entry": 20.92,
+    "score": 100,
+    "rsi": 51.19,
+    "vol_ratio": 1.64,
+    "stop": 20.6423,
+    "target": 21.4754,
+    "setup_type": "PULLBACK",
     "status": "open"
   }
 ]
