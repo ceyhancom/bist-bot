@@ -21525,7 +21525,11 @@
     "stop": 16.0439,
     "target": 16.8121,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 16.0439,
+    "exit_date": "2026-08-12",
+    "result_pct": -1.57,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ASTOR.IS",
@@ -21537,7 +21541,11 @@
     "stop": 310.3929,
     "target": 328.7143,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 310.3929,
+    "exit_date": "2026-08-12",
+    "result_pct": -1.93,
+    "close_reason": "STOP"
   },
   {
     "symbol": "DOAS.IS",
@@ -21549,7 +21557,11 @@
     "stop": 192.1635,
     "target": 198.273,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 192.1635,
+    "exit_date": "2026-08-12",
+    "result_pct": -1.05,
+    "close_reason": "STOP"
   },
   {
     "symbol": "DSTKF.IS",
@@ -21561,7 +21573,11 @@
     "stop": 1795.1429,
     "target": 1896.7143,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 1795.1429,
+    "exit_date": "2026-08-12",
+    "result_pct": -1.85,
+    "close_reason": "STOP"
   },
   {
     "symbol": "EKGYO.IS",
@@ -21573,7 +21589,11 @@
     "stop": 17.8775,
     "target": 18.755,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 17.8775,
+    "exit_date": "2026-08-12",
+    "result_pct": -1.61,
+    "close_reason": "STOP"
   },
   {
     "symbol": "OYAKC.IS",
@@ -21585,6 +21605,82 @@
     "stop": 20.6423,
     "target": 21.4754,
     "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 20.6423,
+    "exit_date": "2026-08-12",
+    "result_pct": -1.33,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "EUPWR.IS",
+    "date": "2026-08-12",
+    "entry": 92.6,
+    "score": 85,
+    "rsi": 59.76,
+    "vol_ratio": 2.07,
+    "stop": 91.0304,
+    "target": 95.7393,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "GENIL.IS",
+    "date": "2026-08-12",
+    "entry": 11.76,
+    "score": 88,
+    "rsi": 79.64,
+    "vol_ratio": 1.08,
+    "stop": 11.3636,
+    "target": 12.5529,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "GESAN.IS",
+    "date": "2026-08-12",
+    "entry": 83.25,
+    "score": 100,
+    "rsi": 66.1,
+    "vol_ratio": 1.44,
+    "stop": 81.825,
+    "target": 86.1,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "PGSUS.IS",
+    "date": "2026-08-12",
+    "entry": 152.2,
+    "score": 70,
+    "rsi": 56.16,
+    "vol_ratio": 1.46,
+    "stop": 150.5821,
+    "target": 155.4357,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "TABGD.IS",
+    "date": "2026-08-12",
+    "entry": 258.25,
+    "score": 80,
+    "rsi": 33.33,
+    "vol_ratio": 1.8,
+    "stop": 254.2321,
+    "target": 266.2857,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "YKBNK.IS",
+    "date": "2026-08-12",
+    "entry": 35.1,
+    "score": 105,
+    "rsi": 64.44,
+    "vol_ratio": 1.17,
+    "stop": 34.5043,
+    "target": 36.2914,
+    "setup_type": "BREAKOUT",
     "status": "open"
   }
 ]
