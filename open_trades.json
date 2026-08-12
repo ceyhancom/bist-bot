@@ -24300,8 +24300,8 @@
     "exit_date": "2026-08-12",
     "result_pct": -1.33,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-12T14:12:52.404873+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "EUPWR.IS",
@@ -24354,8 +24354,8 @@
     "exit_date": "2026-08-12",
     "result_pct": -1.71,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-12T15:08:53.809381+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "PGSUS.IS",
@@ -24390,8 +24390,8 @@
     "exit_date": "2026-08-12",
     "result_pct": -1.56,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-12T15:08:54.142496+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "YKBNK.IS",
@@ -24410,5 +24410,41 @@
     "close_reason": "STOP",
     "cooldown_until": "2026-08-12T15:08:54.249361+03:00",
     "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "GESAN.IS",
+    "date": "2026-08-12",
+    "entry": 82.8,
+    "highest_price": 82.8,
+    "stop": 81.3214,
+    "target": 85.7571,
+    "trailing_stop": null,
+    "score": 78,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "OYAKC.IS",
+    "date": "2026-08-12",
+    "entry": 21.32,
+    "highest_price": 21.32,
+    "stop": 20.9643,
+    "target": 22.0314,
+    "trailing_stop": null,
+    "score": 118,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "TABGD.IS",
+    "date": "2026-08-12",
+    "entry": 260.0,
+    "highest_price": 260.0,
+    "stop": 255.558,
+    "target": 268.8841,
+    "trailing_stop": null,
+    "score": 125,
+    "setup_type": "PULLBACK",
+    "status": "open"
   }
 ]
