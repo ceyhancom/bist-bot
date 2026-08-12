@@ -21397,7 +21397,11 @@
     "stop": 15.8069,
     "target": 16.3263,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 15.8069,
+    "exit_date": "2026-08-12",
+    "result_pct": -1.08,
+    "close_reason": "STOP"
   },
   {
     "symbol": "BRSAN.IS",
@@ -21409,7 +21413,11 @@
     "stop": 616.0714,
     "target": 662.3571,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 616.0714,
+    "exit_date": "2026-08-12",
+    "result_pct": -2.44,
+    "close_reason": "STOP"
   },
   {
     "symbol": "CWENE.IS",
@@ -21421,7 +21429,11 @@
     "stop": 39.665,
     "target": 44.57,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 39.665,
+    "exit_date": "2026-08-12",
+    "result_pct": -3.96,
+    "close_reason": "STOP"
   },
   {
     "symbol": "DOAS.IS",
@@ -21433,7 +21445,11 @@
     "stop": 191.7821,
     "target": 198.4357,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 191.7821,
+    "exit_date": "2026-08-12",
+    "result_pct": -1.14,
+    "close_reason": "STOP"
   },
   {
     "symbol": "GESAN.IS",
@@ -21445,7 +21461,11 @@
     "stop": 79.3393,
     "target": 82.9714,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 79.3393,
+    "exit_date": "2026-08-12",
+    "result_pct": -1.5,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TURSG.IS",
@@ -21457,6 +21477,34 @@
     "stop": 6.2243,
     "target": 6.4814,
     "setup_type": "TREND",
+    "status": "closed",
+    "exit": 6.2243,
+    "exit_date": "2026-08-12",
+    "result_pct": -1.36,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "DOHOL.IS",
+    "date": "2026-08-12",
+    "entry": 21.42,
+    "score": 90,
+    "rsi": 57.14,
+    "vol_ratio": 1.09,
+    "stop": 20.9127,
+    "target": 22.4345,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "GENIL.IS",
+    "date": "2026-08-12",
+    "entry": 11.35,
+    "score": 108,
+    "rsi": 76.27,
+    "vol_ratio": 1.32,
+    "stop": 11.0082,
+    "target": 12.0336,
+    "setup_type": "BREAKOUT",
     "status": "open"
   }
 ]
