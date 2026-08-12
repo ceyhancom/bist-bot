@@ -21717,7 +21717,11 @@
     "stop": 81.3214,
     "target": 85.7571,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 81.3214,
+    "exit_date": "2026-08-12",
+    "result_pct": -1.79,
+    "close_reason": "STOP"
   },
   {
     "symbol": "OYAKC.IS",
@@ -21729,7 +21733,11 @@
     "stop": 20.9643,
     "target": 22.0314,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 20.9643,
+    "exit_date": "2026-08-12",
+    "result_pct": -1.67,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TABGD.IS",
@@ -21741,6 +21749,10 @@
     "stop": 255.558,
     "target": 268.8841,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 255.558,
+    "exit_date": "2026-08-12",
+    "result_pct": -1.71,
+    "close_reason": "STOP"
   }
 ]
