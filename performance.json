@@ -21813,7 +21813,11 @@
     "stop": 15.6214,
     "target": 16.3671,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 15.6214,
+    "exit_date": "2026-08-13",
+    "result_pct": -1.57,
+    "close_reason": "STOP"
   },
   {
     "symbol": "SOKM.IS",
@@ -21825,6 +21829,10 @@
     "stop": 51.6943,
     "target": 55.4614,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 51.6943,
+    "exit_date": "2026-08-13",
+    "result_pct": -2.37,
+    "close_reason": "STOP"
   }
 ]
