@@ -21765,7 +21765,11 @@
     "stop": 192.7028,
     "target": 199.5944,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 192.7028,
+    "exit_date": "2026-08-13",
+    "result_pct": -1.18,
+    "close_reason": "STOP"
   },
   {
     "symbol": "HEKTS.IS",
@@ -21777,7 +21781,11 @@
     "stop": 2.8393,
     "target": 2.9614,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 2.8393,
+    "exit_date": "2026-08-13",
+    "result_pct": -1.41,
+    "close_reason": "STOP"
   },
   {
     "symbol": "SASA.IS",
@@ -21789,6 +21797,34 @@
     "stop": 2.4396,
     "target": 2.5907,
     "setup_type": "WEAK",
+    "status": "closed",
+    "exit": 2.4396,
+    "exit_date": "2026-08-13",
+    "result_pct": -2.02,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "KCAER.IS",
+    "date": "2026-08-13",
+    "entry": 15.87,
+    "score": 108,
+    "rsi": 78.91,
+    "vol_ratio": 1.2,
+    "stop": 15.6214,
+    "target": 16.3671,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "SOKM.IS",
+    "date": "2026-08-13",
+    "entry": 52.95,
+    "score": 115,
+    "rsi": 64.17,
+    "vol_ratio": 1.26,
+    "stop": 51.6943,
+    "target": 55.4614,
+    "setup_type": "BREAKOUT",
     "status": "open"
   }
 ]
