@@ -23166,8 +23166,8 @@
     "score": 70,
     "setup_type": "WEAK",
     "status": "open",
-    "last_price": 1.18,
-    "live_result_pct": -1.67
+    "last_price": 1.19,
+    "live_result_pct": -0.83
   },
   {
     "symbol": "CLEBI.IS",
@@ -24595,12 +24595,18 @@
     "symbol": "MIATK.IS",
     "date": "2026-08-13",
     "entry": 31.3,
-    "highest_price": 31.3,
+    "highest_price": 32.44,
     "stop": 30.6679,
     "target": 32.5643,
     "trailing_stop": null,
     "score": 103,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 30.6679,
+    "exit_date": "2026-08-13",
+    "result_pct": -2.02,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-13T17:33:30.959050+03:00",
+    "cooldown_reason": "STOP"
   }
 ]
