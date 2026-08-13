@@ -23166,8 +23166,8 @@
     "score": 70,
     "setup_type": "WEAK",
     "status": "open",
-    "last_price": 1.19,
-    "live_result_pct": -0.83
+    "last_price": 1.18,
+    "live_result_pct": -1.67
   },
   {
     "symbol": "CLEBI.IS",
@@ -24012,8 +24012,8 @@
     "exit_date": "2026-08-11",
     "result_pct": -1.28,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-11T18:20:39.420412+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "TOASO.IS",
@@ -24608,5 +24608,17 @@
     "close_reason": "STOP",
     "cooldown_until": "2026-08-13T17:33:30.959050+03:00",
     "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "FROTO.IS",
+    "date": "2026-08-13",
+    "entry": 80.0,
+    "highest_price": 80.0,
+    "stop": 78.9621,
+    "target": 82.0757,
+    "trailing_stop": null,
+    "score": 100,
+    "setup_type": "PULLBACK",
+    "status": "open"
   }
 ]
