@@ -23166,8 +23166,8 @@
     "score": 70,
     "setup_type": "WEAK",
     "status": "open",
-    "last_price": 1.2,
-    "live_result_pct": 0.0
+    "last_price": 1.19,
+    "live_result_pct": -0.83
   },
   {
     "symbol": "CLEBI.IS",
@@ -23292,8 +23292,8 @@
     "exit_date": "2026-08-10",
     "result_pct": -1.59,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-10T13:48:16.251682+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "ODAS.IS",
@@ -24534,8 +24534,8 @@
     "exit_date": "2026-08-13",
     "result_pct": -1.57,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-13T12:58:21.928514+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "SOKM.IS",
@@ -24554,5 +24554,29 @@
     "close_reason": "STOP",
     "cooldown_until": "2026-08-13T12:58:22.177995+03:00",
     "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "KCAER.IS",
+    "date": "2026-08-13",
+    "entry": 15.91,
+    "highest_price": 15.91,
+    "stop": 15.6304,
+    "target": 16.4693,
+    "trailing_stop": null,
+    "score": 80,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "MIATK.IS",
+    "date": "2026-08-13",
+    "entry": 30.24,
+    "highest_price": 30.24,
+    "stop": 29.7321,
+    "target": 31.2557,
+    "trailing_stop": null,
+    "score": 80,
+    "setup_type": "WEAK",
+    "status": "open"
   }
 ]

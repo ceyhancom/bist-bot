@@ -21834,5 +21834,29 @@
     "exit_date": "2026-08-13",
     "result_pct": -2.37,
     "close_reason": "STOP"
+  },
+  {
+    "symbol": "KCAER.IS",
+    "date": "2026-08-13",
+    "entry": 15.91,
+    "score": 80,
+    "rsi": 74.5,
+    "vol_ratio": 1.16,
+    "stop": 15.6304,
+    "target": 16.4693,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "MIATK.IS",
+    "date": "2026-08-13",
+    "entry": 30.24,
+    "score": 80,
+    "rsi": 58.04,
+    "vol_ratio": 1.76,
+    "stop": 29.7321,
+    "target": 31.2557,
+    "setup_type": "WEAK",
+    "status": "open"
   }
 ]
