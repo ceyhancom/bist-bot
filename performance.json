@@ -21845,7 +21845,11 @@
     "stop": 15.6304,
     "target": 16.4693,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 15.6304,
+    "exit_date": "2026-08-13",
+    "result_pct": -1.76,
+    "close_reason": "STOP"
   },
   {
     "symbol": "MIATK.IS",
@@ -21857,6 +21861,10 @@
     "stop": 29.7321,
     "target": 31.2557,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 29.7321,
+    "exit_date": "2026-08-13",
+    "result_pct": -1.68,
+    "close_reason": "STOP"
   }
 ]

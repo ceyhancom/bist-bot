@@ -24559,24 +24559,36 @@
     "symbol": "KCAER.IS",
     "date": "2026-08-13",
     "entry": 15.91,
-    "highest_price": 15.91,
+    "highest_price": 16.15,
     "stop": 15.6304,
     "target": 16.4693,
     "trailing_stop": null,
     "score": 80,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 15.6304,
+    "exit_date": "2026-08-13",
+    "result_pct": -1.76,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-13T15:08:12.644449+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "MIATK.IS",
     "date": "2026-08-13",
     "entry": 30.24,
-    "highest_price": 30.24,
+    "highest_price": 31.08,
     "stop": 29.7321,
     "target": 31.2557,
     "trailing_stop": null,
     "score": 80,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 29.7321,
+    "exit_date": "2026-08-13",
+    "result_pct": -1.68,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-13T15:08:12.756457+03:00",
+    "cooldown_reason": "STOP"
   }
 ]
