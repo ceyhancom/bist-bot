@@ -22405,7 +22405,11 @@
     "stop": 67.9276,
     "target": 71.5947,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 67.9276,
+    "exit_date": "2026-08-14",
+    "result_pct": -1.77,
+    "close_reason": "STOP"
   },
   {
     "symbol": "EKGYO.IS",
@@ -22417,7 +22421,11 @@
     "stop": 18.2633,
     "target": 18.8534,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 18.2633,
+    "exit_date": "2026-08-14",
+    "result_pct": -1.07,
+    "close_reason": "STOP"
   },
   {
     "symbol": "GARAN.IS",
@@ -22429,7 +22437,11 @@
     "stop": 128.8182,
     "target": 135.9637,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 128.8182,
+    "exit_date": "2026-08-14",
+    "result_pct": -1.82,
+    "close_reason": "STOP"
   },
   {
     "symbol": "KLRHO.IS",
@@ -22441,7 +22453,11 @@
     "stop": 75.7982,
     "target": 81.5036,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 75.7982,
+    "exit_date": "2026-08-14",
+    "result_pct": -2.45,
+    "close_reason": "STOP"
   },
   {
     "symbol": "KRDMD.IS",
@@ -22453,7 +22469,11 @@
     "stop": 40.8709,
     "target": 42.7583,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 40.8709,
+    "exit_date": "2026-08-14",
+    "result_pct": -1.52,
+    "close_reason": "STOP"
   },
   {
     "symbol": "MPARK.IS",
@@ -22465,7 +22485,11 @@
     "stop": 430.9018,
     "target": 449.9464,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 430.9018,
+    "exit_date": "2026-08-14",
+    "result_pct": -1.45,
+    "close_reason": "STOP"
   },
   {
     "symbol": "OYAKC.IS",
@@ -22477,7 +22501,11 @@
     "stop": 21.6514,
     "target": 22.5771,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 21.6514,
+    "exit_date": "2026-08-14",
+    "result_pct": -1.41,
+    "close_reason": "STOP"
   },
   {
     "symbol": "SAHOL.IS",
@@ -22489,7 +22517,11 @@
     "stop": 88.5054,
     "target": 92.0893,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 88.5054,
+    "exit_date": "2026-08-14",
+    "result_pct": -1.33,
+    "close_reason": "STOP"
   },
   {
     "symbol": "SMRTG.IS",
@@ -22501,7 +22533,11 @@
     "stop": 10.4554,
     "target": 11.0693,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 10.4554,
+    "exit_date": "2026-08-14",
+    "result_pct": -1.92,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TABGD.IS",
@@ -22513,7 +22549,11 @@
     "stop": 257.8482,
     "target": 270.3036,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 257.8482,
+    "exit_date": "2026-08-14",
+    "result_pct": -1.58,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TKFEN.IS",
@@ -22525,7 +22565,11 @@
     "stop": 224.1502,
     "target": 261.1997,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 224.1502,
+    "exit_date": "2026-08-14",
+    "result_pct": -5.22,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TTRAK.IS",
@@ -22537,6 +22581,142 @@
     "stop": 409.0887,
     "target": 421.5726,
     "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 409.0887,
+    "exit_date": "2026-08-14",
+    "result_pct": -1.01,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "ANSGR.IS",
+    "date": "2026-08-14",
+    "entry": 28.74,
+    "score": 130,
+    "rsi": 56.0,
+    "vol_ratio": 2.19,
+    "stop": 28.4606,
+    "target": 29.2989,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "BRSAN.IS",
+    "date": "2026-08-14",
+    "entry": 662.0,
+    "score": 80,
+    "rsi": 68.51,
+    "vol_ratio": 1.1,
+    "stop": 645.6607,
+    "target": 694.6786,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "CLEBI.IS",
+    "date": "2026-08-14",
+    "entry": 1504.0,
+    "score": 115,
+    "rsi": 64.44,
+    "vol_ratio": 1.59,
+    "stop": 1480.3916,
+    "target": 1551.2169,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "DSTKF.IS",
+    "date": "2026-08-14",
+    "entry": 1890.0,
+    "score": 85,
+    "rsi": 60.0,
+    "vol_ratio": 1.27,
+    "stop": 1833.7477,
+    "target": 2002.5047,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "EGEEN.IS",
+    "date": "2026-08-14",
+    "entry": 5302.5,
+    "score": 125,
+    "rsi": 54.64,
+    "vol_ratio": 2.68,
+    "stop": 5254.2857,
+    "target": 5398.9286,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "ENERY.IS",
+    "date": "2026-08-14",
+    "entry": 8.97,
+    "score": 73,
+    "rsi": 49.41,
+    "vol_ratio": 1.12,
+    "stop": 8.7803,
+    "target": 9.3495,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "ENKAI.IS",
+    "date": "2026-08-14",
+    "entry": 87.45,
+    "score": 105,
+    "rsi": 72.6,
+    "vol_ratio": 1.47,
+    "stop": 86.5393,
+    "target": 89.2714,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "EUPWR.IS",
+    "date": "2026-08-14",
+    "entry": 96.9,
+    "score": 105,
+    "rsi": 53.66,
+    "vol_ratio": 1.44,
+    "stop": 94.6125,
+    "target": 101.475,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "KCHOL.IS",
+    "date": "2026-08-14",
+    "entry": 206.7,
+    "score": 105,
+    "rsi": 62.5,
+    "vol_ratio": 1.14,
+    "stop": 202.9261,
+    "target": 214.2479,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "KONTR.IS",
+    "date": "2026-08-14",
+    "entry": 4.22,
+    "score": 80,
+    "rsi": 68.97,
+    "vol_ratio": 2.35,
+    "stop": 4.1579,
+    "target": 4.3443,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "REEDR.IS",
+    "date": "2026-08-14",
+    "entry": 6.05,
+    "score": 70,
+    "rsi": 58.54,
+    "vol_ratio": 1.51,
+    "stop": 5.9686,
+    "target": 6.2129,
+    "setup_type": "WEAK",
     "status": "open"
   }
 ]
