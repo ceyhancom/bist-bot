@@ -22341,7 +22341,11 @@
     "stop": 8.7557,
     "target": 9.3986,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 8.7557,
+    "exit_date": "2026-08-14",
+    "result_pct": -2.39,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ENKAI.IS",
@@ -22353,7 +22357,11 @@
     "stop": 86.1214,
     "target": 88.7571,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 86.1214,
+    "exit_date": "2026-08-14",
+    "result_pct": -1.01,
+    "close_reason": "STOP"
   },
   {
     "symbol": "PGSUS.IS",
@@ -22365,7 +22373,11 @@
     "stop": 150.5036,
     "target": 155.2929,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 150.5036,
+    "exit_date": "2026-08-14",
+    "result_pct": -1.05,
+    "close_reason": "STOP"
   },
   {
     "symbol": "REEDR.IS",
@@ -22377,6 +22389,154 @@
     "stop": 6.0504,
     "target": 6.2593,
     "setup_type": "WEAK",
+    "status": "closed",
+    "exit": 6.0504,
+    "exit_date": "2026-08-14",
+    "result_pct": -1.14,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "AKBNK.IS",
+    "date": "2026-08-14",
+    "entry": 69.15,
+    "score": 115,
+    "rsi": 52.24,
+    "vol_ratio": 1.21,
+    "stop": 67.9276,
+    "target": 71.5947,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "EKGYO.IS",
+    "date": "2026-08-14",
+    "entry": 18.46,
+    "score": 100,
+    "rsi": 55.56,
+    "vol_ratio": 1.21,
+    "stop": 18.2633,
+    "target": 18.8534,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "GARAN.IS",
+    "date": "2026-08-14",
+    "entry": 131.2,
+    "score": 125,
+    "rsi": 61.11,
+    "vol_ratio": 1.72,
+    "stop": 128.8182,
+    "target": 135.9637,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "KLRHO.IS",
+    "date": "2026-08-14",
+    "entry": 77.7,
+    "score": 80,
+    "rsi": 71.86,
+    "vol_ratio": 4.98,
+    "stop": 75.7982,
+    "target": 81.5036,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "KRDMD.IS",
+    "date": "2026-08-14",
+    "entry": 41.5,
+    "score": 120,
+    "rsi": 56.39,
+    "vol_ratio": 1.78,
+    "stop": 40.8709,
+    "target": 42.7583,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "MPARK.IS",
+    "date": "2026-08-14",
+    "entry": 437.25,
+    "score": 130,
+    "rsi": 53.54,
+    "vol_ratio": 3.08,
+    "stop": 430.9018,
+    "target": 449.9464,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "OYAKC.IS",
+    "date": "2026-08-14",
+    "entry": 21.96,
+    "score": 135,
+    "rsi": 69.57,
+    "vol_ratio": 2.34,
+    "stop": 21.6514,
+    "target": 22.5771,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "SAHOL.IS",
+    "date": "2026-08-14",
+    "entry": 89.7,
+    "score": 78,
+    "rsi": 42.15,
+    "vol_ratio": 1.06,
+    "stop": 88.5054,
+    "target": 92.0893,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "SMRTG.IS",
+    "date": "2026-08-14",
+    "entry": 10.66,
+    "score": 80,
+    "rsi": 60.55,
+    "vol_ratio": 1.63,
+    "stop": 10.4554,
+    "target": 11.0693,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "TABGD.IS",
+    "date": "2026-08-14",
+    "entry": 262.0,
+    "score": 103,
+    "rsi": 43.75,
+    "vol_ratio": 2.95,
+    "stop": 257.8482,
+    "target": 270.3036,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "TKFEN.IS",
+    "date": "2026-08-14",
+    "entry": 236.5,
+    "score": 105,
+    "rsi": 59.95,
+    "vol_ratio": 1.17,
+    "stop": 224.1502,
+    "target": 261.1997,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "TTRAK.IS",
+    "date": "2026-08-14",
+    "entry": 413.25,
+    "score": 93,
+    "rsi": 46.15,
+    "vol_ratio": 1.36,
+    "stop": 409.0887,
+    "target": 421.5726,
+    "setup_type": "PULLBACK",
     "status": "open"
   }
 ]
