@@ -22309,6 +22309,22 @@
     "stop": 20.9929,
     "target": 22.0343,
     "setup_type": "TREND",
+    "status": "closed",
+    "exit": 20.9929,
+    "exit_date": "2026-08-14",
+    "result_pct": -1.63,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "GRSEL.IS",
+    "date": "2026-08-14",
+    "entry": 355.5,
+    "score": 115,
+    "rsi": 60.0,
+    "vol_ratio": 1.32,
+    "stop": 350.6518,
+    "target": 365.1964,
+    "setup_type": "BREAKOUT",
     "status": "open"
   }
 ]

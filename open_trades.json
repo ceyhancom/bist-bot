@@ -23166,8 +23166,8 @@
     "score": 70,
     "setup_type": "WEAK",
     "status": "open",
-    "last_price": 1.2,
-    "live_result_pct": 0.0
+    "last_price": 1.19,
+    "live_result_pct": -0.83
   },
   {
     "symbol": "CLEBI.IS",
@@ -23940,8 +23940,8 @@
     "exit_date": "2026-08-11",
     "result_pct": -1.07,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-11T10:21:16.144374+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "SOKM.IS",
@@ -25081,12 +25081,30 @@
     "symbol": "DOHOL.IS",
     "date": "2026-08-14",
     "entry": 21.34,
-    "highest_price": 21.34,
+    "highest_price": 21.76,
     "stop": 20.9929,
     "target": 22.0343,
     "trailing_stop": null,
     "score": 78,
     "setup_type": "TREND",
+    "status": "closed",
+    "exit": 20.9929,
+    "exit_date": "2026-08-14",
+    "result_pct": -1.63,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-14T15:42:43.612835+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "GRSEL.IS",
+    "date": "2026-08-14",
+    "entry": 355.5,
+    "highest_price": 355.5,
+    "stop": 350.6518,
+    "target": 365.1964,
+    "trailing_stop": null,
+    "score": 115,
+    "setup_type": "BREAKOUT",
     "status": "open"
   }
 ]
