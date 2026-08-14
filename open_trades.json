@@ -24912,8 +24912,8 @@
     "exit_date": "2026-08-14",
     "result_pct": -2.3,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-14T12:34:46.757708+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "ODAS.IS",
@@ -25058,5 +25058,17 @@
     "close_reason": "STOP",
     "cooldown_until": "2026-08-14T12:34:47.772432+03:00",
     "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "MIATK.IS",
+    "date": "2026-08-14",
+    "entry": 32.26,
+    "highest_price": 32.26,
+    "stop": 31.3771,
+    "target": 34.0257,
+    "trailing_stop": null,
+    "score": 100,
+    "setup_type": "TREND",
+    "status": "open"
   }
 ]
