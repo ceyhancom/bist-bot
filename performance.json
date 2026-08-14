@@ -22293,6 +22293,22 @@
     "stop": 31.3771,
     "target": 34.0257,
     "setup_type": "TREND",
+    "status": "closed",
+    "exit": 31.3771,
+    "exit_date": "2026-08-14",
+    "result_pct": -2.74,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "DOHOL.IS",
+    "date": "2026-08-14",
+    "entry": 21.34,
+    "score": 78,
+    "rsi": 40.26,
+    "vol_ratio": 1.01,
+    "stop": 20.9929,
+    "target": 22.0343,
+    "setup_type": "TREND",
     "status": "open"
   }
 ]

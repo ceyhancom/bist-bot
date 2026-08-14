@@ -24732,8 +24732,8 @@
     "exit_date": "2026-08-14",
     "result_pct": -1.36,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-14T12:34:44.847421+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "DSTKF.IS",
@@ -25063,11 +25063,29 @@
     "symbol": "MIATK.IS",
     "date": "2026-08-14",
     "entry": 32.26,
-    "highest_price": 32.26,
+    "highest_price": 32.44,
     "stop": 31.3771,
     "target": 34.0257,
     "trailing_stop": null,
     "score": 100,
+    "setup_type": "TREND",
+    "status": "closed",
+    "exit": 31.3771,
+    "exit_date": "2026-08-14",
+    "result_pct": -2.74,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-14T14:53:10.647074+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "DOHOL.IS",
+    "date": "2026-08-14",
+    "entry": 21.34,
+    "highest_price": 21.34,
+    "stop": 20.9929,
+    "target": 22.0343,
+    "trailing_stop": null,
+    "score": 78,
     "setup_type": "TREND",
     "status": "open"
   }
