@@ -20740,8 +20740,8 @@
     "exit_date": "2026-08-03",
     "result_pct": -1.79,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-03T14:43:17.193512+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "SAHOL.IS",
@@ -24786,8 +24786,8 @@
     "exit_date": "2026-08-14",
     "result_pct": -2.06,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-14T12:34:45.918495+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "ENKAI.IS",
@@ -24804,8 +24804,8 @@
     "exit_date": "2026-08-14",
     "result_pct": -1.21,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-14T12:34:46.085546+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "EUPWR.IS",
@@ -24948,8 +24948,8 @@
     "exit_date": "2026-08-14",
     "result_pct": -1.24,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-14T12:34:46.994949+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "TAVHL.IS",
@@ -25099,12 +25099,66 @@
     "symbol": "GRSEL.IS",
     "date": "2026-08-14",
     "entry": 355.5,
-    "highest_price": 355.5,
+    "highest_price": 358.5,
     "stop": 350.6518,
     "target": 365.1964,
     "trailing_stop": null,
     "score": 115,
     "setup_type": "BREAKOUT",
+    "status": "closed",
+    "exit": 350.6518,
+    "exit_date": "2026-08-14",
+    "result_pct": -1.36,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-14T17:08:29.662236+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "ENERY.IS",
+    "date": "2026-08-14",
+    "entry": 8.97,
+    "highest_price": 8.97,
+    "stop": 8.7557,
+    "target": 9.3986,
+    "trailing_stop": null,
+    "score": 100,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "ENKAI.IS",
+    "date": "2026-08-14",
+    "entry": 87.0,
+    "highest_price": 87.0,
+    "stop": 86.1214,
+    "target": 88.7571,
+    "trailing_stop": null,
+    "score": 80,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "PGSUS.IS",
+    "date": "2026-08-14",
+    "entry": 152.1,
+    "highest_price": 152.1,
+    "stop": 150.5036,
+    "target": 155.2929,
+    "trailing_stop": null,
+    "score": 70,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "REEDR.IS",
+    "date": "2026-08-14",
+    "entry": 6.12,
+    "highest_price": 6.12,
+    "stop": 6.0504,
+    "target": 6.2593,
+    "trailing_stop": null,
+    "score": 80,
+    "setup_type": "WEAK",
     "status": "open"
   }
 ]

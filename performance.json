@@ -22325,6 +22325,58 @@
     "stop": 350.6518,
     "target": 365.1964,
     "setup_type": "BREAKOUT",
+    "status": "closed",
+    "exit": 350.6518,
+    "exit_date": "2026-08-14",
+    "result_pct": -1.36,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "ENERY.IS",
+    "date": "2026-08-14",
+    "entry": 8.97,
+    "score": 100,
+    "rsi": 53.23,
+    "vol_ratio": 1.17,
+    "stop": 8.7557,
+    "target": 9.3986,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "ENKAI.IS",
+    "date": "2026-08-14",
+    "entry": 87.0,
+    "score": 80,
+    "rsi": 64.71,
+    "vol_ratio": 1.8,
+    "stop": 86.1214,
+    "target": 88.7571,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "PGSUS.IS",
+    "date": "2026-08-14",
+    "entry": 152.1,
+    "score": 70,
+    "rsi": 60.34,
+    "vol_ratio": 1.3,
+    "stop": 150.5036,
+    "target": 155.2929,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "REEDR.IS",
+    "date": "2026-08-14",
+    "entry": 6.12,
+    "score": 80,
+    "rsi": 70.59,
+    "vol_ratio": 2.2,
+    "stop": 6.0504,
+    "target": 6.2593,
+    "setup_type": "WEAK",
     "status": "open"
   }
 ]
