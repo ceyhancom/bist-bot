@@ -23249,6 +23249,58 @@
     "stop": 10.4418,
     "target": 11.1264,
     "setup_type": "WEAK",
+    "status": "closed",
+    "exit": 10.4418,
+    "exit_date": "2026-08-17",
+    "result_pct": -2.14,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "BTCIM.IS",
+    "date": "2026-08-17",
+    "entry": 4.74,
+    "score": 70,
+    "rsi": 58.06,
+    "vol_ratio": 1.61,
+    "stop": 4.6618,
+    "target": 4.8964,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "OTKAR.IS",
+    "date": "2026-08-17",
+    "entry": 320.25,
+    "score": 98,
+    "rsi": 49.04,
+    "vol_ratio": 1.26,
+    "stop": 309.4209,
+    "target": 341.9082,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "SKBNK.IS",
+    "date": "2026-08-17",
+    "entry": 6.27,
+    "score": 80,
+    "rsi": 75.0,
+    "vol_ratio": 8.76,
+    "stop": 6.1896,
+    "target": 6.4307,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "YKBNK.IS",
+    "date": "2026-08-17",
+    "entry": 35.34,
+    "score": 73,
+    "rsi": 45.9,
+    "vol_ratio": 1.25,
+    "stop": 34.9279,
+    "target": 36.1641,
+    "setup_type": "PULLBACK",
     "status": "open"
   }
 ]
