@@ -23329,6 +23329,22 @@
     "stop": 21.3172,
     "target": 22.5255,
     "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 21.3172,
+    "exit_date": "2026-08-17",
+    "result_pct": -1.85,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "CWENE.IS",
+    "date": "2026-08-17",
+    "entry": 37.98,
+    "score": 80,
+    "rsi": 59.37,
+    "vol_ratio": 1.51,
+    "stop": 37.1271,
+    "target": 39.6857,
+    "setup_type": "WEAK",
     "status": "open"
   }
 ]

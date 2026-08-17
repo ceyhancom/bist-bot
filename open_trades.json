@@ -24102,8 +24102,8 @@
     "exit_date": "2026-08-12",
     "result_pct": -3.96,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-12T11:37:28.465743+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "DOAS.IS",
@@ -26229,12 +26229,30 @@
     "symbol": "OYAKC.IS",
     "date": "2026-08-17",
     "entry": 21.72,
-    "highest_price": 21.72,
+    "highest_price": 22.1,
     "stop": 21.3172,
     "target": 22.5255,
     "trailing_stop": null,
     "score": 130,
     "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 21.3172,
+    "exit_date": "2026-08-17",
+    "result_pct": -1.85,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-17T16:50:49.746052+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "CWENE.IS",
+    "date": "2026-08-17",
+    "entry": 37.98,
+    "highest_price": 37.98,
+    "stop": 37.1271,
+    "target": 39.6857,
+    "trailing_stop": null,
+    "score": 80,
+    "setup_type": "WEAK",
     "status": "open"
   }
 ]
