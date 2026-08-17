@@ -23105,7 +23105,11 @@
     "stop": 102.901,
     "target": 106.7979,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 102.901,
+    "exit_date": "2026-08-17",
+    "result_pct": -1.25,
+    "close_reason": "STOP"
   },
   {
     "symbol": "CLEBI.IS",
@@ -23117,7 +23121,11 @@
     "stop": 1517.4643,
     "target": 1591.0714,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 1517.4643,
+    "exit_date": "2026-08-17",
+    "result_pct": -1.59,
+    "close_reason": "STOP"
   },
   {
     "symbol": "EKGYO.IS",
@@ -23129,7 +23137,11 @@
     "stop": 18.2868,
     "target": 19.4063,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 18.2868,
+    "exit_date": "2026-08-17",
+    "result_pct": -2.0,
+    "close_reason": "STOP"
   },
   {
     "symbol": "GRSEL.IS",
@@ -23141,7 +23153,11 @@
     "stop": 345.4,
     "target": 360.7,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 345.4,
+    "exit_date": "2026-08-17",
+    "result_pct": -1.46,
+    "close_reason": "STOP"
   },
   {
     "symbol": "KCAER.IS",
@@ -23153,7 +23169,11 @@
     "stop": 15.5616,
     "target": 17.3269,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 15.5616,
+    "exit_date": "2026-08-17",
+    "result_pct": -3.64,
+    "close_reason": "STOP"
   },
   {
     "symbol": "KRDMD.IS",
@@ -23165,7 +23185,11 @@
     "stop": 43.2579,
     "target": 46.3243,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 43.2579,
+    "exit_date": "2026-08-17",
+    "result_pct": -2.31,
+    "close_reason": "STOP"
   },
   {
     "symbol": "SOKM.IS",
@@ -23177,7 +23201,11 @@
     "stop": 51.9957,
     "target": 54.2586,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 51.9957,
+    "exit_date": "2026-08-17",
+    "result_pct": -1.43,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TAVHL.IS",
@@ -23189,7 +23217,11 @@
     "stop": 276.6143,
     "target": 284.5214,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 276.6143,
+    "exit_date": "2026-08-17",
+    "result_pct": -0.94,
+    "close_reason": "STOP"
   },
   {
     "symbol": "YEOTK.IS",
@@ -23201,6 +23233,22 @@
     "stop": 38.7407,
     "target": 42.9386,
     "setup_type": "TREND",
+    "status": "closed",
+    "exit": 38.7407,
+    "exit_date": "2026-08-17",
+    "result_pct": -3.49,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "SMRTG.IS",
+    "date": "2026-08-17",
+    "entry": 10.67,
+    "score": 80,
+    "rsi": 65.29,
+    "vol_ratio": 2.28,
+    "stop": 10.4418,
+    "target": 11.1264,
+    "setup_type": "WEAK",
     "status": "open"
   }
 ]
