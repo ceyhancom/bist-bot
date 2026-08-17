@@ -21118,8 +21118,8 @@
     "exit_date": "2026-08-04",
     "result_pct": -1.48,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-04T18:46:50.803137+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "GARAN.IS",
@@ -23159,15 +23159,15 @@
     "symbol": "CANTE.IS",
     "date": "2026-08-10",
     "entry": 1.2,
-    "highest_price": 1.23,
+    "highest_price": 1.24,
     "stop": 1.1786,
     "target": 1.2429,
     "trailing_stop": null,
     "score": 70,
     "setup_type": "WEAK",
     "status": "open",
-    "last_price": 1.22,
-    "live_result_pct": 1.67
+    "last_price": 1.23,
+    "live_result_pct": 2.5
   },
   {
     "symbol": "CLEBI.IS",
@@ -24930,8 +24930,8 @@
     "exit_date": "2026-08-14",
     "result_pct": -1.69,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-14T12:34:46.894503+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "PGSUS.IS",
@@ -25470,8 +25470,8 @@
     "exit_date": "2026-08-17",
     "result_pct": -2.98,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-17T11:17:22.947067+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "EGEEN.IS",
@@ -25560,8 +25560,8 @@
     "exit_date": "2026-08-17",
     "result_pct": -1.83,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-17T11:17:23.702168+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "KONTR.IS",
@@ -25650,8 +25650,8 @@
     "exit_date": "2026-08-17",
     "result_pct": -1.64,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-17T12:09:21.126379+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "GUBRF.IS",
@@ -25808,8 +25808,8 @@
     "exit_date": "2026-08-17",
     "result_pct": -1.7,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-17T12:09:22.327163+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "VAKBN.IS",
@@ -25826,8 +25826,8 @@
     "exit_date": "2026-08-17",
     "result_pct": -1.05,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-17T12:09:22.469701+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "VESTL.IS",
@@ -26006,8 +26006,8 @@
     "exit_date": "2026-08-17",
     "result_pct": -1.59,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-17T14:47:53.401949+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "EKGYO.IS",
@@ -26078,8 +26078,8 @@
     "exit_date": "2026-08-17",
     "result_pct": -2.31,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-17T14:47:54.874661+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "SOKM.IS",
@@ -26132,8 +26132,8 @@
     "exit_date": "2026-08-17",
     "result_pct": -3.49,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-17T14:47:55.473363+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "SMRTG.IS",
@@ -26260,5 +26260,125 @@
     "close_reason": "STOP",
     "cooldown_until": "2026-08-17T17:37:53.103006+03:00",
     "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "CLEBI.IS",
+    "date": "2026-08-17",
+    "entry": 1561.0,
+    "highest_price": 1561.0,
+    "stop": 1536.4643,
+    "target": 1610.0714,
+    "trailing_stop": null,
+    "score": 110,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "DSTKF.IS",
+    "date": "2026-08-17",
+    "entry": 1918.0,
+    "highest_price": 1918.0,
+    "stop": 1854.5794,
+    "target": 2044.8413,
+    "trailing_stop": null,
+    "score": 110,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "EREGL.IS",
+    "date": "2026-08-17",
+    "entry": 37.9,
+    "highest_price": 37.9,
+    "stop": 37.3921,
+    "target": 38.9157,
+    "trailing_stop": null,
+    "score": 80,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "GESAN.IS",
+    "date": "2026-08-17",
+    "entry": 85.75,
+    "highest_price": 85.75,
+    "stop": 84.1214,
+    "target": 89.0071,
+    "trailing_stop": null,
+    "score": 90,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "KCHOL.IS",
+    "date": "2026-08-17",
+    "entry": 205.9,
+    "highest_price": 205.9,
+    "stop": 203.4724,
+    "target": 210.7551,
+    "trailing_stop": null,
+    "score": 105,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "KRDMD.IS",
+    "date": "2026-08-17",
+    "entry": 45.62,
+    "highest_price": 45.62,
+    "stop": 44.5143,
+    "target": 47.8314,
+    "trailing_stop": null,
+    "score": 123,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "ODAS.IS",
+    "date": "2026-08-17",
+    "entry": 7.71,
+    "highest_price": 7.71,
+    "stop": 7.5846,
+    "target": 7.9607,
+    "trailing_stop": null,
+    "score": 120,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "TUPRS.IS",
+    "date": "2026-08-17",
+    "entry": 370.25,
+    "highest_price": 370.25,
+    "stop": 365.3214,
+    "target": 380.1071,
+    "trailing_stop": null,
+    "score": 120,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "VAKBN.IS",
+    "date": "2026-08-17",
+    "entry": 30.98,
+    "highest_price": 30.98,
+    "stop": 30.5722,
+    "target": 31.7955,
+    "trailing_stop": null,
+    "score": 125,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "YEOTK.IS",
+    "date": "2026-08-17",
+    "entry": 40.52,
+    "highest_price": 40.52,
+    "stop": 39.4229,
+    "target": 42.7143,
+    "trailing_stop": null,
+    "score": 100,
+    "setup_type": "PULLBACK",
+    "status": "open"
   }
 ]
