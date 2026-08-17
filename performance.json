@@ -23525,6 +23525,70 @@
     "stop": 18.9678,
     "target": 19.8743,
     "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 18.9678,
+    "exit_date": "2026-08-17",
+    "result_pct": -1.57,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "CANTE.IS",
+    "date": "2026-08-17",
+    "entry": 1.24,
+    "score": 80,
+    "rsi": 72.73,
+    "vol_ratio": 1.06,
+    "stop": 1.2175,
+    "target": 1.285,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "OYAKC.IS",
+    "date": "2026-08-17",
+    "entry": 21.98,
+    "score": 115,
+    "rsi": 63.16,
+    "vol_ratio": 1.38,
+    "stop": 21.3819,
+    "target": 23.1761,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "TAVHL.IS",
+    "date": "2026-08-17",
+    "entry": 279.5,
+    "score": 90,
+    "rsi": 55.36,
+    "vol_ratio": 1.29,
+    "stop": 277.2071,
+    "target": 284.0857,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "TTRAK.IS",
+    "date": "2026-08-17",
+    "entry": 417.0,
+    "score": 78,
+    "rsi": 79.66,
+    "vol_ratio": 1.38,
+    "stop": 412.9821,
+    "target": 425.0357,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "ULKER.IS",
+    "date": "2026-08-17",
+    "entry": 91.15,
+    "score": 115,
+    "rsi": 64.77,
+    "vol_ratio": 1.55,
+    "stop": 89.3791,
+    "target": 94.6919,
+    "setup_type": "PULLBACK",
     "status": "open"
   }
 ]
