@@ -23166,8 +23166,8 @@
     "score": 70,
     "setup_type": "WEAK",
     "status": "open",
-    "last_price": 1.21,
-    "live_result_pct": 0.83
+    "last_price": 1.22,
+    "live_result_pct": 1.67
   },
   {
     "symbol": "CLEBI.IS",
@@ -25754,8 +25754,8 @@
     "exit_date": "2026-08-17",
     "result_pct": -1.41,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-17T12:09:21.909080+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "TAVHL.IS",
@@ -26157,47 +26157,83 @@
     "symbol": "BTCIM.IS",
     "date": "2026-08-17",
     "entry": 4.74,
-    "highest_price": 4.74,
+    "highest_price": 4.92,
     "stop": 4.6618,
     "target": 4.8964,
     "trailing_stop": null,
     "score": 70,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 4.6618,
+    "exit_date": "2026-08-17",
+    "result_pct": -1.65,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-17T15:45:44.751755+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "OTKAR.IS",
     "date": "2026-08-17",
     "entry": 320.25,
-    "highest_price": 320.25,
+    "highest_price": 329.75,
     "stop": 309.4209,
     "target": 341.9082,
     "trailing_stop": null,
     "score": 98,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 309.4209,
+    "exit_date": "2026-08-17",
+    "result_pct": -3.38,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-17T15:45:44.928098+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "SKBNK.IS",
     "date": "2026-08-17",
     "entry": 6.27,
-    "highest_price": 6.27,
+    "highest_price": 6.46,
     "stop": 6.1896,
     "target": 6.4307,
     "trailing_stop": null,
     "score": 80,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 6.1896,
+    "exit_date": "2026-08-17",
+    "result_pct": -1.28,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-17T15:45:45.083144+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "YKBNK.IS",
     "date": "2026-08-17",
     "entry": 35.34,
-    "highest_price": 35.34,
+    "highest_price": 36.06,
     "stop": 34.9279,
     "target": 36.1641,
     "trailing_stop": null,
     "score": 73,
+    "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 34.9279,
+    "exit_date": "2026-08-17",
+    "result_pct": -1.17,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-17T15:45:45.258239+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "OYAKC.IS",
+    "date": "2026-08-17",
+    "entry": 21.72,
+    "highest_price": 21.72,
+    "stop": 21.3172,
+    "target": 22.5255,
+    "trailing_stop": null,
+    "score": 130,
     "setup_type": "PULLBACK",
     "status": "open"
   }

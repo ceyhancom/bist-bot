@@ -23265,7 +23265,11 @@
     "stop": 4.6618,
     "target": 4.8964,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 4.6618,
+    "exit_date": "2026-08-17",
+    "result_pct": -1.65,
+    "close_reason": "STOP"
   },
   {
     "symbol": "OTKAR.IS",
@@ -23277,7 +23281,11 @@
     "stop": 309.4209,
     "target": 341.9082,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 309.4209,
+    "exit_date": "2026-08-17",
+    "result_pct": -3.38,
+    "close_reason": "STOP"
   },
   {
     "symbol": "SKBNK.IS",
@@ -23289,7 +23297,11 @@
     "stop": 6.1896,
     "target": 6.4307,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 6.1896,
+    "exit_date": "2026-08-17",
+    "result_pct": -1.28,
+    "close_reason": "STOP"
   },
   {
     "symbol": "YKBNK.IS",
@@ -23300,6 +23312,22 @@
     "vol_ratio": 1.25,
     "stop": 34.9279,
     "target": 36.1641,
+    "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 34.9279,
+    "exit_date": "2026-08-17",
+    "result_pct": -1.17,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "OYAKC.IS",
+    "date": "2026-08-17",
+    "entry": 21.72,
+    "score": 130,
+    "rsi": 60.27,
+    "vol_ratio": 2.01,
+    "stop": 21.3172,
+    "target": 22.5255,
     "setup_type": "PULLBACK",
     "status": "open"
   }
