@@ -23166,8 +23166,8 @@
     "score": 70,
     "setup_type": "WEAK",
     "status": "open",
-    "last_price": 1.22,
-    "live_result_pct": 1.67
+    "last_price": 1.21,
+    "live_result_pct": 0.83
   },
   {
     "symbol": "CLEBI.IS",
@@ -25941,24 +25941,36 @@
     "symbol": "FROTO.IS",
     "date": "2026-08-17",
     "entry": 79.75,
-    "highest_price": 79.75,
+    "highest_price": 80.7,
     "stop": 78.9914,
     "target": 81.2671,
     "trailing_stop": null,
     "score": 115,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 78.9914,
+    "exit_date": "2026-08-17",
+    "result_pct": -0.95,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-17T13:42:34.571683+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "TTRAK.IS",
     "date": "2026-08-17",
     "entry": 413.25,
-    "highest_price": 413.25,
+    "highest_price": 416.0,
     "stop": 409.7635,
     "target": 420.2229,
     "trailing_stop": null,
     "score": 110,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 409.7635,
+    "exit_date": "2026-08-17",
+    "result_pct": -0.84,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-17T13:42:34.711593+03:00",
+    "cooldown_reason": "STOP"
   }
 ]

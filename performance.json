@@ -23073,7 +23073,11 @@
     "stop": 78.9914,
     "target": 81.2671,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 78.9914,
+    "exit_date": "2026-08-17",
+    "result_pct": -0.95,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TTRAK.IS",
@@ -23085,6 +23089,10 @@
     "stop": 409.7635,
     "target": 420.2229,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 409.7635,
+    "exit_date": "2026-08-17",
+    "result_pct": -0.84,
+    "close_reason": "STOP"
   }
 ]
