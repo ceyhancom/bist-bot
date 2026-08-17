@@ -23541,7 +23541,11 @@
     "stop": 1.2175,
     "target": 1.285,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 1.2175,
+    "exit_date": "2026-08-17",
+    "result_pct": -1.81,
+    "close_reason": "STOP"
   },
   {
     "symbol": "OYAKC.IS",
@@ -23553,7 +23557,11 @@
     "stop": 21.3819,
     "target": 23.1761,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 21.3819,
+    "exit_date": "2026-08-17",
+    "result_pct": -2.72,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TAVHL.IS",
@@ -23565,7 +23573,11 @@
     "stop": 277.2071,
     "target": 284.0857,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 277.2071,
+    "exit_date": "2026-08-17",
+    "result_pct": -0.82,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TTRAK.IS",
@@ -23577,7 +23589,11 @@
     "stop": 412.9821,
     "target": 425.0357,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 412.9821,
+    "exit_date": "2026-08-17",
+    "result_pct": -0.96,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ULKER.IS",
@@ -23588,6 +23604,70 @@
     "vol_ratio": 1.55,
     "stop": 89.3791,
     "target": 94.6919,
+    "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 89.3791,
+    "exit_date": "2026-08-17",
+    "result_pct": -1.94,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "DSTKF.IS",
+    "date": "2026-08-17",
+    "entry": 1983.0,
+    "score": 108,
+    "rsi": 76.65,
+    "vol_ratio": 3.99,
+    "stop": 1954.1786,
+    "target": 2040.6429,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "EREGL.IS",
+    "date": "2026-08-17",
+    "entry": 37.96,
+    "score": 70,
+    "rsi": 52.8,
+    "vol_ratio": 2.0,
+    "stop": 37.4543,
+    "target": 38.9714,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "ODAS.IS",
+    "date": "2026-08-17",
+    "entry": 7.69,
+    "score": 70,
+    "rsi": 65.63,
+    "vol_ratio": 1.13,
+    "stop": 7.5646,
+    "target": 7.9407,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "TUPRS.IS",
+    "date": "2026-08-17",
+    "entry": 368.0,
+    "score": 115,
+    "rsi": 64.06,
+    "vol_ratio": 1.54,
+    "stop": 349.5876,
+    "target": 404.8247,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "YEOTK.IS",
+    "date": "2026-08-17",
+    "entry": 41.38,
+    "score": 115,
+    "rsi": 56.46,
+    "vol_ratio": 1.9,
+    "stop": 39.6727,
+    "target": 44.7946,
     "setup_type": "PULLBACK",
     "status": "open"
   }
