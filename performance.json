@@ -23094,5 +23094,113 @@
     "exit_date": "2026-08-17",
     "result_pct": -0.84,
     "close_reason": "STOP"
+  },
+  {
+    "symbol": "ALARK.IS",
+    "date": "2026-08-17",
+    "entry": 104.2,
+    "score": 115,
+    "rsi": 64.79,
+    "vol_ratio": 1.22,
+    "stop": 102.901,
+    "target": 106.7979,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "CLEBI.IS",
+    "date": "2026-08-17",
+    "entry": 1542.0,
+    "score": 98,
+    "rsi": 75.59,
+    "vol_ratio": 1.89,
+    "stop": 1517.4643,
+    "target": 1591.0714,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "EKGYO.IS",
+    "date": "2026-08-17",
+    "entry": 18.66,
+    "score": 120,
+    "rsi": 63.73,
+    "vol_ratio": 1.74,
+    "stop": 18.2868,
+    "target": 19.4063,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "GRSEL.IS",
+    "date": "2026-08-17",
+    "entry": 350.5,
+    "score": 83,
+    "rsi": 48.95,
+    "vol_ratio": 1.65,
+    "stop": 345.4,
+    "target": 360.7,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "KCAER.IS",
+    "date": "2026-08-17",
+    "entry": 16.15,
+    "score": 105,
+    "rsi": 59.43,
+    "vol_ratio": 1.09,
+    "stop": 15.5616,
+    "target": 17.3269,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "KRDMD.IS",
+    "date": "2026-08-17",
+    "entry": 44.28,
+    "score": 135,
+    "rsi": 69.18,
+    "vol_ratio": 3.04,
+    "stop": 43.2579,
+    "target": 46.3243,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "SOKM.IS",
+    "date": "2026-08-17",
+    "entry": 52.75,
+    "score": 105,
+    "rsi": 50.72,
+    "vol_ratio": 1.03,
+    "stop": 51.9957,
+    "target": 54.2586,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "TAVHL.IS",
+    "date": "2026-08-17",
+    "entry": 279.25,
+    "score": 105,
+    "rsi": 53.85,
+    "vol_ratio": 1.25,
+    "stop": 276.6143,
+    "target": 284.5214,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "YEOTK.IS",
+    "date": "2026-08-17",
+    "entry": 40.14,
+    "score": 80,
+    "rsi": 65.51,
+    "vol_ratio": 2.79,
+    "stop": 38.7407,
+    "target": 42.9386,
+    "setup_type": "TREND",
+    "status": "open"
   }
 ]
