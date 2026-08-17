@@ -22993,7 +22993,11 @@
     "stop": 45.3309,
     "target": 46.6783,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 45.3309,
+    "exit_date": "2026-08-17",
+    "result_pct": -0.98,
+    "close_reason": "STOP"
   },
   {
     "symbol": "CLEBI.IS",
@@ -23005,7 +23009,11 @@
     "stop": 1519.4286,
     "target": 1590.1429,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 1519.4286,
+    "exit_date": "2026-08-17",
+    "result_pct": -1.53,
+    "close_reason": "STOP"
   },
   {
     "symbol": "EUPWR.IS",
@@ -23017,7 +23025,11 @@
     "stop": 93.2398,
     "target": 100.3203,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 93.2398,
+    "exit_date": "2026-08-17",
+    "result_pct": -2.47,
+    "close_reason": "STOP"
   },
   {
     "symbol": "MIATK.IS",
@@ -23029,7 +23041,11 @@
     "stop": 31.6157,
     "target": 34.5086,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 31.6157,
+    "exit_date": "2026-08-17",
+    "result_pct": -2.96,
+    "close_reason": "STOP"
   },
   {
     "symbol": "PETKM.IS",
@@ -23041,6 +23057,34 @@
     "stop": 18.8682,
     "target": 19.7136,
     "setup_type": "TREND",
+    "status": "closed",
+    "exit": 18.8682,
+    "exit_date": "2026-08-17",
+    "result_pct": -1.47,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "FROTO.IS",
+    "date": "2026-08-17",
+    "entry": 79.75,
+    "score": 115,
+    "rsi": 57.81,
+    "vol_ratio": 1.38,
+    "stop": 78.9914,
+    "target": 81.2671,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "TTRAK.IS",
+    "date": "2026-08-17",
+    "entry": 413.25,
+    "score": 110,
+    "rsi": 57.45,
+    "vol_ratio": 1.62,
+    "stop": 409.7635,
+    "target": 420.2229,
+    "setup_type": "PULLBACK",
     "status": "open"
   }
 ]
