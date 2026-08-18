@@ -25704,8 +25704,8 @@
     "score": 105,
     "setup_type": "PULLBACK",
     "status": "open",
-    "last_price": 183.0,
-    "live_result_pct": 1.72
+    "last_price": 182.8,
+    "live_result_pct": 1.61
   },
   {
     "symbol": "KRDMD.IS",
@@ -27169,36 +27169,54 @@
     "symbol": "BTCIM.IS",
     "date": "2026-08-18",
     "entry": 4.79,
-    "highest_price": 4.79,
+    "highest_price": 4.86,
     "stop": 4.7107,
     "target": 4.9486,
     "trailing_stop": null,
     "score": 80,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 4.7107,
+    "exit_date": "2026-08-18",
+    "result_pct": -1.66,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-18T15:46:26.039110+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "OYAKC.IS",
     "date": "2026-08-18",
     "entry": 21.9,
-    "highest_price": 21.9,
+    "highest_price": 22.1,
     "stop": 21.4796,
     "target": 22.7409,
     "trailing_stop": null,
     "score": 95,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 21.4796,
+    "exit_date": "2026-08-18",
+    "result_pct": -1.92,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-18T15:46:26.317893+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "TUREX.IS",
     "date": "2026-08-18",
     "entry": 6.72,
-    "highest_price": 6.72,
+    "highest_price": 6.91,
     "stop": 6.6043,
     "target": 6.9514,
     "trailing_stop": null,
     "score": 100,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 6.6043,
+    "exit_date": "2026-08-18",
+    "result_pct": -1.72,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-18T15:46:26.557153+03:00",
+    "cooldown_reason": "STOP"
   }
 ]

@@ -24165,7 +24165,11 @@
     "stop": 4.7107,
     "target": 4.9486,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 4.7107,
+    "exit_date": "2026-08-18",
+    "result_pct": -1.66,
+    "close_reason": "STOP"
   },
   {
     "symbol": "OYAKC.IS",
@@ -24177,7 +24181,11 @@
     "stop": 21.4796,
     "target": 22.7409,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 21.4796,
+    "exit_date": "2026-08-18",
+    "result_pct": -1.92,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TUREX.IS",
@@ -24189,6 +24197,10 @@
     "stop": 6.6043,
     "target": 6.9514,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 6.6043,
+    "exit_date": "2026-08-18",
+    "result_pct": -1.72,
+    "close_reason": "STOP"
   }
 ]
