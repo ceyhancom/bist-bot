@@ -24037,7 +24037,11 @@
     "stop": 34.7394,
     "target": 37.2613,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 34.7394,
+    "exit_date": "2026-08-18",
+    "result_pct": -2.36,
+    "close_reason": "STOP"
   },
   {
     "symbol": "PETKM.IS",
@@ -24049,7 +24053,11 @@
     "stop": 19.0146,
     "target": 20.1408,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 19.0146,
+    "exit_date": "2026-08-18",
+    "result_pct": -1.94,
+    "close_reason": "STOP"
   },
   {
     "symbol": "RALYH.IS",
@@ -24061,7 +24069,11 @@
     "stop": 254.4329,
     "target": 297.3843,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 254.4329,
+    "exit_date": "2026-08-18",
+    "result_pct": -5.33,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TUREX.IS",
@@ -24073,6 +24085,10 @@
     "stop": 6.6436,
     "target": 6.9329,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 6.6436,
+    "exit_date": "2026-08-18",
+    "result_pct": -1.43,
+    "close_reason": "STOP"
   }
 ]
