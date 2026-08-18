@@ -25704,8 +25704,8 @@
     "score": 105,
     "setup_type": "PULLBACK",
     "status": "open",
-    "last_price": 183.2,
-    "live_result_pct": 1.83
+    "last_price": 183.1,
+    "live_result_pct": 1.78
   },
   {
     "symbol": "KRDMD.IS",
@@ -26262,8 +26262,8 @@
     "exit_date": "2026-08-17",
     "result_pct": -2.25,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-17T17:37:53.103006+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "CLEBI.IS",
@@ -26856,8 +26856,8 @@
     "exit_date": "2026-08-18",
     "result_pct": -2.8,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-18T13:00:09.275705+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "ODAS.IS",
@@ -27223,12 +27223,42 @@
     "symbol": "PETKM.IS",
     "date": "2026-08-18",
     "entry": 19.9,
-    "highest_price": 19.9,
+    "highest_price": 20.04,
     "stop": 19.5721,
     "target": 20.5557,
     "trailing_stop": null,
     "score": 105,
     "setup_type": "BREAKOUT",
+    "status": "closed",
+    "exit": 19.5721,
+    "exit_date": "2026-08-18",
+    "result_pct": -1.65,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-18T17:41:37.063300+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "CWENE.IS",
+    "date": "2026-08-18",
+    "entry": 38.16,
+    "highest_price": 38.16,
+    "stop": 37.2664,
+    "target": 39.9471,
+    "trailing_stop": null,
+    "score": 80,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "KRDMD.IS",
+    "date": "2026-08-18",
+    "entry": 43.9,
+    "highest_price": 43.9,
+    "stop": 42.5513,
+    "target": 46.5973,
+    "trailing_stop": null,
+    "score": 115,
+    "setup_type": "PULLBACK",
     "status": "open"
   }
 ]
