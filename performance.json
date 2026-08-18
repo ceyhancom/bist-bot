@@ -24090,5 +24090,53 @@
     "exit_date": "2026-08-18",
     "result_pct": -1.43,
     "close_reason": "STOP"
+  },
+  {
+    "symbol": "CCOLA.IS",
+    "date": "2026-08-18",
+    "entry": 82.4,
+    "score": 70,
+    "rsi": 50.94,
+    "vol_ratio": 1.43,
+    "stop": 81.0714,
+    "target": 85.0571,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "KCAER.IS",
+    "date": "2026-08-18",
+    "entry": 16.36,
+    "score": 130,
+    "rsi": 69.13,
+    "vol_ratio": 1.58,
+    "stop": 16.0718,
+    "target": 16.9364,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "OBAMS.IS",
+    "date": "2026-08-18",
+    "entry": 5.25,
+    "score": 98,
+    "rsi": 78.79,
+    "vol_ratio": 1.53,
+    "stop": 5.1375,
+    "target": 5.475,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "SKBNK.IS",
+    "date": "2026-08-18",
+    "entry": 6.2,
+    "score": 85,
+    "rsi": 57.66,
+    "vol_ratio": 1.1,
+    "stop": 6.014,
+    "target": 6.572,
+    "setup_type": "PULLBACK",
+    "status": "open"
   }
 ]

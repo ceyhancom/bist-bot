@@ -20992,8 +20992,8 @@
     "exit_date": "2026-08-04",
     "result_pct": -2.04,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-04T13:56:05.454058+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "OYAKC.IS",
@@ -23674,8 +23674,8 @@
     "exit_date": "2026-08-10",
     "result_pct": -1.25,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-10T18:30:19.437042+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "DOAS.IS",
@@ -25704,8 +25704,8 @@
     "score": 105,
     "setup_type": "PULLBACK",
     "status": "open",
-    "last_price": 182.6,
-    "live_result_pct": 1.5
+    "last_price": 182.9,
+    "live_result_pct": 1.67
   },
   {
     "symbol": "KRDMD.IS",
@@ -26766,8 +26766,8 @@
     "exit_date": "2026-08-18",
     "result_pct": -3.02,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-18T12:23:04.509332+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "ALARK.IS",
@@ -26820,8 +26820,8 @@
     "exit_date": "2026-08-18",
     "result_pct": -2.39,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-18T13:00:08.724283+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "KCHOL.IS",
@@ -27092,5 +27092,53 @@
     "close_reason": "STOP",
     "cooldown_until": "2026-08-18T13:37:15.447085+03:00",
     "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "CCOLA.IS",
+    "date": "2026-08-18",
+    "entry": 82.4,
+    "highest_price": 82.4,
+    "stop": 81.0714,
+    "target": 85.0571,
+    "trailing_stop": null,
+    "score": 70,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "KCAER.IS",
+    "date": "2026-08-18",
+    "entry": 16.36,
+    "highest_price": 16.36,
+    "stop": 16.0718,
+    "target": 16.9364,
+    "trailing_stop": null,
+    "score": 130,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "OBAMS.IS",
+    "date": "2026-08-18",
+    "entry": 5.25,
+    "highest_price": 5.25,
+    "stop": 5.1375,
+    "target": 5.475,
+    "trailing_stop": null,
+    "score": 98,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "SKBNK.IS",
+    "date": "2026-08-18",
+    "entry": 6.2,
+    "highest_price": 6.2,
+    "stop": 6.014,
+    "target": 6.572,
+    "trailing_stop": null,
+    "score": 85,
+    "setup_type": "PULLBACK",
+    "status": "open"
   }
 ]
