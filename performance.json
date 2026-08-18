@@ -24101,7 +24101,11 @@
     "stop": 81.0714,
     "target": 85.0571,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 81.0714,
+    "exit_date": "2026-08-18",
+    "result_pct": -1.61,
+    "close_reason": "STOP"
   },
   {
     "symbol": "KCAER.IS",
@@ -24113,7 +24117,11 @@
     "stop": 16.0718,
     "target": 16.9364,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 16.0718,
+    "exit_date": "2026-08-18",
+    "result_pct": -1.76,
+    "close_reason": "STOP"
   },
   {
     "symbol": "OBAMS.IS",
@@ -24125,7 +24133,11 @@
     "stop": 5.1375,
     "target": 5.475,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 5.1375,
+    "exit_date": "2026-08-18",
+    "result_pct": -2.14,
+    "close_reason": "STOP"
   },
   {
     "symbol": "SKBNK.IS",
@@ -24137,6 +24149,10 @@
     "stop": 6.014,
     "target": 6.572,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 6.014,
+    "exit_date": "2026-08-18",
+    "result_pct": -3.0,
+    "close_reason": "STOP"
   }
 ]

@@ -25704,8 +25704,8 @@
     "score": 105,
     "setup_type": "PULLBACK",
     "status": "open",
-    "last_price": 182.9,
-    "live_result_pct": 1.67
+    "last_price": 182.6,
+    "live_result_pct": 1.5
   },
   {
     "symbol": "KRDMD.IS",
@@ -27097,48 +27097,72 @@
     "symbol": "CCOLA.IS",
     "date": "2026-08-18",
     "entry": 82.4,
-    "highest_price": 82.4,
+    "highest_price": 87.1,
     "stop": 81.0714,
     "target": 85.0571,
     "trailing_stop": null,
     "score": 70,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 81.0714,
+    "exit_date": "2026-08-18",
+    "result_pct": -1.61,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-18T14:43:35.370834+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "KCAER.IS",
     "date": "2026-08-18",
     "entry": 16.36,
-    "highest_price": 16.36,
+    "highest_price": 16.55,
     "stop": 16.0718,
     "target": 16.9364,
     "trailing_stop": null,
     "score": 130,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 16.0718,
+    "exit_date": "2026-08-18",
+    "result_pct": -1.76,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-18T14:43:35.688272+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "OBAMS.IS",
     "date": "2026-08-18",
     "entry": 5.25,
-    "highest_price": 5.25,
+    "highest_price": 5.35,
     "stop": 5.1375,
     "target": 5.475,
     "trailing_stop": null,
     "score": 98,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 5.1375,
+    "exit_date": "2026-08-18",
+    "result_pct": -2.14,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-18T14:43:35.892510+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "SKBNK.IS",
     "date": "2026-08-18",
     "entry": 6.2,
-    "highest_price": 6.2,
+    "highest_price": 6.57,
     "stop": 6.014,
     "target": 6.572,
     "trailing_stop": null,
     "score": 85,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 6.014,
+    "exit_date": "2026-08-18",
+    "result_pct": -3.0,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-18T14:43:36.109578+03:00",
+    "cooldown_reason": "STOP"
   }
 ]
