@@ -24229,7 +24229,11 @@
     "stop": 37.2664,
     "target": 39.9471,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 37.2664,
+    "exit_date": "2026-08-18",
+    "result_pct": -2.34,
+    "close_reason": "STOP"
   },
   {
     "symbol": "KRDMD.IS",
@@ -24241,6 +24245,46 @@
     "stop": 42.5513,
     "target": 46.5973,
     "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 42.5513,
+    "exit_date": "2026-08-18",
+    "result_pct": -3.07,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "GENIL.IS",
+    "date": "2026-08-18",
+    "entry": 11.29,
+    "score": 80,
+    "rsi": 65.62,
+    "vol_ratio": 1.04,
+    "stop": 11.1186,
+    "target": 11.6329,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "KTLEV.IS",
+    "date": "2026-08-18",
+    "entry": 53.3,
+    "score": 78,
+    "rsi": 40.44,
+    "vol_ratio": 1.02,
+    "stop": 50.8936,
+    "target": 58.1129,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "TCELL.IS",
+    "date": "2026-08-18",
+    "entry": 104.2,
+    "score": 80,
+    "rsi": 58.93,
+    "vol_ratio": 1.63,
+    "stop": 102.9786,
+    "target": 106.6429,
+    "setup_type": "WEAK",
     "status": "open"
   }
 ]

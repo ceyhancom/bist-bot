@@ -24340,8 +24340,8 @@
     "exit_date": "2026-08-12",
     "result_pct": -3.37,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-12T15:08:53.645573+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "GESAN.IS",
@@ -24988,8 +24988,8 @@
     "exit_date": "2026-08-14",
     "result_pct": -1.37,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-14T12:34:47.292599+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "TKFEN.IS",
@@ -25704,8 +25704,8 @@
     "score": 105,
     "setup_type": "PULLBACK",
     "status": "open",
-    "last_price": 183.1,
-    "live_result_pct": 1.78
+    "last_price": 183.2,
+    "live_result_pct": 1.83
   },
   {
     "symbol": "KRDMD.IS",
@@ -25740,8 +25740,8 @@
     "exit_date": "2026-08-17",
     "result_pct": -3.59,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-17T12:09:21.758608+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "OYAKC.IS",
@@ -27241,24 +27241,72 @@
     "symbol": "CWENE.IS",
     "date": "2026-08-18",
     "entry": 38.16,
-    "highest_price": 38.16,
+    "highest_price": 42.6,
     "stop": 37.2664,
     "target": 39.9471,
     "trailing_stop": null,
     "score": 80,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 37.2664,
+    "exit_date": "2026-08-18",
+    "result_pct": -2.34,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-18T18:23:06.993991+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "KRDMD.IS",
     "date": "2026-08-18",
     "entry": 43.9,
-    "highest_price": 43.9,
+    "highest_price": 46.72,
     "stop": 42.5513,
     "target": 46.5973,
     "trailing_stop": null,
     "score": 115,
     "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 42.5513,
+    "exit_date": "2026-08-18",
+    "result_pct": -3.07,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-18T18:23:07.261199+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "GENIL.IS",
+    "date": "2026-08-18",
+    "entry": 11.29,
+    "highest_price": 11.29,
+    "stop": 11.1186,
+    "target": 11.6329,
+    "trailing_stop": null,
+    "score": 80,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "KTLEV.IS",
+    "date": "2026-08-18",
+    "entry": 53.3,
+    "highest_price": 53.3,
+    "stop": 50.8936,
+    "target": 58.1129,
+    "trailing_stop": null,
+    "score": 78,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "TCELL.IS",
+    "date": "2026-08-18",
+    "entry": 104.2,
+    "highest_price": 104.2,
+    "stop": 102.9786,
+    "target": 106.6429,
+    "trailing_stop": null,
+    "score": 80,
+    "setup_type": "WEAK",
     "status": "open"
   }
 ]
