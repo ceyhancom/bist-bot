@@ -21658,8 +21658,8 @@
     "exit_date": "2026-08-06",
     "result_pct": -1.88,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-06T13:06:26.263678+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "ANSGR.IS",
@@ -22918,8 +22918,8 @@
     "exit_date": "2026-08-10",
     "result_pct": -1.13,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-10T12:28:35.138470+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "CCOLA.IS",
@@ -25704,8 +25704,8 @@
     "score": 105,
     "setup_type": "PULLBACK",
     "status": "open",
-    "last_price": 183.1,
-    "live_result_pct": 1.78
+    "last_price": 183.2,
+    "live_result_pct": 1.83
   },
   {
     "symbol": "KRDMD.IS",
@@ -27331,72 +27331,132 @@
     "symbol": "ALARK.IS",
     "date": "2026-08-18",
     "entry": 106.9,
-    "highest_price": 106.9,
+    "highest_price": 107.4,
     "stop": 105.1643,
     "target": 110.3714,
     "trailing_stop": null,
     "score": 100,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 105.1643,
+    "exit_date": "2026-08-18",
+    "result_pct": -1.62,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-18T19:32:54.597261+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "CCOLA.IS",
     "date": "2026-08-18",
     "entry": 82.7,
-    "highest_price": 82.7,
+    "highest_price": 87.1,
     "stop": 81.4625,
     "target": 85.175,
     "trailing_stop": null,
     "score": 70,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 81.4625,
+    "exit_date": "2026-08-18",
+    "result_pct": -1.5,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-18T19:32:54.822573+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "DSTKF.IS",
     "date": "2026-08-18",
     "entry": 2031.0,
-    "highest_price": 2031.0,
+    "highest_price": 2065.0,
     "stop": 1989.0,
     "target": 2115.0,
     "trailing_stop": null,
     "score": 88,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 1989.0,
+    "exit_date": "2026-08-18",
+    "result_pct": -2.07,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-18T19:32:55.178989+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "KCHOL.IS",
     "date": "2026-08-18",
     "entry": 208.2,
-    "highest_price": 208.2,
+    "highest_price": 209.5,
     "stop": 204.7429,
     "target": 215.1143,
     "trailing_stop": null,
     "score": 105,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 204.7429,
+    "exit_date": "2026-08-18",
+    "result_pct": -1.66,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-18T19:32:55.621278+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "PASEU.IS",
     "date": "2026-08-18",
     "entry": 174.1,
-    "highest_price": 174.1,
+    "highest_price": 178.1,
     "stop": 168.85,
     "target": 184.6,
     "trailing_stop": null,
     "score": 85,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 168.85,
+    "exit_date": "2026-08-18",
+    "result_pct": -3.02,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-18T19:32:55.769313+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "ULKER.IS",
     "date": "2026-08-18",
     "entry": 91.55,
-    "highest_price": 91.55,
+    "highest_price": 93.05,
     "stop": 90.1714,
     "target": 94.3071,
     "trailing_stop": null,
     "score": 80,
     "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 90.1714,
+    "exit_date": "2026-08-18",
+    "result_pct": -1.51,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-18T19:32:55.907279+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "AKSEN.IS",
+    "date": "2026-08-18",
+    "entry": 85.0,
+    "highest_price": 85.0,
+    "stop": 83.4357,
+    "target": 88.1286,
+    "trailing_stop": null,
+    "score": 85,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "BIMAS.IS",
+    "date": "2026-08-18",
+    "entry": 405.0,
+    "highest_price": 405.0,
+    "stop": 397.875,
+    "target": 419.25,
+    "trailing_stop": null,
+    "score": 78,
+    "setup_type": "TREND",
     "status": "open"
   }
 ]
