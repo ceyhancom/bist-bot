@@ -25704,8 +25704,8 @@
     "score": 105,
     "setup_type": "PULLBACK",
     "status": "open",
-    "last_price": 182.8,
-    "live_result_pct": 1.61
+    "last_price": 183.2,
+    "live_result_pct": 1.83
   },
   {
     "symbol": "KRDMD.IS",
@@ -27054,8 +27054,8 @@
     "exit_date": "2026-08-18",
     "result_pct": -1.94,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-18T13:37:15.270235+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "RALYH.IS",
@@ -27218,5 +27218,17 @@
     "close_reason": "STOP",
     "cooldown_until": "2026-08-18T15:46:26.557153+03:00",
     "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "PETKM.IS",
+    "date": "2026-08-18",
+    "entry": 19.9,
+    "highest_price": 19.9,
+    "stop": 19.5721,
+    "target": 20.5557,
+    "trailing_stop": null,
+    "score": 105,
+    "setup_type": "BREAKOUT",
+    "status": "open"
   }
 ]
