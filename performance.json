@@ -24154,5 +24154,41 @@
     "exit_date": "2026-08-18",
     "result_pct": -3.0,
     "close_reason": "STOP"
+  },
+  {
+    "symbol": "BTCIM.IS",
+    "date": "2026-08-18",
+    "entry": 4.79,
+    "score": 80,
+    "rsi": 59.46,
+    "vol_ratio": 1.68,
+    "stop": 4.7107,
+    "target": 4.9486,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "OYAKC.IS",
+    "date": "2026-08-18",
+    "entry": 21.9,
+    "score": 95,
+    "rsi": 51.52,
+    "vol_ratio": 1.02,
+    "stop": 21.4796,
+    "target": 22.7409,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "TUREX.IS",
+    "date": "2026-08-18",
+    "entry": 6.72,
+    "score": 100,
+    "rsi": 70.21,
+    "vol_ratio": 1.58,
+    "stop": 6.6043,
+    "target": 6.9514,
+    "setup_type": "TREND",
+    "status": "open"
   }
 ]

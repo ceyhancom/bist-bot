@@ -25704,8 +25704,8 @@
     "score": 105,
     "setup_type": "PULLBACK",
     "status": "open",
-    "last_price": 182.6,
-    "live_result_pct": 1.5
+    "last_price": 183.0,
+    "live_result_pct": 1.72
   },
   {
     "symbol": "KRDMD.IS",
@@ -26172,8 +26172,8 @@
     "exit_date": "2026-08-17",
     "result_pct": -1.65,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-17T15:45:44.751755+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "OTKAR.IS",
@@ -26676,8 +26676,8 @@
     "exit_date": "2026-08-18",
     "result_pct": -2.72,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-18T11:38:57.583065+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "PETKM.IS",
@@ -27090,8 +27090,8 @@
     "exit_date": "2026-08-18",
     "result_pct": -1.43,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-18T13:37:15.447085+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "CCOLA.IS",
@@ -27164,5 +27164,41 @@
     "close_reason": "STOP",
     "cooldown_until": "2026-08-18T14:43:36.109578+03:00",
     "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "BTCIM.IS",
+    "date": "2026-08-18",
+    "entry": 4.79,
+    "highest_price": 4.79,
+    "stop": 4.7107,
+    "target": 4.9486,
+    "trailing_stop": null,
+    "score": 80,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "OYAKC.IS",
+    "date": "2026-08-18",
+    "entry": 21.9,
+    "highest_price": 21.9,
+    "stop": 21.4796,
+    "target": 22.7409,
+    "trailing_stop": null,
+    "score": 95,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "TUREX.IS",
+    "date": "2026-08-18",
+    "entry": 6.72,
+    "highest_price": 6.72,
+    "stop": 6.6043,
+    "target": 6.9514,
+    "trailing_stop": null,
+    "score": 100,
+    "setup_type": "TREND",
+    "status": "open"
   }
 ]
