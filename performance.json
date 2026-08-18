@@ -23701,7 +23701,11 @@
     "stop": 1.2175,
     "target": 1.285,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 1.2175,
+    "exit_date": "2026-08-18",
+    "result_pct": -1.81,
+    "close_reason": "STOP"
   },
   {
     "symbol": "OYAKC.IS",
@@ -23713,7 +23717,11 @@
     "stop": 21.3819,
     "target": 23.1761,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 21.3819,
+    "exit_date": "2026-08-18",
+    "result_pct": -2.72,
+    "close_reason": "STOP"
   },
   {
     "symbol": "PETKM.IS",
@@ -23725,7 +23733,11 @@
     "stop": 18.9246,
     "target": 19.5109,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 18.9246,
+    "exit_date": "2026-08-18",
+    "result_pct": -1.02,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TAVHL.IS",
@@ -23737,7 +23749,11 @@
     "stop": 277.2071,
     "target": 284.0857,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 277.2071,
+    "exit_date": "2026-08-18",
+    "result_pct": -0.82,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TTRAK.IS",
@@ -23749,7 +23765,11 @@
     "stop": 412.9821,
     "target": 425.0357,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 412.9821,
+    "exit_date": "2026-08-18",
+    "result_pct": -0.96,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ULKER.IS",
@@ -23761,6 +23781,22 @@
     "stop": 89.3791,
     "target": 94.6919,
     "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 89.3791,
+    "exit_date": "2026-08-18",
+    "result_pct": -1.94,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "SKBNK.IS",
+    "date": "2026-08-18",
+    "entry": 6.42,
+    "score": 80,
+    "rsi": 68.7,
+    "vol_ratio": 1.41,
+    "stop": 6.2261,
+    "target": 6.8079,
+    "setup_type": "TREND",
     "status": "open"
   }
 ]
