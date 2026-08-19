@@ -24789,7 +24789,11 @@
     "stop": 381.3348,
     "target": 405.8303,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 381.3348,
+    "exit_date": "2026-08-19",
+    "result_pct": -2.1,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ENJSA.IS",
@@ -24801,7 +24805,11 @@
     "stop": 107.5657,
     "target": 112.1686,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 107.5657,
+    "exit_date": "2026-08-19",
+    "result_pct": -1.41,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ISCTR.IS",
@@ -24813,7 +24821,11 @@
     "stop": 12.3494,
     "target": 12.6811,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 12.3494,
+    "exit_date": "2026-08-19",
+    "result_pct": -0.89,
+    "close_reason": "STOP"
   },
   {
     "symbol": "OTKAR.IS",
@@ -24825,7 +24837,11 @@
     "stop": 314.6692,
     "target": 345.6617,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 314.6692,
+    "exit_date": "2026-08-19",
+    "result_pct": -3.18,
+    "close_reason": "STOP"
   },
   {
     "symbol": "REEDR.IS",
@@ -24837,7 +24853,11 @@
     "stop": 6.0432,
     "target": 6.3036,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 6.0432,
+    "exit_date": "2026-08-19",
+    "result_pct": -1.42,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ULKER.IS",
@@ -24849,6 +24869,70 @@
     "stop": 95.0179,
     "target": 100.5143,
     "setup_type": "TREND",
+    "status": "closed",
+    "exit": 95.0179,
+    "exit_date": "2026-08-19",
+    "result_pct": -1.89,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "BRSAN.IS",
+    "date": "2026-08-19",
+    "entry": 664.0,
+    "score": 115,
+    "rsi": 58.4,
+    "vol_ratio": 1.25,
+    "stop": 639.3266,
+    "target": 713.3467,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "BRYAT.IS",
+    "date": "2026-08-19",
+    "entry": 1720.0,
+    "score": 85,
+    "rsi": 62.82,
+    "vol_ratio": 2.4,
+    "stop": 1701.7857,
+    "target": 1756.4286,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "TTRAK.IS",
+    "date": "2026-08-19",
+    "entry": 419.0,
+    "score": 125,
+    "rsi": 60.71,
+    "vol_ratio": 1.59,
+    "stop": 413.013,
+    "target": 430.9741,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "TURSG.IS",
+    "date": "2026-08-19",
+    "entry": 6.33,
+    "score": 70,
+    "rsi": 63.64,
+    "vol_ratio": 1.21,
+    "stop": 6.2561,
+    "target": 6.4779,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "VAKBN.IS",
+    "date": "2026-08-19",
+    "entry": 30.96,
+    "score": 125,
+    "rsi": 52.38,
+    "vol_ratio": 1.59,
+    "stop": 30.6274,
+    "target": 31.6251,
+    "setup_type": "PULLBACK",
     "status": "open"
   }
 ]

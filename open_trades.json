@@ -24160,8 +24160,8 @@
     "exit_date": "2026-08-12",
     "result_pct": -1.36,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-12T11:37:29.052761+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "DOHOL.IS",
@@ -25704,8 +25704,8 @@
     "score": 105,
     "setup_type": "PULLBACK",
     "status": "open",
-    "last_price": 183.7,
-    "live_result_pct": 2.11
+    "last_price": 183.6,
+    "live_result_pct": 2.06
   },
   {
     "symbol": "KRDMD.IS",
@@ -26424,8 +26424,8 @@
     "exit_date": "2026-08-17",
     "result_pct": -1.32,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-17T18:41:04.879110+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "YEOTK.IS",
@@ -26730,8 +26730,8 @@
     "exit_date": "2026-08-18",
     "result_pct": -0.96,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-18T11:38:58.096931+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "ULKER.IS",
@@ -27522,8 +27522,8 @@
     "exit_date": "2026-08-19",
     "result_pct": -1.78,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-19T12:00:51.724568+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "BRYAT.IS",
@@ -27540,8 +27540,8 @@
     "exit_date": "2026-08-19",
     "result_pct": -0.95,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-19T12:00:51.859173+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "DOHOL.IS",
@@ -27871,72 +27871,168 @@
     "symbol": "ASELS.IS",
     "date": "2026-08-19",
     "entry": 389.5,
-    "highest_price": 389.5,
+    "highest_price": 407.5,
     "stop": 381.3348,
     "target": 405.8303,
     "trailing_stop": null,
     "score": 105,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 381.3348,
+    "exit_date": "2026-08-19",
+    "result_pct": -2.1,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-19T12:49:28.757689+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "ENJSA.IS",
     "date": "2026-08-19",
     "entry": 109.1,
-    "highest_price": 109.1,
+    "highest_price": 112.7,
     "stop": 107.5657,
     "target": 112.1686,
     "trailing_stop": null,
     "score": 95,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 107.5657,
+    "exit_date": "2026-08-19",
+    "result_pct": -1.41,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-19T12:49:28.901839+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "ISCTR.IS",
     "date": "2026-08-19",
     "entry": 12.46,
-    "highest_price": 12.46,
+    "highest_price": 12.65,
     "stop": 12.3494,
     "target": 12.6811,
     "trailing_stop": null,
     "score": 103,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 12.3494,
+    "exit_date": "2026-08-19",
+    "result_pct": -0.89,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-19T12:49:29.061813+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "OTKAR.IS",
     "date": "2026-08-19",
     "entry": 325.0,
-    "highest_price": 325.0,
+    "highest_price": 331.0,
     "stop": 314.6692,
     "target": 345.6617,
     "trailing_stop": null,
     "score": 105,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 314.6692,
+    "exit_date": "2026-08-19",
+    "result_pct": -3.18,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-19T12:49:29.195061+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "REEDR.IS",
     "date": "2026-08-19",
     "entry": 6.13,
-    "highest_price": 6.13,
+    "highest_price": 6.18,
     "stop": 6.0432,
     "target": 6.3036,
     "trailing_stop": null,
     "score": 80,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 6.0432,
+    "exit_date": "2026-08-19",
+    "result_pct": -1.42,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-19T12:49:29.317075+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "ULKER.IS",
     "date": "2026-08-19",
     "entry": 96.85,
-    "highest_price": 96.85,
+    "highest_price": 98.15,
     "stop": 95.0179,
     "target": 100.5143,
     "trailing_stop": null,
     "score": 88,
     "setup_type": "TREND",
+    "status": "closed",
+    "exit": 95.0179,
+    "exit_date": "2026-08-19",
+    "result_pct": -1.89,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-19T12:49:29.446643+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "BRSAN.IS",
+    "date": "2026-08-19",
+    "entry": 664.0,
+    "highest_price": 664.0,
+    "stop": 639.3266,
+    "target": 713.3467,
+    "trailing_stop": null,
+    "score": 115,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "BRYAT.IS",
+    "date": "2026-08-19",
+    "entry": 1720.0,
+    "highest_price": 1720.0,
+    "stop": 1701.7857,
+    "target": 1756.4286,
+    "trailing_stop": null,
+    "score": 85,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "TTRAK.IS",
+    "date": "2026-08-19",
+    "entry": 419.0,
+    "highest_price": 419.0,
+    "stop": 413.013,
+    "target": 430.9741,
+    "trailing_stop": null,
+    "score": 125,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "TURSG.IS",
+    "date": "2026-08-19",
+    "entry": 6.33,
+    "highest_price": 6.33,
+    "stop": 6.2561,
+    "target": 6.4779,
+    "trailing_stop": null,
+    "score": 70,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "VAKBN.IS",
+    "date": "2026-08-19",
+    "entry": 30.96,
+    "highest_price": 30.96,
+    "stop": 30.6274,
+    "target": 31.6251,
+    "trailing_stop": null,
+    "score": 125,
+    "setup_type": "PULLBACK",
     "status": "open"
   }
 ]
