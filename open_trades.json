@@ -27036,8 +27036,8 @@
     "exit_date": "2026-08-18",
     "result_pct": -2.36,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-18T13:37:15.169429+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "PETKM.IS",
@@ -27450,8 +27450,8 @@
     "exit_date": "2026-08-19",
     "result_pct": -1.84,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-19T11:24:04.792587+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "BIMAS.IS",
@@ -27666,8 +27666,8 @@
     "exit_date": "2026-08-19",
     "result_pct": -1.63,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-19T12:00:53.116902+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "HALKB.IS",
@@ -27756,8 +27756,8 @@
     "exit_date": "2026-08-19",
     "result_pct": -1.24,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-19T12:00:53.751379+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "MPARK.IS",
@@ -27864,8 +27864,8 @@
     "exit_date": "2026-08-19",
     "result_pct": -1.93,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-19T12:00:54.610431+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "ASELS.IS",
@@ -27918,8 +27918,8 @@
     "exit_date": "2026-08-19",
     "result_pct": -0.89,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-19T12:49:29.061813+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "OTKAR.IS",
@@ -27936,8 +27936,8 @@
     "exit_date": "2026-08-19",
     "result_pct": -3.18,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-19T12:49:29.195061+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "REEDR.IS",
@@ -28064,5 +28064,89 @@
     "close_reason": "STOP",
     "cooldown_until": "2026-08-19T13:34:13.644311+03:00",
     "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "AKSEN.IS",
+    "date": "2026-08-19",
+    "entry": 85.2,
+    "highest_price": 85.2,
+    "stop": 83.4161,
+    "target": 88.7679,
+    "trailing_stop": null,
+    "score": 80,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "GUBRF.IS",
+    "date": "2026-08-19",
+    "entry": 457.0,
+    "highest_price": 457.0,
+    "stop": 446.7411,
+    "target": 477.5179,
+    "trailing_stop": null,
+    "score": 135,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "ISCTR.IS",
+    "date": "2026-08-19",
+    "entry": 12.49,
+    "highest_price": 12.49,
+    "stop": 12.3734,
+    "target": 12.7231,
+    "trailing_stop": null,
+    "score": 90,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "MAGEN.IS",
+    "date": "2026-08-19",
+    "entry": 35.32,
+    "highest_price": 35.32,
+    "stop": 34.7337,
+    "target": 36.4926,
+    "trailing_stop": null,
+    "score": 110,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "MGROS.IS",
+    "date": "2026-08-19",
+    "entry": 571.5,
+    "highest_price": 571.5,
+    "stop": 564.4821,
+    "target": 585.5357,
+    "trailing_stop": null,
+    "score": 75,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "OTKAR.IS",
+    "date": "2026-08-19",
+    "entry": 325.0,
+    "highest_price": 325.0,
+    "stop": 315.549,
+    "target": 343.9019,
+    "trailing_stop": null,
+    "score": 115,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "TUPRS.IS",
+    "date": "2026-08-19",
+    "entry": 386.5,
+    "highest_price": 386.5,
+    "stop": 379.0536,
+    "target": 401.3929,
+    "trailing_stop": null,
+    "score": 130,
+    "setup_type": "BREAKOUT",
+    "status": "open"
   }
 ]
