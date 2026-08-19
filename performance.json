@@ -25077,7 +25077,11 @@
     "stop": 10.5325,
     "target": 11.455,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 10.5325,
+    "exit_date": "2026-08-19",
+    "result_pct": -2.84,
+    "close_reason": "STOP"
   },
   {
     "symbol": "DOHOL.IS",
@@ -25089,7 +25093,11 @@
     "stop": 20.9543,
     "target": 21.9314,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 20.9543,
+    "exit_date": "2026-08-19",
+    "result_pct": -1.53,
+    "close_reason": "STOP"
   },
   {
     "symbol": "FROTO.IS",
@@ -25101,7 +25109,11 @@
     "stop": 78.7986,
     "target": 80.7529,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 78.7986,
+    "exit_date": "2026-08-19",
+    "result_pct": -0.82,
+    "close_reason": "STOP"
   },
   {
     "symbol": "SAHOL.IS",
@@ -25113,7 +25125,11 @@
     "stop": 88.7143,
     "target": 91.2214,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 88.7143,
+    "exit_date": "2026-08-19",
+    "result_pct": -0.93,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TCELL.IS",
@@ -25125,7 +25141,11 @@
     "stop": 103.4179,
     "target": 107.5643,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 103.4179,
+    "exit_date": "2026-08-19",
+    "result_pct": -1.32,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TOASO.IS",
@@ -25137,7 +25157,11 @@
     "stop": 266.3143,
     "target": 275.1214,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 266.3143,
+    "exit_date": "2026-08-19",
+    "result_pct": -1.09,
+    "close_reason": "STOP"
   },
   {
     "symbol": "VAKBN.IS",
@@ -25148,6 +25172,22 @@
     "vol_ratio": 2.16,
     "stop": 30.596,
     "target": 31.568,
+    "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 30.596,
+    "exit_date": "2026-08-19",
+    "result_pct": -1.05,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "OYAKC.IS",
+    "date": "2026-08-19",
+    "entry": 21.74,
+    "score": 88,
+    "rsi": 45.76,
+    "vol_ratio": 1.01,
+    "stop": 21.5171,
+    "target": 22.1857,
     "setup_type": "PULLBACK",
     "status": "open"
   }
