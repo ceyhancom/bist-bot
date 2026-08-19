@@ -25205,7 +25205,11 @@
     "stop": 68.8446,
     "target": 72.0107,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 68.8446,
+    "exit_date": "2026-08-19",
+    "result_pct": -1.51,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ASELS.IS",
@@ -25217,7 +25221,11 @@
     "stop": 391.9196,
     "target": 412.4107,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 391.9196,
+    "exit_date": "2026-08-19",
+    "result_pct": -1.71,
+    "close_reason": "STOP"
   },
   {
     "symbol": "BRSAN.IS",
@@ -25229,7 +25237,11 @@
     "stop": 656.0893,
     "target": 694.8214,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 656.0893,
+    "exit_date": "2026-08-19",
+    "result_pct": -1.93,
+    "close_reason": "STOP"
   },
   {
     "symbol": "FROTO.IS",
@@ -25241,7 +25253,11 @@
     "stop": 79.0371,
     "target": 80.8757,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 79.0371,
+    "exit_date": "2026-08-19",
+    "result_pct": -0.77,
+    "close_reason": "STOP"
   },
   {
     "symbol": "GARAN.IS",
@@ -25253,7 +25269,11 @@
     "stop": 130.4464,
     "target": 135.1071,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 130.4464,
+    "exit_date": "2026-08-19",
+    "result_pct": -1.18,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ISCTR.IS",
@@ -25265,7 +25285,11 @@
     "stop": 12.455,
     "target": 12.86,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 12.455,
+    "exit_date": "2026-08-19",
+    "result_pct": -1.07,
+    "close_reason": "STOP"
   },
   {
     "symbol": "SAHOL.IS",
@@ -25277,7 +25301,11 @@
     "stop": 89.175,
     "target": 92.1,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 89.175,
+    "exit_date": "2026-08-19",
+    "result_pct": -1.08,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TOASO.IS",
@@ -25289,7 +25317,11 @@
     "stop": 267.6339,
     "target": 278.4821,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 267.6339,
+    "exit_date": "2026-08-19",
+    "result_pct": -1.33,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TUKAS.IS",
@@ -25301,7 +25333,11 @@
     "stop": 1.9864,
     "target": 2.0571,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 1.9864,
+    "exit_date": "2026-08-19",
+    "result_pct": -1.17,
+    "close_reason": "STOP"
   },
   {
     "symbol": "VAKBN.IS",
@@ -25313,7 +25349,11 @@
     "stop": 30.6817,
     "target": 31.8166,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 30.6817,
+    "exit_date": "2026-08-19",
+    "result_pct": -1.22,
+    "close_reason": "STOP"
   },
   {
     "symbol": "YKBNK.IS",
@@ -25325,6 +25365,34 @@
     "stop": 35.0414,
     "target": 36.4172,
     "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 35.0414,
+    "exit_date": "2026-08-19",
+    "result_pct": -1.29,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "ENJSA.IS",
+    "date": "2026-08-19",
+    "entry": 110.9,
+    "score": 100,
+    "rsi": 60.64,
+    "vol_ratio": 1.04,
+    "stop": 109.084,
+    "target": 114.5321,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "PASEU.IS",
+    "date": "2026-08-19",
+    "entry": 176.8,
+    "score": 90,
+    "rsi": 71.22,
+    "vol_ratio": 4.73,
+    "stop": 171.5393,
+    "target": 187.3214,
+    "setup_type": "TREND",
     "status": "open"
   }
 ]
