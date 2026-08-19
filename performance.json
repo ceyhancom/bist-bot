@@ -25413,7 +25413,11 @@
     "stop": 1708.5714,
     "target": 1772.8571,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 1708.5714,
+    "exit_date": "2026-08-19",
+    "result_pct": -1.24,
+    "close_reason": "STOP"
   },
   {
     "symbol": "HEKTS.IS",
@@ -25425,7 +25429,11 @@
     "stop": 2.7829,
     "target": 2.9243,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 2.7829,
+    "exit_date": "2026-08-19",
+    "result_pct": -1.66,
+    "close_reason": "STOP"
   },
   {
     "symbol": "KCAER.IS",
@@ -25437,7 +25445,11 @@
     "stop": 15.9497,
     "target": 17.6306,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 15.9497,
+    "exit_date": "2026-08-19",
+    "result_pct": -3.39,
+    "close_reason": "STOP"
   },
   {
     "symbol": "MPARK.IS",
@@ -25449,7 +25461,11 @@
     "stop": 437.3214,
     "target": 452.1071,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 437.3214,
+    "exit_date": "2026-08-19",
+    "result_pct": -1.11,
+    "close_reason": "STOP"
   },
   {
     "symbol": "OYAKC.IS",
@@ -25461,7 +25477,11 @@
     "stop": 21.5836,
     "target": 22.7129,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 21.5836,
+    "exit_date": "2026-08-19",
+    "result_pct": -1.71,
+    "close_reason": "STOP"
   },
   {
     "symbol": "PGSUS.IS",
@@ -25473,7 +25493,11 @@
     "stop": 149.925,
     "target": 153.75,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 149.925,
+    "exit_date": "2026-08-19",
+    "result_pct": -0.84,
+    "close_reason": "STOP"
   },
   {
     "symbol": "RALYH.IS",
@@ -25485,7 +25509,11 @@
     "stop": 269.7857,
     "target": 292.9286,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 269.7857,
+    "exit_date": "2026-08-19",
+    "result_pct": -2.78,
+    "close_reason": "STOP"
   },
   {
     "symbol": "SOKM.IS",
@@ -25497,7 +25525,11 @@
     "stop": 55.9821,
     "target": 60.3857,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 55.9821,
+    "exit_date": "2026-08-19",
+    "result_pct": -2.56,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TCELL.IS",
@@ -25509,7 +25541,11 @@
     "stop": 103.1314,
     "target": 106.0371,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 103.1314,
+    "exit_date": "2026-08-19",
+    "result_pct": -0.93,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TTRAK.IS",
@@ -25521,7 +25557,11 @@
     "stop": 413.8926,
     "target": 438.2147,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 413.8926,
+    "exit_date": "2026-08-19",
+    "result_pct": -1.92,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TURSG.IS",
@@ -25532,6 +25572,118 @@
     "vol_ratio": 1.08,
     "stop": 6.2625,
     "target": 6.465,
+    "setup_type": "TREND",
+    "status": "closed",
+    "exit": 6.2625,
+    "exit_date": "2026-08-19",
+    "result_pct": -1.07,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "ASTOR.IS",
+    "date": "2026-08-19",
+    "entry": 334.25,
+    "score": 85,
+    "rsi": 64.42,
+    "vol_ratio": 2.7,
+    "stop": 326.7768,
+    "target": 349.1964,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "BRSAN.IS",
+    "date": "2026-08-19",
+    "entry": 679.5,
+    "score": 90,
+    "rsi": 67.32,
+    "vol_ratio": 1.0,
+    "stop": 664.3393,
+    "target": 709.8214,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "EREGL.IS",
+    "date": "2026-08-19",
+    "entry": 37.8,
+    "score": 70,
+    "rsi": 56.36,
+    "vol_ratio": 1.26,
+    "stop": 37.4079,
+    "target": 38.5843,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "HALKB.IS",
+    "date": "2026-08-19",
+    "entry": 34.4,
+    "score": 75,
+    "rsi": 69.44,
+    "vol_ratio": 1.7,
+    "stop": 34.0314,
+    "target": 35.1371,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "KTLEV.IS",
+    "date": "2026-08-19",
+    "entry": 57.5,
+    "score": 88,
+    "rsi": 76.47,
+    "vol_ratio": 1.73,
+    "stop": 54.5289,
+    "target": 63.4421,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "TAVHL.IS",
+    "date": "2026-08-19",
+    "entry": 281.5,
+    "score": 110,
+    "rsi": 71.15,
+    "vol_ratio": 1.83,
+    "stop": 278.2054,
+    "target": 288.0893,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "TTKOM.IS",
+    "date": "2026-08-19",
+    "entry": 54.1,
+    "score": 75,
+    "rsi": 58.93,
+    "vol_ratio": 2.15,
+    "stop": 53.5,
+    "target": 55.3,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "TUKAS.IS",
+    "date": "2026-08-19",
+    "entry": 2.0,
+    "score": 70,
+    "rsi": 55.56,
+    "vol_ratio": 1.92,
+    "stop": 1.9764,
+    "target": 2.0471,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "TUREX.IS",
+    "date": "2026-08-19",
+    "entry": 7.02,
+    "score": 115,
+    "rsi": 68.97,
+    "vol_ratio": 2.35,
+    "stop": 6.8196,
+    "target": 7.4207,
     "setup_type": "TREND",
     "status": "open"
   }
