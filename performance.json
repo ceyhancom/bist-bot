@@ -24885,7 +24885,11 @@
     "stop": 639.3266,
     "target": 713.3467,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 639.3266,
+    "exit_date": "2026-08-19",
+    "result_pct": -3.72,
+    "close_reason": "STOP"
   },
   {
     "symbol": "BRYAT.IS",
@@ -24897,7 +24901,11 @@
     "stop": 1701.7857,
     "target": 1756.4286,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 1701.7857,
+    "exit_date": "2026-08-19",
+    "result_pct": -1.06,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TTRAK.IS",
@@ -24909,7 +24917,11 @@
     "stop": 413.013,
     "target": 430.9741,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 413.013,
+    "exit_date": "2026-08-19",
+    "result_pct": -1.43,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TURSG.IS",
@@ -24921,7 +24933,11 @@
     "stop": 6.2561,
     "target": 6.4779,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 6.2561,
+    "exit_date": "2026-08-19",
+    "result_pct": -1.17,
+    "close_reason": "STOP"
   },
   {
     "symbol": "VAKBN.IS",
@@ -24933,6 +24949,10 @@
     "stop": 30.6274,
     "target": 31.6251,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 30.6274,
+    "exit_date": "2026-08-19",
+    "result_pct": -1.07,
+    "close_reason": "STOP"
   }
 ]
