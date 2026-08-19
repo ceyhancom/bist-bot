@@ -24965,7 +24965,11 @@
     "stop": 83.4161,
     "target": 88.7679,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 83.4161,
+    "exit_date": "2026-08-19",
+    "result_pct": -2.09,
+    "close_reason": "STOP"
   },
   {
     "symbol": "GUBRF.IS",
@@ -24977,7 +24981,11 @@
     "stop": 446.7411,
     "target": 477.5179,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 446.7411,
+    "exit_date": "2026-08-19",
+    "result_pct": -2.24,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ISCTR.IS",
@@ -24989,7 +24997,11 @@
     "stop": 12.3734,
     "target": 12.7231,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 12.3734,
+    "exit_date": "2026-08-19",
+    "result_pct": -0.93,
+    "close_reason": "STOP"
   },
   {
     "symbol": "MAGEN.IS",
@@ -25001,7 +25013,11 @@
     "stop": 34.7337,
     "target": 36.4926,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 34.7337,
+    "exit_date": "2026-08-19",
+    "result_pct": -1.66,
+    "close_reason": "STOP"
   },
   {
     "symbol": "MGROS.IS",
@@ -25013,7 +25029,11 @@
     "stop": 564.4821,
     "target": 585.5357,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 564.4821,
+    "exit_date": "2026-08-19",
+    "result_pct": -1.23,
+    "close_reason": "STOP"
   },
   {
     "symbol": "OTKAR.IS",
@@ -25025,7 +25045,11 @@
     "stop": 315.549,
     "target": 343.9019,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 315.549,
+    "exit_date": "2026-08-19",
+    "result_pct": -2.91,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TUPRS.IS",
@@ -25037,6 +25061,10 @@
     "stop": 379.0536,
     "target": 401.3929,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 379.0536,
+    "exit_date": "2026-08-19",
+    "result_pct": -1.93,
+    "close_reason": "STOP"
   }
 ]
