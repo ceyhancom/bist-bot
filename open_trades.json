@@ -20254,8 +20254,8 @@
     "exit_date": "2026-07-31",
     "result_pct": -3.32,
     "close_reason": "STOP",
-    "cooldown_until": "2026-07-31T10:29:50.764711+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "GESAN.IS",
@@ -25956,8 +25956,8 @@
     "exit_date": "2026-08-17",
     "result_pct": -0.95,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-17T13:42:34.571683+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "TTRAK.IS",
@@ -27324,8 +27324,8 @@
     "exit_date": "2026-08-18",
     "result_pct": -1.17,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-18T18:57:37.796417+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "ALARK.IS",
@@ -27558,8 +27558,8 @@
     "exit_date": "2026-08-19",
     "result_pct": -1.36,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-19T12:00:52.002125+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "DSTKF.IS",
@@ -27828,8 +27828,8 @@
     "exit_date": "2026-08-19",
     "result_pct": -0.91,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-19T12:00:54.304680+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "TOASO.IS",
@@ -27846,8 +27846,8 @@
     "exit_date": "2026-08-19",
     "result_pct": -1.3,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-19T12:00:54.452908+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "TUPRS.IS",
@@ -28062,8 +28062,8 @@
     "exit_date": "2026-08-19",
     "result_pct": -1.07,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-19T13:34:13.644311+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "AKSEN.IS",
@@ -28190,5 +28190,89 @@
     "close_reason": "STOP",
     "cooldown_until": "2026-08-19T14:42:30.541807+03:00",
     "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "BALSU.IS",
+    "date": "2026-08-19",
+    "entry": 10.84,
+    "highest_price": 10.84,
+    "stop": 10.5325,
+    "target": 11.455,
+    "trailing_stop": null,
+    "score": 80,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "DOHOL.IS",
+    "date": "2026-08-19",
+    "entry": 21.28,
+    "highest_price": 21.28,
+    "stop": 20.9543,
+    "target": 21.9314,
+    "trailing_stop": null,
+    "score": 85,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "FROTO.IS",
+    "date": "2026-08-19",
+    "entry": 79.45,
+    "highest_price": 79.45,
+    "stop": 78.7986,
+    "target": 80.7529,
+    "trailing_stop": null,
+    "score": 115,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "SAHOL.IS",
+    "date": "2026-08-19",
+    "entry": 89.55,
+    "highest_price": 89.55,
+    "stop": 88.7143,
+    "target": 91.2214,
+    "trailing_stop": null,
+    "score": 105,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "TCELL.IS",
+    "date": "2026-08-19",
+    "entry": 104.8,
+    "highest_price": 104.8,
+    "stop": 103.4179,
+    "target": 107.5643,
+    "trailing_stop": null,
+    "score": 80,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "TOASO.IS",
+    "date": "2026-08-19",
+    "entry": 269.25,
+    "highest_price": 269.25,
+    "stop": 266.3143,
+    "target": 275.1214,
+    "trailing_stop": null,
+    "score": 125,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "VAKBN.IS",
+    "date": "2026-08-19",
+    "entry": 30.92,
+    "highest_price": 30.92,
+    "stop": 30.596,
+    "target": 31.568,
+    "trailing_stop": null,
+    "score": 120,
+    "setup_type": "PULLBACK",
+    "status": "open"
   }
 ]

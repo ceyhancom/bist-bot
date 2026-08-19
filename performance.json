@@ -25066,5 +25066,89 @@
     "exit_date": "2026-08-19",
     "result_pct": -1.93,
     "close_reason": "STOP"
+  },
+  {
+    "symbol": "BALSU.IS",
+    "date": "2026-08-19",
+    "entry": 10.84,
+    "score": 80,
+    "rsi": 65.56,
+    "vol_ratio": 2.1,
+    "stop": 10.5325,
+    "target": 11.455,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "DOHOL.IS",
+    "date": "2026-08-19",
+    "entry": 21.28,
+    "score": 85,
+    "rsi": 64.63,
+    "vol_ratio": 2.18,
+    "stop": 20.9543,
+    "target": 21.9314,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "FROTO.IS",
+    "date": "2026-08-19",
+    "entry": 79.45,
+    "score": 115,
+    "rsi": 60.38,
+    "vol_ratio": 1.31,
+    "stop": 78.7986,
+    "target": 80.7529,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "SAHOL.IS",
+    "date": "2026-08-19",
+    "entry": 89.55,
+    "score": 105,
+    "rsi": 63.79,
+    "vol_ratio": 1.15,
+    "stop": 88.7143,
+    "target": 91.2214,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "TCELL.IS",
+    "date": "2026-08-19",
+    "entry": 104.8,
+    "score": 80,
+    "rsi": 69.09,
+    "vol_ratio": 1.16,
+    "stop": 103.4179,
+    "target": 107.5643,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "TOASO.IS",
+    "date": "2026-08-19",
+    "entry": 269.25,
+    "score": 125,
+    "rsi": 61.22,
+    "vol_ratio": 2.02,
+    "stop": 266.3143,
+    "target": 275.1214,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "VAKBN.IS",
+    "date": "2026-08-19",
+    "entry": 30.92,
+    "score": 120,
+    "rsi": 55.13,
+    "vol_ratio": 2.16,
+    "stop": 30.596,
+    "target": 31.568,
+    "setup_type": "PULLBACK",
+    "status": "open"
   }
 ]
