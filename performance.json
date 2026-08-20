@@ -26446,5 +26446,41 @@
     "exit_date": "2026-08-20",
     "result_pct": -1.52,
     "close_reason": "STOP"
+  },
+  {
+    "symbol": "ALARK.IS",
+    "date": "2026-08-20",
+    "entry": 109.1,
+    "score": 110,
+    "rsi": 56.97,
+    "vol_ratio": 1.72,
+    "stop": 106.34,
+    "target": 114.62,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "DOHOL.IS",
+    "date": "2026-08-20",
+    "entry": 21.24,
+    "score": 80,
+    "rsi": 66.67,
+    "vol_ratio": 1.05,
+    "stop": 20.9014,
+    "target": 21.9171,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "OYAKC.IS",
+    "date": "2026-08-20",
+    "entry": 22.36,
+    "score": 120,
+    "rsi": 71.23,
+    "vol_ratio": 1.33,
+    "stop": 22.03,
+    "target": 23.02,
+    "setup_type": "BREAKOUT",
+    "status": "open"
   }
 ]
