@@ -26457,7 +26457,11 @@
     "stop": 106.34,
     "target": 114.62,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 106.34,
+    "exit_date": "2026-08-20",
+    "result_pct": -2.53,
+    "close_reason": "STOP"
   },
   {
     "symbol": "DOHOL.IS",
@@ -26469,7 +26473,11 @@
     "stop": 20.9014,
     "target": 21.9171,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 20.9014,
+    "exit_date": "2026-08-20",
+    "result_pct": -1.59,
+    "close_reason": "STOP"
   },
   {
     "symbol": "OYAKC.IS",
@@ -26481,6 +26489,10 @@
     "stop": 22.03,
     "target": 23.02,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 22.03,
+    "exit_date": "2026-08-20",
+    "result_pct": -1.48,
+    "close_reason": "STOP"
   }
 ]
