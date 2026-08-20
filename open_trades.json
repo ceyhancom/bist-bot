@@ -25384,8 +25384,8 @@
     "exit_date": "2026-08-14",
     "result_pct": -5.22,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-14T19:18:18.807897+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "TTRAK.IS",
@@ -29675,36 +29675,66 @@
     "symbol": "BRYAT.IS",
     "date": "2026-08-20",
     "entry": 1737.0,
-    "highest_price": 1737.0,
+    "highest_price": 1759.0,
     "stop": 1708.6071,
     "target": 1793.7857,
     "trailing_stop": null,
     "score": 80,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 1708.6071,
+    "exit_date": "2026-08-20",
+    "result_pct": -1.63,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-20T12:50:27.697615+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "CANTE.IS",
     "date": "2026-08-20",
     "entry": 1.23,
-    "highest_price": 1.23,
+    "highest_price": 1.24,
     "stop": 1.2107,
     "target": 1.2686,
     "trailing_stop": null,
     "score": 100,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 1.2107,
+    "exit_date": "2026-08-20",
+    "result_pct": -1.57,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-20T12:50:27.832493+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "TUPRS.IS",
     "date": "2026-08-20",
     "entry": 393.5,
-    "highest_price": 393.5,
+    "highest_price": 402.75,
     "stop": 386.0,
     "target": 408.5,
     "trailing_stop": null,
     "score": 78,
     "setup_type": "TREND",
+    "status": "closed",
+    "exit": 386.0,
+    "exit_date": "2026-08-20",
+    "result_pct": -1.91,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-20T12:50:28.035357+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "TKFEN.IS",
+    "date": "2026-08-20",
+    "entry": 231.8,
+    "highest_price": 231.8,
+    "stop": 228.2857,
+    "target": 238.8286,
+    "trailing_stop": null,
+    "score": 120,
+    "setup_type": "PULLBACK",
     "status": "open"
   }
 ]
