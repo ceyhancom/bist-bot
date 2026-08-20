@@ -29729,12 +29729,18 @@
     "symbol": "TKFEN.IS",
     "date": "2026-08-20",
     "entry": 231.8,
-    "highest_price": 231.8,
+    "highest_price": 245.2,
     "stop": 228.2857,
     "target": 238.8286,
     "trailing_stop": null,
     "score": 120,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 228.2857,
+    "exit_date": "2026-08-20",
+    "result_pct": -1.52,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-20T13:35:10.667148+03:00",
+    "cooldown_reason": "STOP"
   }
 ]
