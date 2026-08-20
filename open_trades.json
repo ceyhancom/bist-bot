@@ -29272,8 +29272,8 @@
     "exit_date": "2026-08-20",
     "result_pct": -2.96,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-20T12:03:10.885246+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "GESAN.IS",
@@ -29868,5 +29868,17 @@
     "close_reason": "STOP",
     "cooldown_until": "2026-08-20T17:47:53.297838+03:00",
     "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "GENIL.IS",
+    "date": "2026-08-20",
+    "entry": 11.99,
+    "highest_price": 11.99,
+    "stop": 11.6289,
+    "target": 12.7121,
+    "trailing_stop": null,
+    "score": 90,
+    "setup_type": "TREND",
+    "status": "open"
   }
 ]
