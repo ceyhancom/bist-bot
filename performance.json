@@ -26521,6 +26521,34 @@
     "stop": 92.6571,
     "target": 95.9357,
     "setup_type": "WEAK",
+    "status": "closed",
+    "exit": 92.6571,
+    "exit_date": "2026-08-20",
+    "result_pct": -1.17,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "PASEU.IS",
+    "date": "2026-08-20",
+    "entry": 188.8,
+    "score": 95,
+    "rsi": 61.65,
+    "vol_ratio": 1.01,
+    "stop": 182.4786,
+    "target": 201.4429,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "RALYH.IS",
+    "date": "2026-08-20",
+    "entry": 270.25,
+    "score": 115,
+    "rsi": 56.18,
+    "vol_ratio": 1.27,
+    "stop": 262.9091,
+    "target": 284.9318,
+    "setup_type": "PULLBACK",
     "status": "open"
   }
 ]
