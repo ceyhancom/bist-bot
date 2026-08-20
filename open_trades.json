@@ -29837,24 +29837,36 @@
     "symbol": "PASEU.IS",
     "date": "2026-08-20",
     "entry": 188.8,
-    "highest_price": 188.8,
+    "highest_price": 196.7,
     "stop": 182.4786,
     "target": 201.4429,
     "trailing_stop": null,
     "score": 95,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 182.4786,
+    "exit_date": "2026-08-20",
+    "result_pct": -3.35,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-20T17:47:53.154680+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "RALYH.IS",
     "date": "2026-08-20",
     "entry": 270.25,
-    "highest_price": 270.25,
+    "highest_price": 281.0,
     "stop": 262.9091,
     "target": 284.9318,
     "trailing_stop": null,
     "score": 115,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 262.9091,
+    "exit_date": "2026-08-20",
+    "result_pct": -2.72,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-20T17:47:53.297838+03:00",
+    "cooldown_reason": "STOP"
   }
 ]

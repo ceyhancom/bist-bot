@@ -26537,7 +26537,11 @@
     "stop": 182.4786,
     "target": 201.4429,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 182.4786,
+    "exit_date": "2026-08-20",
+    "result_pct": -3.35,
+    "close_reason": "STOP"
   },
   {
     "symbol": "RALYH.IS",
@@ -26549,6 +26553,10 @@
     "stop": 262.9091,
     "target": 284.9318,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 262.9091,
+    "exit_date": "2026-08-20",
+    "result_pct": -2.72,
+    "close_reason": "STOP"
   }
 ]
