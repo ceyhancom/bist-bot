@@ -26505,6 +26505,22 @@
     "stop": 83.3196,
     "target": 88.5107,
     "setup_type": "TREND",
+    "status": "closed",
+    "exit": 83.3196,
+    "exit_date": "2026-08-20",
+    "result_pct": -2.03,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "EUPWR.IS",
+    "date": "2026-08-20",
+    "entry": 93.75,
+    "score": 85,
+    "rsi": 60.78,
+    "vol_ratio": 3.48,
+    "stop": 92.6571,
+    "target": 95.9357,
+    "setup_type": "WEAK",
     "status": "open"
   }
 ]

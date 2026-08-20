@@ -25906,8 +25906,8 @@
     "exit_date": "2026-08-17",
     "result_pct": -2.47,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-17T12:54:15.862321+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "MIATK.IS",
@@ -29801,12 +29801,30 @@
     "symbol": "GESAN.IS",
     "date": "2026-08-20",
     "entry": 85.05,
-    "highest_price": 85.05,
+    "highest_price": 87.1,
     "stop": 83.3196,
     "target": 88.5107,
     "trailing_stop": null,
     "score": 100,
     "setup_type": "TREND",
+    "status": "closed",
+    "exit": 83.3196,
+    "exit_date": "2026-08-20",
+    "result_pct": -2.03,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-20T15:59:32.399217+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "EUPWR.IS",
+    "date": "2026-08-20",
+    "entry": 93.75,
+    "highest_price": 93.75,
+    "stop": 92.6571,
+    "target": 95.9357,
+    "trailing_stop": null,
+    "score": 85,
+    "setup_type": "WEAK",
     "status": "open"
   }
 ]
