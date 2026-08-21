@@ -27054,5 +27054,113 @@
     "exit_date": "2026-08-21",
     "result_pct": -1.44,
     "close_reason": "STOP"
+  },
+  {
+    "symbol": "ALTNY.IS",
+    "date": "2026-08-21",
+    "entry": 19.05,
+    "score": 85,
+    "rsi": 57.54,
+    "vol_ratio": 1.13,
+    "stop": 18.2646,
+    "target": 20.6207,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "ASELS.IS",
+    "date": "2026-08-21",
+    "entry": 406.0,
+    "score": 78,
+    "rsi": 78.79,
+    "vol_ratio": 1.03,
+    "stop": 400.5893,
+    "target": 416.8214,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "EGEEN.IS",
+    "date": "2026-08-21",
+    "entry": 5160.0,
+    "score": 70,
+    "rsi": 51.58,
+    "vol_ratio": 1.36,
+    "stop": 5113.6607,
+    "target": 5252.6786,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "MGROS.IS",
+    "date": "2026-08-21",
+    "entry": 573.5,
+    "score": 70,
+    "rsi": 55.0,
+    "vol_ratio": 1.37,
+    "stop": 567.1786,
+    "target": 586.1429,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "MPARK.IS",
+    "date": "2026-08-21",
+    "entry": 444.5,
+    "score": 100,
+    "rsi": 51.04,
+    "vol_ratio": 1.78,
+    "stop": 439.2921,
+    "target": 454.9159,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "PETKM.IS",
+    "date": "2026-08-21",
+    "entry": 20.72,
+    "score": 100,
+    "rsi": 67.92,
+    "vol_ratio": 1.43,
+    "stop": 20.42,
+    "target": 21.32,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "TAVHL.IS",
+    "date": "2026-08-21",
+    "entry": 280.0,
+    "score": 95,
+    "rsi": 51.61,
+    "vol_ratio": 1.09,
+    "stop": 277.5357,
+    "target": 284.9286,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "TUKAS.IS",
+    "date": "2026-08-21",
+    "entry": 2.02,
+    "score": 73,
+    "rsi": 50.0,
+    "vol_ratio": 1.18,
+    "stop": 1.9994,
+    "target": 2.0611,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "VESTL.IS",
+    "date": "2026-08-21",
+    "entry": 22.2,
+    "score": 115,
+    "rsi": 62.67,
+    "vol_ratio": 7.29,
+    "stop": 21.8606,
+    "target": 22.8789,
+    "setup_type": "PULLBACK",
+    "status": "open"
   }
 ]
