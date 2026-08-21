@@ -28966,8 +28966,8 @@
     "exit_date": "2026-08-20",
     "result_pct": -1.97,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-20T11:26:19.934044+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "ISCTR.IS",
@@ -30408,5 +30408,17 @@
     "close_reason": "STOP",
     "cooldown_until": "2026-08-21T13:56:47.776999+03:00",
     "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "ENJSA.IS",
+    "date": "2026-08-21",
+    "entry": 110.4,
+    "highest_price": 110.4,
+    "stop": 108.8143,
+    "target": 113.5714,
+    "trailing_stop": null,
+    "score": 78,
+    "setup_type": "TREND",
+    "status": "open"
   }
 ]
