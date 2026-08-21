@@ -27209,7 +27209,11 @@
     "stop": 28.2823,
     "target": 28.9354,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 28.2823,
+    "exit_date": "2026-08-21",
+    "result_pct": -0.76,
+    "close_reason": "STOP"
   },
   {
     "symbol": "GUBRF.IS",
@@ -27221,7 +27225,11 @@
     "stop": 453.2223,
     "target": 518.5554,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 453.2223,
+    "exit_date": "2026-08-21",
+    "result_pct": -4.58,
+    "close_reason": "STOP"
   },
   {
     "symbol": "HEKTS.IS",
@@ -27233,7 +27241,11 @@
     "stop": 2.8089,
     "target": 2.9323,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 2.8089,
+    "exit_date": "2026-08-21",
+    "result_pct": -1.44,
+    "close_reason": "STOP"
   },
   {
     "symbol": "PASEU.IS",
@@ -27245,7 +27257,11 @@
     "stop": 193.0286,
     "target": 216.0428,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 193.0286,
+    "exit_date": "2026-08-21",
+    "result_pct": -3.82,
+    "close_reason": "STOP"
   },
   {
     "symbol": "RALYH.IS",
@@ -27257,7 +27273,11 @@
     "stop": 264.4546,
     "target": 282.5908,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 264.4546,
+    "exit_date": "2026-08-21",
+    "result_pct": -2.23,
+    "close_reason": "STOP"
   },
   {
     "symbol": "SASA.IS",
@@ -27269,7 +27289,11 @@
     "stop": 2.2739,
     "target": 2.4121,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 2.2739,
+    "exit_date": "2026-08-21",
+    "result_pct": -1.99,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TURSG.IS",
@@ -27281,6 +27305,22 @@
     "stop": 6.2863,
     "target": 6.4174,
     "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 6.2863,
+    "exit_date": "2026-08-21",
+    "result_pct": -0.69,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "EREGL.IS",
+    "date": "2026-08-21",
+    "entry": 38.18,
+    "score": 70,
+    "rsi": 66.39,
+    "vol_ratio": 1.02,
+    "stop": 37.6593,
+    "target": 39.2214,
+    "setup_type": "TREND",
     "status": "open"
   }
 ]
