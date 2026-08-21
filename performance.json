@@ -27065,7 +27065,11 @@
     "stop": 18.2646,
     "target": 20.6207,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 18.2646,
+    "exit_date": "2026-08-21",
+    "result_pct": -4.12,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ASELS.IS",
@@ -27077,7 +27081,11 @@
     "stop": 400.5893,
     "target": 416.8214,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 400.5893,
+    "exit_date": "2026-08-21",
+    "result_pct": -1.33,
+    "close_reason": "STOP"
   },
   {
     "symbol": "EGEEN.IS",
@@ -27089,7 +27097,11 @@
     "stop": 5113.6607,
     "target": 5252.6786,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 5113.6607,
+    "exit_date": "2026-08-21",
+    "result_pct": -0.9,
+    "close_reason": "STOP"
   },
   {
     "symbol": "MGROS.IS",
@@ -27101,7 +27113,11 @@
     "stop": 567.1786,
     "target": 586.1429,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 567.1786,
+    "exit_date": "2026-08-21",
+    "result_pct": -1.1,
+    "close_reason": "STOP"
   },
   {
     "symbol": "MPARK.IS",
@@ -27113,7 +27129,11 @@
     "stop": 439.2921,
     "target": 454.9159,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 439.2921,
+    "exit_date": "2026-08-21",
+    "result_pct": -1.17,
+    "close_reason": "STOP"
   },
   {
     "symbol": "PETKM.IS",
@@ -27125,7 +27145,11 @@
     "stop": 20.42,
     "target": 21.32,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 20.42,
+    "exit_date": "2026-08-21",
+    "result_pct": -1.45,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TAVHL.IS",
@@ -27137,7 +27161,11 @@
     "stop": 277.5357,
     "target": 284.9286,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 277.5357,
+    "exit_date": "2026-08-21",
+    "result_pct": -0.88,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TUKAS.IS",
@@ -27149,7 +27177,11 @@
     "stop": 1.9994,
     "target": 2.0611,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 1.9994,
+    "exit_date": "2026-08-21",
+    "result_pct": -1.02,
+    "close_reason": "STOP"
   },
   {
     "symbol": "VESTL.IS",
@@ -27160,6 +27192,94 @@
     "vol_ratio": 7.29,
     "stop": 21.8606,
     "target": 22.8789,
+    "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 21.8606,
+    "exit_date": "2026-08-21",
+    "result_pct": -1.53,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "ANSGR.IS",
+    "date": "2026-08-21",
+    "entry": 28.5,
+    "score": 125,
+    "rsi": 51.67,
+    "vol_ratio": 2.0,
+    "stop": 28.2823,
+    "target": 28.9354,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "GUBRF.IS",
+    "date": "2026-08-21",
+    "entry": 475.0,
+    "score": 105,
+    "rsi": 63.43,
+    "vol_ratio": 1.17,
+    "stop": 453.2223,
+    "target": 518.5554,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "HEKTS.IS",
+    "date": "2026-08-21",
+    "entry": 2.85,
+    "score": 115,
+    "rsi": 58.82,
+    "vol_ratio": 2.15,
+    "stop": 2.8089,
+    "target": 2.9323,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "PASEU.IS",
+    "date": "2026-08-21",
+    "entry": 200.7,
+    "score": 78,
+    "rsi": 79.12,
+    "vol_ratio": 1.36,
+    "stop": 193.0286,
+    "target": 216.0428,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "RALYH.IS",
+    "date": "2026-08-21",
+    "entry": 270.5,
+    "score": 113,
+    "rsi": 49.41,
+    "vol_ratio": 2.04,
+    "stop": 264.4546,
+    "target": 282.5908,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "SASA.IS",
+    "date": "2026-08-21",
+    "entry": 2.32,
+    "score": 75,
+    "rsi": 66.67,
+    "vol_ratio": 1.8,
+    "stop": 2.2739,
+    "target": 2.4121,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "TURSG.IS",
+    "date": "2026-08-21",
+    "entry": 6.33,
+    "score": 98,
+    "rsi": 47.06,
+    "vol_ratio": 1.41,
+    "stop": 6.2863,
+    "target": 6.4174,
     "setup_type": "PULLBACK",
     "status": "open"
   }
