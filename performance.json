@@ -26857,7 +26857,11 @@
     "stop": 18.4693,
     "target": 20.6614,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 18.4693,
+    "exit_date": "2026-08-21",
+    "result_pct": -3.81,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ANSGR.IS",
@@ -26869,7 +26873,11 @@
     "stop": 28.4241,
     "target": 29.1318,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 28.4241,
+    "exit_date": "2026-08-21",
+    "result_pct": -0.82,
+    "close_reason": "STOP"
   },
   {
     "symbol": "CIMSA.IS",
@@ -26881,7 +26889,11 @@
     "stop": 45.6457,
     "target": 47.1886,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 45.6457,
+    "exit_date": "2026-08-21",
+    "result_pct": -1.11,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ENERY.IS",
@@ -26893,7 +26905,11 @@
     "stop": 8.7797,
     "target": 9.0806,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 8.7797,
+    "exit_date": "2026-08-21",
+    "result_pct": -1.13,
+    "close_reason": "STOP"
   },
   {
     "symbol": "EREGL.IS",
@@ -26905,7 +26921,11 @@
     "stop": 37.752,
     "target": 39.156,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 37.752,
+    "exit_date": "2026-08-21",
+    "result_pct": -1.22,
+    "close_reason": "STOP"
   },
   {
     "symbol": "GENIL.IS",
@@ -26917,7 +26937,11 @@
     "stop": 11.9875,
     "target": 13.315,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 11.9875,
+    "exit_date": "2026-08-21",
+    "result_pct": -3.56,
+    "close_reason": "STOP"
   },
   {
     "symbol": "GUBRF.IS",
@@ -26929,7 +26953,11 @@
     "stop": 463.8839,
     "target": 494.9821,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 463.8839,
+    "exit_date": "2026-08-21",
+    "result_pct": -2.19,
+    "close_reason": "STOP"
   },
   {
     "symbol": "PETKM.IS",
@@ -26941,7 +26969,11 @@
     "stop": 20.38,
     "target": 21.28,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 20.38,
+    "exit_date": "2026-08-21",
+    "result_pct": -1.45,
+    "close_reason": "STOP"
   },
   {
     "symbol": "SOKM.IS",
@@ -26953,7 +26985,11 @@
     "stop": 57.5732,
     "target": 61.2536,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 57.5732,
+    "exit_date": "2026-08-21",
+    "result_pct": -2.09,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TABGD.IS",
@@ -26965,7 +27001,11 @@
     "stop": 252.5804,
     "target": 263.5893,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 252.5804,
+    "exit_date": "2026-08-21",
+    "result_pct": -1.43,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TOASO.IS",
@@ -26977,7 +27017,11 @@
     "stop": 276.7232,
     "target": 288.0536,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 276.7232,
+    "exit_date": "2026-08-21",
+    "result_pct": -1.35,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TTRAK.IS",
@@ -26989,6 +27033,10 @@
     "stop": 432.1339,
     "target": 456.4821,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 432.1339,
+    "exit_date": "2026-08-21",
+    "result_pct": -1.84,
+    "close_reason": "STOP"
   }
 ]
