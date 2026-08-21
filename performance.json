@@ -26777,6 +26777,58 @@
     "stop": 11.6436,
     "target": 12.7429,
     "setup_type": "TREND",
+    "status": "closed",
+    "exit": 11.6436,
+    "exit_date": "2026-08-21",
+    "result_pct": -3.05,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "AKBNK.IS",
+    "date": "2026-08-21",
+    "entry": 70.45,
+    "score": 115,
+    "rsi": 61.84,
+    "vol_ratio": 1.25,
+    "stop": 68.9882,
+    "target": 73.3735,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "KTLEV.IS",
+    "date": "2026-08-21",
+    "entry": 63.5,
+    "score": 80,
+    "rsi": 70.59,
+    "vol_ratio": 1.09,
+    "stop": 61.1804,
+    "target": 68.1393,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "TOASO.IS",
+    "date": "2026-08-21",
+    "entry": 278.0,
+    "score": 135,
+    "rsi": 70.0,
+    "vol_ratio": 2.1,
+    "stop": 274.5179,
+    "target": 284.9643,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "YKBNK.IS",
+    "date": "2026-08-21",
+    "entry": 35.12,
+    "score": 78,
+    "rsi": 44.58,
+    "vol_ratio": 1.04,
+    "stop": 34.7257,
+    "target": 35.9086,
+    "setup_type": "TREND",
     "status": "open"
   }
 ]

@@ -29074,8 +29074,8 @@
     "exit_date": "2026-08-20",
     "result_pct": -1.63,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-20T12:03:09.316343+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "ALARK.IS",
@@ -29560,8 +29560,8 @@
     "exit_date": "2026-08-20",
     "result_pct": -1.4,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-20T12:03:13.544049+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "TTKOM.IS",
@@ -29650,8 +29650,8 @@
     "exit_date": "2026-08-20",
     "result_pct": -1.12,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-20T12:03:14.233999+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "ZOREN.IS",
@@ -29992,8 +29992,8 @@
     "exit_date": "2026-08-21",
     "result_pct": -3.3,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-21T10:52:51.150881+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "PASEU.IS",
@@ -30107,11 +30107,65 @@
     "symbol": "GENIL.IS",
     "date": "2026-08-21",
     "entry": 12.01,
-    "highest_price": 12.01,
+    "highest_price": 12.32,
     "stop": 11.6436,
     "target": 12.7429,
     "trailing_stop": null,
     "score": 105,
+    "setup_type": "TREND",
+    "status": "closed",
+    "exit": 11.6436,
+    "exit_date": "2026-08-21",
+    "result_pct": -3.05,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-21T11:42:12.328590+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "AKBNK.IS",
+    "date": "2026-08-21",
+    "entry": 70.45,
+    "highest_price": 70.45,
+    "stop": 68.9882,
+    "target": 73.3735,
+    "trailing_stop": null,
+    "score": 115,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "KTLEV.IS",
+    "date": "2026-08-21",
+    "entry": 63.5,
+    "highest_price": 63.5,
+    "stop": 61.1804,
+    "target": 68.1393,
+    "trailing_stop": null,
+    "score": 80,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "TOASO.IS",
+    "date": "2026-08-21",
+    "entry": 278.0,
+    "highest_price": 278.0,
+    "stop": 274.5179,
+    "target": 284.9643,
+    "trailing_stop": null,
+    "score": 135,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "YKBNK.IS",
+    "date": "2026-08-21",
+    "entry": 35.12,
+    "highest_price": 35.12,
+    "stop": 34.7257,
+    "target": 35.9086,
+    "trailing_stop": null,
+    "score": 78,
     "setup_type": "TREND",
     "status": "open"
   }
