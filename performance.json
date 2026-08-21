@@ -26793,7 +26793,11 @@
     "stop": 68.9882,
     "target": 73.3735,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 68.9882,
+    "exit_date": "2026-08-21",
+    "result_pct": -2.07,
+    "close_reason": "STOP"
   },
   {
     "symbol": "KTLEV.IS",
@@ -26805,7 +26809,11 @@
     "stop": 61.1804,
     "target": 68.1393,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 61.1804,
+    "exit_date": "2026-08-21",
+    "result_pct": -3.65,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TOASO.IS",
@@ -26817,7 +26825,11 @@
     "stop": 274.5179,
     "target": 284.9643,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 274.5179,
+    "exit_date": "2026-08-21",
+    "result_pct": -1.25,
+    "close_reason": "STOP"
   },
   {
     "symbol": "YKBNK.IS",
@@ -26829,6 +26841,10 @@
     "stop": 34.7257,
     "target": 35.9086,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 34.7257,
+    "exit_date": "2026-08-21",
+    "result_pct": -1.12,
+    "close_reason": "STOP"
   }
 ]
