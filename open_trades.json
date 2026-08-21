@@ -30413,12 +30413,18 @@
     "symbol": "ENJSA.IS",
     "date": "2026-08-21",
     "entry": 110.4,
-    "highest_price": 110.4,
+    "highest_price": 112.7,
     "stop": 108.8143,
     "target": 113.5714,
     "trailing_stop": null,
     "score": 78,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 108.8143,
+    "exit_date": "2026-08-21",
+    "result_pct": -1.44,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-21T15:39:23.497853+03:00",
+    "cooldown_reason": "STOP"
   }
 ]
