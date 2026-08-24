@@ -28261,7 +28261,11 @@
     "stop": 720.75,
     "target": 772.5,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 720.75,
+    "exit_date": "2026-08-24",
+    "result_pct": -2.34,
+    "close_reason": "STOP"
   },
   {
     "symbol": "GUBRF.IS",
@@ -28273,7 +28277,11 @@
     "stop": 472.1071,
     "target": 507.7857,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 472.1071,
+    "exit_date": "2026-08-24",
+    "result_pct": -2.46,
+    "close_reason": "STOP"
   },
   {
     "symbol": "SKBNK.IS",
@@ -28285,7 +28293,11 @@
     "stop": 6.2107,
     "target": 6.4486,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 6.2107,
+    "exit_date": "2026-08-24",
+    "result_pct": -1.26,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TUREX.IS",
@@ -28297,6 +28309,46 @@
     "stop": 6.7911,
     "target": 7.2979,
     "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 6.7911,
+    "exit_date": "2026-08-24",
+    "result_pct": -2.43,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "OTKAR.IS",
+    "date": "2026-08-24",
+    "entry": 325.5,
+    "score": 105,
+    "rsi": 63.41,
+    "vol_ratio": 1.11,
+    "stop": 318.6026,
+    "target": 339.2947,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "PETKM.IS",
+    "date": "2026-08-24",
+    "entry": 20.88,
+    "score": 95,
+    "rsi": 59.38,
+    "vol_ratio": 1.11,
+    "stop": 20.1469,
+    "target": 22.3461,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "SMRTG.IS",
+    "date": "2026-08-24",
+    "entry": 10.0,
+    "score": 70,
+    "rsi": 54.88,
+    "vol_ratio": 1.49,
+    "stop": 9.8296,
+    "target": 10.3407,
+    "setup_type": "WEAK",
     "status": "open"
   }
 ]
