@@ -30780,8 +30780,8 @@
     "score": 85,
     "setup_type": "WEAK",
     "status": "open",
-    "last_price": 92.95,
-    "live_result_pct": -0.21
+    "last_price": 93.1,
+    "live_result_pct": -0.05
   },
   {
     "symbol": "ASELS.IS",
@@ -31921,48 +31921,72 @@
     "symbol": "CANTE.IS",
     "date": "2026-08-24",
     "entry": 1.23,
-    "highest_price": 1.23,
+    "highest_price": 1.24,
     "stop": 1.2107,
     "target": 1.2686,
     "trailing_stop": null,
     "score": 90,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 1.2107,
+    "exit_date": "2026-08-24",
+    "result_pct": -1.57,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-24T15:41:58.376628+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "KTLEV.IS",
     "date": "2026-08-24",
     "entry": 61.3,
-    "highest_price": 61.3,
+    "highest_price": 65.3,
     "stop": 58.2723,
     "target": 67.3555,
     "trailing_stop": null,
     "score": 83,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 58.2723,
+    "exit_date": "2026-08-24",
+    "result_pct": -4.94,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-24T15:41:58.780413+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "SKBNK.IS",
     "date": "2026-08-24",
     "entry": 6.26,
-    "highest_price": 6.26,
+    "highest_price": 6.57,
     "stop": 6.185,
     "target": 6.4099,
     "trailing_stop": null,
     "score": 90,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 6.185,
+    "exit_date": "2026-08-24",
+    "result_pct": -1.2,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-24T15:41:58.966544+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "TSKB.IS",
     "date": "2026-08-24",
     "entry": 11.16,
-    "highest_price": 11.16,
+    "highest_price": 11.34,
     "stop": 11.0261,
     "target": 11.4279,
     "trailing_stop": null,
     "score": 90,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 11.0261,
+    "exit_date": "2026-08-24",
+    "result_pct": -1.2,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-24T15:41:59.119153+03:00",
+    "cooldown_reason": "STOP"
   }
 ]
