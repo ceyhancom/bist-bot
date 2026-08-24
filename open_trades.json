@@ -29812,8 +29812,8 @@
     "exit_date": "2026-08-20",
     "result_pct": -2.03,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-20T15:59:32.399217+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "EUPWR.IS",
@@ -30780,8 +30780,8 @@
     "score": 85,
     "setup_type": "WEAK",
     "status": "open",
-    "last_price": 93.15,
-    "live_result_pct": 0.0
+    "last_price": 93.1,
+    "live_result_pct": -0.05
   },
   {
     "symbol": "ASELS.IS",
@@ -31806,8 +31806,8 @@
     "exit_date": "2026-08-24",
     "result_pct": -2.46,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-24T13:55:47.402926+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "SKBNK.IS",
@@ -31993,9 +31993,39 @@
     "symbol": "ASELS.IS",
     "date": "2026-08-24",
     "entry": 408.5,
-    "highest_price": 408.5,
+    "highest_price": 410.0,
     "stop": 402.5536,
     "target": 420.3929,
+    "trailing_stop": null,
+    "score": 130,
+    "setup_type": "BREAKOUT",
+    "status": "closed",
+    "exit": 402.5536,
+    "exit_date": "2026-08-24",
+    "result_pct": -1.46,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-24T17:47:45.256436+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "GESAN.IS",
+    "date": "2026-08-24",
+    "entry": 87.2,
+    "highest_price": 87.2,
+    "stop": 85.0913,
+    "target": 91.4174,
+    "trailing_stop": null,
+    "score": 88,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "GUBRF.IS",
+    "date": "2026-08-24",
+    "entry": 496.25,
+    "highest_price": 496.25,
+    "stop": 484.5179,
+    "target": 519.7143,
     "trailing_stop": null,
     "score": 130,
     "setup_type": "BREAKOUT",

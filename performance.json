@@ -28453,6 +28453,34 @@
     "stop": 402.5536,
     "target": 420.3929,
     "setup_type": "BREAKOUT",
+    "status": "closed",
+    "exit": 402.5536,
+    "exit_date": "2026-08-24",
+    "result_pct": -1.46,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "GESAN.IS",
+    "date": "2026-08-24",
+    "entry": 87.2,
+    "score": 88,
+    "rsi": 50.0,
+    "vol_ratio": 1.17,
+    "stop": 85.0913,
+    "target": 91.4174,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "GUBRF.IS",
+    "date": "2026-08-24",
+    "entry": 496.25,
+    "score": 130,
+    "rsi": 73.3,
+    "vol_ratio": 1.78,
+    "stop": 484.5179,
+    "target": 519.7143,
+    "setup_type": "BREAKOUT",
     "status": "open"
   }
 ]
