@@ -30780,8 +30780,8 @@
     "score": 85,
     "setup_type": "WEAK",
     "status": "open",
-    "last_price": 93.1,
-    "live_result_pct": -0.05
+    "last_price": 93.15,
+    "live_result_pct": 0.0
   },
   {
     "symbol": "ASELS.IS",
@@ -30798,8 +30798,8 @@
     "exit_date": "2026-08-24",
     "result_pct": -1.39,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-24T12:12:05.062689+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "ASTOR.IS",
@@ -31988,5 +31988,17 @@
     "close_reason": "STOP",
     "cooldown_until": "2026-08-24T15:41:59.119153+03:00",
     "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "ASELS.IS",
+    "date": "2026-08-24",
+    "entry": 408.5,
+    "highest_price": 408.5,
+    "stop": 402.5536,
+    "target": 420.3929,
+    "trailing_stop": null,
+    "score": 130,
+    "setup_type": "BREAKOUT",
+    "status": "open"
   }
 ]
