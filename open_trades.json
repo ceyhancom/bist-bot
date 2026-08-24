@@ -30780,8 +30780,8 @@
     "score": 85,
     "setup_type": "WEAK",
     "status": "open",
-    "last_price": 93.05,
-    "live_result_pct": -0.11
+    "last_price": 92.95,
+    "live_result_pct": -0.21
   },
   {
     "symbol": "ASELS.IS",
@@ -30888,8 +30888,8 @@
     "exit_date": "2026-08-24",
     "result_pct": -1.56,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-24T12:12:05.804174+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "CIMSA.IS",
@@ -31194,8 +31194,8 @@
     "exit_date": "2026-08-24",
     "result_pct": -5.35,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-24T12:12:08.366912+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "KUYAS.IS",
@@ -31464,8 +31464,8 @@
     "exit_date": "2026-08-24",
     "result_pct": -1.1,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-24T12:12:10.747598+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "TTKOM.IS",
@@ -31824,8 +31824,8 @@
     "exit_date": "2026-08-24",
     "result_pct": -1.26,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-24T13:55:47.618922+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "TUREX.IS",
@@ -31903,12 +31903,66 @@
     "symbol": "KLRHO.IS",
     "date": "2026-08-24",
     "entry": 67.65,
-    "highest_price": 67.65,
+    "highest_price": 72.65,
     "stop": 66.3857,
     "target": 70.1786,
     "trailing_stop": null,
     "score": 70,
     "setup_type": "WEAK",
+    "status": "closed",
+    "exit": 66.3857,
+    "exit_date": "2026-08-24",
+    "result_pct": -1.87,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-24T15:14:37.579178+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "CANTE.IS",
+    "date": "2026-08-24",
+    "entry": 1.23,
+    "highest_price": 1.23,
+    "stop": 1.2107,
+    "target": 1.2686,
+    "trailing_stop": null,
+    "score": 90,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "KTLEV.IS",
+    "date": "2026-08-24",
+    "entry": 61.3,
+    "highest_price": 61.3,
+    "stop": 58.2723,
+    "target": 67.3555,
+    "trailing_stop": null,
+    "score": 83,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "SKBNK.IS",
+    "date": "2026-08-24",
+    "entry": 6.26,
+    "highest_price": 6.26,
+    "stop": 6.185,
+    "target": 6.4099,
+    "trailing_stop": null,
+    "score": 90,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "TSKB.IS",
+    "date": "2026-08-24",
+    "entry": 11.16,
+    "highest_price": 11.16,
+    "stop": 11.0261,
+    "target": 11.4279,
+    "trailing_stop": null,
+    "score": 90,
+    "setup_type": "TREND",
     "status": "open"
   }
 ]

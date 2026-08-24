@@ -28373,6 +28373,58 @@
     "stop": 66.3857,
     "target": 70.1786,
     "setup_type": "WEAK",
+    "status": "closed",
+    "exit": 66.3857,
+    "exit_date": "2026-08-24",
+    "result_pct": -1.87,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "CANTE.IS",
+    "date": "2026-08-24",
+    "entry": 1.23,
+    "score": 90,
+    "rsi": 75.0,
+    "vol_ratio": 1.24,
+    "stop": 1.2107,
+    "target": 1.2686,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "KTLEV.IS",
+    "date": "2026-08-24",
+    "entry": 61.3,
+    "score": 83,
+    "rsi": 49.4,
+    "vol_ratio": 1.25,
+    "stop": 58.2723,
+    "target": 67.3555,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "SKBNK.IS",
+    "date": "2026-08-24",
+    "entry": 6.26,
+    "score": 90,
+    "rsi": 61.9,
+    "vol_ratio": 1.05,
+    "stop": 6.185,
+    "target": 6.4099,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "TSKB.IS",
+    "date": "2026-08-24",
+    "entry": 11.16,
+    "score": 90,
+    "rsi": 65.75,
+    "vol_ratio": 1.58,
+    "stop": 11.0261,
+    "target": 11.4279,
+    "setup_type": "TREND",
     "status": "open"
   }
 ]
