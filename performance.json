@@ -28149,7 +28149,11 @@
     "stop": 1730.8571,
     "target": 1791.2857,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 1730.8571,
+    "exit_date": "2026-08-24",
+    "result_pct": -1.15,
+    "close_reason": "STOP"
   },
   {
     "symbol": "DOHOL.IS",
@@ -28161,7 +28165,11 @@
     "stop": 21.4221,
     "target": 22.3157,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 21.4221,
+    "exit_date": "2026-08-24",
+    "result_pct": -1.37,
+    "close_reason": "STOP"
   },
   {
     "symbol": "EREGL.IS",
@@ -28173,7 +28181,11 @@
     "stop": 37.9493,
     "target": 39.6014,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 37.9493,
+    "exit_date": "2026-08-24",
+    "result_pct": -1.43,
+    "close_reason": "STOP"
   },
   {
     "symbol": "IEYHO.IS",
@@ -28185,7 +28197,11 @@
     "stop": 184.7841,
     "target": 196.8317,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 184.7841,
+    "exit_date": "2026-08-24",
+    "result_pct": -2.13,
+    "close_reason": "STOP"
   },
   {
     "symbol": "MPARK.IS",
@@ -28197,7 +28213,11 @@
     "stop": 440.6071,
     "target": 456.0357,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 440.6071,
+    "exit_date": "2026-08-24",
+    "result_pct": -1.15,
+    "close_reason": "STOP"
   },
   {
     "symbol": "SMRTG.IS",
@@ -28209,7 +28229,11 @@
     "stop": 9.8168,
     "target": 10.2764,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 9.8168,
+    "exit_date": "2026-08-24",
+    "result_pct": -1.54,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TABGD.IS",
@@ -28221,6 +28245,58 @@
     "stop": 254.9375,
     "target": 263.375,
     "setup_type": "TREND",
+    "status": "closed",
+    "exit": 254.9375,
+    "exit_date": "2026-08-24",
+    "result_pct": -1.09,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "BRSAN.IS",
+    "date": "2026-08-24",
+    "entry": 738.0,
+    "score": 130,
+    "rsi": 74.56,
+    "vol_ratio": 1.64,
+    "stop": 720.75,
+    "target": 772.5,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "GUBRF.IS",
+    "date": "2026-08-24",
+    "entry": 484.0,
+    "score": 78,
+    "rsi": 77.92,
+    "vol_ratio": 1.12,
+    "stop": 472.1071,
+    "target": 507.7857,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "SKBNK.IS",
+    "date": "2026-08-24",
+    "entry": 6.29,
+    "score": 80,
+    "rsi": 70.27,
+    "vol_ratio": 1.34,
+    "stop": 6.2107,
+    "target": 6.4486,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "TUREX.IS",
+    "date": "2026-08-24",
+    "entry": 6.96,
+    "score": 125,
+    "rsi": 55.17,
+    "vol_ratio": 1.65,
+    "stop": 6.7911,
+    "target": 7.2979,
+    "setup_type": "PULLBACK",
     "status": "open"
   }
 ]
