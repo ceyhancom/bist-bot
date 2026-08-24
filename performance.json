@@ -28325,7 +28325,11 @@
     "stop": 318.6026,
     "target": 339.2947,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 318.6026,
+    "exit_date": "2026-08-24",
+    "result_pct": -2.12,
+    "close_reason": "STOP"
   },
   {
     "symbol": "PETKM.IS",
@@ -28337,7 +28341,11 @@
     "stop": 20.1469,
     "target": 22.3461,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 20.1469,
+    "exit_date": "2026-08-24",
+    "result_pct": -3.51,
+    "close_reason": "STOP"
   },
   {
     "symbol": "SMRTG.IS",
@@ -28348,6 +28356,22 @@
     "vol_ratio": 1.49,
     "stop": 9.8296,
     "target": 10.3407,
+    "setup_type": "WEAK",
+    "status": "closed",
+    "exit": 9.8296,
+    "exit_date": "2026-08-24",
+    "result_pct": -1.7,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "KLRHO.IS",
+    "date": "2026-08-24",
+    "entry": 67.65,
+    "score": 70,
+    "rsi": 64.08,
+    "vol_ratio": 1.25,
+    "stop": 66.3857,
+    "target": 70.1786,
     "setup_type": "WEAK",
     "status": "open"
   }
