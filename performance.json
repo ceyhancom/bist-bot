@@ -28469,7 +28469,11 @@
     "stop": 85.0913,
     "target": 91.4174,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 85.0913,
+    "exit_date": "2026-08-24",
+    "result_pct": -2.42,
+    "close_reason": "STOP"
   },
   {
     "symbol": "GUBRF.IS",
@@ -28481,6 +28485,22 @@
     "stop": 484.5179,
     "target": 519.7143,
     "setup_type": "BREAKOUT",
+    "status": "closed",
+    "exit": 484.5179,
+    "exit_date": "2026-08-24",
+    "result_pct": -2.36,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "TUKAS.IS",
+    "date": "2026-08-24",
+    "entry": 2.04,
+    "score": 115,
+    "rsi": 54.55,
+    "vol_ratio": 1.46,
+    "stop": 2.0132,
+    "target": 2.0936,
+    "setup_type": "PULLBACK",
     "status": "open"
   }
 ]

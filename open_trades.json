@@ -31500,8 +31500,8 @@
     "exit_date": "2026-08-24",
     "result_pct": -1.7,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-24T12:12:11.073970+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "TUPRS.IS",
@@ -32011,24 +32011,48 @@
     "symbol": "GESAN.IS",
     "date": "2026-08-24",
     "entry": 87.2,
-    "highest_price": 87.2,
+    "highest_price": 89.4,
     "stop": 85.0913,
     "target": 91.4174,
     "trailing_stop": null,
     "score": 88,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 85.0913,
+    "exit_date": "2026-08-24",
+    "result_pct": -2.42,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-24T18:45:14.220605+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "GUBRF.IS",
     "date": "2026-08-24",
     "entry": 496.25,
-    "highest_price": 496.25,
+    "highest_price": 505.0,
     "stop": 484.5179,
     "target": 519.7143,
     "trailing_stop": null,
     "score": 130,
     "setup_type": "BREAKOUT",
+    "status": "closed",
+    "exit": 484.5179,
+    "exit_date": "2026-08-24",
+    "result_pct": -2.36,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-24T18:45:14.348348+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "TUKAS.IS",
+    "date": "2026-08-24",
+    "entry": 2.04,
+    "highest_price": 2.04,
+    "stop": 2.0132,
+    "target": 2.0936,
+    "trailing_stop": null,
+    "score": 115,
+    "setup_type": "PULLBACK",
     "status": "open"
   }
 ]
