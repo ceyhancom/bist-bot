@@ -28985,7 +28985,11 @@
     "stop": 45.6783,
     "target": 47.1234,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 45.6783,
+    "exit_date": "2026-08-25",
+    "result_pct": -1.04,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ENERY.IS",
@@ -28997,7 +29001,11 @@
     "stop": 8.9496,
     "target": 9.3707,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 8.9496,
+    "exit_date": "2026-08-25",
+    "result_pct": -1.54,
+    "close_reason": "STOP"
   },
   {
     "symbol": "HALKB.IS",
@@ -29009,7 +29017,11 @@
     "stop": 34.3531,
     "target": 35.6337,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 34.3531,
+    "exit_date": "2026-08-25",
+    "result_pct": -1.23,
+    "close_reason": "STOP"
   },
   {
     "symbol": "MAVI.IS",
@@ -29021,7 +29033,11 @@
     "stop": 38.068,
     "target": 39.004,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 38.068,
+    "exit_date": "2026-08-25",
+    "result_pct": -0.81,
+    "close_reason": "STOP"
   },
   {
     "symbol": "OBAMS.IS",
@@ -29033,6 +29049,10 @@
     "stop": 5.3404,
     "target": 5.8193,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 5.3404,
+    "exit_date": "2026-08-25",
+    "result_pct": -2.9,
+    "close_reason": "STOP"
   }
 ]
