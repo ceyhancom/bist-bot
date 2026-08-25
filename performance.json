@@ -28789,7 +28789,11 @@
     "stop": 397.0593,
     "target": 427.6314,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 397.0593,
+    "exit_date": "2026-08-25",
+    "result_pct": -2.5,
+    "close_reason": "STOP"
   },
   {
     "symbol": "CANTE.IS",
@@ -28801,7 +28805,11 @@
     "stop": 1.2146,
     "target": 1.2609,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 1.2146,
+    "exit_date": "2026-08-25",
+    "result_pct": -1.25,
+    "close_reason": "STOP"
   },
   {
     "symbol": "EUPWR.IS",
@@ -28813,7 +28821,11 @@
     "stop": 93.6417,
     "target": 97.5666,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 93.6417,
+    "exit_date": "2026-08-25",
+    "result_pct": -1.38,
+    "close_reason": "STOP"
   },
   {
     "symbol": "GENIL.IS",
@@ -28825,7 +28837,11 @@
     "stop": 11.7947,
     "target": 13.4606,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 11.7947,
+    "exit_date": "2026-08-25",
+    "result_pct": -4.5,
+    "close_reason": "STOP"
   },
   {
     "symbol": "GESAN.IS",
@@ -28837,7 +28853,11 @@
     "stop": 88.7625,
     "target": 93.825,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 88.7625,
+    "exit_date": "2026-08-25",
+    "result_pct": -1.87,
+    "close_reason": "STOP"
   },
   {
     "symbol": "HALKB.IS",
@@ -28849,7 +28869,11 @@
     "stop": 34.4636,
     "target": 36.0129,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 34.4636,
+    "exit_date": "2026-08-25",
+    "result_pct": -1.48,
+    "close_reason": "STOP"
   },
   {
     "symbol": "MAVI.IS",
@@ -28861,7 +28885,11 @@
     "stop": 38.0034,
     "target": 38.8931,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 38.0034,
+    "exit_date": "2026-08-25",
+    "result_pct": -0.77,
+    "close_reason": "STOP"
   },
   {
     "symbol": "OTKAR.IS",
@@ -28873,7 +28901,11 @@
     "stop": 325.6696,
     "target": 346.1607,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 325.6696,
+    "exit_date": "2026-08-25",
+    "result_pct": -2.05,
+    "close_reason": "STOP"
   },
   {
     "symbol": "OYAKC.IS",
@@ -28885,7 +28917,11 @@
     "stop": 22.143,
     "target": 24.114,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 22.143,
+    "exit_date": "2026-08-25",
+    "result_pct": -2.88,
+    "close_reason": "STOP"
   },
   {
     "symbol": "THYAO.IS",
@@ -28897,6 +28933,34 @@
     "stop": 299.3571,
     "target": 308.0357,
     "setup_type": "WEAK",
+    "status": "closed",
+    "exit": 299.3571,
+    "exit_date": "2026-08-25",
+    "result_pct": -0.96,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "TAVHL.IS",
+    "date": "2026-08-25",
+    "entry": 281.25,
+    "score": 120,
+    "rsi": 52.17,
+    "vol_ratio": 4.86,
+    "stop": 277.7786,
+    "target": 288.1929,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "ZOREN.IS",
+    "date": "2026-08-25",
+    "entry": 2.28,
+    "score": 83,
+    "rsi": 50.0,
+    "vol_ratio": 1.2,
+    "stop": 2.2577,
+    "target": 2.3246,
+    "setup_type": "PULLBACK",
     "status": "open"
   }
 ]
