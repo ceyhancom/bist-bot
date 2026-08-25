@@ -28709,7 +28709,11 @@
     "stop": 2227.3214,
     "target": 2370.3571,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 2227.3214,
+    "exit_date": "2026-08-25",
+    "result_pct": -2.1,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ENERY.IS",
@@ -28721,7 +28725,11 @@
     "stop": 8.8893,
     "target": 9.2814,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 8.8893,
+    "exit_date": "2026-08-25",
+    "result_pct": -1.45,
+    "close_reason": "STOP"
   },
   {
     "symbol": "GARAN.IS",
@@ -28733,7 +28741,11 @@
     "stop": 131.0124,
     "target": 135.7752,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 131.0124,
+    "exit_date": "2026-08-25",
+    "result_pct": -1.2,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TAVHL.IS",
@@ -28745,6 +28757,22 @@
     "stop": 276.8714,
     "target": 286.2571,
     "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 276.8714,
+    "exit_date": "2026-08-25",
+    "result_pct": -1.12,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "VAKBN.IS",
+    "date": "2026-08-25",
+    "entry": 31.5,
+    "score": 78,
+    "rsi": 77.32,
+    "vol_ratio": 1.25,
+    "stop": 31.0071,
+    "target": 32.4857,
+    "setup_type": "TREND",
     "status": "open"
   }
 ]

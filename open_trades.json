@@ -30780,8 +30780,8 @@
     "score": 85,
     "setup_type": "WEAK",
     "status": "open",
-    "last_price": 93.2,
-    "live_result_pct": 0.05
+    "last_price": 92.9,
+    "live_result_pct": -0.27
   },
   {
     "symbol": "ASELS.IS",
@@ -31590,8 +31590,8 @@
     "exit_date": "2026-08-24",
     "result_pct": -1.48,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-24T12:12:11.776413+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "VESTL.IS",
@@ -32281,48 +32281,84 @@
     "symbol": "DSTKF.IS",
     "date": "2026-08-25",
     "entry": 2275.0,
-    "highest_price": 2275.0,
+    "highest_price": 2333.0,
     "stop": 2227.3214,
     "target": 2370.3571,
     "trailing_stop": null,
     "score": 88,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 2227.3214,
+    "exit_date": "2026-08-25",
+    "result_pct": -2.1,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-25T12:37:10.747994+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "ENERY.IS",
     "date": "2026-08-25",
     "entry": 9.02,
-    "highest_price": 9.02,
+    "highest_price": 9.07,
     "stop": 8.8893,
     "target": 9.2814,
     "trailing_stop": null,
     "score": 120,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 8.8893,
+    "exit_date": "2026-08-25",
+    "result_pct": -1.45,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-25T12:37:11.075336+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "GARAN.IS",
     "date": "2026-08-25",
     "entry": 132.6,
-    "highest_price": 132.6,
+    "highest_price": 134.8,
     "stop": 131.0124,
     "target": 135.7752,
     "trailing_stop": null,
     "score": 95,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 131.0124,
+    "exit_date": "2026-08-25",
+    "result_pct": -1.2,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-25T12:37:11.417407+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "TAVHL.IS",
     "date": "2026-08-25",
     "entry": 280.0,
-    "highest_price": 280.0,
+    "highest_price": 285.0,
     "stop": 276.8714,
     "target": 286.2571,
     "trailing_stop": null,
     "score": 88,
     "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 276.8714,
+    "exit_date": "2026-08-25",
+    "result_pct": -1.12,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-25T12:37:11.733483+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "VAKBN.IS",
+    "date": "2026-08-25",
+    "entry": 31.5,
+    "highest_price": 31.5,
+    "stop": 31.0071,
+    "target": 32.4857,
+    "trailing_stop": null,
+    "score": 78,
+    "setup_type": "TREND",
     "status": "open"
   }
 ]
