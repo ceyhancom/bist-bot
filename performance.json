@@ -28693,6 +28693,58 @@
     "stop": 2.0132,
     "target": 2.0936,
     "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 2.0132,
+    "exit_date": "2026-08-25",
+    "result_pct": -1.31,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "DSTKF.IS",
+    "date": "2026-08-25",
+    "entry": 2275.0,
+    "score": 88,
+    "rsi": 77.07,
+    "vol_ratio": 1.0,
+    "stop": 2227.3214,
+    "target": 2370.3571,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "ENERY.IS",
+    "date": "2026-08-25",
+    "entry": 9.02,
+    "score": 120,
+    "rsi": 63.46,
+    "vol_ratio": 1.52,
+    "stop": 8.8893,
+    "target": 9.2814,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "GARAN.IS",
+    "date": "2026-08-25",
+    "entry": 132.6,
+    "score": 95,
+    "rsi": 58.43,
+    "vol_ratio": 1.13,
+    "stop": 131.0124,
+    "target": 135.7752,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "TAVHL.IS",
+    "date": "2026-08-25",
+    "entry": 280.0,
+    "score": 88,
+    "rsi": 47.06,
+    "vol_ratio": 1.04,
+    "stop": 276.8714,
+    "target": 286.2571,
+    "setup_type": "PULLBACK",
     "status": "open"
   }
 ]
