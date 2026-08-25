@@ -30779,9 +30779,15 @@
     "trailing_stop": null,
     "score": 85,
     "setup_type": "WEAK",
-    "status": "open",
+    "status": "closed",
     "last_price": 92.6,
-    "live_result_pct": -0.59
+    "live_result_pct": -0.59,
+    "exit": 92.4,
+    "exit_date": "2026-08-25",
+    "result_pct": -0.81,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-25T15:13:35.887345+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "ASELS.IS",
@@ -30906,8 +30912,8 @@
     "exit_date": "2026-08-24",
     "result_pct": -1.43,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-24T12:12:05.978943+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "DSTKF.IS",
@@ -31230,8 +31236,8 @@
     "exit_date": "2026-08-24",
     "result_pct": -1.39,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-24T12:12:08.631332+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "OTKAR.IS",
@@ -32310,8 +32316,8 @@
     "exit_date": "2026-08-25",
     "result_pct": -1.45,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-25T12:37:11.075336+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "GARAN.IS",
@@ -32472,8 +32478,8 @@
     "exit_date": "2026-08-25",
     "result_pct": -1.48,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-25T13:57:25.600041+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "MAVI.IS",
@@ -32490,8 +32496,8 @@
     "exit_date": "2026-08-25",
     "result_pct": -0.77,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-25T13:57:25.851822+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "OTKAR.IS",
@@ -32582,5 +32588,65 @@
     "close_reason": "STOP",
     "cooldown_until": "2026-08-25T14:36:22.773291+03:00",
     "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "CIMSA.IS",
+    "date": "2026-08-25",
+    "entry": 46.16,
+    "highest_price": 46.16,
+    "stop": 45.6783,
+    "target": 47.1234,
+    "trailing_stop": null,
+    "score": 125,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "ENERY.IS",
+    "date": "2026-08-25",
+    "entry": 9.09,
+    "highest_price": 9.09,
+    "stop": 8.9496,
+    "target": 9.3707,
+    "trailing_stop": null,
+    "score": 130,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "HALKB.IS",
+    "date": "2026-08-25",
+    "entry": 34.78,
+    "highest_price": 34.78,
+    "stop": 34.3531,
+    "target": 35.6337,
+    "trailing_stop": null,
+    "score": 85,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "MAVI.IS",
+    "date": "2026-08-25",
+    "entry": 38.38,
+    "highest_price": 38.38,
+    "stop": 38.068,
+    "target": 39.004,
+    "trailing_stop": null,
+    "score": 100,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "OBAMS.IS",
+    "date": "2026-08-25",
+    "entry": 5.5,
+    "highest_price": 5.5,
+    "stop": 5.3404,
+    "target": 5.8193,
+    "trailing_stop": null,
+    "score": 90,
+    "setup_type": "TREND",
+    "status": "open"
   }
 ]

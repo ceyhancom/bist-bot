@@ -27369,7 +27369,11 @@
     "stop": 92.4,
     "target": 94.65,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 92.4,
+    "exit_date": "2026-08-25",
+    "result_pct": -0.81,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ASELS.IS",
@@ -28970,5 +28974,65 @@
     "exit_date": "2026-08-25",
     "result_pct": -0.98,
     "close_reason": "STOP"
+  },
+  {
+    "symbol": "CIMSA.IS",
+    "date": "2026-08-25",
+    "entry": 46.16,
+    "score": 125,
+    "rsi": 62.93,
+    "vol_ratio": 1.51,
+    "stop": 45.6783,
+    "target": 47.1234,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "ENERY.IS",
+    "date": "2026-08-25",
+    "entry": 9.09,
+    "score": 130,
+    "rsi": 74.55,
+    "vol_ratio": 1.88,
+    "stop": 8.9496,
+    "target": 9.3707,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "HALKB.IS",
+    "date": "2026-08-25",
+    "entry": 34.78,
+    "score": 85,
+    "rsi": 60.0,
+    "vol_ratio": 1.06,
+    "stop": 34.3531,
+    "target": 35.6337,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "MAVI.IS",
+    "date": "2026-08-25",
+    "entry": 38.38,
+    "score": 100,
+    "rsi": 63.77,
+    "vol_ratio": 1.41,
+    "stop": 38.068,
+    "target": 39.004,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "OBAMS.IS",
+    "date": "2026-08-25",
+    "entry": 5.5,
+    "score": 90,
+    "rsi": 72.73,
+    "vol_ratio": 1.04,
+    "stop": 5.3404,
+    "target": 5.8193,
+    "setup_type": "TREND",
+    "status": "open"
   }
 ]
