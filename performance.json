@@ -28949,7 +28949,11 @@
     "stop": 277.7786,
     "target": 288.1929,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 277.7786,
+    "exit_date": "2026-08-25",
+    "result_pct": -1.23,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ZOREN.IS",
@@ -28961,6 +28965,10 @@
     "stop": 2.2577,
     "target": 2.3246,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 2.2577,
+    "exit_date": "2026-08-25",
+    "result_pct": -0.98,
+    "close_reason": "STOP"
   }
 ]
