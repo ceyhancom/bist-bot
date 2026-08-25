@@ -28517,7 +28517,11 @@
     "stop": 1753.1429,
     "target": 1872.7143,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 1753.1429,
+    "exit_date": "2026-08-25",
+    "result_pct": -2.22,
+    "close_reason": "STOP"
   },
   {
     "symbol": "CANTE.IS",
@@ -28529,7 +28533,11 @@
     "stop": 1.2137,
     "target": 1.2626,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 1.2137,
+    "exit_date": "2026-08-25",
+    "result_pct": -1.33,
+    "close_reason": "STOP"
   },
   {
     "symbol": "DOHOL.IS",
@@ -28541,7 +28549,11 @@
     "stop": 21.4179,
     "target": 22.3243,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 21.4179,
+    "exit_date": "2026-08-25",
+    "result_pct": -1.39,
+    "close_reason": "STOP"
   },
   {
     "symbol": "DSTKF.IS",
@@ -28553,7 +28565,11 @@
     "stop": 2156.5714,
     "target": 2283.8571,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 2156.5714,
+    "exit_date": "2026-08-25",
+    "result_pct": -1.93,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ENERY.IS",
@@ -28565,7 +28581,11 @@
     "stop": 8.7666,
     "target": 9.0469,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 8.7666,
+    "exit_date": "2026-08-25",
+    "result_pct": -1.05,
+    "close_reason": "STOP"
   },
   {
     "symbol": "GARAN.IS",
@@ -28577,7 +28597,11 @@
     "stop": 130.4257,
     "target": 134.8486,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 130.4257,
+    "exit_date": "2026-08-25",
+    "result_pct": -1.12,
+    "close_reason": "STOP"
   },
   {
     "symbol": "GESAN.IS",
@@ -28589,7 +28613,11 @@
     "stop": 87.4946,
     "target": 91.5607,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 87.4946,
+    "exit_date": "2026-08-25",
+    "result_pct": -1.53,
+    "close_reason": "STOP"
   },
   {
     "symbol": "HALKB.IS",
@@ -28601,7 +28629,11 @@
     "stop": 34.1869,
     "target": 35.2463,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 34.1869,
+    "exit_date": "2026-08-25",
+    "result_pct": -1.02,
+    "close_reason": "STOP"
   },
   {
     "symbol": "HEKTS.IS",
@@ -28613,7 +28645,11 @@
     "stop": 2.8586,
     "target": 3.0129,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 2.8586,
+    "exit_date": "2026-08-25",
+    "result_pct": -1.77,
+    "close_reason": "STOP"
   },
   {
     "symbol": "IEYHO.IS",
@@ -28625,7 +28661,11 @@
     "stop": 188.8107,
     "target": 192.3786,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 188.8107,
+    "exit_date": "2026-08-25",
+    "result_pct": -0.63,
+    "close_reason": "STOP"
   },
   {
     "symbol": "PASEU.IS",
@@ -28637,6 +28677,22 @@
     "stop": 205.2357,
     "target": 231.5286,
     "setup_type": "BREAKOUT",
+    "status": "closed",
+    "exit": 205.2357,
+    "exit_date": "2026-08-25",
+    "result_pct": -4.1,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "TUKAS.IS",
+    "date": "2026-08-25",
+    "entry": 2.04,
+    "score": 130,
+    "rsi": 54.55,
+    "vol_ratio": 2.45,
+    "stop": 2.0132,
+    "target": 2.0936,
+    "setup_type": "PULLBACK",
     "status": "open"
   }
 ]
