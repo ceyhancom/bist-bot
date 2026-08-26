@@ -29198,5 +29198,77 @@
     "exit_date": "2026-08-26",
     "result_pct": -0.98,
     "close_reason": "STOP"
+  },
+  {
+    "symbol": "CIMSA.IS",
+    "date": "2026-08-26",
+    "entry": 47.26,
+    "score": 90,
+    "rsi": 71.22,
+    "vol_ratio": 1.13,
+    "stop": 46.6386,
+    "target": 48.5029,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "ENJSA.IS",
+    "date": "2026-08-26",
+    "entry": 113.0,
+    "score": 125,
+    "rsi": 59.34,
+    "vol_ratio": 1.59,
+    "stop": 110.0975,
+    "target": 118.8051,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "FROTO.IS",
+    "date": "2026-08-26",
+    "entry": 80.45,
+    "score": 70,
+    "rsi": 51.72,
+    "vol_ratio": 1.2,
+    "stop": 79.6036,
+    "target": 82.1429,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "HEKTS.IS",
+    "date": "2026-08-26",
+    "entry": 2.87,
+    "score": 70,
+    "rsi": 37.5,
+    "vol_ratio": 1.53,
+    "stop": 2.825,
+    "target": 2.96,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "KTLEV.IS",
+    "date": "2026-08-26",
+    "entry": 61.85,
+    "score": 95,
+    "rsi": 53.11,
+    "vol_ratio": 1.06,
+    "stop": 58.4964,
+    "target": 68.5571,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "VAKBN.IS",
+    "date": "2026-08-26",
+    "entry": 32.72,
+    "score": 78,
+    "rsi": 75.59,
+    "vol_ratio": 1.5,
+    "stop": 32.1586,
+    "target": 33.8429,
+    "setup_type": "TREND",
+    "status": "open"
   }
 ]
