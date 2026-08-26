@@ -33180,8 +33180,8 @@
     "exit_date": "2026-08-26",
     "result_pct": -1.46,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-26T14:03:30.467197+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "KRDMD.IS",
@@ -33506,5 +33506,17 @@
     "close_reason": "STOP",
     "cooldown_until": "2026-08-26T14:46:51.290398+03:00",
     "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "IEYHO.IS",
+    "date": "2026-08-26",
+    "entry": 190.4,
+    "highest_price": 190.4,
+    "stop": 187.9254,
+    "target": 195.3492,
+    "trailing_stop": null,
+    "score": 80,
+    "setup_type": "PULLBACK",
+    "status": "open"
   }
 ]
