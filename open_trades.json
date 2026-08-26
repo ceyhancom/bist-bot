@@ -33493,12 +33493,18 @@
     "symbol": "GENIL.IS",
     "date": "2026-08-26",
     "entry": 12.18,
-    "highest_price": 12.18,
+    "highest_price": 12.66,
     "stop": 11.8417,
     "target": 12.8565,
     "trailing_stop": null,
     "score": 130,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 11.8417,
+    "exit_date": "2026-08-26",
+    "result_pct": -2.78,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-08-26T14:46:51.290398+03:00",
+    "cooldown_reason": "STOP"
   }
 ]
