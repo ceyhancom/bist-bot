@@ -29065,7 +29065,11 @@
     "stop": 411.1696,
     "target": 424.9107,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 411.1696,
+    "exit_date": "2026-08-26",
+    "result_pct": -1.1,
+    "close_reason": "STOP"
   },
   {
     "symbol": "CWENE.IS",
@@ -29077,7 +29081,11 @@
     "stop": 36.2929,
     "target": 38.4143,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 36.2929,
+    "exit_date": "2026-08-26",
+    "result_pct": -1.91,
+    "close_reason": "STOP"
   },
   {
     "symbol": "DSTKF.IS",
@@ -29089,7 +29097,11 @@
     "stop": 2229.4643,
     "target": 2429.0714,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 2229.4643,
+    "exit_date": "2026-08-26",
+    "result_pct": -2.9,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ENKAI.IS",
@@ -29101,7 +29113,11 @@
     "stop": 83.0014,
     "target": 85.0971,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 83.0014,
+    "exit_date": "2026-08-26",
+    "result_pct": -0.83,
+    "close_reason": "STOP"
   },
   {
     "symbol": "EUPWR.IS",
@@ -29113,7 +29129,11 @@
     "stop": 93.5196,
     "target": 98.7107,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 93.5196,
+    "exit_date": "2026-08-26",
+    "result_pct": -1.82,
+    "close_reason": "STOP"
   },
   {
     "symbol": "GESAN.IS",
@@ -29125,7 +29145,11 @@
     "stop": 87.7911,
     "target": 93.3679,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 87.7911,
+    "exit_date": "2026-08-26",
+    "result_pct": -2.07,
+    "close_reason": "STOP"
   },
   {
     "symbol": "KTLEV.IS",
@@ -29137,7 +29161,11 @@
     "stop": 57.7557,
     "target": 65.6886,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 57.7557,
+    "exit_date": "2026-08-26",
+    "result_pct": -4.38,
+    "close_reason": "STOP"
   },
   {
     "symbol": "YKBNK.IS",
@@ -29149,7 +29177,11 @@
     "stop": 35.8454,
     "target": 38.2892,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 35.8454,
+    "exit_date": "2026-08-26",
+    "result_pct": -2.22,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ZOREN.IS",
@@ -29161,6 +29193,10 @@
     "stop": 2.2577,
     "target": 2.3246,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 2.2577,
+    "exit_date": "2026-08-26",
+    "result_pct": -0.98,
+    "close_reason": "STOP"
   }
 ]
