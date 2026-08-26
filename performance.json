@@ -29209,7 +29209,11 @@
     "stop": 46.6386,
     "target": 48.5029,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 46.6386,
+    "exit_date": "2026-08-26",
+    "result_pct": -1.31,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ENJSA.IS",
@@ -29221,7 +29225,11 @@
     "stop": 110.0975,
     "target": 118.8051,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 110.0975,
+    "exit_date": "2026-08-26",
+    "result_pct": -2.57,
+    "close_reason": "STOP"
   },
   {
     "symbol": "FROTO.IS",
@@ -29233,7 +29241,11 @@
     "stop": 79.6036,
     "target": 82.1429,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 79.6036,
+    "exit_date": "2026-08-26",
+    "result_pct": -1.05,
+    "close_reason": "STOP"
   },
   {
     "symbol": "HEKTS.IS",
@@ -29245,7 +29257,11 @@
     "stop": 2.825,
     "target": 2.96,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 2.825,
+    "exit_date": "2026-08-26",
+    "result_pct": -1.57,
+    "close_reason": "STOP"
   },
   {
     "symbol": "KTLEV.IS",
@@ -29257,7 +29273,11 @@
     "stop": 58.4964,
     "target": 68.5571,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 58.4964,
+    "exit_date": "2026-08-26",
+    "result_pct": -5.42,
+    "close_reason": "STOP"
   },
   {
     "symbol": "VAKBN.IS",
@@ -29269,6 +29289,22 @@
     "stop": 32.1586,
     "target": 33.8429,
     "setup_type": "TREND",
+    "status": "closed",
+    "exit": 32.1586,
+    "exit_date": "2026-08-26",
+    "result_pct": -1.72,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "EREGL.IS",
+    "date": "2026-08-26",
+    "entry": 38.76,
+    "score": 115,
+    "rsi": 59.78,
+    "vol_ratio": 5.07,
+    "stop": 38.1777,
+    "target": 39.9245,
+    "setup_type": "PULLBACK",
     "status": "open"
   }
 ]
