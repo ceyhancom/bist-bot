@@ -31218,8 +31218,8 @@
     "exit_date": "2026-08-24",
     "result_pct": -2.07,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-24T12:12:08.499262+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "OBAMS.IS",
@@ -33524,5 +33524,17 @@
     "close_reason": "STOP",
     "cooldown_until": "2026-08-26T16:39:25.621658+03:00",
     "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "KUYAS.IS",
+    "date": "2026-08-31",
+    "entry": 64.45,
+    "highest_price": 64.45,
+    "stop": 62.7657,
+    "target": 67.8186,
+    "trailing_stop": null,
+    "score": 95,
+    "setup_type": "PULLBACK",
+    "status": "open"
   }
 ]
