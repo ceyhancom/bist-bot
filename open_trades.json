@@ -28210,8 +28210,8 @@
     "exit_date": "2026-08-19",
     "result_pct": -2.84,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-19T15:46:04.982075+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "DOHOL.IS",
@@ -32640,8 +32640,8 @@
     "exit_date": "2026-08-25",
     "result_pct": -1.23,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-25T15:42:08.084847+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "MAVI.IS",
@@ -33542,5 +33542,29 @@
     "close_reason": "STOP",
     "cooldown_until": "2026-09-01T13:52:35.411265+03:00",
     "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "BALSU.IS",
+    "date": "2026-09-02",
+    "entry": 10.01,
+    "highest_price": 10.01,
+    "stop": 9.71,
+    "target": 10.61,
+    "trailing_stop": null,
+    "score": 85,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "HALKB.IS",
+    "date": "2026-09-02",
+    "entry": 42.92,
+    "highest_price": 42.92,
+    "stop": 41.57,
+    "target": 45.62,
+    "trailing_stop": null,
+    "score": 110,
+    "setup_type": "TREND",
+    "status": "open"
   }
 ]
