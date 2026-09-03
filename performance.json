@@ -29865,7 +29865,11 @@
     "stop": 32.2029,
     "target": 35.6743,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 32.2029,
+    "exit_date": "2026-09-03",
+    "result_pct": -3.47,
+    "close_reason": "STOP"
   },
   {
     "symbol": "MIATK.IS",
@@ -29877,6 +29881,22 @@
     "stop": 27.9764,
     "target": 29.8471,
     "setup_type": "WEAK",
+    "status": "closed",
+    "exit": 27.9764,
+    "exit_date": "2026-09-03",
+    "result_pct": -2.18,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "ENJSA.IS",
+    "date": "2026-09-03",
+    "entry": 114.2,
+    "score": 93,
+    "rsi": 75.76,
+    "vol_ratio": 2.08,
+    "stop": 112.6357,
+    "target": 117.3286,
+    "setup_type": "TREND",
     "status": "open"
   }
 ]
