@@ -29833,7 +29833,11 @@
     "stop": 9.71,
     "target": 10.61,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 9.71,
+    "exit_date": "2026-09-03",
+    "result_pct": -3.0,
+    "close_reason": "STOP"
   },
   {
     "symbol": "HALKB.IS",
@@ -29845,6 +29849,34 @@
     "stop": 41.57,
     "target": 45.62,
     "setup_type": "TREND",
+    "status": "closed",
+    "exit": 41.57,
+    "exit_date": "2026-09-03",
+    "result_pct": -3.15,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "MAGEN.IS",
+    "date": "2026-09-03",
+    "entry": 33.36,
+    "score": 85,
+    "rsi": 51.09,
+    "vol_ratio": 2.28,
+    "stop": 32.2029,
+    "target": 35.6743,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "MIATK.IS",
+    "date": "2026-09-03",
+    "entry": 28.6,
+    "score": 80,
+    "rsi": 65.41,
+    "vol_ratio": 5.05,
+    "stop": 27.9764,
+    "target": 29.8471,
+    "setup_type": "WEAK",
     "status": "open"
   }
 ]

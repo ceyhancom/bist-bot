@@ -25924,8 +25924,8 @@
     "exit_date": "2026-08-17",
     "result_pct": -2.96,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-17T12:54:15.979186+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "PETKM.IS",
@@ -28138,8 +28138,8 @@
     "exit_date": "2026-08-19",
     "result_pct": -1.66,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-19T14:42:29.362362+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "MGROS.IS",
@@ -33547,24 +33547,60 @@
     "symbol": "BALSU.IS",
     "date": "2026-09-02",
     "entry": 10.01,
-    "highest_price": 10.01,
+    "highest_price": 10.81,
     "stop": 9.71,
     "target": 10.61,
+    "trailing_stop": null,
+    "score": 85,
+    "setup_type": "WEAK",
+    "status": "closed",
+    "exit": 9.71,
+    "exit_date": "2026-09-03",
+    "result_pct": -3.0,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-09-03T15:17:33.167953+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "HALKB.IS",
+    "date": "2026-09-02",
+    "entry": 42.92,
+    "highest_price": 49.44,
+    "stop": 41.57,
+    "target": 45.62,
+    "trailing_stop": 48.4512,
+    "score": 110,
+    "setup_type": "TREND",
+    "status": "closed",
+    "exit": 41.57,
+    "exit_date": "2026-09-03",
+    "result_pct": -3.15,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-09-03T15:17:33.360803+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "MAGEN.IS",
+    "date": "2026-09-03",
+    "entry": 33.36,
+    "highest_price": 33.36,
+    "stop": 32.2029,
+    "target": 35.6743,
     "trailing_stop": null,
     "score": 85,
     "setup_type": "WEAK",
     "status": "open"
   },
   {
-    "symbol": "HALKB.IS",
-    "date": "2026-09-02",
-    "entry": 42.92,
-    "highest_price": 42.92,
-    "stop": 41.57,
-    "target": 45.62,
+    "symbol": "MIATK.IS",
+    "date": "2026-09-03",
+    "entry": 28.6,
+    "highest_price": 28.6,
+    "stop": 27.9764,
+    "target": 29.8471,
     "trailing_stop": null,
-    "score": 110,
-    "setup_type": "TREND",
+    "score": 80,
+    "setup_type": "WEAK",
     "status": "open"
   }
 ]
