@@ -29897,6 +29897,10 @@
     "stop": 112.6357,
     "target": 117.3286,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 112.6357,
+    "exit_date": "2026-09-04",
+    "result_pct": -1.37,
+    "close_reason": "STOP"
   }
 ]
