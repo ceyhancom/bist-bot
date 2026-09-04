@@ -29902,5 +29902,41 @@
     "exit_date": "2026-09-04",
     "result_pct": -1.37,
     "close_reason": "STOP"
+  },
+  {
+    "symbol": "TUKAS.IS",
+    "date": "2026-09-04",
+    "entry": 2.0,
+    "score": 85,
+    "rsi": 62.5,
+    "vol_ratio": 3.52,
+    "stop": 1.9679,
+    "target": 2.0643,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "VESTL.IS",
+    "date": "2026-09-04",
+    "entry": 26.24,
+    "score": 105,
+    "rsi": 53.25,
+    "vol_ratio": 1.28,
+    "stop": 25.235,
+    "target": 28.25,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "ZOREN.IS",
+    "date": "2026-09-04",
+    "entry": 2.37,
+    "score": 108,
+    "rsi": 45.45,
+    "vol_ratio": 1.55,
+    "stop": 2.3236,
+    "target": 2.4627,
+    "setup_type": "PULLBACK",
+    "status": "open"
   }
 ]

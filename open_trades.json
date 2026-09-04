@@ -31614,8 +31614,8 @@
     "exit_date": "2026-08-24",
     "result_pct": -2.49,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-24T12:12:11.911977+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "YKBNK.IS",
@@ -32838,8 +32838,8 @@
     "exit_date": "2026-08-26",
     "result_pct": -0.98,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-26T10:47:18.884001+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "CIMSA.IS",
@@ -33432,8 +33432,8 @@
     "exit_date": "2026-08-26",
     "result_pct": -1.05,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-26T14:03:34.112252+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "VAKBN.IS",
@@ -33632,5 +33632,41 @@
     "close_reason": "STOP",
     "cooldown_until": "2026-09-04T14:51:30.818484+03:00",
     "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "TUKAS.IS",
+    "date": "2026-09-04",
+    "entry": 2.0,
+    "highest_price": 2.0,
+    "stop": 1.9679,
+    "target": 2.0643,
+    "trailing_stop": null,
+    "score": 85,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "VESTL.IS",
+    "date": "2026-09-04",
+    "entry": 26.24,
+    "highest_price": 26.24,
+    "stop": 25.235,
+    "target": 28.25,
+    "trailing_stop": null,
+    "score": 105,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "ZOREN.IS",
+    "date": "2026-09-04",
+    "entry": 2.37,
+    "highest_price": 2.37,
+    "stop": 2.3236,
+    "target": 2.4627,
+    "trailing_stop": null,
+    "score": 108,
+    "setup_type": "PULLBACK",
+    "status": "open"
   }
 ]
