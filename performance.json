@@ -29913,7 +29913,11 @@
     "stop": 1.9679,
     "target": 2.0643,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 1.9679,
+    "exit_date": "2026-09-07",
+    "result_pct": -1.61,
+    "close_reason": "STOP"
   },
   {
     "symbol": "VESTL.IS",
@@ -29925,7 +29929,11 @@
     "stop": 25.235,
     "target": 28.25,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 25.235,
+    "exit_date": "2026-09-07",
+    "result_pct": -3.83,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ZOREN.IS",
@@ -29937,6 +29945,10 @@
     "stop": 2.3236,
     "target": 2.4627,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 2.3236,
+    "exit_date": "2026-09-07",
+    "result_pct": -1.96,
+    "close_reason": "STOP"
   }
 ]
