@@ -29950,5 +29950,41 @@
     "exit_date": "2026-09-07",
     "result_pct": -1.96,
     "close_reason": "STOP"
+  },
+  {
+    "symbol": "CCOLA.IS",
+    "date": "2026-09-08",
+    "entry": 79.65,
+    "score": 100,
+    "rsi": 63.79,
+    "vol_ratio": 1.19,
+    "stop": 78.5662,
+    "target": 81.8175,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "CWENE.IS",
+    "date": "2026-09-08",
+    "entry": 31.88,
+    "score": 70,
+    "rsi": 62.79,
+    "vol_ratio": 1.97,
+    "stop": 31.325,
+    "target": 32.99,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "SKBNK.IS",
+    "date": "2026-09-08",
+    "entry": 6.44,
+    "score": 80,
+    "rsi": 72.73,
+    "vol_ratio": 2.05,
+    "stop": 6.3511,
+    "target": 6.6179,
+    "setup_type": "WEAK",
+    "status": "open"
   }
 ]

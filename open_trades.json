@@ -27364,8 +27364,8 @@
     "exit_date": "2026-08-18",
     "result_pct": -1.5,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-18T19:32:54.822573+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "DSTKF.IS",
@@ -32712,8 +32712,8 @@
     "exit_date": "2026-08-26",
     "result_pct": -1.91,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-26T10:47:17.020361+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "DSTKF.IS",
@@ -33270,8 +33270,8 @@
     "exit_date": "2026-08-26",
     "result_pct": -1.95,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-26T14:03:31.764861+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "SOKM.IS",
@@ -33686,5 +33686,41 @@
     "close_reason": "STOP",
     "cooldown_until": "2026-09-07T15:35:54.371535+03:00",
     "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "CCOLA.IS",
+    "date": "2026-09-08",
+    "entry": 79.65,
+    "highest_price": 79.65,
+    "stop": 78.5662,
+    "target": 81.8175,
+    "trailing_stop": null,
+    "score": 100,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "CWENE.IS",
+    "date": "2026-09-08",
+    "entry": 31.88,
+    "highest_price": 31.88,
+    "stop": 31.325,
+    "target": 32.99,
+    "trailing_stop": null,
+    "score": 70,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "SKBNK.IS",
+    "date": "2026-09-08",
+    "entry": 6.44,
+    "highest_price": 6.44,
+    "stop": 6.3511,
+    "target": 6.6179,
+    "trailing_stop": null,
+    "score": 80,
+    "setup_type": "WEAK",
+    "status": "open"
   }
 ]
