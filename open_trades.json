@@ -30442,8 +30442,8 @@
     "exit_date": "2026-08-21",
     "result_pct": -4.12,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-21T18:59:14.526250+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "ASELS.IS",
@@ -30948,8 +30948,8 @@
     "exit_date": "2026-08-24",
     "result_pct": -1.24,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-24T12:12:06.251368+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "EKGYO.IS",
@@ -32082,8 +32082,8 @@
     "exit_date": "2026-08-25",
     "result_pct": -2.22,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-25T10:45:25.153220+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "CANTE.IS",
@@ -33990,8 +33990,8 @@
     "exit_date": "2026-09-09",
     "result_pct": -1.16,
     "close_reason": "STOP",
-    "cooldown_until": "2026-09-09T10:27:42.481705+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "ENKAI.IS",
@@ -34080,8 +34080,8 @@
     "exit_date": "2026-09-09",
     "result_pct": -1.63,
     "close_reason": "STOP",
-    "cooldown_until": "2026-09-09T10:27:43.140164+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "IEYHO.IS",
@@ -34206,8 +34206,8 @@
     "exit_date": "2026-09-09",
     "result_pct": -1.12,
     "close_reason": "STOP",
-    "cooldown_until": "2026-09-09T10:27:43.974693+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "ODAS.IS",
@@ -34555,12 +34555,90 @@
     "symbol": "MIATK.IS",
     "date": "2026-09-09",
     "entry": 39.28,
-    "highest_price": 39.28,
+    "highest_price": 40.26,
     "stop": 38.1271,
     "target": 41.5857,
     "trailing_stop": null,
     "score": 135,
     "setup_type": "BREAKOUT",
+    "status": "closed",
+    "exit": 38.1271,
+    "exit_date": "2026-09-10",
+    "result_pct": -2.94,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-09-10T12:09:20.648749+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "ALTNY.IS",
+    "date": "2026-09-10",
+    "entry": 18.28,
+    "highest_price": 18.28,
+    "stop": 17.6489,
+    "target": 19.5421,
+    "trailing_stop": null,
+    "score": 90,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "BRYAT.IS",
+    "date": "2026-09-10",
+    "entry": 1705.0,
+    "highest_price": 1705.0,
+    "stop": 1683.806,
+    "target": 1747.3879,
+    "trailing_stop": null,
+    "score": 110,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "EGEEN.IS",
+    "date": "2026-09-10",
+    "entry": 5802.5,
+    "highest_price": 5802.5,
+    "stop": 5598.9286,
+    "target": 6209.6429,
+    "trailing_stop": null,
+    "score": 95,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "ENJSA.IS",
+    "date": "2026-09-10",
+    "entry": 116.8,
+    "highest_price": 116.8,
+    "stop": 115.0172,
+    "target": 120.3656,
+    "trailing_stop": null,
+    "score": 90,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "GUBRF.IS",
+    "date": "2026-09-10",
+    "entry": 511.5,
+    "highest_price": 511.5,
+    "stop": 496.0734,
+    "target": 542.3532,
+    "trailing_stop": null,
+    "score": 90,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "MPARK.IS",
+    "date": "2026-09-10",
+    "entry": 434.0,
+    "highest_price": 434.0,
+    "stop": 428.1339,
+    "target": 445.7321,
+    "trailing_stop": null,
+    "score": 90,
+    "setup_type": "TREND",
     "status": "open"
   }
 ]

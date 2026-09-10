@@ -30729,6 +30729,82 @@
     "stop": 38.1271,
     "target": 41.5857,
     "setup_type": "BREAKOUT",
+    "status": "closed",
+    "exit": 38.1271,
+    "exit_date": "2026-09-10",
+    "result_pct": -2.94,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "ALTNY.IS",
+    "date": "2026-09-10",
+    "entry": 18.28,
+    "score": 90,
+    "rsi": 65.68,
+    "vol_ratio": 1.4,
+    "stop": 17.6489,
+    "target": 19.5421,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "BRYAT.IS",
+    "date": "2026-09-10",
+    "entry": 1705.0,
+    "score": 110,
+    "rsi": 53.62,
+    "vol_ratio": 1.29,
+    "stop": 1683.806,
+    "target": 1747.3879,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "EGEEN.IS",
+    "date": "2026-09-10",
+    "entry": 5802.5,
+    "score": 95,
+    "rsi": 63.66,
+    "vol_ratio": 1.01,
+    "stop": 5598.9286,
+    "target": 6209.6429,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "ENJSA.IS",
+    "date": "2026-09-10",
+    "entry": 116.8,
+    "score": 90,
+    "rsi": 59.46,
+    "vol_ratio": 1.49,
+    "stop": 115.0172,
+    "target": 120.3656,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "GUBRF.IS",
+    "date": "2026-09-10",
+    "entry": 511.5,
+    "score": 90,
+    "rsi": 61.7,
+    "vol_ratio": 1.36,
+    "stop": 496.0734,
+    "target": 542.3532,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "MPARK.IS",
+    "date": "2026-09-10",
+    "entry": 434.0,
+    "score": 90,
+    "rsi": 67.52,
+    "vol_ratio": 1.04,
+    "stop": 428.1339,
+    "target": 445.7321,
+    "setup_type": "TREND",
     "status": "open"
   }
 ]
