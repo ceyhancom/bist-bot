@@ -30745,7 +30745,11 @@
     "stop": 17.6489,
     "target": 19.5421,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 17.6489,
+    "exit_date": "2026-09-10",
+    "result_pct": -3.45,
+    "close_reason": "STOP"
   },
   {
     "symbol": "BRYAT.IS",
@@ -30757,7 +30761,11 @@
     "stop": 1683.806,
     "target": 1747.3879,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 1683.806,
+    "exit_date": "2026-09-10",
+    "result_pct": -1.24,
+    "close_reason": "STOP"
   },
   {
     "symbol": "EGEEN.IS",
@@ -30769,7 +30777,11 @@
     "stop": 5598.9286,
     "target": 6209.6429,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 5598.9286,
+    "exit_date": "2026-09-10",
+    "result_pct": -3.51,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ENJSA.IS",
@@ -30781,7 +30793,11 @@
     "stop": 115.0172,
     "target": 120.3656,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 115.0172,
+    "exit_date": "2026-09-10",
+    "result_pct": -1.53,
+    "close_reason": "STOP"
   },
   {
     "symbol": "GUBRF.IS",
@@ -30793,7 +30809,11 @@
     "stop": 496.0734,
     "target": 542.3532,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 496.0734,
+    "exit_date": "2026-09-10",
+    "result_pct": -3.02,
+    "close_reason": "STOP"
   },
   {
     "symbol": "MPARK.IS",
@@ -30805,6 +30825,10 @@
     "stop": 428.1339,
     "target": 445.7321,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 428.1339,
+    "exit_date": "2026-09-10",
+    "result_pct": -1.35,
+    "close_reason": "STOP"
   }
 ]
