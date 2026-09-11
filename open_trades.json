@@ -32676,8 +32676,8 @@
     "exit_date": "2026-08-25",
     "result_pct": -2.9,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-25T15:42:08.881108+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "BIMAS.IS",
@@ -33450,8 +33450,8 @@
     "exit_date": "2026-08-26",
     "result_pct": -1.79,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-26T14:03:34.369829+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "YEOTK.IS",
@@ -33810,8 +33810,8 @@
     "exit_date": "2026-09-09",
     "result_pct": -1.32,
     "close_reason": "STOP",
-    "cooldown_until": "2026-09-09T10:27:41.138458+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "ANSGR.IS",
@@ -34350,8 +34350,8 @@
     "exit_date": "2026-09-09",
     "result_pct": -1.23,
     "close_reason": "STOP",
-    "cooldown_until": "2026-09-09T10:27:45.126691+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "TKFEN.IS",
@@ -34386,8 +34386,8 @@
     "exit_date": "2026-09-09",
     "result_pct": -1.36,
     "close_reason": "STOP",
-    "cooldown_until": "2026-09-09T10:27:45.395480+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "TTRAK.IS",
@@ -34676,5 +34676,65 @@
     "close_reason": "STOP",
     "cooldown_until": "2026-09-10T16:47:30.312630+03:00",
     "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "ALARK.IS",
+    "date": "2026-09-11",
+    "entry": 117.4,
+    "highest_price": 117.4,
+    "stop": 115.6964,
+    "target": 120.8071,
+    "trailing_stop": null,
+    "score": 78,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "OBAMS.IS",
+    "date": "2026-09-11",
+    "entry": 5.48,
+    "highest_price": 5.48,
+    "stop": 5.3728,
+    "target": 5.6943,
+    "trailing_stop": null,
+    "score": 95,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "TCELL.IS",
+    "date": "2026-09-11",
+    "entry": 102.6,
+    "highest_price": 102.6,
+    "stop": 100.1832,
+    "target": 107.4337,
+    "trailing_stop": null,
+    "score": 108,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "TTKOM.IS",
+    "date": "2026-09-11",
+    "entry": 57.15,
+    "highest_price": 57.15,
+    "stop": 56.1643,
+    "target": 59.1214,
+    "trailing_stop": null,
+    "score": 135,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "VAKBN.IS",
+    "date": "2026-09-11",
+    "entry": 35.36,
+    "highest_price": 35.36,
+    "stop": 34.505,
+    "target": 37.07,
+    "trailing_stop": null,
+    "score": 95,
+    "setup_type": "TREND",
+    "status": "open"
   }
 ]

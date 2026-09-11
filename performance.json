@@ -30830,5 +30830,65 @@
     "exit_date": "2026-09-10",
     "result_pct": -1.35,
     "close_reason": "STOP"
+  },
+  {
+    "symbol": "ALARK.IS",
+    "date": "2026-09-11",
+    "entry": 117.4,
+    "score": 78,
+    "rsi": 40.68,
+    "vol_ratio": 1.04,
+    "stop": 115.6964,
+    "target": 120.8071,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "OBAMS.IS",
+    "date": "2026-09-11",
+    "entry": 5.48,
+    "score": 95,
+    "rsi": 52.63,
+    "vol_ratio": 1.11,
+    "stop": 5.3728,
+    "target": 5.6943,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "TCELL.IS",
+    "date": "2026-09-11",
+    "entry": 102.6,
+    "score": 108,
+    "rsi": 47.06,
+    "vol_ratio": 1.53,
+    "stop": 100.1832,
+    "target": 107.4337,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "TTKOM.IS",
+    "date": "2026-09-11",
+    "entry": 57.15,
+    "score": 135,
+    "rsi": 66.67,
+    "vol_ratio": 2.87,
+    "stop": 56.1643,
+    "target": 59.1214,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "VAKBN.IS",
+    "date": "2026-09-11",
+    "entry": 35.36,
+    "score": 95,
+    "rsi": 37.02,
+    "vol_ratio": 2.39,
+    "stop": 34.505,
+    "target": 37.07,
+    "setup_type": "TREND",
+    "status": "open"
   }
 ]
