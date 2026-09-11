@@ -31560,8 +31560,8 @@
     "exit_date": "2026-08-24",
     "result_pct": -0.79,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-24T12:12:11.493185+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "ULKER.IS",
@@ -33936,8 +33936,8 @@
     "exit_date": "2026-09-09",
     "result_pct": -0.91,
     "close_reason": "STOP",
-    "cooldown_until": "2026-09-09T10:27:42.089352+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "DSTKF.IS",
@@ -34188,8 +34188,8 @@
     "exit_date": "2026-09-09",
     "result_pct": -1.15,
     "close_reason": "STOP",
-    "cooldown_until": "2026-09-09T10:27:43.870037+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "MPARK.IS",
@@ -34332,8 +34332,8 @@
     "exit_date": "2026-09-09",
     "result_pct": -1.28,
     "close_reason": "STOP",
-    "cooldown_until": "2026-09-09T10:27:44.996378+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "TCELL.IS",
@@ -34681,60 +34681,138 @@
     "symbol": "ALARK.IS",
     "date": "2026-09-11",
     "entry": 117.4,
-    "highest_price": 117.4,
+    "highest_price": 119.9,
     "stop": 115.6964,
     "target": 120.8071,
     "trailing_stop": null,
     "score": 78,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 115.6964,
+    "exit_date": "2026-09-11",
+    "result_pct": -1.45,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-09-11T16:42:15.365670+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "OBAMS.IS",
     "date": "2026-09-11",
     "entry": 5.48,
-    "highest_price": 5.48,
+    "highest_price": 5.53,
     "stop": 5.3728,
     "target": 5.6943,
     "trailing_stop": null,
     "score": 95,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 5.3728,
+    "exit_date": "2026-09-11",
+    "result_pct": -1.96,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-09-11T16:42:15.492439+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "TCELL.IS",
     "date": "2026-09-11",
     "entry": 102.6,
-    "highest_price": 102.6,
+    "highest_price": 103.8,
     "stop": 100.1832,
     "target": 107.4337,
     "trailing_stop": null,
     "score": 108,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 100.1832,
+    "exit_date": "2026-09-11",
+    "result_pct": -2.36,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-09-11T16:42:15.643654+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "TTKOM.IS",
     "date": "2026-09-11",
     "entry": 57.15,
-    "highest_price": 57.15,
+    "highest_price": 59.95,
     "stop": 56.1643,
     "target": 59.1214,
-    "trailing_stop": null,
+    "trailing_stop": 58.751,
     "score": 135,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 56.1643,
+    "exit_date": "2026-09-11",
+    "result_pct": -1.72,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-09-11T16:42:15.765091+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "VAKBN.IS",
     "date": "2026-09-11",
     "entry": 35.36,
-    "highest_price": 35.36,
+    "highest_price": 37.42,
     "stop": 34.505,
     "target": 37.07,
-    "trailing_stop": null,
+    "trailing_stop": 36.6716,
     "score": 95,
     "setup_type": "TREND",
+    "status": "closed",
+    "exit": 34.505,
+    "exit_date": "2026-09-11",
+    "result_pct": -2.42,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-09-11T16:42:15.931372+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "DOAS.IS",
+    "date": "2026-09-11",
+    "entry": 164.8,
+    "highest_price": 164.8,
+    "stop": 163.7114,
+    "target": 166.9771,
+    "trailing_stop": null,
+    "score": 100,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "MGROS.IS",
+    "date": "2026-09-11",
+    "entry": 546.0,
+    "highest_price": 546.0,
+    "stop": 539.0893,
+    "target": 559.8214,
+    "trailing_stop": null,
+    "score": 95,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "TAVHL.IS",
+    "date": "2026-09-11",
+    "entry": 274.0,
+    "highest_price": 274.0,
+    "stop": 271.5571,
+    "target": 278.8857,
+    "trailing_stop": null,
+    "score": 88,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "TURSG.IS",
+    "date": "2026-09-11",
+    "entry": 6.19,
+    "highest_price": 6.19,
+    "stop": 6.1146,
+    "target": 6.3409,
+    "trailing_stop": null,
+    "score": 105,
+    "setup_type": "PULLBACK",
     "status": "open"
   }
 ]

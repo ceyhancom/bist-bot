@@ -30841,7 +30841,11 @@
     "stop": 115.6964,
     "target": 120.8071,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 115.6964,
+    "exit_date": "2026-09-11",
+    "result_pct": -1.45,
+    "close_reason": "STOP"
   },
   {
     "symbol": "OBAMS.IS",
@@ -30853,7 +30857,11 @@
     "stop": 5.3728,
     "target": 5.6943,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 5.3728,
+    "exit_date": "2026-09-11",
+    "result_pct": -1.96,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TCELL.IS",
@@ -30865,7 +30873,11 @@
     "stop": 100.1832,
     "target": 107.4337,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 100.1832,
+    "exit_date": "2026-09-11",
+    "result_pct": -2.36,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TTKOM.IS",
@@ -30877,7 +30889,11 @@
     "stop": 56.1643,
     "target": 59.1214,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 56.1643,
+    "exit_date": "2026-09-11",
+    "result_pct": -1.72,
+    "close_reason": "STOP"
   },
   {
     "symbol": "VAKBN.IS",
@@ -30889,6 +30905,58 @@
     "stop": 34.505,
     "target": 37.07,
     "setup_type": "TREND",
+    "status": "closed",
+    "exit": 34.505,
+    "exit_date": "2026-09-11",
+    "result_pct": -2.42,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "DOAS.IS",
+    "date": "2026-09-11",
+    "entry": 164.8,
+    "score": 100,
+    "rsi": 50.91,
+    "vol_ratio": 1.07,
+    "stop": 163.7114,
+    "target": 166.9771,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "MGROS.IS",
+    "date": "2026-09-11",
+    "entry": 546.0,
+    "score": 95,
+    "rsi": 73.02,
+    "vol_ratio": 1.13,
+    "stop": 539.0893,
+    "target": 559.8214,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "TAVHL.IS",
+    "date": "2026-09-11",
+    "entry": 274.0,
+    "score": 88,
+    "rsi": 47.73,
+    "vol_ratio": 1.15,
+    "stop": 271.5571,
+    "target": 278.8857,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "TURSG.IS",
+    "date": "2026-09-11",
+    "entry": 6.19,
+    "score": 105,
+    "rsi": 51.22,
+    "vol_ratio": 1.03,
+    "stop": 6.1146,
+    "target": 6.3409,
+    "setup_type": "PULLBACK",
     "status": "open"
   }
 ]
