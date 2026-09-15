@@ -30985,7 +30985,11 @@
     "stop": 34.1515,
     "target": 35.917,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 34.1515,
+    "exit_date": "2026-09-15",
+    "result_pct": -1.69,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ANSGR.IS",
@@ -30997,7 +31001,11 @@
     "stop": 26.384,
     "target": 27.032,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 26.384,
+    "exit_date": "2026-09-15",
+    "result_pct": -0.81,
+    "close_reason": "STOP"
   },
   {
     "symbol": "CCOLA.IS",
@@ -31009,7 +31017,11 @@
     "stop": 79.5786,
     "target": 82.3429,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 79.5786,
+    "exit_date": "2026-09-15",
+    "result_pct": -1.14,
+    "close_reason": "STOP"
   },
   {
     "symbol": "OBAMS.IS",
@@ -31021,7 +31033,11 @@
     "stop": 5.4014,
     "target": 5.6372,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 5.4014,
+    "exit_date": "2026-09-15",
+    "result_pct": -1.43,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TSKB.IS",
@@ -31033,6 +31049,58 @@
     "stop": 11.3479,
     "target": 11.8043,
     "setup_type": "TREND",
+    "status": "closed",
+    "exit": 11.3479,
+    "exit_date": "2026-09-15",
+    "result_pct": -1.32,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "EGEEN.IS",
+    "date": "2026-09-15",
+    "entry": 6792.5,
+    "score": 118,
+    "rsi": 75.07,
+    "vol_ratio": 1.76,
+    "stop": 6492.5,
+    "target": 7392.5,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "GRSEL.IS",
+    "date": "2026-09-15",
+    "entry": 302.75,
+    "score": 85,
+    "rsi": 61.86,
+    "vol_ratio": 2.09,
+    "stop": 298.3839,
+    "target": 311.4821,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "TKFEN.IS",
+    "date": "2026-09-15",
+    "entry": 222.6,
+    "score": 125,
+    "rsi": 64.34,
+    "vol_ratio": 1.32,
+    "stop": 218.1321,
+    "target": 231.5357,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "ZOREN.IS",
+    "date": "2026-09-15",
+    "entry": 2.49,
+    "score": 105,
+    "rsi": 51.52,
+    "vol_ratio": 1.02,
+    "stop": 2.4404,
+    "target": 2.5893,
+    "setup_type": "PULLBACK",
     "status": "open"
   }
 ]
