@@ -31065,7 +31065,11 @@
     "stop": 6492.5,
     "target": 7392.5,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 6492.5,
+    "exit_date": "2026-09-15",
+    "result_pct": -4.42,
+    "close_reason": "STOP"
   },
   {
     "symbol": "GRSEL.IS",
@@ -31077,7 +31081,11 @@
     "stop": 298.3839,
     "target": 311.4821,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 298.3839,
+    "exit_date": "2026-09-15",
+    "result_pct": -1.44,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TKFEN.IS",
@@ -31089,7 +31097,11 @@
     "stop": 218.1321,
     "target": 231.5357,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 218.1321,
+    "exit_date": "2026-09-15",
+    "result_pct": -2.01,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ZOREN.IS",
@@ -31101,6 +31113,10 @@
     "stop": 2.4404,
     "target": 2.5893,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 2.4404,
+    "exit_date": "2026-09-15",
+    "result_pct": -1.99,
+    "close_reason": "STOP"
   }
 ]
