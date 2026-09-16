@@ -31129,7 +31129,11 @@
     "stop": 26.7143,
     "target": 27.6914,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 26.7143,
+    "exit_date": "2026-09-16",
+    "result_pct": -1.2,
+    "close_reason": "STOP"
   },
   {
     "symbol": "RALYH.IS",
@@ -31141,7 +31145,11 @@
     "stop": 262.1518,
     "target": 283.4464,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 262.1518,
+    "exit_date": "2026-09-16",
+    "result_pct": -2.64,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TKFEN.IS",
@@ -31153,6 +31161,10 @@
     "stop": 223.9286,
     "target": 243.3428,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 223.9286,
+    "exit_date": "2026-09-16",
+    "result_pct": -2.81,
+    "close_reason": "STOP"
   }
 ]
