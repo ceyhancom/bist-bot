@@ -31118,5 +31118,41 @@
     "exit_date": "2026-09-15",
     "result_pct": -1.99,
     "close_reason": "STOP"
+  },
+  {
+    "symbol": "ANSGR.IS",
+    "date": "2026-09-16",
+    "entry": 27.04,
+    "score": 80,
+    "rsi": 66.18,
+    "vol_ratio": 1.45,
+    "stop": 26.7143,
+    "target": 27.6914,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "RALYH.IS",
+    "date": "2026-09-16",
+    "entry": 269.25,
+    "score": 80,
+    "rsi": 54.09,
+    "vol_ratio": 1.83,
+    "stop": 262.1518,
+    "target": 283.4464,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "TKFEN.IS",
+    "date": "2026-09-16",
+    "entry": 230.4,
+    "score": 90,
+    "rsi": 73.43,
+    "vol_ratio": 1.35,
+    "stop": 223.9286,
+    "target": 243.3428,
+    "setup_type": "TREND",
+    "status": "open"
   }
 ]

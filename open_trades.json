@@ -34260,8 +34260,8 @@
     "exit_date": "2026-09-09",
     "result_pct": -3.04,
     "close_reason": "STOP",
-    "cooldown_until": "2026-09-09T10:27:44.373769+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "REEDR.IS",
@@ -34872,8 +34872,8 @@
     "exit_date": "2026-09-15",
     "result_pct": -0.81,
     "close_reason": "STOP",
-    "cooldown_until": "2026-09-15T11:05:59.659226+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "CCOLA.IS",
@@ -34980,8 +34980,8 @@
     "exit_date": "2026-09-15",
     "result_pct": -2.01,
     "close_reason": "STOP",
-    "cooldown_until": "2026-09-15T16:33:48.787175+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "ZOREN.IS",
@@ -35000,5 +35000,41 @@
     "close_reason": "STOP",
     "cooldown_until": "2026-09-15T16:33:48.897619+03:00",
     "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "ANSGR.IS",
+    "date": "2026-09-16",
+    "entry": 27.04,
+    "highest_price": 27.04,
+    "stop": 26.7143,
+    "target": 27.6914,
+    "trailing_stop": null,
+    "score": 80,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "RALYH.IS",
+    "date": "2026-09-16",
+    "entry": 269.25,
+    "highest_price": 269.25,
+    "stop": 262.1518,
+    "target": 283.4464,
+    "trailing_stop": null,
+    "score": 80,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "TKFEN.IS",
+    "date": "2026-09-16",
+    "entry": 230.4,
+    "highest_price": 230.4,
+    "stop": 223.9286,
+    "target": 243.3428,
+    "trailing_stop": null,
+    "score": 90,
+    "setup_type": "TREND",
+    "status": "open"
   }
 ]
