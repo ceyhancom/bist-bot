@@ -33738,8 +33738,8 @@
     "exit_date": "2026-09-08",
     "result_pct": -1.38,
     "close_reason": "STOP",
-    "cooldown_until": "2026-09-08T18:59:03.829338+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "AEFES.IS",
@@ -33882,8 +33882,8 @@
     "exit_date": "2026-09-09",
     "result_pct": -2.31,
     "close_reason": "STOP",
-    "cooldown_until": "2026-09-09T10:27:41.705051+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "CANTE.IS",
@@ -34548,8 +34548,8 @@
     "exit_date": "2026-09-09",
     "result_pct": -1.36,
     "close_reason": "STOP",
-    "cooldown_until": "2026-09-09T15:40:50.300294+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "MIATK.IS",
@@ -34602,8 +34602,8 @@
     "exit_date": "2026-09-10",
     "result_pct": -1.24,
     "close_reason": "STOP",
-    "cooldown_until": "2026-09-10T16:47:29.545497+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "EGEEN.IS",
@@ -34638,8 +34638,8 @@
     "exit_date": "2026-09-10",
     "result_pct": -1.53,
     "close_reason": "STOP",
-    "cooldown_until": "2026-09-10T16:47:29.978054+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "GUBRF.IS",
@@ -34656,8 +34656,8 @@
     "exit_date": "2026-09-10",
     "result_pct": -3.02,
     "close_reason": "STOP",
-    "cooldown_until": "2026-09-10T16:47:30.141612+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "MPARK.IS",
@@ -34674,8 +34674,8 @@
     "exit_date": "2026-09-10",
     "result_pct": -1.35,
     "close_reason": "STOP",
-    "cooldown_until": "2026-09-10T16:47:30.312630+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "ALARK.IS",
@@ -35059,12 +35059,102 @@
     "symbol": "ENERY.IS",
     "date": "2026-09-17",
     "entry": 11.9,
-    "highest_price": 11.9,
+    "highest_price": 13.26,
     "stop": 11.1468,
     "target": 13.4064,
-    "trailing_stop": null,
+    "trailing_stop": 12.9948,
     "score": 70,
     "setup_type": "TREND",
+    "status": "closed",
+    "exit": 11.1468,
+    "exit_date": "2026-09-17",
+    "result_pct": -6.33,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-09-17T19:18:26.598555+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "BRSAN.IS",
+    "date": "2026-09-17",
+    "entry": 665.0,
+    "highest_price": 665.0,
+    "stop": 645.7143,
+    "target": 703.5714,
+    "trailing_stop": null,
+    "score": 75,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "BRYAT.IS",
+    "date": "2026-09-17",
+    "entry": 1616.0,
+    "highest_price": 1616.0,
+    "stop": 1577.75,
+    "target": 1692.5,
+    "trailing_stop": null,
+    "score": 70,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "ENJSA.IS",
+    "date": "2026-09-17",
+    "entry": 111.3,
+    "highest_price": 111.3,
+    "stop": 107.6464,
+    "target": 118.6071,
+    "trailing_stop": null,
+    "score": 80,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "GUBRF.IS",
+    "date": "2026-09-17",
+    "entry": 428.5,
+    "highest_price": 428.5,
+    "stop": 413.2857,
+    "target": 458.9286,
+    "trailing_stop": null,
+    "score": 85,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "MPARK.IS",
+    "date": "2026-09-17",
+    "entry": 436.25,
+    "highest_price": 436.25,
+    "stop": 421.9464,
+    "target": 464.8571,
+    "trailing_stop": null,
+    "score": 70,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "SKBNK.IS",
+    "date": "2026-09-17",
+    "entry": 6.27,
+    "highest_price": 6.27,
+    "stop": 6.1114,
+    "target": 6.5871,
+    "trailing_stop": null,
+    "score": 70,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "TABGD.IS",
+    "date": "2026-09-17",
+    "entry": 232.3,
+    "highest_price": 232.3,
+    "stop": 226.6429,
+    "target": 243.6143,
+    "trailing_stop": null,
+    "score": 70,
+    "setup_type": "WEAK",
     "status": "open"
   }
 ]
