@@ -33972,8 +33972,8 @@
     "exit_date": "2026-09-09",
     "result_pct": -1.72,
     "close_reason": "STOP",
-    "cooldown_until": "2026-09-09T10:27:42.357102+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "ENJSA.IS",
@@ -35054,5 +35054,17 @@
     "close_reason": "STOP",
     "cooldown_until": "2026-09-16T15:50:33.321333+03:00",
     "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "ENERY.IS",
+    "date": "2026-09-17",
+    "entry": 11.9,
+    "highest_price": 11.9,
+    "stop": 11.1468,
+    "target": 13.4064,
+    "trailing_stop": null,
+    "score": 70,
+    "setup_type": "TREND",
+    "status": "open"
   }
 ]
