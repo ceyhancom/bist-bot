@@ -33144,8 +33144,8 @@
     "exit_date": "2026-08-26",
     "result_pct": -2.56,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-26T14:03:29.949380+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "GARAN.IS",
@@ -35198,5 +35198,17 @@
     "close_reason": "STOP",
     "cooldown_until": "2026-09-18T13:36:23.232896+03:00",
     "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "EUPWR.IS",
+    "date": "2026-09-18",
+    "entry": 60.65,
+    "highest_price": 60.65,
+    "stop": 58.1268,
+    "target": 65.6964,
+    "trailing_stop": null,
+    "score": 85,
+    "setup_type": "WEAK",
+    "status": "open"
   }
 ]
