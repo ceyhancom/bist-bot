@@ -31193,7 +31193,11 @@
     "stop": 645.7143,
     "target": 703.5714,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 645.7143,
+    "exit_date": "2026-09-18",
+    "result_pct": -2.9,
+    "close_reason": "STOP"
   },
   {
     "symbol": "BRYAT.IS",
@@ -31205,7 +31209,11 @@
     "stop": 1577.75,
     "target": 1692.5,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 1577.75,
+    "exit_date": "2026-09-18",
+    "result_pct": -2.37,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ENJSA.IS",
@@ -31217,7 +31225,11 @@
     "stop": 107.6464,
     "target": 118.6071,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 107.6464,
+    "exit_date": "2026-09-18",
+    "result_pct": -3.28,
+    "close_reason": "STOP"
   },
   {
     "symbol": "GUBRF.IS",
@@ -31229,7 +31241,11 @@
     "stop": 413.2857,
     "target": 458.9286,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 413.2857,
+    "exit_date": "2026-09-18",
+    "result_pct": -3.55,
+    "close_reason": "STOP"
   },
   {
     "symbol": "MPARK.IS",
@@ -31241,7 +31257,11 @@
     "stop": 421.9464,
     "target": 464.8571,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 421.9464,
+    "exit_date": "2026-09-18",
+    "result_pct": -3.28,
+    "close_reason": "STOP"
   },
   {
     "symbol": "SKBNK.IS",
@@ -31253,7 +31273,11 @@
     "stop": 6.1114,
     "target": 6.5871,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 6.1114,
+    "exit_date": "2026-09-18",
+    "result_pct": -2.53,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TABGD.IS",
@@ -31265,6 +31289,10 @@
     "stop": 226.6429,
     "target": 243.6143,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 226.6429,
+    "exit_date": "2026-09-18",
+    "result_pct": -2.44,
+    "close_reason": "STOP"
   }
 ]
