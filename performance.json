@@ -31321,7 +31321,11 @@
     "stop": 371.5268,
     "target": 393.9464,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 371.5268,
+    "exit_date": "2026-09-22",
+    "result_pct": -1.97,
+    "close_reason": "STOP"
   },
   {
     "symbol": "CCOLA.IS",
@@ -31333,7 +31337,11 @@
     "stop": 78.6029,
     "target": 81.8943,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 78.6029,
+    "exit_date": "2026-09-22",
+    "result_pct": -1.38,
+    "close_reason": "STOP"
   },
   {
     "symbol": "EKGYO.IS",
@@ -31345,7 +31353,11 @@
     "stop": 18.6629,
     "target": 19.8843,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 18.6629,
+    "exit_date": "2026-09-22",
+    "result_pct": -2.13,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ENKAI.IS",
@@ -31357,7 +31369,11 @@
     "stop": 84.6536,
     "target": 89.4429,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 84.6536,
+    "exit_date": "2026-09-22",
+    "result_pct": -1.85,
+    "close_reason": "STOP"
   },
   {
     "symbol": "MGROS.IS",
@@ -31369,7 +31385,11 @@
     "stop": 527.3929,
     "target": 550.2143,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 527.3929,
+    "exit_date": "2026-09-22",
+    "result_pct": -1.42,
+    "close_reason": "STOP"
   },
   {
     "symbol": "SAHOL.IS",
@@ -31381,7 +31401,11 @@
     "stop": 87.6768,
     "target": 92.9964,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 87.6768,
+    "exit_date": "2026-09-22",
+    "result_pct": -1.98,
+    "close_reason": "STOP"
   },
   {
     "symbol": "SISE.IS",
@@ -31393,7 +31417,11 @@
     "stop": 39.4936,
     "target": 41.8529,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 39.4936,
+    "exit_date": "2026-09-22",
+    "result_pct": -1.95,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TUKAS.IS",
@@ -31405,7 +31433,11 @@
     "stop": 1.9264,
     "target": 2.1771,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 1.9264,
+    "exit_date": "2026-09-22",
+    "result_pct": -4.16,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TUPRS.IS",
@@ -31417,7 +31449,11 @@
     "stop": 411.1755,
     "target": 447.399,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 411.1755,
+    "exit_date": "2026-09-22",
+    "result_pct": -2.85,
+    "close_reason": "STOP"
   },
   {
     "symbol": "YKBNK.IS",
@@ -31429,6 +31465,10 @@
     "stop": 35.3582,
     "target": 38.1235,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 35.3582,
+    "exit_date": "2026-09-22",
+    "result_pct": -2.54,
+    "close_reason": "STOP"
   }
 ]
