@@ -31481,6 +31481,10 @@
     "stop": 664.6237,
     "target": 692.7526,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 664.6237,
+    "exit_date": "2026-09-24",
+    "result_pct": -1.39,
+    "close_reason": "STOP"
   }
 ]
