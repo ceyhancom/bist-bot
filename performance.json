@@ -31486,5 +31486,29 @@
     "exit_date": "2026-09-24",
     "result_pct": -1.39,
     "close_reason": "STOP"
+  },
+  {
+    "symbol": "ENERY.IS",
+    "date": "2026-09-25",
+    "entry": 13.02,
+    "score": 115,
+    "rsi": 58.0,
+    "vol_ratio": 1.2,
+    "stop": 12.631,
+    "target": 13.7981,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "TTKOM.IS",
+    "date": "2026-09-25",
+    "entry": 54.35,
+    "score": 88,
+    "rsi": 50.0,
+    "vol_ratio": 1.25,
+    "stop": 53.7029,
+    "target": 55.6443,
+    "setup_type": "PULLBACK",
+    "status": "open"
   }
 ]

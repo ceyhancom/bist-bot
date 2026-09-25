@@ -34746,8 +34746,8 @@
     "exit_date": "2026-09-11",
     "result_pct": -1.72,
     "close_reason": "STOP",
-    "cooldown_until": "2026-09-11T16:42:15.765091+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "VAKBN.IS",
@@ -35070,8 +35070,8 @@
     "exit_date": "2026-09-17",
     "result_pct": -6.33,
     "close_reason": "STOP",
-    "cooldown_until": "2026-09-17T19:18:26.598555+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "BRSAN.IS",
@@ -35414,5 +35414,29 @@
     "close_reason": "STOP",
     "cooldown_until": "2026-09-24T15:35:11.191561+03:00",
     "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "ENERY.IS",
+    "date": "2026-09-25",
+    "entry": 13.02,
+    "highest_price": 13.02,
+    "stop": 12.631,
+    "target": 13.7981,
+    "trailing_stop": null,
+    "score": 115,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "TTKOM.IS",
+    "date": "2026-09-25",
+    "entry": 54.35,
+    "highest_price": 54.35,
+    "stop": 53.7029,
+    "target": 55.6443,
+    "trailing_stop": null,
+    "score": 88,
+    "setup_type": "PULLBACK",
+    "status": "open"
   }
 ]
