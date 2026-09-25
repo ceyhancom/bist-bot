@@ -31497,7 +31497,11 @@
     "stop": 12.631,
     "target": 13.7981,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 12.631,
+    "exit_date": "2026-09-25",
+    "result_pct": -2.99,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TTKOM.IS",
@@ -31509,6 +31513,22 @@
     "stop": 53.7029,
     "target": 55.6443,
     "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 53.7029,
+    "exit_date": "2026-09-25",
+    "result_pct": -1.19,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "ODAS.IS",
+    "date": "2026-09-25",
+    "entry": 7.14,
+    "score": 93,
+    "rsi": 76.6,
+    "vol_ratio": 1.22,
+    "stop": 6.9954,
+    "target": 7.4293,
+    "setup_type": "BREAKOUT",
     "status": "open"
   }
 ]
