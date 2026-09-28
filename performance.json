@@ -31529,6 +31529,22 @@
     "stop": 6.9954,
     "target": 7.4293,
     "setup_type": "BREAKOUT",
+    "status": "closed",
+    "exit": 6.9954,
+    "exit_date": "2026-09-28",
+    "result_pct": -2.03,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "HALKB.IS",
+    "date": "2026-09-28",
+    "entry": 45.1,
+    "score": 70,
+    "rsi": 53.01,
+    "vol_ratio": 1.66,
+    "stop": 44.1314,
+    "target": 47.0371,
+    "setup_type": "WEAK",
     "status": "open"
   }
 ]

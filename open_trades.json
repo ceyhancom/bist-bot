@@ -33576,8 +33576,8 @@
     "exit_date": "2026-09-03",
     "result_pct": -3.15,
     "close_reason": "STOP",
-    "cooldown_until": "2026-09-03T15:17:33.360803+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "MAGEN.IS",
@@ -35455,12 +35455,30 @@
     "symbol": "ODAS.IS",
     "date": "2026-09-25",
     "entry": 7.14,
-    "highest_price": 7.14,
+    "highest_price": 7.17,
     "stop": 6.9954,
     "target": 7.4293,
     "trailing_stop": null,
     "score": 93,
     "setup_type": "BREAKOUT",
+    "status": "closed",
+    "exit": 6.9954,
+    "exit_date": "2026-09-28",
+    "result_pct": -2.03,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-09-28T19:02:12.210350+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "HALKB.IS",
+    "date": "2026-09-28",
+    "entry": 45.1,
+    "highest_price": 45.1,
+    "stop": 44.1314,
+    "target": 47.0371,
+    "trailing_stop": null,
+    "score": 70,
+    "setup_type": "WEAK",
     "status": "open"
   }
 ]
