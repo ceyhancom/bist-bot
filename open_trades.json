@@ -35473,12 +35473,18 @@
     "symbol": "HALKB.IS",
     "date": "2026-09-28",
     "entry": 45.1,
-    "highest_price": 45.1,
+    "highest_price": 47.4,
     "stop": 44.1314,
     "target": 47.0371,
     "trailing_stop": null,
     "score": 70,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 44.1314,
+    "exit_date": "2026-09-29",
+    "result_pct": -2.15,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-09-29T17:34:54.613363+03:00",
+    "cooldown_reason": "STOP"
   }
 ]
