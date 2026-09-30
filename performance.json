@@ -31561,7 +31561,11 @@
     "stop": 10.3921,
     "target": 10.8357,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 10.3921,
+    "exit_date": "2026-09-30",
+    "result_pct": -1.4,
+    "close_reason": "STOP"
   },
   {
     "symbol": "BIMAS.IS",
@@ -31573,7 +31577,11 @@
     "stop": 419.1071,
     "target": 436.7857,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 419.1071,
+    "exit_date": "2026-09-30",
+    "result_pct": -1.39,
+    "close_reason": "STOP"
   },
   {
     "symbol": "CCOLA.IS",
@@ -31585,7 +31593,11 @@
     "stop": 77.7714,
     "target": 80.8571,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 77.7714,
+    "exit_date": "2026-09-30",
+    "result_pct": -1.31,
+    "close_reason": "STOP"
   },
   {
     "symbol": "GRSEL.IS",
@@ -31597,7 +31609,11 @@
     "stop": 256.6339,
     "target": 271.9821,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 256.6339,
+    "exit_date": "2026-09-30",
+    "result_pct": -1.95,
+    "close_reason": "STOP"
   },
   {
     "symbol": "KCAER.IS",
@@ -31609,7 +31625,11 @@
     "stop": 10.7829,
     "target": 11.4643,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 10.7829,
+    "exit_date": "2026-09-30",
+    "result_pct": -2.06,
+    "close_reason": "STOP"
   },
   {
     "symbol": "KCHOL.IS",
@@ -31621,7 +31641,11 @@
     "stop": 211.9786,
     "target": 221.9428,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 211.9786,
+    "exit_date": "2026-09-30",
+    "result_pct": -1.54,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TABGD.IS",
@@ -31633,6 +31657,22 @@
     "stop": 213.3107,
     "target": 226.7786,
     "setup_type": "WEAK",
+    "status": "closed",
+    "exit": 213.3107,
+    "exit_date": "2026-09-30",
+    "result_pct": -2.06,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "AKSEN.IS",
+    "date": "2026-09-30",
+    "entry": 73.7,
+    "score": 100,
+    "rsi": 64.66,
+    "vol_ratio": 1.1,
+    "stop": 71.1371,
+    "target": 78.8258,
+    "setup_type": "PULLBACK",
     "status": "open"
   }
 ]
