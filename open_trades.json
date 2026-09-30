@@ -22342,8 +22342,8 @@
     "exit_date": "2026-08-07",
     "result_pct": -1.12,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-07T12:00:09.712559+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "ANSGR.IS",
@@ -33864,8 +33864,8 @@
     "exit_date": "2026-09-09",
     "result_pct": -1.46,
     "close_reason": "STOP",
-    "cooldown_until": "2026-09-09T10:27:41.582934+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "BRSAN.IS",
@@ -34116,8 +34116,8 @@
     "exit_date": "2026-09-09",
     "result_pct": -1.51,
     "close_reason": "STOP",
-    "cooldown_until": "2026-09-09T10:27:43.364051+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "KCHOL.IS",
@@ -34134,8 +34134,8 @@
     "exit_date": "2026-09-09",
     "result_pct": -1.18,
     "close_reason": "STOP",
-    "cooldown_until": "2026-09-09T10:27:43.498603+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "KRDMD.IS",
@@ -34962,8 +34962,8 @@
     "exit_date": "2026-09-15",
     "result_pct": -1.44,
     "close_reason": "STOP",
-    "cooldown_until": "2026-09-15T16:33:48.656889+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "TKFEN.IS",
@@ -35196,8 +35196,8 @@
     "exit_date": "2026-09-18",
     "result_pct": -2.44,
     "close_reason": "STOP",
-    "cooldown_until": "2026-09-18T13:36:23.232896+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "EUPWR.IS",
@@ -35250,8 +35250,8 @@
     "exit_date": "2026-09-22",
     "result_pct": -1.38,
     "close_reason": "STOP",
-    "cooldown_until": "2026-09-22T15:34:04.272034+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "EKGYO.IS",
@@ -35486,5 +35486,89 @@
     "close_reason": "STOP",
     "cooldown_until": "2026-09-29T17:34:54.613363+03:00",
     "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "AKSA.IS",
+    "date": "2026-09-30",
+    "entry": 10.54,
+    "highest_price": 10.54,
+    "stop": 10.3921,
+    "target": 10.8357,
+    "trailing_stop": null,
+    "score": 85,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "BIMAS.IS",
+    "date": "2026-09-30",
+    "entry": 425.0,
+    "highest_price": 425.0,
+    "stop": 419.1071,
+    "target": 436.7857,
+    "trailing_stop": null,
+    "score": 70,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "CCOLA.IS",
+    "date": "2026-09-30",
+    "entry": 78.8,
+    "highest_price": 78.8,
+    "stop": 77.7714,
+    "target": 80.8571,
+    "trailing_stop": null,
+    "score": 88,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "GRSEL.IS",
+    "date": "2026-09-30",
+    "entry": 261.75,
+    "highest_price": 261.75,
+    "stop": 256.6339,
+    "target": 271.9821,
+    "trailing_stop": null,
+    "score": 80,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "KCAER.IS",
+    "date": "2026-09-30",
+    "entry": 11.01,
+    "highest_price": 11.01,
+    "stop": 10.7829,
+    "target": 11.4643,
+    "trailing_stop": null,
+    "score": 75,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "KCHOL.IS",
+    "date": "2026-09-30",
+    "entry": 215.3,
+    "highest_price": 215.3,
+    "stop": 211.9786,
+    "target": 221.9428,
+    "trailing_stop": null,
+    "score": 85,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "TABGD.IS",
+    "date": "2026-09-30",
+    "entry": 217.8,
+    "highest_price": 217.8,
+    "stop": 213.3107,
+    "target": 226.7786,
+    "trailing_stop": null,
+    "score": 80,
+    "setup_type": "WEAK",
+    "status": "open"
   }
 ]
