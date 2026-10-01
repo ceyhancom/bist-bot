@@ -35412,8 +35412,8 @@
     "exit_date": "2026-09-24",
     "result_pct": -1.39,
     "close_reason": "STOP",
-    "cooldown_until": "2026-09-24T15:35:11.191561+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "ENERY.IS",
@@ -35617,12 +35617,30 @@
     "symbol": "AKSEN.IS",
     "date": "2026-09-30",
     "entry": 73.7,
-    "highest_price": 73.7,
+    "highest_price": 75.6,
     "stop": 71.1371,
     "target": 78.8258,
     "trailing_stop": null,
     "score": 100,
     "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 71.1371,
+    "exit_date": "2026-10-01",
+    "result_pct": -3.48,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-10-01T14:57:13.800956+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "BRSAN.IS",
+    "date": "2026-10-01",
+    "entry": 663.0,
+    "highest_price": 663.0,
+    "stop": 646.7679,
+    "target": 695.4643,
+    "trailing_stop": null,
+    "score": 80,
+    "setup_type": "WEAK",
     "status": "open"
   }
 ]

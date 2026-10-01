@@ -31673,6 +31673,22 @@
     "stop": 71.1371,
     "target": 78.8258,
     "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 71.1371,
+    "exit_date": "2026-10-01",
+    "result_pct": -3.48,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "BRSAN.IS",
+    "date": "2026-10-01",
+    "entry": 663.0,
+    "score": 80,
+    "rsi": 63.12,
+    "vol_ratio": 1.94,
+    "stop": 646.7679,
+    "target": 695.4643,
+    "setup_type": "WEAK",
     "status": "open"
   }
 ]
