@@ -35635,12 +35635,18 @@
     "symbol": "BRSAN.IS",
     "date": "2026-10-01",
     "entry": 663.0,
-    "highest_price": 663.0,
+    "highest_price": 674.0,
     "stop": 646.7679,
     "target": 695.4643,
     "trailing_stop": null,
     "score": 80,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 646.7679,
+    "exit_date": "2026-10-02",
+    "result_pct": -2.45,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-10-02T11:09:48.420937+03:00",
+    "cooldown_reason": "STOP"
   }
 ]
