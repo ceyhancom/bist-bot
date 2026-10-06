@@ -31694,5 +31694,101 @@
     "exit_date": "2026-10-02",
     "result_pct": -2.45,
     "close_reason": "STOP"
+  },
+  {
+    "symbol": "AEFES.IS",
+    "date": "2026-10-06",
+    "entry": 18.68,
+    "score": 70,
+    "rsi": 72.93,
+    "vol_ratio": 1.07,
+    "stop": 18.4196,
+    "target": 19.2007,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "ASELS.IS",
+    "date": "2026-10-06",
+    "entry": 375.5,
+    "score": 120,
+    "rsi": 57.14,
+    "vol_ratio": 1.81,
+    "stop": 366.4886,
+    "target": 393.5228,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "BALSU.IS",
+    "date": "2026-10-06",
+    "entry": 8.8,
+    "score": 73,
+    "rsi": 47.75,
+    "vol_ratio": 1.21,
+    "stop": 8.0994,
+    "target": 10.2012,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "CCOLA.IS",
+    "date": "2026-10-06",
+    "entry": 81.2,
+    "score": 93,
+    "rsi": 80.0,
+    "vol_ratio": 2.85,
+    "stop": 80.2679,
+    "target": 83.0643,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "ENERY.IS",
+    "date": "2026-10-06",
+    "entry": 13.83,
+    "score": 125,
+    "rsi": 51.32,
+    "vol_ratio": 1.82,
+    "stop": 13.5213,
+    "target": 14.4474,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "HEKTS.IS",
+    "date": "2026-10-06",
+    "entry": 2.2,
+    "score": 125,
+    "rsi": 60.0,
+    "vol_ratio": 6.18,
+    "stop": 2.162,
+    "target": 2.276,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "MIATK.IS",
+    "date": "2026-10-06",
+    "entry": 30.24,
+    "score": 93,
+    "rsi": 75.94,
+    "vol_ratio": 3.96,
+    "stop": 28.7679,
+    "target": 33.1843,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "TUKAS.IS",
+    "date": "2026-10-06",
+    "entry": 1.98,
+    "score": 80,
+    "rsi": 54.55,
+    "vol_ratio": 1.8,
+    "stop": 1.9318,
+    "target": 2.0764,
+    "setup_type": "WEAK",
+    "status": "open"
   }
 ]
