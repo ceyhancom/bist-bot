@@ -31705,7 +31705,11 @@
     "stop": 18.4196,
     "target": 19.2007,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 18.4196,
+    "exit_date": "2026-10-07",
+    "result_pct": -1.39,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ASELS.IS",
@@ -31717,7 +31721,11 @@
     "stop": 366.4886,
     "target": 393.5228,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 366.4886,
+    "exit_date": "2026-10-07",
+    "result_pct": -2.4,
+    "close_reason": "STOP"
   },
   {
     "symbol": "BALSU.IS",
@@ -31729,7 +31737,11 @@
     "stop": 8.0994,
     "target": 10.2012,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 8.0994,
+    "exit_date": "2026-10-07",
+    "result_pct": -7.96,
+    "close_reason": "STOP"
   },
   {
     "symbol": "CCOLA.IS",
@@ -31741,7 +31753,11 @@
     "stop": 80.2679,
     "target": 83.0643,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 80.2679,
+    "exit_date": "2026-10-07",
+    "result_pct": -1.15,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ENERY.IS",
@@ -31753,7 +31769,11 @@
     "stop": 13.5213,
     "target": 14.4474,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 13.5213,
+    "exit_date": "2026-10-07",
+    "result_pct": -2.23,
+    "close_reason": "STOP"
   },
   {
     "symbol": "HEKTS.IS",
@@ -31765,7 +31785,11 @@
     "stop": 2.162,
     "target": 2.276,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 2.162,
+    "exit_date": "2026-10-07",
+    "result_pct": -1.73,
+    "close_reason": "STOP"
   },
   {
     "symbol": "MIATK.IS",
@@ -31777,7 +31801,11 @@
     "stop": 28.7679,
     "target": 33.1843,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 28.7679,
+    "exit_date": "2026-10-07",
+    "result_pct": -4.87,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TUKAS.IS",
@@ -31789,6 +31817,46 @@
     "stop": 1.9318,
     "target": 2.0764,
     "setup_type": "WEAK",
+    "status": "closed",
+    "exit": 1.9318,
+    "exit_date": "2026-10-07",
+    "result_pct": -2.43,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "ENJSA.IS",
+    "date": "2026-10-07",
+    "entry": 111.8,
+    "score": 88,
+    "rsi": 42.31,
+    "vol_ratio": 1.34,
+    "stop": 110.5786,
+    "target": 114.2429,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "ISCTR.IS",
+    "date": "2026-10-07",
+    "entry": 12.81,
+    "score": 110,
+    "rsi": 54.9,
+    "vol_ratio": 1.36,
+    "stop": 12.6874,
+    "target": 13.0551,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "YKBNK.IS",
+    "date": "2026-10-07",
+    "entry": 36.3,
+    "score": 115,
+    "rsi": 56.92,
+    "vol_ratio": 1.48,
+    "stop": 35.823,
+    "target": 37.254,
+    "setup_type": "PULLBACK",
     "status": "open"
   }
 ]
