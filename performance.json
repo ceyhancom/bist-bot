@@ -31833,7 +31833,11 @@
     "stop": 110.5786,
     "target": 114.2429,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 110.5786,
+    "exit_date": "2026-10-08",
+    "result_pct": -1.09,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ISCTR.IS",
@@ -31845,7 +31849,11 @@
     "stop": 12.6874,
     "target": 13.0551,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 12.6874,
+    "exit_date": "2026-10-08",
+    "result_pct": -0.96,
+    "close_reason": "STOP"
   },
   {
     "symbol": "YKBNK.IS",
@@ -31857,6 +31865,10 @@
     "stop": 35.823,
     "target": 37.254,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 35.823,
+    "exit_date": "2026-10-08",
+    "result_pct": -1.31,
+    "close_reason": "STOP"
   }
 ]
