@@ -33900,8 +33900,8 @@
     "exit_date": "2026-09-09",
     "result_pct": -1.7,
     "close_reason": "STOP",
-    "cooldown_until": "2026-09-09T10:27:41.821690+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "CLEBI.IS",
@@ -34170,8 +34170,8 @@
     "exit_date": "2026-09-09",
     "result_pct": -0.79,
     "close_reason": "STOP",
-    "cooldown_until": "2026-09-09T10:27:43.746473+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "MGROS.IS",
@@ -35628,8 +35628,8 @@
     "exit_date": "2026-10-01",
     "result_pct": -3.48,
     "close_reason": "STOP",
-    "cooldown_until": "2026-10-01T14:57:13.800956+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "BRSAN.IS",
@@ -35790,8 +35790,8 @@
     "exit_date": "2026-10-07",
     "result_pct": -2.43,
     "close_reason": "STOP",
-    "cooldown_until": "2026-10-07T17:28:56.360165+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "ENJSA.IS",
@@ -35846,5 +35846,53 @@
     "close_reason": "STOP",
     "cooldown_until": "2026-10-08T15:47:33.260318+03:00",
     "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "AKSEN.IS",
+    "date": "2026-10-09",
+    "entry": 72.85,
+    "highest_price": 72.85,
+    "stop": 71.4893,
+    "target": 75.5714,
+    "trailing_stop": null,
+    "score": 70,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "CANTE.IS",
+    "date": "2026-10-09",
+    "entry": 1.08,
+    "highest_price": 1.08,
+    "stop": 1.0577,
+    "target": 1.1246,
+    "trailing_stop": null,
+    "score": 110,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "MAVI.IS",
+    "date": "2026-10-09",
+    "entry": 37.94,
+    "highest_price": 37.94,
+    "stop": 37.4257,
+    "target": 38.9686,
+    "trailing_stop": null,
+    "score": 90,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "TUKAS.IS",
+    "date": "2026-10-09",
+    "entry": 2.02,
+    "highest_price": 2.02,
+    "stop": 1.9846,
+    "target": 2.0907,
+    "trailing_stop": null,
+    "score": 100,
+    "setup_type": "TREND",
+    "status": "open"
   }
 ]

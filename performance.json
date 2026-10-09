@@ -31870,5 +31870,53 @@
     "exit_date": "2026-10-08",
     "result_pct": -1.31,
     "close_reason": "STOP"
+  },
+  {
+    "symbol": "AKSEN.IS",
+    "date": "2026-10-09",
+    "entry": 72.85,
+    "score": 70,
+    "rsi": 61.36,
+    "vol_ratio": 1.32,
+    "stop": 71.4893,
+    "target": 75.5714,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "CANTE.IS",
+    "date": "2026-10-09",
+    "entry": 1.08,
+    "score": 110,
+    "rsi": 53.85,
+    "vol_ratio": 1.53,
+    "stop": 1.0577,
+    "target": 1.1246,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "MAVI.IS",
+    "date": "2026-10-09",
+    "entry": 37.94,
+    "score": 90,
+    "rsi": 65.94,
+    "vol_ratio": 1.17,
+    "stop": 37.4257,
+    "target": 38.9686,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "TUKAS.IS",
+    "date": "2026-10-09",
+    "entry": 2.02,
+    "score": 100,
+    "rsi": 75.0,
+    "vol_ratio": 1.57,
+    "stop": 1.9846,
+    "target": 2.0907,
+    "setup_type": "TREND",
+    "status": "open"
   }
 ]
