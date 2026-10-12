@@ -31881,7 +31881,11 @@
     "stop": 71.4893,
     "target": 75.5714,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 71.4893,
+    "exit_date": "2026-10-12",
+    "result_pct": -1.87,
+    "close_reason": "STOP"
   },
   {
     "symbol": "CANTE.IS",
@@ -31893,7 +31897,11 @@
     "stop": 1.0577,
     "target": 1.1246,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 1.0577,
+    "exit_date": "2026-10-12",
+    "result_pct": -2.06,
+    "close_reason": "STOP"
   },
   {
     "symbol": "MAVI.IS",
@@ -31905,7 +31913,11 @@
     "stop": 37.4257,
     "target": 38.9686,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 37.4257,
+    "exit_date": "2026-10-12",
+    "result_pct": -1.36,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TUKAS.IS",
@@ -31917,6 +31929,10 @@
     "stop": 1.9846,
     "target": 2.0907,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 1.9846,
+    "exit_date": "2026-10-12",
+    "result_pct": -1.75,
+    "close_reason": "STOP"
   }
 ]
