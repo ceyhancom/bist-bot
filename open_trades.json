@@ -34026,8 +34026,8 @@
     "exit_date": "2026-09-09",
     "result_pct": -1.84,
     "close_reason": "STOP",
-    "cooldown_until": "2026-09-09T10:27:42.751275+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "FROTO.IS",
@@ -34152,8 +34152,8 @@
     "exit_date": "2026-09-09",
     "result_pct": -1.71,
     "close_reason": "STOP",
-    "cooldown_until": "2026-09-09T10:27:43.629125+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "MAVI.IS",
@@ -35918,5 +35918,29 @@
     "close_reason": "STOP",
     "cooldown_until": "2026-10-12T11:46:41.898301+03:00",
     "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "EREGL.IS",
+    "date": "2026-10-14",
+    "entry": 37.54,
+    "highest_price": 37.54,
+    "stop": 37.1114,
+    "target": 38.3971,
+    "trailing_stop": null,
+    "score": 105,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "KRDMD.IS",
+    "date": "2026-10-14",
+    "entry": 44.44,
+    "highest_price": 44.44,
+    "stop": 43.7105,
+    "target": 45.8991,
+    "trailing_stop": null,
+    "score": 125,
+    "setup_type": "PULLBACK",
+    "status": "open"
   }
 ]

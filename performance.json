@@ -31934,5 +31934,29 @@
     "exit_date": "2026-10-12",
     "result_pct": -1.75,
     "close_reason": "STOP"
+  },
+  {
+    "symbol": "EREGL.IS",
+    "date": "2026-10-14",
+    "entry": 37.54,
+    "score": 105,
+    "rsi": 51.15,
+    "vol_ratio": 1.08,
+    "stop": 37.1114,
+    "target": 38.3971,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "KRDMD.IS",
+    "date": "2026-10-14",
+    "entry": 44.44,
+    "score": 125,
+    "rsi": 60.56,
+    "vol_ratio": 2.1,
+    "stop": 43.7105,
+    "target": 45.8991,
+    "setup_type": "PULLBACK",
+    "status": "open"
   }
 ]
