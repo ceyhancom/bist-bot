@@ -34512,8 +34512,8 @@
     "exit_date": "2026-09-09",
     "result_pct": -1.23,
     "close_reason": "STOP",
-    "cooldown_until": "2026-09-09T15:40:49.417732+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "DOHOL.IS",
@@ -34692,8 +34692,8 @@
     "exit_date": "2026-09-11",
     "result_pct": -1.45,
     "close_reason": "STOP",
-    "cooldown_until": "2026-09-11T16:42:15.365670+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "OBAMS.IS",
@@ -35448,8 +35448,8 @@
     "exit_date": "2026-09-25",
     "result_pct": -1.19,
     "close_reason": "STOP",
-    "cooldown_until": "2026-09-25T16:02:10.442817+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "ODAS.IS",
@@ -35862,8 +35862,8 @@
     "exit_date": "2026-10-12",
     "result_pct": -1.87,
     "close_reason": "STOP",
-    "cooldown_until": "2026-10-12T11:46:41.477117+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "CANTE.IS",
@@ -35923,24 +35923,84 @@
     "symbol": "EREGL.IS",
     "date": "2026-10-14",
     "entry": 37.54,
-    "highest_price": 37.54,
+    "highest_price": 38.14,
     "stop": 37.1114,
     "target": 38.3971,
     "trailing_stop": null,
     "score": 105,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 37.1114,
+    "exit_date": "2026-10-14",
+    "result_pct": -1.14,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-10-14T18:25:17.914224+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "KRDMD.IS",
     "date": "2026-10-14",
     "entry": 44.44,
-    "highest_price": 44.44,
+    "highest_price": 44.72,
     "stop": 43.7105,
     "target": 45.8991,
     "trailing_stop": null,
     "score": 125,
     "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 43.7105,
+    "exit_date": "2026-10-14",
+    "result_pct": -1.64,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-10-14T18:25:18.067767+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "AKSEN.IS",
+    "date": "2026-10-14",
+    "entry": 73.45,
+    "highest_price": 73.45,
+    "stop": 72.46,
+    "target": 75.43,
+    "trailing_stop": null,
+    "score": 115,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "ALARK.IS",
+    "date": "2026-10-14",
+    "entry": 108.4,
+    "highest_price": 108.4,
+    "stop": 107.0929,
+    "target": 111.0143,
+    "trailing_stop": null,
+    "score": 90,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "CIMSA.IS",
+    "date": "2026-10-14",
+    "entry": 40.58,
+    "highest_price": 40.58,
+    "stop": 40.1879,
+    "target": 41.3643,
+    "trailing_stop": null,
+    "score": 80,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "TTKOM.IS",
+    "date": "2026-10-14",
+    "entry": 52.75,
+    "highest_price": 52.75,
+    "stop": 52.1661,
+    "target": 53.9179,
+    "trailing_stop": null,
+    "score": 85,
+    "setup_type": "WEAK",
     "status": "open"
   }
 ]

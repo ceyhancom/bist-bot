@@ -31945,7 +31945,11 @@
     "stop": 37.1114,
     "target": 38.3971,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 37.1114,
+    "exit_date": "2026-10-14",
+    "result_pct": -1.14,
+    "close_reason": "STOP"
   },
   {
     "symbol": "KRDMD.IS",
@@ -31957,6 +31961,58 @@
     "stop": 43.7105,
     "target": 45.8991,
     "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 43.7105,
+    "exit_date": "2026-10-14",
+    "result_pct": -1.64,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "AKSEN.IS",
+    "date": "2026-10-14",
+    "entry": 73.45,
+    "score": 115,
+    "rsi": 61.9,
+    "vol_ratio": 1.4,
+    "stop": 72.46,
+    "target": 75.43,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "ALARK.IS",
+    "date": "2026-10-14",
+    "entry": 108.4,
+    "score": 90,
+    "rsi": 37.84,
+    "vol_ratio": 1.53,
+    "stop": 107.0929,
+    "target": 111.0143,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "CIMSA.IS",
+    "date": "2026-10-14",
+    "entry": 40.58,
+    "score": 80,
+    "rsi": 60.78,
+    "vol_ratio": 1.86,
+    "stop": 40.1879,
+    "target": 41.3643,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "TTKOM.IS",
+    "date": "2026-10-14",
+    "entry": 52.75,
+    "score": 85,
+    "rsi": 62.96,
+    "vol_ratio": 3.74,
+    "stop": 52.1661,
+    "target": 53.9179,
+    "setup_type": "WEAK",
     "status": "open"
   }
 ]
