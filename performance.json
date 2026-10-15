@@ -32041,7 +32041,11 @@
     "stop": 12.9238,
     "target": 13.8123,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 12.9238,
+    "exit_date": "2026-10-15",
+    "result_pct": -2.24,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TUKAS.IS",
@@ -32052,6 +32056,46 @@
     "vol_ratio": 1.53,
     "stop": 1.9436,
     "target": 2.0529,
+    "setup_type": "WEAK",
+    "status": "closed",
+    "exit": 1.9436,
+    "exit_date": "2026-10-15",
+    "result_pct": -1.84,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "EKGYO.IS",
+    "date": "2026-10-15",
+    "entry": 19.7,
+    "score": 105,
+    "rsi": 54.72,
+    "vol_ratio": 1.03,
+    "stop": 19.5423,
+    "target": 20.0154,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "ENJSA.IS",
+    "date": "2026-10-15",
+    "entry": 114.5,
+    "score": 105,
+    "rsi": 61.76,
+    "vol_ratio": 1.01,
+    "stop": 113.1659,
+    "target": 117.1681,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "ZOREN.IS",
+    "date": "2026-10-15",
+    "entry": 1.75,
+    "score": 85,
+    "rsi": 53.85,
+    "vol_ratio": 2.47,
+    "stop": 1.7136,
+    "target": 1.8229,
     "setup_type": "WEAK",
     "status": "open"
   }
