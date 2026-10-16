@@ -33594,8 +33594,8 @@
     "exit_date": "2026-09-03",
     "result_pct": -3.47,
     "close_reason": "STOP",
-    "cooldown_until": "2026-09-03T18:56:20.482666+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "MIATK.IS",
@@ -34818,8 +34818,8 @@
     "exit_date": "2026-09-14",
     "result_pct": -0.89,
     "close_reason": "STOP",
-    "cooldown_until": "2026-09-14T14:25:30.147869+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "TURSG.IS",
@@ -36116,5 +36116,29 @@
     "close_reason": "STOP",
     "cooldown_until": "2026-10-16T13:35:42.934995+03:00",
     "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "MAGEN.IS",
+    "date": "2026-10-16",
+    "entry": 8.1,
+    "highest_price": 8.1,
+    "stop": 7.5129,
+    "target": 9.2743,
+    "trailing_stop": null,
+    "score": 85,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "TAVHL.IS",
+    "date": "2026-10-16",
+    "entry": 273.5,
+    "highest_price": 273.5,
+    "stop": 268.3036,
+    "target": 283.8929,
+    "trailing_stop": null,
+    "score": 85,
+    "setup_type": "WEAK",
+    "status": "open"
   }
 ]
