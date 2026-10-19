@@ -32153,7 +32153,11 @@
     "stop": 129.9657,
     "target": 135.4686,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 129.9657,
+    "exit_date": "2026-10-19",
+    "result_pct": -1.39,
+    "close_reason": "STOP"
   },
   {
     "symbol": "KLRHO.IS",
@@ -32165,6 +32169,10 @@
     "stop": 11.3793,
     "target": 13.0314,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 11.3793,
+    "exit_date": "2026-10-19",
+    "result_pct": -4.62,
+    "close_reason": "STOP"
   }
 ]

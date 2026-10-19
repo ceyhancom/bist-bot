@@ -36157,24 +36157,36 @@
     "symbol": "GARAN.IS",
     "date": "2026-10-19",
     "entry": 131.8,
-    "highest_price": 131.8,
+    "highest_price": 134.0,
     "stop": 129.9657,
     "target": 135.4686,
     "trailing_stop": null,
     "score": 98,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 129.9657,
+    "exit_date": "2026-10-19",
+    "result_pct": -1.39,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-10-19T18:38:06.731538+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "KLRHO.IS",
     "date": "2026-10-19",
     "entry": 11.93,
-    "highest_price": 11.93,
+    "highest_price": 12.89,
     "stop": 11.3793,
     "target": 13.0314,
     "trailing_stop": null,
     "score": 75,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 11.3793,
+    "exit_date": "2026-10-19",
+    "result_pct": -4.62,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-10-19T18:38:06.956150+03:00",
+    "cooldown_reason": "STOP"
   }
 ]
