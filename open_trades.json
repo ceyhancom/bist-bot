@@ -31920,8 +31920,8 @@
     "exit_date": "2026-08-24",
     "result_pct": -1.87,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-24T15:14:37.579178+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "CANTE.IS",
@@ -34062,8 +34062,8 @@
     "exit_date": "2026-09-09",
     "result_pct": -1.24,
     "close_reason": "STOP",
-    "cooldown_until": "2026-09-09T10:27:43.021685+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "GUBRF.IS",
@@ -36121,23 +36121,59 @@
     "symbol": "MAGEN.IS",
     "date": "2026-10-16",
     "entry": 8.1,
-    "highest_price": 8.1,
+    "highest_price": 8.45,
     "stop": 7.5129,
     "target": 9.2743,
     "trailing_stop": null,
     "score": 85,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 7.5129,
+    "exit_date": "2026-10-19",
+    "result_pct": -7.25,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-10-19T11:10:36.682960+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "TAVHL.IS",
     "date": "2026-10-16",
     "entry": 273.5,
-    "highest_price": 273.5,
+    "highest_price": 276.0,
     "stop": 268.3036,
     "target": 283.8929,
     "trailing_stop": null,
     "score": 85,
+    "setup_type": "WEAK",
+    "status": "closed",
+    "exit": 268.3036,
+    "exit_date": "2026-10-19",
+    "result_pct": -1.9,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-10-19T11:10:36.931421+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "GARAN.IS",
+    "date": "2026-10-19",
+    "entry": 131.8,
+    "highest_price": 131.8,
+    "stop": 129.9657,
+    "target": 135.4686,
+    "trailing_stop": null,
+    "score": 98,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "KLRHO.IS",
+    "date": "2026-10-19",
+    "entry": 11.93,
+    "highest_price": 11.93,
+    "stop": 11.3793,
+    "target": 13.0314,
+    "trailing_stop": null,
+    "score": 75,
     "setup_type": "WEAK",
     "status": "open"
   }
