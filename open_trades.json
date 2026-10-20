@@ -35646,8 +35646,8 @@
     "exit_date": "2026-10-02",
     "result_pct": -2.45,
     "close_reason": "STOP",
-    "cooldown_until": "2026-10-02T11:09:48.420937+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "AEFES.IS",
@@ -36193,12 +36193,30 @@
     "symbol": "YKBNK.IS",
     "date": "2026-10-20",
     "entry": 36.02,
-    "highest_price": 36.02,
+    "highest_price": 36.56,
     "stop": 35.5949,
     "target": 36.8703,
     "trailing_stop": null,
     "score": 95,
     "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 35.5949,
+    "exit_date": "2026-10-20",
+    "result_pct": -1.18,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-10-20T18:06:53.253572+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "BRSAN.IS",
+    "date": "2026-10-20",
+    "entry": 675.0,
+    "highest_price": 675.0,
+    "stop": 663.375,
+    "target": 698.25,
+    "trailing_stop": null,
+    "score": 95,
+    "setup_type": "BREAKOUT",
     "status": "open"
   }
 ]
