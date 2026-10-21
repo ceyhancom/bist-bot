@@ -35502,8 +35502,8 @@
     "exit_date": "2026-09-30",
     "result_pct": -1.4,
     "close_reason": "STOP",
-    "cooldown_until": "2026-09-30T18:53:15.307385+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "BIMAS.IS",
@@ -35718,8 +35718,8 @@
     "exit_date": "2026-10-07",
     "result_pct": -1.15,
     "close_reason": "STOP",
-    "cooldown_until": "2026-10-07T17:28:55.636590+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "ENERY.IS",
@@ -36096,8 +36096,8 @@
     "exit_date": "2026-10-16",
     "result_pct": -1.17,
     "close_reason": "STOP",
-    "cooldown_until": "2026-10-16T13:35:42.565813+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "ZOREN.IS",
@@ -36150,8 +36150,8 @@
     "exit_date": "2026-10-19",
     "result_pct": -1.9,
     "close_reason": "STOP",
-    "cooldown_until": "2026-10-19T11:10:36.931421+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "GARAN.IS",
@@ -36229,12 +36229,66 @@
     "symbol": "VESTL.IS",
     "date": "2026-10-21",
     "entry": 16.0,
-    "highest_price": 16.0,
+    "highest_price": 17.59,
     "stop": 15.3261,
     "target": 17.3479,
     "trailing_stop": null,
     "score": 75,
     "setup_type": "WEAK",
+    "status": "closed",
+    "exit": 15.3261,
+    "exit_date": "2026-10-21",
+    "result_pct": -4.21,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-10-21T19:00:22.580388+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "AKSA.IS",
+    "date": "2026-10-21",
+    "entry": 10.25,
+    "highest_price": 10.25,
+    "stop": 10.0668,
+    "target": 10.6164,
+    "trailing_stop": null,
+    "score": 85,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "CCOLA.IS",
+    "date": "2026-10-21",
+    "entry": 76.65,
+    "highest_price": 76.65,
+    "stop": 75.45,
+    "target": 79.05,
+    "trailing_stop": null,
+    "score": 80,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "ENJSA.IS",
+    "date": "2026-10-21",
+    "entry": 115.2,
+    "highest_price": 115.2,
+    "stop": 113.8971,
+    "target": 117.8057,
+    "trailing_stop": null,
+    "score": 73,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "TAVHL.IS",
+    "date": "2026-10-21",
+    "entry": 282.25,
+    "highest_price": 282.25,
+    "stop": 277.1493,
+    "target": 292.4513,
+    "trailing_stop": null,
+    "score": 90,
+    "setup_type": "PULLBACK",
     "status": "open"
   }
 ]
