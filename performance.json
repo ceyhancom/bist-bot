@@ -32201,6 +32201,22 @@
     "stop": 663.375,
     "target": 698.25,
     "setup_type": "BREAKOUT",
+    "status": "closed",
+    "exit": 663.375,
+    "exit_date": "2026-10-21",
+    "result_pct": -1.72,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "VESTL.IS",
+    "date": "2026-10-21",
+    "entry": 16.0,
+    "score": 75,
+    "rsi": 58.19,
+    "vol_ratio": 3.23,
+    "stop": 15.3261,
+    "target": 17.3479,
+    "setup_type": "WEAK",
     "status": "open"
   }
 ]

@@ -33666,8 +33666,8 @@
     "exit_date": "2026-09-07",
     "result_pct": -3.83,
     "close_reason": "STOP",
-    "cooldown_until": "2026-09-07T15:35:54.274473+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "ZOREN.IS",
@@ -36211,12 +36211,30 @@
     "symbol": "BRSAN.IS",
     "date": "2026-10-20",
     "entry": 675.0,
-    "highest_price": 675.0,
+    "highest_price": 688.5,
     "stop": 663.375,
     "target": 698.25,
     "trailing_stop": null,
     "score": 95,
     "setup_type": "BREAKOUT",
+    "status": "closed",
+    "exit": 663.375,
+    "exit_date": "2026-10-21",
+    "result_pct": -1.72,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-10-21T13:54:48.929901+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "VESTL.IS",
+    "date": "2026-10-21",
+    "entry": 16.0,
+    "highest_price": 16.0,
+    "stop": 15.3261,
+    "target": 17.3479,
+    "trailing_stop": null,
+    "score": 75,
+    "setup_type": "WEAK",
     "status": "open"
   }
 ]
