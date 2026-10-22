@@ -32233,7 +32233,11 @@
     "stop": 10.0668,
     "target": 10.6164,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 10.0668,
+    "exit_date": "2026-10-22",
+    "result_pct": -1.79,
+    "close_reason": "STOP"
   },
   {
     "symbol": "CCOLA.IS",
@@ -32245,7 +32249,11 @@
     "stop": 75.45,
     "target": 79.05,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 75.45,
+    "exit_date": "2026-10-22",
+    "result_pct": -1.57,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ENJSA.IS",
@@ -32257,7 +32265,11 @@
     "stop": 113.8971,
     "target": 117.8057,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 113.8971,
+    "exit_date": "2026-10-22",
+    "result_pct": -1.13,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TAVHL.IS",
@@ -32269,6 +32281,10 @@
     "stop": 277.1493,
     "target": 292.4513,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 277.1493,
+    "exit_date": "2026-10-22",
+    "result_pct": -1.81,
+    "close_reason": "STOP"
   }
 ]
