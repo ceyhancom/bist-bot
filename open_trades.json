@@ -32784,8 +32784,8 @@
     "exit_date": "2026-08-26",
     "result_pct": -2.07,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-26T10:47:18.108313+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "KTLEV.IS",
@@ -36332,5 +36332,17 @@
     "close_reason": "STOP",
     "cooldown_until": "2026-10-27T14:33:19.107966+03:00",
     "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "GESAN.IS",
+    "date": "2026-10-28",
+    "entry": 32.68,
+    "highest_price": 32.68,
+    "stop": 31.5726,
+    "target": 34.8949,
+    "trailing_stop": null,
+    "score": 93,
+    "setup_type": "PULLBACK",
+    "status": "open"
   }
 ]
