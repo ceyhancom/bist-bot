@@ -36348,7 +36348,19 @@
     "exit_date": "2026-10-29",
     "result_pct": -3.39,
     "close_reason": "STOP",
-    "cooldown_until": "2026-10-29T12:17:40.078249+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
+  },
+  {
+    "symbol": "GESAN.IS",
+    "date": "2026-10-29",
+    "entry": 32.68,
+    "highest_price": 32.68,
+    "stop": 31.5726,
+    "target": 34.8949,
+    "trailing_stop": null,
+    "score": 93,
+    "setup_type": "PULLBACK",
+    "status": "open"
   }
 ]
