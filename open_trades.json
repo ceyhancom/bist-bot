@@ -34278,8 +34278,8 @@
     "exit_date": "2026-09-09",
     "result_pct": -1.09,
     "close_reason": "STOP",
-    "cooldown_until": "2026-09-09T10:27:44.550961+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "SAHOL.IS",
@@ -35754,8 +35754,8 @@
     "exit_date": "2026-10-07",
     "result_pct": -1.73,
     "close_reason": "STOP",
-    "cooldown_until": "2026-10-07T17:28:55.929119+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "MIATK.IS",
@@ -36355,12 +36355,42 @@
     "symbol": "GESAN.IS",
     "date": "2026-10-29",
     "entry": 32.68,
-    "highest_price": 32.68,
+    "highest_price": 35.3,
     "stop": 31.5726,
     "target": 34.8949,
     "trailing_stop": null,
     "score": 93,
     "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 31.5726,
+    "exit_date": "2026-10-30",
+    "result_pct": -3.39,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-10-30T17:06:29.822667+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "HEKTS.IS",
+    "date": "2026-10-30",
+    "entry": 1.7,
+    "highest_price": 1.7,
+    "stop": 1.6475,
+    "target": 1.805,
+    "trailing_stop": null,
+    "score": 75,
+    "setup_type": "WEAK",
+    "status": "open"
+  },
+  {
+    "symbol": "REEDR.IS",
+    "date": "2026-10-30",
+    "entry": 2.55,
+    "highest_price": 2.55,
+    "stop": 2.4493,
+    "target": 2.7514,
+    "trailing_stop": null,
+    "score": 75,
+    "setup_type": "WEAK",
     "status": "open"
   }
 ]
