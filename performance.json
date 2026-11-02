@@ -32345,7 +32345,11 @@
     "stop": 1.6475,
     "target": 1.805,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 1.6475,
+    "exit_date": "2026-11-02",
+    "result_pct": -3.09,
+    "close_reason": "STOP"
   },
   {
     "symbol": "REEDR.IS",
@@ -32357,6 +32361,10 @@
     "stop": 2.4493,
     "target": 2.7514,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 2.4493,
+    "exit_date": "2026-11-02",
+    "result_pct": -3.95,
+    "close_reason": "STOP"
   }
 ]
