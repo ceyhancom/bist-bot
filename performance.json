@@ -32377,7 +32377,11 @@
     "stop": 16.4175,
     "target": 17.385,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 16.4175,
+    "exit_date": "2026-11-05",
+    "result_pct": -1.93,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ANSGR.IS",
@@ -32389,7 +32393,11 @@
     "stop": 22.3343,
     "target": 23.3114,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 22.3343,
+    "exit_date": "2026-11-05",
+    "result_pct": -1.44,
+    "close_reason": "STOP"
   },
   {
     "symbol": "ENKAI.IS",
@@ -32401,7 +32409,11 @@
     "stop": 78.4439,
     "target": 86.5622,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 78.4439,
+    "exit_date": "2026-11-05",
+    "result_pct": -3.33,
+    "close_reason": "STOP"
   },
   {
     "symbol": "OTKAR.IS",
@@ -32413,7 +32425,11 @@
     "stop": 303.1808,
     "target": 325.8884,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 303.1808,
+    "exit_date": "2026-11-05",
+    "result_pct": -2.44,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TABGD.IS",
@@ -32425,7 +32441,11 @@
     "stop": 184.2893,
     "target": 196.9214,
     "setup_type": "WEAK",
-    "status": "open"
+    "status": "closed",
+    "exit": 184.2893,
+    "exit_date": "2026-11-05",
+    "result_pct": -2.23,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TCELL.IS",
@@ -32437,6 +32457,34 @@
     "stop": 91.6395,
     "target": 96.321,
     "setup_type": "PULLBACK",
+    "status": "closed",
+    "exit": 91.6395,
+    "exit_date": "2026-11-05",
+    "result_pct": -1.67,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "CLEBI.IS",
+    "date": "2026-11-05",
+    "entry": 1251.0,
+    "score": 95,
+    "rsi": 60.87,
+    "vol_ratio": 1.26,
+    "stop": 1215.4271,
+    "target": 1322.1458,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "TTRAK.IS",
+    "date": "2026-11-05",
+    "entry": 370.0,
+    "score": 100,
+    "rsi": 74.86,
+    "vol_ratio": 1.82,
+    "stop": 361.6429,
+    "target": 386.7143,
+    "setup_type": "TREND",
     "status": "open"
   }
 ]
