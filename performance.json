@@ -32473,7 +32473,11 @@
     "stop": 1215.4271,
     "target": 1322.1458,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 1215.4271,
+    "exit_date": "2026-11-06",
+    "result_pct": -2.84,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TTRAK.IS",
@@ -32484,6 +32488,22 @@
     "vol_ratio": 1.82,
     "stop": 361.6429,
     "target": 386.7143,
+    "setup_type": "TREND",
+    "status": "closed",
+    "exit": 361.6429,
+    "exit_date": "2026-11-06",
+    "result_pct": -2.26,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "KTLEV.IS",
+    "date": "2026-11-06",
+    "entry": 4.86,
+    "score": 100,
+    "rsi": 68.33,
+    "vol_ratio": 1.57,
+    "stop": 4.6071,
+    "target": 5.3657,
     "setup_type": "TREND",
     "status": "open"
   }
