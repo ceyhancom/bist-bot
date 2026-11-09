@@ -32505,6 +32505,34 @@
     "stop": 4.6071,
     "target": 5.3657,
     "setup_type": "TREND",
+    "status": "closed",
+    "exit": 4.6071,
+    "exit_date": "2026-11-09",
+    "result_pct": -5.2,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "CANTE.IS",
+    "date": "2026-11-09",
+    "entry": 1.01,
+    "score": 115,
+    "rsi": 63.64,
+    "vol_ratio": 2.12,
+    "stop": 0.9715,
+    "target": 1.0871,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "REEDR.IS",
+    "date": "2026-11-09",
+    "entry": 2.77,
+    "score": 90,
+    "rsi": 56.41,
+    "vol_ratio": 1.05,
+    "stop": 2.6614,
+    "target": 2.9872,
+    "setup_type": "PULLBACK",
     "status": "open"
   }
 ]

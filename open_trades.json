@@ -35880,8 +35880,8 @@
     "exit_date": "2026-10-12",
     "result_pct": -2.06,
     "close_reason": "STOP",
-    "cooldown_until": "2026-10-12T11:46:41.640869+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "MAVI.IS",
@@ -36402,8 +36402,8 @@
     "exit_date": "2026-11-02",
     "result_pct": -3.95,
     "close_reason": "STOP",
-    "cooldown_until": "2026-11-02T13:33:27.180572+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "AEFES.IS",
@@ -36553,12 +36553,42 @@
     "symbol": "KTLEV.IS",
     "date": "2026-11-06",
     "entry": 4.86,
-    "highest_price": 4.86,
+    "highest_price": 5.34,
     "stop": 4.6071,
     "target": 5.3657,
-    "trailing_stop": null,
+    "trailing_stop": 5.2332,
     "score": 100,
     "setup_type": "TREND",
+    "status": "closed",
+    "exit": 4.6071,
+    "exit_date": "2026-11-09",
+    "result_pct": -5.2,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-11-09T13:53:00.044999+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "CANTE.IS",
+    "date": "2026-11-09",
+    "entry": 1.01,
+    "highest_price": 1.01,
+    "stop": 0.9715,
+    "target": 1.0871,
+    "trailing_stop": null,
+    "score": 115,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "REEDR.IS",
+    "date": "2026-11-09",
+    "entry": 2.77,
+    "highest_price": 2.77,
+    "stop": 2.6614,
+    "target": 2.9872,
+    "trailing_stop": null,
+    "score": 90,
+    "setup_type": "PULLBACK",
     "status": "open"
   }
 ]
