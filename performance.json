@@ -32521,7 +32521,11 @@
     "stop": 0.9715,
     "target": 1.0871,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 0.9715,
+    "exit_date": "2026-11-10",
+    "result_pct": -3.81,
+    "close_reason": "STOP"
   },
   {
     "symbol": "REEDR.IS",
@@ -32533,6 +32537,10 @@
     "stop": 2.6614,
     "target": 2.9872,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 2.6614,
+    "exit_date": "2026-11-10",
+    "result_pct": -3.92,
+    "close_reason": "STOP"
   }
 ]

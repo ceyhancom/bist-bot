@@ -36571,24 +36571,36 @@
     "symbol": "CANTE.IS",
     "date": "2026-11-09",
     "entry": 1.01,
-    "highest_price": 1.01,
+    "highest_price": 1.04,
     "stop": 0.9715,
     "target": 1.0871,
     "trailing_stop": null,
     "score": 115,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 0.9715,
+    "exit_date": "2026-11-10",
+    "result_pct": -3.81,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-11-10T14:43:09.512027+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "REEDR.IS",
     "date": "2026-11-09",
     "entry": 2.77,
-    "highest_price": 2.77,
+    "highest_price": 2.83,
     "stop": 2.6614,
     "target": 2.9872,
     "trailing_stop": null,
     "score": 90,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 2.6614,
+    "exit_date": "2026-11-10",
+    "result_pct": -3.92,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-11-10T14:43:09.808421+03:00",
+    "cooldown_reason": "STOP"
   }
 ]
