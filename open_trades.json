@@ -35898,8 +35898,8 @@
     "exit_date": "2026-10-12",
     "result_pct": -1.36,
     "close_reason": "STOP",
-    "cooldown_until": "2026-10-12T11:46:41.774591+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "TUKAS.IS",
@@ -36366,8 +36366,8 @@
     "exit_date": "2026-10-30",
     "result_pct": -3.39,
     "close_reason": "STOP",
-    "cooldown_until": "2026-10-30T17:06:29.822667+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "HEKTS.IS",
@@ -36924,8 +36924,8 @@
     "exit_date": "2026-11-13",
     "result_pct": -3.25,
     "close_reason": "STOP",
-    "cooldown_until": "2026-11-13T14:26:47.561954+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "REEDR.IS",
@@ -37021,72 +37021,144 @@
     "symbol": "EREGL.IS",
     "date": "2026-11-13",
     "entry": 32.44,
-    "highest_price": 32.44,
+    "highest_price": 33.5,
     "stop": 32.0278,
     "target": 33.2643,
     "trailing_stop": null,
     "score": 115,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 32.0278,
+    "exit_date": "2026-11-16",
+    "result_pct": -1.27,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-11-16T10:50:41.793506+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "FROTO.IS",
     "date": "2026-11-13",
     "entry": 74.3,
-    "highest_price": 74.3,
+    "highest_price": 76.8,
     "stop": 73.0384,
     "target": 76.8233,
     "trailing_stop": null,
     "score": 130,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 73.0384,
+    "exit_date": "2026-11-16",
+    "result_pct": -1.7,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-11-16T10:50:41.921541+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "KONTR.IS",
     "date": "2026-11-13",
     "entry": 2.36,
-    "highest_price": 2.36,
+    "highest_price": 2.41,
     "stop": 2.2507,
     "target": 2.5786,
     "trailing_stop": null,
     "score": 75,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 2.2507,
+    "exit_date": "2026-11-16",
+    "result_pct": -4.63,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-11-16T10:50:42.043824+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "KUYAS.IS",
     "date": "2026-11-13",
     "entry": 11.08,
-    "highest_price": 11.08,
+    "highest_price": 11.44,
     "stop": 10.6771,
     "target": 11.8857,
     "trailing_stop": null,
     "score": 110,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 10.6771,
+    "exit_date": "2026-11-16",
+    "result_pct": -3.64,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-11-16T10:50:42.168892+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "TKFEN.IS",
     "date": "2026-11-13",
     "entry": 201.8,
-    "highest_price": 201.8,
+    "highest_price": 214.0,
     "stop": 196.6143,
     "target": 212.1714,
     "trailing_stop": null,
     "score": 90,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 196.6143,
+    "exit_date": "2026-11-16",
+    "result_pct": -2.57,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-11-16T10:50:42.297045+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "TURSG.IS",
     "date": "2026-11-13",
     "entry": 3.32,
-    "highest_price": 3.32,
+    "highest_price": 3.52,
     "stop": 3.2536,
     "target": 3.4529,
     "trailing_stop": null,
     "score": 75,
     "setup_type": "WEAK",
+    "status": "closed",
+    "exit": 3.2536,
+    "exit_date": "2026-11-16",
+    "result_pct": -2.0,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-11-16T10:50:42.429749+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "GESAN.IS",
+    "date": "2026-11-16",
+    "entry": 35.52,
+    "highest_price": 35.52,
+    "stop": 34.545,
+    "target": 37.47,
+    "trailing_stop": null,
+    "score": 88,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "MAVI.IS",
+    "date": "2026-11-16",
+    "entry": 36.16,
+    "highest_price": 36.16,
+    "stop": 35.7036,
+    "target": 37.0729,
+    "trailing_stop": null,
+    "score": 100,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "PASEU.IS",
+    "date": "2026-11-16",
+    "entry": 39.86,
+    "highest_price": 39.86,
+    "stop": 38.2614,
+    "target": 43.0571,
+    "trailing_stop": null,
+    "score": 135,
+    "setup_type": "BREAKOUT",
     "status": "open"
   }
 ]

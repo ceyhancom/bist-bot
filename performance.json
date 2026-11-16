@@ -32921,7 +32921,11 @@
     "stop": 32.0278,
     "target": 33.2643,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 32.0278,
+    "exit_date": "2026-11-16",
+    "result_pct": -1.27,
+    "close_reason": "STOP"
   },
   {
     "symbol": "FROTO.IS",
@@ -32933,7 +32937,11 @@
     "stop": 73.0384,
     "target": 76.8233,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 73.0384,
+    "exit_date": "2026-11-16",
+    "result_pct": -1.7,
+    "close_reason": "STOP"
   },
   {
     "symbol": "KONTR.IS",
@@ -32945,7 +32953,11 @@
     "stop": 2.2507,
     "target": 2.5786,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 2.2507,
+    "exit_date": "2026-11-16",
+    "result_pct": -4.63,
+    "close_reason": "STOP"
   },
   {
     "symbol": "KUYAS.IS",
@@ -32957,7 +32969,11 @@
     "stop": 10.6771,
     "target": 11.8857,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 10.6771,
+    "exit_date": "2026-11-16",
+    "result_pct": -3.64,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TKFEN.IS",
@@ -32969,7 +32985,11 @@
     "stop": 196.6143,
     "target": 212.1714,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 196.6143,
+    "exit_date": "2026-11-16",
+    "result_pct": -2.57,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TURSG.IS",
@@ -32981,6 +33001,46 @@
     "stop": 3.2536,
     "target": 3.4529,
     "setup_type": "WEAK",
+    "status": "closed",
+    "exit": 3.2536,
+    "exit_date": "2026-11-16",
+    "result_pct": -2.0,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "GESAN.IS",
+    "date": "2026-11-16",
+    "entry": 35.52,
+    "score": 88,
+    "rsi": 79.17,
+    "vol_ratio": 1.28,
+    "stop": 34.545,
+    "target": 37.47,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "MAVI.IS",
+    "date": "2026-11-16",
+    "entry": 36.16,
+    "score": 100,
+    "rsi": 66.67,
+    "vol_ratio": 1.03,
+    "stop": 35.7036,
+    "target": 37.0729,
+    "setup_type": "BREAKOUT",
+    "status": "open"
+  },
+  {
+    "symbol": "PASEU.IS",
+    "date": "2026-11-16",
+    "entry": 39.86,
+    "score": 135,
+    "rsi": 74.79,
+    "vol_ratio": 3.04,
+    "stop": 38.2614,
+    "target": 43.0571,
+    "setup_type": "BREAKOUT",
     "status": "open"
   }
 ]
