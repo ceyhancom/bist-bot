@@ -33017,7 +33017,11 @@
     "stop": 34.545,
     "target": 37.47,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 34.545,
+    "exit_date": "2026-11-17",
+    "result_pct": -2.74,
+    "close_reason": "STOP"
   },
   {
     "symbol": "MAVI.IS",
@@ -33029,7 +33033,11 @@
     "stop": 35.7036,
     "target": 37.0729,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 35.7036,
+    "exit_date": "2026-11-17",
+    "result_pct": -1.26,
+    "close_reason": "STOP"
   },
   {
     "symbol": "PASEU.IS",
@@ -33041,6 +33049,10 @@
     "stop": 38.2614,
     "target": 43.0571,
     "setup_type": "BREAKOUT",
-    "status": "open"
+    "status": "closed",
+    "exit": 38.2614,
+    "exit_date": "2026-11-17",
+    "result_pct": -4.01,
+    "close_reason": "STOP"
   }
 ]
