@@ -33342,8 +33342,8 @@
     "exit_date": "2026-08-26",
     "result_pct": -1.08,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-26T14:03:32.787709+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "TOASO.IS",
@@ -33360,8 +33360,8 @@
     "exit_date": "2026-08-26",
     "result_pct": -1.1,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-26T14:03:33.054695+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "TSKB.IS",
@@ -36222,8 +36222,8 @@
     "exit_date": "2026-10-21",
     "result_pct": -1.72,
     "close_reason": "STOP",
-    "cooldown_until": "2026-10-21T13:54:48.929901+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "VESTL.IS",
@@ -36510,8 +36510,8 @@
     "exit_date": "2026-11-05",
     "result_pct": -1.67,
     "close_reason": "STOP",
-    "cooldown_until": "2026-11-05T15:17:14.836939+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "CLEBI.IS",
@@ -36708,8 +36708,8 @@
     "exit_date": "2026-11-13",
     "result_pct": -1.27,
     "close_reason": "STOP",
-    "cooldown_until": "2026-11-13T14:26:45.344459+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "DSTKF.IS",
@@ -36996,8 +36996,8 @@
     "exit_date": "2026-11-13",
     "result_pct": -2.84,
     "close_reason": "STOP",
-    "cooldown_until": "2026-11-13T14:26:48.288895+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "VAKBN.IS",
@@ -37014,8 +37014,8 @@
     "exit_date": "2026-11-13",
     "result_pct": -3.4,
     "close_reason": "STOP",
-    "cooldown_until": "2026-11-13T14:26:48.449146+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "EREGL.IS",
@@ -37086,8 +37086,8 @@
     "exit_date": "2026-11-16",
     "result_pct": -3.64,
     "close_reason": "STOP",
-    "cooldown_until": "2026-11-16T10:50:42.168892+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "TKFEN.IS",
@@ -37158,8 +37158,8 @@
     "exit_date": "2026-11-17",
     "result_pct": -1.26,
     "close_reason": "STOP",
-    "cooldown_until": "2026-11-17T12:37:55.032211+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "PASEU.IS",
@@ -37178,5 +37178,113 @@
     "close_reason": "STOP",
     "cooldown_until": "2026-11-17T12:37:55.161580+03:00",
     "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "BRSAN.IS",
+    "date": "2026-11-18",
+    "entry": 658.0,
+    "highest_price": 658.0,
+    "stop": 649.3,
+    "target": 675.4,
+    "trailing_stop": null,
+    "score": 90,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "CCOLA.IS",
+    "date": "2026-11-18",
+    "entry": 80.3,
+    "highest_price": 80.3,
+    "stop": 78.2291,
+    "target": 84.4418,
+    "trailing_stop": null,
+    "score": 115,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "KUYAS.IS",
+    "date": "2026-11-18",
+    "entry": 12.73,
+    "highest_price": 12.73,
+    "stop": 11.6565,
+    "target": 14.877,
+    "trailing_stop": null,
+    "score": 100,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "MAVI.IS",
+    "date": "2026-11-18",
+    "entry": 36.0,
+    "highest_price": 36.0,
+    "stop": 35.64,
+    "target": 36.72,
+    "trailing_stop": null,
+    "score": 105,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "SMRTG.IS",
+    "date": "2026-11-18",
+    "entry": 4.48,
+    "highest_price": 4.48,
+    "stop": 4.3394,
+    "target": 4.7611,
+    "trailing_stop": null,
+    "score": 105,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "TCELL.IS",
+    "date": "2026-11-18",
+    "entry": 97.95,
+    "highest_price": 97.95,
+    "stop": 96.75,
+    "target": 100.35,
+    "trailing_stop": null,
+    "score": 110,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "THYAO.IS",
+    "date": "2026-11-18",
+    "entry": 326.75,
+    "highest_price": 326.75,
+    "stop": 318.408,
+    "target": 343.4341,
+    "trailing_stop": null,
+    "score": 115,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "TOASO.IS",
+    "date": "2026-11-18",
+    "entry": 246.2,
+    "highest_price": 246.2,
+    "stop": 241.7929,
+    "target": 255.0141,
+    "trailing_stop": null,
+    "score": 98,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "VAKBN.IS",
+    "date": "2026-11-18",
+    "entry": 33.4,
+    "highest_price": 33.4,
+    "stop": 33.0417,
+    "target": 34.1166,
+    "trailing_stop": null,
+    "score": 115,
+    "setup_type": "PULLBACK",
+    "status": "open"
   }
 ]
