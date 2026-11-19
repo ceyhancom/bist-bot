@@ -33065,7 +33065,11 @@
     "stop": 649.3,
     "target": 675.4,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 649.3,
+    "exit_date": "2026-11-19",
+    "result_pct": -1.32,
+    "close_reason": "STOP"
   },
   {
     "symbol": "CCOLA.IS",
@@ -33077,7 +33081,11 @@
     "stop": 78.2291,
     "target": 84.4418,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 78.2291,
+    "exit_date": "2026-11-19",
+    "result_pct": -2.58,
+    "close_reason": "STOP"
   },
   {
     "symbol": "KUYAS.IS",
@@ -33089,7 +33097,11 @@
     "stop": 11.6565,
     "target": 14.877,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 11.6565,
+    "exit_date": "2026-11-19",
+    "result_pct": -8.43,
+    "close_reason": "STOP"
   },
   {
     "symbol": "MAVI.IS",
@@ -33101,7 +33113,11 @@
     "stop": 35.64,
     "target": 36.72,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 35.64,
+    "exit_date": "2026-11-19",
+    "result_pct": -1.0,
+    "close_reason": "STOP"
   },
   {
     "symbol": "SMRTG.IS",
@@ -33113,7 +33129,11 @@
     "stop": 4.3394,
     "target": 4.7611,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 4.3394,
+    "exit_date": "2026-11-19",
+    "result_pct": -3.14,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TCELL.IS",
@@ -33125,7 +33145,11 @@
     "stop": 96.75,
     "target": 100.35,
     "setup_type": "TREND",
-    "status": "open"
+    "status": "closed",
+    "exit": 96.75,
+    "exit_date": "2026-11-19",
+    "result_pct": -1.23,
+    "close_reason": "STOP"
   },
   {
     "symbol": "THYAO.IS",
@@ -33137,7 +33161,11 @@
     "stop": 318.408,
     "target": 343.4341,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 318.408,
+    "exit_date": "2026-11-19",
+    "result_pct": -2.55,
+    "close_reason": "STOP"
   },
   {
     "symbol": "TOASO.IS",
@@ -33149,7 +33177,11 @@
     "stop": 241.7929,
     "target": 255.0141,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 241.7929,
+    "exit_date": "2026-11-19",
+    "result_pct": -1.79,
+    "close_reason": "STOP"
   },
   {
     "symbol": "VAKBN.IS",
@@ -33161,6 +33193,10 @@
     "stop": 33.0417,
     "target": 34.1166,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 33.0417,
+    "exit_date": "2026-11-19",
+    "result_pct": -1.07,
+    "close_reason": "STOP"
   }
 ]
