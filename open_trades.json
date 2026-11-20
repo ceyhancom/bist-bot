@@ -31308,8 +31308,8 @@
     "exit_date": "2026-08-24",
     "result_pct": -1.0,
     "close_reason": "STOP",
-    "cooldown_until": "2026-08-24T12:12:09.243502+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "SAHOL.IS",
@@ -37340,5 +37340,17 @@
     "close_reason": "STOP",
     "cooldown_until": "2026-11-19T17:40:47.131816+03:00",
     "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "PGSUS.IS",
+    "date": "2026-11-20",
+    "entry": 157.2,
+    "highest_price": 157.2,
+    "stop": 155.0571,
+    "target": 161.4857,
+    "trailing_stop": null,
+    "score": 105,
+    "setup_type": "PULLBACK",
+    "status": "open"
   }
 ]
