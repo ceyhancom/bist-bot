@@ -37345,12 +37345,18 @@
     "symbol": "PGSUS.IS",
     "date": "2026-11-20",
     "entry": 157.2,
-    "highest_price": 157.2,
+    "highest_price": 165.2,
     "stop": 155.0571,
     "target": 161.4857,
     "trailing_stop": null,
     "score": 105,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 155.0571,
+    "exit_date": "2026-11-23",
+    "result_pct": -1.36,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-11-23T15:56:47.125574+03:00",
+    "cooldown_reason": "STOP"
   }
 ]
