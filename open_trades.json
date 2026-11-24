@@ -36618,8 +36618,8 @@
     "exit_date": "2026-11-13",
     "result_pct": -1.17,
     "close_reason": "STOP",
-    "cooldown_until": "2026-11-13T14:26:44.355133+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "ALARK.IS",
@@ -37358,5 +37358,17 @@
     "close_reason": "STOP",
     "cooldown_until": "2026-11-23T15:56:47.125574+03:00",
     "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "AKSA.IS",
+    "date": "2026-11-24",
+    "entry": 10.95,
+    "highest_price": 10.95,
+    "stop": 10.6993,
+    "target": 11.4514,
+    "trailing_stop": null,
+    "score": 115,
+    "setup_type": "PULLBACK",
+    "status": "open"
   }
 ]
