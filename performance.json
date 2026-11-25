@@ -33225,6 +33225,10 @@
     "stop": 10.6993,
     "target": 11.4514,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 10.6993,
+    "exit_date": "2026-11-25",
+    "result_pct": -2.29,
+    "close_reason": "STOP"
   }
 ]

@@ -37363,12 +37363,18 @@
     "symbol": "AKSA.IS",
     "date": "2026-11-24",
     "entry": 10.95,
-    "highest_price": 10.95,
+    "highest_price": 11.4,
     "stop": 10.6993,
     "target": 11.4514,
     "trailing_stop": null,
     "score": 115,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 10.6993,
+    "exit_date": "2026-11-25",
+    "result_pct": -2.29,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-11-25T17:16:33.237869+03:00",
+    "cooldown_reason": "STOP"
   }
 ]
