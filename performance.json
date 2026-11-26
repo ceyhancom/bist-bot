@@ -33230,5 +33230,29 @@
     "exit_date": "2026-11-25",
     "result_pct": -2.29,
     "close_reason": "STOP"
+  },
+  {
+    "symbol": "AKSA.IS",
+    "date": "2026-11-26",
+    "entry": 11.53,
+    "score": 125,
+    "rsi": 64.49,
+    "vol_ratio": 1.97,
+    "stop": 11.0411,
+    "target": 12.5077,
+    "setup_type": "PULLBACK",
+    "status": "open"
+  },
+  {
+    "symbol": "PETKM.IS",
+    "date": "2026-11-26",
+    "entry": 15.39,
+    "score": 70,
+    "rsi": 69.49,
+    "vol_ratio": 6.74,
+    "stop": 15.1264,
+    "target": 15.9171,
+    "setup_type": "WEAK",
+    "status": "open"
   }
 ]
