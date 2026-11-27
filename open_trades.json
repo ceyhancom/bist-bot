@@ -36564,8 +36564,8 @@
     "exit_date": "2026-11-09",
     "result_pct": -5.2,
     "close_reason": "STOP",
-    "cooldown_until": "2026-11-09T13:53:00.044999+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "CANTE.IS",
@@ -37284,8 +37284,8 @@
     "exit_date": "2026-11-19",
     "result_pct": -1.23,
     "close_reason": "STOP",
-    "cooldown_until": "2026-11-19T17:40:46.437998+03:00",
-    "cooldown_reason": "STOP"
+    "cooldown_until": null,
+    "cooldown_reason": null
   },
   {
     "symbol": "THYAO.IS",
@@ -37381,21 +37381,57 @@
     "symbol": "AKSA.IS",
     "date": "2026-11-26",
     "entry": 11.53,
-    "highest_price": 11.53,
+    "highest_price": 11.73,
     "stop": 11.0411,
     "target": 12.5077,
     "trailing_stop": null,
     "score": 125,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 11.0411,
+    "exit_date": "2026-11-27",
+    "result_pct": -4.24,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-11-27T19:00:18.609847+03:00",
+    "cooldown_reason": "STOP"
   },
   {
     "symbol": "PETKM.IS",
     "date": "2026-11-26",
     "entry": 15.39,
-    "highest_price": 15.39,
+    "highest_price": 15.86,
     "stop": 15.1264,
     "target": 15.9171,
+    "trailing_stop": null,
+    "score": 70,
+    "setup_type": "WEAK",
+    "status": "closed",
+    "exit": 15.1264,
+    "exit_date": "2026-11-27",
+    "result_pct": -1.71,
+    "close_reason": "STOP",
+    "cooldown_until": "2026-11-27T19:00:18.749395+03:00",
+    "cooldown_reason": "STOP"
+  },
+  {
+    "symbol": "KTLEV.IS",
+    "date": "2026-11-27",
+    "entry": 8.01,
+    "highest_price": 8.01,
+    "stop": 7.5825,
+    "target": 8.865,
+    "trailing_stop": null,
+    "score": 115,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "TCELL.IS",
+    "date": "2026-11-27",
+    "entry": 89.25,
+    "highest_price": 89.25,
+    "stop": 87.7714,
+    "target": 92.2071,
     "trailing_stop": null,
     "score": 70,
     "setup_type": "WEAK",

@@ -33241,7 +33241,11 @@
     "stop": 11.0411,
     "target": 12.5077,
     "setup_type": "PULLBACK",
-    "status": "open"
+    "status": "closed",
+    "exit": 11.0411,
+    "exit_date": "2026-11-27",
+    "result_pct": -4.24,
+    "close_reason": "STOP"
   },
   {
     "symbol": "PETKM.IS",
@@ -33252,6 +33256,34 @@
     "vol_ratio": 6.74,
     "stop": 15.1264,
     "target": 15.9171,
+    "setup_type": "WEAK",
+    "status": "closed",
+    "exit": 15.1264,
+    "exit_date": "2026-11-27",
+    "result_pct": -1.71,
+    "close_reason": "STOP"
+  },
+  {
+    "symbol": "KTLEV.IS",
+    "date": "2026-11-27",
+    "entry": 8.01,
+    "score": 115,
+    "rsi": 63.74,
+    "vol_ratio": 1.57,
+    "stop": 7.5825,
+    "target": 8.865,
+    "setup_type": "TREND",
+    "status": "open"
+  },
+  {
+    "symbol": "TCELL.IS",
+    "date": "2026-11-27",
+    "entry": 89.25,
+    "score": 70,
+    "rsi": 58.9,
+    "vol_ratio": 1.44,
+    "stop": 87.7714,
+    "target": 92.2071,
     "setup_type": "WEAK",
     "status": "open"
   }
